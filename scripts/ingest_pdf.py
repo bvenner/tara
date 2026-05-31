@@ -46,6 +46,7 @@ from anytype_client import create_object, search_objects, update_object, list_sp
 from pdf_extractor import extract_from_pdf
 from openalex_client import get_work_by_doi, get_work_by_arxiv, search_works, normalize_work
 from arxiv_client import get_work_by_arxiv_id
+from pdf_metadata import write_pdf_metadata
 
 # Configuration
 INCOMING_DIR = Path("~/Documents/Research/papers/incoming").expanduser()
@@ -258,6 +259,13 @@ def ingest_pdf(pdf_path: str, override_title: Optional[str] = None) -> None:
     dest = PROCESSED_DIR / pdf.name
     shutil.move(str(pdf), str(dest))
     print(f"  6. Moved PDF to: {dest}")
+
+    # 7. Write metadata into the PDF itself for portability
+    print("  7. Embedding metadata into PDF...")
+    try:
+        write_pdf_metadata(str(dest), meta)
+    except Exception as e:
+        print(f"    WARNING: Could not write PDF metadata: {e}")
 
     print("\n✅ Ingest complete.")
     print(f"   Paper:  https://anytype.io/{paper_id}")
