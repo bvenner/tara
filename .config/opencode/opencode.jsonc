@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "anytype": {
+      "type": "local",
+      "command": ["/home/brad/Documents/Research/anytype-mcp-wrapper.sh"],
+      "environment": {},
+      "enabled": true
+    }
+  }
+}

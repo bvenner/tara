@@ -1,0 +1,25 @@
+# TARA Python dependencies
+# Install these into the devenv-managed virtual environment.
+
+# --- Core research pipeline ---
+docling>=2.0.0
+marker-pdf>=1.0.0
+openalex-local>=0.1.0
+
+# --- Citation & metadata ---
+requests>=2.31.0
+bibtexparser>=1.4.0
+
+# --- Data processing ---
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Graph & ML (optional, future phases) ---
+networkx>=3.0
+scikit-learn>=1.3.0
+
+# --- Utilities ---
+pyyaml>=6.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+typer>=0.9.0

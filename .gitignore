@@ -1,0 +1,37 @@
+# TARA — Transdisciplinary Action Research Assistant
+# Local environment artifacts (do not commit)
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# devenv
+.devenv/
+.devenv.state/
+
+# AnyType
+anytype-cli-data/
+
+# Secrets & logs
+*.log
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Non-TARA projects in shared Research directory
+AI-research-SKILLs/
+ai-cwb-research-assistant/
+autoresearch-clone/
+institutional_intervention_frameworks_report/
+orchestra-opencode-demo/
+.opencode/
+car-decision.md
+tara.md
