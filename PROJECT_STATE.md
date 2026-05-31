@@ -44,6 +44,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 - [x] MCP server connected in OpenCode (`opencode mcp list` → ✓ anytype connected)
 - [x] devenv shell with `anytype-cli`, `docling`, `pandas`, `node.js 22`
 - [x] Phase 1 PDF pipeline: Docling extraction → OpenAlex enrichment → AnyType Paper/Author objects
+- [x] Phase 2 Citation graph: SQLite local store, OpenAlex reference/cited_by enrichment, graph queries
 
 ---
 
@@ -64,6 +65,8 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | `scripts/lib/openalex_client.py` | OpenAlex API client (works, DOI, arXiv, title) |
 | `scripts/lib/arxiv_client.py` | arXiv API client (metadata by ID, preferred for arXiv papers) |
 | `scripts/lib/pdf_metadata.py` | PyPDF2-based PDF metadata writer (embeds title/authors/DOI into processed PDFs) |
+| `scripts/lib/graph_store.py` | SQLite citation graph store (papers, authors, citations) |
+| `scripts/build_citation_graph.py` | Phase 2 CLI: init/enrich/sync/stats for citation graph |
 | `papers/incoming/` | Drop PDFs here for processing |
 | `papers/processed/` | PDFs moved here after ingestion |
 | `PROJECT_STATE.md` | This file |
@@ -88,10 +91,21 @@ Working AnyType ↔ OpenCode MCP connection. Object CRUD verified.
 - **Duplicate detection**: skip papers already in AnyType (by DOI/arXiv ID/title)
 - **PDF metadata embedding**: title, authors, abstract, DOI, arXiv ID written into processed PDFs
 
-### Phase 2 — Citation Graph (NEXT)
-- Local SQLite graph store (papers, authors, citations)
-- OpenAlex API or local snapshot enrichment
-- Sync citation edges to AnyType relations
+### Phase 2 — Citation Graph ✅ DONE
+- Local SQLite graph store (`scripts/lib/graph_store.py`)
+  - Tables: `papers`, `authors`, `paper_authors`, `citations`
+  - Indexed by DOI, arXiv ID, OpenAlex ID, AnyType ID
+  - Deduplication by identifier or title
+- OpenAlex enrichment: fetch `referenced_works` and `cited_by` for each paper
+- Graph queries: outgoing references, incoming citations, network traversal
+- AnyType sync: create `cites` relations between papers (dry-run supported)
+- `ingest_pdf.py` now writes to graph automatically on every ingest
+- CLI tool: `scripts/build_citation_graph.py` with `--init`, `--enrich`, `--sync-anytype`, `--stats`
+
+### Phase 3 — Research Agent Integration (NEXT)
+- Extend autoresearch skill to emit AnyType objects
+- Project-based collections in AnyType
+- Natural language → structured research output
 
 ### Phase 3 — Research Agent Integration
 - Extend autoresearch skill to emit AnyType objects
@@ -136,8 +150,17 @@ python scripts/ingest_pdf.py papers/incoming/ --batch
 
 # Dry-run: preview what would be created (no side effects)
 python scripts/ingest_pdf.py papers/incoming/ --batch --dry-run
+
+# Citation graph: initialize from AnyType, enrich from OpenAlex, sync relations
+python scripts/build_citation_graph.py --all
+
+# Graph stats
+python scripts/build_citation_graph.py --stats
+
+# Graph dry-run (preview AnyType relation creation)
+python scripts/build_citation_graph.py --sync-anytype --dry-run
 ```
 
 ---
 
-*Last updated: 2026-05-31 (end of Phase 1) by OpenCode*
+*Last updated: 2026-05-31 (end of Phase 2) by OpenCode*

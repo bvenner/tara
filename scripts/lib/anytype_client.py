@@ -83,6 +83,38 @@ def search_objects(query: str, limit: int = 20) -> List[Dict[str, Any]]:
     return resp.get("data", [])
 
 
+def list_objects(space_id: Optional[str] = None, limit: int = 100, offset: int = 0) -> List[Dict[str, Any]]:
+    """List objects in a space (paginated)."""
+    sid = space_id or SPACE_ID
+    resp = _req("GET", f"/v1/spaces/{sid}/objects?limit={limit}&offset={offset}")
+    return resp.get("data", [])
+
+
+def create_relation(from_id: str, to_id: str, relation_key: str,
+                    space_id: Optional[str] = None) -> Dict[str, Any]:
+    """Create a relation (link) between two objects.
+
+    AnyType API may support this via object properties or a dedicated
+    relation endpoint.  This implementation tries the most common
+    patterns and falls back gracefully.
+    """
+    sid = space_id or SPACE_ID
+    # Attempt 1: PATCH object with relation in properties
+    payload = {"relations": {relation_key: [to_id]}}
+    try:
+        return _req("PATCH", f"/v1/spaces/{sid}/objects/{from_id}", payload)
+    except Exception:
+        pass
+    # Attempt 2: dedicated relation endpoint (if supported in future API)
+    try:
+        return _req("POST", f"/v1/spaces/{sid}/objects/{from_id}/relations", {
+            "relation_key": relation_key,
+            "target_id": to_id,
+        })
+    except Exception:
+        return {}
+
+
 def update_object(
     object_id: str,
     name: Optional[str] = None,

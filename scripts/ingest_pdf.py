@@ -48,6 +48,7 @@ from pdf_extractor import extract_from_pdf
 from openalex_client import get_work_by_doi, get_work_by_arxiv, search_works, normalize_work
 from arxiv_client import get_work_by_arxiv_id
 from pdf_metadata import write_pdf_metadata
+from graph_store import GraphStore
 
 # Configuration
 INCOMING_DIR = Path("~/Documents/Research/papers/incoming").expanduser()
@@ -300,11 +301,30 @@ def ingest_pdf(
             return False, "create_failed"
         print(f"     Paper ID: {paper_id}")
 
+    # 4b. Add to local graph store
+    graph = GraphStore()
+    pid = graph.add_paper({
+        "title": meta["title"],
+        "doi": meta.get("doi", ""),
+        "arxiv_id": meta.get("arxiv_id", ""),
+        "year": int(meta["year"]) if meta.get("year") and str(meta["year"]).isdigit() else None,
+        "venue": meta.get("venue", ""),
+        "abstract": meta.get("abstract", ""),
+        "citation_count": meta.get("citation_count", 0),
+        "local_pdf_path": str(dest),
+        "anytype_id": paper_id,
+    })
+    print(f"     Graph ID: {pid}")
+
     # 5. Create Author objects
     if meta.get("authors"):
         print("  5. Creating Author objects...")
         author_ids = create_author_objects(meta["authors"], space_id, dry_run=dry_run)
         print(f"     Created/linked {len(author_ids)} author(s)")
+        # Add authors to graph
+        for i, name in enumerate(meta["authors"]):
+            aid = graph.add_author(name)
+            graph.link_paper_author(pid, aid, position=i)
     else:
         print("  5. No authors to create.")
 

@@ -26,6 +26,9 @@ anytype-cli-data/
 papers/processed/
 papers/incoming/*.pdf
 
+# Local graph database
+data/
+
 # OS
 .DS_Store
 Thumbs.db

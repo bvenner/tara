@@ -54,6 +54,37 @@ def search_works(query: str, per_page: int = 5) -> List[Dict[str, Any]]:
     return data.get("results", [])
 
 
+def get_work_references(openalex_id: str, max_refs: int = 25) -> List[Dict[str, Any]]:
+    """Fetch referenced works for a given OpenAlex work ID.
+
+    OpenAlex stores references as a list of work IDs inside the work object.
+    We fetch the work, then resolve each referenced work individually.
+    """
+    if not openalex_id.startswith("https://openalex.org/"):
+        openalex_id = f"https://openalex.org/{openalex_id}"
+    wid = openalex_id.split("/")[-1]
+    data = _req(f"/works/{wid}")
+    refs = data.get("referenced_works", [])[:max_refs]
+    if not refs:
+        return []
+    results = []
+    for ref_url in refs:
+        ref_id = ref_url.split("/")[-1] if "/" in ref_url else ref_url
+        ref_data = _req(f"/works/{ref_id}")
+        if ref_data:
+            results.append(normalize_work(ref_data))
+    return results
+
+
+def get_work_cited_by(openalex_id: str, per_page: int = 25) -> List[Dict[str, Any]]:
+    """Fetch works that cite a given OpenAlex work ID."""
+    if not openalex_id.startswith("https://openalex.org/"):
+        openalex_id = f"https://openalex.org/{openalex_id}"
+    wid = openalex_id.split("/")[-1]
+    data = _req("/works", {"filter": f"cites:{wid}", "per-page": per_page})
+    return [normalize_work(r) for r in data.get("results", [])]
+
+
 def normalize_work(raw: Dict[str, Any]) -> Dict[str, Any]:
     """Flatten OpenAlex work into a simple dict."""
     if not raw:
