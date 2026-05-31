@@ -45,6 +45,7 @@ sys.path.insert(0, str(Path(__file__).parent / "lib"))
 from anytype_client import create_object, search_objects, update_object, list_spaces, SPACE_ID
 from pdf_extractor import extract_from_pdf
 from openalex_client import get_work_by_doi, get_work_by_arxiv, search_works, normalize_work
+from arxiv_client import get_work_by_arxiv_id
 
 # Configuration
 INCOMING_DIR = Path("~/Documents/Research/papers/incoming").expanduser()
@@ -63,18 +64,34 @@ def _resolve_space_id() -> str:
     return sid
 
 
-def merge_metadata(extracted: Dict[str, Any], oa: Optional[Dict[str, Any]]) -> Dict[str, Any]:
-    """Prefer OpenAlex data, fall back to extracted."""
-    oa = oa or {}
-    title = oa.get("title") or extracted.get("title") or "Untitled Paper"
-    abstract = oa.get("abstract") or extracted.get("abstract") or ""
-    doi = oa.get("doi") or extracted.get("doi") or ""
-    arxiv_id = extracted.get("arxiv_id", "")
-    year = oa.get("publication_year") or ""
-    authors = oa.get("authors") or extracted.get("authors") or []
+def merge_metadata(
+    extracted: Dict[str, Any],
+    arxiv_data: Optional[Dict[str, Any]] = None,
+    oa_data: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """Merge metadata sources: arXiv > OpenAlex > extracted."""
+    arxiv = arxiv_data or {}
+    oa = oa_data or {}
+
+    # Prefer arXiv, then OpenAlex, then extracted
+    title = arxiv.get("title") or oa.get("title") or extracted.get("title") or "Untitled Paper"
+    abstract = arxiv.get("abstract") or oa.get("abstract") or extracted.get("abstract") or ""
+    doi = arxiv.get("doi") or oa.get("doi") or extracted.get("doi") or ""
+    arxiv_id = arxiv.get("arxiv_id") or extracted.get("arxiv_id", "")
+
+    # Year: arXiv has 'published', OpenAlex has 'publication_year'
+    year = ""
+    if arxiv.get("published"):
+        year = arxiv["published"][:4]
+    elif oa.get("publication_year"):
+        year = str(oa["publication_year"])
+
+    authors = arxiv.get("authors") or oa.get("authors") or extracted.get("authors") or []
     citation_count = oa.get("citation_count", 0)
-    oa_url = oa.get("open_access_url", "")
-    venue = oa.get("venue", "")
+    oa_url = arxiv.get("pdf_url") or oa.get("open_access_url", "")
+    venue = arxiv.get("journal_ref") or oa.get("venue", "")
+    categories = arxiv.get("categories", [])
+
     return {
         "title": title,
         "abstract": abstract,
@@ -85,7 +102,8 @@ def merge_metadata(extracted: Dict[str, Any], oa: Optional[Dict[str, Any]]) -> D
         "citation_count": citation_count,
         "open_access_url": oa_url,
         "venue": venue,
-        "full_text": extracted.get("full_text", "")[:5000],  # truncated for body
+        "categories": categories,
+        "full_text": extracted.get("full_text", "")[:5000],
         "source_path": extracted.get("source_path", ""),
     }
 
@@ -110,6 +128,8 @@ def build_paper_body(meta: Dict[str, Any]) -> str:
         lines.append(f"**Open Access URL:** {meta['open_access_url']}")
     if meta.get("authors"):
         lines.append(f"**Authors:** {', '.join(meta['authors'])}")
+    if meta.get("categories"):
+        lines.append(f"**Categories:** {', '.join(meta['categories'])}")
     lines.append("")
     if meta.get("abstract"):
         lines.append("## Abstract")
@@ -168,44 +188,45 @@ def ingest_pdf(pdf_path: str, override_title: Optional[str] = None) -> None:
     print(f"     DOI (extracted):   {extracted.get('doi') or 'N/A'}")
     print(f"     arXiv (extracted): {extracted.get('arxiv_id') or 'N/A'}")
 
-    # 2. OpenAlex enrichment (try arXiv → DOI → title)
+    # 2. Enrichment: arXiv API (best for arXiv papers) → OpenAlex → title search
+    arxiv_data = None
     oa_data = None
     arxiv_id = extracted.get("arxiv_id")
     doi = extracted.get("doi")
     title = override_title or extracted.get("title")
 
     if arxiv_id:
-        print(f"  2. Querying OpenAlex by arXiv ID: {arxiv_id}")
-        raw = get_work_by_arxiv(arxiv_id)
-        if raw:
-            oa_data = normalize_work(raw)
-            print(f"     Found: {oa_data.get('title')}")
+        print(f"  2. Querying arXiv API: {arxiv_id}")
+        arxiv_data = get_work_by_arxiv_id(arxiv_id)
+        if arxiv_data:
+            print(f"     Found: {arxiv_data.get('title')}")
         else:
             print("     Not found by arXiv ID.")
 
-    if not oa_data and doi:
-        print(f"  2. Querying OpenAlex by DOI: {doi}")
-        raw = get_work_by_doi(doi)
-        if raw:
-            oa_data = normalize_work(raw)
-            print(f"     Found: {oa_data.get('title')}")
-        else:
-            print("     Not found by DOI.")
+    if not arxiv_id and not arxiv_data:
+        if doi:
+            print(f"  2. Querying OpenAlex by DOI: {doi}")
+            raw = get_work_by_doi(doi)
+            if raw:
+                oa_data = normalize_work(raw)
+                print(f"     Found: {oa_data.get('title')}")
+            else:
+                print("     Not found by DOI.")
 
-    if not oa_data and title:
-        print(f"  2. Querying OpenAlex by title: {title}")
-        results = search_works(title, per_page=3)
-        if results:
-            oa_data = normalize_work(results[0])
-            print(f"     Found: {oa_data.get('title')}")
-        else:
-            print("     Not found by title.")
+        if not oa_data and title:
+            print(f"  2. Querying OpenAlex by title: {title}")
+            results = search_works(title, per_page=3)
+            if results:
+                oa_data = normalize_work(results[0])
+                print(f"     Found: {oa_data.get('title')}")
+            else:
+                print("     Not found by title.")
 
-    if not oa_data:
-        print("  2. Skipping OpenAlex (no identifiers found)")
+        if not oa_data:
+            print("  2. Skipping enrichment (no identifiers found)")
 
-    # 3. Merge
-    meta = merge_metadata(extracted, oa_data)
+    # 3. Merge metadata (prefer arXiv > OpenAlex > extracted)
+    meta = merge_metadata(extracted, arxiv_data=arxiv_data, oa_data=oa_data)
     print(f"  3. Merged metadata → Title: {meta['title']}")
 
     # 4. Create Paper object

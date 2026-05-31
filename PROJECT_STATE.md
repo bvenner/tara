@@ -62,6 +62,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | `scripts/lib/anytype_client.py` | AnyType REST API wrapper (rate-limited) |
 | `scripts/lib/pdf_extractor.py` | Docling-based PDF text/metadata extraction |
 | `scripts/lib/openalex_client.py` | OpenAlex API client (works, DOI, arXiv, title) |
+| `scripts/lib/arxiv_client.py` | arXiv API client (metadata by ID, preferred for arXiv papers) |
 | `papers/incoming/` | Drop PDFs here for processing |
 | `papers/processed/` | PDFs moved here after ingestion |
 | `PROJECT_STATE.md` | This file |
@@ -75,11 +76,12 @@ Working AnyType ↔ OpenCode MCP connection. Object CRUD verified.
 
 ### Phase 1 — PDF Pipeline ✅ DONE
 - Ingest PDF → Docling extraction
-- Query OpenAlex by DOI / arXiv ID / title
+- Query **arXiv API** by arXiv ID (best source for arXiv papers)
+- Query OpenAlex by DOI / arXiv ID / title (fallback for non-arXiv papers)
 - Create AnyType `Paper` and `Author` objects
 - Store PDF locally, link path in object
 - Supports `--title` override for bad extractions
-- Known issues: title/arXiv extraction from arXiv PDFs is fragile; use `--title` when needed
+- arXiv ID detected from filename or PDF text
 
 ### Phase 2 — Citation Graph (NEXT)
 - Local SQLite graph store (papers, authors, citations)

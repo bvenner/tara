@@ -39,6 +39,14 @@ def extract_arxiv_id(text: str) -> Optional[str]:
     return None
 
 
+def extract_arxiv_id_from_filename(filename: str) -> Optional[str]:
+    """Find an arXiv ID in a filename (e.g. 1706.03762.pdf)."""
+    m = re.search(r"(\d{4,5}\.\d{4,5})(?:v\d+)?", filename)
+    if m:
+        return m.group(1)
+    return None
+
+
 def extract_from_pdf(pdf_path: str) -> Dict[str, Optional[str]]:
     """Extract metadata and text from a PDF using Docling."""
     if not HAS_DOCLING:
@@ -85,9 +93,9 @@ def extract_from_pdf(pdf_path: str) -> Dict[str, Optional[str]]:
                 break
         abstract = snippet.strip()
 
-    # DOI and arXiv
+    # DOI and arXiv (try filename first, then PDF text)
     doi = extract_doi(full_text)
-    arxiv_id = extract_arxiv_id(full_text)
+    arxiv_id = extract_arxiv_id_from_filename(path.name) or extract_arxiv_id(full_text)
 
     # Authors heuristic: look for patterns near the top of the document
     authors: List[str] = []

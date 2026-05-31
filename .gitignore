@@ -22,6 +22,10 @@ anytype-cli-data/
 *.log
 .env
 
+# Papers (working directories, not code)
+papers/processed/
+papers/incoming/*.pdf
+
 # OS
 .DS_Store
 Thumbs.db
