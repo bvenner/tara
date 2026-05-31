@@ -50,6 +50,16 @@ in
     pkgs.gh
     pkgs.zlib
     pkgs.stdenv.cc.cc.lib
+    pkgs.xorg.libxcb
+    pkgs.xorg.libX11
+    pkgs.xorg.libXext
+    pkgs.xorg.libXrender
+    pkgs.xorg.libXtst
+    pkgs.xorg.libXi
+    pkgs.glib
+    pkgs.libGL
+    pkgs.libglvnd
+    pkgs.mesa
   ];
 
   # Python virtual environment (venv) for PyPI packages not in nixpkgs

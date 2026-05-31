@@ -43,6 +43,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 - [x] Object CRUD via API (create, read, update, search, list, delete)
 - [x] MCP server connected in OpenCode (`opencode mcp list` → ✓ anytype connected)
 - [x] devenv shell with `anytype-cli`, `docling`, `pandas`, `node.js 22`
+- [x] Phase 1 PDF pipeline: Docling extraction → OpenAlex enrichment → AnyType Paper/Author objects
 
 ---
 
@@ -57,6 +58,12 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | `opencode.jsonc` | OpenCode project config (MCP server) |
 | `anytype-mcp-wrapper.sh` | MCP server wrapper (PATH + env vars) |
 | `scripts/anytype-api-test.sh` | API CRUD smoke test script |
+| `scripts/ingest_pdf.py` | Phase 1 PDF→AnyType ingestion pipeline |
+| `scripts/lib/anytype_client.py` | AnyType REST API wrapper (rate-limited) |
+| `scripts/lib/pdf_extractor.py` | Docling-based PDF text/metadata extraction |
+| `scripts/lib/openalex_client.py` | OpenAlex API client (works, DOI, arXiv, title) |
+| `papers/incoming/` | Drop PDFs here for processing |
+| `papers/processed/` | PDFs moved here after ingestion |
 | `PROJECT_STATE.md` | This file |
 
 ---
@@ -66,13 +73,15 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 ### Phase 0 — Foundation ✅ DONE
 Working AnyType ↔ OpenCode MCP connection. Object CRUD verified.
 
-### Phase 1 — PDF Pipeline (NEXT)
+### Phase 1 — PDF Pipeline ✅ DONE
 - Ingest PDF → Docling extraction
-- Query OpenAlex by DOI
+- Query OpenAlex by DOI / arXiv ID / title
 - Create AnyType `Paper` and `Author` objects
 - Store PDF locally, link path in object
+- Supports `--title` override for bad extractions
+- Known issues: title/arXiv extraction from arXiv PDFs is fragile; use `--title` when needed
 
-### Phase 2 — Citation Graph
+### Phase 2 — Citation Graph (NEXT)
 - Local SQLite graph store (papers, authors, citations)
 - OpenAlex API or local snapshot enrichment
 - Sync citation edges to AnyType relations
@@ -108,6 +117,12 @@ opencode mcp list
 curl -s http://127.0.0.1:31012/v1/spaces \
   -H "Authorization: Bearer <API_KEY>" \
   -H "Anytype-Version: 2025-11-08"
+
+# Ingest a PDF (auto extract + OpenAlex lookup)
+python scripts/ingest_pdf.py papers/incoming/some-paper.pdf
+
+# Ingest with title override (when extraction fails)
+python scripts/ingest_pdf.py papers/incoming/some-paper.pdf --title "Correct Paper Title"
 ```
 
 ---
