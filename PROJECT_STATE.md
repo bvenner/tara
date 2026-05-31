@@ -30,7 +30,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | API key | `WGA/MQD1...` | `opencode.jsonc` (DO NOT COMMIT) |
 | Space ID | `bafyreidkdyo37nichr3kpkjgm4dmy2c4jvh5g67ubbpk4npt7uxf5i5cvy.2gx7csytgvlvd` | — |
 
-**Security note:** The API key is embedded in `anytype-mcp-wrapper.sh` and `opencode.jsonc`. Do not commit these to a public repo.
+**Security note:** The API key lives in `.env` (gitignored). `anytype-mcp-wrapper.sh` sources `.env` at runtime. `opencode.jsonc` contains no secrets. Do not commit `.env` to a public repo.
 
 ---
 
@@ -56,13 +56,14 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | `devenv.yaml` / `.envrc` | devenv configuration |
 | `requirements.txt` | PyPI packages for venv |
 | `opencode.jsonc` | OpenCode project config (MCP server) |
-| `anytype-mcp-wrapper.sh` | MCP server wrapper (PATH + env vars) |
+| `anytype-mcp-wrapper.sh` | MCP server wrapper (sources `.env` for API key) |
 | `scripts/anytype-api-test.sh` | API CRUD smoke test script |
 | `scripts/ingest_pdf.py` | Phase 1 PDF→AnyType ingestion pipeline |
 | `scripts/lib/anytype_client.py` | AnyType REST API wrapper (rate-limited) |
 | `scripts/lib/pdf_extractor.py` | Docling-based PDF text/metadata extraction |
 | `scripts/lib/openalex_client.py` | OpenAlex API client (works, DOI, arXiv, title) |
 | `scripts/lib/arxiv_client.py` | arXiv API client (metadata by ID, preferred for arXiv papers) |
+| `scripts/lib/pdf_metadata.py` | PyPDF2-based PDF metadata writer (embeds title/authors/DOI into processed PDFs) |
 | `papers/incoming/` | Drop PDFs here for processing |
 | `papers/processed/` | PDFs moved here after ingestion |
 | `PROJECT_STATE.md` | This file |
@@ -139,4 +140,4 @@ python scripts/ingest_pdf.py papers/incoming/ --batch --dry-run
 
 ---
 
-*Last updated: 2026-05-31 by OpenCode*
+*Last updated: 2026-05-31 (end of Phase 1) by OpenCode*
