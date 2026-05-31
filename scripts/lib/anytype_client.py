@@ -126,7 +126,8 @@ def update_object(
     if name is not None:
         payload["name"] = name
     if body is not None:
-        payload["body"] = body
+        # AnyType API uses "markdown" for body updates on PATCH
+        payload["markdown"] = body
     return _req("PATCH", f"/v1/spaces/{sid}/objects/{object_id}", payload)
 
 

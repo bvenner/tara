@@ -45,6 +45,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 - [x] devenv shell with `anytype-cli`, `docling`, `pandas`, `node.js 22`
 - [x] Phase 1 PDF pipeline: Docling extraction → OpenAlex enrichment → AnyType Paper/Author objects
 - [x] Phase 2 Citation graph: SQLite local store, OpenAlex reference/cited_by enrichment, graph queries
+- [x] Phase 3 Research agent integration: autoresearch workspace → AnyType Project/Paper/Experiment objects
 
 ---
 
@@ -67,6 +68,8 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | `scripts/lib/pdf_metadata.py` | PyPDF2-based PDF metadata writer (embeds title/authors/DOI into processed PDFs) |
 | `scripts/lib/graph_store.py` | SQLite citation graph store (papers, authors, citations) |
 | `scripts/build_citation_graph.py` | Phase 2 CLI: init/enrich/sync/stats for citation graph |
+| `scripts/research_project.py` | Phase 3 CLI: create/sync/status/list research projects |
+| `scripts/sync_research_to_anytype.py` | Phase 3 bridge: autoresearch workspace → AnyType objects |
 | `papers/incoming/` | Drop PDFs here for processing |
 | `papers/processed/` | PDFs moved here after ingestion |
 | `PROJECT_STATE.md` | This file |
@@ -102,15 +105,23 @@ Working AnyType ↔ OpenCode MCP connection. Object CRUD verified.
 - `ingest_pdf.py` now writes to graph automatically on every ingest
 - CLI tool: `scripts/build_citation_graph.py` with `--init`, `--enrich`, `--sync-anytype`, `--stats`
 
-### Phase 3 — Research Agent Integration (NEXT)
-- Extend autoresearch skill to emit AnyType objects
-- Project-based collections in AnyType
-- Natural language → structured research output
+### Phase 3 — Research Agent Integration ✅ DONE
+- `scripts/research_project.py`: create / sync / status / list CLI for research projects
+- `scripts/sync_research_to_anytype.py`: bridge autoresearch workspace → AnyType objects
+  - Reads `research-state.yaml`, `findings.md`, `literature/`, `experiments/`
+  - Creates/updates `Project:` page object with structured body
+  - Creates/links `Paper:` objects from literature summaries
+  - Creates `Experiment:` objects from `experiments/{slug}/protocol.md`
+- `anytype_client.py` update: `update_object` uses `markdown` field (AnyType PATCH API)
+- Naming conventions for object types (using `page` type):
+  - `Project: {title}` — research project overview
+  - `Paper: {title}` — academic paper (Phase 1, linked to project)
+  - `Experiment: {title}` — research experiment protocol + analysis
 
-### Phase 3 — Research Agent Integration
-- Extend autoresearch skill to emit AnyType objects
-- Project-based collections in AnyType
-- Natural language → structured research output
+### Phase 4 — Action Research / CSH (NEXT)
+- Custom OpenCode skill for Ulrich's 12 boundary questions
+- AnyType types: `Intervention`, `Stakeholder`, `BoundaryJudgment`, `Observation`
+- Plan-Act-Observe-Reflect cycle tracking
 
 ### Phase 4 — Action Research / CSH
 - Custom OpenCode skill for Ulrich's 12 boundary questions
@@ -159,8 +170,20 @@ python scripts/build_citation_graph.py --stats
 
 # Graph dry-run (preview AnyType relation creation)
 python scripts/build_citation_graph.py --sync-anytype --dry-run
+
+# Research project: create a new project workspace + AnyType object
+python scripts/research_project.py create "Research question" --domain "field"
+
+# Research project: sync workspace to AnyType
+python scripts/research_project.py sync /path/to/project [--dry-run]
+
+# Research project: show status
+python scripts/research_project.py status /path/to/project
+
+# Research project: list all projects in AnyType
+python scripts/research_project.py list
 ```
 
 ---
 
-*Last updated: 2026-05-31 (end of Phase 2) by OpenCode*
+*Last updated: 2026-05-31 (end of Phase 3) by OpenCode*
