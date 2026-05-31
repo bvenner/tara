@@ -82,6 +82,10 @@ Working AnyType ↔ OpenCode MCP connection. Object CRUD verified.
 - Store PDF locally, link path in object
 - Supports `--title` override for bad extractions
 - arXiv ID detected from filename or PDF text
+- **Batch mode**: process all PDFs in a directory
+- **Dry-run mode**: preview without side effects
+- **Duplicate detection**: skip papers already in AnyType (by DOI/arXiv ID/title)
+- **PDF metadata embedding**: title, authors, abstract, DOI, arXiv ID written into processed PDFs
 
 ### Phase 2 — Citation Graph (NEXT)
 - Local SQLite graph store (papers, authors, citations)
@@ -125,6 +129,12 @@ python scripts/ingest_pdf.py papers/incoming/some-paper.pdf
 
 # Ingest with title override (when extraction fails)
 python scripts/ingest_pdf.py papers/incoming/some-paper.pdf --title "Correct Paper Title"
+
+# Batch process all PDFs in incoming/
+python scripts/ingest_pdf.py papers/incoming/ --batch
+
+# Dry-run: preview what would be created (no side effects)
+python scripts/ingest_pdf.py papers/incoming/ --batch --dry-run
 ```
 
 ---
