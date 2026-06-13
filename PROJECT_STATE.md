@@ -27,7 +27,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | Bot name | `tara-bot` | — |
 | Account ID | `AArFZ9fimqpTAJ8s1vEUwfJ2EuRaBFbaxy8vBJ8Bc33VQtVu` | — |
 | API key name | `tara-mcp-integration` | — |
-| API key | `WGA/MQD1...` | `opencode.jsonc` (DO NOT COMMIT) |
+| API key | `[encrypted in .enc.env]` | Loaded by direnv |
 | Space ID | `bafyreidkdyo37nichr3kpkjgm4dmy2c4jvh5g67ubbpk4npt7uxf5i5cvy.2gx7csytgvlvd` | — |
 
 **Security note:** The API key and rclone crypt password are stored in `.enc.env` (SOPS-encrypted with age). `anytype-mcp-wrapper.sh` no longer sources `.env` — all secrets are loaded by direnv from `.enc.env`. `.env` has been deleted and replaced with `.enc.env`. Do not commit `.env` to a public repo.
