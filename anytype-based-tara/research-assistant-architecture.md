@@ -218,9 +218,105 @@ Plan → Act → Observe → Reflect cycles
     │
     ▼
 Each cycle creates: Observation objects
-                     linked to Intervention
-                     with date, data, reflection
+                      linked to Intervention
+                      with date, data, reflection
 ```
+
+---
+
+### 6.3 Vault / Channel Interaction Model (Multi-Device Sync)
+
+**Hierarchy:** Vault → Channel → Object
+
+- **Vault**: An encrypted container on a device. All Channels live inside it. Unlocked with a Key.
+- **Channel**: A graph container inside a Vault. Each Channel has its own sidebar, privacy settings, and access rights.
+- **Object**: A single page/note/file inside a Channel.
+
+**Key insight for TARA:** The bot's Vault and the user's Vault are completely separate. For multi-device sync, research objects must live in the **user's Vault** (because only the user's Vault syncs to their phone, tablet, and other computers via AnyType's native protocol). The bot joins the user's Channels via invite links.
+
+#### Channel-per-Project Decision
+
+**Recommendation:** One shared "TARA" Channel for the user–bot collaboration, with "Project" objects inside it for each research project.
+
+- **Why not one Channel per project?** AnyType does not have sub-channels. Switching between many Channels is cumbersome for the user. A single shared Channel with project-based collections/sets is more ergonomic.
+- **When to create a separate Channel:** Only for projects with different collaborators or privacy requirements.
+
+**Proposed Channel structure:**
+
+```
+Channel: "TARA Research"
+├── Project: "AI Safety in Healthcare"
+│   ├── Paper: "..."
+│   ├── Experiment: "..."
+│   └── Observation: "..."
+├── Project: "CSH in Urban Planning"
+│   ├── Intervention: "..."
+│   └── Stakeholder: "..."
+└── Collection: "All Projects"
+```
+
+#### Notification Model
+
+The bot notifies the user by creating **"Status Update"** objects in the shared Channel:
+
+- The bot creates a "Status Update" object linked to a Project
+- The user sees it in real-time in AnyType Desktop on all devices
+- Status updates contain progress, findings, or requests for human input
+- The user can reply by creating a new object or adding comments
+
+#### Interaction Diagram: Shared Channel Creation
+
+```
+User Vault (Personal)                Bot Vault (tara-bot)
+┌─────────────────────┐              ┌─────────────────────┐
+│                     │              │                     │
+│  [AnyType Desktop]  │              │  [anytype-cli]      │
+│  (Phone, Tablet,    │              │  (headless server)  │
+│   Laptop, etc.)     │              │                     │
+│                     │              │                     │
+└──────────┬──────────┘              └──────────┬──────────┘
+           │                                      │
+           │  1. User creates Channel "TARA"      │
+           │  2. User generates invite link       │
+           │     (Editor rights)                    │
+           │  3. User sends invite link to bot      │
+           │◄───────────────────────────────────────│
+           │                                      │
+           │  4. Bot joins Channel via invite link  │
+           │  5. Bot lists spaces → confirms joined │
+           │────────────────────────────────────────►│
+           │                                      │
+           │  6. Bot creates "Project" object       │
+           │  7. Bot creates "Status Update" object │
+           │◄───────────────────────────────────────│
+           │                                      │
+           │  8. User sees updates in Desktop app   │
+           │  9. AnyType syncs to all devices         │
+           │                                      │
+           │  10. User adds "Intervention" object   │
+           │  11. Bot reads and updates graph       │
+           │────────────────────────────────────────►│
+           │                                      │
+           │  12. Bot creates "Observation" objects │
+           │◄───────────────────────────────────────│
+           │                                      │
+           └──────────────────────────────────────┘
+```
+
+**Key flow:**
+1. **User** creates a Channel in their personal Vault and invites the bot
+2. **Bot** joins the Channel and can create/edit objects
+3. **Bot** creates "Project" and "Status Update" objects as research progresses
+4. **User** sees everything in AnyType Desktop on all devices
+5. **User** can add objects (e.g., "Intervention", "Boundary Judgment") and the bot responds
+
+#### Multi-Device Access
+
+Because the Channel lives in the **user's Vault**, AnyType's native sync ensures:
+- All objects appear on the user's phone, tablet, and other computers
+- The bot does not need to be running on those devices
+- Changes made by the bot on the server sync to the user's devices automatically
+- Changes made by the user on any device sync back to the bot (via the shared Channel)
 
 ---
 
@@ -231,6 +327,7 @@ Each cycle creates: Observation objects
 | AnyType API rate limits (1rps sustained, burst 60) | Bulk imports of large citation graphs are slow | Batch via script with sleeps; use local graph store for analysis, only sync summaries to AnyType |
 | No semantic search in AnyType | Cannot find semantically similar papers inside AnyType | Semantic search lives in OpenAlex-local or custom vector DB; AnyType stores OpenAlex IDs as properties |
 | AnyType requires desktop app or CLI running | Headless automation needs a service | Use `anytype-cli` as systemd service (port 31012); bot accounts are isolated |
+| Bot cannot access user's Vault directly | Bot must be invited to each Channel | Generate invite links from AnyType Desktop; bot joins via `anytype space join` |
 | No block-level API editing | Fine-grained updates to long research notes are clunky | Keep notes as smaller atomic objects; use Markdown body for final reports only |
 | CSH has no software implementation | Boundary critique is manual | Build as OpenCode skill using Ulrich's 12 questions as structured prompt template |
 | Bobrik / AI Ally is alpha-only | Native AnyType agent not ready | Use MCP-based external agents (OpenCode, Claude) via `anytype-cli` API for now |

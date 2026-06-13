@@ -1,0 +1,9 @@
+{
+  // Project-specific Zed settings for /home/brad/Documents/Research
+  // These settings are portable and will apply whenever this project is trusted.
+  //
+  // NOTE: Trust cannot be auto-granted from this file. On each new machine,
+  // open this project in Zed and manually trust it via the UI (click the
+  // "! Restricted Mode" indicator in the title bar, or run
+  // workspace::ToggleWorktreeSecurity from the command palette).
+}

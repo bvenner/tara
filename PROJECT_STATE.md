@@ -30,7 +30,7 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | API key | `WGA/MQD1...` | `opencode.jsonc` (DO NOT COMMIT) |
 | Space ID | `bafyreidkdyo37nichr3kpkjgm4dmy2c4jvh5g67ubbpk4npt7uxf5i5cvy.2gx7csytgvlvd` | — |
 
-**Security note:** The API key lives in `.env` (gitignored). `anytype-mcp-wrapper.sh` sources `.env` at runtime. `opencode.jsonc` contains no secrets. Do not commit `.env` to a public repo.
+**Security note:** The API key and rclone crypt password are stored in `.enc.env` (SOPS-encrypted with age). `anytype-mcp-wrapper.sh` no longer sources `.env` — all secrets are loaded by direnv from `.enc.env`. `.env` has been deleted and replaced with `.enc.env`. Do not commit `.env` to a public repo.
 
 ---
 
@@ -123,10 +123,13 @@ Working AnyType ↔ OpenCode MCP connection. Object CRUD verified.
 - AnyType types: `Intervention`, `Stakeholder`, `BoundaryJudgment`, `Observation`
 - Plan-Act-Observe-Reflect cycle tracking
 
-### Phase 4 — Action Research / CSH
-- Custom OpenCode skill for Ulrich's 12 boundary questions
-- AnyType types: `Intervention`, `Stakeholder`, `BoundaryJudgment`, `Observation`
-- Plan-Act-Observe-Reflect cycle tracking
+### Phase 5 — Multi-Device Sync & Shared Channels (NEW)
+- **Vault/Channel architecture**: Bot joins user's personal Vault via invite links
+- **One shared "TARA" Channel**: Contains all Project objects (not one Channel per project)
+- **Notification model**: Bot creates "Status Update" objects in shared Channel
+- **Multi-device access**: User's personal Vault syncs to all devices natively
+- **Interaction diagram**: See architecture doc section 6.3
+- Next step: Generate invite link from user's personal Vault, have bot join it
 
 ---
 
@@ -182,8 +185,30 @@ python scripts/research_project.py status /path/to/project
 
 # Research project: list all projects in AnyType
 python scripts/research_project.py list
+
+# Channel management (for multi-device sync)
+# 1. In AnyType Desktop, create a Channel and generate invite link
+# 2. Bot joins the Channel:
+anytype space join "<invite-link>"
+
+# 3. Verify bot joined:
+anytype space list
+
+# 4. Update .enc.env with the shared Channel ID:
+# ANYTYPE_SPACE_ID="<shared-channel-id>"
+# sops .enc.env  # edit the encrypted file
+
+# Backup runtime state (requires direnv loaded)
+# Local backup (no S3 configured yet):
+./scripts/backup-to-s3.sh
+
+# Restore from backup:
+./scripts/restore-from-s3.sh
+
+# Edit encrypted secrets:
+sops .enc.env
 ```
 
 ---
 
-*Last updated: 2026-05-31 (end of Phase 3) by OpenCode*
+*Last updated: 2026-06-13 (Phase 5: encrypted secrets + backup system) by OpenCode*

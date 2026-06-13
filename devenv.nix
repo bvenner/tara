@@ -40,9 +40,14 @@ in
   env.ANYTYPE_CLI_VERSION = "0.3.2";
   env.ANYTYPE_API_BASE_URL = "http://127.0.0.1:31012";
 
+  # Enable dotenv integration
+  dotenv.enable = true;
+
   # Packages from nixpkgs (always available in shell)
   packages = [
     anytype-cli
+    pkgs.sops
+    pkgs.age
     pkgs.nodejs_22
     pkgs.jq
     pkgs.curl
