@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 # AnyType API smoke test — verifies the headless server and key CRUD operations.
 # Run from inside the devenv shell.
+# Environment variables (ANYTYPE_API_KEY, etc.) are loaded by direnv from .enc.env
 
 set -euo pipefail
 
-API_BASE="http://127.0.0.1:31012"
-AUTH_HEADER="Authorization: Bearer WGA/MQD1vGFOpg9lFv8qY1wXqLix3lun+A2j2P6roPM="
+API_BASE="${ANYTYPE_API_BASE_URL:-http://127.0.0.1:31012}"
+API_KEY="${ANYTYPE_API_KEY:-}"
+
+if [ -z "$API_KEY" ]; then
+  echo "ERROR: ANYTYPE_API_KEY not set. Ensure direnv has loaded .enc.env"
+  exit 1
+fi
+
+AUTH_HEADER="Authorization: Bearer ${API_KEY}"
 VERSION_HEADER="Anytype-Version: 2025-11-08"
 
 echo "=== AnyType API Smoke Test ==="
