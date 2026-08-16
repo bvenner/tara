@@ -21,7 +21,16 @@ In Marxian value theory, the simultaneous dual-system tradition (Bortkiewicz 190
 - the simultaneist dual-system is recovered as the **τ → 0 singular (relaxation) limit**, which explains both its approximate validity near equilibrium and its pathologies away from it;
 - the **entropy methods** of modern hyperbolic theory supply the missing well-posedness and stability theory — including a unifying criterion (a Shizuta–Kawashima-type coupling condition) for when market prices converge to prices of production, a question on which the classical "gravitation" literature has only case-by-case answers.
 
-The program has three tracks: **A**, applied analysis (build and analyze the hyperbolic value-price system); **B**, foundations (category/type-theoretic axiomatization of extended thermodynamics, extending the analogy to the Truesdellian "rational thermodynamics" tradition); **C**, computational and empirical validation (agent-based simulation and input-output data). Track A Phase 1 doubles as a six-month Master's thesis in applied mathematics.
+The program is, by design, a four-discipline enterprise — **physics**, **mathematics**, **economics**, and **computer science** — and its four tracks are the interdisciplinary pairings through which those disciplines actually meet on this problem:
+
+- **Track A — Physics × Economics.** The applied core: build and analyze the hyperbolic (RET-formalized) value-price system.
+- **Track B — Mathematics × Physics.** Foundations: category/type-theoretic axiomatization of extended thermodynamics, extending the analogy to the Truesdellian "rational thermodynamics" tradition.
+- **Track C — Computer Science × Economics.** Computational and empirical: agent-based simulation, the simulation-to-continuum correspondence, and estimation from input-output data.
+- **Track D — Mathematics × Economics.** The formal core in economics' own language: well-posedness and stability of temporal value dynamics as dynamical systems, and the axiomatic theory of the transformation problem.
+- **Track E — Physics × Computer Science.** Computational thermodynamics: numerical methods for hyperbolic relaxation systems on networks, and data-driven (machine-learned) discovery of the constitutive closure.
+- **Track F — Mathematics × Computer Science.** Certified and executable mathematics: proof-assistant formalization of the program's theorems, and executable categorical models of its compositional structure.
+
+All six pairings of the four disciplines are represented. Each track develops the program's shared object — the correspondence between simultaneous/instantaneous determination and temporal/relaxational determination — in the idiom of its two disciplines, and results cross-import between tracks (most directly between A and D, and across the computational cluster E–F–C). Track A Phase 1 doubles as a six-month Master's thesis in applied mathematics.
 
 ## 2. Background and gap analysis
 
@@ -56,10 +65,12 @@ Farjoun & Machover (1983) rebuilt political economy probabilistically; Cottrell,
 
 | # | Gap | Track that addresses it |
 |---|---|---|
-| G1 | TSSI lacks closure/well-posedness/stability (Veneziani critique) | A |
+| G1 | TSSI lacks closure/well-posedness/stability (Veneziani critique) | A, D |
 | G2 | No non-physical application of RET; no categorical axiomatization of non-equilibrium thermodynamics | A, B |
-| G3 | No unifying criterion for gravitation convergence | A |
+| G3 | No unifying criterion for gravitation convergence | A, D |
 | G4 | No continuum theory in classical econophysics; unexplained profit-rate dispersion | A, C |
+| G5 | No numerical infrastructure for hyperbolic value-price dynamics; closures postulated rather than identified from data | E |
+| G6 | No machine-checked or executable formalization of value-theoretic dynamics or of extended-thermodynamics foundations | F |
 
 ## 3. The core correspondence
 
@@ -81,9 +92,13 @@ Farjoun & Machover (1983) rebuilt political economy probabilistically; Cottrell,
 
 The analogy extends one level deeper on the foundations side: just as value theory has rival "rationalizations" (New Interpretation vs. TSSI), non-equilibrium thermodynamics has rival rational reconstructions — Truesdell–Coleman–Noll rational thermodynamics (memory functionals; Clausius–Duhem as constraint on constitutive relations via arbitrary supplies) versus the Müller–Liu–Ruggeri line (extended state space; entropy principle via Lagrange multipliers). Track B axiomatizes both within one categorical framework.
 
-## 4. Track A — Applied analysis
+This shared object — the correspondence above — is what the six tracks develop in their respective discipline-pairings: physics and economics in Track A, mathematics and physics in Track B, computer science and economics in Track C, mathematics and economics in Track D, physics and computer science in Track E, mathematics and computer science in Track F.
 
-**Goal.** Construct and analyze a hyperbolic balance-law model of temporal value-price dynamics; deliver the well-posedness, stability, and relaxation-limit theory that TSSI lacks.
+## 4. Track A — Physics × Economics: the hyperbolic value-price system
+
+**Disciplines.** Physics (rational extended thermodynamics) applied to economics (Marxian value theory).
+
+**Goal.** Construct and analyze a hyperbolic balance-law model of temporal value-price dynamics; deliver the well-posedness, stability, and relaxation-limit theory that TSSI lacks. This is the program's applied core; Track D restates the same results in the vocabulary of mathematical economics, and the two tracks cross-import rather than duplicate.
 
 **A1 (Phase 1; six months; candidate Master's thesis).** Minimal model: n-sector circulating-capital economy in continuous time (Freeman 1996 base), state u = (p, K, J) with capital-balance continuity equations on the input-output network and Cattaneo closure τ_J dJ_ij/dt + J_ij = κ_ij(r_j − r_i). Deliverables (theorems T1–T4):
 
@@ -101,7 +116,9 @@ The analogy extends one level deeper on the foundations side: just as value theo
 
 **Risks.** R1: no convex entropy exists for natural closures → fall back to Lyapunov-only stability (T4 does not require symmetric hyperbolicity) and EIT-style frameworks. R2: T4's condition may only be sufficient, not characterizing → scope the claim accordingly.
 
-## 5. Track B — Foundations
+## 5. Track B — Mathematics × Physics: foundations of extended thermodynamics
+
+**Disciplines.** Mathematics (category theory, type theory, geometry) applied to physics (thermodynamics).
 
 **Goal.** A category/type-theoretic axiomatization of extended thermodynamics, extending the program's central analogy to the foundations of thermodynamics themselves; the economic application doubles as the test case.
 
@@ -111,7 +128,9 @@ The analogy extends one level deeper on the foundations side: just as value theo
 
 **Risks.** R3: categorical machinery may outrun the available theorems → keep B1/B2 tied to concrete Track-A objects. R4: B3 is resource-heavy → explicitly optional.
 
-## 6. Track C — Computational and empirical
+## 6. Track C — Computer Science × Economics: simulation and empirical estimation
+
+**Disciplines.** Computer science (agent-based modeling, scientific computing, data analysis) applied to economics.
 
 **Goal.** Discriminate hyperbolic from parabolic value-price dynamics in silico and in data.
 
@@ -121,27 +140,73 @@ The analogy extends one level deeper on the foundations side: just as value theo
 
 **Risks.** R5: ABM noise may swamp front detection → ensemble design with sufficient replication; R6: data are annual and sector-aggregated → treat τ_J estimates as order-of-magnitude only.
 
-## 7. Phasing, dependencies, publication strategy
+## 7. Track D — Mathematics × Economics: the formal theory of value-price dynamics
 
-- **Year 1:** A1 (Master's thesis). C1 prototype in parallel if capacity allows.
-- **Year 2:** A2 (entropy problem); B1 begins; C1 full experiments. Papers: T1–T4 (applied-math venue, e.g., *Quarterly of Applied Mathematics* / *JMAA*); econ-facing version of the relaxation-limit result (*Cambridge Journal of Economics* / *Metroeconomica*).
-- **Year 3:** A3; B2; C2. Papers: stability criterion + gravitation reinterpretation; B1 (*Compositionality*); econophysics version (*Physica A* / *JEDC*).
-- **Year 4+:** integration; B3 optional; program-level synthesis (the "two paradoxes" essay for a general scientific audience).
+**Disciplines.** Mathematics (dynamical systems, singular perturbation theory, spectral/network analysis, convex analysis) applied to economics (Marxian value theory, economic dynamics). This track is deliberately free of physics vocabulary: its results must stand as contributions to economic theory in economics' own language.
 
-Dependencies: A1 → A2 → A3; C1 informs A3 parameters; B1/B2 depend only on the literature and A1's model; C2 is independent.
+**Goal.** The rigorous mathematical economics of value-price dynamics: well-posedness and stability of the temporal value recursions as dynamical systems, the axiomatic structure of the transformation problem, and the "equilibrium as relaxation limit of disequilibrium dynamics" theorem as a general result in the theory of economic adjustment.
 
-## 8. Master's thesis decision point
+- **D1 — Well-posedness of temporal value recursions.** Existence, uniqueness, and continuous dependence on data for the TSSI difference-equation system (Kliman–McGlone 1999) and for Freeman's continuous-time system, treated as dynamical systems in their own right; a rigorous proof of the claimed exponential decay of errors from incorrect initial conditions. This answers Veneziani's "the dynamic framework is incomplete" in economics' own terms, without physics.
+- **D2 — Axiomatic theory of the transformation problem.** Engage the axiomatic impossibility framing of Mohun & Veneziani (2017): state precisely which axioms yield inconsistency or redundancy, and prove the program's relocation claim — that the simultaneous system is the zero-adjustment-time limit of the temporal system — as a theorem about those axiom systems. Scope is bounded to the formal results, not the interpretive debate.
+- **D3 — Equilibrium as a singular limit of disequilibrium dynamics.** The relaxation-limit theorem (T3) stated and proved as a contribution to the theory of economic adjustment: initial-layer analysis (post-shock mispricing regimes), the subcharacteristic condition as an admissibility criterion for equilibrium approximation, and the connection to the classical gravitation and tâtonnement literature (Steedman 1984; Flaschel & Semmler 1987; Duménil & Lévy 1987). Derived jointly with Track A's T3, written for an economics audience.
+- **D4 — Network and spectral methods for input-output dynamics.** Perron–Frobenius structure of the IO matrix; spectra of the IO-Laplacian and their role in convergence rates; the SK-type coupling condition (T4) restated as a criterion on (A, κ); positioning against Duncan Foley's statistical-equilibrium program (Foley 1994), for which these dynamics supply the time-development.
 
-Three candidate six-month sub-problems, to be selected after review of this document:
+**Methods.** Dynamical systems theory; difference and differential equations; singular perturbation theory; convex analysis and Lyapunov methods; network and spectral theory; close reading of the mathematical-economics literature (Sraffian theory, gravitation dynamics, statistical equilibrium, axiomatic value theory).
+
+**Risks.** R7: D2 can become entangled in the interpretive debate — scope it to formal theorems only. R8: overlap with Track A — division of labor is that A derives results with physics tools and D restates them for economics and owns the axiomatic and adjustment-theory contributions; cross-referenced, not duplicated.
+
+## 8. Track E — Physics × Computer Science: computational thermodynamics of value-price dynamics
+
+**Disciplines.** Physics (extended thermodynamics) met by computer science (numerical analysis, scientific computing, machine learning). The algorithmic/numerical realization of Track A, and the data-driven answer to its closure problem.
+
+**Goal.** Build the numerical and computational apparatus for the hyperbolic value-price system, and use computation as an instrument of theory discovery — most importantly, identifying the constitutive closure from data rather than postulating it.
+
+- **E1 — Numerical methods for relaxation systems on networks.** Solver design for the Cattaneo-type (telegraph-type) relaxation system on the input-output graph: Jin–Xin-style relaxation schemes, finite-volume methods on graphs, front/shock tracking for finite-speed value-price disturbances. Verifies Track A's T2 (front speeds) and T3 (relaxation limit) numerically.
+- **E2 — Data-driven closure identification.** Learn the constitutive relation for intersectoral capital flux from agent-based microdata rather than assuming τ_J: data-driven discovery of closure models (sparse regression, neural closures, physics-informed where possible), including detecting *whether* relaxation structure exists at all. This is the computational answer to the underdetermination critique (see `program/critiques.md`, B2): closure becomes a falsifiable object.
+- **E3 — ABM-to-continuum verification.** Numerical verification of the telegraph→diffusion (Kac–Goldstein) hydrodynamic limit: measure convergence rates of Wright-style ABMs (Track C) to the continuum model; quantify the regime in which the parabolic (simultaneist) description fails.
+
+**Methods.** Relaxation schemes (Jin–Xin), finite-volume and front-tracking methods on graphs, sparse regression and physics-informed neural networks, multiscale numerical analysis, high-performance computing.
+
+**Risks.** R9: learned closures may overfit and lack interpretability — favor structured/symbolic discovery with forward validation; R10: hydrodynamic-limit convergence may be slow at accessible ABM scales — report finite-size scaling honestly.
+
+## 9. Track F — Mathematics × Computer Science: certified and executable mathematics
+
+**Disciplines.** Mathematics met by computer science (proof assistants, type theory, functional programming). Computation as an instrument of mathematical rigor, and mathematics as the semantics of computation.
+
+**Goal.** Machine-checked and executable versions of the program's mathematics: formalize its theorems, and implement its categorical/compositional structures as working software.
+
+- **F1 — Proof-assistant formalization.** Lean 4 / Coq formalization of the balance-law axioms and of the discrete TSSI recursion theorems (Track D's D1): machine-checked existence, uniqueness, and exponential decay of initial-data errors. A bounded, feasible target; large-scale Lean formalizations of PDE analysis (De Giorgi–Nash–Moser; Leray–Hopf) show the route is now open.
+- **F2 — Executable categorical models.** Implement the compositional framework of Track B in AlgebraicJulia (Catlab / AlgebraicDynamics / Decapodes): the extended-thermodynamics operad-algebra as working software that composes balance-law subsystems into economies. Makes the categorical foundations testable rather than decorative.
+- **F3 — Verified numerics.** Certified error bounds for Track A's numerics and Track D's relaxation-limit estimates (T3): interval arithmetic and Taylor models inside a proof assistant (the CoqInterval/Flocq tradition), producing rigorous convergence certificates for the E1 solvers.
+
+**Methods.** Lean 4/mathlib and Coq; applied category theory with computable implementations (C-sets, operad algebras); rigorous/verified numerical computation.
+
+**Risks.** R11: formalization is time-intensive — scope F1 to the discrete recursion first (the simplest target); R12: AlgebraicJulia tooling is young — treat F2 as proof-of-concept rather than production infrastructure.
+
+## 10. Phasing, dependencies, publication strategy
+
+- **Year 1:** A1 (Master's thesis). D1 (well-posedness of the discrete TSSI recursion) begins — low-cost, mostly literature. E1 (solver design) begins; C1 prototype in parallel if capacity allows.
+- **Year 2:** A2 (entropy problem); D2–D3 (axiomatic transformation theory; the relaxation-limit theorem in economics idiom); E2 (data-driven closure identification, with C1's ABM as the data source); F1 (formalization of the discrete recursion) begins; B1 begins; C1 full experiments. Papers: T1–T4 (applied-math venue, e.g., *Quarterly of Applied Mathematics* / *JMAA*); economics-facing version of the relaxation-limit result (*Cambridge Journal of Economics* / *Metroeconomica*).
+- **Year 3:** A3; D4 (network/spectral methods, statistical-equilibrium positioning); E3 (ABM-to-continuum verification); F2 (executable categorical models); B2; C2. Papers: stability criterion + gravitation reinterpretation; closure-identification paper (*Journal of Computational Physics*-class); axiomatic transformation paper (*Journal of Mathematical Economics* / *Metroeconomica*); B1 (*Compositionality*); econophysics version (*Physica A* / *JEDC*).
+- **Year 4+:** integration; F3 (verified numerics) and further formalization trails; program-level synthesis (the "two paradoxes" essay for a general scientific audience).
+
+Dependencies: A1 → A2 → A3; A1 and D3 share the relaxation-limit theorem (joint derivation, two audiences); D1 is nearly independent of A; E1 supports A1's numerics; E2 depends on C1's data and feeds A2 (closure) and B2 (underdetermination); F1 formalizes D1; B1/B2 depend only on the literature and A1's model; C2 is independent.
+
+## 11. Master's thesis decision point
+
+Six candidate six-month sub-problems, to be selected after review of this document. M1–M3 are the Track A/B candidates from the original design; M4 arose with Track D; M5–M6 arise with Tracks E/F.
 
 | Candidate | Content | Feasibility | Novelty | Program fit |
 |---|---|---|---|---|
-| **M1 (default)** Hyperbolic TSSI model | A1 as above: Cattaneo extension, T1–T3 rigorously in the small, T4 for the linear/network case, numerics | High — mostly linear theory + one quasilinear existence result | Solid first application of RET outside physics; first finite-speed value model | Direct: it *is* Track A Phase 1 |
+| **M1 (default)** Hyperbolic TSSI model | Track A phase 1 (A1): Cattaneo extension, T1–T3 rigorously in the small, T4 for the linear/network case, numerics | High — mostly linear theory + one quasilinear existence result | Solid first application of RET outside physics; first finite-speed value model | Direct: it *is* Track A Phase 1 |
 | **M2** Entropy-first | Attack H2 for an existing temporal/cross-dual model: construct or obstruct a convex entropy extension | Medium-low for 6 months — theorem may not exist | High if it succeeds | Skips ahead to A2; riskier |
-| **M3** Category-theory warm-up | B1 restricted: categorical reformulation of one exploitation procedure | Medium — well-defined but hard to assess for an applied-math committee | High | Starts Track B; A1 deferred |
+| **M3** Category-theory warm-up | Track B restricted (B1): categorical reformulation of one exploitation procedure | Medium — well-defined but hard to assess for an applied-math committee | High | Starts Track B; A1 deferred |
+| **M4** TSSI recursion analysis | Track D phase 1 (D1): existence, uniqueness, and exponential decay of initial-data errors for the discrete temporal value recursion | High — self-contained, mostly classical analysis | Moderate (rigor over new structure) | Enters via the economics-math pair; the safe alternative to M1 |
+| **M5** Relaxation-system numerics | Track E phase 1 (E1): numerical schemes for the Cattaneo-type system on the IO network; front tracking; numerical verification of the τ→0 limit | High — standard numerics applied to the new model | Moderate | Builds the solver infrastructure Track A needs; a computer-science-flavored option |
+| **M6** Formalized TSSI recursion | Track F phase 1 (F1): machine-checked well-posedness / exponential decay for the discrete recursion in Lean 4 | Medium — proof-assistant fluency required | High (certified result) | Requires/acquires formal-methods skills; strongest for a CS-adjacent committee |
 
-Recommendation: **M1**, with the entropy question stated as the open problem it leaves behind — the natural Master's-to-PhD bridge.
+Recommendation: **M1**, with the entropy question stated as the open problem it leaves behind — the natural Master's-to-PhD bridge. **M4** is the low-risk alternative (classical analysis, no new machinery); **M5** the numerical/computational alternative; **M6** the highest-novelty, highest-skill-bar alternative.
 
-## 9. References
+## 12. References
 
-See `program/references.bib` (all entries verified with DOIs or stable URLs). Anchor works: Cattaneo (1948); Müller & Ruggeri (1998); Ruggeri & Strumia (1981); Chen, Levermore & Liu (1994); Hanouzet & Natalini (2003); Ruggeri & Serre (2004); Bianchini et al. (2007); Kliman & McGlone (1999); Freeman (1996); Veneziani (2005); Mohun & Veneziani (2009); Bortkiewicz (1907); Sraffa (1960); Steedman (1977, 1984); Flaschel & Semmler (1987); Duménil & Lévy (1987); Farjoun & Machover (1983); Cottrell et al. (2009); Wright (2005); Cockshott & Cottrell (1998); Cockshott (2016); Burger et al. (2013); Ratanov (2007); Baez, Lynch & Moeller (2023); Lawvere & Schanuel (1986); Coleman & Noll (1963); Coleman (1964); Truesdell (1984); Müller (1967); Liu (1972).
+See `program/references.bib` (all entries verified with DOIs or stable URLs, organized by track). Anchor works: Cattaneo (1948); Müller & Ruggeri (1998); Ruggeri & Strumia (1981); Chen, Levermore & Liu (1994); Hanouzet & Natalini (2003); Ruggeri & Serre (2004); Bianchini et al. (2007); Kliman & McGlone (1999); Freeman (1996); Veneziani (2005); Mohun & Veneziani (2009, 2017); Bortkiewicz (1907); Sraffa (1960); Steedman (1977, 1984); Flaschel & Semmler (1987); Duménil & Lévy (1987); Farjoun & Machover (1983); Cottrell et al. (2009); Wright (2005); Cockshott & Cottrell (1998); Cockshott (2016); Foley (1994); Scharfenaker & Semieniuk (2017); Burger et al. (2013); Ratanov (2007); Jin & Xin (1995); Raissi et al. (2019); Pan & Duraisamy (2018); Gupta & Lermusiaux (2021); Bar-Sinai et al. (2019); Brennan & Venturi (2018); Libkind et al. (2022); Morris et al. (2024); Armstrong & Kuusi (2025); Martin-Dorel & Melquiond (2016); van Doorn & Macbeth (2024); Baez, Lynch & Moeller (2023); Lawvere & Schanuel (1986); Coleman & Noll (1963); Coleman (1964); Truesdell (1984); Müller (1967); Liu (1972).

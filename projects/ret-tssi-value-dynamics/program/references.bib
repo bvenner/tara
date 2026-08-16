@@ -1,7 +1,19 @@
 % References for the RET x TSSI research program
 % All entries verified against publisher pages, RePEc, or PMC where noted.
+%
+% Organized by track (the six discipline-pairings of the program):
+%   Track A  — Physics x Economics
+%   Track B  — Mathematics x Physics
+%   Track C  — Computer Science x Economics
+%   Track D  — Mathematics x Economics
+%   Track E  — Physics x Computer Science
+%   Track F  — Mathematics x Computer Science
+% Several works serve more than one track; each is listed under its primary
+% track with the other uses noted in a comment.
 
-% ===================== RET / thermodynamics =====================
+% ============================================================================
+% Track A — Physics x Economics
+% ============================================================================
 
 @article{cattaneo1948,
   author  = {Cattaneo, Carlo},
@@ -32,38 +44,6 @@
   doi       = {10.1007/978-3-319-13341-6}
 }
 
-@article{ruggeri-strumia1981,
-  author  = {Ruggeri, Tommaso and Strumia, Alberto},
-  title   = {Main field and convex covariant density for quasi-linear hyperbolic systems},
-  journal = {Annales de l'Institut Henri Poincar\'e, Section A},
-  volume  = {34},
-  number  = {1},
-  pages   = {65--84},
-  year    = {1981}
-}
-
-@article{ruggeri2008entropy,
-  author  = {Ruggeri, Tommaso},
-  title   = {The Entropy Principle from Continuum Mechanics to Hyperbolic Systems of Balance Laws: The Modern Theory of Extended Thermodynamics},
-  journal = {Entropy},
-  volume  = {10},
-  number  = {3},
-  pages   = {319--333},
-  year    = {2008},
-  doi     = {10.3390/e10030319}
-}
-
-@article{ruggeri2008extended,
-  author  = {Ruggeri, Tommaso},
-  title   = {Extended Thermodynamics: a Theory of Symmetric Hyperbolic Field Equations},
-  journal = {Entropy},
-  volume  = {10},
-  number  = {4},
-  pages   = {477--492},
-  year    = {2008},
-  doi     = {10.3390/e10040477}
-}
-
 @book{jou-casasvazquez-lebon2010,
   author    = {Jou, David and Casas-V\'azquez, Jos\'e and Lebon, Georgy},
   title     = {Extended Irreversible Thermodynamics},
@@ -81,10 +61,11 @@
   number  = {2170},
   pages   = {20190172},
   year    = {2020},
-  doi     = {10.1098/rsta.2019.0172}
+  doi     = {10.1098/rsta.2019.0172},
+  note    = {Explicitly invites extended-thermodynamics applications to fluxes of capital}
 }
 
-% ===================== hyperbolic relaxation / stability =====================
+% — hyperbolic relaxation / stability machinery (shared with Track D) —
 
 @article{chen-levermore-liu1994,
   author  = {Chen, Gui-Qiang and Levermore, C. David and Liu, Tai-Ping},
@@ -132,7 +113,7 @@
 
 @article{shizuta-kawashima1985,
   author  = {Shizuta, Yasushi and Kawashima, Shuichi},
-  title   = {Systems of equations of hyperbolic-parabolic type with applications to the discrete Boltzmann equation},
+  title   = {Systems of equations of hyperbolic-parabolic type with applications to the discrete {B}oltzmann equation},
   journal = {Hokkaido Mathematical Journal},
   volume  = {14},
   pages   = {249--275},
@@ -157,7 +138,43 @@
   year    = {1971}
 }
 
-% ===================== rational thermodynamics tradition =====================
+% ============================================================================
+% Track B — Mathematics x Physics
+% ============================================================================
+
+@article{ruggeri-strumia1981,
+  author  = {Ruggeri, Tommaso and Strumia, Alberto},
+  title   = {Main field and convex covariant density for quasi-linear hyperbolic systems},
+  journal = {Annales de l'Institut Henri Poincar\'e, Section A},
+  volume  = {34},
+  number  = {1},
+  pages   = {65--84},
+  year    = {1981}
+}
+
+@article{ruggeri2008entropy,
+  author  = {Ruggeri, Tommaso},
+  title   = {The Entropy Principle from Continuum Mechanics to Hyperbolic Systems of Balance Laws: The Modern Theory of Extended Thermodynamics},
+  journal = {Entropy},
+  volume  = {10},
+  number  = {3},
+  pages   = {319--333},
+  year    = {2008},
+  doi     = {10.3390/e10030319}
+}
+
+@article{ruggeri2008extended,
+  author  = {Ruggeri, Tommaso},
+  title   = {Extended Thermodynamics: a Theory of Symmetric Hyperbolic Field Equations},
+  journal = {Entropy},
+  volume  = {10},
+  number  = {4},
+  pages   = {477--492},
+  year    = {2008},
+  doi     = {10.3390/e10040477}
+}
+
+% — the rational thermodynamics tradition (Track B's "two procedures" subject) —
 
 @article{coleman-noll1963,
   author  = {Coleman, Bernard D. and Noll, Walter},
@@ -224,7 +241,7 @@
   year      = {1972}
 }
 
-% ===================== categorical foundations =====================
+% — categorical foundations and GENERIC (the geometric pole) —
 
 @article{baez-lynch-moeller2023,
   author  = {Baez, John C. and Lynch, Owen and Moeller, Joe},
@@ -235,7 +252,7 @@
   pages   = {023304},
   year    = {2023},
   doi     = {10.1063/5.0089375},
-  note    = {arXiv:2111.10315}
+  note    = {arXiv:2111.10315. Equilibrium only; the non-equilibrium extension is Track B's open problem}
 }
 
 @book{lawvere-schanuel1986,
@@ -247,169 +264,69 @@
   year      = {1986}
 }
 
-% ===================== TSSI / transformation problem =====================
-
-@article{kliman-mcglone1999,
-  author  = {Kliman, Andrew J. and McGlone, Ted},
-  title   = {A Temporal Single-system Interpretation of Marx's Value Theory},
-  journal = {Review of Political Economy},
-  volume  = {11},
-  number  = {1},
-  pages   = {33--59},
-  year    = {1999},
-  doi     = {10.1080/095382599107165}
+@article{grmela-ottinger1997a,
+  author  = {Grmela, Miroslav and \"Ottinger, Hans Christian},
+  title   = {Dynamics and thermodynamics of complex fluids. {I}. {D}evelopment of a general formalism},
+  journal = {Physical Review E},
+  volume  = {56},
+  pages   = {6620--6632},
+  year    = {1997},
+  doi     = {10.1103/PhysRevE.56.6620}
 }
 
-@article{kliman-mcglone1988,
-  author  = {Kliman, Andrew J. and McGlone, Ted},
-  title   = {The transformation non-problem and the non-transformation problem},
-  journal = {Capital \& Class},
-  volume  = {12},
+@article{grmela-ottinger1997b,
+  author  = {\"Ottinger, Hans Christian and Grmela, Miroslav},
+  title   = {Dynamics and thermodynamics of complex fluids. {II}. {I}llustrations of a general formalism},
+  journal = {Physical Review E},
+  volume  = {56},
+  pages   = {6633--6655},
+  year    = {1997},
+  doi     = {10.1103/PhysRevE.56.6633}
+}
+
+@article{grmela2015,
+  author  = {Grmela, Miroslav},
+  title   = {Geometry of Multiscale Nonequilibrium Thermodynamics},
+  journal = {Entropy},
+  volume  = {17},
+  number  = {9},
+  pages   = {5938--5964},
+  year    = {2015},
+  doi     = {10.3390/e17095938}
+}
+
+@article{grmela2018,
+  author  = {Grmela, Miroslav},
+  title   = {{GENERIC} guide to the multiscale dynamics and thermodynamics},
+  journal = {Journal of Physics Communications},
+  volume  = {2},
+  pages   = {032001},
+  year    = {2018},
+  doi     = {10.1088/2399-6528/aab642}
+}
+
+@article{grmela2021,
+  author  = {Grmela, Miroslav},
+  title   = {Multiscale Thermodynamics},
+  journal = {Entropy},
+  volume  = {23},
   number  = {2},
-  pages   = {56--83},
-  year    = {1988}
+  pages   = {165},
+  year    = {2021},
+  doi     = {10.3390/e23020165}
 }
 
-@incollection{freeman1996,
-  author    = {Freeman, Alan},
-  title     = {Price, value and profit --- a continuous, general treatment},
-  booktitle = {Marx and Non-Equilibrium Economics},
-  editor    = {Freeman, Alan and Carchedi, Guglielmo},
-  publisher = {Edward Elgar},
-  address   = {Cheltenham},
-  year      = {1996},
-  note      = {Also MPRA Paper 1290, \url{https://mpra.ub.uni-muenchen.de/1290/}}
+@book{ottinger2005,
+  author    = {\"Ottinger, Hans Christian},
+  title     = {Beyond Equilibrium Thermodynamics},
+  publisher = {Wiley},
+  address   = {Hoboken, NJ},
+  year      = {2005}
 }
 
-@article{veneziani2005,
-  author  = {Veneziani, Roberto},
-  title   = {Dynamics, Disequilibrium, and Marxian Economics: A Formal Analysis of Temporal Single-System Marxism},
-  journal = {Review of Radical Political Economics},
-  volume  = {37},
-  number  = {4},
-  year    = {2005},
-  doi     = {10.1177/0486613405280809}
-}
-
-@article{veneziani2004,
-  author  = {Veneziani, Roberto},
-  title   = {The temporal single-system interpretation of Marx's economics: A critical evaluation},
-  journal = {Metroeconomica},
-  volume  = {55},
-  pages   = {96--114},
-  year    = {2004}
-}
-
-@misc{mohun-veneziani2009,
-  author = {Mohun, Simon and Veneziani, Roberto},
-  title  = {The temporal single-system interpretation: underdetermination and inconsistency},
-  year   = {2009},
-  note   = {MPRA Paper 30452, University Library of Munich}
-}
-
-@article{kliman-freeman2008,
-  author  = {Kliman, Andrew and Freeman, Alan},
-  title   = {Simultaneous valuation vs. the exploitation theory of profit: A summing up},
-  journal = {Capital \& Class},
-  volume  = {32},
-  number  = {2},
-  year    = {2008},
-  doi     = {10.1177/030981680809400106}
-}
-
-@article{bortkiewicz1907,
-  author  = {Bortkiewicz, Ladislaus von},
-  title   = {On the correction of {M}arx's fundamental theoretical construction in the third volume of \textit{Capital}},
-  year    = {1907},
-  note    = {English translation in \textit{Value and Distribution in Capitalist Society}, 1949}
-}
-
-@book{sraffa1960,
-  author    = {Sraffa, Piero},
-  title     = {Production of Commodities by Means of Commodities},
-  publisher = {Cambridge University Press},
-  address   = {Cambridge},
-  year      = {1960}
-}
-
-@book{steedman1977,
-  author    = {Steedman, Ian},
-  title     = {Marx after Sraffa},
-  publisher = {NLB},
-  address   = {London},
-  year      = {1977}
-}
-
-@article{okishio1961,
-  author  = {Okishio, Nobuo},
-  title   = {Technical Changes and the Rate of Profit},
-  journal = {Kobe University Economic Review},
-  volume  = {7},
-  pages   = {86--99},
-  year    = {1961}
-}
-
-% ===================== gravitation dynamics =====================
-
-@article{steedman1984,
-  author  = {Steedman, Ian},
-  title   = {Natural prices, differential profit rates and the classical competitive process},
-  journal = {The Manchester School},
-  volume  = {52},
-  number  = {2},
-  pages   = {123--140},
-  year    = {1984},
-  doi     = {10.1111/j.1467-9957.1984.tb00774.x}
-}
-
-@article{flaschel-semmler1987,
-  author  = {Flaschel, Peter and Semmler, Willi},
-  title   = {Classical and neoclassical competitive adjustment processes},
-  journal = {The Manchester School},
-  volume  = {55},
-  number  = {1},
-  pages   = {13--37},
-  year    = {1987},
-  doi     = {10.1111/j.1467-9957.1987.tb01287.x}
-}
-
-@article{dumenil-levy1987,
-  author  = {Dum\'enil, G\'erard and L\'evy, Dominique},
-  title   = {The dynamics of competition: a restoration of the classical analysis},
-  journal = {Cambridge Journal of Economics},
-  volume  = {11},
-  number  = {2},
-  pages   = {133--164},
-  year    = {1987},
-  doi     = {10.1093/oxfordjournals.cje.a035020}
-}
-
-@book{dumenil-levy1993,
-  author    = {Dum\'enil, G\'erard and L\'evy, Dominique},
-  title     = {The Economics of the Profit Rate: Competition, Crises and Historical Tendencies in Capitalism},
-  publisher = {Edward Elgar},
-  address   = {Aldershot},
-  year      = {1993}
-}
-
-@misc{nikaido1978,
-  author = {Nikaido, Hukukane},
-  title  = {Refutation of the Dynamic Equalization of Profit Rates in {M}arx's Scheme of Reproduction},
-  year    = {1978},
-  note   = {Modelling Research Group 7722, Department of Economics, University of Southern California; as cited in Steedman (1984)}
-}
-
-@article{vaona2012,
-  author  = {Vaona, Andrea},
-  title   = {Further econometric evidence on the gravitation and convergence of industrial rates of return on regulating capital},
-  journal = {Journal of Post Keynesian Economics},
-  volume  = {35},
-  number  = {1},
-  pages   = {113--136},
-  year    = {2012}
-}
-
-% ===================== classical econophysics =====================
+% ============================================================================
+% Track C — Computer Science x Economics
+% ============================================================================
 
 @book{farjoun-machover1983,
   author    = {Farjoun, Emmanuel and Machover, Mosh\'e},
@@ -481,7 +398,228 @@
   doi     = {10.1007/s100510070114}
 }
 
-% ===================== finite-speed precedents in economics/finance =====================
+@article{scharfenaker-semieniuk2017,
+  author  = {Scharfenaker, Ellis and Semieniuk, Gregor},
+  title   = {A Statistical Equilibrium Approach to the Distribution of Profit Rates},
+  journal = {Metroeconomica},
+  volume  = {68},
+  number  = {3},
+  pages   = {465--499},
+  year    = {2017}
+}
+
+% — stochastic / finite-speed precedents (shared with Track E) —
+
+@article{ratanov2007,
+  author  = {Ratanov, Nikita},
+  title   = {A jump telegraph model for option pricing},
+  journal = {Quantitative Finance},
+  volume  = {7},
+  number  = {5},
+  pages   = {575--583},
+  year    = {2007}
+}
+
+@article{kac1974,
+  author  = {Kac, Mark},
+  title   = {A stochastic model related to the telegrapher's equation},
+  journal = {Rocky Mountain Journal of Mathematics},
+  volume  = {4},
+  number  = {3},
+  pages   = {497--509},
+  year    = {1974},
+  note    = {Telegraph-to-diffusion rescaling template for Track C's ABM-to-continuum limit}
+}
+
+% ============================================================================
+% Track D — Mathematics x Economics
+% ============================================================================
+
+% — value theory and the transformation problem (economic substrate for A) —
+
+@article{bortkiewicz1907,
+  author  = {Bortkiewicz, Ladislaus von},
+  title   = {On the correction of {M}arx's fundamental theoretical construction in the third volume of \textit{Capital}},
+  year    = {1907},
+  note    = {English translation in \textit{Value and Distribution in Capitalist Society}, 1949}
+}
+
+@book{sraffa1960,
+  author    = {Sraffa, Piero},
+  title     = {Production of Commodities by Means of Commodities},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {1960}
+}
+
+@book{steedman1977,
+  author    = {Steedman, Ian},
+  title     = {Marx after Sraffa},
+  publisher = {NLB},
+  address   = {London},
+  year      = {1977}
+}
+
+@article{okishio1961,
+  author  = {Okishio, Nobuo},
+  title   = {Technical Changes and the Rate of Profit},
+  journal = {Kobe University Economic Review},
+  volume  = {7},
+  pages   = {86--99},
+  year    = {1961}
+}
+
+@article{kliman-mcglone1988,
+  author  = {Kliman, Andrew J. and McGlone, Ted},
+  title   = {The transformation non-problem and the non-transformation problem},
+  journal = {Capital \& Class},
+  volume  = {12},
+  number  = {2},
+  pages   = {56--83},
+  year    = {1988}
+}
+
+@article{kliman-mcglone1999,
+  author  = {Kliman, Andrew J. and McGlone, Ted},
+  title   = {A Temporal Single-system Interpretation of Marx's Value Theory},
+  journal = {Review of Political Economy},
+  volume  = {11},
+  number  = {1},
+  pages   = {33--59},
+  year    = {1999},
+  doi     = {10.1080/095382599107165}
+}
+
+@incollection{freeman1996,
+  author    = {Freeman, Alan},
+  title     = {Price, value and profit --- a continuous, general treatment},
+  booktitle = {Marx and Non-Equilibrium Economics},
+  editor    = {Freeman, Alan and Carchedi, Guglielmo},
+  publisher = {Edward Elgar},
+  address   = {Cheltenham},
+  year      = {1996},
+  note      = {Also MPRA Paper 1290, \url{https://mpra.ub.uni-muenchen.de/1290/}. Continuous-time substrate for Track A}
+}
+
+@article{veneziani2004,
+  author  = {Veneziani, Roberto},
+  title   = {The temporal single-system interpretation of Marx's economics: A critical evaluation},
+  journal = {Metroeconomica},
+  volume  = {55},
+  pages   = {96--114},
+  year    = {2004}
+}
+
+@article{veneziani2005,
+  author  = {Veneziani, Roberto},
+  title   = {Dynamics, Disequilibrium, and Marxian Economics: A Formal Analysis of Temporal Single-System Marxism},
+  journal = {Review of Radical Political Economics},
+  volume  = {37},
+  number  = {4},
+  year    = {2005},
+  doi     = {10.1177/0486613405280809}
+}
+
+@misc{mohun-veneziani2009,
+  author = {Mohun, Simon and Veneziani, Roberto},
+  title  = {The temporal single-system interpretation: underdetermination and inconsistency},
+  year   = {2009},
+  note   = {MPRA Paper 30452, University Library of Munich}
+}
+
+@article{kliman-freeman2008,
+  author  = {Kliman, Andrew and Freeman, Alan},
+  title   = {Simultaneous valuation vs. the exploitation theory of profit: A summing up},
+  journal = {Capital \& Class},
+  volume  = {32},
+  number  = {2},
+  year    = {2008},
+  doi     = {10.1177/030981680809400106}
+}
+
+@article{mohun-veneziani2017,
+  author  = {Mohun, Simon and Veneziani, Roberto},
+  title   = {Value, Price and Exploitation: The Logic of the Transformation Problem},
+  journal = {Journal of Economic Surveys},
+  volume  = {31},
+  number  = {5},
+  pages   = {1387--1420},
+  year    = {2017},
+  note    = {Axiomatic impossibility framing that Track D's D2 engages}
+}
+
+@article{foley1994,
+  author  = {Foley, Duncan K.},
+  title   = {A Statistical Equilibrium Theory of Markets},
+  journal = {Journal of Economic Theory},
+  volume  = {62},
+  number  = {2},
+  pages   = {321--345},
+  year    = {1994},
+  doi     = {10.1006/jeth.1994.1018}
+}
+
+% — gravitation dynamics (shared with Track A) —
+
+@article{steedman1984,
+  author  = {Steedman, Ian},
+  title   = {Natural prices, differential profit rates and the classical competitive process},
+  journal = {The Manchester School},
+  volume  = {52},
+  number  = {2},
+  pages   = {123--140},
+  year    = {1984},
+  doi     = {10.1111/j.1467-9957.1984.tb00774.x}
+}
+
+@article{flaschel-semmler1987,
+  author  = {Flaschel, Peter and Semmler, Willi},
+  title   = {Classical and neoclassical competitive adjustment processes},
+  journal = {The Manchester School},
+  volume  = {55},
+  number  = {1},
+  pages   = {13--37},
+  year    = {1987},
+  doi     = {10.1111/j.1467-9957.1987.tb01287.x}
+}
+
+@article{dumenil-levy1987,
+  author  = {Dum\'enil, G\'erard and L\'evy, Dominique},
+  title   = {The dynamics of competition: a restoration of the classical analysis},
+  journal = {Cambridge Journal of Economics},
+  volume  = {11},
+  number  = {2},
+  pages   = {133--164},
+  year    = {1987},
+  doi     = {10.1093/oxfordjournals.cje.a035020}
+}
+
+@book{dumenil-levy1993,
+  author    = {Dum\'enil, G\'erard and L\'evy, Dominique},
+  title     = {The Economics of the Profit Rate: Competition, Crises and Historical Tendencies in Capitalism},
+  publisher = {Edward Elgar},
+  address   = {Aldershot},
+  year      = {1993}
+}
+
+@misc{nikaido1978,
+  author = {Nikaido, Hukukane},
+  title  = {Refutation of the Dynamic Equalization of Profit Rates in {M}arx's Scheme of Reproduction},
+  year    = {1978},
+  note   = {Modelling Research Group 7722, Department of Economics, University of Southern California; as cited in Steedman (1984)}
+}
+
+@article{vaona2012,
+  author  = {Vaona, Andrea},
+  title   = {Further econometric evidence on the gravitation and convergence of industrial rates of return on regulating capital},
+  journal = {Journal of Post Keynesian Economics},
+  volume  = {35},
+  number  = {1},
+  pages   = {113--136},
+  year    = {2012}
+}
+
+% — price-formation singular limits in mathematical economics —
 
 @article{burger-etal2013,
   author  = {Burger, Martin and Caffarelli, Luis and Markowich, Peter A. and Wolfram, Marie-Therese},
@@ -504,22 +642,137 @@
   doi     = {10.1142/S0218202509003978}
 }
 
-@article{ratanov2007,
-  author  = {Ratanov, Nikita},
-  title   = {A jump telegraph model for option pricing},
-  journal = {Quantitative Finance},
-  volume  = {7},
-  number  = {5},
-  pages   = {575--583},
-  year    = {2007}
+% ============================================================================
+% Track E — Physics x Computer Science
+% ============================================================================
+
+@article{jin-xin1995,
+  author  = {Jin, Shi and Xin, Zhou Ping},
+  title   = {The relaxation schemes for systems of conservation laws in arbitrary space dimensions},
+  journal = {Communications on Pure and Applied Mathematics},
+  volume  = {48},
+  number  = {3},
+  pages   = {235--276},
+  year    = {1995},
+  note    = {Anchor numerical scheme for Track E's E1}
 }
 
-@article{kac1974,
-  author  = {Kac, Mark},
-  title   = {A stochastic model related to the telegrapher's equation},
-  journal = {Rocky Mountain Journal of Mathematics},
-  volume  = {4},
+@article{raissi2019,
+  author  = {Raissi, Maziar and Perdikaris, Paris and Karniadakis, George Em},
+  title   = {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations},
+  journal = {Journal of Computational Physics},
+  volume  = {378},
+  pages   = {686--707},
+  year    = {2019},
+  doi     = {10.1016/j.jcp.2018.10.045}
+}
+
+@article{pan-duraisamy2018,
+  author  = {Pan, Shaowu and Duraisamy, Karthik},
+  title   = {Data-driven discovery of closure models},
+  journal = {SIAM Journal on Applied Dynamical Systems},
+  volume  = {17},
+  number  = {4},
+  pages   = {2381--2413},
+  year    = {2018},
+  doi     = {10.1137/18M1177263}
+}
+
+@article{gupta-lermusiaux2021,
+  author  = {Gupta, Arjit and Lermusiaux, Pierre F. J.},
+  title   = {Neural closure models for dynamical systems},
+  journal = {Proceedings of the Royal Society A},
+  volume  = {477},
+  pages   = {20201004},
+  year    = {2021},
+  doi     = {10.1098/rspa.2020.1004}
+}
+
+@article{bar-sinai2019,
+  author  = {Bar-Sinai, Yohai and Hoyer, Stephan and Hickey, Jason and Brenner, Michael P.},
+  title   = {Learning data-driven discretizations for partial differential equations},
+  journal = {Proceedings of the National Academy of Sciences USA},
+  volume  = {116},
+  number  = {31},
+  pages   = {15344--15349},
+  year    = {2019},
+  doi     = {10.1073/pnas.1814058116}
+}
+
+@article{brennan-venturi2018,
+  author  = {Brennan, Christopher and Venturi, Daniele},
+  title   = {Data-driven closures for stochastic dynamical systems},
+  journal = {Journal of Computational Physics},
+  volume  = {372},
+  pages   = {281--298},
+  year    = {2018},
+  doi     = {10.1016/j.jcp.2018.06.038},
+  note    = {Relevant to Track E's E3 (ABM-to-continuum for stochastic microdynamics)}
+}
+
+% ============================================================================
+% Track F — Mathematics x Computer Science
+% ============================================================================
+
+@misc{libkind-etal2022,
+  author       = {Libkind, Sophie and Baas, Andrew and Patterson, Evan and Fairbanks, James},
+  title        = {Operadic modeling of dynamical systems: mathematics and computation},
+  year         = {2022},
+  howpublished = {arXiv:2105.12282},
+  note         = {Catlab / AlgebraicDynamics; Euler's method is functorial for undirected systems}
+}
+
+@misc{morris-etal2024,
+  author       = {Morris, Luke and Baas, Andrew and Arias, Jesus and Gatlin, Maia and Patterson, Evan and Fairbanks, James},
+  title        = {Decapodes: A Diagrammatic Tool for Representing, Composing, and Computing Spatialized Partial Differential Equations},
+  year         = {2024},
+  howpublished = {arXiv:2401.17432}
+}
+
+@article{armstrong-kuusi2025,
+  author  = {Armstrong, Scott and Kuusi, Tuomo},
+  title   = {Renormalization Group and Elliptic Homogenization in High Contrast},
+  journal = {Inventiones Mathematicae},
+  volume  = {242},
+  pages   = {895--1086},
+  year    = {2025},
+  doi     = {10.1007/s00222-025-01370-9},
+  note    = {Source mathematics of the scottnarmstrong/CoarseGraining Lean 4 formalization}
+}
+
+@misc{coarsegraining-lean,
+  author       = {Armstrong, Scott and Kuusi, Tuomo and collaborators},
+  title        = {{CoarseGraining}: a {Lean} 4/{M}athlib formalization of coarse-graining theory for elliptic equations},
+  year         = {2025},
+  howpublished = {GitHub: \url{https://github.com/scottnarmstrong/CoarseGraining}},
+  note         = {~537k-line machine-checked development; comparator-verified against mathlib}
+}
+
+@misc{lerayhopf-lean,
+  author       = {{UDA Lab}},
+  title        = {{Leray--Hopf}: {Lean} 4 formalization of weak solution existence for the 3D incompressible {N}avier--{S}tokes equations},
+  year         = {2025},
+  howpublished = {GitHub: \url{https://github.com/uda-lab/leray-hopf}}
+}
+
+@inproceedings{vandoor-macbeth2024,
+  author    = {van Doorn, Floris and Macbeth, Heather},
+  title     = {Integrals Within Integrals: A Formalization of the {Gagliardo}--{Nirenberg}--{Sobolev} Inequality},
+  booktitle = {13th International Conference on Interactive Theorem Proving (ITP 2024)},
+  series    = {Leibniz International Proceedings in Informatics},
+  volume    = {309},
+  pages     = {37:1--37:?},
+  year      = {2024},
+  doi       = {10.4230/LIPIcs.ITP.2024.37}
+}
+
+@article{martin-dorel-melquiond2016,
+  author  = {Martin-Dorel, \'Erik and Melquiond, Guillaume},
+  title   = {Proving tight bounds on univariate expressions with elementary functions in {Coq}},
+  journal = {Journal of Automated Reasoning},
+  volume  = {57},
   number  = {3},
-  pages   = {497--509},
-  year    = {1974}
+  pages   = {187--217},
+  year    = {2016},
+  note    = {CoqInterval verified-numerics anchor for Track F's F3}
 }
