@@ -1,6 +1,10 @@
 # Context Preservation — read after a context reset
 
-Everything here is material that existed only in the working conversation and is NOT yet in the research documents. State as of 2026-08-16, after commits `f8b10f7` and `7550d93` (local only, never pushed).
+Everything here is material that existed only in the working conversation and is NOT yet in the research documents (or that has since changed). State as of 2026-08-16.
+
+**Git state (all local, nothing ever pushed):** `f8b10f7` (program + literature + bib v1) → `7550d93` (six-track completion + critiques + track-organized bib) → `9cb8b77` (this note) → `41a6970` (critiques.md six-track revision) → `12b3ffd` (all 11 amendments applied). Working tree clean except the unrelated untracked `anytype-based-tara/research-assistant-architecture-bcv.md`.
+
+**Authoritative current state:** `program/research-program.md` (six tracks, all amendments applied) and `program/critiques.md` are the live documents. `research-log.md` is the chronological record. `findings.md` holds the formal core. The rest of this file covers only what is NOT in those documents.
 
 ---
 
@@ -16,6 +20,7 @@ Everything here is material that existed only in the working conversation and is
 4. Deliverable structure: **Ph.D.-scale research program document first; a specific 6-month Master's exposé deferred** until Brad reviews the program doc and picks a sub-problem.
 5. Category/type-theoretic foundations (Track B) added for **mathematical novelty**, extending the RET ↔ Truesdellian rational-thermodynamics parallel.
 6. Scope preference: **balanced** — formal theory AND the econophysics second front (ABM + empirical).
+7. Formalism depth: **full model specification** in the proposal (state variables, balance laws, Cattaneo constitutive equations, conjectured theorems stated) — not a verbal sketch.
 
 ## 3. Master's thesis exposé — format benchmarks (from web research; needed for phase 2)
 
@@ -35,18 +40,23 @@ Everything here is material that existed only in the working conversation and is
 1. **Download & parse the references** — NOT STARTED. Requires Brad's OK: writes to `papers/incoming/` and runs the TARA `scripts/ingest_pdf.py` pipeline into AnyType + citation graph (outside this project dir). ~half the bib is open access (Freeman MPRA, Cockshott eprints, MDPI Entropy, Jou PMC, arXiv items).
 2. **Broaden toward ecological macroeconomics** — DEFERRED, not scoped. Only recorded as a "future application domain" (critiques.md amendment #8). Candidate framing noted in conversation: ecological macro is disequilibrium modeling (stock-flow-consistent, Keen's Minsky ODEs, Giraud's GEMMES); our relaxation framework would give those models a rigorous dynamics foundation.
 3. **Critiques** — DONE (`program/critiques.md`).
-4. **Grmela / GENERIC multiscale thermodynamics** — literature note done (`literature/grmela-generic-multiscale.md`); NOT yet integrated into the program doc (it is pending amendment #7 in critiques.md).
+4. **Grmela / GENERIC multiscale thermodynamics** — literature note done (`literature/grmela-generic-multiscale.md`) **and now integrated** into the program doc as the GENERIC/contact-geometry pole in Track B (amendment #7, applied in `12b3ffd`).
 
-## 5. Pending: the 9 consolidated amendments to research-program.md
+## 5. Status: the consolidated amendments to research-program.md
 
-Listed in `program/critiques.md` ("Consolidated amendments…"). **None have been applied**; Brad has not yet reviewed critiques.md. Some overlap with the six-track refactor (notably amendment #1 network-first vocabulary and #8 phasing scope). Reconcile after Brad's review. Summary of the highest-leverage ones: (1) network/ODE-first vocabulary; (2) T3 singular-limit scoping; (3) note Cattaneo closure nests all gravitation models at τ_J=0; (4) stability is local-only; (5) add statistical-equilibrium neighbors to §2.4/§6 (bib already has Foley 1994, Scharfenaker–Semieniuk 2017, Mohun–Veneziani 2017); (6) "entropy" = convex Lyapunov structure disclaimer; (7) add GENERIC/contact-geometry pole to Track B; (8) ecological macro named as future application only; (9) bib additions (done).
+**ALL 11 APPLIED (commit `12b3ffd`, 2026-08-16)** — no longer pending. critiques.md's amendment list is marked APPLIED. Includes: network-first formulation note (§4), T3 singular-limit scoping, τ_J=0 nesting claim, local-stability caveat, statistical-equilibrium neighbors (§2.4/§6), entropy disclaimer (§3/A2), GENERIC pole (§5), phasing scope-discipline line (§10), E/F infrastructure Status lines (§8/§9), E2 constrained closure discovery, F scope note.
 
 ## 6. Open decisions awaiting Brad
 
-- **Master's sub-problem choice**: M1 (default, Track A Phase 1) / M2 (entropy-first) / M3 (category warm-up) / M4 (TSSI recursion analysis, low-risk) / M5 (relaxation-system numerics, CS-flavored) / M6 (formalized recursion in Lean, highest novelty). Table in `research-program.md` §11.
-- **Git push**: two commits on `main` locally; nothing pushed. Standing rule: never push to main, always a feature branch, and only with confirmation.
+- **Master's sub-problem choice**: M1 (default, Track A Phase 1) / M2 (entropy-first) / M3 (category warm-up) / M4 (TSSI recursion analysis, low-risk) / M5 (relaxation-system numerics, CS-flavored) / M6 (formalized recursion in Lean, highest novelty). Table in `research-program.md` §11. **Still open; nothing in the docs settles it.**
+- **Git push**: five commits on `main` locally; nothing pushed. Standing rule: never push to main, always a feature branch, and only with confirmation.
 - **Ecological macro**: in-scope or not.
 - **AnyType ingestion** of papers: needs OK (see §4.1).
+
+## 6.5 Pending commitments (conversation-only, not in any document)
+
+- **A proposal walkthrough is owed to Brad.** In the first planning session he asked me to "help me understand your proposal, as I am unfamiliar with many of your references" — this was interrupted and never delivered. Before drafting the Master's exposé (or alongside it), produce an accessible explainer (plain-language walkthrough: transformation problem → TSSI → heat paradox → RET → the correspondence → the six tracks → what would be proven). The exposé itself must be accessible for the same reason: Brad's home field is applied mathematics, not Marxian economics or thermodynamics — do not assume the value-theory or thermo background in the reader. The one formal explainer idea I offered early was a `primer` document; the `to_human/` folder is the right home.
+- **The four-sentence self-identification to preserve**: Brad = "Bradley Vener", go by "Brad", Denver/Mountain time, GitHub `bvenner`, concise communication (see AGENTS.md). Not research content, but relevant to tone of any future writing.
 
 ## 7. Working conventions (per AGENTS.md + session)
 
