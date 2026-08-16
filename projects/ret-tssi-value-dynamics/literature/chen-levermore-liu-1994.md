@@ -1,0 +1,7 @@
+# Chen, Levermore & Liu (1994) — Hyperbolic Conservation Laws with Stiff Relaxation and Entropy
+
+**Citation:** Chen, G.-Q., Levermore, C. D., & Liu, T.-P. (1994). Hyperbolic conservation laws with stiff relaxation terms and entropy. *Communications on Pure and Applied Mathematics*, 47(6), 787–830. DOI: 10.1002/cpa.3160470602
+
+**Core content:** Studies systems of hyperbolic conservation laws with stiff relaxation source terms and a compatible entropy structure. As the relaxation parameter ε → 0, solutions converge to those of a reduced (equilibrium) system — the rigorous content of the statement "parabolic/equilibrium theories are singular limits of hyperbolic relaxation theories." Establishes the role of entropy dissipation in controlling the limit, and the subcharacteristic condition (equilibrium characteristic speeds must interlace with the full system's speeds) as necessary for stability of the limit.
+
+**Relevance to program:** The mathematical engine for H4. The claim "the simultaneist dual-system is the τ→0 limit of the TSSI system" is, formally, a stiff-relaxation limit of exactly the type CLL analyze. The subcharacteristic condition has an economic reading: the "speeds" of the reduced (simultaneist) system must be dominated by those of the extended (temporal) system — instantaneous closure must not outrun the actual adjustment dynamics. This yields a precise, checkable criterion for when simultaneist approximations are legitimate — a genuinely new contribution to the value-theory debate.

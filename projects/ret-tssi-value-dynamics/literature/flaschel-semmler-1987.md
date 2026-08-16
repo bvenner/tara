@@ -1,0 +1,7 @@
+# Flaschel & Semmler (1987) — Classical and Neoclassical Competitive Adjustment Processes
+
+**Citation:** Flaschel, P., & Semmler, W. (1987). Classical and neoclassical competitive adjustment processes. *The Manchester School*, 55(1), 13–37. DOI: 10.1111/j.1467-9957.1987.tb01287.x. Related: Flaschel & Semmler (1986), "The dynamic equalization of profit rates for input-output models with fixed capital," in Semmler (ed.), *Competition, Monopoly, and Differential Profit Rates* (Springer).
+
+**Core content:** Introduces a stable cross-dual adjustment process for Sraffa–von Neumann models; proves (excluding free goods) global asymptotic stability of a modified classical adjustment process. Contrasts the classical cross-dual structure (profit-rate differentials drive quantities; excess demand drives prices) with neoclassical price-adjustment processes. Represents the strongest positive convergence results in the gravitation literature, obtained by modifying the naive process.
+
+**Relevance to program:** The positive pole of the gravitation literature. Their stabilizing modifications are, in effect, added coupling/dissipation — exactly the structure the SK condition formalizes. Track A will check whether their modification satisfies (or illuminates) the coupling condition, and whether the hyperbolic extension preserves their stability result while adding finite-speed realism. Provides the best-case benchmark for H3.

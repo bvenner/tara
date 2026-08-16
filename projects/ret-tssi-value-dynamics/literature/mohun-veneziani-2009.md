@@ -1,0 +1,9 @@
+# Mohun & Veneziani (2009) — The Temporal Single-System Interpretation: Underdetermination and Inconsistency
+
+**Citation:** Mohun, S., & Veneziani, R. (2009). *The Temporal Single-System Interpretation: Underdetermination and Inconsistency*. MPRA Paper 30452, University Library of Munich. (Related exchange: Mohun & Veneziani 2007, "The incoherence of the TSSI: A reply to Kliman and Freeman," *Capital & Class* 92:139–145; Kliman & Freeman's reply, *Capital & Class* 94, DOI: 10.1177/030981680809400106.)
+
+**Core claim:** Argues TSSI suffers from underdetermination (too few restrictions to pin down its own variables, e.g., the MELT path) and inconsistency in its treatment of value magnitudes.
+
+**Counterpoint:** Kliman & Freeman (*Capital & Class* 94, 2008) argue Mohun–Veneziani effectively concede that simultaneist interpretations contradict the exploitation theory of profit, and that the "incoherence" charges rest on logical errors. TSSI proponents regard *underdetermination* as a feature: like conservation of energy, the theory constrains trajectories without fixing them — additional structure (initial conditions, specific mechanisms) closes specific models.
+
+**Relevance to program:** The underdetermination charge has a precise mathematical translation: the TSSI equations as written are not a closed evolution system. In RET language, this is a *closure problem* — exactly the problem solved by constitutive theory (entropy principle as selection rule for constitutive relations). The program's constitutive-theory move (Cattaneo-type closure for capital fluxes, with an entropy principle restricting admissible closures) is therefore simultaneously an answer to underdetermination. This strengthens the framing: RET is not merely an analogy but supplies the missing closure methodology.

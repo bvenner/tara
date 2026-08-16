@@ -1,0 +1,7 @@
+# Duménil & Lévy (1987) — The Dynamics of Competition: A Restoration of the Classical Analysis
+
+**Citation:** Duménil, G., & Lévy, D. (1987). The dynamics of competition: a restoration of the classical analysis. *Cambridge Journal of Economics*, 11(2), 133–164. DOI: 10.1093/oxfordjournals.cje.11.2.133. Book-length development: Duménil & Lévy (1993), *The Economics of the Profit Rate: Competition, Crises and Historical Tendencies in Capitalism*. Aldershot: Edward Elgar.
+
+**Core content:** Constructs a model of competition in the classical (Smith–Ricardo–Marx) perspective: gravitation of market prices around production prices, rationing, demand deficiency, choice of technique. Shows stability of the classical long-term equilibrium under certain conditions in two- and three-commodity models. Emphasizes real-time adjustment (production periods, reaction lags) rather than tâtonnement.
+
+**Relevance to program:** Closest in spirit to the program's temporal reading: their models already treat adjustment in real time with lags. Two uses: (1) a source of established low-dimensional models to which the Cattaneo extension can be applied and results compared; (2) their "certain conditions" for stability invite characterization via the SK coupling condition. Their later work on disequilibrium macro (being "Keynesian in the short term, classical in the long term") matches the relaxation-limit picture: short-run disequilibrium dynamics relaxing toward a classical equilibrium manifold.

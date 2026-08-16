@@ -1,0 +1,9 @@
+# Baez, Lynch & Moeller (2023) — Compositional Thermostatics
+
+**Citation:** Baez, J. C., Lynch, O., & Moeller, J. (2023). Compositional thermostatics. *Journal of Mathematical Physics*, 64(2), 023304. DOI: 10.1063/5.0089375. arXiv: 2111.10315.
+
+**Core content:** Axiomatizes *equilibrium* thermostatics in applied-category-theory style. A thermostatic system = a convex space of states X (generalized convex spaces, not necessarily subsets of vector spaces — needed to accommodate R̄ = [−∞, ∞]-valued entropy) together with a concave entropy function S: X → R̄. Systems combine via convex relations (constraints); the composed equilibrium maximizes total entropy subject to the constraint. Constructs the operad Op(ConvRel) whose operations are convex relations, and proves thermostatic systems form an operad algebra Op(Ent), where Ent: ConvRel → Set is the lax symmetric monoidal functor sending a space to its set of concave entropy functions.
+
+**Stated limitation (the opening for Track B):** The framework is equilibrium-only. As discussed by the authors/n-Category Café commentary, extending to non-equilibrium requires giving up entropy maximization as the organizing principle and adding structure to state spaces (fluxes, dynamics). 
+
+**Relevance to program:** Track B's launching point. RET's state space is exactly a convex space *enriched by flux coordinates* with entropy depending on non-equilibrium variables, and its dynamics are balance laws whose admissibility is restricted by an entropy *inequality* (production ≥ 0) rather than entropy maximization. A "compositional extended thermodynamics" would: (1) define extended thermostatic systems as algebras of an operad of *constrained relaxation processes*; (2) recover Baez–Lynch–Moeller as the equilibrium sub-theory (relaxation-time/zero-flux collapse). Connects to AlgebraicJulia/Decapodes tooling — potential for executable categorical models.

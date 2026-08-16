@@ -1,0 +1,7 @@
+# Telegraph-Process Models in Finance — Ratanov et al.
+
+**Citation:** Ratanov, N. (2007). A jump telegraph model for option pricing. *Quantitative Finance*, 7(5), 575–583. Melnikov & Ratanov et al., "Telegraph models of financial markets," *Revista Colombiana de Matemáticas*, 41(s1). DOI (RCM survey): n/a, http://www.scielo.org.co/pdf/rcm/v41s1/v41s1a07.pdf
+
+**Core content:** Option-pricing models driven by telegraph processes (finite-velocity random motions with alternating directions) instead of geometric Brownian motion. Motivation stated explicitly: GBM-based models have *infinite propagation velocities*, independent increments, Gaussian tails — all counterfactual. Telegraph-based models have finite propagation speed and memory effects; under suitable rescaling they converge to Brownian motion (the Kac/Goldstein limit: telegraph → diffusion as velocity and switching rate → ∞).
+
+**Relevance to program:** Independent precedent for the "infinite propagation speed is pathological; hyperbolize it" argument *inside mathematical finance* — the same critique the program levels at simultaneous determination in value theory. The telegraph→diffusion rescaling limit is the stochastic counterpart of the Cattaneo→Fourier relaxation limit (Kac 1956/1974 connection), useful for Track C: it links the deterministic hyperbolic model to stochastic ABM microdynamics. Also demonstrates that the finance literature already accepts finite-speed corrections as a legitimate research direction, easing the program's reception.

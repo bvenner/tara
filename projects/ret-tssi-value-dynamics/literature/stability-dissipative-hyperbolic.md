@@ -1,0 +1,11 @@
+# Stability of Dissipative Hyperbolic Systems — Hanouzet–Natalini (2003), Ruggeri–Serre (2004), Bianchini–Hanouzet–Natalini (2007)
+
+**Citations:**
+- Hanouzet, B., & Natalini, R. (2003). Global existence of smooth solutions for partially dissipative hyperbolic systems with a convex entropy. *Archive for Rational Mechanics and Analysis*, 169(2), 89–117. DOI: 10.1007/s00205-003-0257-6
+- Ruggeri, T., & Serre, D. (2004). Stability of constant equilibrium state for dissipative balance laws system with a convex entropy. *Quarterly of Applied Mathematics*, 62(1), 163–179. DOI: 10.1090/qam/2032577
+- Bianchini, S., Hanouzet, B., & Natalini, R. (2007). Asymptotic behavior of smooth solutions for partially dissipative hyperbolic systems with a convex entropy. *Communications on Pure and Applied Mathematics*, 60(11), 1559–1622. DOI: 10.1002/cpa.20195
+- Background: Shizuta, Y., & Kawashima, S. (1985). Systems of equations of hyperbolic-parabolic type with applications to the discrete Boltzmann equation. *Hokkaido Mathematical Journal*, 14, 249–275.
+
+**Core content:** For entropy-dissipative hyperbolic balance laws near equilibrium: under the **Shizuta–Kawashima (SK) coupling condition** (no eigenvector of the linearized convective part lies in the kernel of the dissipation Jacobian — i.e., dissipation "reaches" all modes through coupling), small smooth perturbations of a constant equilibrium state exist globally and decay to equilibrium. Ruggeri–Serre prove L² asymptotic stability via a Lyapunov functional built from entropy plus a compensation term; BHN give optimal decay rates and show the conservative part is asymptotically approximated by a parabolic (Chapman–Enskog) equation.
+
+**Relevance to program:** The stability machinery for H3. Economic translation of SK: profit-rate differentials (dissipation) must couple to *all* modes of the price-capital system — sectors insulated from capital reallocation break convergence. This offers a unifying criterion for the gravitation literature's mixed results: convergence holds exactly when the coupling condition does; Nikaido-type counterexamples and Cockshott's non-convergent simulations should correspond to SK failures. Verifying that correspondence is a concrete, publishable Track-A result.
