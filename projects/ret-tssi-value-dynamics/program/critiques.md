@@ -266,7 +266,9 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 ---
 
-## Consolidated amendments to `research-program.md` (for Brad's approval)
+## Consolidated amendments to `research-program.md`
+
+**Status: APPLIED 2026-08-16.** All eleven amendments below have been incorporated into `research-program.md` (with § references updated to the six-track numbering). Amendment #9 was already satisfied by the track-organized bibliography; #10/#11 were added in the critiques revision and are likewise applied.
 
 1. §4/§3: network/ODE formulation primary; "relaxation system (telegraph-type)" vocabulary; PDE language reserved for continuum limits. (A2, C2)
 2. §4 T3: state singular-limit scoping — compact-time validity, initial layers, non-uniform-in-time under technical change. (A5, C3)
@@ -274,9 +276,9 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 4. §4 risks: stability results are local; global dynamics via simulation. (C4)
 5. §2.4 + §6: add statistical-equilibrium neighbors (Foley 1994; Scharfenaker–Semieniuk 2017) and Mohun–Veneziani 2017; reframe C1 as microfoundation ("kinetic role"). (E2, D1, B3)
 6. §3/A2: disclaimer — "entropy" = convex Lyapunov structure; no operational thermodynamic claim. (D2)
-7. §5: add GENERIC/contact-geometry pole to Track B (Grmela refs). (D3) [lit note done; §5 edit pending]
+7. §5: add GENERIC/contact-geometry pole to Track B (Grmela refs). (D3)
 8. §10 (phasing): scope-discipline line; ecological macro named only as a future application domain. (E3)
-9. `references.bib`: add foley1994, scharfenaker-semieniuk2017, mohun-veneziani2017, jin-xin1995, grmela-ottinger1997 (I & II), grmela2015, grmela2021, ottinger2005. [**done** — in the six-track bibliography]
+9. `references.bib`: add foley1994, scharfenaker-semieniuk2017, mohun-veneziani2017, jin-xin1995, grmela-ottinger1997 (I & II), grmela2015, grmela2021, ottinger2005. [done — in the six-track bibliography]
 10. §8 (Track E) and §9 (Track F): explicit sentence — these tracks are cross-cutting infrastructure for A–D, not standalone research agendas. (E4)
 11. §8 E2: constrained closure discovery (learn within the admissible class — entropy principle, subcharacteristic condition; forward validation on unseen regimes). §9 (Track F): scope note — F certifies the discrete core and concrete numerical bounds, not the full continuum theorem package. (D4, C6)
 
