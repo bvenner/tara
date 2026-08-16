@@ -77,3 +77,8 @@
 - Track F: libkind-etal2022 (Operadic modeling of dynamical systems, arXiv 2105.12282); morris-etal2024 (Decapodes, arXiv 2401.17432); armstrong-kuusi2025 (Inventiones 242:895–1086, DOI 10.1007/s00222-025-01370-9); coarsegraining-lean and lerayhopf-lean (GitHub repos, @misc); vandoor-macbeth2024 (ITP 2024, LIPIcs 309:37, DOI 10.4230/LIPIcs.ITP.2024.37); martin-dorel-melquiond2016 (J. Automated Reasoning 57:187–217).
 
 **Uncommitted:** research-program.md, references.bib, critiques.md (one § ref fix), research-log.md, literature/grmela-generic-multiscale.md. Per standing rule, left unstaged for Brad.
+
+## 2026-08-16 — Commit + context preservation
+
+- Committed `7550d93` (six-track completion + critiques + track-organized bibliography).
+- **Compaction prep:** wrote `to_human/2026-08-16-context-preservation.md` capturing conversation-only material: Brad's origin statement (Jou 2020 was the inspiration), Master's exposé format benchmarks + agreed structure, status of Brad's four next-step candidates, the 9 pending amendments (unapplied), open decisions (Master's sub-problem M1–M6; push; ecological macro; AnyType ingestion), verification ledger, and key intellectual landmarks. **Read this file first after any context reset.**
