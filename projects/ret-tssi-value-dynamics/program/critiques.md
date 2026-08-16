@@ -4,6 +4,8 @@
 
 Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **Response** / **Program impact** (required amendment, if any).
 
+**Revision note (2026-08-16):** original version covered the four-track program. Updated for the six-track program (Tracks E — Physics × CS and F — Mathematics × CS added): new objections C5, C6, D4, E4; existing B2 and D1 responses extended with the computational tracks' answers; amendments list extended (#10, #11). Track letters and § references follow the six-track `research-program.md`.
+
 ---
 
 ## A. From economics broadly
@@ -90,7 +92,7 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 **Force.** Correct that closure is underdetermined by the conservation laws alone. This is the deepest methodological objection.
 
-**Response.** Three layers. (a) RET's whole point is that constitutive relations are *not* determined by balance laws; they are restricted by the entropy principle and by objectivity-type requirements — the program imports exactly this discipline, so the charge is answered by the methodology, not by the closure's uniqueness. (b) The Cattaneo closure is the *minimal inertial extension* of the universal gravitation closure: every cross-dual model in the literature (Steedman, Flaschel–Semmler, Duménil–Lévy) is recovered at τ_J = 0. It is the conservative choice, not an arbitrary one. (c) Closure identification from ABM microdata (Track C) is the empirical answer, mirroring how kinetic theory motivates moment closures.
+**Response.** Four layers. (a) RET's whole point is that constitutive relations are *not* determined by balance laws; they are restricted by the entropy principle and by objectivity-type requirements — the program imports exactly this discipline, so the charge is answered by the methodology, not by the closure's uniqueness. (b) The Cattaneo closure is the *minimal inertial extension* of the universal gravitation closure: every cross-dual model in the literature (Steedman, Flaschel–Semmler, Duménil–Lévy) is recovered at τ_J = 0. It is the conservative choice, not an arbitrary one. (c) Closure identification from ABM microdata (Track C) is the empirical answer, mirroring how kinetic theory motivates moment closures. (d) The computational answer (Track E's E2): closure becomes a *falsifiable object* — detected, identified, and forward-validated from microdata rather than assumed (see D4 for the circularity/admissibility caveats).
 
 **Program impact.** State (b) explicitly in the program doc — "nests the entire gravitation literature at τ_J=0" is a strong, checkable claim; keep it prominent.
 
@@ -136,7 +138,7 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 **Response.** Primary vocabulary: *relaxation system, telegraph-type, inertial adjustment*. "Hyperbolic" survives rigorously in two places: the continuum limit of large networks, and the formal analogy to the Cattaneo law. Jin–Xin relaxation systems are the correct citation home.
 
-**Program impact.** Same amendment as A2 (network-first). Add Jin & Xin (1995, *CPAM* 48:235–276) to references.
+**Program impact.** Same amendment as A2 (network-first). Jin & Xin (1995, *CPAM* 48:235–276) added to references; also the anchor scheme for Track E's E1, which makes the network-first framing concrete.
 
 ### C3. The singular limit is only locally valid in time
 
@@ -158,6 +160,26 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 **Program impact.** Add to program doc Track A risks: "stability results are local; global dynamics via simulation only."
 
+### C5. "Formalization is a proof of the obvious" (Track F)
+
+**Objection.** Certifying the discrete TSSI recursion in Lean adds rigor but no knowledge: the well-posedness and exponential-decay claims are not in doubt, so the effort produces a machine-checked statement of a theorem nobody was worried about.
+
+**Force.** For F1 as scoped (the discrete recursion), substantively true — the target was chosen for feasibility, not because the claim is controversial.
+
+**Response.** (a) The value of F1 is trust, exact statement, and skills: it eliminates the *ambiguity* component of the TSSI debate — a machine-checked statement cannot silently change definition mid-proof, which is a live complaint in that literature (cf. B2's underdetermination-as-ambiguity reading). (b) F1 is the deliberately simple *entry point*; the program's long-horizon formalization targets (relaxation limits, entropy-extension structure) are where certification would be non-obvious — F builds the theorem bank for that. (c) The verification-ledger value is real for a multi-track program: certified lemmas are reusable infrastructure across A–F, not per-paper artifacts.
+
+**Program impact.** None to the program doc; scope F1 explicitly as "trust + exactness infrastructure, not new mathematics" in §9 (Track F).
+
+### C6. "Proof assistants aren't ready for the real objects" (Track F)
+
+**Objection.** The load-bearing claims — symmetric hyperbolicity, relaxation limits, SK conditions, entropy extensions — are PDE/functional-analysis results. Formalizing even the discrete recursion requires rebuilding large analysis infrastructure (the De Giorgi–Nash–Moser Lean project alone needed ~20,000 lines of Sobolev-space library). F is a research program inside a research program.
+
+**Force.** Correct as a feasibility statement; the formalization frontier is real.
+
+**Response.** Division of labor within F: (a) F1 targets the *discrete* recursion, where the mathematics is discrete/combinatorial — the sweet spot for proof assistants — not the continuum claims; (b) continuous claims remain pen-and-paper, with F3 supplying *verified numerics* (CoqInterval/Flocq) exactly where concrete error bounds matter (T3's relaxation-limit estimates, E1's solver certificates) — a much smaller, mature, tractable target than formalizing PDE existence theory; (c) F2's executability (Decapodes) is a different, cheaper kind of "certification" (working software over machine-checked proofs). Scoped this way, F1–F3 are each feasible; formalizing the full theorem package is deliberately *not* promised.
+
+**Program impact.** None to the program doc; add a scope sentence to §9 (Track F): "F does not promise full formalization of the continuum claims; it certifies the discrete core and the concrete numerical bounds."
+
 ---
 
 ## D. From physics / thermodynamics
@@ -168,7 +190,7 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 **Force.** The strongest physics-side objection; without microfoundations the closure hierarchy is unjustified.
 
-**Response.** The ABM (Wright-style) plays the kinetic role: the continuum/relaxation system is the hydrodynamic limit of agent microdynamics, with the telegraph→diffusion rescaling (Kac 1974) as the exact template. Track C is thus not "validation" but the program's kinetic theory. Note EIT is phenomenological and accepted in physics; not every extended theory needs a Boltzmann.
+**Response.** The ABM (Wright-style) plays the kinetic role: the continuum/relaxation system is the hydrodynamic limit of agent microdynamics, with the telegraph→diffusion rescaling (Kac 1974) as the exact template. Track C is thus not "validation" but the program's kinetic theory; Track E's E3 makes this quantitative — numerical verification of the ABM-to-continuum limit and honest finite-size scaling (risk R10). Note EIT is phenomenological and accepted in physics; not every extended theory needs a Boltzmann.
 
 **Program impact.** One sentence in §6 (Track C) reframing C1 as the microfoundation, not just a testbed.
 
@@ -190,17 +212,27 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 **Response.** Division of labor: RET supplies the *hyperbolicity discipline* and the mature relaxation-limit/stability theory the program's Phase-1 theorems need; GENERIC supplies the *geometric* architecture and the multiscale/reduction viewpoint, which is the right language for Track B (foundations) and possibly for the large-network limit. The frameworks answer different questions here; the program relates rather than chooses between them. A Grmela-style "reduction between levels of description" is arguably the correct *foundational* reading of the value→price passage — to be developed under Track B.
 
-**Program impact.** This is Brad's next-step item 4; a literature note on GENERIC/multiscale thermodynamics should be added (Grmela–Öttinger 1997 PRE 56:6620/6633; Grmela Entropy 2015, 17:5938; Entropy 2021, 23:165; Öttinger 2005 book) and §5 (Track B) amended to name GENERIC/contact geometry as the geometric pole alongside Lawvere/operads.
+**Program impact.** This is Brad's next-step item 4; a literature note on GENERIC/multiscale thermodynamics should be added (Grmela–Öttinger 1997 PRE 56:6620/6633; Grmela Entropy 2015, 17:5938; Entropy 2021, 23:165; Öttinger 2005 book) and §5 (Track B) amended to name GENERIC/contact geometry as the geometric pole alongside Lawvere/operads. [Status: literature note done (`literature/grmela-generic-multiscale.md`); §5 amendment pending.]
+
+### D4. "Learned closures are circular or unphysical" (Track E)
+
+**Objection.** E2's data-driven closure identification is doubly suspect. *Circularity:* the ABM supplies the training data, but the ABM was built by us — we recover our own modeling assumptions, and the "discovered" τ_J is a projection of what was put in. *Admissibility:* unconstrained machine-learned closures can violate thermodynamic structure (positive entropy production, subcharacteristic condition, frame-invariance), yielding numerically fitted but physically meaningless constitutive relations.
+
+**Force.** Both halves are well-founded. The circularity charge is the standard objection to ML equation discovery (the physics literature concedes learned closures "discover" assumptions); the admissibility failure is an active, documented problem in scientific ML (generalizability and interpretability are open issues; the closure-discovery literature explicitly wrestles with physical-law adherence).
+
+**Response.** (a) *Breaking circularity:* the ABM must be specified at a genuinely different level from the continuum model — agent rules grounded in micro-behavior, not in the relaxation equations — and the learned closure validated *forward* on unseen regimes (new sector topologies, out-of-distribution shocks), not by residual fit on training data. (b) *Admissibility by construction:* learn within the admissible class — physics-informed penalties or, better, *symbolic/sparse discovery within a constrained dictionary* (cf. Pan–Duraisamy 2018; Gupta–Lermusiaux 2021) so the entropy-principle and subcharacteristic structure is imposed, not left to the optimizer. (c) *Honest deliverable:* E2's primary output is *detection* (is relaxation structure present at all, and is τ_J identifiable?) plus identification of the minimal admissible closure — a falsifiable object, not a "true law."
+
+**Program impact.** None to the program doc's §8 (already flags interpretability in R9); make the constrained-discovery requirement explicit in Track E §8 (E2) — "learn within the admissible class (entropy principle, subcharacteristic condition), validated forward."
 
 ---
 
 ## E. Meta
 
-### E1. Two-audience squeeze
+### E1. Audience squeeze (now four disciplines)
 
-**Objection.** Too much physics for economists, too much economics for mathematicians; falls between venues.
+**Objection.** Too much physics for economists, too much economics for mathematicians, and with the computational tracks: too much methodological machinery for both. Falls between venues.
 
-**Response.** Per-track publication (already §7); the Master's thesis is pure applied math with an economic motivation section; the econ-facing paper leads with the Veneziani gap and cites the math paper for proofs.
+**Response.** Per-track publication (already §10); the Master's thesis is pure applied math with an economic motivation section; the econ-facing paper leads with the Veneziani gap and cites the math paper for proofs. The four-discipline framing *helps* here: it makes explicit that no single paper speaks to all audiences, and it justifies the per-track venue mapping in §10.
 
 **Program impact.** None.
 
@@ -214,13 +246,23 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 
 **Program impact.** Add Foley (1994) + Scharfenaker–Semieniuk (2017) + Mohun–Veneziani (2017, *J. Econ. Surveys* 31:1387–1420 — the axiomatic "impossibility result" reading of the transformation problem, which the program's relocation move (A4) must cite) to `references.bib`; brief mentions in program doc §2.4 and §4.
 
-### E3. Scope creep (self-critique)
+### E3. Scope creep (self-critique, sharpened for six tracks)
 
-**Objection.** Three tracks, two disciplines, category theory in the attic — classic overreach.
+**Objection.** Six tracks, four disciplines, category theory in the attic, neural closures in the basement — this reads as an everything-and-the-kitchen-sink agenda. Overreach.
 
-**Response.** The Master's thesis is deliberately minimal (M1); Tracks B/C are sequenced behind A1. The program document is a map, not a promise. Resist adding ecological macro (Brad's item 2) as anything more than a named future application.
+**Response.** The Master's thesis is deliberately minimal (M1); Tracks B–F are sequenced behind A1, and E/F are *cross-cutting infrastructure for A–D*, not standalone agendas (see E4). The program document is a map, not a promise. Resist adding ecological macro (Brad's item 2) as anything more than a named future application.
 
-**Program impact.** Add one line to §7: scope discipline statement.
+**Program impact.** Add one line to §10 (phasing): scope-discipline statement naming the sequencing and the infrastructure role of E/F.
+
+### E4. "The computational tracks are orthogonal to value theory"
+
+**Objection.** With six tracks, an economist reviewer asks where the economics went: E (numerics, ML closures) and F (proof assistants, category-theory software) look like methodology applicable to *any* system, with value theory reduced to a motivating paragraph. The economic content could be window-dressing.
+
+**Force.** True if E and F are read as independent research programs; each genuinely is transferable technology.
+
+**Response.** E and F are explicitly *servants* of A–D, not free-standing agendas, and each is defined by the value-theory problem it serves: E1's solvers exist to verify Track A's theorems (T2, T3) numerically; E2's closure question exists only because the underdetermination critique (B2) demands it, and its output (relaxation structure, identifiable τ_J) is the model's economic content; F1 formalizes Track D's D1 (the TSSI recursion); F2 implements Track B's B1 (the extended-thermodynamics operad) with the economic system as the test case; F3 certifies the *economic* claims' error bounds. The §8–§9 headers in the program doc should state this dependency explicitly.
+
+**Program impact.** **Amend:** add to §8 (Track E) and §9 (Track F) an explicit "these tracks are infrastructure for A–D; they are not promoted as standalone research agendas" sentence.
 
 ---
 
@@ -232,15 +274,19 @@ Format: **Objection** (steelmanned) / **Force** (why it can't be waved off) / **
 4. §4 risks: stability results are local; global dynamics via simulation. (C4)
 5. §2.4 + §6: add statistical-equilibrium neighbors (Foley 1994; Scharfenaker–Semieniuk 2017) and Mohun–Veneziani 2017; reframe C1 as microfoundation ("kinetic role"). (E2, D1, B3)
 6. §3/A2: disclaimer — "entropy" = convex Lyapunov structure; no operational thermodynamic claim. (D2)
-7. §5: add GENERIC/contact-geometry pole to Track B (Grmela refs). (D3)
+7. §5: add GENERIC/contact-geometry pole to Track B (Grmela refs). (D3) [lit note done; §5 edit pending]
 8. §10 (phasing): scope-discipline line; ecological macro named only as a future application domain. (E3)
-9. `references.bib`: add foley1994, scharfenaker-semieniuk2017, mohun-veneziani2017, jin-xin1995, grmela-ottinger1997 (I & II), grmela2015, grmela2021, ottinger2005.
+9. `references.bib`: add foley1994, scharfenaker-semieniuk2017, mohun-veneziani2017, jin-xin1995, grmela-ottinger1997 (I & II), grmela2015, grmela2021, ottinger2005. [**done** — in the six-track bibliography]
+10. §8 (Track E) and §9 (Track F): explicit sentence — these tracks are cross-cutting infrastructure for A–D, not standalone research agendas. (E4)
+11. §8 E2: constrained closure discovery (learn within the admissible class — entropy principle, subcharacteristic condition; forward validation on unseen regimes). §9 (Track F): scope note — F certifies the discrete core and concrete numerical bounds, not the full continuum theorem package. (D4, C6)
 
 ## Watch list (to read before the exposé)
 
 - Foley (1994) — the neighbor we must position against.
 - Mohun & Veneziani (2017), *J. Econ. Surveys* — the axiomatic/impossibility framing.
 - Scharfenaker & Semieniuk (2017) — the best current profit-rate distribution empirics.
-- Jin & Xin (1995) — relaxation systems vocabulary home.
+- Jin & Xin (1995) — relaxation systems vocabulary home; Track E's anchor scheme.
 - Grmela (2015, 2021) — multiscale thermodynamics; Track B geometry.
 - Naples (1993) — the equilibrium/disequilibrium charge against Kliman–McGlone (A6).
+- If **M5** (Track E): Raissi, Perdikaris & Karniadakis (2019) and Pan & Duraisamy (2018) / Gupta & Lermusiaux (2021) — the data-driven-closure toolkit; the "scientific machine learning for closure models" review (Found. Data Sci.) for the interpretability caveats (D4).
+- If **M6** (Track F): Libkind et al. (2022, operadic modeling) and Morris et al. (2024, Decapodes) — the executable-categorical toolkit; Martin-Dorel & Melquiond (2016, CoqInterval) — the verified-numerics route; one of the large Lean PDE formalizations (De Giorgi–Nash–Moser or Leray–Hopf) to calibrate effort (C6).
