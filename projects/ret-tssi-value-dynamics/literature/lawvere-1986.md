@@ -1,0 +1,7 @@
+# Lawvere & Schanuel (1986) — Categories in Continuum Physics
+
+**Citation:** Lawvere, F. W., & Schanuel, S. H. (Eds.) (1986). *Categories in Continuum Physics: Lectures given at a Workshop held at SUNY, Buffalo 1982*. Lecture Notes in Mathematics 1174. Berlin: Springer. See also Lawvere, "Toposes of laws of motion" and related nLab material (ncatlab.org/nlab/show/Categories+in+Continuum+Physics).
+
+**Core content:** Category-theoretic foundations for continuum mechanics and (rational) thermodynamics: intensive vs. extensive quantities organized via mapping spaces/function algebras; kinematics and constitutive structure in topos-theoretic and synthetic differential geometry (SDG) settings; the program of giving the Truesdell–Noll rational mechanics a functorial semantics. Also contains the germ of treating "laws of motion" categorically.
+
+**Relevance to program:** The missing historical link Track B needs: the *Truesdellian* pole of the foundations debate already has a categorical treatment (Lawvere), while the Müller–Ruggeri pole does not. The program's B2 project — a unified category/type-theoretic axiomatization in which Coleman–Noll-style rational thermodynamics and RET appear as different models/semantics of one formal theory — explicitly extends Lawvere's program from rational thermodynamics to *rational extended* thermodynamics. SDG also offers a language for the "infinitesimal neighborhood" structures underlying balance laws.

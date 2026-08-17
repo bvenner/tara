@@ -1,0 +1,7 @@
+# Steedman (1984) — Natural Prices, Differential Profit Rates and the Classical Competitive Process
+
+**Citation:** Steedman, I. (1984). Natural prices, differential profit rates and the classical competitive process. *The Manchester School*, 52(2), 123–140. DOI: 10.1111/j.1467-9957.1984.tb00774.x
+
+**Core content:** Formalizes the classical "cross-dual" gravitation process: quantities supplied adjust to profitability differentials (capital flows toward high-profit sectors) while market prices adjust to excess demand. Shows convergence to natural (production) prices is not guaranteed in general — the cross-dual tâtonnement can fail to equalize profit rates. Part of a cluster: Nikaido (1977/78 mimeo, "Refutation of the dynamic equalization of profit rates in Marx's scheme of reproduction"; 1983 *Cambridge Journal of Economics* version) showed the naive gravitation argument can diverge; Boggio (1985, *Metroeconomica*) studied alternative disequilibrium assumptions.
+
+**Relevance to program:** Supplies the base dynamical system the program hyperbolizes. The cross-dual process slaves capital reallocation instantaneously to profit-rate differentials — a Fourier-type closure. Its convergence failures are the economic analog of the parabolic theory's defects; whether the Cattaneo-extended (inertial) version converges under an SK-type condition is a core Track-A question. Steedman's negative result sets the bar: the program must explain *when* gravitation works.

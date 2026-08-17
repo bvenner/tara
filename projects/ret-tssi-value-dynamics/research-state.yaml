@@ -1,0 +1,76 @@
+# Research State — Central Project Tracking
+project:
+  title: "Rational extended thermodynamics as a formal framework for the temporal single-system interpretation of the transformation problem"
+  question: "Can the temporal single-system interpretation (TSSI) of Marxian value theory be given a rigorous dynamical foundation by formal analogy with rational extended thermodynamics (RET) — specifically, the hyperbolization of parabolic transport equations via relaxation of fluxes to state variables?"
+  status: active
+  started: "2026-08-15"
+  domain: "Marxian econophysics / applied mathematics"
+  deliverables:
+    primary: "program/research-program.md (Ph.D.-scale research program)"
+    phase2: "proposal/masters-proposal.md (6-month Master's thesis exposé; sub-problem TBD after program review)"
+
+literature:
+  key_papers:
+    - "literature/kliman-mcglone-1999.md"
+    - "literature/freeman-1996.md"
+    - "literature/veneziani-2005.md"
+    - "literature/mohun-veneziani-2009.md"
+    - "literature/bortkiewicz-sraffa-dual-system.md"
+    - "literature/muller-ruggeri-1998.md"
+    - "literature/cattaneo-1948.md"
+    - "literature/ruggeri-strumia-1981.md"
+    - "literature/jou-etal-eit.md"
+    - "literature/chen-levermore-liu-1994.md"
+    - "literature/stability-dissipative-hyperbolic.md"
+    - "literature/farjoun-machover-1983.md"
+    - "literature/cottrell-etal-2009.md"
+    - "literature/wright-2005.md"
+    - "literature/cockshott-2016.md"
+    - "literature/cockshott-cottrell-1998.md"
+    - "literature/steedman-1984.md"
+    - "literature/flaschel-semmler-1987.md"
+    - "literature/dumenil-levy-1987.md"
+    - "literature/burger-etal-2013.md"
+    - "literature/ratanov-telegraph-finance.md"
+    - "literature/baez-lynch-moeller-2023.md"
+    - "literature/lawvere-1986.md"
+    - "literature/rational-thermodynamics-tradition.md"
+  open_problems:
+    - "TSSI lacks a rigorous disequilibrium-dynamics framework (Veneziani 2005 critique)"
+    - "No hyperbolic/relaxation treatment of value-price equilibration exists in the literature"
+    - "Categorical foundations (Baez-Lynch-Moeller) cover equilibrium thermostatics only; non-equilibrium/extended case is open"
+    - "No unified account of the Coleman-Noll vs Müller-Liu entropy-exploitation procedures"
+  evidence_gaps:
+    - "No empirical estimates of value-price relaxation times"
+    - "Gravitation literature (cross-dual dynamics) has mixed convergence results without a unifying stability criterion"
+
+hypotheses:
+  - id: H1
+    statement: "TSSI value-price dynamics can be written as a system of hyperbolic balance laws with Cattaneo-type relaxation of intersectoral capital fluxes."
+  - id: H2
+    statement: "The system admits a convex entropy extension, hence symmetric-hyperbolic form and a well-posed Cauchy problem (Ruggeri-Strumia mechanism)."
+  - id: H3
+    statement: "Under a Shizuta-Kawashima-type coupling condition, the production-price equilibrium is asymptotically stable; failure of the condition explains known non-convergence results."
+  - id: H4
+    statement: "The simultaneist (Sraffian dual-system) determination emerges as the tau -> 0 relaxation (singular) limit of the temporal system."
+
+experiments:
+  proxy_metric: ""
+  baseline_value: null
+  best_value: null
+  total_runs: 0
+  trajectory: []
+
+outer_loop:
+  cycle: 0
+  last_direction: null
+  last_reflection: ""
+
+workspace:
+  findings: "findings.md"
+  log: "research-log.md"
+  literature_dir: "literature/"
+  experiments_dir: "experiments/"
+  to_human_dir: "to_human/"
+  program_dir: "program/"
+  proposal_dir: "proposal/"

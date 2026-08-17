@@ -1,5 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "instructions": ["projects/ret-tssi-value-dynamics/AGENTS.md"],
   "mcp": {
     "anytype": {
       "type": "local",

@@ -1,0 +1,9 @@
+# Bortkiewicz–Sraffa Tradition — The Simultaneous Dual-System Benchmark
+
+**Citation:** Bortkiewicz, L. von (1907). On the correction of Marx's fundamental theoretical construction in the third volume of *Capital*. (English translation in *Value and Distribution in Capitalist Society*, 1949.) Sraffa, P. (1960). *Production of Commodities by Means of Commodities*. Cambridge University Press. Steedman, I. (1977). *Marx after Sraffa*. London: NLB.
+
+**Core structure:** Prices of production p and the uniform profit rate r determined simultaneously by p = (1+r)(pA + wl) (in modern notation: p = (1+r)pM with augmented input matrix M). Input prices equal output prices *by construction*. Values (labor embodied) λ = λA + l form a *separate* system; the two systems are related only at aggregate level (and, on the standard reading, Marx's two aggregate equalities cannot both hold — the source of the "inconsistency" charge from Bortkiewicz through Steedman).
+
+**Mathematical character:** An algebraic eigenvalue/fixed-point problem (r from the Perron–Frobenius eigenvalue of M). Time is absent: there is no Cauchy problem, no propagation, no initial conditions. Determination is *instantaneous* in the logical sense — all variables slaved to each other at a single time.
+
+**Relevance to program:** This is the economic analog of the parabolic/instantaneous-closure pole. The program's H4 conjecture is that this algebraic system is recovered as the τ→0 singular limit of a temporal (hyperbolic, relaxational) system — i.e., simultaneism is the "equilibrium approximation" valid when adjustment is fast relative to the dynamics of the data. Note: the simultaneous system is formally *elliptic/algebraic* rather than parabolic; in the analogy, parabolic dynamics arise when the instantaneous closure is embedded in an adjustment process (cross-dual gravitation), and the simultaneist equilibrium is its rest state.

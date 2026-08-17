@@ -42,4 +42,6 @@ orchestra-opencode-demo/
 .opencode/
 car-decision.md
 tara.md
-projects/
+projects/*
+# Exception: RET×TSSI research program (tracked at owner's request, 2026-08)
+!projects/ret-tssi-value-dynamics/

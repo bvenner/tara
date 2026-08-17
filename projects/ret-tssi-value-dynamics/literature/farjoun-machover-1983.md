@@ -1,0 +1,7 @@
+# Farjoun & Machover (1983) — Laws of Chaos
+
+**Citation:** Farjoun, E., & Machover, M. (1983). *Laws of Chaos: A Probabilistic Approach to Political Economy*. London: Verso. (Reissued 2020.) See also their NLR I/152 (1985) summary, "Probability, economics and the labour theory of value."
+
+**Core claim:** Basic economic categories (price, rate of profit) should be theorized as *random variables* interconnected by statistical laws, not as determinate quantities. The determinist mediation between values and market prices via prices of production is the source of the transformation problem; under probabilist scrutiny it "melts away." Predicts specific distributions: near-degenerate price/value correlations, a gamma-like distribution of profit rates (no equalization of the rate of profit — rather a stationary dispersion).
+
+**Relevance to program:** Founding text of probabilistic political economy / classical econophysics. Two connections: (1) the rejection of instantaneous profit-rate equalization is consonant with finite-speed adjustment — a stationary *dispersion* of profit rates is what a hyperbolic relaxation system with persistent forcing predicts, not a degenerate equilibrium; (2) Track C's empirical program (estimating relaxation spectra) presupposes this statistical framing. Also a methodological caution: the program's deterministic balance-law core should be understood as a mean-field description of an underlying stochastic process.
