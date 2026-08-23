@@ -90,5 +90,30 @@ Workers: `scripts/graph_query.py` (JSON Lines in/out, resolves the graph relativ
 
 ## Next
 
-- **Step 3:** one agentic reasoning pass over the corpus via these pipelines (e.g. grounding the τ→0 / SK-condition exposition through `evidence`), outputting an evidence trace.
+- **Step 3 ✅ — agentic reasoning pass (hyperedge intersection)** (2026-08-23). Two new pipelines, `trace.plumb` (structured `Trace`) and `trace_report.plumb` (markdown), implement hyperedge-intersection reasoning: given seed concepts, keep only hyperedges where ≥ `min_seeds` co-occur. This is the "node-intersection as a verifiable guardrail" move from the HGR methodology, done with no LLM.
+
+### The demo question
+
+> How does the τ→0 relaxation limit relate to the SK condition for gravitation convergence?
+
+Seeds: `[tau_J, sk condition, subcharacteristic, gravitation, T3]`, `min_seeds = 3`. Result: **14 intersecting hyperedges across 14 sections**, ranked by seed count then arity:
+
+| Rank | Seeds | Sec. | Location |
+|---|---|---|---|
+| 1 | all 5 | §4 Track A | `research-program.md` — the hyperbolic value-price system |
+| 2 | 4 | §5 | `findings.md` — model skeleton (T1–T4, Cattaneo closure) |
+| 3 | 3+ | §3 | `research-program.md` — the core correspondence table |
+| … | 3–4 | §6/7/8 | `proposal-walkthrough.md` — math / economics / CS explainers |
+| … | 3 | §4 | `findings.md` — correspondence table · §A1 critiques · §9 landmarks |
+
+The trace recovers precisely the sections that jointly ground the answer (Track A formulation → model skeleton → correspondence → walkthrough treatments), with full provenance per hyperedge. Artifact saved at `graph/evidence-trace-tau-sk.md`.
+
+### Step 3 gotcha
+
+Worker `graph_query.py` gained `--mode trace` / `--mode trace-text` (JSON-Lines in/out, exact-field record output so the `Trace` boundary type checks). `si`-based per-seed indexing, dedup by edge id, ranked output — all deterministic, no LLM.
+
+## Next
+
 - Later: embeddings; then (decision-staged) LLM relation-typing as enrichment.
+- Broaden corpus (Phase B): multi-project corpora + OpenAlex expansion; incremental rebuild.
+- Step 3b option: run the same trace over a different question or with `min_seeds=2` to widen, or pair the evidence bundle with an LLM once a provider key is available.

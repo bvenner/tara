@@ -7,6 +7,8 @@ Resolves the graph artifact relative to this file, so it works regardless of cwd
 Modes:
   --mode json  : `{concept}`            -> QueryResult (typed record)
   --mode text  : `{concept, max_edges}` -> string (markdown evidence bundle)
+  --mode trace : `{topic, concepts, min_seeds}` -> Trace (hyperedge intersections)
+  --mode trace-text : same             -> string (markdown evidence trace)
 """
 import argparse
 import json
@@ -93,6 +95,61 @@ def to_text(g, concept, nids, edges):
     return "\n".join(lines)
 
 
+def trace(g, index, topic, concepts, min_seeds, max_edges=40):
+    seeds = []
+    for c in concepts:
+        nids = match_nodes(g, c)
+        seeds.append({"concept": c, "matched_nodes": [g["nodes"][n]["label"] for n in nids]})
+    edge_hits = {}
+    for si in range(len(concepts)):
+        for nid in match_nodes(g, concepts[si]):
+            for e in index.get(nid, []):
+                if e["id"] not in edge_hits:
+                    edge_hits[e["id"]] = set()
+                edge_hits[e["id"]].add(si)
+    hits = []
+    for eid, sids in edge_hits.items():
+        if len(sids) < min_seeds:
+            continue
+        e = next(e for e in g["hyperedges"] if e["id"] == eid)
+        hits.append({
+            "edge_id": e["id"], "doc": e["doc"], "section": e["section"],
+            "arity": e["arity"],
+            "seeds": [concepts[i] for i in sorted(sids)],
+            "nodes": [g["nodes"][n].get("label", n) for n in e["nodes"]],
+        })
+    hits.sort(key=lambda h: (len(h["seeds"]), h["arity"]), reverse=True)
+    hits = hits[:max_edges]
+    return {
+        "topic": topic, "min_seeds": min_seeds, "seeds": seeds, "hits": hits,
+        "distinct_sections": len({(h["doc"], h["section"]) for h in hits}),
+    }
+
+
+def trace_text(t, concept_labels=None):
+    lines = [f"# Evidence trace — {t['topic']}", ""]
+    lines.append(f"Seed concepts ({len(t['seeds'])}; min seeds per edge = {t['min_seeds']}):")
+    for s in t["seeds"]:
+        if s["matched_nodes"]:
+            lines.append(f"- `{s['concept']}` -> {', '.join(s['matched_nodes'])}")
+        else:
+            lines.append(f"- `{s['concept']}` -> (no match)")
+    if not t["hits"]:
+        lines.append("\nNo hyperedge contains enough of these seeds together.")
+        return "\n".join(lines)
+    lines.append(f"\nIntersecting hyperedges ({len(t['hits'])}; across {t['distinct_sections']} sections):\n")
+    by_section = {}
+    for h in t["hits"]:
+        by_section.setdefault((h["doc"], h["section"]), []).append(h)
+    for (doc, section), hs in by_section.items():
+        lines.append(f"### {doc} :: {section}")
+        for h in hs:
+            lines.append(f"- [{h['arity']} members; seeds: {', '.join(h['seeds'])}]")
+            lines.append(f"    {', '.join(h['nodes'])}")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", default="json")
@@ -104,14 +161,19 @@ def main():
         if not line:
             continue
         req = json.loads(line)
-        concept = req.get("concept", "")
-        max_edges = int(req.get("max_edges", args.max_edges))
-        nids = match_nodes(g, concept)
-        edges = collect(index, nids, max_edges)
-        if args.mode == "text":
-            print(json.dumps(to_text(g, concept, nids, edges)))
+        if args.mode in ("trace", "trace-text"):
+            t = trace(g, index, req.get("topic", ""), req.get("concepts", []),
+                      int(req.get("min_seeds", 2)), max_edges=int(req.get("max_edges", 40)))
+            print(json.dumps(trace_text(t) if args.mode == "trace-text" else t))
         else:
-            print(json.dumps(to_json(g, concept, nids, edges)))
+            concept = req.get("concept", "")
+            max_edges = int(req.get("max_edges", args.max_edges))
+            nids = match_nodes(g, concept)
+            edges = collect(index, nids, max_edges)
+            if args.mode == "text":
+                print(json.dumps(to_text(g, concept, nids, edges)))
+            else:
+                print(json.dumps(to_json(g, concept, nids, edges)))
         sys.stdout.flush()
 
 
