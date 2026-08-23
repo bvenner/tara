@@ -47,3 +47,5 @@ projects/*
 !projects/ret-tssi-value-dynamics/
 # Exception: knowledge-repository proof of concept (2026-08)
 !projects/knowledge-repository-poc/
+# Exception: island-digital-twin research question (2026-08)
+!projects/island-digital-twin/
