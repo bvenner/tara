@@ -11,8 +11,9 @@ Hyperedges: sets of concepts co-occurring per section of each document.
 
 Outputs (under <poc>/graph/):
   hypergraph.json   — nodes, hyperedges, provenance, HNX-compatible shape
+  index.json        — node -> incident edge ids (query sidecar; sha of hypergraph)
   provenance.tsv    — per-hyperedge doc/section provenance
-  stats.json        — counts, degree/arity distributions
+  stats.json        — counts, degree/arity distributions, hub-coverage warning
     
 Incremental fast path: a content-hash of every document and the manifest
 is stored in graph/build_meta.json; when nothing changed, artifacts are
@@ -288,7 +289,7 @@ def build():
                     continue
                 if any(norm(n) and regex_any(n, en["year"], section_norm, key) for n in en["names"]):
                     present.add(node_id(key + (f" ({en['year']})" if en["year"] else ""), "citation"))
-                    for n in en["names"]:
+                    for n in sorted(en["names"]):
                         present.add(node_id(n, "author"))
 
             for m in ARTIFACT_RE.finditer(section_norm):
@@ -316,6 +317,15 @@ def build():
         for n in e["nodes"]:
             degree[n] += 1
     top_hubs = sorted(degree.items(), key=lambda x: x[1], reverse=True)[:15]
+    degree_hist = {}
+    for lo, hi in [(1, 1), (2, 2), (3, 5), (6, 10), (11, 20), (21, 50),
+                   (51, 100), (101, 500), (501, None)]:
+        label = f"{lo}+" if hi is None else (str(lo) if lo == hi else f"{lo}-{hi}")
+        cnt = sum(c for c in degree.values() if c >= lo and (hi is None or c <= hi))
+        if cnt:
+            degree_hist[label] = cnt
+    hub_coverage = round(max(
+        (c for n, c in degree.items() if nodes[n]["kind"] == "keyword"), default=0) / len(edges), 3) if edges else 0
 
     stats = {
         "docs": len(docs),
@@ -328,6 +338,8 @@ def build():
         "max_degree": max(degree.values()) if degree else 0,
         "top_hubs": [{"node": n, "kind": nodes[n]["kind"], "label": nodes[n]["label"], "degree": d}
                      for n, d in top_hubs],
+        "degree_hist": degree_hist,
+        "hub_coverage": hub_coverage,
         "bib_entries": len(bib),
         "projects": [root["name"] for root in manifest.get("roots", [])],
         "external_works": sum(1 for d in docs if d.get("single_section")),
@@ -358,7 +370,14 @@ def build():
         "nodes": nodes,
         "hyperedges": edges,
     }
-    (OUT_DIR / "hypergraph.json").write_text(json.dumps(graph, indent=1, default=str))
+    graph_json = json.dumps(graph, indent=1, default=str)
+    (OUT_DIR / "hypergraph.json").write_text(graph_json)
+    index = {}
+    for e in edges:
+        for n in e["nodes"]:
+            index.setdefault(n, []).append(e["id"])
+    index_art = {"hypergraph_sha": hashlib.sha256(graph_json.encode()).hexdigest(), "index": index}
+    (OUT_DIR / "index.json").write_text(json.dumps(index_art, indent=1, default=str))
     with (OUT_DIR / "provenance.tsv").open("w") as f:
         f.write("edge_id\tdoc\tsection\tarity\n")
         for e in edges:

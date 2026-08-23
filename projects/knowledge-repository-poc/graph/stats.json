@@ -1,12 +1,12 @@
 {
  "docs": 65,
- "sections": 197,
- "nodes": 864,
- "edges": 197,
+ "sections": 198,
+ "nodes": 865,
+ "edges": 198,
  "node_kinds": {
   "project": 5,
   "section": 164,
-  "keyword": 501,
+  "keyword": 502,
   "notation": 8,
   "artifact": 10,
   "citation": 21,
@@ -15,7 +15,7 @@
  },
  "arity_hist": {
   "2": 15,
-  "3": 28,
+  "3": 29,
   "4": 23,
   "5": 22,
   "6": 15,
@@ -36,7 +36,7 @@
   "23": 1,
   "45": 1
  },
- "mean_degree": 1.704,
+ "mean_degree": 1.705,
  "max_degree": 116,
  "top_hubs": [
   {
@@ -61,7 +61,7 @@
    "node": "project:poc",
    "kind": "project",
    "label": "poc",
-   "degree": 34
+   "degree": 35
   },
   {
    "node": "notation:sk condition",
@@ -130,6 +130,16 @@
    "degree": 16
   }
  ],
+ "degree_hist": {
+  "1": 794,
+  "2": 62,
+  "3-5": 57,
+  "6-10": 49,
+  "11-20": 125,
+  "21-50": 272,
+  "101-500": 116
+ },
+ "hub_coverage": 0.025,
  "bib_entries": 74,
  "projects": [
   "ret-tssi",

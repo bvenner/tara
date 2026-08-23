@@ -137,62 +137,63 @@ e134	poc/REPORT.md	New capability demonstrated	4
 e135	poc/REPORT.md	Incremental fast path	5
 e136	poc/REPORT.md	OpenAlex expansion run (this build)	2
 e137	poc/REPORT.md	Next	4
-e138	poc/REPORT.md	Next	5
-e139	poc/plumbing-setup.md	Plumbing — environment setup & smoke test	4
-e140	poc/plumbing-setup.md	What plumbing provides here	3
-e141	poc/plumbing-setup.md	Installation — the path that works: Nix source build	4
-e142	poc/plumbing-setup.md	nix available: nix 2.34.7 on this host	3
-e143	poc/plumbing-setup.md	Usage	3
-e144	poc/plumbing-setup.md	Run a pipeline from a JSON stream on stdin	2
-e145	poc/plumbing-setup.md	Type-check at load time	3
-e146	poc/plumbing-setup.md	render the architecture as a graph (dot)	3
-e147	poc/plumbing-setup.md	MCP bridge (exposes pipelines as MCP tools to opencode)	4
-e148	poc/plumbing-setup.md	Smoke-test transcript (all passed)	2
-e149	poc/plumbing-setup.md	Notes / gotchas	3
-e150	top/knowledge-repository-proposal.md	An Explicit Knowledge Repository for the opencode Research Assistant	4
-e151	top/knowledge-repository-proposal.md	1. Framing: the gap this fills	3
-e152	top/knowledge-repository-proposal.md	Why hypergraphs, not a pairwise graph	3
-e153	top/knowledge-repository-proposal.md	2. Design principles	4
-e154	top/knowledge-repository-proposal.md	3. Proposed architecture	2
-e155	top/knowledge-repository-proposal.md	4. Component assessment	3
-e156	top/knowledge-repository-proposal.md	5. The knowledge-engineering loop	2
-e157	top/knowledge-repository-proposal.md	6. Phased plan	4
-e158	top/knowledge-repository-proposal.md	7. Risks and open decisions	2
-e159	top/knowledge-repository-proposal.md	8. Why this fits the research program	3
-e160	island-dt/literature-review.md	Island Digital Twin — Literature Review	3
-e161	island-dt/literature-review.md	Executive summary	2
-e162	island-dt/literature-review.md	A. Island & urban metabolism — the flow layer	4
-e163	island-dt/literature-review.md	B. 3D city models & standards — the geometric + data substrate	3
-e164	island-dt/literature-review.md	C. Digital twins — the container (urban theory, island practice, EU policy)	5
-e165	island-dt/literature-review.md	D. Participatory planning support & geodesign — the decision process	3
-e166	island-dt/literature-review.md	Synthesis: how the pieces compose into an "island digital twin"	6
-e167	island-dt/literature-review.md	Caveats	3
-e168	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
-e169	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
-e170	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
-e171	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
-e172	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
-e173	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
-e174	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
-e175	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
-e176	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
-e177	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
-e178	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
-e179	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
-e180	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
-e181	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
-e182	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
-e183	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
-e184	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
-e185	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
-e186	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
-e187	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
-e188	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
-e189	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
-e190	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
-e191	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
-e192	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
-e193	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
-e194	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
-e195	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
-e196	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17
+e138	poc/REPORT.md	Next	3
+e139	poc/REPORT.md	Next	5
+e140	poc/plumbing-setup.md	Plumbing — environment setup & smoke test	4
+e141	poc/plumbing-setup.md	What plumbing provides here	3
+e142	poc/plumbing-setup.md	Installation — the path that works: Nix source build	4
+e143	poc/plumbing-setup.md	nix available: nix 2.34.7 on this host	3
+e144	poc/plumbing-setup.md	Usage	3
+e145	poc/plumbing-setup.md	Run a pipeline from a JSON stream on stdin	2
+e146	poc/plumbing-setup.md	Type-check at load time	3
+e147	poc/plumbing-setup.md	render the architecture as a graph (dot)	3
+e148	poc/plumbing-setup.md	MCP bridge (exposes pipelines as MCP tools to opencode)	4
+e149	poc/plumbing-setup.md	Smoke-test transcript (all passed)	2
+e150	poc/plumbing-setup.md	Notes / gotchas	3
+e151	top/knowledge-repository-proposal.md	An Explicit Knowledge Repository for the opencode Research Assistant	4
+e152	top/knowledge-repository-proposal.md	1. Framing: the gap this fills	3
+e153	top/knowledge-repository-proposal.md	Why hypergraphs, not a pairwise graph	3
+e154	top/knowledge-repository-proposal.md	2. Design principles	4
+e155	top/knowledge-repository-proposal.md	3. Proposed architecture	2
+e156	top/knowledge-repository-proposal.md	4. Component assessment	3
+e157	top/knowledge-repository-proposal.md	5. The knowledge-engineering loop	2
+e158	top/knowledge-repository-proposal.md	6. Phased plan	4
+e159	top/knowledge-repository-proposal.md	7. Risks and open decisions	2
+e160	top/knowledge-repository-proposal.md	8. Why this fits the research program	3
+e161	island-dt/literature-review.md	Island Digital Twin — Literature Review	3
+e162	island-dt/literature-review.md	Executive summary	2
+e163	island-dt/literature-review.md	A. Island & urban metabolism — the flow layer	4
+e164	island-dt/literature-review.md	B. 3D city models & standards — the geometric + data substrate	3
+e165	island-dt/literature-review.md	C. Digital twins — the container (urban theory, island practice, EU policy)	5
+e166	island-dt/literature-review.md	D. Participatory planning support & geodesign — the decision process	3
+e167	island-dt/literature-review.md	Synthesis: how the pieces compose into an "island digital twin"	6
+e168	island-dt/literature-review.md	Caveats	3
+e169	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
+e170	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
+e171	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
+e172	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
+e173	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
+e174	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
+e175	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
+e176	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
+e177	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
+e178	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
+e179	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
+e180	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
+e181	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
+e182	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
+e183	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
+e184	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
+e185	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
+e186	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
+e187	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
+e188	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
+e189	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
+e190	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
+e191	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
+e192	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
+e193	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
+e194	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
+e195	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
+e196	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
+e197	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17

@@ -33,7 +33,7 @@
   "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
   "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
   "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
-  "poc/REPORT.md": "8fecb42490f98f8ab8410aeacb3c2248648d8adb58cce880f2a1d2b3857cd309",
+  "poc/REPORT.md": "0635c31a17ad210177f5c042be7f2af65684359981c231e7b69bd0fa8a3b9fc0",
   "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
   "top/knowledge-repository-proposal.md": "56624daa6c60942a365a1eb578a33d83bf6b4a220585fa9731c3a79f33baf003",
   "island-dt/literature-review.md": "bc29fbec48bf1fce9307bd5de6a3521043839c28636f89203f20b0cfc6e898ca",
@@ -70,13 +70,13 @@
  "n_docs": 65,
  "stats": {
   "docs": 65,
-  "sections": 197,
-  "nodes": 864,
-  "edges": 197,
+  "sections": 198,
+  "nodes": 865,
+  "edges": 198,
   "node_kinds": {
    "project": 5,
    "section": 164,
-   "keyword": 501,
+   "keyword": 502,
    "notation": 8,
    "artifact": 10,
    "citation": 21,
@@ -85,7 +85,7 @@
   },
   "arity_hist": {
    "2": 15,
-   "3": 28,
+   "3": 29,
    "4": 23,
    "5": 22,
    "6": 15,
@@ -106,7 +106,7 @@
    "23": 1,
    "45": 1
   },
-  "mean_degree": 1.704,
+  "mean_degree": 1.705,
   "max_degree": 116,
   "top_hubs": [
    {
@@ -131,7 +131,7 @@
     "node": "project:poc",
     "kind": "project",
     "label": "poc",
-    "degree": 34
+    "degree": 35
    },
    {
     "node": "notation:sk condition",
@@ -200,6 +200,16 @@
     "degree": 16
    }
   ],
+  "degree_hist": {
+   "1": 794,
+   "2": 62,
+   "3-5": 57,
+   "6-10": 49,
+   "11-20": 125,
+   "21-50": 272,
+   "101-500": 116
+  },
+  "hub_coverage": 0.025,
   "bib_entries": 74,
   "projects": [
    "ret-tssi",

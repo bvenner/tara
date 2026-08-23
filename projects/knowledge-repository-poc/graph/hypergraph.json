@@ -1301,13 +1301,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:simon",
-   "label": "simon",
+   "id": "author:roberto",
+   "label": "roberto",
    "kind": "author"
   },
   {
-   "id": "author:roberto",
-   "label": "roberto",
+   "id": "author:simon",
+   "label": "simon",
    "kind": "author"
   },
   {
@@ -1316,13 +1316,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:shi",
-   "label": "shi",
+   "id": "author:ping",
+   "label": "ping",
    "kind": "author"
   },
   {
-   "id": "author:ping",
-   "label": "ping",
+   "id": "author:shi",
+   "label": "shi",
    "kind": "author"
   },
   {
@@ -1531,8 +1531,8 @@
    "kind": "citation"
   },
   {
-   "id": "author:paris",
-   "label": "paris",
+   "id": "author:em",
+   "label": "em",
    "kind": "author"
   },
   {
@@ -1541,8 +1541,8 @@
    "kind": "author"
   },
   {
-   "id": "author:em",
-   "label": "em",
+   "id": "author:paris",
+   "label": "paris",
    "kind": "author"
   },
   {
@@ -1551,13 +1551,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:shaowu",
-   "label": "shaowu",
+   "id": "author:karthik",
+   "label": "karthik",
    "kind": "author"
   },
   {
-   "id": "author:karthik",
-   "label": "karthik",
+   "id": "author:shaowu",
+   "label": "shaowu",
    "kind": "author"
   },
   {
@@ -1576,6 +1576,11 @@
    "kind": "citation"
   },
   {
+   "id": "author:jason",
+   "label": "jason",
+   "kind": "author"
+  },
+  {
    "id": "author:stephan",
    "label": "stephan",
    "kind": "author"
@@ -1583,11 +1588,6 @@
   {
    "id": "author:yohai",
    "label": "yohai",
-   "kind": "author"
-  },
-  {
-   "id": "author:jason",
-   "label": "jason",
    "kind": "author"
   },
   {
@@ -1611,13 +1611,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:evan",
-   "label": "evan",
+   "id": "author:andrew",
+   "label": "andrew",
    "kind": "author"
   },
   {
-   "id": "author:sophie",
-   "label": "sophie",
+   "id": "author:evan",
+   "label": "evan",
    "kind": "author"
   },
   {
@@ -1626,19 +1626,14 @@
    "kind": "author"
   },
   {
-   "id": "author:andrew",
-   "label": "andrew",
+   "id": "author:sophie",
+   "label": "sophie",
    "kind": "author"
   },
   {
    "id": "citation:morris-etal2024 (2024)",
    "label": "morris-etal2024 (2024)",
    "kind": "citation"
-  },
-  {
-   "id": "author:maia",
-   "label": "maia",
-   "kind": "author"
   },
   {
    "id": "author:jesus",
@@ -1651,18 +1646,23 @@
    "kind": "author"
   },
   {
+   "id": "author:maia",
+   "label": "maia",
+   "kind": "author"
+  },
+  {
    "id": "citation:armstrong-kuusi2025 (2025)",
    "label": "armstrong-kuusi2025 (2025)",
    "kind": "citation"
   },
   {
-   "id": "author:tuomo",
-   "label": "tuomo",
+   "id": "author:scott",
+   "label": "scott",
    "kind": "author"
   },
   {
-   "id": "author:scott",
-   "label": "scott",
+   "id": "author:tuomo",
+   "label": "tuomo",
    "kind": "author"
   },
   {
@@ -2319,6 +2319,11 @@
    "id": "section:[openalex expansion run (this build)]",
    "label": "[OpenAlex expansion run (this build)]",
    "kind": "section"
+  },
+  {
+   "id": "keyword:corpus-side evidence pointing toward embeddings",
+   "label": "corpus-side evidence pointing toward embeddings",
+   "kind": "keyword"
   },
   {
    "id": "keyword:file-based serving proves insufficient",
@@ -6004,6 +6009,14 @@
   {
    "id": "e138",
    "members": [
+    "keyword:corpus-side evidence pointing toward embeddings",
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e139",
+   "members": [
     "keyword:file-based serving proves insufficient",
     "keyword:llm renders",
     "keyword:semantic neighborhood queries",
@@ -6012,7 +6025,7 @@
    ]
   },
   {
-   "id": "e139",
+   "id": "e140",
    "members": [
     "keyword:opencode",
     "keyword:phase",
@@ -6021,7 +6034,7 @@
    ]
   },
   {
-   "id": "e140",
+   "id": "e141",
    "members": [
     "keyword:research workflow",
     "project:poc",
@@ -6029,7 +6042,7 @@
    ]
   },
   {
-   "id": "e141",
+   "id": "e142",
    "members": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -6038,7 +6051,7 @@
    ]
   },
   {
-   "id": "e142",
+   "id": "e143",
    "members": [
     "keyword:dune build",
     "project:poc",
@@ -6046,7 +6059,7 @@
    ]
   },
   {
-   "id": "e143",
+   "id": "e144",
    "members": [
     "keyword:bash",
     "project:poc",
@@ -6054,18 +6067,10 @@
    ]
   },
   {
-   "id": "e144",
+   "id": "e145",
    "members": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
-   ]
-  },
-  {
-   "id": "e145",
-   "members": [
-    "keyword:nix develop",
-    "project:poc",
-    "section:[type-check at load time]"
    ]
   },
   {
@@ -6073,11 +6078,19 @@
    "members": [
     "keyword:nix develop",
     "project:poc",
-    "section:[render the architecture as a graph (dot)]"
+    "section:[type-check at load time]"
    ]
   },
   {
    "id": "e147",
+   "members": [
+    "keyword:nix develop",
+    "project:poc",
+    "section:[render the architecture as a graph (dot)]"
+   ]
+  },
+  {
+   "id": "e148",
    "members": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -6086,14 +6099,14 @@
    ]
   },
   {
-   "id": "e148",
+   "id": "e149",
    "members": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
    ]
   },
   {
-   "id": "e149",
+   "id": "e150",
    "members": [
     "keyword:nix build",
     "project:poc",
@@ -6101,7 +6114,7 @@
    ]
   },
   {
-   "id": "e150",
+   "id": "e151",
    "members": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -6110,7 +6123,7 @@
    ]
   },
   {
-   "id": "e151",
+   "id": "e152",
    "members": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -6118,7 +6131,7 @@
    ]
   },
   {
-   "id": "e152",
+   "id": "e153",
    "members": [
     "keyword:reasoning",
     "project:top",
@@ -6126,7 +6139,7 @@
    ]
   },
   {
-   "id": "e153",
+   "id": "e154",
    "members": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -6135,14 +6148,14 @@
    ]
   },
   {
-   "id": "e154",
+   "id": "e155",
    "members": [
     "project:top",
     "section:[3. proposed architecture]"
    ]
   },
   {
-   "id": "e155",
+   "id": "e156",
    "members": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -6150,14 +6163,14 @@
    ]
   },
   {
-   "id": "e156",
+   "id": "e157",
    "members": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
    ]
   },
   {
-   "id": "e157",
+   "id": "e158",
    "members": [
     "artifact:track f",
     "notation:sk condition",
@@ -6166,14 +6179,14 @@
    ]
   },
   {
-   "id": "e158",
+   "id": "e159",
    "members": [
     "project:top",
     "section:[7. risks and open decisions]"
    ]
   },
   {
-   "id": "e159",
+   "id": "e160",
    "members": [
     "artifact:track b",
     "project:top",
@@ -6181,7 +6194,7 @@
    ]
   },
   {
-   "id": "e160",
+   "id": "e161",
    "members": [
     "keyword:sources",
     "project:island-dt",
@@ -6189,14 +6202,14 @@
    ]
   },
   {
-   "id": "e161",
+   "id": "e162",
    "members": [
     "project:island-dt",
     "section:[executive summary]"
    ]
   },
   {
-   "id": "e162",
+   "id": "e163",
    "members": [
     "keyword:island twin",
     "keyword:island twin would simulate",
@@ -6205,7 +6218,7 @@
    ]
   },
   {
-   "id": "e163",
+   "id": "e164",
    "members": [
     "keyword:citygml energy ade",
     "project:island-dt",
@@ -6213,7 +6226,7 @@
    ]
   },
   {
-   "id": "e164",
+   "id": "e165",
    "members": [
     "keyword:european island twin",
     "keyword:island twin",
@@ -6223,7 +6236,7 @@
    ]
   },
   {
-   "id": "e165",
+   "id": "e166",
    "members": [
     "keyword:island twin",
     "project:island-dt",
@@ -6231,7 +6244,7 @@
    ]
   },
   {
-   "id": "e166",
+   "id": "e167",
    "members": [
     "keyword:integrated island twin",
     "keyword:island metabolic planning",
@@ -6242,7 +6255,7 @@
    ]
   },
   {
-   "id": "e167",
+   "id": "e168",
    "members": [
     "keyword:editorial author list unverified",
     "project:island-dt",
@@ -6250,7 +6263,7 @@
    ]
   },
   {
-   "id": "e168",
+   "id": "e169",
    "members": [
     "author:fridolin krausmann",
     "author:nina eisenmenger",
@@ -6270,7 +6283,7 @@
    ]
   },
   {
-   "id": "e169",
+   "id": "e170",
    "members": [
     "author:john stillwell",
     "author:joseph ferreira",
@@ -6283,7 +6296,7 @@
    ]
   },
   {
-   "id": "e170",
+   "id": "e171",
    "members": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -6304,7 +6317,7 @@
    ]
   },
   {
-   "id": "e171",
+   "id": "e172",
    "members": [
     "author:ren\u00e9e sieber",
     "keyword:broaden public involvement",
@@ -6323,7 +6336,7 @@
    ]
   },
   {
-   "id": "e172",
+   "id": "e173",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -6342,7 +6355,7 @@
    ]
   },
   {
-   "id": "e173",
+   "id": "e174",
    "members": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -6352,7 +6365,7 @@
    ]
   },
   {
-   "id": "e174",
+   "id": "e175",
    "members": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -6372,7 +6385,7 @@
    ]
   },
   {
-   "id": "e175",
+   "id": "e176",
    "members": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -6393,7 +6406,7 @@
    ]
   },
   {
-   "id": "e176",
+   "id": "e177",
    "members": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -6411,7 +6424,7 @@
    ]
   },
   {
-   "id": "e177",
+   "id": "e178",
    "members": [
     "author:greg brown",
     "author:marketta kytt\u00e4",
@@ -6424,7 +6437,7 @@
    ]
   },
   {
-   "id": "e178",
+   "id": "e179",
    "members": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -6440,7 +6453,7 @@
    ]
   },
   {
-   "id": "e179",
+   "id": "e180",
    "members": [
     "author:christopher kennedy",
     "author:john cuddihy",
@@ -6452,7 +6465,7 @@
    ]
   },
   {
-   "id": "e180",
+   "id": "e181",
    "members": [
     "author:arzu \u00e7\u00f6ltekin",
     "author:filip biljecki",
@@ -6472,7 +6485,7 @@
    ]
   },
   {
-   "id": "e181",
+   "id": "e182",
    "members": [
     "author:andrew allan",
     "author:chris pettit",
@@ -6485,7 +6498,7 @@
    ]
   },
   {
-   "id": "e182",
+   "id": "e183",
    "members": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -6509,7 +6522,7 @@
    ]
   },
   {
-   "id": "e183",
+   "id": "e184",
    "members": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -6530,7 +6543,7 @@
    ]
   },
   {
-   "id": "e184",
+   "id": "e185",
    "members": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -6551,7 +6564,7 @@
    ]
   },
   {
-   "id": "e185",
+   "id": "e186",
    "members": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -6573,7 +6586,7 @@
    ]
   },
   {
-   "id": "e186",
+   "id": "e187",
    "members": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -6593,7 +6606,7 @@
    ]
   },
   {
-   "id": "e187",
+   "id": "e188",
    "members": [
     "author:arnau riera",
     "author:john goold",
@@ -6615,7 +6628,7 @@
    ]
   },
   {
-   "id": "e188",
+   "id": "e189",
    "members": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -6635,7 +6648,7 @@
    ]
   },
   {
-   "id": "e189",
+   "id": "e190",
    "members": [
     "author:christian lauk",
     "author:dominik noll",
@@ -6659,7 +6672,7 @@
    ]
   },
   {
-   "id": "e190",
+   "id": "e191",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -6679,7 +6692,7 @@
    ]
   },
   {
-   "id": "e191",
+   "id": "e192",
    "members": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -6707,7 +6720,7 @@
    ]
   },
   {
-   "id": "e192",
+   "id": "e193",
    "members": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -6718,7 +6731,7 @@
    ]
   },
   {
-   "id": "e193",
+   "id": "e194",
    "members": [
     "author:michael batty",
     "keyword:digital twins",
@@ -6727,7 +6740,7 @@
    ]
   },
   {
-   "id": "e194",
+   "id": "e195",
    "members": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -6753,7 +6766,7 @@
    ]
   },
   {
-   "id": "e195",
+   "id": "e196",
    "members": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -6763,7 +6776,7 @@
    ]
   },
   {
-   "id": "e196",
+   "id": "e197",
    "members": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",
@@ -8081,14 +8094,14 @@
    "label": "mohun-veneziani2017 (2017)",
    "kind": "citation"
   },
-  "author:simon": {
-   "id": "author:simon",
-   "label": "simon",
-   "kind": "author"
-  },
   "author:roberto": {
    "id": "author:roberto",
    "label": "roberto",
+   "kind": "author"
+  },
+  "author:simon": {
+   "id": "author:simon",
+   "label": "simon",
    "kind": "author"
   },
   "citation:jin-xin1995 (1995)": {
@@ -8096,14 +8109,14 @@
    "label": "jin-xin1995 (1995)",
    "kind": "citation"
   },
-  "author:shi": {
-   "id": "author:shi",
-   "label": "shi",
-   "kind": "author"
-  },
   "author:ping": {
    "id": "author:ping",
    "label": "ping",
+   "kind": "author"
+  },
+  "author:shi": {
+   "id": "author:shi",
+   "label": "shi",
    "kind": "author"
   },
   "section:[watch list (to read before the expos\u00e9)]": {
@@ -8311,9 +8324,9 @@
    "label": "raissi2019 (2019)",
    "kind": "citation"
   },
-  "author:paris": {
-   "id": "author:paris",
-   "label": "paris",
+  "author:em": {
+   "id": "author:em",
+   "label": "em",
    "kind": "author"
   },
   "author:maziar": {
@@ -8321,9 +8334,9 @@
    "label": "maziar",
    "kind": "author"
   },
-  "author:em": {
-   "id": "author:em",
-   "label": "em",
+  "author:paris": {
+   "id": "author:paris",
+   "label": "paris",
    "kind": "author"
   },
   "citation:pan-duraisamy2018 (2018)": {
@@ -8331,14 +8344,14 @@
    "label": "pan-duraisamy2018 (2018)",
    "kind": "citation"
   },
-  "author:shaowu": {
-   "id": "author:shaowu",
-   "label": "shaowu",
-   "kind": "author"
-  },
   "author:karthik": {
    "id": "author:karthik",
    "label": "karthik",
+   "kind": "author"
+  },
+  "author:shaowu": {
+   "id": "author:shaowu",
+   "label": "shaowu",
    "kind": "author"
   },
   "citation:gupta-lermusiaux2021 (2021)": {
@@ -8356,6 +8369,11 @@
    "label": "bar-sinai2019 (2019)",
    "kind": "citation"
   },
+  "author:jason": {
+   "id": "author:jason",
+   "label": "jason",
+   "kind": "author"
+  },
   "author:stephan": {
    "id": "author:stephan",
    "label": "stephan",
@@ -8364,11 +8382,6 @@
   "author:yohai": {
    "id": "author:yohai",
    "label": "yohai",
-   "kind": "author"
-  },
-  "author:jason": {
-   "id": "author:jason",
-   "label": "jason",
    "kind": "author"
   },
   "citation:brennan-venturi2018 (2018)": {
@@ -8391,14 +8404,14 @@
    "label": "libkind-etal2022 (2022)",
    "kind": "citation"
   },
+  "author:andrew": {
+   "id": "author:andrew",
+   "label": "andrew",
+   "kind": "author"
+  },
   "author:evan": {
    "id": "author:evan",
    "label": "evan",
-   "kind": "author"
-  },
-  "author:sophie": {
-   "id": "author:sophie",
-   "label": "sophie",
    "kind": "author"
   },
   "author:james": {
@@ -8406,20 +8419,15 @@
    "label": "james",
    "kind": "author"
   },
-  "author:andrew": {
-   "id": "author:andrew",
-   "label": "andrew",
+  "author:sophie": {
+   "id": "author:sophie",
+   "label": "sophie",
    "kind": "author"
   },
   "citation:morris-etal2024 (2024)": {
    "id": "citation:morris-etal2024 (2024)",
    "label": "morris-etal2024 (2024)",
    "kind": "citation"
-  },
-  "author:maia": {
-   "id": "author:maia",
-   "label": "maia",
-   "kind": "author"
   },
   "author:jesus": {
    "id": "author:jesus",
@@ -8431,19 +8439,24 @@
    "label": "luke",
    "kind": "author"
   },
+  "author:maia": {
+   "id": "author:maia",
+   "label": "maia",
+   "kind": "author"
+  },
   "citation:armstrong-kuusi2025 (2025)": {
    "id": "citation:armstrong-kuusi2025 (2025)",
    "label": "armstrong-kuusi2025 (2025)",
    "kind": "citation"
   },
-  "author:tuomo": {
-   "id": "author:tuomo",
-   "label": "tuomo",
-   "kind": "author"
-  },
   "author:scott": {
    "id": "author:scott",
    "label": "scott",
+   "kind": "author"
+  },
+  "author:tuomo": {
+   "id": "author:tuomo",
+   "label": "tuomo",
    "kind": "author"
   },
   "citation:coarsegraining-lean (2025)": {
@@ -9100,6 +9113,11 @@
    "id": "section:[openalex expansion run (this build)]",
    "label": "[OpenAlex expansion run (this build)]",
    "kind": "section"
+  },
+  "keyword:corpus-side evidence pointing toward embeddings": {
+   "id": "keyword:corpus-side evidence pointing toward embeddings",
+   "label": "corpus-side evidence pointing toward embeddings",
+   "kind": "keyword"
   },
   "keyword:file-based serving proves insufficient": {
    "id": "keyword:file-based serving proves insufficient",
@@ -13199,6 +13217,17 @@
   {
    "id": "e138",
    "nodes": [
+    "keyword:corpus-side evidence pointing toward embeddings",
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 3
+  },
+  {
+   "id": "e139",
+   "nodes": [
     "keyword:file-based serving proves insufficient",
     "keyword:llm renders",
     "keyword:semantic neighborhood queries",
@@ -13210,7 +13239,7 @@
    "arity": 5
   },
   {
-   "id": "e139",
+   "id": "e140",
    "nodes": [
     "keyword:opencode",
     "keyword:phase",
@@ -13222,7 +13251,7 @@
    "arity": 4
   },
   {
-   "id": "e140",
+   "id": "e141",
    "nodes": [
     "keyword:research workflow",
     "project:poc",
@@ -13233,7 +13262,7 @@
    "arity": 3
   },
   {
-   "id": "e141",
+   "id": "e142",
    "nodes": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -13245,7 +13274,7 @@
    "arity": 4
   },
   {
-   "id": "e142",
+   "id": "e143",
    "nodes": [
     "keyword:dune build",
     "project:poc",
@@ -13256,7 +13285,7 @@
    "arity": 3
   },
   {
-   "id": "e143",
+   "id": "e144",
    "nodes": [
     "keyword:bash",
     "project:poc",
@@ -13267,7 +13296,7 @@
    "arity": 3
   },
   {
-   "id": "e144",
+   "id": "e145",
    "nodes": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
@@ -13277,7 +13306,7 @@
    "arity": 2
   },
   {
-   "id": "e145",
+   "id": "e146",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -13288,7 +13317,7 @@
    "arity": 3
   },
   {
-   "id": "e146",
+   "id": "e147",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -13299,7 +13328,7 @@
    "arity": 3
   },
   {
-   "id": "e147",
+   "id": "e148",
    "nodes": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -13311,7 +13340,7 @@
    "arity": 4
   },
   {
-   "id": "e148",
+   "id": "e149",
    "nodes": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
@@ -13321,7 +13350,7 @@
    "arity": 2
   },
   {
-   "id": "e149",
+   "id": "e150",
    "nodes": [
     "keyword:nix build",
     "project:poc",
@@ -13332,7 +13361,7 @@
    "arity": 3
   },
   {
-   "id": "e150",
+   "id": "e151",
    "nodes": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -13344,7 +13373,7 @@
    "arity": 4
   },
   {
-   "id": "e151",
+   "id": "e152",
    "nodes": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -13355,7 +13384,7 @@
    "arity": 3
   },
   {
-   "id": "e152",
+   "id": "e153",
    "nodes": [
     "keyword:reasoning",
     "project:top",
@@ -13366,7 +13395,7 @@
    "arity": 3
   },
   {
-   "id": "e153",
+   "id": "e154",
    "nodes": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -13378,7 +13407,7 @@
    "arity": 4
   },
   {
-   "id": "e154",
+   "id": "e155",
    "nodes": [
     "project:top",
     "section:[3. proposed architecture]"
@@ -13388,7 +13417,7 @@
    "arity": 2
   },
   {
-   "id": "e155",
+   "id": "e156",
    "nodes": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -13399,7 +13428,7 @@
    "arity": 3
   },
   {
-   "id": "e156",
+   "id": "e157",
    "nodes": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
@@ -13409,7 +13438,7 @@
    "arity": 2
   },
   {
-   "id": "e157",
+   "id": "e158",
    "nodes": [
     "artifact:track f",
     "notation:sk condition",
@@ -13421,7 +13450,7 @@
    "arity": 4
   },
   {
-   "id": "e158",
+   "id": "e159",
    "nodes": [
     "project:top",
     "section:[7. risks and open decisions]"
@@ -13431,7 +13460,7 @@
    "arity": 2
   },
   {
-   "id": "e159",
+   "id": "e160",
    "nodes": [
     "artifact:track b",
     "project:top",
@@ -13442,7 +13471,7 @@
    "arity": 3
   },
   {
-   "id": "e160",
+   "id": "e161",
    "nodes": [
     "keyword:sources",
     "project:island-dt",
@@ -13453,7 +13482,7 @@
    "arity": 3
   },
   {
-   "id": "e161",
+   "id": "e162",
    "nodes": [
     "project:island-dt",
     "section:[executive summary]"
@@ -13463,7 +13492,7 @@
    "arity": 2
   },
   {
-   "id": "e162",
+   "id": "e163",
    "nodes": [
     "keyword:island twin",
     "keyword:island twin would simulate",
@@ -13475,7 +13504,7 @@
    "arity": 4
   },
   {
-   "id": "e163",
+   "id": "e164",
    "nodes": [
     "keyword:citygml energy ade",
     "project:island-dt",
@@ -13486,7 +13515,7 @@
    "arity": 3
   },
   {
-   "id": "e164",
+   "id": "e165",
    "nodes": [
     "keyword:european island twin",
     "keyword:island twin",
@@ -13499,7 +13528,7 @@
    "arity": 5
   },
   {
-   "id": "e165",
+   "id": "e166",
    "nodes": [
     "keyword:island twin",
     "project:island-dt",
@@ -13510,7 +13539,7 @@
    "arity": 3
   },
   {
-   "id": "e166",
+   "id": "e167",
    "nodes": [
     "keyword:integrated island twin",
     "keyword:island metabolic planning",
@@ -13524,7 +13553,7 @@
    "arity": 6
   },
   {
-   "id": "e167",
+   "id": "e168",
    "nodes": [
     "keyword:editorial author list unverified",
     "project:island-dt",
@@ -13535,7 +13564,7 @@
    "arity": 3
   },
   {
-   "id": "e168",
+   "id": "e169",
    "nodes": [
     "author:fridolin krausmann",
     "author:nina eisenmenger",
@@ -13558,7 +13587,7 @@
    "arity": 15
   },
   {
-   "id": "e169",
+   "id": "e170",
    "nodes": [
     "author:john stillwell",
     "author:joseph ferreira",
@@ -13574,7 +13603,7 @@
    "arity": 8
   },
   {
-   "id": "e170",
+   "id": "e171",
    "nodes": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -13598,7 +13627,7 @@
    "arity": 16
   },
   {
-   "id": "e171",
+   "id": "e172",
    "nodes": [
     "author:ren\u00e9e sieber",
     "keyword:broaden public involvement",
@@ -13620,7 +13649,7 @@
    "arity": 14
   },
   {
-   "id": "e172",
+   "id": "e173",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -13642,7 +13671,7 @@
    "arity": 14
   },
   {
-   "id": "e173",
+   "id": "e174",
    "nodes": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -13655,7 +13684,7 @@
    "arity": 5
   },
   {
-   "id": "e174",
+   "id": "e175",
    "nodes": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -13678,7 +13707,7 @@
    "arity": 15
   },
   {
-   "id": "e175",
+   "id": "e176",
    "nodes": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -13702,7 +13731,7 @@
    "arity": 16
   },
   {
-   "id": "e176",
+   "id": "e177",
    "nodes": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -13723,7 +13752,7 @@
    "arity": 13
   },
   {
-   "id": "e177",
+   "id": "e178",
    "nodes": [
     "author:greg brown",
     "author:marketta kytt\u00e4",
@@ -13739,7 +13768,7 @@
    "arity": 8
   },
   {
-   "id": "e178",
+   "id": "e179",
    "nodes": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -13758,7 +13787,7 @@
    "arity": 11
   },
   {
-   "id": "e179",
+   "id": "e180",
    "nodes": [
     "author:christopher kennedy",
     "author:john cuddihy",
@@ -13773,7 +13802,7 @@
    "arity": 7
   },
   {
-   "id": "e180",
+   "id": "e181",
    "nodes": [
     "author:arzu \u00e7\u00f6ltekin",
     "author:filip biljecki",
@@ -13796,7 +13825,7 @@
    "arity": 15
   },
   {
-   "id": "e181",
+   "id": "e182",
    "nodes": [
     "author:andrew allan",
     "author:chris pettit",
@@ -13812,7 +13841,7 @@
    "arity": 8
   },
   {
-   "id": "e182",
+   "id": "e183",
    "nodes": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -13839,7 +13868,7 @@
    "arity": 19
   },
   {
-   "id": "e183",
+   "id": "e184",
    "nodes": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -13863,7 +13892,7 @@
    "arity": 16
   },
   {
-   "id": "e184",
+   "id": "e185",
    "nodes": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -13887,7 +13916,7 @@
    "arity": 16
   },
   {
-   "id": "e185",
+   "id": "e186",
    "nodes": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -13912,7 +13941,7 @@
    "arity": 17
   },
   {
-   "id": "e186",
+   "id": "e187",
    "nodes": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -13935,7 +13964,7 @@
    "arity": 15
   },
   {
-   "id": "e187",
+   "id": "e188",
    "nodes": [
     "author:arnau riera",
     "author:john goold",
@@ -13960,7 +13989,7 @@
    "arity": 17
   },
   {
-   "id": "e188",
+   "id": "e189",
    "nodes": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -13983,7 +14012,7 @@
    "arity": 15
   },
   {
-   "id": "e189",
+   "id": "e190",
    "nodes": [
     "author:christian lauk",
     "author:dominik noll",
@@ -14010,7 +14039,7 @@
    "arity": 19
   },
   {
-   "id": "e190",
+   "id": "e191",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -14033,7 +14062,7 @@
    "arity": 15
   },
   {
-   "id": "e191",
+   "id": "e192",
    "nodes": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -14064,7 +14093,7 @@
    "arity": 23
   },
   {
-   "id": "e192",
+   "id": "e193",
    "nodes": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -14078,7 +14107,7 @@
    "arity": 6
   },
   {
-   "id": "e193",
+   "id": "e194",
    "nodes": [
     "author:michael batty",
     "keyword:digital twins",
@@ -14090,7 +14119,7 @@
    "arity": 4
   },
   {
-   "id": "e194",
+   "id": "e195",
    "nodes": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -14119,7 +14148,7 @@
    "arity": 21
   },
   {
-   "id": "e195",
+   "id": "e196",
    "nodes": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -14132,7 +14161,7 @@
    "arity": 5
   },
   {
-   "id": "e196",
+   "id": "e197",
    "nodes": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",

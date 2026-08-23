@@ -11,25 +11,50 @@ Modes:
   --mode trace-text : same             -> string (markdown evidence trace)
 """
 import argparse
+import hashlib
 import json
 import re
 import sys
 from pathlib import Path
 
 GRAPH = Path(__file__).resolve().parents[1] / "graph" / "hypergraph.json"
+INDEX = Path(__file__).resolve().parents[1] / "graph" / "index.json"
 
 _cache = None
+
+
+def _index_fallback(obj):
+    index = {}
+    for e in obj["hyperedges"]:
+        for n in e["nodes"]:
+            index.setdefault(n, []).append(e)
+    return index
+
+
+def _load_index(obj, edge_by_id):
+    if INDEX.exists():
+        try:
+            art = json.loads(INDEX.read_text())
+        except Exception:
+            art = None
+        if art and art.get("hypergraph_sha") == hashlib.sha256(GRAPH.read_bytes()).hexdigest():
+            index = {}
+            for nid, eids in art.get("index", {}).items():
+                resolved = [edge_by_id[eid] for eid in eids if eid in edge_by_id]
+                if resolved:
+                    index[nid] = resolved
+            if index:
+                return index
+    return _index_fallback(obj)
 
 
 def load():
     global _cache
     if _cache is None:
         g = json.loads(GRAPH.read_text())
-        index = {}
-        for e in g["hyperedges"]:
-            for n in e["nodes"]:
-                index.setdefault(n, []).append(e)
-        _cache = (g, index)
+        edge_by_id = {e["id"]: e for e in g["hyperedges"]}
+        index = _load_index(g, edge_by_id)
+        _cache = (g, edge_by_id, index)
     return _cache
 
 
@@ -95,7 +120,7 @@ def to_text(g, concept, nids, edges):
     return "\n".join(lines)
 
 
-def trace(g, index, topic, concepts, min_seeds, max_edges=40):
+def trace(g, edge_by_id, index, topic, concepts, min_seeds, max_edges=40):
     seeds = []
     for c in concepts:
         nids = match_nodes(g, c)
@@ -111,7 +136,7 @@ def trace(g, index, topic, concepts, min_seeds, max_edges=40):
     for eid, sids in edge_hits.items():
         if len(sids) < min_seeds:
             continue
-        e = next(e for e in g["hyperedges"] if e["id"] == eid)
+        e = edge_by_id[eid]
         hits.append({
             "edge_id": e["id"], "doc": e["doc"], "section": e["section"],
             "arity": e["arity"],
@@ -155,14 +180,14 @@ def main():
     ap.add_argument("--mode", default="json")
     ap.add_argument("--max-edges", type=int, default=50)
     args = ap.parse_args()
-    g, index = load()
+    g, edge_by_id, index = load()
     for line in sys.stdin:
         line = line.strip()
         if not line:
             continue
         req = json.loads(line)
         if args.mode in ("trace", "trace-text"):
-            t = trace(g, index, req.get("topic", ""), req.get("concepts", []),
+            t = trace(g, edge_by_id, index, req.get("topic", ""), req.get("concepts", []),
                       int(req.get("min_seeds", 2)), max_edges=int(req.get("max_edges", 40)))
             print(json.dumps(trace_text(t) if args.mode == "trace-text" else t))
         else:
