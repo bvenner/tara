@@ -1,0 +1,144 @@
+{
+ "docs": 32,
+ "sections": 116,
+ "nodes": 396,
+ "edges": 114,
+ "node_kinds": {
+  "section": 116,
+  "keyword": 231,
+  "notation": 8,
+  "citation": 31,
+  "artifact": 10
+ },
+ "arity_hist": {
+  "2": 10,
+  "3": 10,
+  "4": 14,
+  "5": 11,
+  "6": 17,
+  "7": 13,
+  "8": 10,
+  "9": 13,
+  "10": 5,
+  "11": 4,
+  "12": 2,
+  "13": 1,
+  "14": 1,
+  "15": 2,
+  "16": 1
+ },
+ "degree_hist": {
+  "1": 343,
+  "2": 21,
+  "3": 6,
+  "4": 3,
+  "5": 3,
+  "6": 1,
+  "9": 2,
+  "11": 3,
+  "13": 2,
+  "17": 4,
+  "20": 1,
+  "23": 1,
+  "26": 1,
+  "29": 1,
+  "30": 1,
+  "33": 1
+ },
+ "mean_degree": 1.874,
+ "max_degree": 33,
+ "top_hubs": [
+  {
+   "node": "notation:gravitation",
+   "kind": "notation",
+   "label": "gravitation",
+   "degree": 33
+  },
+  {
+   "node": "notation:cattaneo",
+   "kind": "notation",
+   "label": "Cattaneo",
+   "degree": 30
+  },
+  {
+   "node": "notation:simultaneism",
+   "kind": "notation",
+   "label": "simultaneism",
+   "degree": 29
+  },
+  {
+   "node": "notation:sk condition",
+   "kind": "notation",
+   "label": "SK condition",
+   "degree": 26
+  },
+  {
+   "node": "artifact:t3",
+   "kind": "artifact",
+   "label": "T3",
+   "degree": 23
+  },
+  {
+   "node": "notation:tau_j",
+   "kind": "notation",
+   "label": "tau_J",
+   "degree": 20
+  },
+  {
+   "node": "artifact:track b",
+   "kind": "artifact",
+   "label": "Track B",
+   "degree": 17
+  },
+  {
+   "node": "artifact:t4",
+   "kind": "artifact",
+   "label": "T4",
+   "degree": 17
+  },
+  {
+   "node": "artifact:track a",
+   "kind": "artifact",
+   "label": "Track A",
+   "degree": 17
+  },
+  {
+   "node": "artifact:track c",
+   "kind": "artifact",
+   "label": "Track C",
+   "degree": 17
+  },
+  {
+   "node": "notation:subcharacteristic",
+   "kind": "notation",
+   "label": "subcharacteristic",
+   "degree": 13
+  },
+  {
+   "node": "artifact:t1",
+   "kind": "artifact",
+   "label": "T1",
+   "degree": 13
+  },
+  {
+   "node": "notation:fourier",
+   "kind": "notation",
+   "label": "Fourier",
+   "degree": 11
+  },
+  {
+   "node": "artifact:track e",
+   "kind": "artifact",
+   "label": "Track E",
+   "degree": 11
+  },
+  {
+   "node": "artifact:track f",
+   "kind": "artifact",
+   "label": "Track F",
+   "degree": 11
+  }
+ ],
+ "bib_entries": 74,
+ "node_rule": "co-occurrence v1 (headers + RAKE keywords + citations + artifacts + notations)"
+}

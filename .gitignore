@@ -45,3 +45,5 @@ tara.md
 projects/*
 # Exception: RET×TSSI research program (tracked at owner's request, 2026-08)
 !projects/ret-tssi-value-dynamics/
+# Exception: knowledge-repository proof of concept (2026-08)
+!projects/knowledge-repository-poc/
