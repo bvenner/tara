@@ -114,6 +114,42 @@ Worker `graph_query.py` gained `--mode trace` / `--mode trace-text` (JSON-Lines 
 
 ## Next
 
-- Later: embeddings; then (decision-staged) LLM relation-typing as enrichment.
-- Broaden corpus (Phase B): multi-project corpora + OpenAlex expansion; incremental rebuild.
-- Step 3b option: run the same trace over a different question or with `min_seeds=2` to widen, or pair the evidence bundle with an LLM once a provider key is available.
+- **Phase B ✅ — multi-project corpora, OpenAlex expansion, richer kinds, incremental fast path** (2026-08-23).
+
+### Corpus manifest (`corpus.json`) — build is now manifest-driven
+
+Three roots + external works: `ret-tssi` (recursive `**/*.md`), `poc` (the POC's own docs), `top` (repo-root proposal), plus `corpus/external/*.json` OpenAlex records. Adding a project = adding one manifest entry.
+
+### Pipelines
+
+- New `expand.plumb` — OpenAlex expansion worker (`scripts/expand_openalex.py`, reusing the repo's `openalex_client`), modes `topic` / `doi` / `arxiv`, reconstructs abstracts from `abstract_inverted_index`, idempotent writes.
+
+### Growth (rebuilt graph)
+
+| Metric | Phase A | Phase B |
+|---|---|---|
+| Docs | 32 | 45 (3 more roots + 10 external works) |
+| Sections | 116 | 162 |
+| Nodes | 396 | 636 |
+| Node kinds | 5 | 8 — adds `project` (4), `author` (74), `work` (10) |
+| Hyperedges | 114 | 162 |
+
+Hub structure is preserved (gravitation 36, Cattaneo 34, simultaneism/SK/τ_J follow); `project:ret-tssi` is now the top hub (every ret-tssi section carries it). Trace on the τ→0/SK question grew 14 → 17 hits (now also covering `poc/REPORT.md`), still headed by `program §4 Track A`.
+
+### New capability demonstrated
+
+`query {concept:"foley"}` now returns both the citation node `foley1994 (1994)` **and** the author node `Duncan K. Foley` — the OpenAlex work + author kinds are first-class in the repository.
+
+### Incremental fast path
+
+`build_meta.json` stores the manifest sha + per-doc content hashes; an unchanged corpus reuses the stored summary without rewriting artifacts (`--force` to override). At this corpus size rebuilds are ~instant, but the pattern scales.
+
+### OpenAlex expansion run (this build)
+
+Topic "extended thermodynamics relaxation" (8 works) + DOIs for Foley 1994 (JET), Wright 2005 (Physica A), Jou/EIT 1988 — 11 ingested, 1 deduped (idempotency verified).
+
+## Next
+
+- **LLM pairing (key-gated):** add an `agent` binding after `trace` so the LLM answers from the evidence bundle (repository stays the guardrail).
+- **Embeddings** for semantic neighborhood queries (beyond substring matching).
+- **Phase C** (persistent query service / review protocols / dashboard) only if file-based serving proves insufficient.

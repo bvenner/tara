@@ -1,115 +1,163 @@
 edge_id	doc	section	arity
-e0	findings.md	Findings — The Formal Correspondence	7
-e1	findings.md	1. The two paradoxes of simultaneity	4
-e2	findings.md	2. The thermodynamic pole (what we borrow)	6
-e3	findings.md	3. The economic pole (what we reformulate)	5
-e4	findings.md	4. The correspondence table	8
-e5	findings.md	5. Model skeleton (Track A, Phase 1 — candidate Master's problem)	11
-e6	findings.md	6. Track B synthesis (foundations)	4
-e7	findings.md	7. Track C synthesis (computational/empirical)	3
-e8	findings.md	8. Risk register (program level)	3
-e9	literature/baez-lynch-moeller-2023.md	Baez, Lynch & Moeller (2023) — Compositional Thermostatics	8
-e10	literature/bortkiewicz-sraffa-dual-system.md	Bortkiewicz–Sraffa Tradition — The Simultaneous Dual-System Benchmark	8
-e11	literature/burger-etal-2013.md	Burger, Caffarelli, Markowich & Wolfram (2013) — A Boltzmann-Type Price Formation Model	9
-e12	literature/cattaneo-1948.md	Cattaneo (1948) — Sulla conduzione del calore	11
-e13	literature/chen-levermore-liu-1994.md	Chen, Levermore & Liu (1994) — Hyperbolic Conservation Laws with Stiff Relaxation and Entropy	8
-e14	literature/cockshott-2016.md	Cockshott (2016) — Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence	8
-e15	literature/cockshott-cottrell-1998.md	Cockshott & Cottrell (1997/1998) — Does Marx Need to Transform? / Scientific Status of the LTV	6
-e16	literature/cottrell-etal-2009.md	Cottrell, Cockshott, Michaelson, Wright & Yakovenko (2009) — Classical Econophysics	9
-e17	literature/dumenil-levy-1987.md	Duménil & Lévy (1987) — The Dynamics of Competition: A Restoration of the Classical Analysis	8
-e18	literature/farjoun-machover-1983.md	Farjoun & Machover (1983) — Laws of Chaos	7
-e19	literature/flaschel-semmler-1987.md	Flaschel & Semmler (1987) — Classical and Neoclassical Competitive Adjustment Processes	9
-e20	literature/freeman-1996.md	Freeman (1996) — Price, Value and Profit: A Continuous, General Treatment	9
-e21	literature/grmela-generic-multiscale.md	Grmela & Öttinger — GENERIC and Multiscale Thermodynamics	5
-e22	literature/jou-etal-eit.md	Jou, Casas-Vázquez & Lebon — Extended Irreversible Thermodynamics; Ruggeri & Sugiyama (2015)	7
-e23	literature/kliman-mcglone-1999.md	Kliman & McGlone (1999) — A Temporal Single-system Interpretation of Marx's Value Theory	7
-e24	literature/lawvere-1986.md	Lawvere & Schanuel (1986) — Categories in Continuum Physics	6
-e25	literature/mohun-veneziani-2009.md	Mohun & Veneziani (2009) — The Temporal Single-System Interpretation: Underdetermination and Inconsistency	10
-e26	literature/muller-ruggeri-1998.md	Müller & Ruggeri (1998) — Rational Extended Thermodynamics (2nd ed.)	4
-e27	literature/ratanov-telegraph-finance.md	Telegraph-Process Models in Finance — Ratanov et al.	8
-e28	literature/rational-thermodynamics-tradition.md	The Rational Thermodynamics Tradition — Coleman–Noll (1963), Coleman (1964), Truesdell (1984), Gurtin–Williams (1967), Müller (1967), Liu (1972)	10
-e29	literature/ruggeri-strumia-1981.md	Ruggeri & Strumia (1981) — Main Field and Convex Covariant Density	9
-e30	literature/stability-dissipative-hyperbolic.md	Stability of Dissipative Hyperbolic Systems — Hanouzet–Natalini (2003), Ruggeri–Serre (2004), Bianchini–Hanouzet–Natalini (2007)	9
-e31	literature/steedman-1984.md	Steedman (1984) — Natural Prices, Differential Profit Rates and the Classical Competitive Process	11
-e32	literature/veneziani-2005.md	Veneziani (2005) — Dynamics, Disequilibrium, and Marxian Economics: A Formal Analysis of Temporal Single-System Marxism	7
-e33	literature/wright-2005.md	Wright (2005) — The Social Architecture of Capitalism	7
-e34	program/critiques.md	Critiques of the Program — Steelman Document	4
-e35	program/critiques.md	A1. "Physics envy — this is a metaphor, not a model"	7
-e36	program/critiques.md	A2. "Category mistake: an economy is not a continuum"	2
-e37	program/critiques.md	A3. "Unobservable parameters, unparsimonious"	8
-e38	program/critiques.md	A4. "You're solving a non-problem"	9
-e39	program/critiques.md	A5. "The relaxation limit vindicates simultaneism"	6
-e40	program/critiques.md	A6. "Stability theorems reintroduce equilibrium by the back door"	4
-e41	program/critiques.md	B1. "TSSI is an interpretation of a text, not a dynamical system"	4
-e42	program/critiques.md	B2. "Your closure is one of infinitely many — why this one?" (underdetermination returns)	9
-e43	program/critiques.md	B3. "There is no tendency to equalization at all" (the probabilist flank)	2
-e44	program/critiques.md	B4. Priority/etiquette within the school	3
-e45	program/critiques.md	C1. The entropy extension probably doesn't exist	8
-e46	program/critiques.md	C2. "Hyperbolic" is overdressed for an ODE system	4
-e47	program/critiques.md	C3. The singular limit is only locally valid in time	5
-e48	program/critiques.md	C4. Only small-data stability is within reach	5
-e49	program/critiques.md	C5. "Formalization is a proof of the obvious" (Track F)	4
-e50	program/critiques.md	C6. "Proof assistants aren't ready for the real objects" (Track F)	5
-e51	program/critiques.md	D1. No kinetic underpinning	4
-e52	program/critiques.md	D2. "Entropy" is just a Lyapunov function with a borrowed name	3
-e53	program/critiques.md	D3. "Why RET rather than GENERIC?"	2
-e54	program/critiques.md	D4. "Learned closures are circular or unphysical" (Track E)	5
-e55	program/critiques.md	E1. Audience squeeze (now four disciplines)	6
-e56	program/critiques.md	E2. Missed neighbors	2
-e57	program/critiques.md	E3. Scope creep (self-critique, sharpened for six tracks)	4
-e58	program/critiques.md	E4. "The computational tracks are orthogonal to value theory"	9
-e59	program/critiques.md	Consolidated amendments to `research-program.md`	15
-e60	program/critiques.md	Watch list (to read before the exposé)	6
-e61	program/research-program.md	Finite-Speed Value: A Research Program in Marxian Econophysics	4
-e62	program/research-program.md	1. Overview	14
-e63	program/research-program.md	2.1 The transformation problem and TSSI	3
-e64	program/research-program.md	2.2 Rational extended thermodynamics	9
-e65	program/research-program.md	2.3 Gravitation dynamics	7
-e66	program/research-program.md	2.4 Classical econophysics and finite-speed precedents	2
-e67	program/research-program.md	2.5 Gap summary	4
-e68	program/research-program.md	3. The core correspondence	12
-e69	program/research-program.md	4. Track A — Physics × Economics: the hyperbolic value-price system	15
-e70	program/research-program.md	5. Track B — Mathematics × Physics: foundations of extended thermodynamics	3
-e71	program/research-program.md	6. Track C — Computer Science × Economics: simulation and empirical estimation	6
-e72	program/research-program.md	7. Track D — Mathematics × Economics: the formal theory of value-price dynamics	8
-e73	program/research-program.md	8. Track E — Physics × Computer Science: computational thermodynamics of value-price dynamics	10
-e74	program/research-program.md	9. Track F — Mathematics × Computer Science: certified and executable mathematics	6
-e75	program/research-program.md	10. Phasing, dependencies, publication strategy	5
-e76	program/research-program.md	11. Master's thesis decision point	10
-e77	program/research-program.md	12. References	7
-e78	research-log.md	2026-08-15 — Project initialization and program document	6
-e79	research-log.md	2026-08-16 — Git commit + critiques document	13
-e80	research-log.md	2026-08-16 — Track refactor (3 → 4 tracks, four-discipline framing)	6
-e81	research-log.md	2026-08-16 — Six-track completion + bibliography reorganization	16
-e82	research-log.md	2026-08-16 — Commit + context preservation	3
-e83	research-log.md	2026-08-16 — Proposal walkthrough + AGENTS.md wiring	7
-e84	to_human/2026-08-15-program-delivery.md	What exists now	6
-e85	to_human/2026-08-15-program-delivery.md	Decisions embedded (confirm or redirect)	6
-e86	to_human/2026-08-15-program-delivery.md	Not done (awaiting your review)	2
-e87	to_human/2026-08-16-context-preservation.md	1. Project origin (attribution)	5
-e88	to_human/2026-08-16-context-preservation.md	2. Program framing decisions (confirmed with Brad, in order)	7
-e89	to_human/2026-08-16-context-preservation.md	3. Master's thesis exposé — format benchmarks (from web research; needed for phase 2)	2
-e90	to_human/2026-08-16-context-preservation.md	4. Open next steps (from Brad's list; status)	2
-e91	to_human/2026-08-16-context-preservation.md	5. Status: the consolidated amendments to research-program.md	4
-e92	to_human/2026-08-16-context-preservation.md	6. Open decisions awaiting Brad	2
-e93	to_human/2026-08-16-context-preservation.md	6.5 Pending commitments (conversation-only, not in any document)	4
-e94	to_human/2026-08-16-context-preservation.md	8. Verification ledger (what was checked, so it isn't re-checked)	3
-e95	to_human/2026-08-16-context-preservation.md	9. Key intellectual landmarks (theses that must survive)	6
-e96	to_human/2026-08-16-proposal-walkthrough.md	Finite-Speed Value: A Walkthrough	5
-e97	to_human/2026-08-16-proposal-walkthrough.md	1. The whole program in five minutes	9
-e98	to_human/2026-08-16-proposal-walkthrough.md	2.1 The heat paradox (physics)	7
-e99	to_human/2026-08-16-proposal-walkthrough.md	2.2 The transformation problem (economics)	6
-e100	to_human/2026-08-16-proposal-walkthrough.md	2.3 What the two paradoxes share	3
-e101	to_human/2026-08-16-proposal-walkthrough.md	3. The core move: a formal correspondence	6
-e102	to_human/2026-08-16-proposal-walkthrough.md	4. The statistical compass: Jaynes as the guide	6
-e103	to_human/2026-08-16-proposal-walkthrough.md	4.1 Jaynes' MaxEnt in one paragraph	3
-e104	to_human/2026-08-16-proposal-walkthrough.md	4.2 Four statistical mirrors	6
-e105	to_human/2026-08-16-proposal-walkthrough.md	4.3 Statistical equilibrium is already Jaynesian	2
-e106	to_human/2026-08-16-proposal-walkthrough.md	4.4 What the compass does and does not claim	5
-e107	to_human/2026-08-16-proposal-walkthrough.md	5. The physics explainer	7
-e108	to_human/2026-08-16-proposal-walkthrough.md	6. The mathematics explainer	12
-e109	to_human/2026-08-16-proposal-walkthrough.md	7. The economics explainer	9
-e110	to_human/2026-08-16-proposal-walkthrough.md	8. The computer science explainer	9
-e111	to_human/2026-08-16-proposal-walkthrough.md	9. Assembling the tracks	5
-e112	to_human/2026-08-16-proposal-walkthrough.md	10. What success looks like	10
-e113	to_human/2026-08-16-proposal-walkthrough.md	11. Glossary	11
+e0	ret-tssi/findings.md	Findings — The Formal Correspondence	8
+e1	ret-tssi/findings.md	1. The two paradoxes of simultaneity	5
+e2	ret-tssi/findings.md	2. The thermodynamic pole (what we borrow)	8
+e3	ret-tssi/findings.md	3. The economic pole (what we reformulate)	6
+e4	ret-tssi/findings.md	4. The correspondence table	9
+e5	ret-tssi/findings.md	5. Model skeleton (Track A, Phase 1 — candidate Master's problem)	12
+e6	ret-tssi/findings.md	6. Track B synthesis (foundations)	5
+e7	ret-tssi/findings.md	7. Track C synthesis (computational/empirical)	4
+e8	ret-tssi/findings.md	8. Risk register (program level)	4
+e9	ret-tssi/literature/baez-lynch-moeller-2023.md	Baez, Lynch & Moeller (2023) — Compositional Thermostatics	9
+e10	ret-tssi/literature/bortkiewicz-sraffa-dual-system.md	Bortkiewicz–Sraffa Tradition — The Simultaneous Dual-System Benchmark	10
+e11	ret-tssi/literature/burger-etal-2013.md	Burger, Caffarelli, Markowich & Wolfram (2013) — A Boltzmann-Type Price Formation Model	14
+e12	ret-tssi/literature/cattaneo-1948.md	Cattaneo (1948) — Sulla conduzione del calore	12
+e13	ret-tssi/literature/chen-levermore-liu-1994.md	Chen, Levermore & Liu (1994) — Hyperbolic Conservation Laws with Stiff Relaxation and Entropy	9
+e14	ret-tssi/literature/cockshott-2016.md	Cockshott (2016) — Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence	9
+e15	ret-tssi/literature/cockshott-cottrell-1998.md	Cockshott & Cottrell (1997/1998) — Does Marx Need to Transform? / Scientific Status of the LTV	7
+e16	ret-tssi/literature/cottrell-etal-2009.md	Cottrell, Cockshott, Michaelson, Wright & Yakovenko (2009) — Classical Econophysics	10
+e17	ret-tssi/literature/dumenil-levy-1987.md	Duménil & Lévy (1987) — The Dynamics of Competition: A Restoration of the Classical Analysis	9
+e18	ret-tssi/literature/farjoun-machover-1983.md	Farjoun & Machover (1983) — Laws of Chaos	8
+e19	ret-tssi/literature/flaschel-semmler-1987.md	Flaschel & Semmler (1987) — Classical and Neoclassical Competitive Adjustment Processes	10
+e20	ret-tssi/literature/freeman-1996.md	Freeman (1996) — Price, Value and Profit: A Continuous, General Treatment	10
+e21	ret-tssi/literature/grmela-generic-multiscale.md	Grmela & Öttinger — GENERIC and Multiscale Thermodynamics	6
+e22	ret-tssi/literature/jou-etal-eit.md	Jou, Casas-Vázquez & Lebon — Extended Irreversible Thermodynamics; Ruggeri & Sugiyama (2015)	8
+e23	ret-tssi/literature/kliman-mcglone-1999.md	Kliman & McGlone (1999) — A Temporal Single-system Interpretation of Marx's Value Theory	8
+e24	ret-tssi/literature/lawvere-1986.md	Lawvere & Schanuel (1986) — Categories in Continuum Physics	7
+e25	ret-tssi/literature/mohun-veneziani-2009.md	Mohun & Veneziani (2009) — The Temporal Single-System Interpretation: Underdetermination and Inconsistency	11
+e26	ret-tssi/literature/muller-ruggeri-1998.md	Müller & Ruggeri (1998) — Rational Extended Thermodynamics (2nd ed.)	5
+e27	ret-tssi/literature/ratanov-telegraph-finance.md	Telegraph-Process Models in Finance — Ratanov et al.	9
+e28	ret-tssi/literature/rational-thermodynamics-tradition.md	The Rational Thermodynamics Tradition — Coleman–Noll (1963), Coleman (1964), Truesdell (1984), Gurtin–Williams (1967), Müller (1967), Liu (1972)	14
+e29	ret-tssi/literature/ruggeri-strumia-1981.md	Ruggeri & Strumia (1981) — Main Field and Convex Covariant Density	10
+e30	ret-tssi/literature/stability-dissipative-hyperbolic.md	Stability of Dissipative Hyperbolic Systems — Hanouzet–Natalini (2003), Ruggeri–Serre (2004), Bianchini–Hanouzet–Natalini (2007)	10
+e31	ret-tssi/literature/steedman-1984.md	Steedman (1984) — Natural Prices, Differential Profit Rates and the Classical Competitive Process	12
+e32	ret-tssi/literature/veneziani-2005.md	Veneziani (2005) — Dynamics, Disequilibrium, and Marxian Economics: A Formal Analysis of Temporal Single-System Marxism	8
+e33	ret-tssi/literature/wright-2005.md	Wright (2005) — The Social Architecture of Capitalism	8
+e34	ret-tssi/program/critiques.md	Critiques of the Program — Steelman Document	5
+e35	ret-tssi/program/critiques.md	A1. "Physics envy — this is a metaphor, not a model"	12
+e36	ret-tssi/program/critiques.md	A2. "Category mistake: an economy is not a continuum"	3
+e37	ret-tssi/program/critiques.md	A3. "Unobservable parameters, unparsimonious"	9
+e38	ret-tssi/program/critiques.md	A4. "You're solving a non-problem"	19
+e39	ret-tssi/program/critiques.md	A5. "The relaxation limit vindicates simultaneism"	7
+e40	ret-tssi/program/critiques.md	A6. "Stability theorems reintroduce equilibrium by the back door"	5
+e41	ret-tssi/program/critiques.md	B1. "TSSI is an interpretation of a text, not a dynamical system"	5
+e42	ret-tssi/program/critiques.md	B2. "Your closure is one of infinitely many — why this one?" (underdetermination returns)	10
+e43	ret-tssi/program/critiques.md	B3. "There is no tendency to equalization at all" (the probabilist flank)	3
+e44	ret-tssi/program/critiques.md	B4. Priority/etiquette within the school	4
+e45	ret-tssi/program/critiques.md	C1. The entropy extension probably doesn't exist	9
+e46	ret-tssi/program/critiques.md	C2. "Hyperbolic" is overdressed for an ODE system	5
+e47	ret-tssi/program/critiques.md	C3. The singular limit is only locally valid in time	6
+e48	ret-tssi/program/critiques.md	C4. Only small-data stability is within reach	6
+e49	ret-tssi/program/critiques.md	C5. "Formalization is a proof of the obvious" (Track F)	5
+e50	ret-tssi/program/critiques.md	C6. "Proof assistants aren't ready for the real objects" (Track F)	6
+e51	ret-tssi/program/critiques.md	D1. No kinetic underpinning	5
+e52	ret-tssi/program/critiques.md	D2. "Entropy" is just a Lyapunov function with a borrowed name	4
+e53	ret-tssi/program/critiques.md	D3. "Why RET rather than GENERIC?"	3
+e54	ret-tssi/program/critiques.md	D4. "Learned closures are circular or unphysical" (Track E)	6
+e55	ret-tssi/program/critiques.md	E1. Audience squeeze (now four disciplines)	7
+e56	ret-tssi/program/critiques.md	E2. Missed neighbors	3
+e57	ret-tssi/program/critiques.md	E3. Scope creep (self-critique, sharpened for six tracks)	5
+e58	ret-tssi/program/critiques.md	E4. "The computational tracks are orthogonal to value theory"	10
+e59	ret-tssi/program/critiques.md	Consolidated amendments to `research-program.md`	24
+e60	ret-tssi/program/critiques.md	Watch list (to read before the exposé)	11
+e61	ret-tssi/program/research-program.md	Finite-Speed Value: A Research Program in Marxian Econophysics	5
+e62	ret-tssi/program/research-program.md	1. Overview	20
+e63	ret-tssi/program/research-program.md	2.1 The transformation problem and TSSI	13
+e64	ret-tssi/program/research-program.md	2.2 Rational extended thermodynamics	15
+e65	ret-tssi/program/research-program.md	2.3 Gravitation dynamics	8
+e66	ret-tssi/program/research-program.md	2.4 Classical econophysics and finite-speed precedents	5
+e67	ret-tssi/program/research-program.md	2.5 Gap summary	5
+e68	ret-tssi/program/research-program.md	3. The core correspondence	13
+e69	ret-tssi/program/research-program.md	4. Track A — Physics × Economics: the hyperbolic value-price system	16
+e70	ret-tssi/program/research-program.md	5. Track B — Mathematics × Physics: foundations of extended thermodynamics	4
+e71	ret-tssi/program/research-program.md	6. Track C — Computer Science × Economics: simulation and empirical estimation	7
+e72	ret-tssi/program/research-program.md	7. Track D — Mathematics × Economics: the formal theory of value-price dynamics	9
+e73	ret-tssi/program/research-program.md	8. Track E — Physics × Computer Science: computational thermodynamics of value-price dynamics	11
+e74	ret-tssi/program/research-program.md	9. Track F — Mathematics × Computer Science: certified and executable mathematics	7
+e75	ret-tssi/program/research-program.md	10. Phasing, dependencies, publication strategy	6
+e76	ret-tssi/program/research-program.md	11. Master's thesis decision point	11
+e77	ret-tssi/program/research-program.md	12. References	18
+e78	ret-tssi/research-log.md	2026-08-15 — Project initialization and program document	11
+e79	ret-tssi/research-log.md	2026-08-16 — Git commit + critiques document	24
+e80	ret-tssi/research-log.md	2026-08-16 — Track refactor (3 → 4 tracks, four-discipline framing)	7
+e81	ret-tssi/research-log.md	2026-08-16 — Six-track completion + bibliography reorganization	47
+e82	ret-tssi/research-log.md	2026-08-16 — Commit + context preservation	4
+e83	ret-tssi/research-log.md	2026-08-16 — Proposal walkthrough + AGENTS.md wiring	9
+e84	ret-tssi/to_human/2026-08-15-program-delivery.md	What exists now	7
+e85	ret-tssi/to_human/2026-08-15-program-delivery.md	Decisions embedded (confirm or redirect)	7
+e86	ret-tssi/to_human/2026-08-15-program-delivery.md	Not done (awaiting your review)	3
+e87	ret-tssi/to_human/2026-08-16-context-preservation.md	Context Preservation — read after a context reset	2
+e88	ret-tssi/to_human/2026-08-16-context-preservation.md	1. Project origin (attribution)	6
+e89	ret-tssi/to_human/2026-08-16-context-preservation.md	2. Program framing decisions (confirmed with Brad, in order)	8
+e90	ret-tssi/to_human/2026-08-16-context-preservation.md	3. Master's thesis exposé — format benchmarks (from web research; needed for phase 2)	3
+e91	ret-tssi/to_human/2026-08-16-context-preservation.md	4. Open next steps (from Brad's list; status)	3
+e92	ret-tssi/to_human/2026-08-16-context-preservation.md	5. Status: the consolidated amendments to research-program.md	5
+e93	ret-tssi/to_human/2026-08-16-context-preservation.md	6. Open decisions awaiting Brad	3
+e94	ret-tssi/to_human/2026-08-16-context-preservation.md	6.5 Pending commitments (conversation-only, not in any document)	5
+e95	ret-tssi/to_human/2026-08-16-context-preservation.md	7. Working conventions (per AGENTS.md + session)	2
+e96	ret-tssi/to_human/2026-08-16-context-preservation.md	8. Verification ledger (what was checked, so it isn't re-checked)	6
+e97	ret-tssi/to_human/2026-08-16-context-preservation.md	9. Key intellectual landmarks (theses that must survive)	7
+e98	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	Finite-Speed Value: A Walkthrough	6
+e99	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	1. The whole program in five minutes	11
+e100	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	2.1 The heat paradox (physics)	8
+e101	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	2.2 The transformation problem (economics)	7
+e102	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	2.3 What the two paradoxes share	4
+e103	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	3. The core move: a formal correspondence	7
+e104	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4. The statistical compass: Jaynes as the guide	7
+e105	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.1 Jaynes' MaxEnt in one paragraph	4
+e106	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.2 Four statistical mirrors	7
+e107	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.3 Statistical equilibrium is already Jaynesian	3
+e108	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.4 What the compass does and does not claim	6
+e109	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	5. The physics explainer	9
+e110	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	6. The mathematics explainer	13
+e111	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	7. The economics explainer	15
+e112	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	8. The computer science explainer	10
+e113	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	9. Assembling the tracks	6
+e114	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	10. What success looks like	11
+e115	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	11. Glossary	12
+e116	poc/REPORT.md	Knowledge-Repository POC — Phase A, Step 1	4
+e117	poc/REPORT.md	Method	13
+e118	poc/REPORT.md	Corpus	4
+e119	poc/REPORT.md	Results	15
+e120	poc/REPORT.md	Artifacts (`graph/`)	2
+e121	poc/REPORT.md	Rebuild	2
+e122	poc/REPORT.md	Next	5
+e123	poc/REPORT.md	Pipelines (`pipelines/`)	2
+e124	poc/REPORT.md	MCP wiring	4
+e125	poc/REPORT.md	Verified behavior	5
+e126	poc/REPORT.md	Step 2 gotchas (learned)	3
+e127	poc/REPORT.md	Next	2
+e128	poc/REPORT.md	The demo question	11
+e129	poc/REPORT.md	Step 3 gotcha	4
+e130	poc/REPORT.md	Next	3
+e131	poc/plumbing-setup.md	Plumbing — environment setup & smoke test	4
+e132	poc/plumbing-setup.md	What plumbing provides here	3
+e133	poc/plumbing-setup.md	Installation — the path that works: Nix source build	4
+e134	poc/plumbing-setup.md	nix available: nix 2.34.7 on this host	3
+e135	poc/plumbing-setup.md	Usage	3
+e136	poc/plumbing-setup.md	Run a pipeline from a JSON stream on stdin	2
+e137	poc/plumbing-setup.md	Type-check at load time	3
+e138	poc/plumbing-setup.md	render the architecture as a graph (dot)	3
+e139	poc/plumbing-setup.md	MCP bridge (exposes pipelines as MCP tools to opencode)	4
+e140	poc/plumbing-setup.md	Smoke-test transcript (all passed)	2
+e141	poc/plumbing-setup.md	Notes / gotchas	3
+e142	top/knowledge-repository-proposal.md	An Explicit Knowledge Repository for the opencode Research Assistant	4
+e143	top/knowledge-repository-proposal.md	1. Framing: the gap this fills	3
+e144	top/knowledge-repository-proposal.md	Why hypergraphs, not a pairwise graph	3
+e145	top/knowledge-repository-proposal.md	2. Design principles	4
+e146	top/knowledge-repository-proposal.md	3. Proposed architecture	2
+e147	top/knowledge-repository-proposal.md	4. Component assessment	3
+e148	top/knowledge-repository-proposal.md	5. The knowledge-engineering loop	2
+e149	top/knowledge-repository-proposal.md	6. Phased plan	4
+e150	top/knowledge-repository-proposal.md	7. Risks and open decisions	2
+e151	top/knowledge-repository-proposal.md	8. Why this fits the research program	3
+e152	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
+e153	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
+e154	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
+e155	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
+e156	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
+e157	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
+e158	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
+e159	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
+e160	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
+e161	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15

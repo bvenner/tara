@@ -1,0 +1,14 @@
+{
+ "openalex_id": "https://openalex.org/W2747676085",
+ "doi": "https://doi.org/10.1103/physreve.96.042143",
+ "title": "Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes",
+ "year": 2017,
+ "venue": "Physical review. E",
+ "authors": [
+  "Takashi Arima",
+  "Tommaso Ruggeri",
+  "Masaru Sugiyama"
+ ],
+ "abstract": "We present a more refined version of rational extended thermodynamics of rarefied polyatomic gases in which molecular rotational and vibrational relaxation processes are treated individually. In this case, we need a triple hierarchy of the moment system and the system of balance equations is closed via the maximum entropy principle. Three different types of the production terms in the system, which are suggested by a generalized BGK-type collision term in the Boltzmann equation, are adopted. In particular, the rational extended thermodynamic theory with seven independent fields (ET_{7}) is analyzed in detail. Finally, the dispersion relation of ultrasonic wave derived from the ET_{7} theory is confirmed by the experimental data for CO_{2}, Cl_{2}, and Br_{2} gases.",
+ "citation_count": 58
+}

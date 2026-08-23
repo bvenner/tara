@@ -1,0 +1,12 @@
+{
+ "openalex_id": "https://openalex.org/W2088012579",
+ "doi": "https://doi.org/10.1006/jeth.1994.1018",
+ "title": "A Statistical Equilibrium Theory of Markets",
+ "year": 1994,
+ "venue": "Journal of Economic Theory",
+ "authors": [
+  "Duncan K. Foley"
+ ],
+ "abstract": "A market consists of agents defined by finite offer sets of acceptable transactions. When there are many agents with each offer set, statistical equilibrium is the feasible distribution of agents over offer sets that can be realized in the largest number of ways. A unique statistical equilibrium exists if there is a feasible market transaction and generically is a Gibbsian canonical distribution: the number of agents achieving each transaction is inversely proportional to the exponential of its cost at equilibrium entropy prices. Statistical equilibrium approximates, but does not achieve, Pareto-efficiency, requiring modification of the First and Second Welfare Theorems. Journal of Economic Literature Classification Numbers: C62, D50, E10.",
+ "citation_count": 290
+}

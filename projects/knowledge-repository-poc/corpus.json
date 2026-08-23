@@ -1,0 +1,24 @@
+{
+  "roots": [
+    {
+      "name": "ret-tssi",
+      "dir": "projects/ret-tssi-value-dynamics",
+      "glob": "**/*.md",
+      "exclude": ["AGENTS.md"]
+    },
+    {
+      "name": "poc",
+      "dir": "projects/knowledge-repository-poc",
+      "glob": "*.md",
+      "exclude": []
+    },
+    {
+      "name": "top",
+      "dir": ".",
+      "glob": "knowledge-repository-proposal.md",
+      "exclude": []
+    }
+  ],
+  "external_dir": "projects/knowledge-repository-poc/corpus/external",
+  "bib_glob": "program/references.bib"
+}

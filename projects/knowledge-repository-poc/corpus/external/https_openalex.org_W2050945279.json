@@ -1,0 +1,13 @@
+{
+ "openalex_id": "https://openalex.org/W2050945279",
+ "doi": "https://doi.org/10.1088/0034-4885/55/3/001",
+ "title": "Relaxation processes in supercooled liquids",
+ "year": 1992,
+ "venue": "Reports on Progress in Physics",
+ "authors": [
+  "W. G\u00f6tze",
+  "L. Sj\u00f6gren"
+ ],
+ "abstract": "The characteristic features of alpha - and beta - relaxation in the supercooled state of nonnetwork forming liquids and polymers are reviewed. Particular emphasis is put on properties observed recently by neutron scattering and molecular dynamics studies within the mesoscopic time region. The data indicate the existence of a crossover temperature T c , located above the calorimetric glass transition temperature T g , where the transport properties change from those typical for a strongly coupled liquid to those characteristic for a glass. Near T c the alpha -process is specified by Debye-Waller factor anomalies, power law divergences of the relaxation scale and a crossover from alpha -scale universality to decoupling of the various relaxation processes. The beta -process is characterized by a complete absence of correlations between spatial and temporal motion and unconventional scaling laws. There appear two fractal time decay processes and two divergent time scales if the cross over temperature is approached. The results of the mode coupling theory for the supercooled liquid dynamics are reviewed and shown to give a unified and partly quantitative description of the T c anomalies.",
+ "citation_count": 2864
+}

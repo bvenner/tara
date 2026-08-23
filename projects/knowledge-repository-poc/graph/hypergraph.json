@@ -1,11 +1,15 @@
 {
  "meta": {
-  "corpus_dir": "/home/brad/Documents/Research/projects/ret-tssi-value-dynamics",
-  "built_at": null,
-  "node_rule": "co-occurrence v1 (headers + RAKE keywords + citations + artifacts + notations)",
+  "manifest": "corpus.json",
+  "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)",
   "format": "hypergraph-json-v1 (HNX-compatible: V, E, He)"
  },
  "V": [
+  {
+   "id": "project:ret-tssi",
+   "label": "ret-tssi",
+   "kind": "project"
+  },
   {
    "id": "section:[findings - the formal correspondence]",
    "label": "[Findings \u2014 The Formal Correspondence]",
@@ -75,6 +79,11 @@
    "id": "citation:muller-ruggeri1998 (1998)",
    "label": "muller-ruggeri1998 (1998)",
    "kind": "citation"
+  },
+  {
+   "id": "author:m",
+   "label": "m",
+   "kind": "author"
   },
   {
    "id": "citation:muller1967 (1967)",
@@ -237,6 +246,11 @@
    "kind": "citation"
   },
   {
+   "id": "author:von",
+   "label": "von",
+   "kind": "author"
+  },
+  {
    "id": "section:[burger, caffarelli, markowich & wolfram (2013) - a boltzmann-type price formation model]",
    "label": "[Burger, Caffarelli, Markowich & Wolfram (2013) \u2014 A Boltzmann-Type Price Formation Model]",
    "kind": "section"
@@ -280,6 +294,26 @@
    "id": "citation:burger-etal2013 (2013)",
    "label": "burger-etal2013 (2013)",
    "kind": "citation"
+  },
+  {
+   "id": "author:martin",
+   "label": "martin",
+   "kind": "author"
+  },
+  {
+   "id": "author:a",
+   "label": "a",
+   "kind": "author"
+  },
+  {
+   "id": "author:marie-therese",
+   "label": "marie-therese",
+   "kind": "author"
+  },
+  {
+   "id": "author:luis",
+   "label": "luis",
+   "kind": "author"
   },
   {
    "id": "section:[cattaneo (1948) - sulla conduzione del calore]",
@@ -747,6 +781,16 @@
    "kind": "citation"
   },
   {
+   "id": "author:o",
+   "label": "o",
+   "kind": "author"
+  },
+  {
+   "id": "author:e",
+   "label": "e",
+   "kind": "author"
+  },
+  {
    "id": "section:[ruggeri & strumia (1981) - main field and convex covariant density]",
    "label": "[Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density]",
    "kind": "section"
@@ -992,9 +1036,39 @@
    "kind": "citation"
   },
   {
+   "id": "author:j",
+   "label": "j",
+   "kind": "author"
+  },
+  {
+   "id": "author:p",
+   "label": "p",
+   "kind": "author"
+  },
+  {
+   "id": "author:paul",
+   "label": "paul",
+   "kind": "author"
+  },
+  {
+   "id": "author:f",
+   "label": "f",
+   "kind": "author"
+  },
+  {
    "id": "citation:markowich-etal2009 (2009)",
    "label": "markowich-etal2009 (2009)",
    "kind": "citation"
+  },
+  {
+   "id": "author:jan-f",
+   "label": "jan-f",
+   "kind": "author"
+  },
+  {
+   "id": "author:norayr",
+   "label": "norayr",
+   "kind": "author"
   },
   {
    "id": "section:[a5. \"the relaxation limit vindicates simultaneism\"]",
@@ -1292,6 +1366,11 @@
    "kind": "citation"
   },
   {
+   "id": "author:miroslav",
+   "label": "miroslav",
+   "kind": "author"
+  },
+  {
    "id": "citation:grmela2021 (2021)",
    "label": "grmela2021 (2021)",
    "kind": "citation"
@@ -1302,9 +1381,29 @@
    "kind": "citation"
   },
   {
+   "id": "author:ellis",
+   "label": "ellis",
+   "kind": "author"
+  },
+  {
+   "id": "author:gregor",
+   "label": "gregor",
+   "kind": "author"
+  },
+  {
    "id": "citation:mohun-veneziani2017 (2017)",
    "label": "mohun-veneziani2017 (2017)",
    "kind": "citation"
+  },
+  {
+   "id": "author:roberto",
+   "label": "roberto",
+   "kind": "author"
+  },
+  {
+   "id": "author:simon",
+   "label": "simon",
+   "kind": "author"
   },
   {
    "id": "citation:foley1994 (1994)",
@@ -1312,9 +1411,24 @@
    "kind": "citation"
   },
   {
+   "id": "author:k",
+   "label": "k",
+   "kind": "author"
+  },
+  {
    "id": "citation:jin-xin1995 (1995)",
    "label": "jin-xin1995 (1995)",
    "kind": "citation"
+  },
+  {
+   "id": "author:shi",
+   "label": "shi",
+   "kind": "author"
+  },
+  {
+   "id": "author:ping",
+   "label": "ping",
+   "kind": "author"
   },
   {
    "id": "section:[watch list (to read before the expos\u00e9)]",
@@ -1330,6 +1444,21 @@
    "id": "citation:bar-sinai2019 (2019)",
    "label": "bar-sinai2019 (2019)",
    "kind": "citation"
+  },
+  {
+   "id": "author:stephan",
+   "label": "stephan",
+   "kind": "author"
+  },
+  {
+   "id": "author:yohai",
+   "label": "yohai",
+   "kind": "author"
+  },
+  {
+   "id": "author:jason",
+   "label": "jason",
+   "kind": "author"
   },
   {
    "id": "section:[finite-speed value: a research program in marxian econophysics]",
@@ -1392,6 +1521,21 @@
    "kind": "citation"
   },
   {
+   "id": "author:joe",
+   "label": "joe",
+   "kind": "author"
+  },
+  {
+   "id": "author:c",
+   "label": "c",
+   "kind": "author"
+  },
+  {
+   "id": "author:owen",
+   "label": "owen",
+   "kind": "author"
+  },
+  {
    "id": "section:[2.3 gravitation dynamics]",
    "label": "[2.3 Gravitation dynamics]",
    "kind": "section"
@@ -1415,6 +1559,11 @@
    "id": "citation:farjoun-machover1983 (1983)",
    "label": "farjoun-machover1983 (1983)",
    "kind": "citation"
+  },
+  {
+   "id": "author:emmanuel",
+   "label": "emmanuel",
+   "kind": "author"
   },
   {
    "id": "section:[2.5 gap summary]",
@@ -1532,6 +1681,11 @@
    "kind": "citation"
   },
   {
+   "id": "author:arjit",
+   "label": "arjit",
+   "kind": "author"
+  },
+  {
    "id": "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]",
    "label": "[2026-08-16 \u2014 Track refactor (3 \u2192 4 tracks, four-discipline framing)]",
    "kind": "section"
@@ -1547,9 +1701,34 @@
    "kind": "citation"
   },
   {
+   "id": "author:maziar",
+   "label": "maziar",
+   "kind": "author"
+  },
+  {
+   "id": "author:em",
+   "label": "em",
+   "kind": "author"
+  },
+  {
+   "id": "author:paris",
+   "label": "paris",
+   "kind": "author"
+  },
+  {
    "id": "citation:pan-duraisamy2018 (2018)",
    "label": "pan-duraisamy2018 (2018)",
    "kind": "citation"
+  },
+  {
+   "id": "author:karthik",
+   "label": "karthik",
+   "kind": "author"
+  },
+  {
+   "id": "author:shaowu",
+   "label": "shaowu",
+   "kind": "author"
   },
   {
    "id": "citation:brennan-venturi2018 (2018)",
@@ -1557,9 +1736,39 @@
    "kind": "citation"
   },
   {
+   "id": "author:daniele",
+   "label": "daniele",
+   "kind": "author"
+  },
+  {
+   "id": "author:christopher",
+   "label": "christopher",
+   "kind": "author"
+  },
+  {
    "id": "citation:libkind-etal2022 (2022)",
    "label": "libkind-etal2022 (2022)",
    "kind": "citation"
+  },
+  {
+   "id": "author:andrew",
+   "label": "andrew",
+   "kind": "author"
+  },
+  {
+   "id": "author:james",
+   "label": "james",
+   "kind": "author"
+  },
+  {
+   "id": "author:sophie",
+   "label": "sophie",
+   "kind": "author"
+  },
+  {
+   "id": "author:evan",
+   "label": "evan",
+   "kind": "author"
   },
   {
    "id": "citation:morris-etal2024 (2024)",
@@ -1567,9 +1776,34 @@
    "kind": "citation"
   },
   {
+   "id": "author:maia",
+   "label": "maia",
+   "kind": "author"
+  },
+  {
+   "id": "author:jesus",
+   "label": "jesus",
+   "kind": "author"
+  },
+  {
+   "id": "author:luke",
+   "label": "luke",
+   "kind": "author"
+  },
+  {
    "id": "citation:armstrong-kuusi2025 (2025)",
    "label": "armstrong-kuusi2025 (2025)",
    "kind": "citation"
+  },
+  {
+   "id": "author:scott",
+   "label": "scott",
+   "kind": "author"
+  },
+  {
+   "id": "author:tuomo",
+   "label": "tuomo",
+   "kind": "author"
   },
   {
    "id": "citation:coarsegraining-lean (2025)",
@@ -1577,9 +1811,19 @@
    "kind": "citation"
   },
   {
+   "id": "author:collaborators",
+   "label": "collaborators",
+   "kind": "author"
+  },
+  {
    "id": "citation:lerayhopf-lean (2025)",
    "label": "lerayhopf-lean (2025)",
    "kind": "citation"
+  },
+  {
+   "id": "author:lab",
+   "label": "lab",
+   "kind": "author"
   },
   {
    "id": "citation:vandoor-macbeth2024 (2024)",
@@ -1587,9 +1831,29 @@
    "kind": "citation"
   },
   {
+   "id": "author:heather",
+   "label": "heather",
+   "kind": "author"
+  },
+  {
+   "id": "author:floris",
+   "label": "floris",
+   "kind": "author"
+  },
+  {
    "id": "citation:martin-dorel-melquiond2016 (2016)",
    "label": "martin-dorel-melquiond2016 (2016)",
    "kind": "citation"
+  },
+  {
+   "id": "author:guillaume",
+   "label": "guillaume",
+   "kind": "author"
+  },
+  {
+   "id": "author:erik",
+   "label": "erik",
+   "kind": "author"
   },
   {
    "id": "section:[2026-08-16 - commit + context preservation]",
@@ -1770,6 +2034,11 @@
    "id": "citation:cattaneo1948 (1948)",
    "label": "cattaneo1948 (1948)",
    "kind": "citation"
+  },
+  {
+   "id": "author:carlo",
+   "label": "carlo",
+   "kind": "author"
   },
   {
    "id": "section:[2.1 the heat paradox (physics)]",
@@ -1985,6 +2254,936 @@
    "id": "keyword:labor values become prices",
    "label": "labor values become prices",
    "kind": "keyword"
+  },
+  {
+   "id": "project:poc",
+   "label": "poc",
+   "kind": "project"
+  },
+  {
+   "id": "section:[knowledge-repository poc - phase a, step 1]",
+   "label": "[Knowledge-Repository POC \u2014 Phase A, Step 1]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:co-occurrence hypergraph",
+   "label": "co-occurrence hypergraph",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:llm involved",
+   "label": "llm involved",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[method]",
+   "label": "[Method]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[corpus]",
+   "label": "[Corpus]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:human notes",
+   "label": "human notes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:citation entities",
+   "label": "citation entities",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[results]",
+   "label": "[Results]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[artifacts (`graph/`)]",
+   "label": "[Artifacts (`graph/`)]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[rebuild]",
+   "label": "[Rebuild]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[next]",
+   "label": "[Next]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:json-lines workers",
+   "label": "json-lines workers",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:graph artifact",
+   "label": "graph artifact",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:opencode",
+   "label": "opencode",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[pipelines (`pipelines/`)]",
+   "label": "[Pipelines (`pipelines/`)]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[mcp wiring]",
+   "label": "[MCP wiring]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:call",
+   "label": "call",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:query result",
+   "label": "query result",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[verified behavior]",
+   "label": "[Verified behavior]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[step 2 gotchas (learned)]",
+   "label": "[Step 2 gotchas (learned)]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:morphism",
+   "label": "morphism",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[the demo question]",
+   "label": "[The demo question]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[step 3 gotcha]",
+   "label": "[Step 3 gotcha]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:exact-field record output",
+   "label": "exact-field record output",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:ranked output",
+   "label": "ranked output",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:llm",
+   "label": "llm",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[plumbing - environment setup & smoke test]",
+   "label": "[Plumbing \u2014 environment setup & smoke test]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:phase",
+   "label": "phase",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[what plumbing provides here]",
+   "label": "[What plumbing provides here]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:research workflow",
+   "label": "research workflow",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[installation - the path that works: nix source build]",
+   "label": "[Installation \u2014 the path that works: Nix source build]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:bundled",
+   "label": "bundled",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:prebuilt wheels",
+   "label": "prebuilt wheels",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[nix available: nix 2.34.7 on this host]",
+   "label": "[nix available: nix 2.34.7 on this host]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:dune build",
+   "label": "dune build",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[usage]",
+   "label": "[Usage]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:bash",
+   "label": "bash",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[run a pipeline from a json stream on stdin]",
+   "label": "[Run a pipeline from a JSON stream on stdin]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[type-check at load time]",
+   "label": "[Type-check at load time]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:nix develop",
+   "label": "nix develop",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[render the architecture as a graph (dot)]",
+   "label": "[render the architecture as a graph (dot)]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[mcp bridge (exposes pipelines as mcp tools to opencode)]",
+   "label": "[MCP bridge (exposes pipelines as MCP tools to opencode)]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:stdout",
+   "label": "stdout",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[smoke-test transcript (all passed)]",
+   "label": "[Smoke-test transcript (all passed)]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[notes / gotchas]",
+   "label": "[Notes / gotchas]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:nix build",
+   "label": "nix build",
+   "kind": "keyword"
+  },
+  {
+   "id": "project:top",
+   "label": "top",
+   "kind": "project"
+  },
+  {
+   "id": "section:[an explicit knowledge repository for the opencode research assistant]",
+   "label": "[An Explicit Knowledge Repository for the opencode Research Assistant]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:multi-party session types built",
+   "label": "multi-party session types built",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:plumbing precedes",
+   "label": "plumbing precedes",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[1. framing: the gap this fills]",
+   "label": "[1. Framing: the gap this fills]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:global graph openalex already owns",
+   "label": "global graph openalex already owns",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[why hypergraphs, not a pairwise graph]",
+   "label": "[Why hypergraphs, not a pairwise graph]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:reasoning",
+   "label": "reasoning",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[2. design principles]",
+   "label": "[2. Design principles]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:first corpus",
+   "label": "first corpus",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:openalex",
+   "label": "openalex",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[3. proposed architecture]",
+   "label": "[3. Proposed architecture]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[4. component assessment]",
+   "label": "[4. Component assessment]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:runtime whose host language provides multi-party session types natively",
+   "label": "runtime whose host language provides multi-party session types natively",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[5. the knowledge-engineering loop]",
+   "label": "[5. The knowledge-engineering loop]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[6. phased plan]",
+   "label": "[6. Phased plan]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[7. risks and open decisions]",
+   "label": "[7. Risks and open decisions]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[8. why this fits the research program]",
+   "label": "[8. Why this fits the research program]",
+   "kind": "section"
+  },
+  {
+   "id": "project:openalex",
+   "label": "openalex",
+   "kind": "project"
+  },
+  {
+   "id": "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
+   "label": "From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
+   "kind": "work"
+  },
+  {
+   "id": "author:luca dalessio",
+   "label": "Luca D'Alessio",
+   "kind": "author"
+  },
+  {
+   "id": "author:yariv kafri",
+   "label": "Yariv Kafri",
+   "kind": "author"
+  },
+  {
+   "id": "author:anatoli polkovnikov",
+   "label": "Anatoli Polkovnikov",
+   "kind": "author"
+  },
+  {
+   "id": "author:marcos rigol",
+   "label": "Marcos Rigol",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:integrable quantum systems",
+   "label": "integrable quantum systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:quantum chaos allows one",
+   "label": "quantum chaos allows one",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:quantum chaos",
+   "label": "quantum chaos",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:quantum quenches",
+   "label": "quantum quenches",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:isolated chaotic systems",
+   "label": "isolated chaotic systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:taking isolated systems",
+   "label": "taking isolated systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:many-body lattice systems",
+   "label": "many-body lattice systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:continuously driven systems",
+   "label": "continuously driven systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:weakly interacting systems",
+   "label": "weakly interacting systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:eigenstate thermalization",
+   "label": "eigenstate thermalization",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:extended irreversible thermodynamics revisited (1988-98)",
+   "label": "Extended irreversible thermodynamics revisited (1988-98)",
+   "kind": "work"
+  },
+  {
+   "id": "author:david jou",
+   "label": "David Jou",
+   "kind": "author"
+  },
+  {
+   "id": "author:jos\u00e9 casas-v\u00e1zquez",
+   "label": "Jos\u00e9 Casas-V\u00e1zquez",
+   "kind": "author"
+  },
+  {
+   "id": "author:g. lebon",
+   "label": "G. Lebon",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:extended irreversible thermodynamics revisited",
+   "label": "extended irreversible thermodynamics revisited",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:extended irreversible thermodynamics stands",
+   "label": "extended irreversible thermodynamics stands",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:modern thermodynamics",
+   "label": "modern thermodynamics",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:applications",
+   "label": "applications",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:decade much effort",
+   "label": "decade much effort",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:much progress",
+   "label": "much progress",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:last decade",
+   "label": "last decade",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:non-equilibrium thermodynamic theories",
+   "label": "non-equilibrium thermodynamic theories",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:the social architecture of capitalism",
+   "label": "The social architecture of capitalism",
+   "kind": "work"
+  },
+  {
+   "id": "author:i. p. wright",
+   "label": "I. P. Wright",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:capitalism",
+   "label": "capitalism",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:relaxation processes in supercooled liquids",
+   "label": "Relaxation processes in supercooled liquids",
+   "kind": "work"
+  },
+  {
+   "id": "author:w. g\u00f6tze",
+   "label": "W. G\u00f6tze",
+   "kind": "author"
+  },
+  {
+   "id": "author:l. sj\u00f6gren",
+   "label": "L. Sj\u00f6gren",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:appear two fractal time decay processes",
+   "label": "appear two fractal time decay processes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:two divergent time scales",
+   "label": "two divergent time scales",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:various relaxation processes",
+   "label": "various relaxation processes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:relaxation processes",
+   "label": "relaxation processes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:mesoscopic time region",
+   "label": "mesoscopic time region",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:supercooled liquid dynamics",
+   "label": "supercooled liquid dynamics",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:relaxation scale",
+   "label": "relaxation scale",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:calorimetric glass transition temperature",
+   "label": "calorimetric glass transition temperature",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:supercooled liquids",
+   "label": "supercooled liquids",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:crossover temperature",
+   "label": "crossover temperature",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:supercooled state",
+   "label": "supercooled state",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:mechanics of deformation and acoustic propagation in porous media",
+   "label": "Mechanics of Deformation and Acoustic Propagation in Porous Media",
+   "kind": "work"
+  },
+  {
+   "id": "author:m. a. biot",
+   "label": "M. A. Biot",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:porous media derived",
+   "label": "porous media derived",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:porous media",
+   "label": "porous media",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:general principles",
+   "label": "general principles",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:resultant relaxation",
+   "label": "resultant relaxation",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:general applicability",
+   "label": "general applicability",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:relaxation effects",
+   "label": "relaxation effects",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:acoustic propagation",
+   "label": "acoustic propagation",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:writers earlier theory",
+   "label": "writers earlier theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:dissipation",
+   "label": "dissipation",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:complex physical-chemical system",
+   "label": "complex physical-chemical system",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:derived",
+   "label": "derived",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:theory",
+   "label": "theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:unified treatment",
+   "label": "unified treatment",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:a statistical equilibrium theory of markets",
+   "label": "A Statistical Equilibrium Theory of Markets",
+   "kind": "work"
+  },
+  {
+   "id": "author:duncan k. foley",
+   "label": "Duncan K. Foley",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:unique statistical equilibrium exists",
+   "label": "unique statistical equilibrium exists",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:statistical equilibrium theory",
+   "label": "statistical equilibrium theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:finite offer sets",
+   "label": "finite offer sets",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:offer sets",
+   "label": "offer sets",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:feasible market transaction",
+   "label": "feasible market transaction",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:agents defined",
+   "label": "agents defined",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:many agents",
+   "label": "many agents",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:agents achieving",
+   "label": "agents achieving",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:feasible distribution",
+   "label": "feasible distribution",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:agents",
+   "label": "agents",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:stochastic thermodynamics, fluctuation theorems and molecular machines",
+   "label": "Stochastic thermodynamics, fluctuation theorems and molecular machines",
+   "kind": "work"
+  },
+  {
+   "id": "author:udo seifert",
+   "label": "Udo Seifert",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:thermoelectric devices involving single electron transport",
+   "label": "thermoelectric devices involving single electron transport",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:entropy production depending",
+   "label": "entropy production depending",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:entropy production",
+   "label": "entropy production",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:well-defined non-equilibrium ensembles",
+   "label": "well-defined non-equilibrium ensembles",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:non-equilibrium process",
+   "label": "non-equilibrium process",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:non-equilibrium conditions",
+   "label": "non-equilibrium conditions",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:single colloidal particles",
+   "label": "single colloidal particles",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:molecular motors",
+   "label": "molecular motors",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes",
+   "label": "Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes",
+   "kind": "work"
+  },
+  {
+   "id": "author:takashi arima",
+   "label": "Takashi Arima",
+   "kind": "author"
+  },
+  {
+   "id": "author:tommaso ruggeri",
+   "label": "Tommaso Ruggeri",
+   "kind": "author"
+  },
+  {
+   "id": "author:masaru sugiyama",
+   "label": "Masaru Sugiyama",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:rational extended thermodynamic theory",
+   "label": "rational extended thermodynamic theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:molecular relaxation processes",
+   "label": "molecular relaxation processes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:rarefied polyatomic gases",
+   "label": "rarefied polyatomic gases",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:rarefied polyatomic gas",
+   "label": "rarefied polyatomic gas",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:vibrational relaxation processes",
+   "label": "vibrational relaxation processes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:generalized bgk-type collision term",
+   "label": "generalized bgk-type collision term",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:molecular rotational",
+   "label": "molecular rotational",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:seven independent fields",
+   "label": "seven independent fields",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:ultrasonic wave derived",
+   "label": "ultrasonic wave derived",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:moment system",
+   "label": "moment system",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:gases",
+   "label": "gases",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:system",
+   "label": "system",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:the role of quantum information in thermodynamics-a topical review",
+   "label": "The role of quantum information in thermodynamics\u2014a topical review",
+   "kind": "work"
+  },
+  {
+   "id": "author:john goold",
+   "label": "John Goold",
+   "kind": "author"
+  },
+  {
+   "id": "author:marcus huber",
+   "label": "Marcus Huber",
+   "kind": "author"
+  },
+  {
+   "id": "author:arnau riera",
+   "label": "Arnau Riera",
+   "kind": "author"
+  },
+  {
+   "id": "author:l\u00eddia del rio",
+   "label": "L\u00eddia del Rio",
+   "kind": "author"
+  },
+  {
+   "id": "author:paul skrzypczyk",
+   "label": "Paul Skrzypczyk",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:topical review article gives",
+   "label": "topical review article gives",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:quantum information theory",
+   "label": "quantum information theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:quantum information",
+   "label": "quantum information",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:comprehensive review",
+   "label": "comprehensive review",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:review",
+   "label": "review",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:quantum systems",
+   "label": "quantum systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:several trending topics including",
+   "label": "several trending topics including",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:different interdisciplinary approaches emerging",
+   "label": "different interdisciplinary approaches emerging",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:convenient entry point",
+   "label": "convenient entry point",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:extended irreversible thermodynamics",
+   "label": "Extended irreversible thermodynamics",
+   "kind": "work"
+  },
+  {
+   "id": "keyword:so-called rational thermodynamics",
+   "label": "so-called rational thermodynamics",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:several generalisations including higher-order fluxes",
+   "label": "several generalisations including higher-order fluxes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:fluxes",
+   "label": "fluxes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:macroscopic theory",
+   "label": "macroscopic theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:fluctuation theory",
+   "label": "fluctuation theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:kinetic theory",
+   "label": "kinetic theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:classical constitutive laws",
+   "label": "classical constitutive laws",
+   "kind": "keyword"
   }
  ],
  "E": [
@@ -1997,6 +3196,7 @@
     "keyword:tau",
     "notation:melt",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[findings - the formal correspondence]"
    ]
   },
@@ -2006,17 +3206,20 @@
     "keyword:instantaneous closure creates",
     "keyword:instantaneous constitutive closure",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[1. the two paradoxes of simultaneity]"
    ]
   },
   {
    "id": "e2",
    "members": [
+    "author:m",
     "citation:muller-ruggeri1998 (1998)",
     "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[2. the thermodynamic pole (what we borrow)]"
    ]
   },
@@ -2027,6 +3230,7 @@
     "notation:gravitation",
     "notation:melt",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[3. the economic pole (what we reformulate)]"
    ]
   },
@@ -2040,6 +3244,7 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[4. the correspondence table]"
    ]
   },
@@ -2056,6 +3261,7 @@
     "notation:melt",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[5. model skeleton (track a, phase 1 - candidate masters problem)]"
    ]
   },
@@ -2065,6 +3271,7 @@
     "artifact:t1",
     "artifact:t4",
     "keyword:one categorical structure",
+    "project:ret-tssi",
     "section:[6. track b synthesis (foundations)]"
    ]
   },
@@ -2073,6 +3280,7 @@
    "members": [
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[7. track c synthesis (computational/empirical)]"
    ]
   },
@@ -2081,6 +3289,7 @@
    "members": [
     "artifact:t4",
     "keyword:entropy extension",
+    "project:ret-tssi",
     "section:[8. risk register (program level)]"
    ]
   },
@@ -2094,12 +3303,14 @@
     "keyword:entropy depending",
     "keyword:entropy maximization",
     "keyword:generalized convex spaces",
+    "project:ret-tssi",
     "section:[baez, lynch & moeller (2023) - compositional thermostatics]"
    ]
   },
   {
    "id": "e10",
    "members": [
+    "author:von",
     "citation:bortkiewicz1907 (1907)",
     "keyword:algebraic system",
     "keyword:input prices equal output prices",
@@ -2107,12 +3318,17 @@
     "keyword:simultaneous system",
     "notation:gravitation",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[bortkiewicz-sraffa tradition - the simultaneous dual-system benchmark]"
    ]
   },
   {
    "id": "e11",
    "members": [
+    "author:a",
+    "author:luis",
+    "author:marie-therese",
+    "author:martin",
     "citation:burger-etal2013 (2013)",
     "keyword:initial layer",
     "keyword:kinetic models solutions",
@@ -2121,6 +3337,7 @@
     "keyword:price formation",
     "keyword:price-formation level",
     "keyword:transaction-level price formation",
+    "project:ret-tssi",
     "section:[burger, caffarelli, markowich & wolfram (2013) - a boltzmann-type price formation model]"
    ]
   },
@@ -2137,6 +3354,7 @@
     "keyword:telegraph equation",
     "notation:cattaneo",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[cattaneo (1948) - sulla conduzione del calore]"
    ]
   },
@@ -2150,6 +3368,7 @@
     "keyword:stiff relaxation terms",
     "notation:simultaneism",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[chen, levermore & liu (1994) - hyperbolic conservation laws with stiff relaxation and entropy]"
    ]
   },
@@ -2163,6 +3382,7 @@
     "keyword:third price theory implicit",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[cockshott (2016) - marxian reproduction prices versus prices of production: probability and convergence]"
    ]
   },
@@ -2174,6 +3394,7 @@
     "keyword:marx need",
     "keyword:production prices act",
     "keyword:sraffian prices",
+    "project:ret-tssi",
     "section:[cockshott & cottrell (1997/1998) - does marx need to transform? / scientific status of the ltv]"
    ]
   },
@@ -2188,6 +3409,7 @@
     "keyword:models",
     "keyword:ricardian labor theory",
     "keyword:yakovenko",
+    "project:ret-tssi",
     "section:[cottrell, cockshott, michaelson, wright & yakovenko (2009) - classical econophysics]"
    ]
   },
@@ -2201,6 +3423,7 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[dum\u00e9nil & l\u00e9vy (1987) - the dynamics of competition: a restoration of the classical analysis]"
    ]
   },
@@ -2213,6 +3436,7 @@
     "keyword:profit rates",
     "keyword:programs deterministic balance-law core",
     "keyword:rate",
+    "project:ret-tssi",
     "section:[farjoun & machover (1983) - laws of chaos]"
    ]
   },
@@ -2227,6 +3451,7 @@
     "keyword:stable cross-dual adjustment process",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[flaschel & semmler (1987) - classical and neoclassical competitive adjustment processes]"
    ]
   },
@@ -2241,6 +3466,7 @@
     "keyword:value holds identically",
     "notation:cattaneo",
     "notation:melt",
+    "project:ret-tssi",
     "section:[freeman (1996) - price, value and profit: a continuous, general treatment]"
    ]
   },
@@ -2251,6 +3477,7 @@
     "artifact:track b",
     "keyword:entropy",
     "keyword:thermodynamics",
+    "project:ret-tssi",
     "section:[grmela & \u00f6ttinger - generic and multiscale thermodynamics]"
    ]
   },
@@ -2263,6 +3490,7 @@
     "keyword:extended thermodynamics",
     "keyword:rational extended thermodynamics",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[jou, casas-v\u00e1zquez & lebon - extended irreversible thermodynamics; ruggeri & sugiyama (2015)]"
    ]
   },
@@ -2275,6 +3503,7 @@
     "keyword:temporal single-system interpretation",
     "keyword:value",
     "notation:melt",
+    "project:ret-tssi",
     "section:[kliman & mcglone (1999) - a temporal single-system interpretation of marxs value theory]"
    ]
   },
@@ -2286,6 +3515,7 @@
     "keyword:continuum mechanics",
     "keyword:rational thermodynamics",
     "keyword:truesdell-noll rational mechanics",
+    "project:ret-tssi",
     "section:[lawvere & schanuel (1986) - categories in continuum physics]"
    ]
   },
@@ -2301,6 +3531,7 @@
     "notation:cattaneo",
     "notation:melt",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[mohun & veneziani (2009) - the temporal single-system interpretation: underdetermination and inconsistency]"
    ]
   },
@@ -2310,6 +3541,7 @@
     "keyword:rational extended thermodynamics",
     "notation:fourier",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[m\u00fcller & ruggeri (1998) - rational extended thermodynamics (2nd ed.)]"
    ]
   },
@@ -2323,6 +3555,7 @@
     "keyword:telegraph models",
     "notation:cattaneo",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[telegraph-process models in finance - ratanov et al.]"
    ]
   },
@@ -2330,6 +3563,9 @@
    "id": "e28",
    "members": [
     "artifact:track a",
+    "author:e",
+    "author:m",
+    "author:o",
     "citation:gurtin-williams1967 (1967)",
     "citation:muller1967 (1967)",
     "keyword:constitutive relations",
@@ -2338,6 +3574,7 @@
     "keyword:thermodynamics",
     "keyword:truesdell-school rational thermodynamics",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[the rational thermodynamics tradition - coleman-noll (1963), coleman (1964), truesdell (1984), gurtin-williams (1967), m\u00fcller (1967), liu (1972)]"
    ]
   },
@@ -2352,6 +3589,7 @@
     "keyword:first-order quasi-linear system",
     "keyword:value-price system",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[ruggeri & strumia (1981) - main field and convex covariant density]"
    ]
   },
@@ -2366,6 +3604,7 @@
     "keyword:systems",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[stability of dissipative hyperbolic systems - hanouzet-natalini (2003), ruggeri-serre (2004), bianchini-hanouzet-natalini (2007)]"
    ]
   },
@@ -2382,6 +3621,7 @@
     "notation:fourier",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[steedman (1984) - natural prices, differential profit rates and the classical competitive process]"
    ]
   },
@@ -2394,6 +3634,7 @@
     "keyword:veneziani critique",
     "keyword:veneziani finds missing",
     "notation:melt",
+    "project:ret-tssi",
     "section:[veneziani (2005) - dynamics, disequilibrium, and marxian economics: a formal analysis of temporal single-system marxism]"
    ]
   },
@@ -2406,6 +3647,7 @@
     "keyword:measurable relaxation spectrum",
     "keyword:simulation rather",
     "keyword:social architecture",
+    "project:ret-tssi",
     "section:[wright (2005) - the social architecture of capitalism]"
    ]
   },
@@ -2415,6 +3657,7 @@
     "artifact:track e",
     "keyword:program",
     "keyword:program document",
+    "project:ret-tssi",
     "section:[critiques of the program - steelman document]"
    ]
   },
@@ -2423,10 +3666,15 @@
    "members": [
     "artifact:t3",
     "artifact:t4",
+    "author:a",
+    "author:luis",
+    "author:marie-therese",
+    "author:martin",
     "citation:burger-etal2013 (2013)",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[a1. \"physics envy - this is a metaphor, not a model\"]"
    ]
   },
@@ -2434,6 +3682,7 @@
    "id": "e36",
    "members": [
     "keyword:per-link transmission speed",
+    "project:ret-tssi",
     "section:[a2. \"category mistake: an economy is not a continuum\"]"
    ]
   },
@@ -2447,6 +3696,7 @@
     "notation:gravitation",
     "notation:simultaneism",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[a3. \"unobservable parameters, unparsimonious\"]"
    ]
   },
@@ -2455,12 +3705,22 @@
    "members": [
     "artifact:t3",
     "artifact:t4",
+    "author:a",
+    "author:f",
+    "author:j",
+    "author:jan-f",
+    "author:m",
+    "author:marie-therese",
+    "author:norayr",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "citation:markowich-etal2009 (2009)",
     "keyword:interpretive question",
     "keyword:program defends tssi",
     "keyword:tssi",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[a4. \"youre solving a non-problem\"]"
    ]
   },
@@ -2472,6 +3732,7 @@
     "keyword:temporal profit rates diverge systematically",
     "notation:simultaneism",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[a5. \"the relaxation limit vindicates simultaneism\"]"
    ]
   },
@@ -2481,6 +3742,7 @@
     "keyword:program",
     "keyword:program doc",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[a6. \"stability theorems reintroduce equilibrium by the back door\"]"
    ]
   },
@@ -2490,6 +3752,7 @@
     "keyword:one adopts",
     "keyword:program brackets exegesis entirely",
     "keyword:program removes",
+    "project:ret-tssi",
     "section:[b1. \"tssi is an interpretation of a text, not a dynamical system\"]"
    ]
   },
@@ -2504,6 +3767,7 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[b2. \"your closure is one of infinitely many - why this one?\" (underdetermination returns)]"
    ]
   },
@@ -2511,6 +3775,7 @@
    "id": "e43",
    "members": [
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[b3. \"there is no tendency to equalization at all\" (the probabilist flank)]"
    ]
   },
@@ -2519,6 +3784,7 @@
    "members": [
     "artifact:t3",
     "keyword:answering tssis critics",
+    "project:ret-tssi",
     "section:[b4. priority/etiquette within the school]"
    ]
   },
@@ -2532,6 +3798,7 @@
     "keyword:entropy extension",
     "keyword:entropy search",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[c1. the entropy extension probably doesnt exist]"
    ]
   },
@@ -2541,6 +3808,7 @@
     "keyword:hyperbolic pdes",
     "keyword:papers use pde language",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[c2. \"hyperbolic\" is overdressed for an ode system]"
    ]
   },
@@ -2551,6 +3819,7 @@
     "keyword:initial layer",
     "keyword:initial layers",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[c3. the singular limit is only locally valid in time]"
    ]
   },
@@ -2561,6 +3830,7 @@
     "artifact:track c",
     "keyword:program claims local theory rigorously",
     "keyword:program doc track",
+    "project:ret-tssi",
     "section:[c4. only small-data stability is within reach]"
    ]
   },
@@ -2570,6 +3840,7 @@
     "artifact:track f",
     "keyword:machine-checked statement",
     "keyword:machine-checked statement cannot silently change definition mid-proof",
+    "project:ret-tssi",
     "section:[c5. \"formalization is a proof of the obvious\" (track f)]"
    ]
   },
@@ -2580,6 +3851,7 @@
     "keyword:discrete recursion",
     "keyword:discrete recursion requires rebuilding large analysis infrastructure",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[c6. \"proof assistants arent ready for the real objects\" (track f)]"
    ]
   },
@@ -2589,6 +3861,7 @@
     "artifact:track c",
     "keyword:every extended theory needs",
     "keyword:microscopic kinetic theory",
+    "project:ret-tssi",
     "section:[d1. no kinetic underpinning]"
    ]
   },
@@ -2597,6 +3870,7 @@
    "members": [
     "keyword:program",
     "keyword:program uses",
+    "project:ret-tssi",
     "section:[d2. \"entropy\" is just a lyapunov function with a borrowed name]"
    ]
   },
@@ -2604,6 +3878,7 @@
    "id": "e53",
    "members": [
     "artifact:track b",
+    "project:ret-tssi",
     "section:[d3. \"why ret rather than generic?\"]"
    ]
   },
@@ -2614,6 +3889,7 @@
     "keyword:subcharacteristic structure",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[d4. \"learned closures are circular or unphysical\" (track e)]"
    ]
   },
@@ -2625,6 +3901,7 @@
     "keyword:much methodological machinery",
     "keyword:per-track venue mapping",
     "keyword:single paper speaks",
+    "project:ret-tssi",
     "section:[e1. audience squeeze (now four disciplines)]"
    ]
   },
@@ -2632,6 +3909,7 @@
    "id": "e56",
    "members": [
     "keyword:program ignores",
+    "project:ret-tssi",
     "section:[e2. missed neighbors]"
    ]
   },
@@ -2641,6 +3919,7 @@
     "artifact:track b",
     "keyword:program document",
     "keyword:tracks b-f",
+    "project:ret-tssi",
     "section:[e3. scope creep (self-critique, sharpened for six tracks)]"
    ]
   },
@@ -2655,6 +3934,7 @@
     "keyword:economic system",
     "keyword:models economic content",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[e4. \"the computational tracks are orthogonal to value theory\"]"
    ]
   },
@@ -2665,6 +3945,14 @@
     "artifact:track b",
     "artifact:track e",
     "artifact:track f",
+    "author:ellis",
+    "author:gregor",
+    "author:k",
+    "author:miroslav",
+    "author:ping",
+    "author:roberto",
+    "author:shi",
+    "author:simon",
     "citation:foley1994 (1994)",
     "citation:grmela2015 (2015)",
     "citation:grmela2021 (2021)",
@@ -2675,6 +3963,7 @@
     "notation:gravitation",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[consolidated amendments to `research-program.md`]"
    ]
   },
@@ -2684,8 +3973,13 @@
     "artifact:track b",
     "artifact:track e",
     "artifact:track f",
+    "author:jason",
+    "author:p",
+    "author:stephan",
+    "author:yohai",
     "citation:bar-sinai2019 (2019)",
     "keyword:track",
+    "project:ret-tssi",
     "section:[watch list (to read before the expos\u00e9)]"
    ]
   },
@@ -2695,6 +3989,7 @@
     "keyword:formal framework",
     "keyword:rational extended thermodynamics",
     "keyword:temporal single-system interpretation",
+    "project:ret-tssi",
     "section:[finite-speed value: a research program in marxian econophysics]"
    ]
   },
@@ -2707,6 +4002,11 @@
     "artifact:track d",
     "artifact:track e",
     "artifact:track f",
+    "author:f",
+    "author:j",
+    "author:m",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "keyword:modern hyperbolic theory supply",
     "keyword:simultaneist value theory",
@@ -2714,20 +4014,36 @@
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[1. overview]"
    ]
   },
   {
    "id": "e63",
    "members": [
+    "author:a",
+    "author:f",
+    "author:j",
+    "author:jan-f",
+    "author:m",
+    "author:marie-therese",
+    "author:norayr",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "citation:markowich-etal2009 (2009)",
+    "project:ret-tssi",
     "section:[2.1 the transformation problem and tssi]"
    ]
   },
   {
    "id": "e64",
    "members": [
+    "author:a",
+    "author:c",
+    "author:joe",
+    "author:m",
+    "author:owen",
     "citation:baez-lynch-moeller2023 (2023)",
     "citation:day1972 (1972)",
     "citation:muller1967 (1967)",
@@ -2736,6 +4052,7 @@
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[2.2 rational extended thermodynamics]"
    ]
   },
@@ -2748,13 +4065,17 @@
     "notation:cattaneo",
     "notation:fourier",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[2.3 gravitation dynamics]"
    ]
   },
   {
    "id": "e66",
    "members": [
+    "author:e",
+    "author:emmanuel",
     "citation:farjoun-machover1983 (1983)",
+    "project:ret-tssi",
     "section:[2.4 classical econophysics and finite-speed precedents]"
    ]
   },
@@ -2764,6 +4085,7 @@
     "keyword:non-physical application",
     "keyword:value-theoretic dynamics",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[2.5 gap summary]"
    ]
   },
@@ -2781,6 +4103,7 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[3. the core correspondence]"
    ]
   },
@@ -2801,6 +4124,7 @@
     "notation:sk condition",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[4. track a - physics \u00d7 economics: the hyperbolic value-price system]"
    ]
   },
@@ -2809,6 +4133,7 @@
    "members": [
     "artifact:t1",
     "artifact:t4",
+    "project:ret-tssi",
     "section:[5. track b - mathematics \u00d7 physics: foundations of extended thermodynamics]"
    ]
   },
@@ -2820,6 +4145,7 @@
     "keyword:data",
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[6. track c - computer science \u00d7 economics: simulation and empirical estimation]"
    ]
   },
@@ -2833,6 +4159,7 @@
     "notation:gravitation",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[7. track d - mathematics \u00d7 economics: the formal theory of value-price dynamics]"
    ]
   },
@@ -2848,6 +4175,7 @@
     "notation:simultaneism",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[8. track e - physics \u00d7 computer science: computational thermodynamics of value-price dynamics]"
    ]
   },
@@ -2859,6 +4187,7 @@
     "artifact:track b",
     "keyword:promise full formalization",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[9. track f - mathematics \u00d7 computer science: certified and executable mathematics]"
    ]
   },
@@ -2869,6 +4198,7 @@
     "artifact:t4",
     "artifact:track b",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[10. phasing, dependencies, publication strategy]"
    ]
   },
@@ -2884,18 +4214,30 @@
     "artifact:track e",
     "artifact:track f",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[11. masters thesis decision point]"
    ]
   },
   {
    "id": "e77",
    "members": [
+    "author:e",
+    "author:emmanuel",
+    "author:f",
+    "author:j",
+    "author:jason",
+    "author:m",
+    "author:p",
+    "author:paul",
+    "author:stephan",
+    "author:yohai",
     "citation:bar-sinai2019 (2019)",
     "citation:cottrell-etal2009 (2009)",
     "citation:farjoun-machover1983 (1983)",
     "citation:muller-ruggeri1998 (1998)",
     "citation:muller1967 (1967)",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[12. references]"
    ]
   },
@@ -2905,8 +4247,13 @@
     "artifact:t1",
     "artifact:t4",
     "artifact:track a",
+    "author:a",
+    "author:luis",
+    "author:marie-therese",
+    "author:martin",
     "citation:burger-etal2013 (2013)",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[2026-08-15 - project initialization and program document]"
    ]
   },
@@ -2914,6 +4261,16 @@
    "id": "e79",
    "members": [
     "artifact:track c",
+    "author:arjit",
+    "author:ellis",
+    "author:gregor",
+    "author:j",
+    "author:k",
+    "author:miroslav",
+    "author:ping",
+    "author:roberto",
+    "author:shi",
+    "author:simon",
     "citation:foley1994 (1994)",
     "citation:grmela-ottinger1997a (1997)",
     "citation:grmela2015 (2015)",
@@ -2925,6 +4282,7 @@
     "citation:scharfenaker-semieniuk2017 (2017)",
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[2026-08-16 - git commit + critiques document]"
    ]
   },
@@ -2936,6 +4294,7 @@
     "artifact:track b",
     "artifact:track c",
     "artifact:track d",
+    "project:ret-tssi",
     "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]"
    ]
   },
@@ -2944,6 +4303,36 @@
    "members": [
     "artifact:track e",
     "artifact:track f",
+    "author:andrew",
+    "author:arjit",
+    "author:christopher",
+    "author:collaborators",
+    "author:daniele",
+    "author:em",
+    "author:erik",
+    "author:evan",
+    "author:floris",
+    "author:guillaume",
+    "author:heather",
+    "author:j",
+    "author:james",
+    "author:jason",
+    "author:jesus",
+    "author:karthik",
+    "author:lab",
+    "author:luke",
+    "author:maia",
+    "author:maziar",
+    "author:p",
+    "author:paris",
+    "author:ping",
+    "author:scott",
+    "author:shaowu",
+    "author:shi",
+    "author:sophie",
+    "author:stephan",
+    "author:tuomo",
+    "author:yohai",
     "citation:armstrong-kuusi2025 (2025)",
     "citation:bar-sinai2019 (2019)",
     "citation:brennan-venturi2018 (2018)",
@@ -2957,6 +4346,7 @@
     "citation:pan-duraisamy2018 (2018)",
     "citation:raissi2019 (2019)",
     "citation:vandoor-macbeth2024 (2024)",
+    "project:ret-tssi",
     "section:[2026-08-16 - six-track completion + bibliography reorganization]"
    ]
   },
@@ -2965,18 +4355,21 @@
    "members": [
     "artifact:t3",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[2026-08-16 - commit + context preservation]"
    ]
   },
   {
    "id": "e83",
    "members": [
+    "author:k",
     "citation:foley1994 (1994)",
     "keyword:driven non-equilibrium steady state",
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[2026-08-16 - proposal walkthrough + agents.md wiring]"
    ]
   },
@@ -2988,6 +4381,7 @@
     "keyword:correspondence table",
     "keyword:research program",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[what exists now]"
    ]
   },
@@ -2999,6 +4393,7 @@
     "artifact:t4",
     "keyword:entropy-extension problem",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[decisions embedded (confirm or redirect)]"
    ]
   },
@@ -3006,21 +4401,30 @@
    "id": "e86",
    "members": [
     "keyword:anchor papers ingested",
+    "project:ret-tssi",
     "section:[not done (awaiting your review)]"
    ]
   },
   {
    "id": "e87",
    "members": [
-    "keyword:apply extended thermodynamics",
-    "keyword:brads stated inspiration",
-    "keyword:rational extended thermodynamics",
-    "keyword:whole research question",
-    "section:[1. project origin (attribution)]"
+    "project:ret-tssi",
+    "section:[context preservation - read after a context reset]"
    ]
   },
   {
    "id": "e88",
+   "members": [
+    "keyword:apply extended thermodynamics",
+    "keyword:brads stated inspiration",
+    "keyword:rational extended thermodynamics",
+    "keyword:whole research question",
+    "project:ret-tssi",
+    "section:[1. project origin (attribution)]"
+   ]
+  },
+  {
+   "id": "e89",
    "members": [
     "artifact:track a",
     "artifact:track b",
@@ -3028,80 +4432,99 @@
     "artifact:track f",
     "keyword:scale research program document first",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[2. program framing decisions (confirmed with brad, in order)]"
-   ]
-  },
-  {
-   "id": "e89",
-   "members": [
-    "keyword:field",
-    "section:[3. masters thesis expos\u00e9 - format benchmarks (from web research; needed for phase 2)]"
    ]
   },
   {
    "id": "e90",
    "members": [
-    "artifact:track b",
-    "section:[4. open next steps (from brads list; status)]"
+    "keyword:field",
+    "project:ret-tssi",
+    "section:[3. masters thesis expos\u00e9 - format benchmarks (from web research; needed for phase 2)]"
    ]
   },
   {
    "id": "e91",
    "members": [
-    "artifact:t3",
-    "keyword:scope note",
-    "notation:tau_j",
-    "section:[5. status: the consolidated amendments to research-program.md]"
+    "artifact:track b",
+    "project:ret-tssi",
+    "section:[4. open next steps (from brads list; status)]"
    ]
   },
   {
    "id": "e92",
    "members": [
-    "artifact:track a",
-    "section:[6. open decisions awaiting brad]"
+    "artifact:t3",
+    "keyword:scope note",
+    "notation:tau_j",
+    "project:ret-tssi",
+    "section:[5. status: the consolidated amendments to research-program.md]"
    ]
   },
   {
    "id": "e93",
    "members": [
-    "notation:cattaneo",
-    "notation:simultaneism",
-    "notation:sk condition",
-    "section:[6.5 pending commitments (conversation-only, not in any document)]"
+    "artifact:track a",
+    "project:ret-tssi",
+    "section:[6. open decisions awaiting brad]"
    ]
   },
   {
    "id": "e94",
    "members": [
-    "citation:gupta-lermusiaux2021 (2021)",
-    "keyword:doi",
-    "section:[8. verification ledger (what was checked, so it isnt re-checked)]"
+    "notation:cattaneo",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "project:ret-tssi",
+    "section:[6.5 pending commitments (conversation-only, not in any document)]"
    ]
   },
   {
    "id": "e95",
+   "members": [
+    "project:ret-tssi",
+    "section:[7. working conventions (per agents.md + session)]"
+   ]
+  },
+  {
+   "id": "e96",
+   "members": [
+    "author:arjit",
+    "author:j",
+    "citation:gupta-lermusiaux2021 (2021)",
+    "keyword:doi",
+    "project:ret-tssi",
+    "section:[8. verification ledger (what was checked, so it isnt re-checked)]"
+   ]
+  },
+  {
+   "id": "e97",
    "members": [
     "artifact:t3",
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[9. key intellectual landmarks (theses that must survive)]"
    ]
   },
   {
-   "id": "e96",
+   "id": "e98",
    "members": [
     "keyword:jaynes maximum-entropy program",
     "keyword:program",
     "keyword:research program",
     "keyword:value theory",
+    "project:ret-tssi",
     "section:[finite-speed value: a walkthrough]"
    ]
   },
   {
-   "id": "e97",
+   "id": "e99",
    "members": [
+    "author:carlo",
     "citation:cattaneo1948 (1948)",
     "keyword:market prices converge",
     "keyword:prices",
@@ -3110,11 +4533,12 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[1. the whole program in five minutes]"
    ]
   },
   {
-   "id": "e98",
+   "id": "e100",
    "members": [
     "keyword:heat conduction says",
     "keyword:heat flowing",
@@ -3122,100 +4546,111 @@
     "keyword:heat paradox",
     "keyword:parabolic heat equation",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[2.1 the heat paradox (physics)]"
    ]
   },
   {
-   "id": "e99",
+   "id": "e101",
    "members": [
     "keyword:knew prices visibly deviate",
     "keyword:prices",
     "keyword:prices form",
     "keyword:prices proportional",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[2.2 the transformation problem (economics)]"
    ]
   },
   {
-   "id": "e100",
+   "id": "e102",
    "members": [
     "keyword:closure",
     "keyword:dynamical timescale vanishes",
+    "project:ret-tssi",
     "section:[2.3 what the two paradoxes share]"
    ]
   },
   {
-   "id": "e101",
+   "id": "e103",
    "members": [
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[3. the core move: a formal correspondence]"
    ]
   },
   {
-   "id": "e102",
+   "id": "e104",
    "members": [
     "keyword:background makes",
     "keyword:deepest structural fact",
     "keyword:selection problem",
     "keyword:selection problems",
     "keyword:single discipline",
+    "project:ret-tssi",
     "section:[4. the statistical compass: jaynes as the guide]"
    ]
   },
   {
-   "id": "e103",
+   "id": "e105",
    "members": [
     "keyword:distributions consistent",
     "keyword:statistical inference",
+    "project:ret-tssi",
     "section:[4.1 jaynes maxent in one paragraph]"
    ]
   },
   {
-   "id": "e104",
+   "id": "e106",
    "members": [
     "notation:cattaneo",
     "notation:fourier",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[4.2 four statistical mirrors]"
-   ]
-  },
-  {
-   "id": "e105",
-   "members": [
-    "keyword:profit rates",
-    "section:[4.3 statistical equilibrium is already jaynesian]"
-   ]
-  },
-  {
-   "id": "e106",
-   "members": [
-    "keyword:closure-selection structure",
-    "keyword:economic agents maximize entropy",
-    "keyword:economic behavior",
-    "keyword:limit structure",
-    "section:[4.4 what the compass does and does not claim]"
    ]
   },
   {
    "id": "e107",
    "members": [
-    "artifact:track a",
-    "artifact:track b",
-    "citation:muller1967 (1967)",
-    "keyword:entropy principle",
-    "notation:sk condition",
-    "notation:subcharacteristic",
-    "section:[5. the physics explainer]"
+    "keyword:profit rates",
+    "project:ret-tssi",
+    "section:[4.3 statistical equilibrium is already jaynesian]"
    ]
   },
   {
    "id": "e108",
+   "members": [
+    "keyword:closure-selection structure",
+    "keyword:economic agents maximize entropy",
+    "keyword:economic behavior",
+    "keyword:limit structure",
+    "project:ret-tssi",
+    "section:[4.4 what the compass does and does not claim]"
+   ]
+  },
+  {
+   "id": "e109",
+   "members": [
+    "artifact:track a",
+    "artifact:track b",
+    "author:m",
+    "citation:muller1967 (1967)",
+    "keyword:entropy principle",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "project:ret-tssi",
+    "section:[5. the physics explainer]"
+   ]
+  },
+  {
+   "id": "e110",
    "members": [
     "artifact:t1",
     "artifact:t2",
@@ -3228,13 +4663,19 @@
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[6. the mathematics explainer]"
    ]
   },
   {
-   "id": "e109",
+   "id": "e111",
    "members": [
     "artifact:track d",
+    "author:f",
+    "author:j",
+    "author:m",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "keyword:prices form one system",
     "keyword:prices visibly differ",
@@ -3242,11 +4683,12 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[7. the economics explainer]"
    ]
   },
   {
-   "id": "e110",
+   "id": "e112",
    "members": [
     "artifact:t2",
     "artifact:t3",
@@ -3256,21 +4698,23 @@
     "notation:simultaneism",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[8. the computer science explainer]"
    ]
   },
   {
-   "id": "e111",
+   "id": "e113",
    "members": [
     "artifact:t1",
     "artifact:t2",
     "artifact:t3",
     "artifact:t4",
+    "project:ret-tssi",
     "section:[9. assembling the tracks]"
    ]
   },
   {
-   "id": "e112",
+   "id": "e114",
    "members": [
     "artifact:t1",
     "artifact:t2",
@@ -3281,11 +4725,12 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[10. what success looks like]"
    ]
   },
   {
-   "id": "e113",
+   "id": "e115",
    "members": [
     "artifact:track c",
     "keyword:labor values become prices",
@@ -3297,11 +4742,531 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[11. glossary]"
+   ]
+  },
+  {
+   "id": "e116",
+   "members": [
+    "keyword:co-occurrence hypergraph",
+    "keyword:llm involved",
+    "project:poc",
+    "section:[knowledge-repository poc - phase a, step 1]"
+   ]
+  },
+  {
+   "id": "e117",
+   "members": [
+    "artifact:t1",
+    "artifact:t4",
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:fourier",
+    "notation:gravitation",
+    "notation:melt",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "notation:tau_j",
+    "project:poc",
+    "section:[method]"
+   ]
+  },
+  {
+   "id": "e118",
+   "members": [
+    "keyword:citation entities",
+    "keyword:human notes",
+    "project:poc",
+    "section:[corpus]"
+   ]
+  },
+  {
+   "id": "e119",
+   "members": [
+    "artifact:t1",
+    "artifact:t3",
+    "artifact:t4",
+    "artifact:track a",
+    "artifact:track b",
+    "artifact:track c",
+    "notation:cattaneo",
+    "notation:fourier",
+    "notation:gravitation",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "notation:tau_j",
+    "project:poc",
+    "section:[results]"
+   ]
+  },
+  {
+   "id": "e120",
+   "members": [
+    "project:poc",
+    "section:[artifacts (`graph/`)]"
+   ]
+  },
+  {
+   "id": "e121",
+   "members": [
+    "project:poc",
+    "section:[rebuild]"
+   ]
+  },
+  {
+   "id": "e122",
+   "members": [
+    "keyword:graph artifact",
+    "keyword:json-lines workers",
+    "keyword:opencode",
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e123",
+   "members": [
+    "project:poc",
+    "section:[pipelines (`pipelines/`)]"
+   ]
+  },
+  {
+   "id": "e124",
+   "members": [
+    "keyword:call",
+    "keyword:query result",
+    "project:poc",
+    "section:[mcp wiring]"
+   ]
+  },
+  {
+   "id": "e125",
+   "members": [
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:sk condition",
+    "project:poc",
+    "section:[verified behavior]"
+   ]
+  },
+  {
+   "id": "e126",
+   "members": [
+    "keyword:morphism",
+    "project:poc",
+    "section:[step 2 gotchas (learned)]"
+   ]
+  },
+  {
+   "id": "e127",
+   "members": [
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e128",
+   "members": [
+    "artifact:t1",
+    "artifact:t3",
+    "artifact:t4",
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:gravitation",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "notation:tau_j",
+    "project:poc",
+    "section:[the demo question]"
+   ]
+  },
+  {
+   "id": "e129",
+   "members": [
+    "keyword:exact-field record output",
+    "keyword:ranked output",
+    "project:poc",
+    "section:[step 3 gotcha]"
+   ]
+  },
+  {
+   "id": "e130",
+   "members": [
+    "keyword:llm",
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e131",
+   "members": [
+    "keyword:opencode",
+    "keyword:phase",
+    "project:poc",
+    "section:[plumbing - environment setup & smoke test]"
+   ]
+  },
+  {
+   "id": "e132",
+   "members": [
+    "keyword:research workflow",
+    "project:poc",
+    "section:[what plumbing provides here]"
+   ]
+  },
+  {
+   "id": "e133",
+   "members": [
+    "keyword:bundled",
+    "keyword:prebuilt wheels",
+    "project:poc",
+    "section:[installation - the path that works: nix source build]"
+   ]
+  },
+  {
+   "id": "e134",
+   "members": [
+    "keyword:dune build",
+    "project:poc",
+    "section:[nix available: nix 2.34.7 on this host]"
+   ]
+  },
+  {
+   "id": "e135",
+   "members": [
+    "keyword:bash",
+    "project:poc",
+    "section:[usage]"
+   ]
+  },
+  {
+   "id": "e136",
+   "members": [
+    "project:poc",
+    "section:[run a pipeline from a json stream on stdin]"
+   ]
+  },
+  {
+   "id": "e137",
+   "members": [
+    "keyword:nix develop",
+    "project:poc",
+    "section:[type-check at load time]"
+   ]
+  },
+  {
+   "id": "e138",
+   "members": [
+    "keyword:nix develop",
+    "project:poc",
+    "section:[render the architecture as a graph (dot)]"
+   ]
+  },
+  {
+   "id": "e139",
+   "members": [
+    "keyword:nix develop",
+    "keyword:stdout",
+    "project:poc",
+    "section:[mcp bridge (exposes pipelines as mcp tools to opencode)]"
+   ]
+  },
+  {
+   "id": "e140",
+   "members": [
+    "project:poc",
+    "section:[smoke-test transcript (all passed)]"
+   ]
+  },
+  {
+   "id": "e141",
+   "members": [
+    "keyword:nix build",
+    "project:poc",
+    "section:[notes / gotchas]"
+   ]
+  },
+  {
+   "id": "e142",
+   "members": [
+    "keyword:multi-party session types built",
+    "keyword:plumbing precedes",
+    "project:top",
+    "section:[an explicit knowledge repository for the opencode research assistant]"
+   ]
+  },
+  {
+   "id": "e143",
+   "members": [
+    "keyword:global graph openalex already owns",
+    "project:top",
+    "section:[1. framing: the gap this fills]"
+   ]
+  },
+  {
+   "id": "e144",
+   "members": [
+    "keyword:reasoning",
+    "project:top",
+    "section:[why hypergraphs, not a pairwise graph]"
+   ]
+  },
+  {
+   "id": "e145",
+   "members": [
+    "keyword:first corpus",
+    "keyword:openalex",
+    "project:top",
+    "section:[2. design principles]"
+   ]
+  },
+  {
+   "id": "e146",
+   "members": [
+    "project:top",
+    "section:[3. proposed architecture]"
+   ]
+  },
+  {
+   "id": "e147",
+   "members": [
+    "keyword:runtime whose host language provides multi-party session types natively",
+    "project:top",
+    "section:[4. component assessment]"
+   ]
+  },
+  {
+   "id": "e148",
+   "members": [
+    "project:top",
+    "section:[5. the knowledge-engineering loop]"
+   ]
+  },
+  {
+   "id": "e149",
+   "members": [
+    "artifact:track f",
+    "notation:sk condition",
+    "project:top",
+    "section:[6. phased plan]"
+   ]
+  },
+  {
+   "id": "e150",
+   "members": [
+    "project:top",
+    "section:[7. risks and open decisions]"
+   ]
+  },
+  {
+   "id": "e151",
+   "members": [
+    "artifact:track b",
+    "project:top",
+    "section:[8. why this fits the research program]"
+   ]
+  },
+  {
+   "id": "e152",
+   "members": [
+    "author:anatoli polkovnikov",
+    "author:luca dalessio",
+    "author:marcos rigol",
+    "author:yariv kafri",
+    "keyword:continuously driven systems",
+    "keyword:eigenstate thermalization",
+    "keyword:integrable quantum systems",
+    "keyword:isolated chaotic systems",
+    "keyword:many-body lattice systems",
+    "keyword:quantum chaos",
+    "keyword:quantum chaos allows one",
+    "keyword:quantum quenches",
+    "keyword:taking isolated systems",
+    "keyword:weakly interacting systems",
+    "project:openalex",
+    "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics"
+   ]
+  },
+  {
+   "id": "e153",
+   "members": [
+    "author:david jou",
+    "author:g. lebon",
+    "author:jos\u00e9 casas-v\u00e1zquez",
+    "keyword:applications",
+    "keyword:decade much effort",
+    "keyword:extended irreversible thermodynamics",
+    "keyword:extended irreversible thermodynamics revisited",
+    "keyword:extended irreversible thermodynamics stands",
+    "keyword:last decade",
+    "keyword:modern thermodynamics",
+    "keyword:much progress",
+    "keyword:non-equilibrium thermodynamic theories",
+    "project:openalex",
+    "work:extended irreversible thermodynamics revisited (1988-98)"
+   ]
+  },
+  {
+   "id": "e154",
+   "members": [
+    "author:i. p. wright",
+    "keyword:capitalism",
+    "keyword:social architecture",
+    "project:openalex",
+    "work:the social architecture of capitalism"
+   ]
+  },
+  {
+   "id": "e155",
+   "members": [
+    "author:l. sj\u00f6gren",
+    "author:w. g\u00f6tze",
+    "keyword:appear two fractal time decay processes",
+    "keyword:calorimetric glass transition temperature",
+    "keyword:crossover temperature",
+    "keyword:mesoscopic time region",
+    "keyword:relaxation processes",
+    "keyword:relaxation scale",
+    "keyword:supercooled liquid dynamics",
+    "keyword:supercooled liquids",
+    "keyword:supercooled state",
+    "keyword:two divergent time scales",
+    "keyword:various relaxation processes",
+    "project:openalex",
+    "work:relaxation processes in supercooled liquids"
+   ]
+  },
+  {
+   "id": "e156",
+   "members": [
+    "author:m. a. biot",
+    "keyword:acoustic propagation",
+    "keyword:complex physical-chemical system",
+    "keyword:derived",
+    "keyword:dissipation",
+    "keyword:general applicability",
+    "keyword:general principles",
+    "keyword:porous media",
+    "keyword:porous media derived",
+    "keyword:relaxation effects",
+    "keyword:resultant relaxation",
+    "keyword:theory",
+    "keyword:unified treatment",
+    "keyword:writers earlier theory",
+    "project:openalex",
+    "work:mechanics of deformation and acoustic propagation in porous media"
+   ]
+  },
+  {
+   "id": "e157",
+   "members": [
+    "author:duncan k. foley",
+    "keyword:agents",
+    "keyword:agents achieving",
+    "keyword:agents defined",
+    "keyword:feasible distribution",
+    "keyword:feasible market transaction",
+    "keyword:finite offer sets",
+    "keyword:many agents",
+    "keyword:offer sets",
+    "keyword:statistical equilibrium theory",
+    "keyword:unique statistical equilibrium exists",
+    "project:openalex",
+    "work:a statistical equilibrium theory of markets"
+   ]
+  },
+  {
+   "id": "e158",
+   "members": [
+    "author:udo seifert",
+    "keyword:entropy production",
+    "keyword:entropy production depending",
+    "keyword:molecular motors",
+    "keyword:non-equilibrium conditions",
+    "keyword:non-equilibrium process",
+    "keyword:single colloidal particles",
+    "keyword:thermoelectric devices involving single electron transport",
+    "keyword:well-defined non-equilibrium ensembles",
+    "project:openalex",
+    "work:stochastic thermodynamics, fluctuation theorems and molecular machines"
+   ]
+  },
+  {
+   "id": "e159",
+   "members": [
+    "author:masaru sugiyama",
+    "author:takashi arima",
+    "author:tommaso ruggeri",
+    "keyword:gases",
+    "keyword:generalized bgk-type collision term",
+    "keyword:molecular relaxation processes",
+    "keyword:molecular rotational",
+    "keyword:moment system",
+    "keyword:rarefied polyatomic gas",
+    "keyword:rarefied polyatomic gases",
+    "keyword:rational extended thermodynamic theory",
+    "keyword:rational extended thermodynamics",
+    "keyword:seven independent fields",
+    "keyword:system",
+    "keyword:theory",
+    "keyword:ultrasonic wave derived",
+    "keyword:vibrational relaxation processes",
+    "project:openalex",
+    "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes"
+   ]
+  },
+  {
+   "id": "e160",
+   "members": [
+    "author:arnau riera",
+    "author:john goold",
+    "author:l\u00eddia del rio",
+    "author:marcus huber",
+    "author:paul skrzypczyk",
+    "keyword:comprehensive review",
+    "keyword:convenient entry point",
+    "keyword:different interdisciplinary approaches emerging",
+    "keyword:quantum information",
+    "keyword:quantum information theory",
+    "keyword:quantum systems",
+    "keyword:review",
+    "keyword:several trending topics including",
+    "keyword:thermodynamics",
+    "keyword:topical review article gives",
+    "project:openalex",
+    "work:the role of quantum information in thermodynamics-a topical review"
+   ]
+  },
+  {
+   "id": "e161",
+   "members": [
+    "author:david jou",
+    "author:g. lebon",
+    "author:jos\u00e9 casas-v\u00e1zquez",
+    "keyword:classical constitutive laws",
+    "keyword:extended irreversible thermodynamics",
+    "keyword:fluctuation theory",
+    "keyword:fluxes",
+    "keyword:kinetic theory",
+    "keyword:macroscopic theory",
+    "keyword:several generalisations including higher-order fluxes",
+    "keyword:so-called rational thermodynamics",
+    "keyword:theory",
+    "keyword:thermodynamics",
+    "project:openalex",
+    "work:extended irreversible thermodynamics"
    ]
   }
  ],
  "nodes": {
+  "project:ret-tssi": {
+   "id": "project:ret-tssi",
+   "label": "ret-tssi",
+   "kind": "project"
+  },
   "section:[findings - the formal correspondence]": {
    "id": "section:[findings - the formal correspondence]",
    "label": "[Findings \u2014 The Formal Correspondence]",
@@ -3371,6 +5336,11 @@
    "id": "citation:muller-ruggeri1998 (1998)",
    "label": "muller-ruggeri1998 (1998)",
    "kind": "citation"
+  },
+  "author:m": {
+   "id": "author:m",
+   "label": "m",
+   "kind": "author"
   },
   "citation:muller1967 (1967)": {
    "id": "citation:muller1967 (1967)",
@@ -3532,6 +5502,11 @@
    "label": "bortkiewicz1907 (1907)",
    "kind": "citation"
   },
+  "author:von": {
+   "id": "author:von",
+   "label": "von",
+   "kind": "author"
+  },
   "section:[burger, caffarelli, markowich & wolfram (2013) - a boltzmann-type price formation model]": {
    "id": "section:[burger, caffarelli, markowich & wolfram (2013) - a boltzmann-type price formation model]",
    "label": "[Burger, Caffarelli, Markowich & Wolfram (2013) \u2014 A Boltzmann-Type Price Formation Model]",
@@ -3576,6 +5551,26 @@
    "id": "citation:burger-etal2013 (2013)",
    "label": "burger-etal2013 (2013)",
    "kind": "citation"
+  },
+  "author:martin": {
+   "id": "author:martin",
+   "label": "martin",
+   "kind": "author"
+  },
+  "author:a": {
+   "id": "author:a",
+   "label": "a",
+   "kind": "author"
+  },
+  "author:marie-therese": {
+   "id": "author:marie-therese",
+   "label": "marie-therese",
+   "kind": "author"
+  },
+  "author:luis": {
+   "id": "author:luis",
+   "label": "luis",
+   "kind": "author"
   },
   "section:[cattaneo (1948) - sulla conduzione del calore]": {
    "id": "section:[cattaneo (1948) - sulla conduzione del calore]",
@@ -4042,6 +6037,16 @@
    "label": "gurtin-williams1967 (1967)",
    "kind": "citation"
   },
+  "author:o": {
+   "id": "author:o",
+   "label": "o",
+   "kind": "author"
+  },
+  "author:e": {
+   "id": "author:e",
+   "label": "e",
+   "kind": "author"
+  },
   "section:[ruggeri & strumia (1981) - main field and convex covariant density]": {
    "id": "section:[ruggeri & strumia (1981) - main field and convex covariant density]",
    "label": "[Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density]",
@@ -4287,10 +6292,40 @@
    "label": "cottrell-etal2009 (2009)",
    "kind": "citation"
   },
+  "author:j": {
+   "id": "author:j",
+   "label": "j",
+   "kind": "author"
+  },
+  "author:p": {
+   "id": "author:p",
+   "label": "p",
+   "kind": "author"
+  },
+  "author:paul": {
+   "id": "author:paul",
+   "label": "paul",
+   "kind": "author"
+  },
+  "author:f": {
+   "id": "author:f",
+   "label": "f",
+   "kind": "author"
+  },
   "citation:markowich-etal2009 (2009)": {
    "id": "citation:markowich-etal2009 (2009)",
    "label": "markowich-etal2009 (2009)",
    "kind": "citation"
+  },
+  "author:jan-f": {
+   "id": "author:jan-f",
+   "label": "jan-f",
+   "kind": "author"
+  },
+  "author:norayr": {
+   "id": "author:norayr",
+   "label": "norayr",
+   "kind": "author"
   },
   "section:[a5. \"the relaxation limit vindicates simultaneism\"]": {
    "id": "section:[a5. \"the relaxation limit vindicates simultaneism\"]",
@@ -4587,6 +6622,11 @@
    "label": "grmela2015 (2015)",
    "kind": "citation"
   },
+  "author:miroslav": {
+   "id": "author:miroslav",
+   "label": "miroslav",
+   "kind": "author"
+  },
   "citation:grmela2021 (2021)": {
    "id": "citation:grmela2021 (2021)",
    "label": "grmela2021 (2021)",
@@ -4597,20 +6637,55 @@
    "label": "scharfenaker-semieniuk2017 (2017)",
    "kind": "citation"
   },
+  "author:ellis": {
+   "id": "author:ellis",
+   "label": "ellis",
+   "kind": "author"
+  },
+  "author:gregor": {
+   "id": "author:gregor",
+   "label": "gregor",
+   "kind": "author"
+  },
   "citation:mohun-veneziani2017 (2017)": {
    "id": "citation:mohun-veneziani2017 (2017)",
    "label": "mohun-veneziani2017 (2017)",
    "kind": "citation"
+  },
+  "author:roberto": {
+   "id": "author:roberto",
+   "label": "roberto",
+   "kind": "author"
+  },
+  "author:simon": {
+   "id": "author:simon",
+   "label": "simon",
+   "kind": "author"
   },
   "citation:foley1994 (1994)": {
    "id": "citation:foley1994 (1994)",
    "label": "foley1994 (1994)",
    "kind": "citation"
   },
+  "author:k": {
+   "id": "author:k",
+   "label": "k",
+   "kind": "author"
+  },
   "citation:jin-xin1995 (1995)": {
    "id": "citation:jin-xin1995 (1995)",
    "label": "jin-xin1995 (1995)",
    "kind": "citation"
+  },
+  "author:shi": {
+   "id": "author:shi",
+   "label": "shi",
+   "kind": "author"
+  },
+  "author:ping": {
+   "id": "author:ping",
+   "label": "ping",
+   "kind": "author"
   },
   "section:[watch list (to read before the expos\u00e9)]": {
    "id": "section:[watch list (to read before the expos\u00e9)]",
@@ -4626,6 +6701,21 @@
    "id": "citation:bar-sinai2019 (2019)",
    "label": "bar-sinai2019 (2019)",
    "kind": "citation"
+  },
+  "author:stephan": {
+   "id": "author:stephan",
+   "label": "stephan",
+   "kind": "author"
+  },
+  "author:yohai": {
+   "id": "author:yohai",
+   "label": "yohai",
+   "kind": "author"
+  },
+  "author:jason": {
+   "id": "author:jason",
+   "label": "jason",
+   "kind": "author"
   },
   "section:[finite-speed value: a research program in marxian econophysics]": {
    "id": "section:[finite-speed value: a research program in marxian econophysics]",
@@ -4687,6 +6777,21 @@
    "label": "baez-lynch-moeller2023 (2023)",
    "kind": "citation"
   },
+  "author:joe": {
+   "id": "author:joe",
+   "label": "joe",
+   "kind": "author"
+  },
+  "author:c": {
+   "id": "author:c",
+   "label": "c",
+   "kind": "author"
+  },
+  "author:owen": {
+   "id": "author:owen",
+   "label": "owen",
+   "kind": "author"
+  },
   "section:[2.3 gravitation dynamics]": {
    "id": "section:[2.3 gravitation dynamics]",
    "label": "[2.3 Gravitation dynamics]",
@@ -4711,6 +6816,11 @@
    "id": "citation:farjoun-machover1983 (1983)",
    "label": "farjoun-machover1983 (1983)",
    "kind": "citation"
+  },
+  "author:emmanuel": {
+   "id": "author:emmanuel",
+   "label": "emmanuel",
+   "kind": "author"
   },
   "section:[2.5 gap summary]": {
    "id": "section:[2.5 gap summary]",
@@ -4827,6 +6937,11 @@
    "label": "gupta-lermusiaux2021 (2021)",
    "kind": "citation"
   },
+  "author:arjit": {
+   "id": "author:arjit",
+   "label": "arjit",
+   "kind": "author"
+  },
   "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]": {
    "id": "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]",
    "label": "[2026-08-16 \u2014 Track refactor (3 \u2192 4 tracks, four-discipline framing)]",
@@ -4842,50 +6957,160 @@
    "label": "raissi2019 (2019)",
    "kind": "citation"
   },
+  "author:maziar": {
+   "id": "author:maziar",
+   "label": "maziar",
+   "kind": "author"
+  },
+  "author:em": {
+   "id": "author:em",
+   "label": "em",
+   "kind": "author"
+  },
+  "author:paris": {
+   "id": "author:paris",
+   "label": "paris",
+   "kind": "author"
+  },
   "citation:pan-duraisamy2018 (2018)": {
    "id": "citation:pan-duraisamy2018 (2018)",
    "label": "pan-duraisamy2018 (2018)",
    "kind": "citation"
+  },
+  "author:karthik": {
+   "id": "author:karthik",
+   "label": "karthik",
+   "kind": "author"
+  },
+  "author:shaowu": {
+   "id": "author:shaowu",
+   "label": "shaowu",
+   "kind": "author"
   },
   "citation:brennan-venturi2018 (2018)": {
    "id": "citation:brennan-venturi2018 (2018)",
    "label": "brennan-venturi2018 (2018)",
    "kind": "citation"
   },
+  "author:daniele": {
+   "id": "author:daniele",
+   "label": "daniele",
+   "kind": "author"
+  },
+  "author:christopher": {
+   "id": "author:christopher",
+   "label": "christopher",
+   "kind": "author"
+  },
   "citation:libkind-etal2022 (2022)": {
    "id": "citation:libkind-etal2022 (2022)",
    "label": "libkind-etal2022 (2022)",
    "kind": "citation"
+  },
+  "author:andrew": {
+   "id": "author:andrew",
+   "label": "andrew",
+   "kind": "author"
+  },
+  "author:james": {
+   "id": "author:james",
+   "label": "james",
+   "kind": "author"
+  },
+  "author:sophie": {
+   "id": "author:sophie",
+   "label": "sophie",
+   "kind": "author"
+  },
+  "author:evan": {
+   "id": "author:evan",
+   "label": "evan",
+   "kind": "author"
   },
   "citation:morris-etal2024 (2024)": {
    "id": "citation:morris-etal2024 (2024)",
    "label": "morris-etal2024 (2024)",
    "kind": "citation"
   },
+  "author:maia": {
+   "id": "author:maia",
+   "label": "maia",
+   "kind": "author"
+  },
+  "author:jesus": {
+   "id": "author:jesus",
+   "label": "jesus",
+   "kind": "author"
+  },
+  "author:luke": {
+   "id": "author:luke",
+   "label": "luke",
+   "kind": "author"
+  },
   "citation:armstrong-kuusi2025 (2025)": {
    "id": "citation:armstrong-kuusi2025 (2025)",
    "label": "armstrong-kuusi2025 (2025)",
    "kind": "citation"
+  },
+  "author:scott": {
+   "id": "author:scott",
+   "label": "scott",
+   "kind": "author"
+  },
+  "author:tuomo": {
+   "id": "author:tuomo",
+   "label": "tuomo",
+   "kind": "author"
   },
   "citation:coarsegraining-lean (2025)": {
    "id": "citation:coarsegraining-lean (2025)",
    "label": "coarsegraining-lean (2025)",
    "kind": "citation"
   },
+  "author:collaborators": {
+   "id": "author:collaborators",
+   "label": "collaborators",
+   "kind": "author"
+  },
   "citation:lerayhopf-lean (2025)": {
    "id": "citation:lerayhopf-lean (2025)",
    "label": "lerayhopf-lean (2025)",
    "kind": "citation"
+  },
+  "author:lab": {
+   "id": "author:lab",
+   "label": "lab",
+   "kind": "author"
   },
   "citation:vandoor-macbeth2024 (2024)": {
    "id": "citation:vandoor-macbeth2024 (2024)",
    "label": "vandoor-macbeth2024 (2024)",
    "kind": "citation"
   },
+  "author:heather": {
+   "id": "author:heather",
+   "label": "heather",
+   "kind": "author"
+  },
+  "author:floris": {
+   "id": "author:floris",
+   "label": "floris",
+   "kind": "author"
+  },
   "citation:martin-dorel-melquiond2016 (2016)": {
    "id": "citation:martin-dorel-melquiond2016 (2016)",
    "label": "martin-dorel-melquiond2016 (2016)",
    "kind": "citation"
+  },
+  "author:guillaume": {
+   "id": "author:guillaume",
+   "label": "guillaume",
+   "kind": "author"
+  },
+  "author:erik": {
+   "id": "author:erik",
+   "label": "erik",
+   "kind": "author"
   },
   "section:[2026-08-16 - commit + context preservation]": {
    "id": "section:[2026-08-16 - commit + context preservation]",
@@ -5066,6 +7291,11 @@
    "id": "citation:cattaneo1948 (1948)",
    "label": "cattaneo1948 (1948)",
    "kind": "citation"
+  },
+  "author:carlo": {
+   "id": "author:carlo",
+   "label": "carlo",
+   "kind": "author"
   },
   "section:[2.1 the heat paradox (physics)]": {
    "id": "section:[2.1 the heat paradox (physics)]",
@@ -5281,6 +7511,936 @@
    "id": "keyword:labor values become prices",
    "label": "labor values become prices",
    "kind": "keyword"
+  },
+  "project:poc": {
+   "id": "project:poc",
+   "label": "poc",
+   "kind": "project"
+  },
+  "section:[knowledge-repository poc - phase a, step 1]": {
+   "id": "section:[knowledge-repository poc - phase a, step 1]",
+   "label": "[Knowledge-Repository POC \u2014 Phase A, Step 1]",
+   "kind": "section"
+  },
+  "keyword:co-occurrence hypergraph": {
+   "id": "keyword:co-occurrence hypergraph",
+   "label": "co-occurrence hypergraph",
+   "kind": "keyword"
+  },
+  "keyword:llm involved": {
+   "id": "keyword:llm involved",
+   "label": "llm involved",
+   "kind": "keyword"
+  },
+  "section:[method]": {
+   "id": "section:[method]",
+   "label": "[Method]",
+   "kind": "section"
+  },
+  "section:[corpus]": {
+   "id": "section:[corpus]",
+   "label": "[Corpus]",
+   "kind": "section"
+  },
+  "keyword:human notes": {
+   "id": "keyword:human notes",
+   "label": "human notes",
+   "kind": "keyword"
+  },
+  "keyword:citation entities": {
+   "id": "keyword:citation entities",
+   "label": "citation entities",
+   "kind": "keyword"
+  },
+  "section:[results]": {
+   "id": "section:[results]",
+   "label": "[Results]",
+   "kind": "section"
+  },
+  "section:[artifacts (`graph/`)]": {
+   "id": "section:[artifacts (`graph/`)]",
+   "label": "[Artifacts (`graph/`)]",
+   "kind": "section"
+  },
+  "section:[rebuild]": {
+   "id": "section:[rebuild]",
+   "label": "[Rebuild]",
+   "kind": "section"
+  },
+  "section:[next]": {
+   "id": "section:[next]",
+   "label": "[Next]",
+   "kind": "section"
+  },
+  "keyword:json-lines workers": {
+   "id": "keyword:json-lines workers",
+   "label": "json-lines workers",
+   "kind": "keyword"
+  },
+  "keyword:graph artifact": {
+   "id": "keyword:graph artifact",
+   "label": "graph artifact",
+   "kind": "keyword"
+  },
+  "keyword:opencode": {
+   "id": "keyword:opencode",
+   "label": "opencode",
+   "kind": "keyword"
+  },
+  "section:[pipelines (`pipelines/`)]": {
+   "id": "section:[pipelines (`pipelines/`)]",
+   "label": "[Pipelines (`pipelines/`)]",
+   "kind": "section"
+  },
+  "section:[mcp wiring]": {
+   "id": "section:[mcp wiring]",
+   "label": "[MCP wiring]",
+   "kind": "section"
+  },
+  "keyword:call": {
+   "id": "keyword:call",
+   "label": "call",
+   "kind": "keyword"
+  },
+  "keyword:query result": {
+   "id": "keyword:query result",
+   "label": "query result",
+   "kind": "keyword"
+  },
+  "section:[verified behavior]": {
+   "id": "section:[verified behavior]",
+   "label": "[Verified behavior]",
+   "kind": "section"
+  },
+  "section:[step 2 gotchas (learned)]": {
+   "id": "section:[step 2 gotchas (learned)]",
+   "label": "[Step 2 gotchas (learned)]",
+   "kind": "section"
+  },
+  "keyword:morphism": {
+   "id": "keyword:morphism",
+   "label": "morphism",
+   "kind": "keyword"
+  },
+  "section:[the demo question]": {
+   "id": "section:[the demo question]",
+   "label": "[The demo question]",
+   "kind": "section"
+  },
+  "section:[step 3 gotcha]": {
+   "id": "section:[step 3 gotcha]",
+   "label": "[Step 3 gotcha]",
+   "kind": "section"
+  },
+  "keyword:exact-field record output": {
+   "id": "keyword:exact-field record output",
+   "label": "exact-field record output",
+   "kind": "keyword"
+  },
+  "keyword:ranked output": {
+   "id": "keyword:ranked output",
+   "label": "ranked output",
+   "kind": "keyword"
+  },
+  "keyword:llm": {
+   "id": "keyword:llm",
+   "label": "llm",
+   "kind": "keyword"
+  },
+  "section:[plumbing - environment setup & smoke test]": {
+   "id": "section:[plumbing - environment setup & smoke test]",
+   "label": "[Plumbing \u2014 environment setup & smoke test]",
+   "kind": "section"
+  },
+  "keyword:phase": {
+   "id": "keyword:phase",
+   "label": "phase",
+   "kind": "keyword"
+  },
+  "section:[what plumbing provides here]": {
+   "id": "section:[what plumbing provides here]",
+   "label": "[What plumbing provides here]",
+   "kind": "section"
+  },
+  "keyword:research workflow": {
+   "id": "keyword:research workflow",
+   "label": "research workflow",
+   "kind": "keyword"
+  },
+  "section:[installation - the path that works: nix source build]": {
+   "id": "section:[installation - the path that works: nix source build]",
+   "label": "[Installation \u2014 the path that works: Nix source build]",
+   "kind": "section"
+  },
+  "keyword:bundled": {
+   "id": "keyword:bundled",
+   "label": "bundled",
+   "kind": "keyword"
+  },
+  "keyword:prebuilt wheels": {
+   "id": "keyword:prebuilt wheels",
+   "label": "prebuilt wheels",
+   "kind": "keyword"
+  },
+  "section:[nix available: nix 2.34.7 on this host]": {
+   "id": "section:[nix available: nix 2.34.7 on this host]",
+   "label": "[nix available: nix 2.34.7 on this host]",
+   "kind": "section"
+  },
+  "keyword:dune build": {
+   "id": "keyword:dune build",
+   "label": "dune build",
+   "kind": "keyword"
+  },
+  "section:[usage]": {
+   "id": "section:[usage]",
+   "label": "[Usage]",
+   "kind": "section"
+  },
+  "keyword:bash": {
+   "id": "keyword:bash",
+   "label": "bash",
+   "kind": "keyword"
+  },
+  "section:[run a pipeline from a json stream on stdin]": {
+   "id": "section:[run a pipeline from a json stream on stdin]",
+   "label": "[Run a pipeline from a JSON stream on stdin]",
+   "kind": "section"
+  },
+  "section:[type-check at load time]": {
+   "id": "section:[type-check at load time]",
+   "label": "[Type-check at load time]",
+   "kind": "section"
+  },
+  "keyword:nix develop": {
+   "id": "keyword:nix develop",
+   "label": "nix develop",
+   "kind": "keyword"
+  },
+  "section:[render the architecture as a graph (dot)]": {
+   "id": "section:[render the architecture as a graph (dot)]",
+   "label": "[render the architecture as a graph (dot)]",
+   "kind": "section"
+  },
+  "section:[mcp bridge (exposes pipelines as mcp tools to opencode)]": {
+   "id": "section:[mcp bridge (exposes pipelines as mcp tools to opencode)]",
+   "label": "[MCP bridge (exposes pipelines as MCP tools to opencode)]",
+   "kind": "section"
+  },
+  "keyword:stdout": {
+   "id": "keyword:stdout",
+   "label": "stdout",
+   "kind": "keyword"
+  },
+  "section:[smoke-test transcript (all passed)]": {
+   "id": "section:[smoke-test transcript (all passed)]",
+   "label": "[Smoke-test transcript (all passed)]",
+   "kind": "section"
+  },
+  "section:[notes / gotchas]": {
+   "id": "section:[notes / gotchas]",
+   "label": "[Notes / gotchas]",
+   "kind": "section"
+  },
+  "keyword:nix build": {
+   "id": "keyword:nix build",
+   "label": "nix build",
+   "kind": "keyword"
+  },
+  "project:top": {
+   "id": "project:top",
+   "label": "top",
+   "kind": "project"
+  },
+  "section:[an explicit knowledge repository for the opencode research assistant]": {
+   "id": "section:[an explicit knowledge repository for the opencode research assistant]",
+   "label": "[An Explicit Knowledge Repository for the opencode Research Assistant]",
+   "kind": "section"
+  },
+  "keyword:multi-party session types built": {
+   "id": "keyword:multi-party session types built",
+   "label": "multi-party session types built",
+   "kind": "keyword"
+  },
+  "keyword:plumbing precedes": {
+   "id": "keyword:plumbing precedes",
+   "label": "plumbing precedes",
+   "kind": "keyword"
+  },
+  "section:[1. framing: the gap this fills]": {
+   "id": "section:[1. framing: the gap this fills]",
+   "label": "[1. Framing: the gap this fills]",
+   "kind": "section"
+  },
+  "keyword:global graph openalex already owns": {
+   "id": "keyword:global graph openalex already owns",
+   "label": "global graph openalex already owns",
+   "kind": "keyword"
+  },
+  "section:[why hypergraphs, not a pairwise graph]": {
+   "id": "section:[why hypergraphs, not a pairwise graph]",
+   "label": "[Why hypergraphs, not a pairwise graph]",
+   "kind": "section"
+  },
+  "keyword:reasoning": {
+   "id": "keyword:reasoning",
+   "label": "reasoning",
+   "kind": "keyword"
+  },
+  "section:[2. design principles]": {
+   "id": "section:[2. design principles]",
+   "label": "[2. Design principles]",
+   "kind": "section"
+  },
+  "keyword:first corpus": {
+   "id": "keyword:first corpus",
+   "label": "first corpus",
+   "kind": "keyword"
+  },
+  "keyword:openalex": {
+   "id": "keyword:openalex",
+   "label": "openalex",
+   "kind": "keyword"
+  },
+  "section:[3. proposed architecture]": {
+   "id": "section:[3. proposed architecture]",
+   "label": "[3. Proposed architecture]",
+   "kind": "section"
+  },
+  "section:[4. component assessment]": {
+   "id": "section:[4. component assessment]",
+   "label": "[4. Component assessment]",
+   "kind": "section"
+  },
+  "keyword:runtime whose host language provides multi-party session types natively": {
+   "id": "keyword:runtime whose host language provides multi-party session types natively",
+   "label": "runtime whose host language provides multi-party session types natively",
+   "kind": "keyword"
+  },
+  "section:[5. the knowledge-engineering loop]": {
+   "id": "section:[5. the knowledge-engineering loop]",
+   "label": "[5. The knowledge-engineering loop]",
+   "kind": "section"
+  },
+  "section:[6. phased plan]": {
+   "id": "section:[6. phased plan]",
+   "label": "[6. Phased plan]",
+   "kind": "section"
+  },
+  "section:[7. risks and open decisions]": {
+   "id": "section:[7. risks and open decisions]",
+   "label": "[7. Risks and open decisions]",
+   "kind": "section"
+  },
+  "section:[8. why this fits the research program]": {
+   "id": "section:[8. why this fits the research program]",
+   "label": "[8. Why this fits the research program]",
+   "kind": "section"
+  },
+  "project:openalex": {
+   "id": "project:openalex",
+   "label": "openalex",
+   "kind": "project"
+  },
+  "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics": {
+   "id": "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
+   "label": "From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
+   "kind": "work"
+  },
+  "author:luca dalessio": {
+   "id": "author:luca dalessio",
+   "label": "Luca D'Alessio",
+   "kind": "author"
+  },
+  "author:yariv kafri": {
+   "id": "author:yariv kafri",
+   "label": "Yariv Kafri",
+   "kind": "author"
+  },
+  "author:anatoli polkovnikov": {
+   "id": "author:anatoli polkovnikov",
+   "label": "Anatoli Polkovnikov",
+   "kind": "author"
+  },
+  "author:marcos rigol": {
+   "id": "author:marcos rigol",
+   "label": "Marcos Rigol",
+   "kind": "author"
+  },
+  "keyword:integrable quantum systems": {
+   "id": "keyword:integrable quantum systems",
+   "label": "integrable quantum systems",
+   "kind": "keyword"
+  },
+  "keyword:quantum chaos allows one": {
+   "id": "keyword:quantum chaos allows one",
+   "label": "quantum chaos allows one",
+   "kind": "keyword"
+  },
+  "keyword:quantum chaos": {
+   "id": "keyword:quantum chaos",
+   "label": "quantum chaos",
+   "kind": "keyword"
+  },
+  "keyword:quantum quenches": {
+   "id": "keyword:quantum quenches",
+   "label": "quantum quenches",
+   "kind": "keyword"
+  },
+  "keyword:isolated chaotic systems": {
+   "id": "keyword:isolated chaotic systems",
+   "label": "isolated chaotic systems",
+   "kind": "keyword"
+  },
+  "keyword:taking isolated systems": {
+   "id": "keyword:taking isolated systems",
+   "label": "taking isolated systems",
+   "kind": "keyword"
+  },
+  "keyword:many-body lattice systems": {
+   "id": "keyword:many-body lattice systems",
+   "label": "many-body lattice systems",
+   "kind": "keyword"
+  },
+  "keyword:continuously driven systems": {
+   "id": "keyword:continuously driven systems",
+   "label": "continuously driven systems",
+   "kind": "keyword"
+  },
+  "keyword:weakly interacting systems": {
+   "id": "keyword:weakly interacting systems",
+   "label": "weakly interacting systems",
+   "kind": "keyword"
+  },
+  "keyword:eigenstate thermalization": {
+   "id": "keyword:eigenstate thermalization",
+   "label": "eigenstate thermalization",
+   "kind": "keyword"
+  },
+  "work:extended irreversible thermodynamics revisited (1988-98)": {
+   "id": "work:extended irreversible thermodynamics revisited (1988-98)",
+   "label": "Extended irreversible thermodynamics revisited (1988-98)",
+   "kind": "work"
+  },
+  "author:david jou": {
+   "id": "author:david jou",
+   "label": "David Jou",
+   "kind": "author"
+  },
+  "author:jos\u00e9 casas-v\u00e1zquez": {
+   "id": "author:jos\u00e9 casas-v\u00e1zquez",
+   "label": "Jos\u00e9 Casas-V\u00e1zquez",
+   "kind": "author"
+  },
+  "author:g. lebon": {
+   "id": "author:g. lebon",
+   "label": "G. Lebon",
+   "kind": "author"
+  },
+  "keyword:extended irreversible thermodynamics revisited": {
+   "id": "keyword:extended irreversible thermodynamics revisited",
+   "label": "extended irreversible thermodynamics revisited",
+   "kind": "keyword"
+  },
+  "keyword:extended irreversible thermodynamics stands": {
+   "id": "keyword:extended irreversible thermodynamics stands",
+   "label": "extended irreversible thermodynamics stands",
+   "kind": "keyword"
+  },
+  "keyword:modern thermodynamics": {
+   "id": "keyword:modern thermodynamics",
+   "label": "modern thermodynamics",
+   "kind": "keyword"
+  },
+  "keyword:applications": {
+   "id": "keyword:applications",
+   "label": "applications",
+   "kind": "keyword"
+  },
+  "keyword:decade much effort": {
+   "id": "keyword:decade much effort",
+   "label": "decade much effort",
+   "kind": "keyword"
+  },
+  "keyword:much progress": {
+   "id": "keyword:much progress",
+   "label": "much progress",
+   "kind": "keyword"
+  },
+  "keyword:last decade": {
+   "id": "keyword:last decade",
+   "label": "last decade",
+   "kind": "keyword"
+  },
+  "keyword:non-equilibrium thermodynamic theories": {
+   "id": "keyword:non-equilibrium thermodynamic theories",
+   "label": "non-equilibrium thermodynamic theories",
+   "kind": "keyword"
+  },
+  "work:the social architecture of capitalism": {
+   "id": "work:the social architecture of capitalism",
+   "label": "The social architecture of capitalism",
+   "kind": "work"
+  },
+  "author:i. p. wright": {
+   "id": "author:i. p. wright",
+   "label": "I. P. Wright",
+   "kind": "author"
+  },
+  "keyword:capitalism": {
+   "id": "keyword:capitalism",
+   "label": "capitalism",
+   "kind": "keyword"
+  },
+  "work:relaxation processes in supercooled liquids": {
+   "id": "work:relaxation processes in supercooled liquids",
+   "label": "Relaxation processes in supercooled liquids",
+   "kind": "work"
+  },
+  "author:w. g\u00f6tze": {
+   "id": "author:w. g\u00f6tze",
+   "label": "W. G\u00f6tze",
+   "kind": "author"
+  },
+  "author:l. sj\u00f6gren": {
+   "id": "author:l. sj\u00f6gren",
+   "label": "L. Sj\u00f6gren",
+   "kind": "author"
+  },
+  "keyword:appear two fractal time decay processes": {
+   "id": "keyword:appear two fractal time decay processes",
+   "label": "appear two fractal time decay processes",
+   "kind": "keyword"
+  },
+  "keyword:two divergent time scales": {
+   "id": "keyword:two divergent time scales",
+   "label": "two divergent time scales",
+   "kind": "keyword"
+  },
+  "keyword:various relaxation processes": {
+   "id": "keyword:various relaxation processes",
+   "label": "various relaxation processes",
+   "kind": "keyword"
+  },
+  "keyword:relaxation processes": {
+   "id": "keyword:relaxation processes",
+   "label": "relaxation processes",
+   "kind": "keyword"
+  },
+  "keyword:mesoscopic time region": {
+   "id": "keyword:mesoscopic time region",
+   "label": "mesoscopic time region",
+   "kind": "keyword"
+  },
+  "keyword:supercooled liquid dynamics": {
+   "id": "keyword:supercooled liquid dynamics",
+   "label": "supercooled liquid dynamics",
+   "kind": "keyword"
+  },
+  "keyword:relaxation scale": {
+   "id": "keyword:relaxation scale",
+   "label": "relaxation scale",
+   "kind": "keyword"
+  },
+  "keyword:calorimetric glass transition temperature": {
+   "id": "keyword:calorimetric glass transition temperature",
+   "label": "calorimetric glass transition temperature",
+   "kind": "keyword"
+  },
+  "keyword:supercooled liquids": {
+   "id": "keyword:supercooled liquids",
+   "label": "supercooled liquids",
+   "kind": "keyword"
+  },
+  "keyword:crossover temperature": {
+   "id": "keyword:crossover temperature",
+   "label": "crossover temperature",
+   "kind": "keyword"
+  },
+  "keyword:supercooled state": {
+   "id": "keyword:supercooled state",
+   "label": "supercooled state",
+   "kind": "keyword"
+  },
+  "work:mechanics of deformation and acoustic propagation in porous media": {
+   "id": "work:mechanics of deformation and acoustic propagation in porous media",
+   "label": "Mechanics of Deformation and Acoustic Propagation in Porous Media",
+   "kind": "work"
+  },
+  "author:m. a. biot": {
+   "id": "author:m. a. biot",
+   "label": "M. A. Biot",
+   "kind": "author"
+  },
+  "keyword:porous media derived": {
+   "id": "keyword:porous media derived",
+   "label": "porous media derived",
+   "kind": "keyword"
+  },
+  "keyword:porous media": {
+   "id": "keyword:porous media",
+   "label": "porous media",
+   "kind": "keyword"
+  },
+  "keyword:general principles": {
+   "id": "keyword:general principles",
+   "label": "general principles",
+   "kind": "keyword"
+  },
+  "keyword:resultant relaxation": {
+   "id": "keyword:resultant relaxation",
+   "label": "resultant relaxation",
+   "kind": "keyword"
+  },
+  "keyword:general applicability": {
+   "id": "keyword:general applicability",
+   "label": "general applicability",
+   "kind": "keyword"
+  },
+  "keyword:relaxation effects": {
+   "id": "keyword:relaxation effects",
+   "label": "relaxation effects",
+   "kind": "keyword"
+  },
+  "keyword:acoustic propagation": {
+   "id": "keyword:acoustic propagation",
+   "label": "acoustic propagation",
+   "kind": "keyword"
+  },
+  "keyword:writers earlier theory": {
+   "id": "keyword:writers earlier theory",
+   "label": "writers earlier theory",
+   "kind": "keyword"
+  },
+  "keyword:dissipation": {
+   "id": "keyword:dissipation",
+   "label": "dissipation",
+   "kind": "keyword"
+  },
+  "keyword:complex physical-chemical system": {
+   "id": "keyword:complex physical-chemical system",
+   "label": "complex physical-chemical system",
+   "kind": "keyword"
+  },
+  "keyword:derived": {
+   "id": "keyword:derived",
+   "label": "derived",
+   "kind": "keyword"
+  },
+  "keyword:theory": {
+   "id": "keyword:theory",
+   "label": "theory",
+   "kind": "keyword"
+  },
+  "keyword:unified treatment": {
+   "id": "keyword:unified treatment",
+   "label": "unified treatment",
+   "kind": "keyword"
+  },
+  "work:a statistical equilibrium theory of markets": {
+   "id": "work:a statistical equilibrium theory of markets",
+   "label": "A Statistical Equilibrium Theory of Markets",
+   "kind": "work"
+  },
+  "author:duncan k. foley": {
+   "id": "author:duncan k. foley",
+   "label": "Duncan K. Foley",
+   "kind": "author"
+  },
+  "keyword:unique statistical equilibrium exists": {
+   "id": "keyword:unique statistical equilibrium exists",
+   "label": "unique statistical equilibrium exists",
+   "kind": "keyword"
+  },
+  "keyword:statistical equilibrium theory": {
+   "id": "keyword:statistical equilibrium theory",
+   "label": "statistical equilibrium theory",
+   "kind": "keyword"
+  },
+  "keyword:finite offer sets": {
+   "id": "keyword:finite offer sets",
+   "label": "finite offer sets",
+   "kind": "keyword"
+  },
+  "keyword:offer sets": {
+   "id": "keyword:offer sets",
+   "label": "offer sets",
+   "kind": "keyword"
+  },
+  "keyword:feasible market transaction": {
+   "id": "keyword:feasible market transaction",
+   "label": "feasible market transaction",
+   "kind": "keyword"
+  },
+  "keyword:agents defined": {
+   "id": "keyword:agents defined",
+   "label": "agents defined",
+   "kind": "keyword"
+  },
+  "keyword:many agents": {
+   "id": "keyword:many agents",
+   "label": "many agents",
+   "kind": "keyword"
+  },
+  "keyword:agents achieving": {
+   "id": "keyword:agents achieving",
+   "label": "agents achieving",
+   "kind": "keyword"
+  },
+  "keyword:feasible distribution": {
+   "id": "keyword:feasible distribution",
+   "label": "feasible distribution",
+   "kind": "keyword"
+  },
+  "keyword:agents": {
+   "id": "keyword:agents",
+   "label": "agents",
+   "kind": "keyword"
+  },
+  "work:stochastic thermodynamics, fluctuation theorems and molecular machines": {
+   "id": "work:stochastic thermodynamics, fluctuation theorems and molecular machines",
+   "label": "Stochastic thermodynamics, fluctuation theorems and molecular machines",
+   "kind": "work"
+  },
+  "author:udo seifert": {
+   "id": "author:udo seifert",
+   "label": "Udo Seifert",
+   "kind": "author"
+  },
+  "keyword:thermoelectric devices involving single electron transport": {
+   "id": "keyword:thermoelectric devices involving single electron transport",
+   "label": "thermoelectric devices involving single electron transport",
+   "kind": "keyword"
+  },
+  "keyword:entropy production depending": {
+   "id": "keyword:entropy production depending",
+   "label": "entropy production depending",
+   "kind": "keyword"
+  },
+  "keyword:entropy production": {
+   "id": "keyword:entropy production",
+   "label": "entropy production",
+   "kind": "keyword"
+  },
+  "keyword:well-defined non-equilibrium ensembles": {
+   "id": "keyword:well-defined non-equilibrium ensembles",
+   "label": "well-defined non-equilibrium ensembles",
+   "kind": "keyword"
+  },
+  "keyword:non-equilibrium process": {
+   "id": "keyword:non-equilibrium process",
+   "label": "non-equilibrium process",
+   "kind": "keyword"
+  },
+  "keyword:non-equilibrium conditions": {
+   "id": "keyword:non-equilibrium conditions",
+   "label": "non-equilibrium conditions",
+   "kind": "keyword"
+  },
+  "keyword:single colloidal particles": {
+   "id": "keyword:single colloidal particles",
+   "label": "single colloidal particles",
+   "kind": "keyword"
+  },
+  "keyword:molecular motors": {
+   "id": "keyword:molecular motors",
+   "label": "molecular motors",
+   "kind": "keyword"
+  },
+  "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes": {
+   "id": "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes",
+   "label": "Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes",
+   "kind": "work"
+  },
+  "author:takashi arima": {
+   "id": "author:takashi arima",
+   "label": "Takashi Arima",
+   "kind": "author"
+  },
+  "author:tommaso ruggeri": {
+   "id": "author:tommaso ruggeri",
+   "label": "Tommaso Ruggeri",
+   "kind": "author"
+  },
+  "author:masaru sugiyama": {
+   "id": "author:masaru sugiyama",
+   "label": "Masaru Sugiyama",
+   "kind": "author"
+  },
+  "keyword:rational extended thermodynamic theory": {
+   "id": "keyword:rational extended thermodynamic theory",
+   "label": "rational extended thermodynamic theory",
+   "kind": "keyword"
+  },
+  "keyword:molecular relaxation processes": {
+   "id": "keyword:molecular relaxation processes",
+   "label": "molecular relaxation processes",
+   "kind": "keyword"
+  },
+  "keyword:rarefied polyatomic gases": {
+   "id": "keyword:rarefied polyatomic gases",
+   "label": "rarefied polyatomic gases",
+   "kind": "keyword"
+  },
+  "keyword:rarefied polyatomic gas": {
+   "id": "keyword:rarefied polyatomic gas",
+   "label": "rarefied polyatomic gas",
+   "kind": "keyword"
+  },
+  "keyword:vibrational relaxation processes": {
+   "id": "keyword:vibrational relaxation processes",
+   "label": "vibrational relaxation processes",
+   "kind": "keyword"
+  },
+  "keyword:generalized bgk-type collision term": {
+   "id": "keyword:generalized bgk-type collision term",
+   "label": "generalized bgk-type collision term",
+   "kind": "keyword"
+  },
+  "keyword:molecular rotational": {
+   "id": "keyword:molecular rotational",
+   "label": "molecular rotational",
+   "kind": "keyword"
+  },
+  "keyword:seven independent fields": {
+   "id": "keyword:seven independent fields",
+   "label": "seven independent fields",
+   "kind": "keyword"
+  },
+  "keyword:ultrasonic wave derived": {
+   "id": "keyword:ultrasonic wave derived",
+   "label": "ultrasonic wave derived",
+   "kind": "keyword"
+  },
+  "keyword:moment system": {
+   "id": "keyword:moment system",
+   "label": "moment system",
+   "kind": "keyword"
+  },
+  "keyword:gases": {
+   "id": "keyword:gases",
+   "label": "gases",
+   "kind": "keyword"
+  },
+  "keyword:system": {
+   "id": "keyword:system",
+   "label": "system",
+   "kind": "keyword"
+  },
+  "work:the role of quantum information in thermodynamics-a topical review": {
+   "id": "work:the role of quantum information in thermodynamics-a topical review",
+   "label": "The role of quantum information in thermodynamics\u2014a topical review",
+   "kind": "work"
+  },
+  "author:john goold": {
+   "id": "author:john goold",
+   "label": "John Goold",
+   "kind": "author"
+  },
+  "author:marcus huber": {
+   "id": "author:marcus huber",
+   "label": "Marcus Huber",
+   "kind": "author"
+  },
+  "author:arnau riera": {
+   "id": "author:arnau riera",
+   "label": "Arnau Riera",
+   "kind": "author"
+  },
+  "author:l\u00eddia del rio": {
+   "id": "author:l\u00eddia del rio",
+   "label": "L\u00eddia del Rio",
+   "kind": "author"
+  },
+  "author:paul skrzypczyk": {
+   "id": "author:paul skrzypczyk",
+   "label": "Paul Skrzypczyk",
+   "kind": "author"
+  },
+  "keyword:topical review article gives": {
+   "id": "keyword:topical review article gives",
+   "label": "topical review article gives",
+   "kind": "keyword"
+  },
+  "keyword:quantum information theory": {
+   "id": "keyword:quantum information theory",
+   "label": "quantum information theory",
+   "kind": "keyword"
+  },
+  "keyword:quantum information": {
+   "id": "keyword:quantum information",
+   "label": "quantum information",
+   "kind": "keyword"
+  },
+  "keyword:comprehensive review": {
+   "id": "keyword:comprehensive review",
+   "label": "comprehensive review",
+   "kind": "keyword"
+  },
+  "keyword:review": {
+   "id": "keyword:review",
+   "label": "review",
+   "kind": "keyword"
+  },
+  "keyword:quantum systems": {
+   "id": "keyword:quantum systems",
+   "label": "quantum systems",
+   "kind": "keyword"
+  },
+  "keyword:several trending topics including": {
+   "id": "keyword:several trending topics including",
+   "label": "several trending topics including",
+   "kind": "keyword"
+  },
+  "keyword:different interdisciplinary approaches emerging": {
+   "id": "keyword:different interdisciplinary approaches emerging",
+   "label": "different interdisciplinary approaches emerging",
+   "kind": "keyword"
+  },
+  "keyword:convenient entry point": {
+   "id": "keyword:convenient entry point",
+   "label": "convenient entry point",
+   "kind": "keyword"
+  },
+  "work:extended irreversible thermodynamics": {
+   "id": "work:extended irreversible thermodynamics",
+   "label": "Extended irreversible thermodynamics",
+   "kind": "work"
+  },
+  "keyword:so-called rational thermodynamics": {
+   "id": "keyword:so-called rational thermodynamics",
+   "label": "so-called rational thermodynamics",
+   "kind": "keyword"
+  },
+  "keyword:several generalisations including higher-order fluxes": {
+   "id": "keyword:several generalisations including higher-order fluxes",
+   "label": "several generalisations including higher-order fluxes",
+   "kind": "keyword"
+  },
+  "keyword:fluxes": {
+   "id": "keyword:fluxes",
+   "label": "fluxes",
+   "kind": "keyword"
+  },
+  "keyword:macroscopic theory": {
+   "id": "keyword:macroscopic theory",
+   "label": "macroscopic theory",
+   "kind": "keyword"
+  },
+  "keyword:fluctuation theory": {
+   "id": "keyword:fluctuation theory",
+   "label": "fluctuation theory",
+   "kind": "keyword"
+  },
+  "keyword:kinetic theory": {
+   "id": "keyword:kinetic theory",
+   "label": "kinetic theory",
+   "kind": "keyword"
+  },
+  "keyword:classical constitutive laws": {
+   "id": "keyword:classical constitutive laws",
+   "label": "classical constitutive laws",
+   "kind": "keyword"
   }
  },
  "hyperedges": [
@@ -5293,11 +8453,12 @@
     "keyword:tau",
     "notation:melt",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[findings - the formal correspondence]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "Findings \u2014 The Formal Correspondence",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e1",
@@ -5305,25 +8466,28 @@
     "keyword:instantaneous closure creates",
     "keyword:instantaneous constitutive closure",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[1. the two paradoxes of simultaneity]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "1. The two paradoxes of simultaneity",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e2",
    "nodes": [
+    "author:m",
     "citation:muller-ruggeri1998 (1998)",
     "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[2. the thermodynamic pole (what we borrow)]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "2. The thermodynamic pole (what we borrow)",
-   "arity": 6
+   "arity": 8
   },
   {
    "id": "e3",
@@ -5332,11 +8496,12 @@
     "notation:gravitation",
     "notation:melt",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[3. the economic pole (what we reformulate)]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "3. The economic pole (what we reformulate)",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e4",
@@ -5348,11 +8513,12 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[4. the correspondence table]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "4. The correspondence table",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e5",
@@ -5367,11 +8533,12 @@
     "notation:melt",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[5. model skeleton (track a, phase 1 - candidate masters problem)]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)",
-   "arity": 11
+   "arity": 12
   },
   {
    "id": "e6",
@@ -5379,33 +8546,36 @@
     "artifact:t1",
     "artifact:t4",
     "keyword:one categorical structure",
+    "project:ret-tssi",
     "section:[6. track b synthesis (foundations)]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "6. Track B synthesis (foundations)",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e7",
    "nodes": [
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[7. track c synthesis (computational/empirical)]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "7. Track C synthesis (computational/empirical)",
-   "arity": 3
+   "arity": 4
   },
   {
    "id": "e8",
    "nodes": [
     "artifact:t4",
     "keyword:entropy extension",
+    "project:ret-tssi",
     "section:[8. risk register (program level)]"
    ],
-   "doc": "findings.md",
+   "doc": "ret-tssi/findings.md",
    "section": "8. Risk register (program level)",
-   "arity": 3
+   "arity": 4
   },
   {
    "id": "e9",
@@ -5417,15 +8587,17 @@
     "keyword:entropy depending",
     "keyword:entropy maximization",
     "keyword:generalized convex spaces",
+    "project:ret-tssi",
     "section:[baez, lynch & moeller (2023) - compositional thermostatics]"
    ],
-   "doc": "literature/baez-lynch-moeller-2023.md",
+   "doc": "ret-tssi/literature/baez-lynch-moeller-2023.md",
    "section": "Baez, Lynch & Moeller (2023) \u2014 Compositional Thermostatics",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e10",
    "nodes": [
+    "author:von",
     "citation:bortkiewicz1907 (1907)",
     "keyword:algebraic system",
     "keyword:input prices equal output prices",
@@ -5433,15 +8605,20 @@
     "keyword:simultaneous system",
     "notation:gravitation",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[bortkiewicz-sraffa tradition - the simultaneous dual-system benchmark]"
    ],
-   "doc": "literature/bortkiewicz-sraffa-dual-system.md",
+   "doc": "ret-tssi/literature/bortkiewicz-sraffa-dual-system.md",
    "section": "Bortkiewicz\u2013Sraffa Tradition \u2014 The Simultaneous Dual-System Benchmark",
-   "arity": 8
+   "arity": 10
   },
   {
    "id": "e11",
    "nodes": [
+    "author:a",
+    "author:luis",
+    "author:marie-therese",
+    "author:martin",
     "citation:burger-etal2013 (2013)",
     "keyword:initial layer",
     "keyword:kinetic models solutions",
@@ -5450,11 +8627,12 @@
     "keyword:price formation",
     "keyword:price-formation level",
     "keyword:transaction-level price formation",
+    "project:ret-tssi",
     "section:[burger, caffarelli, markowich & wolfram (2013) - a boltzmann-type price formation model]"
    ],
-   "doc": "literature/burger-etal-2013.md",
+   "doc": "ret-tssi/literature/burger-etal-2013.md",
    "section": "Burger, Caffarelli, Markowich & Wolfram (2013) \u2014 A Boltzmann-Type Price Formation Model",
-   "arity": 9
+   "arity": 14
   },
   {
    "id": "e12",
@@ -5469,11 +8647,12 @@
     "keyword:telegraph equation",
     "notation:cattaneo",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[cattaneo (1948) - sulla conduzione del calore]"
    ],
-   "doc": "literature/cattaneo-1948.md",
+   "doc": "ret-tssi/literature/cattaneo-1948.md",
    "section": "Cattaneo (1948) \u2014 Sulla conduzione del calore",
-   "arity": 11
+   "arity": 12
   },
   {
    "id": "e13",
@@ -5485,11 +8664,12 @@
     "keyword:stiff relaxation terms",
     "notation:simultaneism",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[chen, levermore & liu (1994) - hyperbolic conservation laws with stiff relaxation and entropy]"
    ],
-   "doc": "literature/chen-levermore-liu-1994.md",
+   "doc": "ret-tssi/literature/chen-levermore-liu-1994.md",
    "section": "Chen, Levermore & Liu (1994) \u2014 Hyperbolic Conservation Laws with Stiff Relaxation and Entropy",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e14",
@@ -5501,11 +8681,12 @@
     "keyword:third price theory implicit",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[cockshott (2016) - marxian reproduction prices versus prices of production: probability and convergence]"
    ],
-   "doc": "literature/cockshott-2016.md",
+   "doc": "ret-tssi/literature/cockshott-2016.md",
    "section": "Cockshott (2016) \u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e15",
@@ -5515,11 +8696,12 @@
     "keyword:marx need",
     "keyword:production prices act",
     "keyword:sraffian prices",
+    "project:ret-tssi",
     "section:[cockshott & cottrell (1997/1998) - does marx need to transform? / scientific status of the ltv]"
    ],
-   "doc": "literature/cockshott-cottrell-1998.md",
+   "doc": "ret-tssi/literature/cockshott-cottrell-1998.md",
    "section": "Cockshott & Cottrell (1997/1998) \u2014 Does Marx Need to Transform? / Scientific Status of the LTV",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e16",
@@ -5532,11 +8714,12 @@
     "keyword:models",
     "keyword:ricardian labor theory",
     "keyword:yakovenko",
+    "project:ret-tssi",
     "section:[cottrell, cockshott, michaelson, wright & yakovenko (2009) - classical econophysics]"
    ],
-   "doc": "literature/cottrell-etal-2009.md",
+   "doc": "ret-tssi/literature/cottrell-etal-2009.md",
    "section": "Cottrell, Cockshott, Michaelson, Wright & Yakovenko (2009) \u2014 Classical Econophysics",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e17",
@@ -5548,11 +8731,12 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[dum\u00e9nil & l\u00e9vy (1987) - the dynamics of competition: a restoration of the classical analysis]"
    ],
-   "doc": "literature/dumenil-levy-1987.md",
+   "doc": "ret-tssi/literature/dumenil-levy-1987.md",
    "section": "Dum\u00e9nil & L\u00e9vy (1987) \u2014 The Dynamics of Competition: A Restoration of the Classical Analysis",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e18",
@@ -5563,11 +8747,12 @@
     "keyword:profit rates",
     "keyword:programs deterministic balance-law core",
     "keyword:rate",
+    "project:ret-tssi",
     "section:[farjoun & machover (1983) - laws of chaos]"
    ],
-   "doc": "literature/farjoun-machover-1983.md",
+   "doc": "ret-tssi/literature/farjoun-machover-1983.md",
    "section": "Farjoun & Machover (1983) \u2014 Laws of Chaos",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e19",
@@ -5580,11 +8765,12 @@
     "keyword:stable cross-dual adjustment process",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[flaschel & semmler (1987) - classical and neoclassical competitive adjustment processes]"
    ],
-   "doc": "literature/flaschel-semmler-1987.md",
+   "doc": "ret-tssi/literature/flaschel-semmler-1987.md",
    "section": "Flaschel & Semmler (1987) \u2014 Classical and Neoclassical Competitive Adjustment Processes",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e20",
@@ -5597,11 +8783,12 @@
     "keyword:value holds identically",
     "notation:cattaneo",
     "notation:melt",
+    "project:ret-tssi",
     "section:[freeman (1996) - price, value and profit: a continuous, general treatment]"
    ],
-   "doc": "literature/freeman-1996.md",
+   "doc": "ret-tssi/literature/freeman-1996.md",
    "section": "Freeman (1996) \u2014 Price, Value and Profit: A Continuous, General Treatment",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e21",
@@ -5610,11 +8797,12 @@
     "artifact:track b",
     "keyword:entropy",
     "keyword:thermodynamics",
+    "project:ret-tssi",
     "section:[grmela & \u00f6ttinger - generic and multiscale thermodynamics]"
    ],
-   "doc": "literature/grmela-generic-multiscale.md",
+   "doc": "ret-tssi/literature/grmela-generic-multiscale.md",
    "section": "Grmela & \u00d6ttinger \u2014 GENERIC and Multiscale Thermodynamics",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e22",
@@ -5625,11 +8813,12 @@
     "keyword:extended thermodynamics",
     "keyword:rational extended thermodynamics",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[jou, casas-v\u00e1zquez & lebon - extended irreversible thermodynamics; ruggeri & sugiyama (2015)]"
    ],
-   "doc": "literature/jou-etal-eit.md",
+   "doc": "ret-tssi/literature/jou-etal-eit.md",
    "section": "Jou, Casas-V\u00e1zquez & Lebon \u2014 Extended Irreversible Thermodynamics; Ruggeri & Sugiyama (2015)",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e23",
@@ -5640,11 +8829,12 @@
     "keyword:temporal single-system interpretation",
     "keyword:value",
     "notation:melt",
+    "project:ret-tssi",
     "section:[kliman & mcglone (1999) - a temporal single-system interpretation of marxs value theory]"
    ],
-   "doc": "literature/kliman-mcglone-1999.md",
+   "doc": "ret-tssi/literature/kliman-mcglone-1999.md",
    "section": "Kliman & McGlone (1999) \u2014 A Temporal Single-system Interpretation of Marx's Value Theory",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e24",
@@ -5654,11 +8844,12 @@
     "keyword:continuum mechanics",
     "keyword:rational thermodynamics",
     "keyword:truesdell-noll rational mechanics",
+    "project:ret-tssi",
     "section:[lawvere & schanuel (1986) - categories in continuum physics]"
    ],
-   "doc": "literature/lawvere-1986.md",
+   "doc": "ret-tssi/literature/lawvere-1986.md",
    "section": "Lawvere & Schanuel (1986) \u2014 Categories in Continuum Physics",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e25",
@@ -5672,11 +8863,12 @@
     "notation:cattaneo",
     "notation:melt",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[mohun & veneziani (2009) - the temporal single-system interpretation: underdetermination and inconsistency]"
    ],
-   "doc": "literature/mohun-veneziani-2009.md",
+   "doc": "ret-tssi/literature/mohun-veneziani-2009.md",
    "section": "Mohun & Veneziani (2009) \u2014 The Temporal Single-System Interpretation: Underdetermination and Inconsistency",
-   "arity": 10
+   "arity": 11
   },
   {
    "id": "e26",
@@ -5684,11 +8876,12 @@
     "keyword:rational extended thermodynamics",
     "notation:fourier",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[m\u00fcller & ruggeri (1998) - rational extended thermodynamics (2nd ed.)]"
    ],
-   "doc": "literature/muller-ruggeri-1998.md",
+   "doc": "ret-tssi/literature/muller-ruggeri-1998.md",
    "section": "M\u00fcller & Ruggeri (1998) \u2014 Rational Extended Thermodynamics (2nd ed.)",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e27",
@@ -5700,16 +8893,20 @@
     "keyword:telegraph models",
     "notation:cattaneo",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[telegraph-process models in finance - ratanov et al.]"
    ],
-   "doc": "literature/ratanov-telegraph-finance.md",
+   "doc": "ret-tssi/literature/ratanov-telegraph-finance.md",
    "section": "Telegraph-Process Models in Finance \u2014 Ratanov et al.",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e28",
    "nodes": [
     "artifact:track a",
+    "author:e",
+    "author:m",
+    "author:o",
     "citation:gurtin-williams1967 (1967)",
     "citation:muller1967 (1967)",
     "keyword:constitutive relations",
@@ -5718,11 +8915,12 @@
     "keyword:thermodynamics",
     "keyword:truesdell-school rational thermodynamics",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[the rational thermodynamics tradition - coleman-noll (1963), coleman (1964), truesdell (1984), gurtin-williams (1967), m\u00fcller (1967), liu (1972)]"
    ],
-   "doc": "literature/rational-thermodynamics-tradition.md",
+   "doc": "ret-tssi/literature/rational-thermodynamics-tradition.md",
    "section": "The Rational Thermodynamics Tradition \u2014 Coleman\u2013Noll (1963), Coleman (1964), Truesdell (1984), Gurtin\u2013Williams (1967), M\u00fcller (1967), Liu (1972)",
-   "arity": 10
+   "arity": 14
   },
   {
    "id": "e29",
@@ -5735,11 +8933,12 @@
     "keyword:first-order quasi-linear system",
     "keyword:value-price system",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[ruggeri & strumia (1981) - main field and convex covariant density]"
    ],
-   "doc": "literature/ruggeri-strumia-1981.md",
+   "doc": "ret-tssi/literature/ruggeri-strumia-1981.md",
    "section": "Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e30",
@@ -5752,11 +8951,12 @@
     "keyword:systems",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[stability of dissipative hyperbolic systems - hanouzet-natalini (2003), ruggeri-serre (2004), bianchini-hanouzet-natalini (2007)]"
    ],
-   "doc": "literature/stability-dissipative-hyperbolic.md",
+   "doc": "ret-tssi/literature/stability-dissipative-hyperbolic.md",
    "section": "Stability of Dissipative Hyperbolic Systems \u2014 Hanouzet\u2013Natalini (2003), Ruggeri\u2013Serre (2004), Bianchini\u2013Hanouzet\u2013Natalini (2007)",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e31",
@@ -5771,11 +8971,12 @@
     "notation:fourier",
     "notation:gravitation",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[steedman (1984) - natural prices, differential profit rates and the classical competitive process]"
    ],
-   "doc": "literature/steedman-1984.md",
+   "doc": "ret-tssi/literature/steedman-1984.md",
    "section": "Steedman (1984) \u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process",
-   "arity": 11
+   "arity": 12
   },
   {
    "id": "e32",
@@ -5786,11 +8987,12 @@
     "keyword:veneziani critique",
     "keyword:veneziani finds missing",
     "notation:melt",
+    "project:ret-tssi",
     "section:[veneziani (2005) - dynamics, disequilibrium, and marxian economics: a formal analysis of temporal single-system marxism]"
    ],
-   "doc": "literature/veneziani-2005.md",
+   "doc": "ret-tssi/literature/veneziani-2005.md",
    "section": "Veneziani (2005) \u2014 Dynamics, Disequilibrium, and Marxian Economics: A Formal Analysis of Temporal Single-System Marxism",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e33",
@@ -5801,11 +9003,12 @@
     "keyword:measurable relaxation spectrum",
     "keyword:simulation rather",
     "keyword:social architecture",
+    "project:ret-tssi",
     "section:[wright (2005) - the social architecture of capitalism]"
    ],
-   "doc": "literature/wright-2005.md",
+   "doc": "ret-tssi/literature/wright-2005.md",
    "section": "Wright (2005) \u2014 The Social Architecture of Capitalism",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e34",
@@ -5813,36 +9016,43 @@
     "artifact:track e",
     "keyword:program",
     "keyword:program document",
+    "project:ret-tssi",
     "section:[critiques of the program - steelman document]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "Critiques of the Program \u2014 Steelman Document",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e35",
    "nodes": [
     "artifact:t3",
     "artifact:t4",
+    "author:a",
+    "author:luis",
+    "author:marie-therese",
+    "author:martin",
     "citation:burger-etal2013 (2013)",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[a1. \"physics envy - this is a metaphor, not a model\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "A1. \"Physics envy \u2014 this is a metaphor, not a model\"",
-   "arity": 7
+   "arity": 12
   },
   {
    "id": "e36",
    "nodes": [
     "keyword:per-link transmission speed",
+    "project:ret-tssi",
     "section:[a2. \"category mistake: an economy is not a continuum\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "A2. \"Category mistake: an economy is not a continuum\"",
-   "arity": 2
+   "arity": 3
   },
   {
    "id": "e37",
@@ -5854,28 +9064,39 @@
     "notation:gravitation",
     "notation:simultaneism",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[a3. \"unobservable parameters, unparsimonious\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "A3. \"Unobservable parameters, unparsimonious\"",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e38",
    "nodes": [
     "artifact:t3",
     "artifact:t4",
+    "author:a",
+    "author:f",
+    "author:j",
+    "author:jan-f",
+    "author:m",
+    "author:marie-therese",
+    "author:norayr",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "citation:markowich-etal2009 (2009)",
     "keyword:interpretive question",
     "keyword:program defends tssi",
     "keyword:tssi",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[a4. \"youre solving a non-problem\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "A4. \"You're solving a non-problem\"",
-   "arity": 9
+   "arity": 19
   },
   {
    "id": "e39",
@@ -5885,11 +9106,12 @@
     "keyword:temporal profit rates diverge systematically",
     "notation:simultaneism",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[a5. \"the relaxation limit vindicates simultaneism\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "A5. \"The relaxation limit vindicates simultaneism\"",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e40",
@@ -5897,11 +9119,12 @@
     "keyword:program",
     "keyword:program doc",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[a6. \"stability theorems reintroduce equilibrium by the back door\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "A6. \"Stability theorems reintroduce equilibrium by the back door\"",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e41",
@@ -5909,11 +9132,12 @@
     "keyword:one adopts",
     "keyword:program brackets exegesis entirely",
     "keyword:program removes",
+    "project:ret-tssi",
     "section:[b1. \"tssi is an interpretation of a text, not a dynamical system\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "B1. \"TSSI is an interpretation of a text, not a dynamical system\"",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e42",
@@ -5926,32 +9150,35 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[b2. \"your closure is one of infinitely many - why this one?\" (underdetermination returns)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "B2. \"Your closure is one of infinitely many \u2014 why this one?\" (underdetermination returns)",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e43",
    "nodes": [
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[b3. \"there is no tendency to equalization at all\" (the probabilist flank)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "B3. \"There is no tendency to equalization at all\" (the probabilist flank)",
-   "arity": 2
+   "arity": 3
   },
   {
    "id": "e44",
    "nodes": [
     "artifact:t3",
     "keyword:answering tssis critics",
+    "project:ret-tssi",
     "section:[b4. priority/etiquette within the school]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "B4. Priority/etiquette within the school",
-   "arity": 3
+   "arity": 4
   },
   {
    "id": "e45",
@@ -5963,11 +9190,12 @@
     "keyword:entropy extension",
     "keyword:entropy search",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[c1. the entropy extension probably doesnt exist]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "C1. The entropy extension probably doesn't exist",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e46",
@@ -5975,11 +9203,12 @@
     "keyword:hyperbolic pdes",
     "keyword:papers use pde language",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[c2. \"hyperbolic\" is overdressed for an ode system]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "C2. \"Hyperbolic\" is overdressed for an ODE system",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e47",
@@ -5988,11 +9217,12 @@
     "keyword:initial layer",
     "keyword:initial layers",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[c3. the singular limit is only locally valid in time]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "C3. The singular limit is only locally valid in time",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e48",
@@ -6001,11 +9231,12 @@
     "artifact:track c",
     "keyword:program claims local theory rigorously",
     "keyword:program doc track",
+    "project:ret-tssi",
     "section:[c4. only small-data stability is within reach]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "C4. Only small-data stability is within reach",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e49",
@@ -6013,11 +9244,12 @@
     "artifact:track f",
     "keyword:machine-checked statement",
     "keyword:machine-checked statement cannot silently change definition mid-proof",
+    "project:ret-tssi",
     "section:[c5. \"formalization is a proof of the obvious\" (track f)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "C5. \"Formalization is a proof of the obvious\" (Track F)",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e50",
@@ -6026,11 +9258,12 @@
     "keyword:discrete recursion",
     "keyword:discrete recursion requires rebuilding large analysis infrastructure",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[c6. \"proof assistants arent ready for the real objects\" (track f)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "C6. \"Proof assistants aren't ready for the real objects\" (Track F)",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e51",
@@ -6038,32 +9271,35 @@
     "artifact:track c",
     "keyword:every extended theory needs",
     "keyword:microscopic kinetic theory",
+    "project:ret-tssi",
     "section:[d1. no kinetic underpinning]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "D1. No kinetic underpinning",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e52",
    "nodes": [
     "keyword:program",
     "keyword:program uses",
+    "project:ret-tssi",
     "section:[d2. \"entropy\" is just a lyapunov function with a borrowed name]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "D2. \"Entropy\" is just a Lyapunov function with a borrowed name",
-   "arity": 3
+   "arity": 4
   },
   {
    "id": "e53",
    "nodes": [
     "artifact:track b",
+    "project:ret-tssi",
     "section:[d3. \"why ret rather than generic?\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "D3. \"Why RET rather than GENERIC?\"",
-   "arity": 2
+   "arity": 3
   },
   {
    "id": "e54",
@@ -6072,11 +9308,12 @@
     "keyword:subcharacteristic structure",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[d4. \"learned closures are circular or unphysical\" (track e)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "D4. \"Learned closures are circular or unphysical\" (Track E)",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e55",
@@ -6086,21 +9323,23 @@
     "keyword:much methodological machinery",
     "keyword:per-track venue mapping",
     "keyword:single paper speaks",
+    "project:ret-tssi",
     "section:[e1. audience squeeze (now four disciplines)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "E1. Audience squeeze (now four disciplines)",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e56",
    "nodes": [
     "keyword:program ignores",
+    "project:ret-tssi",
     "section:[e2. missed neighbors]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "E2. Missed neighbors",
-   "arity": 2
+   "arity": 3
   },
   {
    "id": "e57",
@@ -6108,11 +9347,12 @@
     "artifact:track b",
     "keyword:program document",
     "keyword:tracks b-f",
+    "project:ret-tssi",
     "section:[e3. scope creep (self-critique, sharpened for six tracks)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "E3. Scope creep (self-critique, sharpened for six tracks)",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e58",
@@ -6125,11 +9365,12 @@
     "keyword:economic system",
     "keyword:models economic content",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[e4. \"the computational tracks are orthogonal to value theory\"]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "E4. \"The computational tracks are orthogonal to value theory\"",
-   "arity": 9
+   "arity": 10
   },
   {
    "id": "e59",
@@ -6138,6 +9379,14 @@
     "artifact:track b",
     "artifact:track e",
     "artifact:track f",
+    "author:ellis",
+    "author:gregor",
+    "author:k",
+    "author:miroslav",
+    "author:ping",
+    "author:roberto",
+    "author:shi",
+    "author:simon",
     "citation:foley1994 (1994)",
     "citation:grmela2015 (2015)",
     "citation:grmela2021 (2021)",
@@ -6148,11 +9397,12 @@
     "notation:gravitation",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[consolidated amendments to `research-program.md`]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "Consolidated amendments to `research-program.md`",
-   "arity": 15
+   "arity": 24
   },
   {
    "id": "e60",
@@ -6160,13 +9410,18 @@
     "artifact:track b",
     "artifact:track e",
     "artifact:track f",
+    "author:jason",
+    "author:p",
+    "author:stephan",
+    "author:yohai",
     "citation:bar-sinai2019 (2019)",
     "keyword:track",
+    "project:ret-tssi",
     "section:[watch list (to read before the expos\u00e9)]"
    ],
-   "doc": "program/critiques.md",
+   "doc": "ret-tssi/program/critiques.md",
    "section": "Watch list (to read before the expos\u00e9)",
-   "arity": 6
+   "arity": 11
   },
   {
    "id": "e61",
@@ -6174,11 +9429,12 @@
     "keyword:formal framework",
     "keyword:rational extended thermodynamics",
     "keyword:temporal single-system interpretation",
+    "project:ret-tssi",
     "section:[finite-speed value: a research program in marxian econophysics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "Finite-Speed Value: A Research Program in Marxian Econophysics",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e62",
@@ -6189,6 +9445,11 @@
     "artifact:track d",
     "artifact:track e",
     "artifact:track f",
+    "author:f",
+    "author:j",
+    "author:m",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "keyword:modern hyperbolic theory supply",
     "keyword:simultaneist value theory",
@@ -6196,26 +9457,42 @@
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[1. overview]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "1. Overview",
-   "arity": 14
+   "arity": 20
   },
   {
    "id": "e63",
    "nodes": [
+    "author:a",
+    "author:f",
+    "author:j",
+    "author:jan-f",
+    "author:m",
+    "author:marie-therese",
+    "author:norayr",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "citation:markowich-etal2009 (2009)",
+    "project:ret-tssi",
     "section:[2.1 the transformation problem and tssi]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "2.1 The transformation problem and TSSI",
-   "arity": 3
+   "arity": 13
   },
   {
    "id": "e64",
    "nodes": [
+    "author:a",
+    "author:c",
+    "author:joe",
+    "author:m",
+    "author:owen",
     "citation:baez-lynch-moeller2023 (2023)",
     "citation:day1972 (1972)",
     "citation:muller1967 (1967)",
@@ -6224,11 +9501,12 @@
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[2.2 rational extended thermodynamics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "2.2 Rational extended thermodynamics",
-   "arity": 9
+   "arity": 15
   },
   {
    "id": "e65",
@@ -6239,21 +9517,25 @@
     "notation:cattaneo",
     "notation:fourier",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[2.3 gravitation dynamics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "2.3 Gravitation dynamics",
-   "arity": 7
+   "arity": 8
   },
   {
    "id": "e66",
    "nodes": [
+    "author:e",
+    "author:emmanuel",
     "citation:farjoun-machover1983 (1983)",
+    "project:ret-tssi",
     "section:[2.4 classical econophysics and finite-speed precedents]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "2.4 Classical econophysics and finite-speed precedents",
-   "arity": 2
+   "arity": 5
   },
   {
    "id": "e67",
@@ -6261,11 +9543,12 @@
     "keyword:non-physical application",
     "keyword:value-theoretic dynamics",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[2.5 gap summary]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "2.5 Gap summary",
-   "arity": 4
+   "arity": 5
   },
   {
    "id": "e68",
@@ -6281,11 +9564,12 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[3. the core correspondence]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "3. The core correspondence",
-   "arity": 12
+   "arity": 13
   },
   {
    "id": "e69",
@@ -6304,22 +9588,24 @@
     "notation:sk condition",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[4. track a - physics \u00d7 economics: the hyperbolic value-price system]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
-   "arity": 15
+   "arity": 16
   },
   {
    "id": "e70",
    "nodes": [
     "artifact:t1",
     "artifact:t4",
+    "project:ret-tssi",
     "section:[5. track b - mathematics \u00d7 physics: foundations of extended thermodynamics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "5. Track B \u2014 Mathematics \u00d7 Physics: foundations of extended thermodynamics",
-   "arity": 3
+   "arity": 4
   },
   {
    "id": "e71",
@@ -6329,11 +9615,12 @@
     "keyword:data",
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[6. track c - computer science \u00d7 economics: simulation and empirical estimation]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "6. Track C \u2014 Computer Science \u00d7 Economics: simulation and empirical estimation",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e72",
@@ -6345,11 +9632,12 @@
     "notation:gravitation",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[7. track d - mathematics \u00d7 economics: the formal theory of value-price dynamics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics",
-   "arity": 8
+   "arity": 9
   },
   {
    "id": "e73",
@@ -6363,11 +9651,12 @@
     "notation:simultaneism",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[8. track e - physics \u00d7 computer science: computational thermodynamics of value-price dynamics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics",
-   "arity": 10
+   "arity": 11
   },
   {
    "id": "e74",
@@ -6377,11 +9666,12 @@
     "artifact:track b",
     "keyword:promise full formalization",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[9. track f - mathematics \u00d7 computer science: certified and executable mathematics]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "9. Track F \u2014 Mathematics \u00d7 Computer Science: certified and executable mathematics",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e75",
@@ -6390,11 +9680,12 @@
     "artifact:t4",
     "artifact:track b",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[10. phasing, dependencies, publication strategy]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "10. Phasing, dependencies, publication strategy",
-   "arity": 5
+   "arity": 6
   },
   {
    "id": "e76",
@@ -6408,26 +9699,38 @@
     "artifact:track e",
     "artifact:track f",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[11. masters thesis decision point]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "11. Master's thesis decision point",
-   "arity": 10
+   "arity": 11
   },
   {
    "id": "e77",
    "nodes": [
+    "author:e",
+    "author:emmanuel",
+    "author:f",
+    "author:j",
+    "author:jason",
+    "author:m",
+    "author:p",
+    "author:paul",
+    "author:stephan",
+    "author:yohai",
     "citation:bar-sinai2019 (2019)",
     "citation:cottrell-etal2009 (2009)",
     "citation:farjoun-machover1983 (1983)",
     "citation:muller-ruggeri1998 (1998)",
     "citation:muller1967 (1967)",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[12. references]"
    ],
-   "doc": "program/research-program.md",
+   "doc": "ret-tssi/program/research-program.md",
    "section": "12. References",
-   "arity": 7
+   "arity": 18
   },
   {
    "id": "e78",
@@ -6435,18 +9738,33 @@
     "artifact:t1",
     "artifact:t4",
     "artifact:track a",
+    "author:a",
+    "author:luis",
+    "author:marie-therese",
+    "author:martin",
     "citation:burger-etal2013 (2013)",
     "notation:gravitation",
+    "project:ret-tssi",
     "section:[2026-08-15 - project initialization and program document]"
    ],
-   "doc": "research-log.md",
+   "doc": "ret-tssi/research-log.md",
    "section": "2026-08-15 \u2014 Project initialization and program document",
-   "arity": 6
+   "arity": 11
   },
   {
    "id": "e79",
    "nodes": [
     "artifact:track c",
+    "author:arjit",
+    "author:ellis",
+    "author:gregor",
+    "author:j",
+    "author:k",
+    "author:miroslav",
+    "author:ping",
+    "author:roberto",
+    "author:shi",
+    "author:simon",
     "citation:foley1994 (1994)",
     "citation:grmela-ottinger1997a (1997)",
     "citation:grmela2015 (2015)",
@@ -6458,11 +9776,12 @@
     "citation:scharfenaker-semieniuk2017 (2017)",
     "notation:gravitation",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[2026-08-16 - git commit + critiques document]"
    ],
-   "doc": "research-log.md",
+   "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Git commit + critiques document",
-   "arity": 13
+   "arity": 24
   },
   {
    "id": "e80",
@@ -6472,17 +9791,48 @@
     "artifact:track b",
     "artifact:track c",
     "artifact:track d",
+    "project:ret-tssi",
     "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]"
    ],
-   "doc": "research-log.md",
+   "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Track refactor (3 \u2192 4 tracks, four-discipline framing)",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e81",
    "nodes": [
     "artifact:track e",
     "artifact:track f",
+    "author:andrew",
+    "author:arjit",
+    "author:christopher",
+    "author:collaborators",
+    "author:daniele",
+    "author:em",
+    "author:erik",
+    "author:evan",
+    "author:floris",
+    "author:guillaume",
+    "author:heather",
+    "author:j",
+    "author:james",
+    "author:jason",
+    "author:jesus",
+    "author:karthik",
+    "author:lab",
+    "author:luke",
+    "author:maia",
+    "author:maziar",
+    "author:p",
+    "author:paris",
+    "author:ping",
+    "author:scott",
+    "author:shaowu",
+    "author:shi",
+    "author:sophie",
+    "author:stephan",
+    "author:tuomo",
+    "author:yohai",
     "citation:armstrong-kuusi2025 (2025)",
     "citation:bar-sinai2019 (2019)",
     "citation:brennan-venturi2018 (2018)",
@@ -6496,37 +9846,41 @@
     "citation:pan-duraisamy2018 (2018)",
     "citation:raissi2019 (2019)",
     "citation:vandoor-macbeth2024 (2024)",
+    "project:ret-tssi",
     "section:[2026-08-16 - six-track completion + bibliography reorganization]"
    ],
-   "doc": "research-log.md",
+   "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Six-track completion + bibliography reorganization",
-   "arity": 16
+   "arity": 47
   },
   {
    "id": "e82",
    "nodes": [
     "artifact:t3",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[2026-08-16 - commit + context preservation]"
    ],
-   "doc": "research-log.md",
+   "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Commit + context preservation",
-   "arity": 3
+   "arity": 4
   },
   {
    "id": "e83",
    "nodes": [
+    "author:k",
     "citation:foley1994 (1994)",
     "keyword:driven non-equilibrium steady state",
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[2026-08-16 - proposal walkthrough + agents.md wiring]"
    ],
-   "doc": "research-log.md",
+   "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring",
-   "arity": 7
+   "arity": 9
   },
   {
    "id": "e84",
@@ -6536,11 +9890,12 @@
     "keyword:correspondence table",
     "keyword:research program",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[what exists now]"
    ],
-   "doc": "to_human/2026-08-15-program-delivery.md",
+   "doc": "ret-tssi/to_human/2026-08-15-program-delivery.md",
    "section": "What exists now",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e85",
@@ -6550,37 +9905,50 @@
     "artifact:t4",
     "keyword:entropy-extension problem",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[decisions embedded (confirm or redirect)]"
    ],
-   "doc": "to_human/2026-08-15-program-delivery.md",
+   "doc": "ret-tssi/to_human/2026-08-15-program-delivery.md",
    "section": "Decisions embedded (confirm or redirect)",
-   "arity": 6
+   "arity": 7
   },
   {
    "id": "e86",
    "nodes": [
     "keyword:anchor papers ingested",
+    "project:ret-tssi",
     "section:[not done (awaiting your review)]"
    ],
-   "doc": "to_human/2026-08-15-program-delivery.md",
+   "doc": "ret-tssi/to_human/2026-08-15-program-delivery.md",
    "section": "Not done (awaiting your review)",
-   "arity": 2
+   "arity": 3
   },
   {
    "id": "e87",
+   "nodes": [
+    "project:ret-tssi",
+    "section:[context preservation - read after a context reset]"
+   ],
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "Context Preservation \u2014 read after a context reset",
+   "arity": 2
+  },
+  {
+   "id": "e88",
    "nodes": [
     "keyword:apply extended thermodynamics",
     "keyword:brads stated inspiration",
     "keyword:rational extended thermodynamics",
     "keyword:whole research question",
+    "project:ret-tssi",
     "section:[1. project origin (attribution)]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
    "section": "1. Project origin (attribution)",
-   "arity": 5
+   "arity": 6
   },
   {
-   "id": "e88",
+   "id": "e89",
    "nodes": [
     "artifact:track a",
     "artifact:track b",
@@ -6588,107 +9956,129 @@
     "artifact:track f",
     "keyword:scale research program document first",
     "notation:cattaneo",
+    "project:ret-tssi",
     "section:[2. program framing decisions (confirmed with brad, in order)]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
    "section": "2. Program framing decisions (confirmed with Brad, in order)",
-   "arity": 7
-  },
-  {
-   "id": "e89",
-   "nodes": [
-    "keyword:field",
-    "section:[3. masters thesis expos\u00e9 - format benchmarks (from web research; needed for phase 2)]"
-   ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
-   "section": "3. Master's thesis expos\u00e9 \u2014 format benchmarks (from web research; needed for phase 2)",
-   "arity": 2
+   "arity": 8
   },
   {
    "id": "e90",
    "nodes": [
-    "artifact:track b",
-    "section:[4. open next steps (from brads list; status)]"
+    "keyword:field",
+    "project:ret-tssi",
+    "section:[3. masters thesis expos\u00e9 - format benchmarks (from web research; needed for phase 2)]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
-   "section": "4. Open next steps (from Brad's list; status)",
-   "arity": 2
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "3. Master's thesis expos\u00e9 \u2014 format benchmarks (from web research; needed for phase 2)",
+   "arity": 3
   },
   {
    "id": "e91",
    "nodes": [
-    "artifact:t3",
-    "keyword:scope note",
-    "notation:tau_j",
-    "section:[5. status: the consolidated amendments to research-program.md]"
+    "artifact:track b",
+    "project:ret-tssi",
+    "section:[4. open next steps (from brads list; status)]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
-   "section": "5. Status: the consolidated amendments to research-program.md",
-   "arity": 4
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "4. Open next steps (from Brad's list; status)",
+   "arity": 3
   },
   {
    "id": "e92",
    "nodes": [
-    "artifact:track a",
-    "section:[6. open decisions awaiting brad]"
+    "artifact:t3",
+    "keyword:scope note",
+    "notation:tau_j",
+    "project:ret-tssi",
+    "section:[5. status: the consolidated amendments to research-program.md]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
-   "section": "6. Open decisions awaiting Brad",
-   "arity": 2
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "5. Status: the consolidated amendments to research-program.md",
+   "arity": 5
   },
   {
    "id": "e93",
    "nodes": [
-    "notation:cattaneo",
-    "notation:simultaneism",
-    "notation:sk condition",
-    "section:[6.5 pending commitments (conversation-only, not in any document)]"
+    "artifact:track a",
+    "project:ret-tssi",
+    "section:[6. open decisions awaiting brad]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
-   "section": "6.5 Pending commitments (conversation-only, not in any document)",
-   "arity": 4
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "6. Open decisions awaiting Brad",
+   "arity": 3
   },
   {
    "id": "e94",
    "nodes": [
-    "citation:gupta-lermusiaux2021 (2021)",
-    "keyword:doi",
-    "section:[8. verification ledger (what was checked, so it isnt re-checked)]"
+    "notation:cattaneo",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "project:ret-tssi",
+    "section:[6.5 pending commitments (conversation-only, not in any document)]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
-   "section": "8. Verification ledger (what was checked, so it isn't re-checked)",
-   "arity": 3
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "6.5 Pending commitments (conversation-only, not in any document)",
+   "arity": 5
   },
   {
    "id": "e95",
+   "nodes": [
+    "project:ret-tssi",
+    "section:[7. working conventions (per agents.md + session)]"
+   ],
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "7. Working conventions (per AGENTS.md + session)",
+   "arity": 2
+  },
+  {
+   "id": "e96",
+   "nodes": [
+    "author:arjit",
+    "author:j",
+    "citation:gupta-lermusiaux2021 (2021)",
+    "keyword:doi",
+    "project:ret-tssi",
+    "section:[8. verification ledger (what was checked, so it isnt re-checked)]"
+   ],
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
+   "section": "8. Verification ledger (what was checked, so it isn't re-checked)",
+   "arity": 6
+  },
+  {
+   "id": "e97",
    "nodes": [
     "artifact:t3",
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[9. key intellectual landmarks (theses that must survive)]"
    ],
-   "doc": "to_human/2026-08-16-context-preservation.md",
+   "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
    "section": "9. Key intellectual landmarks (theses that must survive)",
-   "arity": 6
+   "arity": 7
   },
   {
-   "id": "e96",
+   "id": "e98",
    "nodes": [
     "keyword:jaynes maximum-entropy program",
     "keyword:program",
     "keyword:research program",
     "keyword:value theory",
+    "project:ret-tssi",
     "section:[finite-speed value: a walkthrough]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "Finite-Speed Value: A Walkthrough",
-   "arity": 5
+   "arity": 6
   },
   {
-   "id": "e97",
+   "id": "e99",
    "nodes": [
+    "author:carlo",
     "citation:cattaneo1948 (1948)",
     "keyword:market prices converge",
     "keyword:prices",
@@ -6697,14 +10087,15 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[1. the whole program in five minutes]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "1. The whole program in five minutes",
-   "arity": 9
+   "arity": 11
   },
   {
-   "id": "e98",
+   "id": "e100",
    "nodes": [
     "keyword:heat conduction says",
     "keyword:heat flowing",
@@ -6712,130 +10103,141 @@
     "keyword:heat paradox",
     "keyword:parabolic heat equation",
     "notation:fourier",
+    "project:ret-tssi",
     "section:[2.1 the heat paradox (physics)]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "2.1 The heat paradox (physics)",
-   "arity": 7
+   "arity": 8
   },
   {
-   "id": "e99",
+   "id": "e101",
    "nodes": [
     "keyword:knew prices visibly deviate",
     "keyword:prices",
     "keyword:prices form",
     "keyword:prices proportional",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[2.2 the transformation problem (economics)]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "2.2 The transformation problem (economics)",
-   "arity": 6
+   "arity": 7
   },
   {
-   "id": "e100",
+   "id": "e102",
    "nodes": [
     "keyword:closure",
     "keyword:dynamical timescale vanishes",
+    "project:ret-tssi",
     "section:[2.3 what the two paradoxes share]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "2.3 What the two paradoxes share",
-   "arity": 3
+   "arity": 4
   },
   {
-   "id": "e101",
+   "id": "e103",
    "nodes": [
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[3. the core move: a formal correspondence]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "3. The core move: a formal correspondence",
-   "arity": 6
+   "arity": 7
   },
   {
-   "id": "e102",
+   "id": "e104",
    "nodes": [
     "keyword:background makes",
     "keyword:deepest structural fact",
     "keyword:selection problem",
     "keyword:selection problems",
     "keyword:single discipline",
+    "project:ret-tssi",
     "section:[4. the statistical compass: jaynes as the guide]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "4. The statistical compass: Jaynes as the guide",
-   "arity": 6
+   "arity": 7
   },
   {
-   "id": "e103",
+   "id": "e105",
    "nodes": [
     "keyword:distributions consistent",
     "keyword:statistical inference",
+    "project:ret-tssi",
     "section:[4.1 jaynes maxent in one paragraph]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "4.1 Jaynes' MaxEnt in one paragraph",
-   "arity": 3
+   "arity": 4
   },
   {
-   "id": "e104",
+   "id": "e106",
    "nodes": [
     "notation:cattaneo",
     "notation:fourier",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[4.2 four statistical mirrors]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "4.2 Four statistical mirrors",
-   "arity": 6
+   "arity": 7
   },
   {
-   "id": "e105",
+   "id": "e107",
    "nodes": [
     "keyword:profit rates",
+    "project:ret-tssi",
     "section:[4.3 statistical equilibrium is already jaynesian]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "4.3 Statistical equilibrium is already Jaynesian",
-   "arity": 2
+   "arity": 3
   },
   {
-   "id": "e106",
+   "id": "e108",
    "nodes": [
     "keyword:closure-selection structure",
     "keyword:economic agents maximize entropy",
     "keyword:economic behavior",
     "keyword:limit structure",
+    "project:ret-tssi",
     "section:[4.4 what the compass does and does not claim]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "4.4 What the compass does and does not claim",
-   "arity": 5
+   "arity": 6
   },
   {
-   "id": "e107",
+   "id": "e109",
    "nodes": [
     "artifact:track a",
     "artifact:track b",
+    "author:m",
     "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[5. the physics explainer]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "5. The physics explainer",
-   "arity": 7
+   "arity": 9
   },
   {
-   "id": "e108",
+   "id": "e110",
    "nodes": [
     "artifact:t1",
     "artifact:t2",
@@ -6848,16 +10250,22 @@
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
+    "project:ret-tssi",
     "section:[6. the mathematics explainer]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "6. The mathematics explainer",
-   "arity": 12
+   "arity": 13
   },
   {
-   "id": "e109",
+   "id": "e111",
    "nodes": [
     "artifact:track d",
+    "author:f",
+    "author:j",
+    "author:m",
+    "author:p",
+    "author:paul",
     "citation:cottrell-etal2009 (2009)",
     "keyword:prices form one system",
     "keyword:prices visibly differ",
@@ -6865,14 +10273,15 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[7. the economics explainer]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "7. The economics explainer",
-   "arity": 9
+   "arity": 15
   },
   {
-   "id": "e110",
+   "id": "e112",
    "nodes": [
     "artifact:t2",
     "artifact:t3",
@@ -6882,27 +10291,29 @@
     "notation:simultaneism",
     "notation:subcharacteristic",
     "notation:tau_j",
+    "project:ret-tssi",
     "section:[8. the computer science explainer]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "8. The computer science explainer",
-   "arity": 9
+   "arity": 10
   },
   {
-   "id": "e111",
+   "id": "e113",
    "nodes": [
     "artifact:t1",
     "artifact:t2",
     "artifact:t3",
     "artifact:t4",
+    "project:ret-tssi",
     "section:[9. assembling the tracks]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "9. Assembling the tracks",
-   "arity": 5
+   "arity": 6
   },
   {
-   "id": "e112",
+   "id": "e114",
    "nodes": [
     "artifact:t1",
     "artifact:t2",
@@ -6913,14 +10324,15 @@
     "notation:cattaneo",
     "notation:gravitation",
     "notation:simultaneism",
+    "project:ret-tssi",
     "section:[10. what success looks like]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "10. What success looks like",
-   "arity": 10
+   "arity": 11
   },
   {
-   "id": "e113",
+   "id": "e115",
    "nodes": [
     "artifact:track c",
     "keyword:labor values become prices",
@@ -6932,11 +10344,664 @@
     "notation:simultaneism",
     "notation:sk condition",
     "notation:subcharacteristic",
+    "project:ret-tssi",
     "section:[11. glossary]"
    ],
-   "doc": "to_human/2026-08-16-proposal-walkthrough.md",
+   "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "11. Glossary",
+   "arity": 12
+  },
+  {
+   "id": "e116",
+   "nodes": [
+    "keyword:co-occurrence hypergraph",
+    "keyword:llm involved",
+    "project:poc",
+    "section:[knowledge-repository poc - phase a, step 1]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Knowledge-Repository POC \u2014 Phase A, Step 1",
+   "arity": 4
+  },
+  {
+   "id": "e117",
+   "nodes": [
+    "artifact:t1",
+    "artifact:t4",
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:fourier",
+    "notation:gravitation",
+    "notation:melt",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "notation:tau_j",
+    "project:poc",
+    "section:[method]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Method",
+   "arity": 13
+  },
+  {
+   "id": "e118",
+   "nodes": [
+    "keyword:citation entities",
+    "keyword:human notes",
+    "project:poc",
+    "section:[corpus]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Corpus",
+   "arity": 4
+  },
+  {
+   "id": "e119",
+   "nodes": [
+    "artifact:t1",
+    "artifact:t3",
+    "artifact:t4",
+    "artifact:track a",
+    "artifact:track b",
+    "artifact:track c",
+    "notation:cattaneo",
+    "notation:fourier",
+    "notation:gravitation",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "notation:tau_j",
+    "project:poc",
+    "section:[results]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Results",
+   "arity": 15
+  },
+  {
+   "id": "e120",
+   "nodes": [
+    "project:poc",
+    "section:[artifacts (`graph/`)]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Artifacts (`graph/`)",
+   "arity": 2
+  },
+  {
+   "id": "e121",
+   "nodes": [
+    "project:poc",
+    "section:[rebuild]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Rebuild",
+   "arity": 2
+  },
+  {
+   "id": "e122",
+   "nodes": [
+    "keyword:graph artifact",
+    "keyword:json-lines workers",
+    "keyword:opencode",
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 5
+  },
+  {
+   "id": "e123",
+   "nodes": [
+    "project:poc",
+    "section:[pipelines (`pipelines/`)]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Pipelines (`pipelines/`)",
+   "arity": 2
+  },
+  {
+   "id": "e124",
+   "nodes": [
+    "keyword:call",
+    "keyword:query result",
+    "project:poc",
+    "section:[mcp wiring]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "MCP wiring",
+   "arity": 4
+  },
+  {
+   "id": "e125",
+   "nodes": [
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:sk condition",
+    "project:poc",
+    "section:[verified behavior]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Verified behavior",
+   "arity": 5
+  },
+  {
+   "id": "e126",
+   "nodes": [
+    "keyword:morphism",
+    "project:poc",
+    "section:[step 2 gotchas (learned)]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Step 2 gotchas (learned)",
+   "arity": 3
+  },
+  {
+   "id": "e127",
+   "nodes": [
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 2
+  },
+  {
+   "id": "e128",
+   "nodes": [
+    "artifact:t1",
+    "artifact:t3",
+    "artifact:t4",
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:gravitation",
+    "notation:sk condition",
+    "notation:subcharacteristic",
+    "notation:tau_j",
+    "project:poc",
+    "section:[the demo question]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "The demo question",
    "arity": 11
+  },
+  {
+   "id": "e129",
+   "nodes": [
+    "keyword:exact-field record output",
+    "keyword:ranked output",
+    "project:poc",
+    "section:[step 3 gotcha]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Step 3 gotcha",
+   "arity": 4
+  },
+  {
+   "id": "e130",
+   "nodes": [
+    "keyword:llm",
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 3
+  },
+  {
+   "id": "e131",
+   "nodes": [
+    "keyword:opencode",
+    "keyword:phase",
+    "project:poc",
+    "section:[plumbing - environment setup & smoke test]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Plumbing \u2014 environment setup & smoke test",
+   "arity": 4
+  },
+  {
+   "id": "e132",
+   "nodes": [
+    "keyword:research workflow",
+    "project:poc",
+    "section:[what plumbing provides here]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "What plumbing provides here",
+   "arity": 3
+  },
+  {
+   "id": "e133",
+   "nodes": [
+    "keyword:bundled",
+    "keyword:prebuilt wheels",
+    "project:poc",
+    "section:[installation - the path that works: nix source build]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Installation \u2014 the path that works: Nix source build",
+   "arity": 4
+  },
+  {
+   "id": "e134",
+   "nodes": [
+    "keyword:dune build",
+    "project:poc",
+    "section:[nix available: nix 2.34.7 on this host]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "nix available: nix 2.34.7 on this host",
+   "arity": 3
+  },
+  {
+   "id": "e135",
+   "nodes": [
+    "keyword:bash",
+    "project:poc",
+    "section:[usage]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Usage",
+   "arity": 3
+  },
+  {
+   "id": "e136",
+   "nodes": [
+    "project:poc",
+    "section:[run a pipeline from a json stream on stdin]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Run a pipeline from a JSON stream on stdin",
+   "arity": 2
+  },
+  {
+   "id": "e137",
+   "nodes": [
+    "keyword:nix develop",
+    "project:poc",
+    "section:[type-check at load time]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Type-check at load time",
+   "arity": 3
+  },
+  {
+   "id": "e138",
+   "nodes": [
+    "keyword:nix develop",
+    "project:poc",
+    "section:[render the architecture as a graph (dot)]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "render the architecture as a graph (dot)",
+   "arity": 3
+  },
+  {
+   "id": "e139",
+   "nodes": [
+    "keyword:nix develop",
+    "keyword:stdout",
+    "project:poc",
+    "section:[mcp bridge (exposes pipelines as mcp tools to opencode)]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "MCP bridge (exposes pipelines as MCP tools to opencode)",
+   "arity": 4
+  },
+  {
+   "id": "e140",
+   "nodes": [
+    "project:poc",
+    "section:[smoke-test transcript (all passed)]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Smoke-test transcript (all passed)",
+   "arity": 2
+  },
+  {
+   "id": "e141",
+   "nodes": [
+    "keyword:nix build",
+    "project:poc",
+    "section:[notes / gotchas]"
+   ],
+   "doc": "poc/plumbing-setup.md",
+   "section": "Notes / gotchas",
+   "arity": 3
+  },
+  {
+   "id": "e142",
+   "nodes": [
+    "keyword:multi-party session types built",
+    "keyword:plumbing precedes",
+    "project:top",
+    "section:[an explicit knowledge repository for the opencode research assistant]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "An Explicit Knowledge Repository for the opencode Research Assistant",
+   "arity": 4
+  },
+  {
+   "id": "e143",
+   "nodes": [
+    "keyword:global graph openalex already owns",
+    "project:top",
+    "section:[1. framing: the gap this fills]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "1. Framing: the gap this fills",
+   "arity": 3
+  },
+  {
+   "id": "e144",
+   "nodes": [
+    "keyword:reasoning",
+    "project:top",
+    "section:[why hypergraphs, not a pairwise graph]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "Why hypergraphs, not a pairwise graph",
+   "arity": 3
+  },
+  {
+   "id": "e145",
+   "nodes": [
+    "keyword:first corpus",
+    "keyword:openalex",
+    "project:top",
+    "section:[2. design principles]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "2. Design principles",
+   "arity": 4
+  },
+  {
+   "id": "e146",
+   "nodes": [
+    "project:top",
+    "section:[3. proposed architecture]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "3. Proposed architecture",
+   "arity": 2
+  },
+  {
+   "id": "e147",
+   "nodes": [
+    "keyword:runtime whose host language provides multi-party session types natively",
+    "project:top",
+    "section:[4. component assessment]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "4. Component assessment",
+   "arity": 3
+  },
+  {
+   "id": "e148",
+   "nodes": [
+    "project:top",
+    "section:[5. the knowledge-engineering loop]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "5. The knowledge-engineering loop",
+   "arity": 2
+  },
+  {
+   "id": "e149",
+   "nodes": [
+    "artifact:track f",
+    "notation:sk condition",
+    "project:top",
+    "section:[6. phased plan]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "6. Phased plan",
+   "arity": 4
+  },
+  {
+   "id": "e150",
+   "nodes": [
+    "project:top",
+    "section:[7. risks and open decisions]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "7. Risks and open decisions",
+   "arity": 2
+  },
+  {
+   "id": "e151",
+   "nodes": [
+    "artifact:track b",
+    "project:top",
+    "section:[8. why this fits the research program]"
+   ],
+   "doc": "top/knowledge-repository-proposal.md",
+   "section": "8. Why this fits the research program",
+   "arity": 3
+  },
+  {
+   "id": "e152",
+   "nodes": [
+    "author:anatoli polkovnikov",
+    "author:luca dalessio",
+    "author:marcos rigol",
+    "author:yariv kafri",
+    "keyword:continuously driven systems",
+    "keyword:eigenstate thermalization",
+    "keyword:integrable quantum systems",
+    "keyword:isolated chaotic systems",
+    "keyword:many-body lattice systems",
+    "keyword:quantum chaos",
+    "keyword:quantum chaos allows one",
+    "keyword:quantum quenches",
+    "keyword:taking isolated systems",
+    "keyword:weakly interacting systems",
+    "project:openalex",
+    "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics"
+   ],
+   "doc": "openalex/https_openalex.org_W1919133474",
+   "section": "openalex/https_openalex.org_W1919133474",
+   "arity": 16
+  },
+  {
+   "id": "e153",
+   "nodes": [
+    "author:david jou",
+    "author:g. lebon",
+    "author:jos\u00e9 casas-v\u00e1zquez",
+    "keyword:applications",
+    "keyword:decade much effort",
+    "keyword:extended irreversible thermodynamics",
+    "keyword:extended irreversible thermodynamics revisited",
+    "keyword:extended irreversible thermodynamics stands",
+    "keyword:last decade",
+    "keyword:modern thermodynamics",
+    "keyword:much progress",
+    "keyword:non-equilibrium thermodynamic theories",
+    "project:openalex",
+    "work:extended irreversible thermodynamics revisited (1988-98)"
+   ],
+   "doc": "openalex/https_openalex.org_W1988468031",
+   "section": "openalex/https_openalex.org_W1988468031",
+   "arity": 14
+  },
+  {
+   "id": "e154",
+   "nodes": [
+    "author:i. p. wright",
+    "keyword:capitalism",
+    "keyword:social architecture",
+    "project:openalex",
+    "work:the social architecture of capitalism"
+   ],
+   "doc": "openalex/https_openalex.org_W2017005585",
+   "section": "openalex/https_openalex.org_W2017005585",
+   "arity": 5
+  },
+  {
+   "id": "e155",
+   "nodes": [
+    "author:l. sj\u00f6gren",
+    "author:w. g\u00f6tze",
+    "keyword:appear two fractal time decay processes",
+    "keyword:calorimetric glass transition temperature",
+    "keyword:crossover temperature",
+    "keyword:mesoscopic time region",
+    "keyword:relaxation processes",
+    "keyword:relaxation scale",
+    "keyword:supercooled liquid dynamics",
+    "keyword:supercooled liquids",
+    "keyword:supercooled state",
+    "keyword:two divergent time scales",
+    "keyword:various relaxation processes",
+    "project:openalex",
+    "work:relaxation processes in supercooled liquids"
+   ],
+   "doc": "openalex/https_openalex.org_W2050945279",
+   "section": "openalex/https_openalex.org_W2050945279",
+   "arity": 15
+  },
+  {
+   "id": "e156",
+   "nodes": [
+    "author:m. a. biot",
+    "keyword:acoustic propagation",
+    "keyword:complex physical-chemical system",
+    "keyword:derived",
+    "keyword:dissipation",
+    "keyword:general applicability",
+    "keyword:general principles",
+    "keyword:porous media",
+    "keyword:porous media derived",
+    "keyword:relaxation effects",
+    "keyword:resultant relaxation",
+    "keyword:theory",
+    "keyword:unified treatment",
+    "keyword:writers earlier theory",
+    "project:openalex",
+    "work:mechanics of deformation and acoustic propagation in porous media"
+   ],
+   "doc": "openalex/https_openalex.org_W2076330525",
+   "section": "openalex/https_openalex.org_W2076330525",
+   "arity": 16
+  },
+  {
+   "id": "e157",
+   "nodes": [
+    "author:duncan k. foley",
+    "keyword:agents",
+    "keyword:agents achieving",
+    "keyword:agents defined",
+    "keyword:feasible distribution",
+    "keyword:feasible market transaction",
+    "keyword:finite offer sets",
+    "keyword:many agents",
+    "keyword:offer sets",
+    "keyword:statistical equilibrium theory",
+    "keyword:unique statistical equilibrium exists",
+    "project:openalex",
+    "work:a statistical equilibrium theory of markets"
+   ],
+   "doc": "openalex/https_openalex.org_W2088012579",
+   "section": "openalex/https_openalex.org_W2088012579",
+   "arity": 13
+  },
+  {
+   "id": "e158",
+   "nodes": [
+    "author:udo seifert",
+    "keyword:entropy production",
+    "keyword:entropy production depending",
+    "keyword:molecular motors",
+    "keyword:non-equilibrium conditions",
+    "keyword:non-equilibrium process",
+    "keyword:single colloidal particles",
+    "keyword:thermoelectric devices involving single electron transport",
+    "keyword:well-defined non-equilibrium ensembles",
+    "project:openalex",
+    "work:stochastic thermodynamics, fluctuation theorems and molecular machines"
+   ],
+   "doc": "openalex/https_openalex.org_W2102277728",
+   "section": "openalex/https_openalex.org_W2102277728",
+   "arity": 11
+  },
+  {
+   "id": "e159",
+   "nodes": [
+    "author:masaru sugiyama",
+    "author:takashi arima",
+    "author:tommaso ruggeri",
+    "keyword:gases",
+    "keyword:generalized bgk-type collision term",
+    "keyword:molecular relaxation processes",
+    "keyword:molecular rotational",
+    "keyword:moment system",
+    "keyword:rarefied polyatomic gas",
+    "keyword:rarefied polyatomic gases",
+    "keyword:rational extended thermodynamic theory",
+    "keyword:rational extended thermodynamics",
+    "keyword:seven independent fields",
+    "keyword:system",
+    "keyword:theory",
+    "keyword:ultrasonic wave derived",
+    "keyword:vibrational relaxation processes",
+    "project:openalex",
+    "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes"
+   ],
+   "doc": "openalex/https_openalex.org_W2747676085",
+   "section": "openalex/https_openalex.org_W2747676085",
+   "arity": 19
+  },
+  {
+   "id": "e160",
+   "nodes": [
+    "author:arnau riera",
+    "author:john goold",
+    "author:l\u00eddia del rio",
+    "author:marcus huber",
+    "author:paul skrzypczyk",
+    "keyword:comprehensive review",
+    "keyword:convenient entry point",
+    "keyword:different interdisciplinary approaches emerging",
+    "keyword:quantum information",
+    "keyword:quantum information theory",
+    "keyword:quantum systems",
+    "keyword:review",
+    "keyword:several trending topics including",
+    "keyword:thermodynamics",
+    "keyword:topical review article gives",
+    "project:openalex",
+    "work:the role of quantum information in thermodynamics-a topical review"
+   ],
+   "doc": "openalex/https_openalex.org_W3098165131",
+   "section": "openalex/https_openalex.org_W3098165131",
+   "arity": 17
+  },
+  {
+   "id": "e161",
+   "nodes": [
+    "author:david jou",
+    "author:g. lebon",
+    "author:jos\u00e9 casas-v\u00e1zquez",
+    "keyword:classical constitutive laws",
+    "keyword:extended irreversible thermodynamics",
+    "keyword:fluctuation theory",
+    "keyword:fluxes",
+    "keyword:kinetic theory",
+    "keyword:macroscopic theory",
+    "keyword:several generalisations including higher-order fluxes",
+    "keyword:so-called rational thermodynamics",
+    "keyword:theory",
+    "keyword:thermodynamics",
+    "project:openalex",
+    "work:extended irreversible thermodynamics"
+   ],
+   "doc": "openalex/https_openalex.org_W3212950476",
+   "section": "openalex/https_openalex.org_W3212950476",
+   "arity": 15
   }
  ]
 }
