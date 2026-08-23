@@ -1,0 +1,884 @@
+[SPEAKER_00]: Okay.
+[SPEAKER_01]: So, yeah, so I think that, like, so that in, like, in general, I think the process that we have for dealing with this is that if you, the, like, no physicist would argue that the standard model of particle physics is a statistical model.
+[SPEAKER_01]: But I'm going to say screw that, let's go ahead and think of it as a statistical model anyway.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: Well, how about rather than, let's use the more generic word of learning rather than statistics.
+[SPEAKER_00]: Which is not to say that learning is not physical, it just means it's not necessarily, we have not necessarily described it right with statistics.
+[SPEAKER_01]: Well, I think that I'm somewhat justified in calling it a statistical model just based on how some of the parameters are thought out.
+[SPEAKER_01]: So my understanding is that the standard model has around 12 free parameters.
+[SPEAKER_01]: And right now, at least to the precision that we know all those free parameters, we know the standard model itself maybe has, like, two to, like, 500 bits of information right there.
+[SPEAKER_01]: I'm actually, I think that we actually know the parameters a little bit more precisely than that.
+[SPEAKER_01]: Some of them we only know in, like, two decimal places.
+[SPEAKER_01]: Some of them we know in, like, 500.
+[SPEAKER_01]: But anyway, the idea for that is that's how much information you have about the model.
+[SPEAKER_01]: However, if you're actually wanting to describe... You have so many brilliant ideas, you've got to just learn to express them more.
+[SPEAKER_01]: But yeah, if you are actually wanting to know all of the... Come talk to your machine.
+[SPEAKER_01]: If you're actually wanting to know all of the physics of the standard model, and wanting to fully capture all that, yeah, so if you're going, it's like, hey, well, I would like to implement a standard model simulator.
+[SPEAKER_01]: I'd like to know how to simulate that on a computer and then use those parameters applicable.
+[SPEAKER_01]: You need all of the information contained in every quantum mechanics textbook.
+[SPEAKER_01]: Pretty much.
+[SPEAKER_01]: You need a very advanced understanding of what quantum mechanics are.
+[SPEAKER_01]: You need a very advanced understanding of what non-relativistic quantum mechanics are.
+[SPEAKER_01]: Are you leaving this in now?
+[SPEAKER_01]: No, that goes right in the fridge.
+[SPEAKER_01]: The starting understanding of what non-relativistic quantum mechanics are, at least the first approximation.
+[SPEAKER_01]: You need a good understanding of what relativistic quantum mechanics are in the form of...
+[SPEAKER_01]: In the form of Dirac's quantizations.
+[SPEAKER_01]: And then you also need to go ahead and know all of the quantizations of the Dirac fields subject to the fields, which I understand kind of creates the fields in quantum field theory.
+[SPEAKER_01]: You also need to go ahead and know, oh, well, here are all of these particles.
+[SPEAKER_01]: Here are how all of them behave.
+[SPEAKER_01]: Here are all the general theories for Yang-Mills theories.
+[SPEAKER_01]: you need to essentially know the derivations for, like, how do you essentially go ahead and get the electroweak, you essentially need to know, it's like, oh, well, how do you go ahead and get the strong electromagnetic fields via the, you essentially need to know, essentially, how to derive those, starting with, like, the fact that, well, they're gauge fields, you're trying to preserve these symmetries, and when you try to force these symmetries on the model, you essentially go ahead and get these extra fields that pop into existence, and that's essentially why the strong field has, like, a lot of the weird behavior that it does.
+[SPEAKER_01]: Um, you, uh, you also need to know everything about, like, electroweak symmetry collapse, uh, and essentially how it's like, oh, well, like, the entire, like, the entire universe is essentially a raw universe, the entire raw universe has this, like, superconductor that's kind of sitting all throughout space, which causes the electroweak field to behave differently.
+[SPEAKER_01]: I mean, I'm just bringing all this up to say that, like, there is an insane amount of information, um,
+[SPEAKER_01]: contained in the standard model.
+[SPEAKER_01]: The standard model itself is a statistical model.
+[SPEAKER_01]: It has a lot of information on how it's described.
+[SPEAKER_01]: And that information swamps the data that's available in its free parameters.
+[SPEAKER_01]: If you were trying to describe the standard model and you couldn't describe anything else, even if you compacted it in vectors like an LLM would, you would, in my opinion, struggle to get an understanding of that below a megabyte or even 100 megabytes.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: Not to mention, and this is where sort of the axiomatic approach to physics comes in, right?
+[SPEAKER_00]: Our understandings of concepts like space and time now become very complex, rich things that are very hard for people even to describe.
+[SPEAKER_01]: Oh yeah, well, I mean, the thing is, I don't necessarily think the reals are, maybe I've just gone insane, but I don't really think the, I don't know if the reals are that complicated.
+[SPEAKER_00]: Well, let's go to like basic, you know, topological quantum field theory, right?
+[SPEAKER_00]: Where you have, you have a notion of space, you know, as a cobordism, you know, which is a
+[SPEAKER_01]: Oh, yeah, well, I mean, is it, oh, yeah, well, this is actually, like, the more I do advanced category theory, the more I'm like, well, the reals actually aren't that complicated.
+[SPEAKER_01]: The complexity of the reals in our current mathematical system is a, there is a big part of the reason the reals are complicated is because you're fundamentally trying to model discreteness.
+[SPEAKER_01]: You're fundamentally trying to model continuity in a system that is, in a system of mathematics that is, at its axiomatic level, extremely discreet.
+[SPEAKER_00]: So if you...
+[SPEAKER_00]: I'm getting sidetracked, but what about cohesiveness?
+[SPEAKER_00]: Do you feel like Levera's on the right track there?
+[SPEAKER_00]: I mean, that's a multimodal theory.
+[SPEAKER_01]: Oh, it is a multimodal theory.
+[SPEAKER_01]: But I think that there's kind of an example.
+[SPEAKER_01]: I think the cohesive is actually a very good example.
+[SPEAKER_01]: If you're thinking about, oh, well, what exactly is the definition of the reals in a cohesive topos?
+[SPEAKER_01]: The definition of the reals in a cohesive topos is literally just like a two-line explainer.
+[SPEAKER_01]: Like, I mean, you still have to start with the rationals, but, like, it's the field that contains the rationals that has a specific property.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: It doesn't have anything to do with, like, oh, well, it has to do with, like, the completion of metric spaces or, like, Cauchy sequences or, like, anything else like that.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: I mean, but I all, but even stepping back a bit, I don't even think Cauchy, the rationals, the reals being a Cauchy space completion of the rationals is also, as a concept, not that complicated.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: I mean, or, like, I mean, I don't know.
+[SPEAKER_01]: Like, I would definitely be fine.
+[SPEAKER_01]: I would definitely be in trouble if I was telling that to people in the math lab, but, like, it's not that bad.
+[SPEAKER_00]: And, like, a lot of more advanced math people.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: You fall into your XKCD minerals.
+[SPEAKER_01]: Oh, yeah, no, for sure.
+[SPEAKER_01]: Well, I mean, but the thing is that, like, I don't know.
+[SPEAKER_01]: I feel like if Elena was interested in figuring out what the reals were, I could probably explain it in, like, ten minutes.
+[SPEAKER_00]: Using cohesiveness?
+[SPEAKER_01]: No, using Cauchy sequence.
+[SPEAKER_01]: Yeah, like, Cauchy sequence, like, I mean, I don't know, I think that...
+[SPEAKER_01]: Yeah, anyway, sorry, I'm getting distracted here.
+[SPEAKER_01]: But it's like, yeah, I do feel like a lot of the...
+[SPEAKER_00]: I think the reason it's important because this is what Shulman is going after, right?
+[SPEAKER_00]: He wants to have a proof assistant that could do cohesive homotopy type theory.
+[SPEAKER_01]: Yeah, well, and that's kind of what everyone's after.
+[SPEAKER_01]: And it's very unfortunate that...
+[SPEAKER_01]: I mean, this is maybe like a thing that AIs can help with a little bit, which is that, like, can you essentially maintain a fork of lean that has all of the niceties of the lean language?
+[SPEAKER_01]: Um, but without the fact that it's the fact, I mean, there's also like a secondary issue, which is that, um, yeah, I mean, I'll, I'll give them some credit in the sense that like the, this, the, the, yeah, this is also a big side tangent, but, um, the problem with, um,
+[SPEAKER_01]: Yeah, the problem with lots of these different kinds of languages, specifically the generic...
+[SPEAKER_01]: I'm not even... What?
+[SPEAKER_01]: I'm trying to... Fuck, I'm trying to remember the name for this.
+[SPEAKER_01]: It's the something function type and the something product type.
+[SPEAKER_01]: Yeah, the dependent product and dependent.
+[SPEAKER_01]: Yeah, thank you.
+[SPEAKER_01]: Sorry, I'm really tired this morning.
+[SPEAKER_01]: It's all good.
+[SPEAKER_01]: But the dependent product and the dependent function types are very hard to think about in a mathematical way.
+[SPEAKER_01]: Like, you kind of know what generics are.
+[SPEAKER_01]: You kind of learned what REST.
+[SPEAKER_01]: You kind of know what generics are, right?
+[SPEAKER_01]: Yes.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: So generics are kind of just...
+[SPEAKER_01]: I was doing generics.
+[SPEAKER_01]: I'm just trying to cover my bases.
+[SPEAKER_01]: But generics are one layer of dependent function type that kind of exists in every single language.
+[SPEAKER_01]: The problem with this is that generics, or I should say generics work because they're a very limited kind of dependent function type you can compute at compile time.
+[SPEAKER_01]: And then if you can compute them at compile time, you can kind of go ahead and get your entire program to run effectively.
+[SPEAKER_01]: The bad news with this is that you can have dependent functions of dependent functions of dependent functions.
+[SPEAKER_01]: And that's very bad.
+[SPEAKER_01]: And there's always this thing where it's like, oh, well, you can go ahead and, like, I mean, yeah, like, there's also kind of a secondary issue, which is that you can very quickly encounter objects that you actually can't represent in memory.
+[SPEAKER_01]: Like, the... What, are you okay?
+[SPEAKER_00]: Yeah, the cancer scares you.
+[SPEAKER_00]: No worries.
+[SPEAKER_00]: I mean, yeah, if you want to go to the doctor, you can definitely go to the doctor.
+[SPEAKER_01]: But anyway, the...
+[SPEAKER_00]: It feels like some sort of blood vessel thing.
+[SPEAKER_00]: All right, keep talking.
+[SPEAKER_00]: But yeah, so...
+[SPEAKER_01]: I'm happy to start.
+[SPEAKER_01]: Okay, that's good.
+[SPEAKER_00]: Famous last words.
+[SPEAKER_01]: Yeah, famous last words.
+[SPEAKER_01]: Well, I mean, it'll be obvious if you are in a couple of minutes.
+[SPEAKER_01]: Or it could be one of the minor, but I don't know.
+[SPEAKER_01]: I don't think they need the minor ones.
+[SPEAKER_01]: Okay, never mind.
+[SPEAKER_01]: But yeah, you don't necessarily know that you're having one of the minor ones is the big problem.
+[SPEAKER_00]: But, you know, dependent functions and dependent products are, you know, already kind of, you know, best described as vibrations, right?
+[SPEAKER_00]: So now we're in fiber bundles, which is... Oh, for sure.
+[SPEAKER_00]: Which is like...
+[SPEAKER_00]: Way more complex than a vector bundle, which is more complex than a vector.
+[SPEAKER_01]: Well, yeah, but I think that there's also a secondary thing, which is that if you know something is a prop, but then there's also this other thing.
+[SPEAKER_01]: So in general, dependent functions are very hard to implement as computations on an actual machine in any way that's even remotely efficient.
+[SPEAKER_01]: So how do you essentially kind of solve the entire fact that your language is built around this thing that's computationally somewhat intractable?
+[SPEAKER_01]: You use a zero-size type simplification.
+[SPEAKER_01]: So a zero-size type is...
+[SPEAKER_01]: So there is, I don't know, like I'll probably be wrong about this, but like a, a zero size type is a prop.
+[SPEAKER_01]: The thing is like when most people say it's a zero size type and it's a proposition, both of those things kind of contain the same thing because any type that's of type proposition contains no information.
+[SPEAKER_00]: When you say prop, I'm thinking.
+[SPEAKER_00]: categorical contraction of prop, which is kind of a, you know, multiple inputs, multiple outputs.
+[SPEAKER_00]: Yeah, no, yeah.
+[SPEAKER_01]: This is just like, this is, this is a very simple proposition.
+[SPEAKER_01]: It's a, it's the one type.
+[SPEAKER_00]: Okay.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: It's the one type.
+[SPEAKER_01]: It's like, it's the type that's just like barely above a, um, it's the one type.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: It's the one type.
+[SPEAKER_01]: It's the type that's like barely above a, um, barely above a simple, very like barely above like the contractible type.
+[SPEAKER_01]: Um, that, that type contains no data.
+[SPEAKER_01]: because any instance of the data is identical to any other instance of the data in a fully contractible manner.
+[SPEAKER_01]: And the advantage about this is that because you can essentially kind of use it as like, oh, well, this type contains no data.
+[SPEAKER_01]: And any computation I do with it is going to be manipulations on node data.
+[SPEAKER_01]: So I essentially, whenever I'm doing any operation with the data, I just do nothing.
+[SPEAKER_01]: You replace every single operation on a zero-size type with... You replace every single operation with a zero-size type with node data, with just a no-op in your program.
+[SPEAKER_01]: So that means that your whole entire program can run very fast.
+[SPEAKER_01]: There's a secondary point to this, which is that...
+[SPEAKER_01]: Yeah, but then there's a secondary point to this, which is that functions to, which is that pretty much every single theorem in the main math lib library is a prop.
+[SPEAKER_01]: But you can also reason about this, because any dependent function to a type, to a prop, is a prop.
+[SPEAKER_01]: Any anding of two props is a prop.
+[SPEAKER_01]: And importantly, any oring of two props is a prop.
+[SPEAKER_01]: Uh, and then that's kind of a big one because like, if you are like, if you're at, if the, the assumption that, um, in the oring of any two props is also a prop is kind of a load bearing assumption in math lab.
+[SPEAKER_01]: And it's what allows pretty much every single thing in math lab to be a ZST or zero size type or a proposition.
+[SPEAKER_01]: or like a traditional proposition.
+[SPEAKER_01]: However, if you're dealing with something like Haas, or if you're dealing in a language like a lot of these simplicial type theories, or something that don't necessarily take the law of the suited middle to be valid,
+[SPEAKER_01]: Your propositions, your thing that like, well, every single big important thing in mathematics, every single theory we'd want to prove in mathematics is a prop or is zero-sized, becomes very not true very quickly.
+[SPEAKER_01]: And the problem is that if you're trying to actually compute with things like that, you actually need to keep track of all of that structure, which, at least in my understanding, makes a lot of these computational things very hard to deal with.
+[SPEAKER_01]: And it also kind of breaks a lot of the ergonomic handling in Lean.
+[SPEAKER_01]: But there is also the potential that, oh, well, if Lean gets advanced enough, you could go ahead and maintain a fork of it that had these issues.
+[SPEAKER_01]: Like a fork of it that didn't necessarily have these issues.
+[SPEAKER_01]: I still think that there's...
+[SPEAKER_00]: I think that OxCamel really moves very close to a language with full algebraic co-effects and full algebraic effects.
+[SPEAKER_00]: Because OCaml already has algebraic...
+[SPEAKER_00]: effects and the mode system in OxCaml is really close to a graded co-algebraic approach to co-effects, right?
+[SPEAKER_00]: And effects and co-effects have the advantage of being much closer to a machine sort of understanding of how things work, right?
+[SPEAKER_00]: You know, I execute a program.
+[SPEAKER_00]: Well, when do I execute that program?
+[SPEAKER_00]: Well, I check my input conditions and see if those are satisfied.
+[SPEAKER_00]: And then I run something and then I, you know, execute something, make an effect on the environment.
+[SPEAKER_00]: So it's almost like an imperative sort of, it's a way to model kind of imperative programming.
+[SPEAKER_00]: So Horologic comes in from imperative programming.
+[SPEAKER_00]: So if you have a language that's underneath that's kind of quasi-imperative, even though it's still functional, to me it seems like a way better target for compilation.
+[SPEAKER_00]: So languages like Coke or F-Star that compile down to OCaml
+[SPEAKER_00]: are potentially something that you don't have to, you still can do proofs around O'Campbell, but O'Campbell's a non-trivial.
+[SPEAKER_01]: target yeah rather than things like prop which are really it's a very simple language well you're trying to simulate well is it well but the thing is is that like if you're actually trying to like model the dependent types um the the thing is is that like like i mean yeah like and lean also compiles down to like lean doesn't actually do the work um of actually doing its stuff it actually just compiles down to haskell
+[SPEAKER_01]: is kind of like an example right there.
+[SPEAKER_01]: But the thing is that it's very hard to represent what is mathematically.
+[SPEAKER_01]: There's kind of two things you can do.
+[SPEAKER_01]: You can say, oh, well, it's a prop, so it contains no information anyway, so we don't need to compute it.
+[SPEAKER_01]: But then there's also other things.
+[SPEAKER_01]: I don't necessarily know the internal complexities of lean, but my understanding is that if you're trying to represent something like, oh, well, the functor between...
+[SPEAKER_01]: If you're trying to represent a functor between groups and a functor from groups to sets...
+[SPEAKER_01]: It just kind of gives up and says, well, I'm going to write down what you describe that as in memory, and I'm going to treat it as an any object.
+[SPEAKER_01]: I'm going to treat this like this big giant JSON object in memory that I can arbitrarily add fields to and do compute operations on, but the thing that you're describing contains an infinite amount of information.
+[SPEAKER_01]: Fuck you.
+[SPEAKER_01]: I'm not representing that in memory normally.
+[SPEAKER_01]: Um, and, but then you're essentially just kind of like left with a thing where like, well, those objects themselves are like not computable, like.
+[SPEAKER_01]: You can't really do computational operations on things that big.
+[SPEAKER_01]: And this is always a thing where it's like, well, I'm in a weird situation with this because it really does just feel like dependent functions and dependent products are the ultimate generality.
+[SPEAKER_01]: You have described ultimately what you would want a fully generic feature in a programming language to look like, which is you can just tower up generics infinitely.
+[SPEAKER_01]: And I don't think anyone's figured out a way to do that.
+[SPEAKER_01]: It's like, oh, well, you can actually tower up generics in a way that will actually, like, make your computer actually as performant at runtime.
+[SPEAKER_01]: Which I also think is the reason that, like, a lot of the, like, trying to put dependent type theory in Rust has failed.
+[SPEAKER_01]: Because, like, well, if you're... You can't... Like, the way that Lean handles all of its stuff is that it has all these very big types at runtime that are so big they're kind of like Python types.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: But you essentially need to have a very, very, very smart compiler that can take all of this math and actually bust it down to simple primitives at runtime.
+[SPEAKER_01]: So maybe we'll get there, maybe we won't.
+[SPEAKER_01]: That's definitely like...
+[SPEAKER_01]: I mean, depending on if you actually get a runaway superintelligence, and it doesn't kill us all, that's one of the things I'd be interested in seeing it make.
+[SPEAKER_00]: But in the near term, I think you're...
+[SPEAKER_00]: is an island project wants to compile down to an agent-based simulation, right?
+[SPEAKER_00]: In the near term, I think you could say that's kind of the target, right?
+[SPEAKER_00]: You want to be able to describe an island.
+[SPEAKER_00]: And that island is described in a, that compiles to something that looks at least as sophisticated
+[SPEAKER_00]: at least that much detail.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: So how do you start moving from compilation targets that are relatively, you know, to where you're, you can have a high level description that you can give to a LLM that can compile out to a multi-agent.
+[SPEAKER_01]: We have a big chicken fight going on.
+[SPEAKER_00]: Uh-oh.
+[SPEAKER_00]: Every time there's that feeling of scarcity.
+[SPEAKER_01]: Hey, you guys immediately notice that by the moment I come over.
+[SPEAKER_01]: Things go badly.
+[SPEAKER_01]: Okay.
+[SPEAKER_01]: But, right, yeah, this is what we were talking about.
+[SPEAKER_01]: So, standard model particle physics, like maybe, like, yeah, like four to five hundred, like, yeah, like two to five hundred bits in the parameters.
+[SPEAKER_01]: And then maybe like hundreds of megabytes in the description of the model itself.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: But it's, I would also argue that, like, it is still a statistical model.
+[SPEAKER_01]: mostly because the like I think I remember reading somewhere that like if you just take the raw inputs and the raw sensor data coming out of the LHC that is roughly around 200 terabytes per second like the raw data on all of the sensors is around 200 terabytes per second and that is and the thing is is that
+[SPEAKER_01]: um, gets, all of that data gets filtered and is consistent with, like, certain interpretations, certain versions of the theory.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: Like, the, and all of that's actually pretty much just narrowed down, like, a few of those parameters.
+[SPEAKER_01]: So, like, the reason that I'm arguing that it's a statistical theory is that, like, of the free parameters, is both of the free parameters you are condensing, you are condensing, like,
+[SPEAKER_01]: hundreds or thousands of exabytes of data into seven trailing bits on one of the parameters of the information contained in the theory itself.
+[SPEAKER_01]: And importantly, if you're going to propose an alternative theory, the way that you...
+[SPEAKER_01]: figure out, well, is my alternative theory likely to be more correct than the other theory?
+[SPEAKER_01]: If you do a statistical model based on like, oh, well, what would happen if reality behaved like this one theory?
+[SPEAKER_01]: What would happen if reality behaved like this other theory?
+[SPEAKER_01]: And which of them does a better sigma job at approximating the exabytes of data that come out of the LHC?
+[SPEAKER_00]: Right.
+[SPEAKER_00]: But that's kind of what, because you're basically, the reason that that's working is you're doing a selection.
+[SPEAKER_00]: you're looking for the extra special events that you were trying to create with your.
+[SPEAKER_01]: Oh yeah, like very.
+[SPEAKER_00]: Right?
+[SPEAKER_00]: So you're looking, oh, I'm sorry.
+[SPEAKER_01]: No, you're good.
+[SPEAKER_00]: You're looking for a needle in the haystack.
+[SPEAKER_00]: So you start by throwing away the haystack.
+[SPEAKER_01]: Oh, for sure.
+[SPEAKER_00]: And that ability to,
+[SPEAKER_01]: Well, I mean well well is it well the way that the filters actually work is the filters are running essentially like my understanding of the way the filters at the LHC work is that um There is this assumption that like well, I mean well first off like yeah like the LHC like the LHC filters are like themselves like So much more of a college-based disco model like if you show that to an economist their brain would literally explode
+[SPEAKER_01]: But if you tried to get all of the information contained in the design of the LHC and the design of its filter system into any one human brain, that human brain would explode.
+[SPEAKER_01]: But that's kind of the level of complexity that you're dealing with here.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Maybe.
+[SPEAKER_00]: I'd have to.
+[SPEAKER_00]: I'll take your word for it.
+[SPEAKER_01]: But yeah.
+[SPEAKER_01]: But in general, a lot of these systems are specifically designed to go ahead and say, well, we have these very low-energy particle physics.
+[SPEAKER_01]: And low-energy particle physics with protons and electrons, when they're colliding at, like,
+[SPEAKER_01]: when they're colliding at energies that are very well defined by previous theories, are essentially kind of like boring information.
+[SPEAKER_01]: We have already figured that this data is already very well understood.
+[SPEAKER_01]: And so what they'll do is they'll essentially say, oh, well, here's a particle of texament.
+[SPEAKER_01]: We're going to run a very small, very quick model to go ahead and see if that's explained by this low energy collision interaction that we're very confident in.
+[SPEAKER_01]: And if it conforms to that parameter, and if it conforms to that low energy particle model, we discard it.
+[SPEAKER_01]: So there's kind of like this thing where it's kind of, if you kind of had to put the flock of the LHC into a very simple frame, it's literally just that you take everything that is like, you take all of the parts of the standard bottle that are very solid.
+[SPEAKER_01]: that we think are very solid.
+[SPEAKER_01]: And then we throw those away and discard them.
+[SPEAKER_01]: That's not enough.
+[SPEAKER_01]: You still have like exabytes of data.
+[SPEAKER_01]: You still have like, at this point in time, maybe instead of hundreds of terabits per second, you have 500 gigabits per second, 500 gigabytes per second, which is still just way too much to actually store.
+[SPEAKER_01]: So then you essentially have like research teams come along.
+[SPEAKER_01]: And then these research teams can come along and say, hey, we have this extension or physical model that we're wanting to test with this theory.
+[SPEAKER_01]: Go ahead and try to take extra care to preserve events that are kind of like this thing we might be interested in.
+[SPEAKER_01]: And this might kind of match things like the Higgs energy being, like the...
+[SPEAKER_01]: Yeah, like this, for example, one of the big things I've been looking at is the fact that the Higgs energy, or yeah, what am I trying to say here?
+[SPEAKER_01]: Yeah, is that the Higgs energy should essentially be a constant and invariant depending on your energy scale.
+[SPEAKER_01]: So there's kind of this thing where like, oh, well, length and time should vary depending on your speed.
+[SPEAKER_01]: And depending on the energy of the interaction, the Higgs energy should vary as well.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: Which essentially means that you're looking for different parameters of H-bar.
+[SPEAKER_01]: Yeah, you're essentially trying to figure out, oh, well, does Planck's constant scale in a relativistic way similar to the fundamental unit of time, kind of?
+[SPEAKER_01]: Or in other ways, is the Planck energy the exact same measured value from any single energetic event?
+[SPEAKER_01]: Which would imply that it actually changes slightly, depending on your perspective, kind of like length and time view.
+[SPEAKER_01]: That's one of the things that they've been looking at a lot for.
+[SPEAKER_01]: There's obviously lots of people looking for evidence of supersymmetry, so the filters are kind of changed to go ahead and look for parts where you're kind of suspecting the model is incomplete.
+[SPEAKER_01]: And then that's the data that gets saved.
+[SPEAKER_01]: Right.
+Thank you.
+[SPEAKER_01]: Sorry.
+[SPEAKER_01]: But yeah, so like, but yeah, so like, I mean, there are like, it's, it's like, it, it's hard to, it's like, it's, it's hard to go ahead and like figure out, it's like, well, what exactly is this?
+[SPEAKER_01]: Sorry.
+[SPEAKER_01]: There's lots of work that goes into figuring that out.
+[SPEAKER_01]: But, but if you're trying to propose counter alternatives, you can essentially go ahead and say, it's like, oh, well, is that like your, your model only matches, your model doesn't match the data to like four sigma accuracy and our model does match data to four, four or five sigma accuracy.
+[SPEAKER_01]: So that means you should trust our new model.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: is kind of like what you're kind of looking at with this.
+[SPEAKER_01]: That's why I would say that physics are fundamentally statistical models.
+[SPEAKER_01]: But kind of compare this to a transformer, or even kind of compare this to AlphaFold.
+[SPEAKER_01]: The architecture behind AlphaFold, including the entire training process, is also probably only like five or six pages.
+[SPEAKER_01]: The math behind training a transformer, and I'll be generous here and also include all of the other like RE...
+[SPEAKER_01]: I'm not even going to go over that.
+[SPEAKER_01]: I'm just going to say, oh, well, it's a base model.
+[SPEAKER_01]: I'm not even going to include all the RLVR or other parameters that are used to get them to actually work.
+[SPEAKER_01]: Themselves are probably not that long.
+[SPEAKER_01]: The original Transformers paper gives you all of the information you need to replicate a very large base model, at least the models up today, plus or minus some minor training improvements.
+[SPEAKER_01]: So the model itself only maybe has a kilobit of data attached to it, or maybe two kilobits of data.
+[SPEAKER_01]: But the model itself has bajillions of parameters.
+[SPEAKER_01]: Like I don't even want to say how big because like some of the baseballs today have like three trillion parameters.
+[SPEAKER_01]: And those are also trained on maybe like a hundred trillion bytes of text.
+[SPEAKER_01]: So, like, you're still having a reduction factor, but there is kind of this, like, really big tradeoff where it's, like, if your statistical model is large enough, your exact architecture of that statistical model doesn't matter.
+[SPEAKER_01]: Whereas if your statistical model, where it's, like, let's go ahead and consider, like, who's this statistical model?
+[SPEAKER_01]: If your statistical model has, um...
+[SPEAKER_01]: has, like, very few free parameters, like, as in physics, the design of that statistical model matters a lot, which is why it's so much hard work to describe what exactly the standard model is and why it takes, like, six years, why it takes, like, four years of undergrad plus six years to develop it.
+[SPEAKER_01]: But on the other hand, like, it doesn't, in, like, compare that, like, it does not take a PhD's worth of work to understand what a transformer is.
+[SPEAKER_00]: I think you're in the more complex something is, the harder the theory gets.
+[SPEAKER_00]: And so you tend to throw out the theory.
+[SPEAKER_00]: There's a very descriptive approach.
+[SPEAKER_00]: This is what biology did for a very long time.
+[SPEAKER_00]: And by studying kind of simple systems of the interface of physics and biology, which is basically the inorganic side of biology,
+[SPEAKER_00]: the molecules themselves, you know, we started to learn about how they were going to start to work.
+[SPEAKER_00]: So there was kind of a whole process of natural experiments.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: At the interface of those two disciplines.
+[SPEAKER_00]: But you still have a large gap between physics and biology.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: But you've developed this incredibly rich boundary of biophysics that's very, very impressive.
+[SPEAKER_00]: But it's not the complete, you know, it still seems like biology and physics kind of stand alone, and you probably have emergent laws that you can't necessarily reduce just down to physics.
+[SPEAKER_01]: Oh, yeah, well, I mean, this is kind of, like, an interesting question where, like, let's assume that you were actually able to train some kind of transformer or a CNN or, like, whatever have you.
+[SPEAKER_00]: But let me, before you go down to the more specific, so backing up to our conversation from yesterday, your idea is that you have, rather than thinking of modeling the economy like a physics model, you think of modeling the economy like modeling a transformer.
+[SPEAKER_00]: Like, if you have enough data, your transformer can learn the rules of the economy without having to know
+[SPEAKER_01]: Well, one of the things that physics has going for it, and this is the reason why I think most people would say, oh, the physics is just a statistical model, and they would balk at that, is because statistics places an extremely high premium on interpretability.
+[SPEAKER_01]: Like, all of the math may not make sense, but there is definitely an argument that, oh, well, at some level, the standard math of particle physics is actually happening in the real world.
+[SPEAKER_00]: We've also had a community of non-physicists called mathematicians who are very worried about the rigor of physical approaches and have spent, like Cauchy spent his entire career, worried about making
+[SPEAKER_00]: mathematical physics more rigorous.
+[SPEAKER_01]: Oh, yeah.
+[SPEAKER_01]: No, for sure.
+[SPEAKER_01]: Well, I mean, and, like, and... That's another sort of boundary problem right there.
+[SPEAKER_01]: Yeah, well, I mean, but the thing is that, like, one, like, physics people very, very highly value the fact that it's, like, oh, well, there is actually, like, a clear physics, there is actually, like, a clear explanation for this.
+[SPEAKER_01]: Like, physics people do...
+[SPEAKER_00]: I also like to make fun of mathematicians for some reason.
+[SPEAKER_01]: But physics people would not think of our model as a statistical reality of how the world works.
+[SPEAKER_01]: Our statistical model of reality is what reality is.
+[SPEAKER_01]: Like this glass being composed of protons and electrons and the wave functions of those
+[SPEAKER_01]: interact to create silicon and oxygen molecules and then they arrange the last to form like a glass like substance right um is not like i would they i would i would be so nihilistic to claim that that's a statistical model of this glass
+[SPEAKER_01]: No, is that like, at some point in time, statistics is not designed to create statistical models.
+[SPEAKER_01]: Physics is designed to create a model of what is.
+[SPEAKER_01]: This is that, and if you go ahead and say that it's like, oh, well, like, they would argue that like, oh, well, is it like, that's not a, that's not just a what, that's not like a statistical model of what the glass is.
+[SPEAKER_01]: It's what the glass is itself.
+[SPEAKER_01]: Our goal is not to find statistical models of reality.
+[SPEAKER_01]: Our goal is to find out what reality is in and of itself.
+[SPEAKER_00]: Right, but I think, but so that, you know, in Rosen's terms, you've got your formal model, which is your model based on symbols.
+[SPEAKER_01]: Mm-hmm.
+[SPEAKER_00]: and your real model, which is your model that's independent of your model, and those interface at empiricism, at measurement.
+[SPEAKER_00]: But the statistical model used to describe that process between interfacing the real world and the symbolic model is also a symbolic model.
+[SPEAKER_00]: So there's that notion of how do you ever get out of the symbolic world and into the real world, and that's why you need a theory of measurement that actually describes how that could actually take place.
+[SPEAKER_00]: And then now you're in, you at least start with Kant and you go from there.
+[SPEAKER_01]: Oh yeah, for sure.
+[SPEAKER_01]: Well, I mean, but I also think that there's like a secondary part to that, which is that I'm like, you could go ahead and say that like, well, like at some level, like we know the electromagnetic field, the electromagnetic laws is designed by like Gauss and is designed by Gauss and other people in the 18th century are wrong.
+[SPEAKER_01]: Like if you go ahead and try to apply the like standard electromagnetic model of particle physics to a glass, it doesn't work.
+[SPEAKER_01]: because the entire structure of this glass is built on the fact that electrons cannot, is built on the fact that electrons and photons have these quantized interactions and that electrons cannot, or fermions therefore, cannot share quantum states is why the glass behaves the way it does.
+[SPEAKER_01]: If you don't have, if you don't model quantum physics correctly, glasses and matter in general just
+[SPEAKER_00]: of, say, the non-equilibrium thermodynamics process, or even maybe you generalize that to just continuum mechanics, is to help describe real-world flows.
+[SPEAKER_00]: That makes sense, right?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: So the whole program of categorical physics, cohesiveness, and things that Laverre started are designed to help understand what it means, what sort of information you're dropping when you start modeling the world as a continuum and modeling fluid flows as a continuum.
+[SPEAKER_00]: Because that's clearly not...
+[SPEAKER_00]: a detailed physical description.
+[SPEAKER_00]: So continuum mechanics starts to look a lot like statistical mechanics, generalized to more things than just independent particles that run around like points.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: But what you're looking for is you're looking for high-level descriptions of that glass, where the properties of that glass that you and I can describe with our primitive sensors to be consistent with the underlying physics.
+[SPEAKER_00]: So that transition from micro scale to observable scale is what thermodynamics is about.
+[SPEAKER_01]: Yeah, for sure.
+[SPEAKER_01]: I'm looking up something so I don't look embarrassed.
+[SPEAKER_01]: Maybe you get better at remembering scientists, Nate.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: No.
+[SPEAKER_01]: Okay.
+[SPEAKER_01]: So it was Lorenz.
+[SPEAKER_01]: Okay.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: So yeah, it's Maxwell.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: So it's Maxwell Gauss and Lorenz who did a lot of the work on magnetism, but like on the initial electromagnetic theory, but like you would, you would say that like the electromagnetic theory is a statistical approximation that's valid at a certain energy level.
+[SPEAKER_01]: And if you're trying to like deal with the electromagnetic energy levels of individual atoms,
+[SPEAKER_01]: The electromagnetic field stops behaving like Maxwell's equations would suggest that it does.
+[SPEAKER_01]: But on the other hand, so Maxwell's equations are not a model of reality.
+[SPEAKER_01]: They have been designated to the bottom tier, which is a statistical model of reality.
+[SPEAKER_01]: A phenomenological model.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: But at the same point in time, I think people would also argue that the validity of electromagnetism
+[SPEAKER_01]: is so much more valid than a transformer that would predict the same.
+[SPEAKER_00]: Right.
+[SPEAKER_01]: Because it was at least designed with the goal of trying to predict what reality actually does.
+[SPEAKER_01]: And if you actually do the gauge fields derivation, if you actually do the derivation of the, if you go ahead and say, oh, well, the Dirac field has to have local U1 phase symmetry.
+[SPEAKER_01]: And you go ahead and do the math, and you go ahead and follow the math even further.
+[SPEAKER_01]: At a large scale, Dirac's equations actually do just pop out exactly with the fact that it's also quantized.
+[SPEAKER_01]: So at some point in time, it actually is capturing something of a greater theory, but it was also designed to capture that phenomenon.
+[SPEAKER_01]: It was designed to be a best guess at what the underlying fundamental nature of reality is.
+[SPEAKER_01]: Now, there is also an argument that these are kind of equivalent.
+[SPEAKER_01]: This might be an interesting paper.
+[SPEAKER_00]: This is definitely a thing we should have the LLM follow-up on, is if you go ahead and— I'm convinced now that the LLM has to be working on sort of basic transdisciplinary research all the time.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: Because it's just read everything, right?
+[SPEAKER_00]: It can do transdisciplinary research in a way that no human can.
+[SPEAKER_00]: Yeah, well, I mean— It solves the one brain problem.
+[SPEAKER_00]: It's like, how would you possibly get read?
+[SPEAKER_00]: It's clearly beyond the human ability.
+[SPEAKER_01]: Oh, yeah.
+[SPEAKER_00]: Well, this is kind of like— And then it's helping establish connections it already has.
+[SPEAKER_00]: It just doesn't know it has.
+[SPEAKER_01]: Well, and there's also lots of things.
+[SPEAKER_01]: Lots of very successful proofs in the LLM literature are literally just like, oh, it turns out that in order to solve—this is like a two-page proof if you happen to have a
+[SPEAKER_01]: There's this very obvious connection, and it's a two-page proof if you happen to have a PhD-level understanding of algebraic number theory and a PhD-level understanding of just general complex analysis.
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: Oh, yeah.
+[SPEAKER_01]: No, never mind.
+[SPEAKER_01]: There were literally just two different disciplines.
+[SPEAKER_01]: I think it was a classical problem in geometry they needed some analytic number theory for.
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: And most people don't have PhDs in those two disciplines.
+[SPEAKER_01]: But the LLM was able to figure that out.
+[SPEAKER_01]: And then there's also the other thing, which is the LLM just tries harder.
+[SPEAKER_01]: Well, it's so much faster, right?
+[SPEAKER_01]: Well, but it also can just try hard.
+[SPEAKER_01]: It can just try hard.
+[SPEAKER_01]: It can go ahead and manually look for thousands of camera examples, which is how it got the... That's right.
+[SPEAKER_00]: It's like the description of the Terminator in the movie.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: It never gets bored.
+[SPEAKER_00]: It never gets tired.
+[SPEAKER_00]: Exactly, yeah.
+[SPEAKER_01]: It's also very scary when applied to systems that we have not aligned and don't necessarily know how they work or behave either, and that are also load-bearing to lots of economic growth going forward.
+[SPEAKER_01]: Aside from that, where are we going with this?
+[SPEAKER_01]: One of the things I'd like NLM to follow up on is that if you actually go ahead and take a bunch of raw data coming off of the LHC,
+[SPEAKER_01]: Like just you take a snippet of that and then you go ahead and you train a transformer or other CNN model to go ahead and predict what those results are going to be.
+[SPEAKER_01]: And then you go ahead and just like try to strip out the losses.
+[SPEAKER_01]: And then you just go ahead and kind of train that until you get to like a bare minimum level of loss.
+[SPEAKER_01]: Does, and you, then once you have a model that has like a very low level loss and you try to like go ahead and crack it open and interpret the results.
+[SPEAKER_01]: Can you actually go ahead and derive the laws of quantum mechanics?
+[SPEAKER_01]: Can you actually go ahead and derive the gang-mills theory for how protons behave from the learned weights of the model?
+[SPEAKER_01]: Does the model actually just implement the laws properly?
+[SPEAKER_01]: And I know this has been done for multiplication.
+[SPEAKER_01]: This has been done for very simple things like multiplication or addition and other mathematical things.
+[SPEAKER_01]: But I am kind of curious, oh, well, this
+[SPEAKER_01]: can you actually discover new laws of physics of a system that you know nothing about via mechanistic interpretability?
+[SPEAKER_01]: It's beyond that.
+[SPEAKER_00]: I also think... That's a very...
+[SPEAKER_00]: So the SLT guys definitely have articulated that.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: And tried to come up with a new paradigm that they call developmental interpretability, which didn't stop at mechanism, right?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Can you use more biologically inspired models to describe this process of what the machine is doing rather than trying to reduce it to a mechanistic process?
+[SPEAKER_01]: But yeah, it's like, but I think that there's also this understanding, which is that like you, but yeah, so it's like, I think that that's also, that's also true, but an advantage that you, of that pathway, I mean, I don't think the thing that I just described would work because the more I think about it, like a big problem with a lot of these sensors, a lot of these sensors are also very noisy because you're trying to capture individual events at a quantum scale.
+[SPEAKER_01]: And even if you cool them all with liquid nitrogen, you're still going to have some minimum of thermal noise.
+[SPEAKER_01]: And the events are also very high energy.
+[SPEAKER_01]: And you can't model every single particle collision and particle deformation.
+[SPEAKER_01]: And plus, there's also some noise that's introduced with the fact that you're measuring quantum systems in general.
+[SPEAKER_00]: But what they're doing that's so important, though, is they're reducing the problem, which is completely beyond any individual human's understanding, like you said, the statistical model.
+[SPEAKER_00]: that are important for humans to look at.
+[SPEAKER_00]: Right?
+[SPEAKER_00]: So the statistics that are performed by the LHC are basically trying to say
+[SPEAKER_00]: You're like, well, I mean, yeah.
+[SPEAKER_00]: And it has a model of noise that lets it throw away things.
+[SPEAKER_00]: And always the question is, how dangerous is that noise?
+[SPEAKER_01]: Oh, yeah.
+[SPEAKER_01]: Is it?
+[SPEAKER_01]: Oh, yeah, for sure.
+[SPEAKER_01]: Which is also like the reason the filter system at the LHC is very complicated is not because the filter system itself is horrendously complicated, but because on top of that, you have this like chain of design decisions that essentially go ahead and say that's like, oh, well, we are actually going ahead and passing through the uncertainties at every single level when we filter events.
+Right.
+[SPEAKER_01]: Like, and that entire part of, like, how they deal with actually, like, oh, well, you're actually, you're getting these many results, and then the fact that you're throwing away these and selectively amplifying these introduces this much uncertainty, and then you just have, like, blah-de-blah-de-blah.
+[SPEAKER_01]: They're just, like, go ahead and, like, check all of the, check what all of the uncertainties across all the chain are.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: Which is complicated, and I don't understand it, but, like, that's, my understanding is that that's also, like, a very important part of the filter system at the LHC is the design.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: But getting back to metabolism violence, even doing something relatively simple,
+[SPEAKER_00]: like the electricity system, which is always where things should start, because that's the simplest thing.
+[SPEAKER_00]: No biology.
+[SPEAKER_00]: You can have this Gaussian splat description of the electrical system, where all your surfaces are described.
+[SPEAKER_00]: But underneath that, you have this actual model that contains things
+[SPEAKER_00]: and things that you could put into an electrical simulator, right?
+[SPEAKER_00]: And then you run that simulator, and then you visualize that by doing the reverse direction.
+[SPEAKER_00]: Now you go back to Gaussian Splats, which then go to something you can display on the computer screen.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: Yeah, well...
+[SPEAKER_00]: Right, so that round trip becomes really important.
+[SPEAKER_00]: But...
+[SPEAKER_00]: But how do you get into flows, right?
+[SPEAKER_00]: I mean, you can do that topology.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: But how do you start modeling flows that aren't directly observable from your system, right?
+[SPEAKER_00]: Now the flows are kind of an artifact of your discrete model.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Or whatever you call that electrical model, right?
+[SPEAKER_00]: Which can start to be described in greater and greater physical reality, right?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: electrical models are very abstract, but if you start modeling, you know, lines and the tendency of those lines to sag and, you know, how that interacts with the biological system, you know, you can get into arbitrary levels of detail, but you're still looking at kind of a model that doesn't necessarily translate into how you look at that model.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Well, I mean, and this is also like one of, this is like one of the big important reasons in physics is that the models in physics need to be interpretable because at some level, the interpretability is how you judge if they work or not.
+[SPEAKER_00]: You want to make a non-trivial prediction for your model, and then you want to be able to prepare a system in the real world that simulates that.
+[SPEAKER_00]: And then you want to run the simulation, you want to run the physical experiment.
+[SPEAKER_00]: You want those two to agree at some level.
+[SPEAKER_00]: But you're really looking to find places where they don't agree.
+[SPEAKER_00]: The goal is not to find...
+[SPEAKER_00]: tests that agree.
+[SPEAKER_00]: The goal is to find the most rigorous test you can to try to prove that it doesn't agree.
+[SPEAKER_01]: Oh, well, I mean, is it, well, I mean, and I think that this is also the reason why, like, Transformers have worked really well, um, is kind of because psychohistory is not a thing that exists.
+[SPEAKER_01]: Psychohistory is not a thing that you have any reason to expect to exist.
+[SPEAKER_01]: And, like, for context, that's just, like, a thing that can be...
+[SPEAKER_01]: a thing that can accurately model the per can actually model human societies on a long horizon timescale or in the context of this something a mathematical formalism that actually could model the underlying distribution of language that an lm is trying to capture you don't expect the the chances of that the chances of like some scientists in the future figuring out a model for human language
+[SPEAKER_01]: Like, oh well, oh my god, like, after, like, thousands of years, I've actually figured out, like, here is the underlying model that defines the distribution of human language.
+[SPEAKER_01]: Uh-huh.
+[SPEAKER_01]: And it's around, like, uh, and it's a, maybe it's not, like, significantly, significantly more complicated than the, uh, uh, than, uh, than, like, the standard model of quantum field theory.
+[SPEAKER_01]: is, like, impossible.
+[SPEAKER_01]: Like, that's not a thing that you expect to exist.
+[SPEAKER_01]: Like, at some point in time, you would kind of expect any high-level description of the natural variability in human language to kind of be, like, not simple.
+[SPEAKER_01]: It's essentially, it's this, like, the rules themselves that define the simulation might be simple, but there are so many emergent interactions that you kind of just need to just give up and model the whole thing as, like, one big statistical blob.
+[SPEAKER_00]: Well, you've also seen the, if you think about the growth of complexity in language, you know, I mean,
+[SPEAKER_00]: Languages, I think, evolved from relatively primitive symbol systems at the very beginning.
+[SPEAKER_00]: So that growth of it into the complexity of it, there's trillions of agential emergent things where somebody said, here's a new word.
+[SPEAKER_00]: Here's a new word.
+[SPEAKER_00]: And those new words were hopefully attached to concepts that were describing phenomena in the real world.
+[SPEAKER_00]: So you have it, which were then used to create
+[SPEAKER_00]: more complexity in the real world.
+[SPEAKER_00]: So that co-emergence of language and real world complexity on the planet is a huge thing.
+[SPEAKER_00]: So now you've got not just you have to describe the evolution of language, but you have to describe the co-evolutionary
+[SPEAKER_00]: description of the human technological society.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: Which is also very, very, you know, which obeys the laws of physics, right?
+[SPEAKER_00]: But in super non-trivial ways.
+[SPEAKER_00]: Yeah, exactly.
+[SPEAKER_00]: I mean, you know, the physics you would be required to describe the whole transformer architecture at the, you know, at the kind of molecular level or the atomic level is incredibly complex, right?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: I mean, you know, you can argue that probably conventional physics doesn't totally get...
+[SPEAKER_00]: what's going on in the transformer?
+[SPEAKER_01]: Oh, they definitely don't.
+[SPEAKER_01]: Well, machine learning doesn't understand what's going on in the conventional transformer.
+[SPEAKER_01]: Like, if you're actually trying to understand, like, what the weights mean, is, like, is an impossible thing to know, which is also why it's impossible to, which is also why it's, like, it's kind of an impossible thing to control.
+[SPEAKER_01]: This is, this is, the fact that transformers are not interpretable is a thing that makes them extremely dangerous.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: But you would argue that your economic model has to have...
+[SPEAKER_00]: greater commitment to interpretability?
+[SPEAKER_01]: It needs to have a greater commitment to interpretability.
+[SPEAKER_00]: Maybe not a pure physical interpretability.
+[SPEAKER_01]: It needs to not have a pure physics-based interpretability.
+[SPEAKER_01]: I mean, I think that there is a very...
+[SPEAKER_00]: So the bigger question is, what is that model of interpretability?
+[SPEAKER_00]: How much interpretability does economics have to have?
+[SPEAKER_00]: So when you start thinking about how you're going to do economic modeling, what are your standards for ensuring interpretability?
+[SPEAKER_01]: Well, I, first off, I think there, first off, there's a cool project you might want to check out called Wikidata.
+[SPEAKER_00]: Yeah.
+[SPEAKER_01]: Okay.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: So, but yeah, so like, I think that there's, what's that?
+[SPEAKER_01]: Where's it going with this?
+[SPEAKER_00]: Right.
+[SPEAKER_01]: Um,
+[SPEAKER_00]: I think when you're looking at building local digital twins, you're now leveraging things like satellite streams and cell phone capture of surfaces and things, 3D camera captures of surfaces, LIDAR capture.
+[SPEAKER_00]: So you've got this whole from space and then you've got this whole from the ground level, which is a flood of data that's almost impossible to describe.
+[SPEAKER_00]: It's so huge.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_01]: I mean, it's doable, but it's so huge.
+[SPEAKER_01]: It is so huge.
+[SPEAKER_01]: But like, I think that there's like, there is a part of there.
+[SPEAKER_01]: So first of all, like, if you're thinking about like, well, what would actually a system look like?
+[SPEAKER_01]: There's kind of two approaches that you can kind of take from, which is a self-driving car model.
+[SPEAKER_01]: The understanding of the best approach for self-driving cars, the last time I looked at them, like three or four years ago.
+[SPEAKER_01]: And then there's also how Stockfish works.
+[SPEAKER_01]: And I think Stockfish is, like, a very interesting example.
+[SPEAKER_01]: So Stockfish is not a ML system.
+[SPEAKER_01]: I know.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: You have to.
+[SPEAKER_00]: We have to cut this off in the next two minutes.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: I'm going to miss my run, buddy.
+[SPEAKER_01]: You could just miss your... You could... Do you want to run tonight?
+[SPEAKER_00]: No, I want to run now.
+[SPEAKER_01]: Okay.
+[SPEAKER_00]: So anyway.
+[SPEAKER_00]: But yeah, so...
+[SPEAKER_00]: But the thing is...
+[SPEAKER_00]: But yeah.
+[SPEAKER_00]: We need to cut these conversations off earlier so you can put it...
+[SPEAKER_00]: in the LLM and get it working on these things?
+[SPEAKER_01]: Oh, for sure.
+[SPEAKER_01]: Well, I mean, we can cut this off.
+[SPEAKER_01]: But anyway, so there's an approach to how Stockfish does things.
+[SPEAKER_01]: So Stockfish is not actually a machine-based learning system.
+[SPEAKER_01]: For a long time, Stockfish actually didn't include any neural networks in its design until 2021, if I remember correctly.
+[SPEAKER_01]: And the way that it works is it just did very conventional search across the entire space.
+[SPEAKER_01]: But then eventually in 2021, it kind of had this hybrid approach, which I think is very interesting.
+[SPEAKER_01]: It does its alpha-beta pruning search.
+[SPEAKER_01]: And then at the bottom, it used to have a hand-tuned algorithm that would go ahead and estimate exactly what are the values of all the pieces at this base-level board state, and then alpha-beta prune its way back up to the top.
+[SPEAKER_01]: But now it actually, of that final model step, in addition to its hand-rolled parameters that are very fast, it also does a very, very short ML computation.
+[SPEAKER_01]: On top of that, this is designed to like...
+[SPEAKER_01]: And the point of that model, that very small model, is to try to capture some of the positional subtleties at the very base of the tree and then use the raw computation power of Stockfish to go ahead and roll itself all back up.
+[SPEAKER_00]: Right.
+[SPEAKER_01]: So it's kind of a combination of, like, you essentially have some physical, like, Chess has very simple physical laws, like,
+[SPEAKER_01]: You know when you're in checkmate.
+[SPEAKER_01]: You know how all the pieces are supposed to move.
+[SPEAKER_01]: And you can assign...
+[SPEAKER_00]: It's also fundamentally a discrete state space.
+[SPEAKER_01]: Well, yeah.
+[SPEAKER_01]: Well, and fundamentally, if you... You don't have to worry about the process of moving the king too much.
+[SPEAKER_01]: Oh, is it?
+[SPEAKER_01]: Oh, for sure.
+[SPEAKER_01]: And if you min-max on that state, you know the correct move at every single position in chess.
+[SPEAKER_01]: But you can kind of encode, like, oh, well, there are physical invariants the system must obey.
+[SPEAKER_01]: And then you kind of use a physical, you kind of use an approximation to that at the base layer.
+[SPEAKER_01]: And then you actually model a physical system directly at the top.
+[SPEAKER_01]: So you're kind of like using an LLMBO and say that it's like, oh, well, we probably can't predict all of the very simple things.
+[SPEAKER_01]: We probably can't predict all the very simple things.
+[SPEAKER_01]: So, but we know there's broad invariants the entire system must have made.
+[SPEAKER_01]: So we're going to implement that as like, those invariants are going to get implemented in the program.
+[SPEAKER_01]: Uh, and then at the very bottom layers, you're going to have these, uh, machine learning networks that will go ahead and kind of pick up the slack for things that we don't necessarily necessarily have the compute power to like compute power or understanding to go ahead and fully model.
+[SPEAKER_01]: And this also kind of similar to how like self-driving car networks have worked because like the point of self-driving cars is to get them to a crash rate of zero, because that's the only way they're kind of deemed a socially acceptable technology and the amount of training data that you need in order to get cars to never crash.
+[SPEAKER_01]: is like more driving hours than it does in the entire universe if you're doing it a full end-to-end system.
+[SPEAKER_01]: So the way that you do that is you essentially go and say, it's like, oh, well, there actually is a certain mechanistic model of how we expect road users to behave.
+[SPEAKER_01]: There's like a certain mechanism of how we expect road things to behave.
+[SPEAKER_01]: And then you can use a machine learning model at every single step.
+[SPEAKER_01]: But because those machine learning networks are smaller, you can train them to actually much higher levels of accuracy on much smaller data sets.
+[SPEAKER_01]: So the entire chain actually has a higher level of accuracy than if you just did a full end-to-end, like a full CNN end-to-end.
+[SPEAKER_01]: Right, right.
+[SPEAKER_01]: So I think that that's probably the system that you, that's one of the systems you might end up going with.
+[SPEAKER_00]: Oh no, I think self-driving cars are a great model for sort of where you would go with, because I think you are, not just you've got a self-driving car, but the fact that those would be interacting.
+[SPEAKER_00]: with the human desires to get transportation.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: I mean, that larger system is like one of those...
+[SPEAKER_00]: I mean, this is how you provide transportation to every human for as much as they want.
+[SPEAKER_00]: If you want to provide unlimited transportation to every human, you develop a self-driving system, and not just cars, but all the other things.
+[SPEAKER_01]: Well, I mean, I actually am more optimistic about self-driving cars just because the tech lords have...
+[SPEAKER_01]: pissed away all of their credibility and favorability with the masses over the last, like, four years.
+[SPEAKER_01]: And there's also this understanding that, like, increasing understanding that if you actually went ahead and...
+[SPEAKER_01]: replaced every single car trip with a self-driving car trip, the roads themselves would collapse.
+[SPEAKER_01]: Just because cars have a low utilization does not mean that roads do.
+[SPEAKER_01]: Roads at certain times of the day have peak utilization.
+[SPEAKER_01]: And if you add in the fact that you're going back and forth to a bunch of different destinations during that utilization time, the road system itself is going to collapse.
+[SPEAKER_01]: You still need public.
+[SPEAKER_01]: There is no viable alternative to driving.
+[SPEAKER_01]: There is no solution to reducing traffic other than viable alternatives to driving.
+[SPEAKER_01]: And that remains true with cars versus without cars.
+[SPEAKER_01]: Without self-driving cars versus without self-driving cars.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: So cars are used to solve the last mile problem.
+[SPEAKER_00]: And that's their only function.
+[SPEAKER_00]: Yeah, pretty much.
+[SPEAKER_00]: Because, yeah, you can massively parallelize with trains.
+[SPEAKER_00]: Like all your things that you've said around.
+[SPEAKER_00]: Yeah, exactly.
+[SPEAKER_00]: How much...
+[SPEAKER_00]: The road capacity of trains is versus the road capacity of the road, right?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: But roads are really important because those are like the capillaries, right?
+[SPEAKER_00]: Oh, very much.
+[SPEAKER_00]: We have a system where we try to make the capillaries all the way down.
+[SPEAKER_01]: Well, I mean, and I think there is just like most of the rich people's obsession with self-driving cars is definitely born out of a...
+[SPEAKER_01]: desire to not interact with lower classes in society.
+[SPEAKER_00]: This is why we can't have billionaires.
+[SPEAKER_00]: You can't have someone with so much money that they can't write a public transportation.
+[SPEAKER_00]: It should be the ultimate wealth cap for socialists.
+[SPEAKER_01]: Yeah.
+[SPEAKER_00]: Because otherwise they'll drive the system towards private solutions where they don't have their wealth.
+[SPEAKER_01]: Well, yeah.
+[SPEAKER_01]: And this is also why if you're doing a transparency, it needed to be more like New York and less like Singapore.
+[SPEAKER_01]: Seeing how Singapore does things, we have like a mind eye opening.
+[SPEAKER_01]: Okay, what's next?
+[SPEAKER_01]: Sorry.
+[SPEAKER_01]: We need to finish this up.
+[SPEAKER_01]: Is there anything else you want to talk?
+[SPEAKER_01]: Anything else you want to throw to the comics window while we're at it?
+[SPEAKER_01]: Well, I still feel like...
+[SPEAKER_00]: Like, if multi-scale from physics is not the way to do it, now you're looking at kind of transdisciplinarity, right?
+[SPEAKER_00]: You know, you want your models to be accurate to each sort of level of reality without necessarily reducing each one of those levels to physics.
+[SPEAKER_00]: So it's not a reductionistic program.
+[SPEAKER_00]: For sure, yeah.
+[SPEAKER_00]: But then how do you leverage the LLMs to really...
+[SPEAKER_00]: develop that transdisciplinary framework?
+[SPEAKER_00]: Because they can do it.
+[SPEAKER_00]: Oh yeah, I'm convinced right now that they can do it.
+[SPEAKER_00]: But do you build upon existing transdisciplinary approaches like systems theory?
+[SPEAKER_00]: Or do you try to have the alum discover transdisciplinary principles in a pairwise way?
+[SPEAKER_00]: With the goal of eventually creating a simulation model that can serve as a local digital twin.
+[SPEAKER_00]: Or we should say an island digital twin, I think, just to be super concrete.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Yeah, exactly.
+[SPEAKER_00]: So what's the process that we go through to help realize that instinct?
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Oh, for sure.
+[SPEAKER_01]: I think that that's 100.
+[SPEAKER_00]: So anyway, can we boil that down to a place where an LLM at least gets started in terms of looking at developing sub-agents to tackle the individual problems associated with that?
+[SPEAKER_00]: So I think specifying that big problem is like, and I think we, you know, and your idea was let's use an LLM to do that.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Well, and explicitly kind of part of my thought about this is that like what shaped the final arc, like the big point of last, if I had to summarize like last day's conversation into like one big point,
+[SPEAKER_01]: It's that the shape of your model is determined by the shape of your data.
+[SPEAKER_01]: You cannot, whatever, if you're trying to create a model a priority without understanding what data you're throwing into it, is a bad way to design models.
+[SPEAKER_01]: Like, and I don't even, I don't think that's always a bad way to design models.
+[SPEAKER_01]: You kind of can't design a model in any other way than for that model to take the shape of its input data.
+[SPEAKER_01]: Right.
+[SPEAKER_00]: But you can't take the data as a given, right, because what you're going to do
+[SPEAKER_00]: local digital twin is start building, you know, data fit systems that aren't currently there.
+[SPEAKER_00]: Oh, is it?
+[SPEAKER_00]: Oh, yeah.
+[SPEAKER_01]: So, like, so there is kind of, like, a thing where it's, like, oh, well, what data, like, with LLMs, you have the, you have some ability to go on and specify.
+[SPEAKER_01]: It's, like, oh, well, what data can LLMs collect?
+[SPEAKER_01]: What data are they good at collecting?
+[SPEAKER_01]: And what data would actually be good for specifying the behavior of the system?
+[SPEAKER_01]: And then once you have that data, you can go on and say, it's, like, oh, well, how would you actually try to build a model?
+[SPEAKER_01]: would kind of be my approach for this.
+[SPEAKER_00]: Right, right.
+[SPEAKER_00]: I mean, you can look at an electrical system where you currently have kind of, you know, node information that's still kept private by
+[SPEAKER_00]: corporation, but you can imagine opening that up, right?
+[SPEAKER_00]: And you get your local marginal price for each node in the system, right?
+[SPEAKER_00]: I mean, that would be a constraint on modeling your flows in an electrical system.
+[SPEAKER_00]: But the thing that an LM would be doing would be modifying.
+[SPEAKER_00]: It starts to say, well, we need more here, we need more there.
+[SPEAKER_00]: When you start looking at a tough design,
+[SPEAKER_00]: Because really what you're doing with the local digit twin is not trying to model what the world is as is, but you're trying to use it to develop possible futures going forward.
+[SPEAKER_00]: Yeah, exactly.
+[SPEAKER_00]: So much like a capacity, so it's this distinction between a production cost model, which might simulate the system as is, and a capacity expansion model, which is looking at what does the future look like.
+[SPEAKER_00]: And then you round trip that, you know, your capacity expansion goes here and then you say, well, can that production cost model, you know, satisfy that?
+[SPEAKER_00]: Yeah, exactly.
+[SPEAKER_00]: If I build those things, well, does that, is that a physically realizable system?
+[SPEAKER_00]: So you have those two, you're always going to have those two chains.
+[SPEAKER_01]: Yeah, well, is it, well, yeah, well, I mean, and importantly, like one of the big things our model is trying to do is our model is trying to generalize beyond production of electricity.
+[SPEAKER_01]: Oh, for sure.
+[SPEAKER_01]: It's interesting.
+[SPEAKER_01]: The reason electricity is very useful is because there is actually a model.
+[SPEAKER_01]: Electricity is kind of like the single simplest commodity.
+[SPEAKER_01]: Well, I think it's also been done.
+[SPEAKER_00]: The thing about electricity is the only system where this has actually been done.
+[SPEAKER_01]: It's the only system where it's done, but it's also a perfect implementation.
+[SPEAKER_01]: I don't want to say it's a perfect implementation, but it's a
+[SPEAKER_01]: complete and accurate implementation of the simplest possible commodity without any further wrinkles.
+[SPEAKER_01]: If you're trying to model other commodities, other commodities are not instantly transportable, they're not instantly interchangeable, and also have production compli- the production processes are also just way more complicated.
+[SPEAKER_01]: Like, the, like, is it, like, it's, at some point, like, the production cost models are not trying to model the inputs to the production process of electricity.
+[SPEAKER_01]: Which are actual commodities.
+[SPEAKER_01]: It's essentially just like, oh, you throw money at the... Like, production cost models, their only understanding of the model is you throw money into the electrical grid and then out pops this electricity commodity.
+[SPEAKER_00]: Actually, production cost models don't understand anything about the economics.
+[SPEAKER_00]: Interesting.
+[SPEAKER_00]: The capacity expansion model is actually where...
+[SPEAKER_00]: The physical system interacts with the economic world.
+[SPEAKER_00]: But the production cost model just wants to produce electricity.
+[SPEAKER_00]: And it has this scalar quantity known as money, which serves as a constraint.
+[SPEAKER_00]: But it doesn't understand anything about that money.
+[SPEAKER_00]: The money follows certain laws.
+[SPEAKER_00]: you know, it's, you know, decays exponentially and things like that, but it's a pretty simple, it's a pretty simple idea in a production cost model.
+[SPEAKER_00]: Yes.
+[SPEAKER_00]: You know, so, so I don't, I would argue production cost models don't understand anything about economics because it doesn't understand the investment function.
+[SPEAKER_00]: It just understands the operational uses of money, which are always CMC, investment being MCM, you know, in Marxian speak, is kind
+[SPEAKER_00]: That notion of interacting an MCM model, which looks at investment, and a CMC model, which looks at, given investment, how do I allocate commodities, is really
+[SPEAKER_00]: models for either of those is, you know, for anything besides something like electricity.
+[SPEAKER_00]: But even then, I think the MCM models and capacity expansion models are super primitive.
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: I mean, you see this with sort of, you know, like these, you know, these exponential decay, you know.
+[SPEAKER_01]: Yeah.
+[SPEAKER_01]: Well, the exponential decay of money, I think, is like, is kind of, I think we can argue about, like, well, is that a real thing?
+[SPEAKER_01]: Is that not a real thing?
+[SPEAKER_00]: But, like, yeah.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: But capacity expansion models reduce it basically to a...
+[SPEAKER_00]: you know, a single step optimization process.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: Rather than looking at it as at least it's not even a sequential decision process sometimes.
+[SPEAKER_00]: in a capacity expansion model because it's kind of assuming that you know that the money in the future is reducible to money in the present using an invertible function.
+[SPEAKER_01]: Oh yeah, and this is one of the things that if we are going to actually build a model of the system, the way you're going to have to, if I had to guess what's the architecture of the system going to look like, it's going to have to look autoregressive to some degree.
+[SPEAKER_01]: One of the things that's nice about capacity expansion models is that if you go ahead and put in your cost of what you expect the cost to look like in the future, it can actually optimize for future outcomes perfectly.
+[SPEAKER_00]: Right.
+[SPEAKER_01]: But, like, if you're trying to actually model things that are more complicated than that, it's probably going to have to be autoregressive where it's like, oh, well, we guess that this will reduce cost of a specific step T, and then you're essentially just, as you, like, run the economy more and more, you're going to have to, like, transition away from these things.
+[SPEAKER_01]: Like, we are going to have to give up a lot in order to get a system that is more accurate.
+[SPEAKER_01]: Right.
+[SPEAKER_01]: And that also includes scale.
+[SPEAKER_01]: It also includes computational attractability.
+[SPEAKER_01]: But we still want it to be somewhat computational attractability.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: But again, you know, getting back to your work on social cost of carbon, you know, you've got this, you've got these, the physical world, you know, will have impacts on the electrical system and the economic system that are profound.
+[SPEAKER_00]: And the idea that you could kind of model the interaction between our choices now and their consequences as, you know, an exponentially declining Hamiltonian with one free variable is pretty absurd.
+[SPEAKER_00]: Oh, for sure.
+[SPEAKER_00]: So I think that's where you...
+[SPEAKER_00]: If you start doing physically realistic modeling, your choices in the present have consequences that are not well modeled by your understanding of the behavior of money in the future.
+[SPEAKER_00]: It always assumes that the money system sort of continues along unperturbed without profound transitions.
+[SPEAKER_00]: For sure.
+[SPEAKER_00]: So it kind of assumes out crisis.
+[SPEAKER_00]: That your present choices can't lead to a crisis in the monetary system, but transform it.
+[SPEAKER_00]: And that's why modeling money as a non-equilibrium system or even something more sophisticated is, I think, really important.
+[SPEAKER_00]: Because I think that by ruling out crises,
+[SPEAKER_00]: you end up making decisions that are incredibly poor and present.
+[SPEAKER_00]: Oh, absolutely.
+[SPEAKER_01]: Anyway, I don't know how you do that, but it's important.
+[SPEAKER_01]: It's an interesting problem to think about.
+[SPEAKER_01]: For sure.
+[SPEAKER_01]: I'll let you go.
+[SPEAKER_00]: I didn't mean to take the last word.
+[SPEAKER_01]: Oh, no.
+[SPEAKER_01]: You're good.
+[SPEAKER_01]: You're good.
+[SPEAKER_01]: One second.
+[SPEAKER_01]: I'll go ahead and just tap on something extra.
+[SPEAKER_01]: I don't know if you ran out of running time.
+[SPEAKER_01]: Really sorry about that.
+[SPEAKER_01]: But yeah, so as one final bit of context, when we're talking about these kind of...
+[SPEAKER_01]: embedded models for, is it, yeah, like, we're talking about these, like, semantically meaningful, yeah, these semantically meaningful Gaussian splats.
+[SPEAKER_01]: We don't necessarily know what that's going to look like yet.
+[SPEAKER_01]: My kind of, like, person who knows nothing about machine learning type approach would be to go ahead and use one of the joint embedding models from, like, one of the joint embedding models from Yann LeCun's group.
+[SPEAKER_01]: that essentially goes ahead and takes an entire image and then tries to condense that down into a vector and then tries to figure out, oh, well, in the state space, how do these things go ahead and move?
+[SPEAKER_01]: You essentially go ahead and take that joint embedding.
+[SPEAKER_01]: You simultaneously do things.
+[SPEAKER_01]: You have potentially tens of thousands of images in your training set.
+[SPEAKER_01]: You go ahead and then calculate a Gaussian splat based on all 10,000 of those images in a specific scene.
+[SPEAKER_01]: Then you also go ahead and run each one of those images through a joint embedding model and then try to figure out, and then figure out like, well, what is the final end result for all of those images?
+[SPEAKER_01]: Then for each one of the pixel, then you kind of do a backwards process.
+[SPEAKER_01]: You have the outputs of, for each joint embedding architecture, you go ahead and take a look at every single pixel and then figure out, it's like, oh, well, what is that pixel's variation and contribution towards the final image?
+[SPEAKER_01]: And what does that look like?
+[SPEAKER_01]: Then you pass it back into the model and then back out the model the other way.
+[SPEAKER_01]: Then you go ahead and pass that back down.
+[SPEAKER_01]: So for every single pixel in every single image, you have a vector that is essentially in the final direction of the input token.
+[SPEAKER_01]: What is that token's single individual contribution towards those final weights?
+[SPEAKER_01]: Then you go ahead and have the Gaussian splat, which essentially says that, oh, well, this single individual pixel's color is being contributed by these seven or eight Gaussians.
+[SPEAKER_01]: And then you essentially go ahead and say, oh, well, this pixel has a vector, and I'm going to associate that vector to each one of these Gaussian spots in a weighted proportion, depending on how much they influence that pixel.
+[SPEAKER_01]: And then you average that across every single pixel that that Gaussian spot contributes to.
+[SPEAKER_01]: So the end point of this, and...
+[SPEAKER_01]: is that you essentially have a semantic...
+[SPEAKER_01]: The endpoint that you kind of want for this is that for every single Gaussian splat, you kind of have a semantic meaning vector that's associated with it.
+[SPEAKER_01]: And the idea is that if a joint embedding model kind of has the same embedding for multiple objects from different reference frames, you essentially have that, like, oh, well, if you have a...
+[SPEAKER_01]: Like, if you have, like, a thousand Gaussian splats that contribute to, like, what an image of an electric pole is, every single one of those Gaussian splats has a similar, like, meaning vector associated with it.
+[SPEAKER_01]: So that if you do, like, nearest distance neighbors, you can kind of select out both that telephone pole, but also, like, all telephone poles in the network, and all telephone wires, as an example.
+[SPEAKER_01]: And this kind of just gives you a way to, like, segment.
+[SPEAKER_01]: Because, like, my understanding is the big problem with Gaussian spots right now is they look nice.
+[SPEAKER_01]: They have, like, very pretty colors.
+[SPEAKER_01]: They're great for visualization.
+[SPEAKER_01]: But it's very unclear, like, oh, well, what are the semantic... How do you go ahead and figure out that, like, this Gaussian spot's part of a fridge or part of a, like, telephone pole, for example?
+[SPEAKER_01]: And that's kind of, like, a person-knows-nothing approach.
+[SPEAKER_01]: Like, how would you go ahead and do that?
+[SPEAKER_01]: I'm sure there is better and more valid approaches for this.
+[SPEAKER_01]: I am...
+[SPEAKER_01]: But I also have not looked at the literature, so I'm kind of curious what that's there.
+[SPEAKER_01]: And...
+[SPEAKER_01]: The idea for that is that that can kind of serve as, like, one of the foundational pieces of, like, oh, well, we know the model must, we know that the model must, our economic models must obey constraints in the material world.
+[SPEAKER_01]: So if we actually have, like, a relatively good model of the material world, even on, like, a small place like Kauai, for example, like, you could probably go ahead and get, like, decent Gaussian splats for, like, the entire island, assuming you're able to throw enough compute at it.
+[SPEAKER_01]: There's that.
+[SPEAKER_01]: What else is there?
+[SPEAKER_01]: There's also this secondary component, I think, for... You know it must kind of obey the material world.
+[SPEAKER_01]: I don't necessarily know if I said this in other models, so I'm just trying to go ahead and condense all the thoughts I've been having about this for the last month or so.
+[SPEAKER_01]: And part of the idea for trying to actually go ahead and get the data for this is that...
+[SPEAKER_01]: is that traditionally you don't have economic data that's available in regular model.
+[SPEAKER_01]: You don't have economic data that's available regularly.
+[SPEAKER_01]: And yeah, the problem with economic data is that it mostly doesn't exist.
+[SPEAKER_01]: You have individual earning data for specific companies.
+[SPEAKER_01]: You have global data that's aggregated by Fred and other central banks in the US.
+[SPEAKER_01]: You also have, and then you have these microeconomic studies that are done on small regions that can potentially get you more concrete data, but you don't have data across the entire economy at any level of granularity.
+[SPEAKER_01]: And that's a problem.
+[SPEAKER_01]: So how do you go ahead and solve that?
+[SPEAKER_01]: My kind of thought for this is that like you, LLMs contain, it's kind of getting back to what I was saying yesterday.
+[SPEAKER_01]: LLMs contain lots of data about the economy because they contain lots of data about everything.
+[SPEAKER_01]: So the idea for this is that you can actually extract the data that LLMs have about the economy by essentially saying, hey, LLM, go ahead and produce an expert report about this production process and this production process inputs, this production processes outputs.
+[SPEAKER_01]: um what it actually needs to go ahead and do that you can have it throw it into some kind of structured database or graph database of some kind um and then have a semantic text box where you can actually go ahead and try to um convey a very short distillation of what makes that production process unique or like other problems that you might encounter with that process
+[SPEAKER_01]: And using this, one of the things you can actually build up with this is potentially a graph of every single production input and production process in the entire economy at a very inaccurate level, but definitely more accurate than you're able to get previously, because they're grounded both in the truth of the knowledge of the trillion parameter LLMs and the information contained in their weights.
+[SPEAKER_01]: So it's kind of bounded based on a base in reality on that in step one.
+[SPEAKER_01]: But you can also go ahead and use the fact that LMs are somewhat agentic to go ahead and have them cross-reference their checks of human data.
+[SPEAKER_01]: So essentially, you're both cross-referencing with all of the data in the LMs, but you're also cross-referencing with...
+[SPEAKER_01]: all of the publicly available non-structured text about the topic.
+[SPEAKER_01]: So this might be like patents, this might be like internal company emails, this might be like tons of different things on like how the production process works.
+[SPEAKER_01]: It might be news articles.
+[SPEAKER_01]: There's lots of data on how the economy works in an unstructured format.
+[SPEAKER_01]: And you get that both by having LLM write the report and also having the LLM research unstructured text while it's writing the report.
+[SPEAKER_00]: So you kind of turn the unstructured text into structured text.
+[SPEAKER_01]: And so you kind of have that as an approximate, you kind of have like that as a baseline approximation.
+[SPEAKER_01]: So you have like a...
+[SPEAKER_01]: But so first off, like the issue with this is like, how do you actually go ahead and get this into a somewhat structured form?
+[SPEAKER_01]: Like the structured form of material reality, the material reality that we're trying to capture for this is kind of somewhat determined by what the literature does.
+[SPEAKER_01]: So like the literature has very, the literature does not have any ways to model 3D reality in a high level of detail that is not Gaussian splats at the current point in time, just because cameras are so much cheaper than LiDAR.
+[SPEAKER_01]: And it's also somewhat harder to convert LiDAR into a like 3D representation of a space.
+[SPEAKER_01]: And it's also just a lot more limited.
+[SPEAKER_01]: so, uh, splats are kind of where that's at.
+[SPEAKER_01]: You can kind of, you need to figure out a way to embed semantic meeting into splats, but ultimately that is just going to look like a vector.
+[SPEAKER_01]: Like every single spot is going to have some kind of semantic meeting vector associated with it.
+[SPEAKER_01]: That kind of captures like what exactly that Gaussian spot is doing.
+[SPEAKER_01]: And, uh,
+[SPEAKER_01]: Regardless of what architecture you need to achieve that, the final data is going to look like that shape.
+[SPEAKER_01]: One of the things that I am unclear about is if you're trying to actually model this production cost data, what exactly is the final shape of that?
+[SPEAKER_01]: I've written a little bit about that, but that's still a thing that is unclear.
+[SPEAKER_01]: I'm trying to remember if there's anything else I want to add to this context window.
+[SPEAKER_01]: No, I think that's about it.
+[SPEAKER_01]: Okay, see you later.
+[SPEAKER_01]: Bye.

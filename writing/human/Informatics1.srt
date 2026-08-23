@@ -1,0 +1,2732 @@
+1
+00:00:00,976 --> 00:00:14,378
+[SPEAKER_00]: But yeah, so my kind of critique of the value problem or of the transformation problem is that it's a limitation of the kind of data you get for disciplines and the kind of data that...
+
+2
+00:00:14,538 --> 00:00:16,579
+[SPEAKER_00]: It's a limitation on data that you can actually measure.
+
+3
+00:00:18,759 --> 00:00:30,241
+[SPEAKER_00]: So on a broad level in the economy, you have... Like hypothetically, you even have like individual financial... Hypothetically, you even have like individual investor reports.
+
+4
+00:00:32,132 --> 00:00:36,154
+[SPEAKER_00]: do economics professionals ever aggregate together these investor reports into data?
+
+5
+00:00:36,174 --> 00:00:47,078
+[SPEAKER_00]: They pretty much know is that they, my understanding of most economics professionals, and this isn't necessarily a knock on them, is that they will just use the aggregated statistics provided to them by the Fed and other things.
+
+6
+00:00:47,878 --> 00:00:48,038
+[SPEAKER_01]: Yeah.
+
+7
+00:00:48,618 --> 00:00:55,120
+[SPEAKER_01]: Well, I mean, most economics has almost nothing to do with accounting, and they use completely different mathematical approaches.
+
+8
+00:00:55,821 --> 00:00:56,421
+[SPEAKER_01]: Oh, for sure.
+
+9
+00:00:56,541 --> 00:00:59,762
+[SPEAKER_01]: So it's almost like they wouldn't even know what to do with accounting data.
+
+10
+00:01:00,967 --> 00:01:08,829
+[SPEAKER_01]: because it's so far from their usual understanding of what they're doing, which is this kind of weird, you know, econophysics thing.
+
+11
+00:01:09,809 --> 00:01:15,190
+[SPEAKER_00]: Yeah, well, for sure, but there's also kind of a secondary, but yeah.
+
+12
+00:01:15,210 --> 00:01:20,632
+[SPEAKER_01]: I don't know what I'm saving here, because I don't think there's any of those plants alive on this side.
+
+13
+00:01:34,048 --> 00:01:35,890
+[SPEAKER_00]: Yeah, I think they just got smothered by too much bindweed.
+
+14
+00:01:36,111 --> 00:01:37,753
+[SPEAKER_00]: But anyway, so...
+
+15
+00:01:38,414 --> 00:01:42,720
+[SPEAKER_00]: But notice that all of this data is in the form of monetary value and monetary prices.
+
+16
+00:01:44,201 --> 00:01:48,547
+[SPEAKER_00]: Like, GDP is also in the form of prices because it's the amount of good transacted times the...
+
+17
+00:01:52,017 --> 00:01:55,379
+[SPEAKER_00]: Yeah, it's the amount of good you make times the price for each good.
+
+18
+00:01:56,080 --> 00:01:59,542
+[SPEAKER_00]: So, you fundamentally, everything is price valued at some point in time.
+
+19
+00:02:00,503 --> 00:02:02,664
+[SPEAKER_00]: All of the numbers are in dollars and they're price valued.
+
+20
+00:02:02,684 --> 00:02:03,945
+[SPEAKER_00]: They're valued on the price of something.
+
+21
+00:02:04,966 --> 00:02:07,367
+[SPEAKER_00]: Very similar thing for like all of these economic things.
+
+22
+00:02:09,068 --> 00:02:12,131
+[SPEAKER_01]: This is like a total and complete brutal murder of this towel.
+
+23
+00:02:12,331 --> 00:02:12,931
+[SPEAKER_00]: Yes, I know.
+
+24
+00:02:14,352 --> 00:02:15,753
+[SPEAKER_01]: It wasn't like, let me use this towel.
+
+25
+00:02:15,773 --> 00:02:18,415
+[SPEAKER_01]: This is like, I'm going to completely destroy this towel.
+
+26
+00:02:20,190 --> 00:02:22,131
+[SPEAKER_00]: I have used that towel for like almost a year now.
+
+27
+00:02:22,491 --> 00:02:23,092
+[SPEAKER_00]: I don't know.
+
+28
+00:02:23,152 --> 00:02:25,093
+[SPEAKER_00]: It's almost been like six months.
+
+29
+00:02:25,553 --> 00:02:25,853
+[SPEAKER_00]: Yeah.
+
+30
+00:02:26,634 --> 00:02:27,134
+[SPEAKER_00]: I'm sorry.
+
+31
+00:02:28,715 --> 00:02:29,415
+[SPEAKER_01]: It's okay.
+
+32
+00:02:29,455 --> 00:02:31,036
+[SPEAKER_01]: You need to talk through what you want to...
+
+33
+00:02:32,817 --> 00:02:34,517
+[SPEAKER_00]: I also don't even think they're that necessary.
+
+34
+00:02:34,778 --> 00:02:36,338
+[SPEAKER_00]: But anyway, okay.
+
+35
+00:02:36,779 --> 00:02:45,583
+[SPEAKER_00]: So fundamentally, the thing that value proposes is that value is the secondary functor slash function that's scalar valued.
+
+36
+00:02:48,109 --> 00:02:54,754
+[SPEAKER_01]: Yeah, I mean, you can kind of think of it as, you know, the relationship between energy and entropy.
+
+37
+00:02:55,275 --> 00:02:55,735
+[SPEAKER_01]: Yeah.
+
+38
+00:02:55,795 --> 00:03:01,580
+[SPEAKER_01]: You've got two sort of scalar-valued kind of quasi-conserved functions.
+
+39
+00:03:03,161 --> 00:03:03,901
+[SPEAKER_00]: Yeah.
+
+40
+00:03:04,402 --> 00:03:09,786
+[SPEAKER_01]: But, you know, you do have energy conserved, but that means you get changes in entropy.
+
+41
+00:03:10,567 --> 00:03:15,551
+[SPEAKER_00]: Well, fun fact, entropy also isn't scalarly valued, which is weird in and of itself, but...
+
+42
+00:03:16,555 --> 00:03:20,179
+[SPEAKER_01]: Yeah, entropy... Yeah, I mean, there is this hypothetical thing where, like...
+
+43
+00:03:27,710 --> 00:03:28,010
+[SPEAKER_00]: Yeah.
+
+44
+00:03:28,110 --> 00:03:28,651
+[SPEAKER_00]: Yeah, yeah, yeah.
+
+45
+00:03:28,691 --> 00:03:28,871
+[SPEAKER_01]: No.
+
+46
+00:03:28,951 --> 00:03:30,532
+[SPEAKER_01]: No, I'm not saying that there's not other.
+
+47
+00:03:30,992 --> 00:03:36,135
+[SPEAKER_01]: In fact, that proposal says you're going to have to do some non-trivial things with entropy.
+
+48
+00:03:36,155 --> 00:03:38,176
+[SPEAKER_01]: Do you want to extend the project?
+
+49
+00:03:38,836 --> 00:03:46,180
+[SPEAKER_00]: Well, I mean, and I think that the physics is kind of a bad example here with how powerful Lagrangians are.
+
+50
+00:03:48,491 --> 00:04:00,040
+[SPEAKER_00]: Because like in physics you can actually figure out every observable aspect of a system by studying one kind of its, by studying how one scalar variable interacts with the rest of it.
+
+51
+00:04:02,962 --> 00:04:06,465
+[SPEAKER_00]: But ultimately that's also because physics has observables that are not energy.
+
+52
+00:04:06,605 --> 00:04:10,408
+[SPEAKER_00]: But there's a difference here which is that physics has observables that are not energy.
+
+53
+00:04:12,001 --> 00:04:22,471
+[SPEAKER_00]: Like, in physics, you could go ahead and say it's like, oh, well, we're measuring the energy of this electron, not we're just measuring the energy of this entire system.
+
+54
+00:04:23,812 --> 00:04:37,484
+[SPEAKER_00]: It isn't even a good analogy, but in physics, the economic equivalent would essentially be that in physics, there are no measurements of devices aside from an energy-o-meter, which just tells you the energy in like a one by one meter cubed of space.
+
+55
+00:04:39,524 --> 00:05:00,448
+[SPEAKER_00]: Like, I'm pretty sure that even if you, like, that, like, modern physics, you couldn't even do modern physics if you had, if you could only, if the only quantity that you could actually measure was just energy of a specific, was just, like, average, was, yeah, was just, like, the energy contained in a specific volume of space, even if that volume of space was arbitrarily tiny.
+
+56
+00:05:01,588 --> 00:05:03,368
+[SPEAKER_00]: Like, that would not be enough to let you do physics.
+
+57
+00:05:07,169 --> 00:05:07,369
+[SPEAKER_00]: Um...
+
+58
+00:05:08,340 --> 00:05:23,108
+[SPEAKER_00]: But the problem with this is that because that's actually all that you have, you're kind of proposing the existence of an alternative scalar quantity that is not price.
+
+59
+00:05:23,509 --> 00:05:34,195
+[SPEAKER_00]: So going back to economics, the problem with this is that you're proposing an economic measurement that is not price, but also has the same type as price.
+
+60
+00:05:35,785 --> 00:05:38,966
+[SPEAKER_00]: Yeah, in the sense that it's scalar valued and kind of applicable to all objects.
+
+61
+00:05:39,827 --> 00:05:45,790
+[SPEAKER_00]: And they're both kind of intensive variables?
+
+62
+00:05:45,890 --> 00:05:47,971
+[SPEAKER_00]: Yeah, they're both intensive variables, exactly.
+
+63
+00:05:48,311 --> 00:05:50,111
+[SPEAKER_00]: And they also kind of exist on everything.
+
+64
+00:05:50,172 --> 00:05:52,373
+[SPEAKER_00]: Everything has a certain value.
+
+65
+00:05:52,493 --> 00:05:55,834
+[SPEAKER_00]: According to labor theory of value, every single commodity that has a price also has a value.
+
+66
+00:05:56,935 --> 00:05:59,716
+[SPEAKER_00]: Now, the argument is that because you only get prices in...
+
+67
+00:06:02,012 --> 00:06:04,755
+[SPEAKER_00]: Like, because you can only ever take prices in.
+
+68
+00:06:09,403 --> 00:06:20,429
+[SPEAKER_00]: into your theory, anything that is of the same type as a price is just going to look like some kind of thing done to a price.
+
+69
+00:06:20,910 --> 00:06:24,472
+[SPEAKER_00]: So if you go ahead and say that's value, it's like, oh, well, that's just measuring price in a different way.
+
+70
+00:06:24,832 --> 00:06:30,375
+[SPEAKER_00]: Or that's just price multiplied by 2, or that's price after it goes through these seven different functions.
+
+71
+00:06:30,395 --> 00:06:34,978
+[SPEAKER_00]: You're not actually learning anything new by studying value, which is correct, but that's also because you're
+
+72
+00:06:36,151 --> 00:06:42,554
+[SPEAKER_00]: The thing is that at some point in time, Marxist economists just have to give up this point, that you can't actually learn anything by studying what value is.
+
+73
+00:06:44,295 --> 00:06:52,619
+[SPEAKER_00]: Because your only inputs to economic models kind of have to be prices, just because those are the inputs that have been available.
+
+74
+00:06:53,099 --> 00:06:58,822
+[SPEAKER_00]: But this is also kind of... My argument is that this is also just such a huge level of missing the point.
+
+75
+00:07:01,983 --> 00:07:04,545
+[SPEAKER_00]: Because, like, there is...
+
+76
+00:07:05,665 --> 00:07:12,048
+[SPEAKER_00]: There's not a, there's not an understanding, like, marginalists will admit that labor value exists.
+
+77
+00:07:13,069 --> 00:07:16,531
+[SPEAKER_00]: Like, you, like, could you go ahead and, like, measure the value?
+
+78
+00:07:16,831 --> 00:07:28,957
+[SPEAKER_00]: Could you go out, does every single quantity associated with it have some, like, I mean, like, first off, like, these people will admit that, like, oh, yeah, it's like, well, like, the thing is that, like, if you look at it...
+
+79
+00:07:30,566 --> 00:07:35,769
+[SPEAKER_01]: you know, in the TSSI literature, it's called MELT, the monetary expression of labor time.
+
+80
+00:07:35,949 --> 00:07:36,309
+[SPEAKER_01]: Yeah.
+
+81
+00:07:36,409 --> 00:07:36,609
+[SPEAKER_01]: Right?
+
+82
+00:07:36,890 --> 00:07:43,673
+[SPEAKER_01]: Which is, you know, kind of an intensive-extensive relationship, time being extensive.
+
+83
+00:07:44,554 --> 00:07:52,338
+[SPEAKER_01]: You know, so labor time is an extensive variable, and its monetary expression is an intensive variable.
+
+84
+00:07:53,179 --> 00:07:59,302
+[SPEAKER_01]: So you can translate between prices and, you know,
+
+85
+00:07:59,979 --> 00:08:09,726
+[SPEAKER_01]: And this extensive variable of value, which is the amount of labor time you put in through the vehicle of this.
+
+86
+00:08:10,466 --> 00:08:17,451
+[SPEAKER_01]: So you get quantity of labor multiplied by the melt, and then that gives you the quantity of money.
+
+87
+00:08:20,233 --> 00:08:22,694
+[SPEAKER_01]: That makes sense.
+
+88
+00:08:23,395 --> 00:08:27,578
+[SPEAKER_01]: So the value in terms of how much labor goes into something
+
+89
+00:08:28,424 --> 00:08:37,374
+[SPEAKER_01]: you know, is actually, you know, it's related to, like any other, like any two quantities, it's related by a price.
+
+90
+00:08:38,435 --> 00:08:49,047
+[SPEAKER_00]: Yeah, it is related by a price, but then there's also the other thing, which is that if you're just studying the behavior of prices, if you are studying the behavior of prices, why aren't you studying the behavior of prices?
+
+91
+00:08:49,367 --> 00:08:50,208
+[SPEAKER_01]: Well, if you...
+
+92
+00:08:52,625 --> 00:08:52,845
+[SPEAKER_00]: Oh, yeah.
+
+93
+00:08:52,865 --> 00:08:54,026
+[SPEAKER_00]: Well, that's what the marginalist would say.
+
+94
+00:08:54,066 --> 00:08:55,846
+[SPEAKER_00]: If you're studying the behavior... Yeah.
+
+95
+00:08:56,346 --> 00:08:59,127
+[SPEAKER_00]: Well, it's not a fair critique because it's the marginalist critique.
+
+96
+00:08:59,147 --> 00:09:03,169
+[SPEAKER_00]: The marginalist critique is, if you're studying prices indirectly, why not study prices directly?
+
+97
+00:09:03,769 --> 00:09:08,410
+[SPEAKER_01]: I think that the fixation on prices is kind of related to...
+
+98
+00:09:10,111 --> 00:09:13,932
+[SPEAKER_01]: But their models are actually flows of quantity.
+
+99
+00:09:15,273 --> 00:09:16,593
+[SPEAKER_01]: And, you know...
+
+100
+00:09:17,448 --> 00:09:27,035
+[SPEAKER_01]: And I think that what's interesting about the proposal that the banker came up with is it connects very closely to this problem of investment.
+
+101
+00:09:27,176 --> 00:09:33,300
+[SPEAKER_01]: So it's got capital flows as kind of one of the main things that's in its non-equilibrium formulation.
+
+102
+00:09:33,500 --> 00:09:33,781
+[SPEAKER_01]: Yeah.
+
+103
+00:09:33,801 --> 00:09:42,247
+[SPEAKER_01]: Because the whole point of formulating in these things is to actually bring in flows that aren't just completely scalar values of some other gradient.
+
+104
+00:09:46,781 --> 00:09:48,863
+[SPEAKER_01]: So you're already kind of ahead of the game.
+
+105
+00:09:49,403 --> 00:10:03,734
+[SPEAKER_01]: But that notion of flows between sectors, investment flows between sectors, capital flows between sectors, is actually, that's something you're starting with as a state variable, rather than something that's derived from prices.
+
+106
+00:10:04,315 --> 00:10:04,915
+[SPEAKER_01]: OK.
+
+107
+00:10:04,955 --> 00:10:15,063
+[SPEAKER_01]: So it's kind of an interesting, if you follow this non-equilibrium formulation, it's kind of an interesting place to be, because now you're looking at
+
+108
+00:10:17,908 --> 00:10:20,750
+[SPEAKER_01]: How do these capital flows change?
+
+109
+00:10:20,770 --> 00:10:22,712
+[SPEAKER_01]: And you could actually think of it as a state variable.
+
+110
+00:10:23,352 --> 00:10:30,878
+[SPEAKER_01]: You could even think of doing measurements on that, some sort of integrated measure of how much capital is flowing from sector to sector.
+
+111
+00:10:30,918 --> 00:10:34,261
+[SPEAKER_01]: If you had sectors and regions, then it could be a little bit different.
+
+112
+00:10:34,878 --> 00:10:42,064
+[SPEAKER_00]: Well, oh, yeah, but, I mean, I guess kind of my question there is that, like, I mean, first off, like, I think that that is in and of itself, like, a very interesting thing to think about.
+
+113
+00:10:42,565 --> 00:10:47,208
+[SPEAKER_00]: Like, in the sense that, like, well, you kind of know that these sectors exist pro hoc.
+
+114
+00:10:47,709 --> 00:10:54,515
+[SPEAKER_00]: Like, just because, like, I mean, yeah, is that, like, they're... Oh, sorry, I'm coming up with an idea here.
+
+115
+00:10:54,795 --> 00:10:58,358
+[SPEAKER_00]: So, the sector-based analysis is also very interesting.
+
+116
+00:10:59,877 --> 00:11:01,779
+[SPEAKER_00]: Because it also breaks down the data.
+
+117
+00:11:02,240 --> 00:11:08,946
+[SPEAKER_00]: It kind of uses the fact that like, oh, well, when, but like my argument is that like, this is also to some degree proving my point.
+
+118
+00:11:09,086 --> 00:11:11,108
+[SPEAKER_00]: Because like, why can you do that sector-based?
+
+119
+00:11:11,648 --> 00:11:16,713
+[SPEAKER_00]: I think it's worth asking, like, how exactly can you, why can you do the sector-based analysis?
+
+120
+00:11:16,733 --> 00:11:21,697
+[SPEAKER_00]: Why did they choose to represent this as like, oh, well, you have these sectors where the traditional economic rules happen?
+
+121
+00:11:22,158 --> 00:11:25,141
+[SPEAKER_01]: Well, the reason why you've got sectors is because that's always...
+
+122
+00:11:27,043 --> 00:11:30,446
+[SPEAKER_01]: Those could be commodities in sort of classic formulations.
+
+123
+00:11:30,686 --> 00:11:37,553
+[SPEAKER_01]: I think sometimes they formulate them as sectors because people know that these high-level aggregates don't make any sense as individual commodities.
+
+124
+00:11:38,074 --> 00:11:42,338
+[SPEAKER_01]: So now you've got an n-dimensional space where those n dimensions are your sectors.
+
+125
+00:11:42,358 --> 00:11:44,220
+[SPEAKER_00]: I think all of that's correct.
+
+126
+00:11:44,280 --> 00:11:45,081
+[SPEAKER_00]: I think that there's...
+
+127
+00:11:45,441 --> 00:11:48,585
+[SPEAKER_01]: I'm just saying that's how you apply this physics framework to...
+
+128
+00:11:49,900 --> 00:11:53,561
+[SPEAKER_01]: So now instead of physical dimensions, you've got sectoral dimensions.
+
+129
+00:11:53,581 --> 00:11:53,741
+[SPEAKER_01]: Yeah.
+
+130
+00:11:53,761 --> 00:11:55,462
+[SPEAKER_01]: The dimension of your problem is the number of sectors.
+
+131
+00:11:55,482 --> 00:11:56,582
+[SPEAKER_01]: Can you hand me that knife?
+
+132
+00:11:56,662 --> 00:11:57,263
+[SPEAKER_01]: Absolutely.
+
+133
+00:11:57,283 --> 00:11:58,423
+[SPEAKER_01]: I'll put myself in here.
+
+134
+00:11:58,543 --> 00:11:59,463
+[SPEAKER_00]: In an awkward position.
+
+135
+00:12:08,402 --> 00:12:28,705
+[SPEAKER_00]: Yeah, well, my kind of response to that would be a lot more cynical, is that if you look at the data provided by Fred and company, in addition to providing earnings and GDP breakdowns by sector, or in addition to providing them aggregates for the whole entire economy, every single company, when it submits its forms...
+
+136
+00:12:29,305 --> 00:12:32,349
+[SPEAKER_00]: has to submit a couple of forms like, oh yeah, well, what was your total revenue?
+
+137
+00:12:32,369 --> 00:12:33,090
+[SPEAKER_00]: What was your total sales?
+
+138
+00:12:33,110 --> 00:12:34,331
+[SPEAKER_00]: What was your total earnings, et cetera.
+
+139
+00:12:34,651 --> 00:12:37,134
+[SPEAKER_00]: They also have this category that is designed.
+
+140
+00:12:37,394 --> 00:12:47,186
+[SPEAKER_00]: They also have this category that they submit for tax purposes, which is a single digit, which is like a three digit code that corresponds to like, oh, well, what does your company specialize in making?
+
+141
+00:12:48,902 --> 00:13:05,144
+[SPEAKER_00]: And because reporting that honestly gets you tax breaks, companies are incentivized to report them, which also means that people like, or I should say organizations like FRED can go ahead and actually break down and do these kind of like large aggregate statistics based on sectors.
+
+142
+00:13:06,795 --> 00:13:14,442
+[SPEAKER_00]: But my kind of response to this would be like, that is not necessarily a theory of what the data is actually.
+
+143
+00:13:15,042 --> 00:13:21,188
+[SPEAKER_00]: That is kind of the argument for like, oh, well, the transformation problem is underspecified because
+
+144
+00:13:23,529 --> 00:13:33,958
+[SPEAKER_00]: The transformation problem is fundamentally an underspecified thing because if all you're looking at is prices, then any output is going to be mathematical manipulations on prices.
+
+145
+00:13:34,278 --> 00:13:37,020
+[SPEAKER_00]: It is not going to contain new information that was not contained in the prices.
+
+146
+00:13:37,321 --> 00:13:46,288
+[SPEAKER_00]: So if all of your study of the labor theory of value is dictated based on market prices, you are going to not get any information that you could not get by analyzing those market prices directly.
+
+147
+00:13:46,308 --> 00:13:49,411
+[SPEAKER_00]: It's kind of just like a very basic conservation of information problem.
+
+148
+00:13:50,191 --> 00:14:03,142
+[SPEAKER_00]: Um, but, but there is also a secondary part of this, which is why I think that's clever is that you can also go ahead and take those, um, EIN code, those like EIN sector codes, uh, and then use that to actually enrich the data on your theory.
+
+149
+00:14:03,182 --> 00:14:07,665
+[SPEAKER_00]: So you essentially have like a, you have like a finite set combined with this sector analysis stuff.
+
+150
+00:14:07,685 --> 00:14:19,555
+[SPEAKER_00]: And that can also let you do very interesting things would kind of be my response for like, well, why, why is non-equilibrium thermodynamics like the, the economic model that is pursued and there is literature written about it.
+
+151
+00:14:20,325 --> 00:14:32,334
+[SPEAKER_01]: Yeah, well, I mean, one reason to do non-equilibrium thermodynamics is that is, if you want to look at the physics of processes on networks, that's where that's being studied right now.
+
+152
+00:14:33,415 --> 00:14:45,303
+[SPEAKER_01]: So I think that you can take some non-trivial results from physical processes on networks and say, what's the analogy with economic networks?
+
+153
+00:14:45,764 --> 00:14:47,465
+[SPEAKER_01]: But I totally agree with you that I'm not
+
+154
+00:14:48,403 --> 00:15:12,811
+[SPEAKER_01]: i'm not necessarily i think connecting this what i just worked on to the metabolism revival project is kind of the key yeah the key thing and i'm not but i i i this was mostly a test like could this actually come up with anything oh for sure i'm pretty impressed by what the clangor can come up with yeah like for sure it's like there there is i i hope i'm not like sounding panics for nothing like
+
+155
+00:15:13,778 --> 00:15:23,283
+[SPEAKER_01]: But the thing is, if you can actually get it to do important problems in Marxian economics, then it's like, aren't you...
+
+156
+00:15:26,653 --> 00:15:30,916
+[SPEAKER_01]: Aren't you heading towards the ability to actually implement socialism?
+
+157
+00:15:30,936 --> 00:15:34,659
+[SPEAKER_00]: I'm using it for good things, therefore everyone else must be using it for a good thing.
+
+158
+00:15:34,679 --> 00:15:36,140
+[SPEAKER_01]: No, I'm not.
+
+159
+00:15:36,180 --> 00:15:36,721
+[SPEAKER_01]: It's a race.
+
+160
+00:15:37,421 --> 00:15:38,002
+[SPEAKER_00]: Yeah, it is.
+
+161
+00:15:38,022 --> 00:15:39,163
+[SPEAKER_01]: It's class struggle.
+
+162
+00:15:39,363 --> 00:15:42,025
+[SPEAKER_00]: It continues to be class struggle.
+
+163
+00:15:42,045 --> 00:15:48,270
+[SPEAKER_00]: Yeah, it is a race, but my kind of take on this is that if it's a race, we're also definitely losing.
+
+164
+00:15:49,669 --> 00:16:00,918
+[SPEAKER_00]: Um, because like my perspective on this is that like the, the, the only reason that you were able to kind of, I don't want to say this, but like the only reason that you were able to like get those results with an LLM is because I specifically told you, here's an open source provider.
+
+165
+00:16:00,958 --> 00:16:02,019
+[SPEAKER_00]: Here's how you go ahead and do it.
+
+166
+00:16:02,039 --> 00:16:03,400
+[SPEAKER_00]: Here's how you go ahead and do it for cheaply.
+
+167
+00:16:03,700 --> 00:16:05,882
+[SPEAKER_00]: Here's the state of the art model that came out a couple of weeks ago.
+
+168
+00:16:06,362 --> 00:16:09,985
+[SPEAKER_00]: And this is a service that lets you go ahead and get 10 times your input token price.
+
+169
+00:16:10,526 --> 00:16:15,950
+[SPEAKER_00]: Essentially just like six, it multiplies by 60 amount of money you're spending on the a model just because hyperscalers are giving away money.
+
+170
+00:16:16,930 --> 00:16:23,852
+[SPEAKER_00]: Most of the leftists engaged in AI see it as an evil demon technology, because it is like an evil demon technology, and choose to not engage with it.
+
+171
+00:16:24,192 --> 00:16:33,954
+[SPEAKER_00]: This means they do not get the power of said evil demon technology, but it can't also be like, oh, well, because I have harnessed the power of the demons, that means that I will be able to use it effectively against the demon army.
+
+172
+00:16:33,974 --> 00:16:38,374
+[SPEAKER_00]: Like, the demon army is using it more effectively than we are.
+
+173
+00:16:38,454 --> 00:16:38,635
+[SPEAKER_01]: Yeah.
+
+174
+00:16:38,955 --> 00:16:44,156
+[SPEAKER_01]: Well, this is why, you know, a really good book that I have not read.
+
+175
+00:16:44,176 --> 00:16:45,836
+[SPEAKER_01]: How do I know it's a good book that I haven't read as well?
+
+176
+00:16:47,265 --> 00:16:58,513
+[SPEAKER_01]: is called uh his master's tools right which is which is about how socialists can can use finance to you know to work for socialism
+
+177
+00:17:00,930 --> 00:17:01,611
+[SPEAKER_00]: I need to do it.
+
+178
+00:17:01,631 --> 00:17:03,172
+[SPEAKER_00]: Yeah, I need, I need to do it.
+
+179
+00:17:03,913 --> 00:17:08,017
+[SPEAKER_00]: So dad, so, so dad, you might want to come over here and take a look at this.
+
+180
+00:17:08,037 --> 00:17:12,461
+[SPEAKER_00]: You can probably see it better, but like, look, so you can see that I went ahead and just like cleared everything out in the middle.
+
+181
+00:17:12,481 --> 00:17:19,628
+[SPEAKER_00]: And you can also see a bunch of very new verdant green growth across that inner dividing line right there from the, yeah.
+
+182
+00:17:19,788 --> 00:17:22,431
+[SPEAKER_00]: So yeah, if you know, so if you look right here, so yeah.
+
+183
+00:17:22,972 --> 00:17:23,192
+[SPEAKER_00]: Yes.
+
+184
+00:17:23,847 --> 00:17:29,389
+[SPEAKER_00]: But yeah, so if you look right here, you can go ahead and see that, like, all of the old growth in this section is cleared out.
+
+185
+00:17:29,749 --> 00:17:29,949
+[SPEAKER_00]: Yeah.
+
+186
+00:17:30,249 --> 00:17:32,550
+[SPEAKER_00]: But, no, like, in the middle, so on this patio right here.
+
+187
+00:17:32,590 --> 00:17:44,173
+[SPEAKER_00]: So, previously I went ahead and just, like, yoink, I went ahead and macheted everything through here, so there was no growth going between these lines, but you can see now there's a bunch of growth headed in one direction, and it's all the nice green growth.
+
+188
+00:17:44,193 --> 00:17:48,275
+[SPEAKER_01]: Oh, yeah, but the blackberries are just incredibly aggressive.
+
+189
+00:17:48,715 --> 00:17:48,995
+[SPEAKER_00]: Yes.
+
+190
+00:17:50,294 --> 00:17:52,575
+[SPEAKER_00]: Or at least they're incredibly invasive in this watering environment.
+
+191
+00:17:52,935 --> 00:17:54,655
+[SPEAKER_00]: Maybe I should get a cutting of those going inside.
+
+192
+00:17:56,936 --> 00:17:59,917
+[SPEAKER_00]: Although I think I could also literally just put that in a pot and it would go off.
+
+193
+00:17:59,937 --> 00:18:04,578
+[SPEAKER_01]: Any one of these things that starts to root out, you can just pick that up and plant it somewhere else.
+
+194
+00:18:04,738 --> 00:18:05,598
+[SPEAKER_00]: Oh yeah, no, for sure.
+
+195
+00:18:05,618 --> 00:18:07,599
+[SPEAKER_00]: I might not want to do that with the blackberries.
+
+196
+00:18:07,679 --> 00:18:08,219
+[SPEAKER_00]: I mean, I don't know.
+
+197
+00:18:08,259 --> 00:18:10,059
+[SPEAKER_00]: Having blackberries in the back bed might be a good idea.
+
+198
+00:18:10,819 --> 00:18:11,380
+[SPEAKER_00]: I don't actually know.
+
+199
+00:18:11,400 --> 00:18:11,640
+[SPEAKER_00]: Never mind.
+
+200
+00:18:11,660 --> 00:18:12,680
+[SPEAKER_00]: I want to do shit in the back bed.
+
+201
+00:18:24,470 --> 00:18:41,014
+[SPEAKER_01]: But I mean, the basic formulation that production processes take time and that you buy the inputs at one time and you sell the outputs at a later time, you know, and those don't necessarily have the same price because prices change.
+
+202
+00:18:41,094 --> 00:18:41,734
+[SPEAKER_00]: Oh, for sure.
+
+203
+00:18:41,754 --> 00:18:42,295
+[SPEAKER_00]: Well, I mean...
+
+204
+00:18:42,315 --> 00:18:43,695
+[SPEAKER_01]: It's kind of a really basic thing.
+
+205
+00:18:44,428 --> 00:18:55,334
+[SPEAKER_01]: And the simultaneity stuff, which is also super endogenous in economics itself, because it is based upon thermodynamics and little modest extensions to thermodynamic thermo.
+
+206
+00:18:55,374 --> 00:19:01,478
+[SPEAKER_00]: But then there's also just the other thing, which is that, yeah, so I think that all of that's true.
+
+207
+00:19:01,578 --> 00:19:11,244
+[SPEAKER_00]: But my kind of overall hypothesis, one of my big hypotheses for the metabolism of islets projects is that the data that you have available
+
+208
+00:19:12,528 --> 00:19:18,212
+[SPEAKER_00]: The data that you have available to economically reason about determines what economic models you come up with.
+
+209
+00:19:20,133 --> 00:19:21,614
+[SPEAKER_00]: In, like, a very basic way.
+
+210
+00:19:21,754 --> 00:19:27,839
+[SPEAKER_01]: And that's... That was what was known as science for a long time until the economics came along and said we don't need that now.
+
+211
+00:19:28,359 --> 00:19:28,679
+[SPEAKER_00]: Yeah.
+
+212
+00:19:29,019 --> 00:19:29,200
+[SPEAKER_01]: Right.
+
+213
+00:19:29,520 --> 00:19:30,901
+[SPEAKER_01]: So, I mean, that's really...
+
+214
+00:19:31,501 --> 00:19:37,785
+[SPEAKER_01]: So the idea that empirics should receive theory is kind of like what most people think of as scientific philosophy.
+
+215
+00:19:38,406 --> 00:19:38,946
+[SPEAKER_00]: Oh, for sure.
+
+216
+00:19:38,966 --> 00:19:39,627
+[SPEAKER_01]: So...
+
+217
+00:19:40,487 --> 00:19:41,368
+[SPEAKER_01]: So I'm not... And I'm...
+
+218
+00:19:42,039 --> 00:19:47,904
+[SPEAKER_01]: I totally am not disagreeing with that, but I do think that these two projects is related.
+
+219
+00:19:49,505 --> 00:19:49,745
+[SPEAKER_01]: Oh, shoot.
+
+220
+00:19:49,765 --> 00:19:50,846
+[SPEAKER_01]: I think those might have been.
+
+221
+00:19:51,046 --> 00:19:51,887
+[SPEAKER_00]: I think those were peas.
+
+222
+00:19:52,107 --> 00:19:54,269
+[SPEAKER_01]: I think those were peas.
+
+223
+00:19:54,509 --> 00:19:57,852
+[SPEAKER_01]: Their absolute lack of leaves implies that they were probably not.
+
+224
+00:20:01,835 --> 00:20:03,417
+[SPEAKER_00]: I think, are those also peas?
+
+225
+00:20:03,957 --> 00:20:04,718
+[SPEAKER_00]: Probably not.
+
+226
+00:20:06,619 --> 00:20:07,580
+[SPEAKER_01]: You see any peas in there?
+
+227
+00:20:14,153 --> 00:20:14,533
+[SPEAKER_00]: It's a pea.
+
+228
+00:20:15,694 --> 00:20:16,435
+[SPEAKER_00]: Yay, it's a pea.
+
+229
+00:20:18,397 --> 00:20:20,238
+[SPEAKER_00]: So they are just getting killed by the vine weeds.
+
+230
+00:20:20,459 --> 00:20:25,964
+[SPEAKER_01]: Yeah, the vine weed is really bad for less aggressive vines.
+
+231
+00:20:26,324 --> 00:20:27,305
+[SPEAKER_01]: Yes, for sure.
+
+232
+00:20:28,226 --> 00:20:29,467
+[SPEAKER_01]: Peas are like hothouse vines.
+
+233
+00:20:30,227 --> 00:20:31,949
+[SPEAKER_00]: Yeah, well, I mean...
+
+234
+00:20:32,249 --> 00:20:33,871
+[SPEAKER_01]: I can grow anywhere and destroy anything.
+
+235
+00:20:34,191 --> 00:20:34,531
+[SPEAKER_00]: Yeah.
+
+236
+00:20:35,833 --> 00:20:37,214
+[SPEAKER_01]: Oh, you're going to provide me some structure?
+
+237
+00:20:37,294 --> 00:20:38,415
+[SPEAKER_01]: I will completely swallow you.
+
+238
+00:20:39,577 --> 00:20:40,798
+[SPEAKER_00]: But yeah, but OK, we're there.
+
+239
+00:20:40,818 --> 00:20:41,798
+[SPEAKER_00]: So where is that going with this?
+
+240
+00:20:41,838 --> 00:20:51,403
+[SPEAKER_00]: So my kind of opinion about this is that like, so you have traditional like marginalism, which essentially says it's like, oh, well, we only have data about macroeconomic prices.
+
+241
+00:20:52,684 --> 00:20:57,745
+[SPEAKER_00]: Um, like, so we're just going to go ahead and try to figure out how to like balance those prices.
+
+242
+00:20:57,765 --> 00:21:05,786
+[SPEAKER_00]: I mean, you even have like, um, all of Keynesianism, which is literally built on two, two scalar, uh, two scalar functions over time.
+
+243
+00:21:06,406 --> 00:21:08,787
+[SPEAKER_00]: How do you, how do you manage two scalar functions over time?
+
+244
+00:21:08,807 --> 00:21:13,708
+[SPEAKER_00]: That's like all of Keynesianism is kind of just based on those two is just based on like that one theory.
+
+245
+00:21:13,928 --> 00:21:20,209
+[SPEAKER_00]: So my kind of, my thing about this, if I'm going to try to be like, absolutely no concept of value whatsoever.
+
+246
+00:21:20,369 --> 00:21:20,829
+[SPEAKER_00]: Yeah.
+
+247
+00:21:20,869 --> 00:21:22,029
+[SPEAKER_00]: Whereas he can say, yeah, you,
+
+248
+00:21:22,469 --> 00:21:27,473
+[SPEAKER_01]: It doesn't really matter if you have one group in the economy digging holes and then a group pulling them back in.
+
+249
+00:21:28,234 --> 00:21:36,080
+[SPEAKER_01]: Yeah, well, I mean... That's just as good as economic stimulus.
+
+250
+00:21:41,484 --> 00:21:42,425
+[SPEAKER_00]: Did this stop recording?
+
+251
+00:21:45,688 --> 00:21:46,208
+[SPEAKER_00]: No, it did not.
+
+252
+00:21:51,242 --> 00:21:55,343
+[SPEAKER_00]: How would you, can I get you your other hat?
+
+253
+00:21:55,383 --> 00:21:58,304
+[SPEAKER_00]: Can we trade hats?
+
+254
+00:21:59,345 --> 00:22:01,766
+[SPEAKER_00]: Your hat doesn't fit on my head with all my hair.
+
+255
+00:22:02,626 --> 00:22:06,147
+[SPEAKER_00]: I think that's a P. Yeah, that's definitely a P. It's not bindweed?
+
+256
+00:22:06,887 --> 00:22:08,228
+[SPEAKER_00]: Um, ooh, one second, I should check.
+
+257
+00:22:09,448 --> 00:22:10,669
+[SPEAKER_01]: Can you hand this to mom?
+
+258
+00:22:11,089 --> 00:22:13,529
+[SPEAKER_00]: I think, never mind, that's definitely a bindweed.
+
+259
+00:22:13,549 --> 00:22:17,871
+[SPEAKER_00]: There you go.
+
+260
+00:22:21,097 --> 00:22:37,080
+[SPEAKER_00]: But yeah, my rationale for this... My thinking about this is that the shape of your economic theory is determined by what you can measure.
+
+261
+00:22:38,360 --> 00:22:47,022
+[SPEAKER_00]: And the more you can measure, the more sophisticated and better the economic model will tend to model the actual system itself.
+
+262
+00:22:49,075 --> 00:22:51,396
+[SPEAKER_00]: Like very machine learning the way.
+
+263
+00:22:51,456 --> 00:22:58,618
+[SPEAKER_00]: It's like if you want to get a better, if you want to get a lower loss, you train on more training data.
+
+264
+00:22:59,799 --> 00:23:05,361
+[SPEAKER_00]: So you have certain model, you have marginalism, which is just essentially taking in certain like bare minimum price models.
+
+265
+00:23:06,901 --> 00:23:15,024
+[SPEAKER_00]: And then you have this non-equilibrium thermodynamics discipline, which is using the fact that you actually have extra richness in these aggregated factors.
+
+266
+00:23:15,884 --> 00:23:18,265
+[SPEAKER_00]: There's also a P like right where you're doing stuff with, by the way.
+
+267
+00:23:21,782 --> 00:23:22,222
+[SPEAKER_00]: I don't know.
+
+268
+00:23:22,563 --> 00:23:23,483
+[SPEAKER_00]: It's in that region.
+
+269
+00:23:27,746 --> 00:23:30,568
+[SPEAKER_00]: There's one exactly over here that is still alive.
+
+270
+00:23:31,009 --> 00:23:31,369
+[SPEAKER_00]: Wow.
+
+271
+00:23:31,549 --> 00:23:31,929
+[SPEAKER_00]: This one.
+
+272
+00:23:32,710 --> 00:23:33,130
+[SPEAKER_00]: Dad, look.
+
+273
+00:23:33,150 --> 00:23:34,691
+[SPEAKER_00]: This one's growing rather successfully.
+
+274
+00:23:34,711 --> 00:23:41,516
+[SPEAKER_00]: Definitely growing more than the ones indoors.
+
+275
+00:23:41,616 --> 00:23:42,857
+[SPEAKER_00]: And there's the other one.
+
+276
+00:23:49,992 --> 00:23:55,134
+[SPEAKER_01]: I think one thing you should do in your job search is you're not going to be able to go to work like that.
+
+277
+00:23:55,254 --> 00:23:55,414
+[SPEAKER_00]: What?
+
+278
+00:23:55,494 --> 00:23:55,915
+[SPEAKER_00]: Oh, I know.
+
+279
+00:23:56,255 --> 00:23:57,855
+[SPEAKER_01]: So just start now.
+
+280
+00:23:57,875 --> 00:24:00,817
+[SPEAKER_00]: Dad, this is, we're trying, we are trying, I am recording this.
+
+281
+00:24:00,917 --> 00:24:02,197
+[SPEAKER_00]: Okay, sorry.
+
+282
+00:24:02,237 --> 00:24:08,400
+[SPEAKER_01]: Well, you can show how difficult it is to collaborate with me.
+
+283
+00:24:08,980 --> 00:24:09,760
+[SPEAKER_00]: But yeah, so.
+
+284
+00:24:10,040 --> 00:24:11,101
+[SPEAKER_01]: It's going into dad mode.
+
+285
+00:24:11,541 --> 00:24:13,522
+[SPEAKER_00]: But yeah, but anyway, so part of the...
+
+286
+00:24:15,756 --> 00:24:21,361
+[SPEAKER_00]: But yeah, so part of the theory about this is that you have all those theories that were in...
+
+287
+00:24:21,481 --> 00:24:28,587
+[SPEAKER_00]: So yeah, so non-equilibrium thermodynamics gets a lot of its power from the fact that it can use the data that's been enriched in other ways.
+
+288
+00:24:29,267 --> 00:24:34,992
+[SPEAKER_01]: Well, remember, non-equilibrium thermodynamics is a physical theory where its data is gotten from physical experiments.
+
+289
+00:24:35,613 --> 00:24:35,953
+[SPEAKER_00]: Yeah.
+
+290
+00:24:36,173 --> 00:24:41,558
+[SPEAKER_01]: And it is used to describe systems where classical things break down.
+
+291
+00:24:42,098 --> 00:24:44,400
+[SPEAKER_01]: And that tends to be things where...
+
+292
+00:24:44,818 --> 00:24:51,944
+[SPEAKER_01]: Your characteristic stale length is closer to your continuum approximation length?
+
+293
+00:24:52,624 --> 00:24:52,865
+[SPEAKER_01]: Yeah.
+
+294
+00:24:52,985 --> 00:24:56,447
+[SPEAKER_01]: So it's kind of used in very specific domains of physics.
+
+295
+00:24:57,548 --> 00:25:02,772
+[SPEAKER_01]: And oftentimes, because they're the easiest ones to study, it's on human-built systems.
+
+296
+00:25:03,993 --> 00:25:09,098
+[SPEAKER_01]: So polymers, nanoelectronics, things where...
+
+297
+00:25:09,891 --> 00:25:16,539
+[SPEAKER_01]: things where conventional physics doesn't work as well or conventional equilibrium doesn't work as well.
+
+298
+00:25:18,081 --> 00:25:19,363
+[SPEAKER_00]: There is so much bindweed in here.
+
+299
+00:25:21,305 --> 00:25:25,027
+[SPEAKER_00]: But yeah, so I do agree with all that.
+
+300
+00:25:26,208 --> 00:25:35,613
+[SPEAKER_01]: But the idea of using that framework in economics to continue sort of the physics-ness of economics, I mean, that's a particular choice.
+
+301
+00:25:36,453 --> 00:25:42,317
+[SPEAKER_01]: And I'm not even, by choosing this research topic, I'm not even saying that should be the choice.
+
+302
+00:25:42,877 --> 00:25:58,338
+[SPEAKER_01]: I'm more saying if you're trying to get a master's degree in a field that's pretty well explored and you can borrow a lot of existing results from one domain to the other, which is one way to make rapid progress.
+
+303
+00:26:01,447 --> 00:26:08,249
+[SPEAKER_01]: So coming up with a completely de novo approach to economics?
+
+304
+00:26:08,269 --> 00:26:09,830
+[SPEAKER_00]: Oh no, I don't think that that's valuable.
+
+305
+00:26:09,890 --> 00:26:19,612
+[SPEAKER_00]: I think that one of the main things that I'm kind of thinking of is, well, I think that there's actually kind of first off, which is, there's also maybe a secondary point for machine learning, which is that the...
+
+306
+00:26:24,004 --> 00:26:39,519
+[SPEAKER_00]: I think there's kind of this impression which is that the more complicated the thing you're trying to model, the more complicated your statistical model of the thing must be.
+
+307
+00:26:41,300 --> 00:26:46,045
+[SPEAKER_00]: And I think what's interesting about machine learning is that it kind of shows to some extent that that is not true.
+
+308
+00:26:47,788 --> 00:27:14,521
+[SPEAKER_00]: like the the model the the best model that we have of all human language as a statistics model can fit in seven pages i'm not sure what you're saying so what i'm saying is that like i thought transformers large language transformer models were the best models of human language no they are they the description of what that architecture is can fit in seven pages the model itself cannot fit in
+
+309
+00:27:16,110 --> 00:27:25,152
+[SPEAKER_00]: The model itself cannot fit in seven pages, but importantly, it doesn't necessarily matter that the transformer is actually capturing a lot of what makes human language valuable.
+
+310
+00:27:25,412 --> 00:27:30,813
+[SPEAKER_00]: What actually matters is at some point in time that it actually works at the scale that you're trying.
+
+311
+00:27:31,253 --> 00:27:42,376
+[SPEAKER_00]: It's a model that just works at the scale that you're trying to make it, and assuming you have a model that can actually scale, assuming you have an architecture that can actually scale up and be trained, and actually you can find numerical solutions for...
+
+312
+00:27:43,216 --> 00:27:57,546
+[SPEAKER_00]: at a very large scale it doesn't actually battle matter what the model architecture is that much uh like any any model of human language like at least this is like one of the popular ideas that any model of human language that has a billion free parameters
+
+313
+00:27:59,033 --> 00:28:16,541
+[SPEAKER_00]: a billion free parameters and is trained on a hundred, yeah, that has like a hundred billion free parameters and is trained on a hundred trillion inputs of like token inputs is going to have, or what am I trying to say here?
+
+314
+00:28:16,802 --> 00:28:21,904
+[SPEAKER_00]: And that you can actually numerically solve for that is going to be almost as good as a transformer.
+
+315
+00:28:22,864 --> 00:28:24,345
+[SPEAKER_01]: Sure.
+
+316
+00:28:24,865 --> 00:28:26,486
+[SPEAKER_01]: Well, I mean, if transformers learn and,
+
+317
+00:28:27,475 --> 00:28:30,776
+[SPEAKER_01]: Stochastic gradient descent is a pretty important technique.
+
+318
+00:28:31,856 --> 00:28:34,436
+[SPEAKER_01]: Oh, I completely agree.
+
+319
+00:28:34,536 --> 00:28:44,758
+[SPEAKER_01]: There is a model of learning that comes from statistics that's basically used in machine learning, which is why it was statistical learning theory for a long time.
+
+320
+00:28:51,479 --> 00:28:56,360
+[SPEAKER_01]: But again, a lot of those basic ideas come from statistical physics.
+
+321
+00:28:57,757 --> 00:29:01,000
+[SPEAKER_01]: So statistical physics got there first, almost always.
+
+322
+00:29:03,563 --> 00:29:13,473
+[SPEAKER_01]: And modern Bayesian statistics, of which you say machine learning was an initial parasite on, was all stolen from physics.
+
+323
+00:29:15,215 --> 00:29:15,976
+[SPEAKER_00]: But yeah, so...
+
+324
+00:29:25,595 --> 00:29:28,416
+[SPEAKER_00]: There's an infinite amount of things I could be doing, Mom.
+
+325
+00:29:28,876 --> 00:29:30,317
+[SPEAKER_00]: Well, it's just an idea.
+
+326
+00:29:30,377 --> 00:29:33,758
+[SPEAKER_00]: Well, but if you want to ask me to do something, just ask me to do something.
+
+327
+00:29:33,778 --> 00:29:35,538
+[SPEAKER_00]: Well, I think it could help you keep on track.
+
+328
+00:29:36,159 --> 00:29:39,740
+[SPEAKER_00]: You could just keep going forward around the bed.
+
+329
+00:29:41,920 --> 00:29:46,482
+[SPEAKER_00]: Well, at the current point in time, I'm definitely somewhat focused on making sure that my peas survive.
+
+330
+00:29:47,702 --> 00:29:47,882
+Sure.
+
+331
+00:29:48,263 --> 00:29:52,124
+[SPEAKER_00]: So, I don't necessarily want to say I'm being selfish, but I am being selfish.
+
+332
+00:29:52,750 --> 00:29:53,950
+[SPEAKER_00]: Okay.
+
+333
+00:29:54,111 --> 00:29:56,311
+[SPEAKER_00]: I'm glad you're attending to your peas.
+
+334
+00:29:56,331 --> 00:29:58,812
+[SPEAKER_01]: The reason we're weeding, basically, is to save the peas.
+
+335
+00:29:59,152 --> 00:29:59,973
+[SPEAKER_01]: Yes, exactly.
+
+336
+00:30:00,233 --> 00:30:01,733
+[SPEAKER_01]: So I would agree with that.
+
+337
+00:30:02,834 --> 00:30:05,715
+[SPEAKER_01]: Otherwise, I'd be tempted just to let the kale duke it out.
+
+338
+00:30:09,456 --> 00:30:11,217
+[SPEAKER_00]: I mean, we also can just let the peas die.
+
+339
+00:30:11,277 --> 00:30:13,458
+[SPEAKER_00]: Like, I do have samples inside that I can clone from.
+
+340
+00:30:14,098 --> 00:30:17,959
+[SPEAKER_00]: Good morning.
+
+341
+00:30:18,179 --> 00:30:18,900
+[SPEAKER_00]: Good morning!
+
+342
+00:30:18,920 --> 00:30:20,000
+[SPEAKER_00]: Hey.
+
+343
+00:30:23,967 --> 00:30:25,768
+[SPEAKER_00]: Oh no, did I... Dad?
+
+344
+00:30:26,548 --> 00:30:28,608
+[SPEAKER_00]: I think I picked... Dad, I picked a pea.
+
+345
+00:30:28,908 --> 00:30:29,288
+[SPEAKER_01]: I'm sure.
+
+346
+00:30:30,309 --> 00:30:31,109
+[SPEAKER_01]: It's really, really...
+
+347
+00:30:31,629 --> 00:30:33,750
+[SPEAKER_01]: This is why you want to keep on top of the weeds.
+
+348
+00:30:33,850 --> 00:30:37,351
+[SPEAKER_01]: It becomes increasingly hard to tell.
+
+349
+00:30:37,531 --> 00:30:40,191
+[SPEAKER_00]: Should I bring this guy inside, or should I let this guy stay out?
+
+350
+00:30:40,411 --> 00:30:42,072
+[SPEAKER_00]: Or should I try to play this guy back out here?
+
+351
+00:30:42,092 --> 00:30:47,713
+[SPEAKER_01]: If you get a shovel and dug a deep enough hole, there's a chance it would survive.
+
+352
+00:30:48,234 --> 00:30:50,194
+[SPEAKER_01]: You'd have to kind of hand water it for a while, probably.
+
+353
+00:30:51,855 --> 00:30:53,435
+[SPEAKER_01]: Or put it right next to the sprinkler.
+
+354
+00:30:54,465 --> 00:30:58,327
+[SPEAKER_00]: Yeah, that's kind of what I have been doing, and that has definitely improved survivability.
+
+355
+00:30:58,967 --> 00:31:00,408
+[SPEAKER_00]: I could also just bring it inside, though.
+
+356
+00:31:03,090 --> 00:31:04,090
+[SPEAKER_00]: I think I'll just bring it inside.
+
+357
+00:31:17,758 --> 00:31:19,138
+[SPEAKER_00]: I could bring it outside as well.
+
+358
+00:31:21,026 --> 00:31:25,248
+[SPEAKER_00]: Yeah, I think I might actually want to bring it outside in one of those big buckets that I have out back.
+
+359
+00:31:26,549 --> 00:31:28,590
+[SPEAKER_00]: But yeah, okay, I'm getting distracted.
+
+360
+00:31:29,310 --> 00:31:36,514
+[SPEAKER_00]: But the theory about this is that right now you have a statistical model that models human language.
+
+361
+00:31:37,515 --> 00:31:46,319
+[SPEAKER_00]: You have a statistical model that models the distribution of human language, which is the most powerful statistical model ever, the most complicated statistical model ever created.
+
+362
+00:31:46,340 --> 00:31:46,840
+[SPEAKER_01]: Right.
+
+363
+00:31:47,500 --> 00:31:55,973
+[SPEAKER_00]: And a lot of the machine learning field and lots of stuff about the economy is trapped up in the distribution of human language.
+
+364
+00:31:56,653 --> 00:31:59,437
+[SPEAKER_00]: Or as the kids would say, in unstructured data.
+
+365
+00:32:00,409 --> 00:32:08,918
+[SPEAKER_01]: Well, it's only because you could, in theory, get access to the entire visa transaction data.
+
+366
+00:32:08,998 --> 00:32:09,258
+[SPEAKER_00]: Yes.
+
+367
+00:32:09,298 --> 00:32:11,280
+[SPEAKER_01]: Right.
+
+368
+00:32:11,300 --> 00:32:15,905
+[SPEAKER_01]: Or you could supplement that with all the bank transactions and get close to 95% of the total
+
+369
+00:32:18,230 --> 00:32:19,751
+[SPEAKER_01]: flows of money in the economy.
+
+370
+00:32:19,911 --> 00:32:20,932
+[SPEAKER_00]: Yeah.
+
+371
+00:32:21,693 --> 00:32:28,478
+[SPEAKER_01]: And with some ability to label the different inputs and outputs that are in that transaction.
+
+372
+00:32:28,958 --> 00:32:30,660
+[SPEAKER_00]: And there's no P's in the middle.
+
+373
+00:32:30,820 --> 00:32:31,460
+[SPEAKER_00]: You're P-safe.
+
+374
+00:32:31,981 --> 00:32:41,228
+[SPEAKER_01]: The reason you don't have that is because capitalism has made that data inaccessible.
+
+375
+00:32:41,848 --> 00:32:45,691
+[SPEAKER_01]: And the use of privacy is oftentimes where the...
+
+376
+00:32:47,190 --> 00:32:47,970
+[SPEAKER_01]: Crime is hidden.
+
+377
+00:32:49,911 --> 00:32:54,112
+[SPEAKER_01]: Because if you're going to kill someone, don't kill them right out in the open.
+
+378
+00:32:54,132 --> 00:32:54,752
+[SPEAKER_01]: Do it inside.
+
+379
+00:32:56,812 --> 00:33:00,453
+[SPEAKER_00]: Under the cover of... Is there a... Could you give me the shovel right behind you?
+
+380
+00:33:12,997 --> 00:33:14,137
+[SPEAKER_00]: Decided it should stay out here.
+
+381
+00:33:23,853 --> 00:33:30,317
+[SPEAKER_01]: The question I'm going to have is, do we want to arugulize this interior once I weed it?
+
+382
+00:33:30,717 --> 00:33:31,558
+[SPEAKER_00]: I think so.
+
+383
+00:33:31,578 --> 00:33:36,561
+[SPEAKER_00]: Why did you ask mom that question?
+
+384
+00:33:37,661 --> 00:33:39,162
+[SPEAKER_01]: She might have other plans.
+
+385
+00:33:49,914 --> 00:33:57,019
+[SPEAKER_01]: The reason not to do that would be I could double-dig this whole thing this fall again and hopefully make some progress against the bindweed.
+
+386
+00:33:59,180 --> 00:34:03,864
+[SPEAKER_00]: I... Yeah, I mean, I...
+
+387
+00:34:03,904 --> 00:34:04,724
+[SPEAKER_00]: I don't know what...
+
+388
+00:34:05,124 --> 00:34:06,325
+[SPEAKER_01]: It's not a one-shot problem.
+
+389
+00:34:06,966 --> 00:34:08,587
+[SPEAKER_00]: I mean, I think we could also just clover it.
+
+390
+00:34:08,607 --> 00:34:10,488
+[SPEAKER_00]: We could also just, like, clover-nuke it next year.
+
+391
+00:34:11,989 --> 00:34:12,189
+[SPEAKER_01]: Yeah.
+
+392
+00:34:13,450 --> 00:34:13,870
+[SPEAKER_01]: You can't...
+
+393
+00:34:14,070 --> 00:34:17,673
+[SPEAKER_01]: The problem with bindweed is you can't necessarily prevent it from...
+
+394
+00:34:18,493 --> 00:34:22,557
+[SPEAKER_00]: Don't use clover if you want to use it.
+
+395
+00:34:51,680 --> 00:34:52,540
+[SPEAKER_01]: Yeah.
+
+396
+00:34:52,560 --> 00:35:08,203
+[SPEAKER_00]: I mean, I'm sure if you give it enough time, enough time of being out-competed will, like, multiple years of being out-competed will probably do it.
+
+397
+00:35:09,083 --> 00:35:09,263
+[SPEAKER_01]: Yeah.
+
+398
+00:35:14,818 --> 00:35:19,000
+[SPEAKER_01]: I mean, every one of these that I pull up, there's still plenty of energy in that tube.
+
+399
+00:35:19,801 --> 00:35:20,121
+[SPEAKER_00]: Yeah.
+
+400
+00:35:20,141 --> 00:35:20,641
+[SPEAKER_01]: Come back up.
+
+401
+00:35:21,742 --> 00:35:24,783
+[SPEAKER_01]: So, you know, you can try to exhaust it just by continuous weeding.
+
+402
+00:35:25,544 --> 00:35:41,112
+[SPEAKER_00]: Well, I'm not even saying continuous weeding, but, like, if it gets to the, like, the hypothesis is that if it gets to the top and it has to compete with a bunch of angry clovers, then there's always the potential that the clover just out-competed and it dies.
+
+403
+00:35:42,273 --> 00:35:42,393
+[SPEAKER_00]: Yeah.
+
+404
+00:35:42,413 --> 00:35:42,773
+[SPEAKER_00]: But mom's...
+
+405
+00:35:44,248 --> 00:36:12,068
+[SPEAKER_00]: was protesting against the clover i think she thinks of it as being super invasive which is like i don't necessarily know if that's true looking out back i don't think we've seen that and we've also planted it in other things but that i mean i don't it's not nearly as bad as the blackberries there's no reason to i'm trying to minimize conflict no for sure that makes a lot of sense but like my kind of hypothesis for this is that like
+
+406
+00:36:13,507 --> 00:36:22,751
+[SPEAKER_00]: Like, if I had to, like, say, like, an important part of the economy, which is that if you're trying to predict what the economy does next, details matter less.
+
+407
+00:36:24,352 --> 00:36:30,735
+[SPEAKER_01]: Well, I think you're trying to, I mean, the whole goal is to invest for well-being.
+
+408
+00:36:30,855 --> 00:36:31,895
+[SPEAKER_01]: Oh, I don't.
+
+409
+00:36:31,996 --> 00:36:33,696
+[SPEAKER_01]: That's what I'm trying to get to.
+
+410
+00:36:34,056 --> 00:36:38,679
+[SPEAKER_00]: Well, I think that that is a good goal if you are the ruler of Mamdani Stan.
+
+411
+00:36:38,719 --> 00:36:38,799
+[SPEAKER_00]: Yes.
+
+412
+00:36:44,477 --> 00:36:48,840
+[SPEAKER_01]: Well, anything else you do needs to be a sub-goal.
+
+413
+00:36:49,501 --> 00:36:52,043
+[SPEAKER_01]: I'm not saying that should be your...
+
+414
+00:36:52,544 --> 00:36:54,746
+[SPEAKER_01]: Your objective might be considerably more concrete.
+
+415
+00:36:55,246 --> 00:37:02,392
+[SPEAKER_01]: But your goal is always to say, how do we weaken the notion of investment for profit?
+
+416
+00:37:04,154 --> 00:37:08,198
+[SPEAKER_01]: Or in these non-equilibrium frameworks, the flow of capital.
+
+417
+00:37:09,482 --> 00:37:14,404
+[SPEAKER_01]: And how do we replace that with some other thing?
+
+418
+00:37:14,444 --> 00:37:29,549
+[SPEAKER_01]: And the other thing is, if you show that these flows of capitals are closed under a bunch of different laws, you can start saying, well, maybe we don't need to necessarily have markets allocate those flows of capital.
+
+419
+00:37:31,069 --> 00:37:33,570
+[SPEAKER_01]: But just including flows of capital in your model from the beginning.
+
+420
+00:37:34,382 --> 00:37:41,125
+[SPEAKER_00]: But like, I mean, I think this is also maybe, I should also make sure this is recorded because I think that this is an important thing.
+
+421
+00:37:49,549 --> 00:37:50,210
+[SPEAKER_00]: Which is that...
+
+422
+00:37:57,518 --> 00:38:13,163
+[SPEAKER_00]: But yeah, the main reason that I am interested in economic modeling is not actually because a good economic model would be a... An economic model is an interesting thing.
+
+423
+00:38:13,183 --> 00:38:18,265
+[SPEAKER_00]: I think that there's this thing called the economy, which exists in this kind of abstract space.
+
+424
+00:38:19,425 --> 00:38:23,467
+[SPEAKER_00]: And then this abstract space has these rules that behave about it.
+
+425
+00:38:24,908 --> 00:38:32,338
+[SPEAKER_00]: in this economy which is kind of made of symbols in the same way that the number three does not exist on the blackboard.
+
+426
+00:38:35,038 --> 00:38:43,401
+[SPEAKER_01]: I think now you're substituting the symbolic register of business processes from the actual processes.
+
+427
+00:38:43,921 --> 00:38:49,804
+[SPEAKER_01]: And business processes are creating the things of value that humans need to survive all the time.
+
+428
+00:38:50,264 --> 00:38:50,804
+[SPEAKER_01]: Oh, for sure.
+
+429
+00:38:51,624 --> 00:38:57,066
+[SPEAKER_01]: Now, those things can also be produced without business processes, like this work in our garden.
+
+430
+00:38:57,526 --> 00:38:58,086
+[SPEAKER_01]: Yeah.
+
+431
+00:38:58,987 --> 00:39:01,868
+[SPEAKER_01]: Technically, not really a business process.
+
+432
+00:39:03,555 --> 00:39:10,385
+[SPEAKER_01]: The fact that I'm doing it on a Saturday where I'm not working for money is kind of indicative of it, which is more predominant.
+
+433
+00:39:12,317 --> 00:39:12,577
+[SPEAKER_01]: Yeah.
+
+434
+00:39:12,937 --> 00:39:13,538
+[SPEAKER_00]: Oh, for sure.
+
+435
+00:39:13,998 --> 00:39:22,844
+[SPEAKER_01]: When small communities produced everything that they needed, say in the hunter-gatherer phase, you didn't have anything called the economy.
+
+436
+00:39:23,004 --> 00:39:24,345
+[SPEAKER_00]: You didn't have anything called the economy.
+
+437
+00:39:24,385 --> 00:39:30,349
+[SPEAKER_00]: But the economy, I would argue, was kind of like a very classic hyperstition.
+
+438
+00:39:31,129 --> 00:39:39,275
+[SPEAKER_00]: There's definitely a lot of the economists who would say that it's like, oh, well, all of you, who would kind of say in some way that all of humanity is a computer.
+
+439
+00:39:40,555 --> 00:39:43,098
+[SPEAKER_00]: And this computer is currently running a physics simulation.
+
+440
+00:39:43,458 --> 00:39:49,825
+[SPEAKER_00]: And this physics simulation obeys these kind of concrete rules the exact same way that you would expect physics in the real world to behave.
+
+441
+00:39:50,265 --> 00:39:52,368
+[SPEAKER_00]: And those are the laws in which we try to uncover.
+
+442
+00:39:53,567 --> 00:40:04,770
+[SPEAKER_00]: But one of the things that this does not, like, there is a reason that I am also at some level unsatisfied with that conclusion, which is that economists never take it as a matter of fact.
+
+443
+00:40:04,790 --> 00:40:07,551
+[SPEAKER_00]: How do you actually, like, I don't care.
+
+444
+00:40:07,571 --> 00:40:08,251
+[SPEAKER_00]: How do I say this?
+
+445
+00:40:08,311 --> 00:40:10,592
+[SPEAKER_00]: I don't care about the economy.
+
+446
+00:40:10,972 --> 00:40:15,093
+[SPEAKER_00]: Or I did say, like, I care about the economy because of what it represents.
+
+447
+00:40:16,154 --> 00:40:20,035
+[SPEAKER_00]: Like, economists will care about the economy because, like, oh, well, a 1% drop in unemployment...
+
+448
+00:40:20,675 --> 00:40:22,516
+[SPEAKER_00]: a 1% drop in unemployment is really bad.
+
+449
+00:40:22,576 --> 00:40:28,259
+[SPEAKER_00]: I care about the 1% drop in unemployment because if unemployment drops by 1%, hundreds of thousands of people die.
+
+450
+00:40:28,679 --> 00:40:31,440
+[SPEAKER_00]: Actually, yeah, in the U.S. it was approximated at 67.
+
+451
+00:40:31,780 --> 00:40:38,484
+[SPEAKER_00]: No, in the U.S. it was approximated as 1% drop in unemployment for three years results in 67,000 extra deaths.
+
+452
+00:40:40,265 --> 00:40:41,625
+[SPEAKER_00]: Or 1% increase in unemployment rate, rather.
+
+453
+00:40:42,165 --> 00:40:43,166
+[SPEAKER_00]: Whatever direction makes sense.
+
+454
+00:40:43,586 --> 00:40:47,308
+[SPEAKER_01]: But... Oh, yeah, yeah, yeah.
+
+455
+00:40:47,328 --> 00:40:47,768
+[SPEAKER_00]: For sure, for sure.
+
+456
+00:40:47,788 --> 00:40:49,569
+[SPEAKER_01]: 67,000 people kill themselves?
+
+457
+00:40:49,930 --> 00:41:06,314
+[SPEAKER_01]: Well, yeah, well, I mean, but you could also make the same argument over deaths in Gaza as well, but... Like excess mortality in Gaza, but... Well, I don't think so, because it's a lot easier to draw the correlation to what the Israelis were doing in terms of causing death.
+
+458
+00:41:07,015 --> 00:41:09,535
+[SPEAKER_01]: I mean, the fact that you destroyed a social system, and then that...
+
+459
+00:41:10,075 --> 00:41:12,456
+[SPEAKER_01]: It's like, I didn't kill them.
+
+460
+00:41:12,496 --> 00:41:15,697
+[SPEAKER_01]: The collapse that the social system did is not really, you know...
+
+461
+00:41:17,330 --> 00:41:21,392
+[SPEAKER_01]: Much like in Stuart Little 2, it's not really clear that that's a legitimate line to draw.
+
+462
+00:41:21,772 --> 00:41:22,633
+[SPEAKER_01]: Yeah, for sure.
+
+463
+00:41:22,653 --> 00:41:27,355
+[SPEAKER_01]: It's like the action of the Israelis did kill those people.
+
+464
+00:41:27,775 --> 00:41:34,738
+[SPEAKER_01]: And the fact that that was done by destroying the social system is just... Yeah.
+
+465
+00:41:35,439 --> 00:41:38,480
+[SPEAKER_01]: It's why the genocide is just so clear and obvious, right?
+
+466
+00:41:38,760 --> 00:41:39,781
+[SPEAKER_01]: Oh, I completely agree.
+
+467
+00:41:39,801 --> 00:41:41,201
+[SPEAKER_01]: It really was intended to...
+
+468
+00:41:44,590 --> 00:41:48,011
+[SPEAKER_01]: Use bombs to collapse social systems to destroy resistance.
+
+469
+00:41:50,392 --> 00:41:52,273
+[SPEAKER_01]: The single most obvious genocidal...
+
+470
+00:41:53,454 --> 00:41:55,234
+[SPEAKER_01]: I'm not even sure it's genocide because it's like...
+
+471
+00:41:56,455 --> 00:41:59,036
+[SPEAKER_01]: I'm not sure killing all your prisoners is a genocide.
+
+472
+00:42:02,557 --> 00:42:03,317
+[SPEAKER_00]: Oh yeah, probably.
+
+473
+00:42:06,579 --> 00:42:08,680
+[SPEAKER_00]: Oh yeah, no, I agree with all that.
+
+474
+00:42:11,591 --> 00:42:23,621
+[SPEAKER_00]: But yeah, I, another thing that I would also, but yeah, is it like, but the reason that I kind of bring that up is that like, I, the, the, the whole point of socialists is to eventually replace the system with something better.
+
+475
+00:42:23,681 --> 00:42:35,932
+[SPEAKER_00]: Like the, the goal, the goal of the economic system is to go ahead and say that it's like, oh, well in a world where you are actually not optimizing for things where you're organizing production, not based on markets and are organizing production based on some other thing.
+
+476
+00:42:39,167 --> 00:42:40,128
+[SPEAKER_00]: how would that work?
+
+477
+00:42:41,008 --> 00:42:44,409
+[SPEAKER_01]: But that some other thing is still going to be a symbol.
+
+478
+00:42:45,570 --> 00:42:50,692
+[SPEAKER_00]: Oh, that some other thing is almost... Or a system of symbols.
+
+479
+00:42:50,732 --> 00:42:53,033
+[SPEAKER_00]: Is it like, oh, but that's some other thing.
+
+480
+00:42:53,673 --> 00:43:06,358
+[SPEAKER_00]: But kind of my point is that if you're doing an economic theory, if you're trying to figure out... At some point in time, you can kind of think about it as the economy as kind of existing in layers of abstraction.
+
+481
+00:43:07,177 --> 00:43:10,559
+[SPEAKER_00]: you have like the raw physical production processes themselves.
+
+482
+00:43:11,880 --> 00:43:15,942
+[SPEAKER_00]: And then you have the markets that coordinate those raw production processes.
+
+483
+00:43:17,402 --> 00:43:19,444
+[SPEAKER_00]: You have the markets that coordinate those raw production processes.
+
+484
+00:43:20,744 --> 00:43:24,886
+[SPEAKER_00]: Yeah, sorry, firms and markets that coordinate those raw production processes.
+
+485
+00:43:25,187 --> 00:43:28,008
+[SPEAKER_00]: Then you have like interactions between firms that will go ahead and cause a bunch of things.
+
+486
+00:43:28,028 --> 00:43:30,409
+[SPEAKER_00]: Then you have like state regulation that exists on top of that.
+
+487
+00:43:30,710 --> 00:43:35,292
+[SPEAKER_00]: Then you have like very large markets, like kind of like the global US market for labor in a very abstract way.
+
+488
+00:43:37,418 --> 00:43:47,449
+[SPEAKER_00]: And then you also have, like, all of these differing, like, these bickering groups between different groups of capital at the very top that kind of control everything.
+
+489
+00:43:47,469 --> 00:43:52,675
+[SPEAKER_00]: And then you also kind of have, like, the, and then you can argue that, like, the political system is the thing that exists at, like, the highest level of...
+
+490
+00:43:53,870 --> 00:43:58,891
+[SPEAKER_00]: The political system is the thing that exists at the highest level of hierarchy and is determined by every single thing below it.
+
+491
+00:43:59,512 --> 00:44:08,634
+[SPEAKER_00]: The problem with economic models is that the only thing that actually is staying the same, or most of what's staying the same, is the underlying production processes themselves.
+
+492
+00:44:08,674 --> 00:44:19,177
+[SPEAKER_00]: If you're trying to build a good socialist system, you're trying to figure out what abstractions, what is the second organizational layer that you build on top of the raw production processes that results in the most well-being.
+
+493
+00:44:19,197 --> 00:44:20,681
+[SPEAKER_00]: because you can't really change the raw.
+
+494
+00:44:21,202 --> 00:44:21,563
+[SPEAKER_00]: It's hard.
+
+495
+00:44:21,823 --> 00:44:25,332
+[SPEAKER_00]: Like just saying, just change the raw production processes is not economic management.
+
+496
+00:44:25,352 --> 00:44:26,756
+[SPEAKER_00]: That's like technological development.
+
+497
+00:44:28,435 --> 00:44:33,019
+[SPEAKER_00]: But you can change the social organizations that determine what forms of production actually get made.
+
+498
+00:44:33,780 --> 00:44:46,049
+[SPEAKER_00]: And the worry about this is that, like, just kind of, like, thermodynamics doesn't necessarily... Like, thermodynamics does not necessarily tell you about strong... About, like, gluon...
+
+499
+00:44:46,289 --> 00:44:50,773
+[SPEAKER_00]: The fact that, like, gluon fields interact with each other in a non-abelian way...
+
+500
+00:44:52,859 --> 00:45:01,527
+[SPEAKER_00]: lots of economic theories are so high up from the production processes that they, in some sense, tell you actually no information about the production processes themselves.
+
+501
+00:45:02,047 --> 00:45:15,799
+[SPEAKER_00]: And my opinion about this is that it's actually very hard to think about how to organize production processes if you don't know what, if all of your theories are completely indifferent as to what the production processes actually are.
+
+502
+00:45:17,006 --> 00:45:28,849
+[SPEAKER_00]: And figuring out, and if you were actually trying to run an economic model, you need to get an economic model that both measures a real social system down to a very high granular level of detail.
+
+503
+00:45:30,369 --> 00:45:31,549
+[SPEAKER_00]: This is getting very abstract, I know.
+
+504
+00:45:31,589 --> 00:45:32,170
+[SPEAKER_00]: I'm really sorry.
+
+505
+00:45:32,210 --> 00:45:33,110
+[SPEAKER_01]: It's not getting very abstract.
+
+506
+00:45:33,250 --> 00:45:35,210
+[SPEAKER_01]: I mean, I think it's very concrete, right?
+
+507
+00:45:35,690 --> 00:45:41,992
+[SPEAKER_01]: Which is, to me, you're leading back into, you know, something like local...
+
+508
+00:45:45,168 --> 00:45:51,529
+[SPEAKER_01]: a super high fidelity model of the production process is like a necessary condition.
+
+509
+00:45:52,089 --> 00:45:56,970
+[SPEAKER_01]: It's probably not sufficient, but it seems like a necessary condition.
+
+510
+00:45:57,050 --> 00:46:09,833
+[SPEAKER_01]: So I agree, and I do think that social metabolism and other kind of outgrowths of ecological economics are way more interested in the physical world traditionally.
+
+511
+00:46:12,718 --> 00:46:13,739
+[SPEAKER_01]: than traditional economics.
+
+512
+00:46:13,819 --> 00:46:21,343
+[SPEAKER_01]: And I think that's a good place to start in a lot of different ways.
+
+513
+00:46:21,363 --> 00:46:24,325
+[SPEAKER_01]: I can't say I've saved very many peas in this process.
+
+514
+00:46:24,765 --> 00:46:27,547
+[SPEAKER_01]: I found one, two peas.
+
+515
+00:46:27,747 --> 00:46:29,388
+[SPEAKER_00]: If it makes you feel any better, I saved another one.
+
+516
+00:46:32,090 --> 00:46:33,151
+[SPEAKER_00]: Also, there's a couple over here.
+
+517
+00:46:33,371 --> 00:46:35,112
+[SPEAKER_00]: You don't know where they are because you didn't plant them.
+
+518
+00:46:40,407 --> 00:46:41,648
+[SPEAKER_00]: That's okay.
+
+519
+00:46:41,848 --> 00:46:42,668
+[SPEAKER_00]: There's another one right there.
+
+520
+00:46:46,831 --> 00:46:52,194
+[SPEAKER_00]: There isn't anyone right there because I didn't plan anything right there.
+
+521
+00:46:54,055 --> 00:46:54,875
+[SPEAKER_00]: Yeah, I would stop.
+
+522
+00:46:54,895 --> 00:46:55,976
+[SPEAKER_00]: You definitely don't have to be out here.
+
+523
+00:46:55,996 --> 00:46:59,938
+[SPEAKER_00]: I'm just following Dad out here because Dad was like, if we're going to have this conversation, we should have it outside.
+
+524
+00:47:02,720 --> 00:47:06,342
+[SPEAKER_01]: I'm not expecting you to always be doing what I'm doing.
+
+525
+00:47:06,482 --> 00:47:08,203
+[SPEAKER_01]: No, I just wanted to let you know.
+
+526
+00:47:10,647 --> 00:47:12,188
+[SPEAKER_00]: It's a very Mona and Rhea dynamic.
+
+527
+00:47:16,149 --> 00:47:16,669
+[SPEAKER_00]: There's a pea in there.
+
+528
+00:47:17,290 --> 00:47:18,290
+[SPEAKER_00]: Oh, there is a pea in there?
+
+529
+00:47:18,310 --> 00:47:19,290
+[SPEAKER_00]: Ah.
+
+530
+00:47:21,711 --> 00:47:24,773
+[SPEAKER_00]: See, that's another one you totally saved.
+
+531
+00:47:24,793 --> 00:47:27,354
+[SPEAKER_00]: I think there's also a pea right here that needs to be saved.
+
+532
+00:47:28,214 --> 00:47:28,894
+[SPEAKER_00]: Where is it?
+
+533
+00:47:30,895 --> 00:47:31,495
+[SPEAKER_00]: There it is.
+
+534
+00:47:35,717 --> 00:47:37,798
+[SPEAKER_00]: Wow, that pea is definitely almost dead.
+
+535
+00:47:44,333 --> 00:47:53,414
+[SPEAKER_01]: Wait, is there not a pea here?
+
+536
+00:47:53,454 --> 00:47:54,675
+[SPEAKER_00]: No, there's definitely a pea here.
+
+537
+00:47:59,095 --> 00:47:59,595
+[SPEAKER_00]: There it is.
+
+538
+00:48:06,817 --> 00:48:07,737
+[SPEAKER_00]: These are weeds, right?
+
+539
+00:48:10,522 --> 00:48:11,262
+[SPEAKER_00]: Whatever these are.
+
+540
+00:48:12,503 --> 00:48:13,224
+[SPEAKER_00]: Are those spinach?
+
+541
+00:48:14,024 --> 00:48:14,785
+[SPEAKER_00]: That could be spinach.
+
+542
+00:48:18,587 --> 00:48:22,089
+[SPEAKER_00]: Actually, I don't think it's spinach because the spinach that we had was, um, bolty.
+
+543
+00:48:23,010 --> 00:48:24,230
+[SPEAKER_00]: It was like single stock.
+
+544
+00:48:27,512 --> 00:48:28,193
+[SPEAKER_00]: It's arugula.
+
+545
+00:48:34,497 --> 00:48:34,717
+[SPEAKER_00]: No.
+
+546
+00:48:44,758 --> 00:48:48,319
+[SPEAKER_00]: But yeah, is that like, but like my kind of approach to this is that, um...
+
+547
+00:48:49,287 --> 00:48:56,091
+[SPEAKER_00]: But, like, my kind of approach to this is that, like, first off, I think that it is probably possible, like, the approach for this is kind of like, well, what data are you getting?
+
+548
+00:48:56,131 --> 00:48:59,133
+[SPEAKER_00]: It's like, well, you're getting your data specifically about the economy.
+
+549
+00:48:59,473 --> 00:49:17,525
+[SPEAKER_00]: Like, the data that you're getting is you're kind of mining, you have the weights of, like, you have, like, a trillion, you have a trillion bytes of data, you have terabytes of data in Kimi K3 about lots of things, but in there, there's probably at least 100 gigabytes about how exactly the economy works.
+
+550
+00:49:18,460 --> 00:49:24,863
+[SPEAKER_00]: At a very granular, and this is both true, it's true less at a high level, but it's definitely a lot more true at the granular level.
+
+551
+00:49:25,203 --> 00:49:31,226
+[SPEAKER_00]: Like, it's very hard to say that previously you had actually, you had access to lots of data about how the economy worked at a granular level.
+
+552
+00:49:33,246 --> 00:49:41,230
+[SPEAKER_00]: Just because, like, I mean, it's just because, like, most of the economy is, like, it's, like, it's both kind of intentionally kept as a state secret, but it's also, like...
+
+553
+00:49:41,750 --> 00:49:42,750
+[SPEAKER_01]: It's kept as a private secret.
+
+554
+00:49:42,770 --> 00:49:44,291
+[SPEAKER_00]: Yeah, it's kept as a private secret, exactly.
+
+555
+00:49:44,391 --> 00:49:44,671
+[SPEAKER_00]: Sorry.
+
+556
+00:49:50,613 --> 00:49:54,298
+[SPEAKER_00]: Is there a pea?
+
+557
+00:49:54,339 --> 00:49:55,340
+[SPEAKER_00]: There might be a pea over here.
+
+558
+00:49:57,083 --> 00:49:57,784
+[SPEAKER_00]: That's definitely a pea.
+
+559
+00:50:21,913 --> 00:50:23,415
+[SPEAKER_00]: You can probably plant that kale somewhere.
+
+560
+00:50:24,136 --> 00:50:24,997
+[SPEAKER_00]: Just stick it in the ground.
+
+561
+00:50:52,637 --> 00:50:58,659
+[SPEAKER_00]: But yeah, so I think that, but you have lots of data about how the economy works at a very granular level.
+
+562
+00:50:58,899 --> 00:50:59,780
+[SPEAKER_00]: Right.
+
+563
+00:51:00,240 --> 00:51:04,161
+[SPEAKER_00]: And like, I'm not necessarily saying like it'll probably be at like the full digital twin level.
+
+564
+00:51:04,181 --> 00:51:05,942
+[SPEAKER_00]: It'll probably be like a little bit slightly higher.
+
+565
+00:51:07,004 --> 00:51:07,144
+[SPEAKER_01]: Yeah.
+
+566
+00:51:07,184 --> 00:51:11,627
+[SPEAKER_01]: Well, I think you're going to have different, obviously different levels of fidelity in your local digital twin.
+
+567
+00:51:12,407 --> 00:51:16,829
+[SPEAKER_01]: Like, I think the spatial built environment stuff will be pretty high fidelity.
+
+568
+00:51:17,470 --> 00:51:17,950
+[SPEAKER_01]: Oh, for sure.
+
+569
+00:51:17,990 --> 00:51:18,550
+[SPEAKER_01]: Absolutely.
+
+570
+00:51:18,630 --> 00:51:26,935
+[SPEAKER_01]: But even if you have super high fidelity models of your distribution network, you're not necessarily going to have super high fidelity models of your flows on that.
+
+571
+00:51:27,547 --> 00:51:28,168
+[SPEAKER_00]: No, you won't.
+
+572
+00:51:28,228 --> 00:51:45,168
+[SPEAKER_00]: But at the same point in time, you can also just use those constraints along with the general constraints of language and of the economy that exist in your very large LLM to actually get reasonable guesses of what those production processes should look like.
+
+573
+00:51:45,389 --> 00:51:45,549
+[SPEAKER_00]: Right.
+
+574
+00:51:46,995 --> 00:51:50,397
+[SPEAKER_00]: So, like, and the thing is that, like, that is, like, an input to your data process.
+
+575
+00:51:50,437 --> 00:51:58,201
+[SPEAKER_00]: So, like, in some sense, you're kind of, like, filling in the data with the fact that you have this, like, massive model that encompasses, like, all of human knowledge.
+
+576
+00:51:59,382 --> 00:51:59,582
+[SPEAKER_01]: Sure.
+
+577
+00:52:00,622 --> 00:52:00,802
+[SPEAKER_01]: Sure.
+
+578
+00:52:01,283 --> 00:52:10,768
+[SPEAKER_01]: I mean, so, yeah, I think the Metabolism of Islands project, you know, I think it's going to be a combination of a lot of different models.
+
+579
+00:52:12,018 --> 00:52:24,663
+[SPEAKER_01]: Some of them are going to be the static topology type, buildings and such, which are pretty well possible to capture.
+
+580
+00:52:25,144 --> 00:52:30,946
+[SPEAKER_01]: And then there's a lot of things that are going to be flows underneath that that are very hard to observe.
+
+581
+00:52:31,173 --> 00:52:33,915
+[SPEAKER_00]: Well, that are very hard to exist.
+
+582
+00:52:33,955 --> 00:52:38,619
+[SPEAKER_00]: So you have the fact that, like, oh, well, physically people move here in this plant.
+
+583
+00:52:39,179 --> 00:52:39,360
+[SPEAKER_01]: Right.
+
+584
+00:52:40,120 --> 00:52:45,765
+[SPEAKER_00]: And so you have the, like, you know where everything is physically, and you know who owns everything physically.
+
+585
+00:52:46,385 --> 00:52:47,406
+[SPEAKER_01]: Well, I don't know if you know that.
+
+586
+00:52:47,866 --> 00:52:50,729
+[SPEAKER_00]: Well, but, like, what else do you have?
+
+587
+00:52:50,749 --> 00:52:52,150
+[SPEAKER_00]: You also have property tax.
+
+588
+00:52:52,250 --> 00:52:54,512
+[SPEAKER_00]: You also have local tax documentation.
+
+589
+00:52:55,172 --> 00:52:55,713
+[SPEAKER_01]: Right.
+
+590
+00:52:56,013 --> 00:52:58,415
+[SPEAKER_00]: Which tells you other things, but doesn't necessarily tell you everything.
+
+591
+00:53:00,033 --> 00:53:06,441
+[SPEAKER_00]: Like, it tells you specifically, like, the fact that, like, well, this business made this much money on blah-de-blah dates.
+
+592
+00:53:07,303 --> 00:53:08,224
+[SPEAKER_01]: I don't even know if you know that.
+
+593
+00:53:08,667 --> 00:53:21,256
+[SPEAKER_00]: Well, yeah, it's like, oh, yeah, or throughout this year, this business went ahead and made this much money, they spent this much money on payroll, they spent this much money on external companies, and they distributed this much money to shareholders.
+
+594
+00:53:22,037 --> 00:53:27,581
+[SPEAKER_01]: Remember, governments are going to largely agree with private sector's assessment of their need for privacy.
+
+595
+00:53:27,861 --> 00:53:28,201
+[SPEAKER_00]: Yeah.
+
+596
+00:53:28,281 --> 00:53:32,724
+[SPEAKER_01]: Because that's how the whole system works.
+
+597
+00:53:32,824 --> 00:53:35,326
+[SPEAKER_01]: The lack of transparency is a feature, not a bug.
+
+598
+00:53:36,127 --> 00:53:37,788
+[SPEAKER_01]: This was my big conclusion from the...
+
+599
+00:53:38,447 --> 00:53:39,287
+[SPEAKER_01]: Excel stuff.
+
+600
+00:53:39,748 --> 00:53:40,328
+[SPEAKER_01]: Oh, exactly.
+
+601
+00:53:40,348 --> 00:53:49,972
+[SPEAKER_01]: They are so committed to trying to make it seem like there's some really important privacy rule here that should not be violated.
+
+602
+00:53:50,693 --> 00:53:52,253
+[SPEAKER_01]: It's practically a natural law.
+
+603
+00:53:52,393 --> 00:53:55,395
+[SPEAKER_00]: But I think there's also a secondary component to that.
+
+604
+00:53:56,697 --> 00:54:03,940
+[SPEAKER_00]: which is that, like, at some point in time, like, it's also true for lots of parts of the economy that are very well understood.
+
+605
+00:54:04,600 --> 00:54:11,463
+[SPEAKER_00]: Like, let's say that you were doing, like, the metabolism of islands locally, and you came across a restaurant like a West African bar and grill.
+
+606
+00:54:11,483 --> 00:54:20,826
+[SPEAKER_01]: So there's a whole parallel project called Metabolism of Cities that you should definitely check out, because I kind of think doing both at the same time makes the most sense.
+
+607
+00:54:21,447 --> 00:54:25,288
+[SPEAKER_01]: Since you live in Denver, you can work on in Denver, and since Elena will be in...
+
+608
+00:54:25,833 --> 00:54:28,054
+[SPEAKER_01]: Hawaii for at least a while, you can work on that one too.
+
+609
+00:54:29,454 --> 00:54:32,315
+[SPEAKER_01]: You know, islands have really natural closure laws.
+
+610
+00:54:33,736 --> 00:54:34,436
+[SPEAKER_00]: Well, yeah.
+
+611
+00:54:34,496 --> 00:54:38,157
+[SPEAKER_00]: And they also have custom checkpoints, which are also probably quite helpful.
+
+612
+00:54:38,197 --> 00:54:43,139
+[SPEAKER_01]: Yeah, you can totally keep track of material flows in an island in a way that's really hard to do for a city.
+
+613
+00:54:45,640 --> 00:54:52,442
+[SPEAKER_00]: But I think there's also another thing where it's like, if you're going to West African Bar and Grill, you know where that's physically based.
+
+614
+00:54:52,462 --> 00:54:52,963
+[SPEAKER_00]: You know that the
+
+615
+00:54:55,036 --> 00:55:00,924
+[SPEAKER_00]: There's some set of Gaussians around there that correspond to what a house is, to what a restaurant is.
+
+616
+00:55:02,366 --> 00:55:04,990
+[SPEAKER_00]: And you also know the land value and what property tax they pay.
+
+617
+00:55:05,751 --> 00:55:07,914
+[SPEAKER_00]: And then other than that, you know essentially nothing.
+
+618
+00:55:09,634 --> 00:55:12,016
+[SPEAKER_00]: But you also know that as a business, they have two locations.
+
+619
+00:55:12,457 --> 00:55:14,278
+[SPEAKER_00]: Like that's probably information you can find on the internet.
+
+620
+00:55:14,378 --> 00:55:15,719
+[SPEAKER_00]: That's information you can find.
+
+621
+00:55:16,060 --> 00:55:16,260
+[SPEAKER_01]: Right.
+
+622
+00:55:16,680 --> 00:55:31,512
+[SPEAKER_01]: But I mean, you do have, you know, Epstein style, you know, super, you know, where the opacity is like intentionally done to destroy that link between a real world asset and who owns it.
+
+623
+00:55:32,572 --> 00:55:33,032
+[SPEAKER_00]: Oh, for sure.
+
+624
+00:55:33,052 --> 00:55:34,033
+[SPEAKER_00]: I think that all of that's correct.
+
+625
+00:55:34,053 --> 00:55:43,837
+[SPEAKER_00]: But I think that one of the things you could also say is that, well, assuming that this restaurant is doing decently profitable, you can probably figure out, oh, well, how much revenue is it making every year?
+
+626
+00:55:44,137 --> 00:55:46,338
+[SPEAKER_00]: How much does it cost to make every single year?
+
+627
+00:55:46,378 --> 00:55:47,198
+[SPEAKER_00]: And then what is it making?
+
+628
+00:55:47,218 --> 00:55:53,260
+[SPEAKER_00]: And you are going to be off, but you're not going to be off by more than a factor of 10 in each direction.
+
+629
+00:55:53,520 --> 00:55:53,700
+[SPEAKER_01]: Yeah.
+
+630
+00:55:53,841 --> 00:55:57,282
+[SPEAKER_01]: No, I agree that the general idea of linking
+
+631
+00:55:58,810 --> 00:56:08,474
+[SPEAKER_01]: But the thing is... A more accurate physical digital twin with a less accurate economic flow model helps because you can come up with constraints.
+
+632
+00:56:09,234 --> 00:56:13,156
+[SPEAKER_01]: But I still feel like it's ultimately still agent-based modeling.
+
+633
+00:56:13,316 --> 00:56:15,237
+[SPEAKER_01]: And maybe that's where you and I differ.
+
+634
+00:56:15,257 --> 00:56:18,198
+[SPEAKER_01]: I kind of feel like you're going to end up in agent-based modeling no matter what.
+
+635
+00:56:19,218 --> 00:56:20,139
+[SPEAKER_00]: I mean, yeah, probably.
+
+636
+00:56:23,060 --> 00:56:23,920
+[SPEAKER_00]: But my thing is...
+
+637
+00:56:23,940 --> 00:56:27,682
+[SPEAKER_01]: But that's why looking for places where you actually can...
+
+638
+00:56:28,352 --> 00:56:32,616
+[SPEAKER_01]: developed a mathematical formalism is important, even though the details are going to be provided.
+
+639
+00:56:32,756 --> 00:56:33,156
+[SPEAKER_00]: Oh, for sure.
+
+640
+00:56:33,536 --> 00:56:35,758
+[SPEAKER_00]: Well, my kind of approach to this is that I actually don't.
+
+641
+00:56:36,038 --> 00:56:45,646
+[SPEAKER_00]: The more I think about the mathematical formalisms for this, the more I'm thinking, I would really like to have the data and see what kind of shape the data takes before I try to figure out how I should model it.
+
+642
+00:56:46,207 --> 00:56:48,189
+[SPEAKER_00]: Well, maybe.
+
+643
+00:56:48,809 --> 00:56:56,055
+[SPEAKER_01]: I mean, I think there's always kind of a, even working within the Marxian tradition means that you're
+
+644
+00:56:57,231 --> 00:57:24,817
+[SPEAKER_00]: your audience is incredibly tiny right so you could argue well why would i want to work in marxian economics because you know there's like 35 people in the world that care about it i think that that's but i kind of i always feel like right now those 35 people probably deserve to deserve to have their interests and uh various fixations uh very various people like i don't know is it like just because it's a small group does not necessarily mean it's not a worthwhile pursuit right but you know um
+
+645
+00:57:32,087 --> 00:57:40,234
+[SPEAKER_01]: But the thing I like about non-equilibrium thermodynamics is that you are working with expressions of physical constraints in the real world.
+
+646
+00:57:41,967 --> 00:58:07,562
+[SPEAKER_01]: know the the one thing i said you know because i really liked in a book was it said because non-equilibrium economics aims to model the behavior of all macroscopic physical systems it will never be finished yeah you know so it's not like it's a they're not saying there's some final theory that's going to describe all of all of the matter right they're more saying you know it has this incredibly great efficient
+
+647
+00:58:08,879 --> 00:58:09,800
+[SPEAKER_00]: Oh, it definitely does.
+
+648
+00:58:09,840 --> 00:58:22,049
+[SPEAKER_00]: Well, I mean, and I think that my issue, to the extent that I have an issue with non-equilibrium thermodynamics, is that I think it works better as a theory.
+
+649
+00:58:22,069 --> 00:58:30,716
+[SPEAKER_00]: Yeah, I think it works a lot better as a theory when your constraints on your system are not hundreds of gigabytes.
+
+650
+00:58:33,334 --> 00:58:38,456
+[SPEAKER_00]: Like, there is, there's like a part of me that kind of feels like it's going to end up being a little bit more MLE.
+
+651
+00:58:38,957 --> 00:58:41,938
+[SPEAKER_00]: Just because, I mean, we're probably going to have tens of gigabytes of data constraints.
+
+652
+00:58:42,518 --> 00:58:47,481
+[SPEAKER_00]: But I think it's likely we might end up having at least like a few, like, what am I trying to say here?
+
+653
+00:58:47,501 --> 00:58:57,705
+[SPEAKER_00]: Like, yeah, I think it's quite likely we're going to end up having at least like, at least like several 10,000.
+
+654
+00:58:57,725 --> 00:58:58,606
+[SPEAKER_00]: Yeah, at least like 10 to 100,000.
+
+655
+00:59:02,798 --> 00:59:08,425
+[SPEAKER_00]: So there's an argument where it's like, well, just based on that, you're kind of already in the semi-MLE zone.
+
+656
+00:59:08,905 --> 00:59:13,010
+[SPEAKER_00]: Or at least you're kind of in the era of graph and database.
+
+657
+00:59:13,090 --> 00:59:18,116
+[SPEAKER_00]: Things that kind of take graph and database searches as their model primitives.
+
+658
+00:59:22,383 --> 00:59:29,489
+[SPEAKER_01]: I totally agree, and I'm not even suggesting this is the best direction.
+
+659
+00:59:29,809 --> 00:59:41,498
+[SPEAKER_01]: But on the other hand, it seems like low-lying fruit, like this is out there, and there's things that you could say about Marxian economics that are non-trivial.
+
+660
+00:59:41,839 --> 00:59:42,339
+[SPEAKER_01]: Oh, for sure.
+
+661
+00:59:42,359 --> 00:59:45,822
+[SPEAKER_01]: It's still important, so it still seems like a good thing to have the Klinka work on.
+
+662
+00:59:46,402 --> 01:00:05,570
+[SPEAKER_00]: I mean, maybe, but I also think that in the age of LLMs, I think that there's a good example in gaming, which is there was once upon a time where making a really quick demo in 3DJS about a walkable environment where you could fly a plane was kind of an impressive thing.
+
+663
+01:00:05,930 --> 01:00:09,972
+[SPEAKER_00]: If you did that, you could definitely put that on your resume and people would find that quite impressive.
+
+664
+01:00:10,392 --> 01:00:12,494
+[SPEAKER_00]: If you're like, oh wow, you actually know what you're talking about.
+
+665
+01:00:12,814 --> 01:00:16,457
+[SPEAKER_00]: Now, uh, it's like a thing that any second grader can do with ChatGPT.
+
+666
+01:00:17,317 --> 01:00:23,142
+[SPEAKER_00]: Um, which has also kind of meant that, like, the bar for originality, what people will find interesting, has also kind of gone up with that.
+
+667
+01:00:23,162 --> 01:00:36,552
+[SPEAKER_00]: So, like, just because it's a thing a clanker can do, because it's a thing that a clanker can do easily, kind of by definition means that, um, the, kind of by definition means that what people expect a product to look like has increased in scope.
+
+668
+01:00:59,378 --> 01:01:04,621
+[SPEAKER_00]: Like, I mean, if you're thinking about, like, marginalism, the marginal value of any clinker output is zero.
+
+669
+01:01:06,403 --> 01:01:09,204
+[SPEAKER_00]: Like, because, like, clinker outputs are essentially free.
+
+670
+01:01:10,365 --> 01:01:19,411
+[SPEAKER_00]: Right.
+
+671
+01:01:19,991 --> 01:01:21,172
+[SPEAKER_00]: It would be actually hard.
+
+672
+01:01:21,232 --> 01:01:27,116
+[SPEAKER_00]: I'm definitely saying there's ways that you can make it actually hard, but, like, you can expand your scope.
+
+673
+01:01:27,176 --> 01:01:28,837
+[SPEAKER_00]: Expanding your scope is very possible.
+
+674
+01:01:29,589 --> 01:01:31,570
+[SPEAKER_00]: And expanding your scope is maybe even a good thing.
+
+675
+01:01:32,110 --> 01:01:33,051
+[SPEAKER_00]: Yeah, no, I agree.
+
+676
+01:01:33,131 --> 01:01:37,574
+[SPEAKER_00]: But I think what you've just expressed there is definitely...
+
+677
+01:01:39,715 --> 01:01:41,716
+[SPEAKER_00]: It's going out on my own, which is bad.
+
+678
+01:01:42,336 --> 01:01:49,660
+[SPEAKER_01]: Well, no, I think that first-principling stuff in the LLM era is increasingly easy.
+
+679
+01:01:53,562 --> 01:01:56,624
+[SPEAKER_01]: And it's possible that you can just strike out on a...
+
+680
+01:01:56,864 --> 01:01:58,245
+[SPEAKER_01]: I don't think that just a...
+
+681
+01:01:59,278 --> 01:02:14,790
+[SPEAKER_00]: Well, yeah, but also one of the things that we can do is we can finish this conversation, plug it into the chat, and then Kimi can go ahead and let us know all of the citations, all the literature that we missed, instead of just free-balling it.
+
+682
+01:02:15,130 --> 01:02:22,395
+[SPEAKER_00]: In general, one of the things that is possible is that it is definitely possible to be random bullshitting with your friends.
+
+683
+01:02:23,817 --> 01:02:40,044
+[SPEAKER_00]: like around a campfire at night and then record that conversation and have it actually like and then actually like instantly get teleported to the academic literature that is talking about the thing you're talking about right so we can try that like you go ahead and try that out
+

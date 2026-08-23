@@ -1,0 +1,885 @@
+start	end	text
+1433	3155	Okay.
+3495	19630	So, yeah, so I think that, like, so that in, like, in general, I think the process that we have for dealing with this is that if you, the, like, no physicist would argue that the standard model of particle physics is a statistical model.
+21311	24835	But I'm going to say screw that, let's go ahead and think of it as a statistical model anyway.
+24915	25135	Okay.
+25801	30414	Well, how about rather than, let's use the more generic word of learning rather than statistics.
+35800	43946	Which is not to say that learning is not physical, it just means it's not necessarily, we have not necessarily described it right with statistics.
+44166	50571	Well, I think that I'm somewhat justified in calling it a statistical model just based on how some of the parameters are thought out.
+50591	54914	So my understanding is that the standard model has around 12 free parameters.
+57796	68409	And right now, at least to the precision that we know all those free parameters, we know the standard model itself maybe has, like, two to, like, 500 bits of information right there.
+68429	72234	I'm actually, I think that we actually know the parameters a little bit more precisely than that.
+72254	73676	Some of them we only know in, like, two decimal places.
+73696	74697	Some of them we know in, like, 500.
+78570	84253	But anyway, the idea for that is that's how much information you have about the model.
+84333	90797	However, if you're actually wanting to describe... You have so many brilliant ideas, you've got to just learn to express them more.
+90917	95099	But yeah, if you are actually wanting to know all of the... Come talk to your machine.
+95320	107847	If you're actually wanting to know all of the physics of the standard model, and wanting to fully capture all that, yeah, so if you're going, it's like, hey, well, I would like to implement a standard model simulator.
+108715	112417	I'd like to know how to simulate that on a computer and then use those parameters applicable.
+112778	117681	You need all of the information contained in every quantum mechanics textbook.
+117741	118461	Pretty much.
+118561	121143	You need a very advanced understanding of what quantum mechanics are.
+121163	124225	You need a very advanced understanding of what non-relativistic quantum mechanics are.
+124265	126006	Are you leaving this in now?
+126166	128327	No, that goes right in the fridge.
+129488	133910	The starting understanding of what non-relativistic quantum mechanics are, at least the first approximation.
+134291	137373	You need a good understanding of what relativistic quantum mechanics are in the form of...
+139077	141480	In the form of Dirac's quantizations.
+141580	152071	And then you also need to go ahead and know all of the quantizations of the Dirac fields subject to the fields, which I understand kind of creates the fields in quantum field theory.
+154093	157297	You also need to go ahead and know, oh, well, here are all of these particles.
+157357	158899	Here are how all of them behave.
+158919	161181	Here are all the general theories for Yang-Mills theories.
+161548	188436	you need to essentially know the derivations for, like, how do you essentially go ahead and get the electroweak, you essentially need to know, it's like, oh, well, how do you go ahead and get the strong electromagnetic fields via the, you essentially need to know, essentially, how to derive those, starting with, like, the fact that, well, they're gauge fields, you're trying to preserve these symmetries, and when you try to force these symmetries on the model, you essentially go ahead and get these extra fields that pop into existence, and that's essentially why the strong field has, like, a lot of the weird behavior that it does.
+189599	206673	Um, you, uh, you also need to know everything about, like, electroweak symmetry collapse, uh, and essentially how it's like, oh, well, like, the entire, like, the entire universe is essentially a raw universe, the entire raw universe has this, like, superconductor that's kind of sitting all throughout space, which causes the electroweak field to behave differently.
+206693	213078	I mean, I'm just bringing all this up to say that, like, there is an insane amount of information, um,
+214224	216245	contained in the standard model.
+217165	219206	The standard model itself is a statistical model.
+219226	221466	It has a lot of information on how it's described.
+222006	225768	And that information swamps the data that's available in its free parameters.
+226168	242333	If you were trying to describe the standard model and you couldn't describe anything else, even if you compacted it in vectors like an LLM would, you would, in my opinion, struggle to get an understanding of that below a megabyte or even 100 megabytes.
+242773	242913	Right.
+246853	252736	Not to mention, and this is where sort of the axiomatic approach to physics comes in, right?
+252937	261442	Our understandings of concepts like space and time now become very complex, rich things that are very hard for people even to describe.
+262109	270574	Oh yeah, well, I mean, the thing is, I don't necessarily think the reals are, maybe I've just gone insane, but I don't really think the, I don't know if the reals are that complicated.
+271115	274357	Well, let's go to like basic, you know, topological quantum field theory, right?
+274377	279160	Where you have, you have a notion of space, you know, as a cobordism, you know, which is a
+284792	293197	Oh, yeah, well, I mean, is it, oh, yeah, well, this is actually, like, the more I do advanced category theory, the more I'm like, well, the reals actually aren't that complicated.
+293537	304863	The complexity of the reals in our current mathematical system is a, there is a big part of the reason the reals are complicated is because you're fundamentally trying to model discreteness.
+305023	312528	You're fundamentally trying to model continuity in a system that is, in a system of mathematics that is, at its axiomatic level, extremely discreet.
+314553	315674	So if you...
+315794	318515	I'm getting sidetracked, but what about cohesiveness?
+319335	321116	Do you feel like Levera's on the right track there?
+321136	323077	I mean, that's a multimodal theory.
+323297	324258	Oh, it is a multimodal theory.
+324278	326479	But I think that there's kind of an example.
+326539	328900	I think the cohesive is actually a very good example.
+328920	332922	If you're thinking about, oh, well, what exactly is the definition of the reals in a cohesive topos?
+334262	339425	The definition of the reals in a cohesive topos is literally just like a two-line explainer.
+340480	347826	Like, I mean, you still have to start with the rationals, but, like, it's the field that contains the rationals that has a specific property.
+347846	349068	Right.
+349088	354933	It doesn't have anything to do with, like, oh, well, it has to do with, like, the completion of metric spaces or, like, Cauchy sequences or, like, anything else like that.
+354953	355093	Right.
+355693	367443	I mean, but I all, but even stepping back a bit, I don't even think Cauchy, the rationals, the reals being a Cauchy space completion of the rationals is also, as a concept, not that complicated.
+367504	367704	Right.
+368708	370289	I mean, or, like, I mean, I don't know.
+370309	372010	Like, I would definitely be fine.
+372070	377833	I would definitely be in trouble if I was telling that to people in the math lab, but, like, it's not that bad.
+377913	380554	And, like, a lot of more advanced math people.
+381094	382015	Yeah.
+382455	386037	You fall into your XKCD minerals.
+386417	387337	Oh, yeah, no, for sure.
+387377	390039	Well, I mean, but the thing is that, like, I don't know.
+390079	394861	I feel like if Elena was interested in figuring out what the reals were, I could probably explain it in, like, ten minutes.
+397537	398678	Using cohesiveness?
+398938	400500	No, using Cauchy sequence.
+400860	404443	Yeah, like, Cauchy sequence, like, I mean, I don't know, I think that...
+405932	407933	Yeah, anyway, sorry, I'm getting distracted here.
+407953	409855	But it's like, yeah, I do feel like a lot of the...
+410776	414598	I think the reason it's important because this is what Shulman is going after, right?
+415339	421323	He wants to have a proof assistant that could do cohesive homotopy type theory.
+421443	423725	Yeah, well, and that's kind of what everyone's after.
+423765	425326	And it's very unfortunate that...
+425606	434232	I mean, this is maybe like a thing that AIs can help with a little bit, which is that, like, can you essentially maintain a fork of lean that has all of the niceties of the lean language?
+435153	457710	Um, but without the fact that it's the fact, I mean, there's also like a secondary issue, which is that, um, yeah, I mean, I'll, I'll give them some credit in the sense that like the, this, the, the, yeah, this is also a big side tangent, but, um, the problem with, um,
+461609	471138	Yeah, the problem with lots of these different kinds of languages, specifically the generic...
+471338	471979	I'm not even... What?
+471999	474561	I'm trying to... Fuck, I'm trying to remember the name for this.
+478966	481108	It's the something function type and the something product type.
+482615	484457	Yeah, the dependent product and dependent.
+484577	485077	Yeah, thank you.
+485358	486419	Sorry, I'm really tired this morning.
+486519	487059	It's all good.
+487279	496268	But the dependent product and the dependent function types are very hard to think about in a mathematical way.
+496328	498130	Like, you kind of know what generics are.
+498830	499691	You kind of learned what REST.
+499711	501093	You kind of know what generics are, right?
+502113	502194	Yes.
+502214	502314	Yeah.
+502614	504175	So generics are kind of just...
+504255	504776	I was doing generics.
+508466	509727	I'm just trying to cover my bases.
+511048	519653	But generics are one layer of dependent function type that kind of exists in every single language.
+520373	530439	The problem with this is that generics, or I should say generics work because they're a very limited kind of dependent function type you can compute at compile time.
+531520	536083	And then if you can compute them at compile time, you can kind of go ahead and get your entire program to run effectively.
+536662	544426	The bad news with this is that you can have dependent functions of dependent functions of dependent functions.
+545507	546567	And that's very bad.
+548988	560134	And there's always this thing where it's like, oh, well, you can go ahead and, like, I mean, yeah, like, there's also kind of a secondary issue, which is that you can very quickly encounter objects that you actually can't represent in memory.
+560634	563556	Like, the... What, are you okay?
+566947	568728	Yeah, the cancer scares you.
+573050	573790	No worries.
+573910	581934	I mean, yeah, if you want to go to the doctor, you can definitely go to the doctor.
+595887	596868	But anyway, the...
+597248	601453	It feels like some sort of blood vessel thing.
+602674	603315	All right, keep talking.
+603395	604076	But yeah, so...
+604116	604596	I'm happy to start.
+605237	606038	Okay, that's good.
+606058	609081	Famous last words.
+609101	609942	Yeah, famous last words.
+609962	612124	Well, I mean, it'll be obvious if you are in a couple of minutes.
+615347	616828	Or it could be one of the minor, but I don't know.
+616868	618068	I don't think they need the minor ones.
+618128	618949	Okay, never mind.
+618989	622450	But yeah, you don't necessarily know that you're having one of the minor ones is the big problem.
+622510	632834	But, you know, dependent functions and dependent products are, you know, already kind of, you know, best described as vibrations, right?
+633155	635656	So now we're in fiber bundles, which is... Oh, for sure.
+635756	636316	Which is like...
+637668	641211	Way more complex than a vector bundle, which is more complex than a vector.
+641231	650156	Well, yeah, but I think that there's also a secondary thing, which is that if you know something is a prop, but then there's also this other thing.
+650176	658802	So in general, dependent functions are very hard to implement as computations on an actual machine in any way that's even remotely efficient.
+659623	665490	So how do you essentially kind of solve the entire fact that your language is built around this thing that's computationally somewhat intractable?
+666351	670896	You use a zero-size type simplification.
+671637	674320	So a zero-size type is...
+675924	683028	So there is, I don't know, like I'll probably be wrong about this, but like a, a zero size type is a prop.
+683489	692554	The thing is like when most people say it's a zero size type and it's a proposition, both of those things kind of contain the same thing because any type that's of type proposition contains no information.
+693034	694455	When you say prop, I'm thinking.
+696111	701253	categorical contraction of prop, which is kind of a, you know, multiple inputs, multiple outputs.
+701574	702574	Yeah, no, yeah.
+702734	704955	This is just like, this is, this is a very simple proposition.
+704975	706036	It's a, it's the one type.
+708056	708277	Okay.
+708897	709057	Yeah.
+709077	709577	It's the one type.
+709597	713419	It's like, it's the type that's just like barely above a, um, it's the one type.
+713439	713619	Yeah.
+713639	714059	It's the one type.
+714099	720802	It's the type that's like barely above a, um, barely above a simple, very like barely above like the contractible type.
+721723	724344	Um, that, that type contains no data.
+724714	730259	because any instance of the data is identical to any other instance of the data in a fully contractible manner.
+731059	737404	And the advantage about this is that because you can essentially kind of use it as like, oh, well, this type contains no data.
+738750	742491	And any computation I do with it is going to be manipulations on node data.
+742932	746313	So I essentially, whenever I'm doing any operation with the data, I just do nothing.
+746713	756517	You replace every single operation on a zero-size type with... You replace every single operation with a zero-size type with node data, with just a no-op in your program.
+756537	759077	So that means that your whole entire program can run very fast.
+761598	764099	There's a secondary point to this, which is that...
+769633	781659	Yeah, but then there's a secondary point to this, which is that functions to, which is that pretty much every single theorem in the main math lib library is a prop.
+782559	792603	But you can also reason about this, because any dependent function to a type, to a prop, is a prop.
+792784	795145	Any anding of two props is a prop.
+795405	797986	And importantly, any oring of two props is a prop.
+798989	812299	Uh, and then that's kind of a big one because like, if you are like, if you're at, if the, the assumption that, um, in the oring of any two props is also a prop is kind of a load bearing assumption in math lab.
+812760	818985	And it's what allows pretty much every single thing in math lab to be a ZST or zero size type or a proposition.
+819805	821346	or like a traditional proposition.
+821666	830591	However, if you're dealing with something like Haas, or if you're dealing in a language like a lot of these simplicial type theories, or something that don't necessarily take the law of the suited middle to be valid,
+832588	843391	Your propositions, your thing that like, well, every single big important thing in mathematics, every single theory we'd want to prove in mathematics is a prop or is zero-sized, becomes very not true very quickly.
+845051	855394	And the problem is that if you're trying to actually compute with things like that, you actually need to keep track of all of that structure, which, at least in my understanding, makes a lot of these computational things very hard to deal with.
+857192	859973	And it also kind of breaks a lot of the ergonomic handling in Lean.
+860213	865436	But there is also the potential that, oh, well, if Lean gets advanced enough, you could go ahead and maintain a fork of it that had these issues.
+865456	871219	Like a fork of it that didn't necessarily have these issues.
+871299	872359	I still think that there's...
+873180	881663	I think that OxCamel really moves very close to a language with full algebraic co-effects and full algebraic effects.
+882224	884525	Because OCaml already has algebraic...
+885495	894539	effects and the mode system in OxCaml is really close to a graded co-algebraic approach to co-effects, right?
+894939	901142	And effects and co-effects have the advantage of being much closer to a machine sort of understanding of how things work, right?
+901602	903042	You know, I execute a program.
+903062	904703	Well, when do I execute that program?
+904723	907284	Well, I check my input conditions and see if those are satisfied.
+907324	911666	And then I run something and then I, you know, execute something, make an effect on the environment.
+912546	918388	So it's almost like an imperative sort of, it's a way to model kind of imperative programming.
+918748	922288	So Horologic comes in from imperative programming.
+922889	933651	So if you have a language that's underneath that's kind of quasi-imperative, even though it's still functional, to me it seems like a way better target for compilation.
+933711	941293	So languages like Coke or F-Star that compile down to OCaml
+943013	952360	are potentially something that you don't have to, you still can do proofs around O'Campbell, but O'Campbell's a non-trivial.
+953191	974276	target yeah rather than things like prop which are really it's a very simple language well you're trying to simulate well is it well but the thing is is that like if you're actually trying to like model the dependent types um the the thing is is that like like i mean yeah like and lean also compiles down to like lean doesn't actually do the work um of actually doing its stuff it actually just compiles down to haskell
+975315	976376	is kind of like an example right there.
+976396	980498	But the thing is that it's very hard to represent what is mathematically.
+981319	982279	There's kind of two things you can do.
+982299	985921	You can say, oh, well, it's a prop, so it contains no information anyway, so we don't need to compute it.
+986582	988323	But then there's also other things.
+988363	995347	I don't necessarily know the internal complexities of lean, but my understanding is that if you're trying to represent something like, oh, well, the functor between...
+995687	1001731	If you're trying to represent a functor between groups and a functor from groups to sets...
+1002411	1014676	It just kind of gives up and says, well, I'm going to write down what you describe that as in memory, and I'm going to treat it as an any object.
+1014836	1028202	I'm going to treat this like this big giant JSON object in memory that I can arbitrarily add fields to and do compute operations on, but the thing that you're describing contains an infinite amount of information.
+1028242	1028602	Fuck you.
+1028642	1030343	I'm not representing that in memory normally.
+1032010	1037828	Um, and, but then you're essentially just kind of like left with a thing where like, well, those objects themselves are like not computable, like.
+1038957	1041418	You can't really do computational operations on things that big.
+1041978	1055482	And this is always a thing where it's like, well, I'm in a weird situation with this because it really does just feel like dependent functions and dependent products are the ultimate generality.
+1055602	1064525	You have described ultimately what you would want a fully generic feature in a programming language to look like, which is you can just tower up generics infinitely.
+1065145	1066546	And I don't think anyone's figured out a way to do that.
+1066586	1072770	It's like, oh, well, you can actually tower up generics in a way that will actually, like, make your computer actually as performant at runtime.
+1073171	1077714	Which I also think is the reason that, like, a lot of the, like, trying to put dependent type theory in Rust has failed.
+1077754	1090503	Because, like, well, if you're... You can't... Like, the way that Lean handles all of its stuff is that it has all these very big types at runtime that are so big they're kind of like Python types.
+1090523	1090983	Right.
+1091475	1099997	But you essentially need to have a very, very, very smart compiler that can take all of this math and actually bust it down to simple primitives at runtime.
+1100817	1102597	So maybe we'll get there, maybe we won't.
+1102637	1103597	That's definitely like...
+1104157	1112459	I mean, depending on if you actually get a runaway superintelligence, and it doesn't kill us all, that's one of the things I'd be interested in seeing it make.
+1112619	1115980	But in the near term, I think you're...
+1118103	1124305	is an island project wants to compile down to an agent-based simulation, right?
+1124405	1129707	In the near term, I think you could say that's kind of the target, right?
+1130107	1135149	You want to be able to describe an island.
+1135229	1144312	And that island is described in a, that compiles to something that looks at least as sophisticated
+1152285	1153426	at least that much detail.
+1153946	1155347	Yeah.
+1155487	1177297	So how do you start moving from compilation targets that are relatively, you know, to where you're, you can have a high level description that you can give to a LLM that can compile out to a multi-agent.
+1177738	1179579	We have a big chicken fight going on.
+1179599	1180199	Uh-oh.
+1188297	1190118	Every time there's that feeling of scarcity.
+1190138	1192778	Hey, you guys immediately notice that by the moment I come over.
+1192798	1193659	Things go badly.
+1195079	1195279	Okay.
+1195659	1197340	But, right, yeah, this is what we were talking about.
+1197360	1205202	So, standard model particle physics, like maybe, like, yeah, like four to five hundred, like, yeah, like two to five hundred bits in the parameters.
+1206962	1211003	And then maybe like hundreds of megabytes in the description of the model itself.
+1211824	1212364	Right.
+1212704	1216125	But it's, I would also argue that, like, it is still a statistical model.
+1218107	1239625	mostly because the like I think I remember reading somewhere that like if you just take the raw inputs and the raw sensor data coming out of the LHC that is roughly around 200 terabytes per second like the raw data on all of the sensors is around 200 terabytes per second and that is and the thing is is that
+1241381	1247025	um, gets, all of that data gets filtered and is consistent with, like, certain interpretations, certain versions of the theory.
+1247145	1247405	Right.
+1247646	1253210	Like, the, and all of that's actually pretty much just narrowed down, like, a few of those parameters.
+1253650	1263057	So, like, the reason that I'm arguing that it's a statistical theory is that, like, of the free parameters, is both of the free parameters you are condensing, you are condensing, like,
+1264774	1276528	hundreds or thousands of exabytes of data into seven trailing bits on one of the parameters of the information contained in the theory itself.
+1278310	1282335	And importantly, if you're going to propose an alternative theory, the way that you...
+1283165	1286347	figure out, well, is my alternative theory likely to be more correct than the other theory?
+1286467	1291010	If you do a statistical model based on like, oh, well, what would happen if reality behaved like this one theory?
+1291030	1292992	What would happen if reality behaved like this other theory?
+1293352	1299015	And which of them does a better sigma job at approximating the exabytes of data that come out of the LHC?
+1299236	1301157	Right.
+1301237	1305920	But that's kind of what, because you're basically, the reason that that's working is you're doing a selection.
+1309700	1313364	you're looking for the extra special events that you were trying to create with your.
+1314005	1314745	Oh yeah, like very.
+1315226	1315446	Right?
+1315766	1318670	So you're looking, oh, I'm sorry.
+1318710	1319991	No, you're good.
+1320051	1321793	You're looking for a needle in the haystack.
+1321813	1324015	So you start by throwing away the haystack.
+1324376	1325437	Oh, for sure.
+1325677	1326438	And that ability to,
+1338840	1361708	Well, I mean well well is it well the way that the filters actually work is the filters are running essentially like my understanding of the way the filters at the LHC work is that um There is this assumption that like well, I mean well first off like yeah like the LHC like the LHC filters are like themselves like So much more of a college-based disco model like if you show that to an economist their brain would literally explode
+1364742	1372685	But if you tried to get all of the information contained in the design of the LHC and the design of its filter system into any one human brain, that human brain would explode.
+1373325	1375886	But that's kind of the level of complexity that you're dealing with here.
+1376546	1376787	Yeah.
+1376847	1377067	Maybe.
+1377827	1379347	I'd have to.
+1379407	1380588	I'll take your word for it.
+1380868	1381588	But yeah.
+1381608	1388511	But in general, a lot of these systems are specifically designed to go ahead and say, well, we have these very low-energy particle physics.
+1389171	1393393	And low-energy particle physics with protons and electrons, when they're colliding at, like,
+1394537	1401643	when they're colliding at energies that are very well defined by previous theories, are essentially kind of like boring information.
+1401663	1405626	We have already figured that this data is already very well understood.
+1406527	1409969	And so what they'll do is they'll essentially say, oh, well, here's a particle of texament.
+1409989	1416955	We're going to run a very small, very quick model to go ahead and see if that's explained by this low energy collision interaction that we're very confident in.
+1417550	1422953	And if it conforms to that parameter, and if it conforms to that low energy particle model, we discard it.
+1423554	1439344	So there's kind of like this thing where it's kind of, if you kind of had to put the flock of the LHC into a very simple frame, it's literally just that you take everything that is like, you take all of the parts of the standard bottle that are very solid.
+1440197	1441458	that we think are very solid.
+1442980	1444722	And then we throw those away and discard them.
+1444982	1445603	That's not enough.
+1445963	1447665	You still have like exabytes of data.
+1447685	1457235	You still have like, at this point in time, maybe instead of hundreds of terabits per second, you have 500 gigabits per second, 500 gigabytes per second, which is still just way too much to actually store.
+1457635	1460298	So then you essentially have like research teams come along.
+1460618	1469204	And then these research teams can come along and say, hey, we have this extension or physical model that we're wanting to test with this theory.
+1469564	1476369	Go ahead and try to take extra care to preserve events that are kind of like this thing we might be interested in.
+1476669	1479852	And this might kind of match things like the Higgs energy being, like the...
+1490166	1501589	Yeah, like this, for example, one of the big things I've been looking at is the fact that the Higgs energy, or yeah, what am I trying to say here?
+1501609	1512951	Yeah, is that the Higgs energy should essentially be a constant and invariant depending on your energy scale.
+1513591	1517332	So there's kind of this thing where like, oh, well, length and time should vary depending on your speed.
+1519053	1522836	And depending on the energy of the interaction, the Higgs energy should vary as well.
+1523136	1523596	Right.
+1526419	1530102	Which essentially means that you're looking for different parameters of H-bar.
+1530182	1537287	Yeah, you're essentially trying to figure out, oh, well, does Planck's constant scale in a relativistic way similar to the fundamental unit of time, kind of?
+1539475	1548577	Or in other ways, is the Planck energy the exact same measured value from any single energetic event?
+1549357	1554599	Which would imply that it actually changes slightly, depending on your perspective, kind of like length and time view.
+1554919	1556959	That's one of the things that they've been looking at a lot for.
+1557199	1566041	There's obviously lots of people looking for evidence of supersymmetry, so the filters are kind of changed to go ahead and look for parts where you're kind of suspecting the model is incomplete.
+1566061	1568122	And then that's the data that gets saved.
+1568362	1569022	Right.
+1569322	1569355	Thank you.
+1574596	1574776	Sorry.
+1575156	1583400	But yeah, so like, but yeah, so like, I mean, there are like, it's, it's like, it, it's hard to, it's like, it's, it's hard to go ahead and like figure out, it's like, well, what exactly is this?
+1583420	1583560	Sorry.
+1583580	1585221	There's lots of work that goes into figuring that out.
+1585721	1597827	But, but if you're trying to propose counter alternatives, you can essentially go ahead and say, it's like, oh, well, is that like your, your model only matches, your model doesn't match the data to like four sigma accuracy and our model does match data to four, four or five sigma accuracy.
+1597847	1599208	So that means you should trust our new model.
+1599228	1599528	Right.
+1601859	1604881	is kind of like what you're kind of looking at with this.
+1604901	1608082	That's why I would say that physics are fundamentally statistical models.
+1608562	1613244	But kind of compare this to a transformer, or even kind of compare this to AlphaFold.
+1613664	1619607	The architecture behind AlphaFold, including the entire training process, is also probably only like five or six pages.
+1619987	1625770	The math behind training a transformer, and I'll be generous here and also include all of the other like RE...
+1627475	1628696	I'm not even going to go over that.
+1628736	1631677	I'm just going to say, oh, well, it's a base model.
+1631757	1635900	I'm not even going to include all the RLVR or other parameters that are used to get them to actually work.
+1636600	1639261	Themselves are probably not that long.
+1639562	1649367	The original Transformers paper gives you all of the information you need to replicate a very large base model, at least the models up today, plus or minus some minor training improvements.
+1649647	1656551	So the model itself only maybe has a kilobit of data attached to it, or maybe two kilobits of data.
+1657111	1660933	But the model itself has bajillions of parameters.
+1660953	1665875	Like I don't even want to say how big because like some of the baseballs today have like three trillion parameters.
+1666115	1670257	And those are also trained on maybe like a hundred trillion bytes of text.
+1671222	1681433	So, like, you're still having a reduction factor, but there is kind of this, like, really big tradeoff where it's, like, if your statistical model is large enough, your exact architecture of that statistical model doesn't matter.
+1681753	1685657	Whereas if your statistical model, where it's, like, let's go ahead and consider, like, who's this statistical model?
+1685677	1687359	If your statistical model has, um...
+1688620	1707094	has, like, very few free parameters, like, as in physics, the design of that statistical model matters a lot, which is why it's so much hard work to describe what exactly the standard model is and why it takes, like, six years, why it takes, like, four years of undergrad plus six years to develop it.
+1708095	1714200	But on the other hand, like, it doesn't, in, like, compare that, like, it does not take a PhD's worth of work to understand what a transformer is.
+1720626	1722206	I think you're in the more complex something is, the harder the theory gets.
+1722226	1723067	And so you tend to throw out the theory.
+1723107	1723827	There's a very descriptive approach.
+1723847	1724927	This is what biology did for a very long time.
+1724947	1727948	And by studying kind of simple systems of the interface of physics and biology, which is basically the inorganic side of biology,
+1750053	1756418	the molecules themselves, you know, we started to learn about how they were going to start to work.
+1756858	1759480	So there was kind of a whole process of natural experiments.
+1760061	1760301	Yeah.
+1760381	1761882	At the interface of those two disciplines.
+1762192	1765793	But you still have a large gap between physics and biology.
+1766153	1767013	Oh, for sure.
+1767053	1774115	But you've developed this incredibly rich boundary of biophysics that's very, very impressive.
+1774175	1785859	But it's not the complete, you know, it still seems like biology and physics kind of stand alone, and you probably have emergent laws that you can't necessarily reduce just down to physics.
+1787278	1795761	Oh, yeah, well, I mean, this is kind of, like, an interesting question where, like, let's assume that you were actually able to train some kind of transformer or a CNN or, like, whatever have you.
+1795781	1810047	But let me, before you go down to the more specific, so backing up to our conversation from yesterday, your idea is that you have, rather than thinking of modeling the economy like a physics model, you think of modeling the economy like modeling a transformer.
+1810127	1816689	Like, if you have enough data, your transformer can learn the rules of the economy without having to know
+1818670	1832408	Well, one of the things that physics has going for it, and this is the reason why I think most people would say, oh, the physics is just a statistical model, and they would balk at that, is because statistics places an extremely high premium on interpretability.
+1833462	1845527	Like, all of the math may not make sense, but there is definitely an argument that, oh, well, at some level, the standard math of particle physics is actually happening in the real world.
+1845567	1858612	We've also had a community of non-physicists called mathematicians who are very worried about the rigor of physical approaches and have spent, like Cauchy spent his entire career, worried about making
+1859989	1861211	mathematical physics more rigorous.
+1861431	1861731	Oh, yeah.
+1861851	1862432	No, for sure.
+1862452	1865756	Well, I mean, and, like, and... That's another sort of boundary problem right there.
+1866417	1876709	Yeah, well, I mean, but the thing is that, like, one, like, physics people very, very highly value the fact that it's, like, oh, well, there is actually, like, a clear physics, there is actually, like, a clear explanation for this.
+1876729	1877990	Like, physics people do...
+1878010	1880133	I also like to make fun of mathematicians for some reason.
+1880193	1885174	But physics people would not think of our model as a statistical reality of how the world works.
+1885574	1892856	Our statistical model of reality is what reality is.
+1893376	1900218	Like this glass being composed of protons and electrons and the wave functions of those
+1900618	1913727	interact to create silicon and oxygen molecules and then they arrange the last to form like a glass like substance right um is not like i would they i would i would be so nihilistic to claim that that's a statistical model of this glass
+1914475	1918078	No, is that like, at some point in time, statistics is not designed to create statistical models.
+1918838	1920760	Physics is designed to create a model of what is.
+1921360	1932049	This is that, and if you go ahead and say that it's like, oh, well, like, they would argue that like, oh, well, is it like, that's not a, that's not just a what, that's not like a statistical model of what the glass is.
+1932069	1933170	It's what the glass is itself.
+1933210	1934871	Our goal is not to find statistical models of reality.
+1934891	1937053	Our goal is to find out what reality is in and of itself.
+1937413	1943698	Right, but I think, but so that, you know, in Rosen's terms, you've got your formal model, which is your model based on symbols.
+1943718	1943918	Mm-hmm.
+1944358	1953906	and your real model, which is your model that's independent of your model, and those interface at empiricism, at measurement.
+1955046	1963633	But the statistical model used to describe that process between interfacing the real world and the symbolic model is also a symbolic model.
+1963873	1973901	So there's that notion of how do you ever get out of the symbolic world and into the real world, and that's why you need a theory of measurement that actually describes how that could actually take place.
+1974001	1977903	And then now you're in, you at least start with Kant and you go from there.
+1977983	1978643	Oh yeah, for sure.
+1978943	1993829	Well, I mean, but I also think that there's like a secondary part to that, which is that I'm like, you could go ahead and say that like, well, like at some level, like we know the electromagnetic field, the electromagnetic laws is designed by like Gauss and is designed by Gauss and other people in the 18th century are wrong.
+1994189	2000212	Like if you go ahead and try to apply the like standard electromagnetic model of particle physics to a glass, it doesn't work.
+2000652	2016146	because the entire structure of this glass is built on the fact that electrons cannot, is built on the fact that electrons and photons have these quantized interactions and that electrons cannot, or fermions therefore, cannot share quantum states is why the glass behaves the way it does.
+2016506	2021150	If you don't have, if you don't model quantum physics correctly, glasses and matter in general just
+2025515	2038362	of, say, the non-equilibrium thermodynamics process, or even maybe you generalize that to just continuum mechanics, is to help describe real-world flows.
+2039102	2040483	That makes sense, right?
+2040503	2040663	Yeah.
+2042297	2060127	So the whole program of categorical physics, cohesiveness, and things that Laverre started are designed to help understand what it means, what sort of information you're dropping when you start modeling the world as a continuum and modeling fluid flows as a continuum.
+2060167	2061427	Because that's clearly not...
+2064089	2065429	a detailed physical description.
+2065469	2075233	So continuum mechanics starts to look a lot like statistical mechanics, generalized to more things than just independent particles that run around like points.
+2075533	2078975	Oh, for sure.
+2079395	2091580	But what you're looking for is you're looking for high-level descriptions of that glass, where the properties of that glass that you and I can describe with our primitive sensors to be consistent with the underlying physics.
+2092240	2099527	So that transition from micro scale to observable scale is what thermodynamics is about.
+2101309	2102090	Yeah, for sure.
+2103491	2105032	I'm looking up something so I don't look embarrassed.
+2111198	2113020	Maybe you get better at remembering scientists, Nate.
+2124252	2124412	Yeah.
+2124432	2124652	No.
+2126693	2126874	Okay.
+2126894	2127874	So it was Lorenz.
+2127894	2128214	Okay.
+2133978	2134198	Yeah.
+2134218	2135158	So yeah, it's Maxwell.
+2135198	2135398	Yeah.
+2135418	2148486	So it's Maxwell Gauss and Lorenz who did a lot of the work on magnetism, but like on the initial electromagnetic theory, but like you would, you would say that like the electromagnetic theory is a statistical approximation that's valid at a certain energy level.
+2149747	2153489	And if you're trying to like deal with the electromagnetic energy levels of individual atoms,
+2154030	2163156	The electromagnetic field stops behaving like Maxwell's equations would suggest that it does.
+2163416	2167619	But on the other hand, so Maxwell's equations are not a model of reality.
+2167639	2172061	They have been designated to the bottom tier, which is a statistical model of reality.
+2172782	2174183	A phenomenological model.
+2174583	2174923	Yeah.
+2175123	2183048	But at the same point in time, I think people would also argue that the validity of electromagnetism
+2185109	2188230	is so much more valid than a transformer that would predict the same.
+2188250	2189051	Right.
+2189211	2193132	Because it was at least designed with the goal of trying to predict what reality actually does.
+2193632	2205276	And if you actually do the gauge fields derivation, if you actually do the derivation of the, if you go ahead and say, oh, well, the Dirac field has to have local U1 phase symmetry.
+2207728	2210989	And you go ahead and do the math, and you go ahead and follow the math even further.
+2211249	2218990	At a large scale, Dirac's equations actually do just pop out exactly with the fact that it's also quantized.
+2219270	2226252	So at some point in time, it actually is capturing something of a greater theory, but it was also designed to capture that phenomenon.
+2226632	2232393	It was designed to be a best guess at what the underlying fundamental nature of reality is.
+2233470	2236751	Now, there is also an argument that these are kind of equivalent.
+2237291	2238552	This might be an interesting paper.
+2238592	2251037	This is definitely a thing we should have the LLM follow-up on, is if you go ahead and— I'm convinced now that the LLM has to be working on sort of basic transdisciplinary research all the time.
+2251437	2251897	Oh, for sure.
+2251937	2254878	Because it's just read everything, right?
+2254978	2257759	It can do transdisciplinary research in a way that no human can.
+2258019	2260180	Yeah, well, I mean— It solves the one brain problem.
+2260200	2262341	It's like, how would you possibly get read?
+2266102	2270346	It's clearly beyond the human ability.
+2270406	2270586	Oh, yeah.
+2270766	2274229	Well, this is kind of like— And then it's helping establish connections it already has.
+2274309	2275490	It just doesn't know it has.
+2275650	2277131	Well, and there's also lots of things.
+2277151	2286338	Lots of very successful proofs in the LLM literature are literally just like, oh, it turns out that in order to solve—this is like a two-page proof if you happen to have a
+2291442	2305534	There's this very obvious connection, and it's a two-page proof if you happen to have a PhD-level understanding of algebraic number theory and a PhD-level understanding of just general complex analysis.
+2305794	2305954	Yeah.
+2306554	2306955	Oh, yeah.
+2306995	2308256	No, never mind.
+2308296	2309737	There were literally just two different disciplines.
+2309757	2312960	I think it was a classical problem in geometry they needed some analytic number theory for.
+2313300	2313460	Yeah.
+2313760	2316987	And most people don't have PhDs in those two disciplines.
+2317688	2319071	But the LLM was able to figure that out.
+2319251	2322077	And then there's also the other thing, which is the LLM just tries harder.
+2323151	2326913	Well, it's so much faster, right?
+2327293	2329915	Well, but it also can just try hard.
+2330115	2332336	It can just try hard.
+2332356	2337999	It can go ahead and manually look for thousands of camera examples, which is how it got the... That's right.
+2338139	2340341	It's like the description of the Terminator in the movie.
+2340361	2340661	Yeah.
+2340741	2341941	It never gets bored.
+2341981	2343082	It never gets tired.
+2343102	2343902	Exactly, yeah.
+2349189	2361118	It's also very scary when applied to systems that we have not aligned and don't necessarily know how they work or behave either, and that are also load-bearing to lots of economic growth going forward.
+2361738	2366902	Aside from that, where are we going with this?
+2366922	2375148	One of the things I'd like NLM to follow up on is that if you actually go ahead and take a bunch of raw data coming off of the LHC,
+2376456	2384802	Like just you take a snippet of that and then you go ahead and you train a transformer or other CNN model to go ahead and predict what those results are going to be.
+2384822	2388705	And then you go ahead and just like try to strip out the losses.
+2388785	2392188	And then you just go ahead and kind of train that until you get to like a bare minimum level of loss.
+2392968	2399553	Does, and you, then once you have a model that has like a very low level loss and you try to like go ahead and crack it open and interpret the results.
+2401435	2405237	Can you actually go ahead and derive the laws of quantum mechanics?
+2405597	2412501	Can you actually go ahead and derive the gang-mills theory for how protons behave from the learned weights of the model?
+2412521	2416163	Does the model actually just implement the laws properly?
+2416183	2417984	And I know this has been done for multiplication.
+2419485	2424667	This has been done for very simple things like multiplication or addition and other mathematical things.
+2425028	2427009	But I am kind of curious, oh, well, this
+2427779	2432782	can you actually discover new laws of physics of a system that you know nothing about via mechanistic interpretability?
+2434163	2435324	It's beyond that.
+2435344	2436925	I also think... That's a very...
+2437365	2440027	So the SLT guys definitely have articulated that.
+2440267	2440967	Yeah.
+2441107	2448011	And tried to come up with a new paradigm that they call developmental interpretability, which didn't stop at mechanism, right?
+2448031	2448151	Yeah.
+2449227	2457934	Can you use more biologically inspired models to describe this process of what the machine is doing rather than trying to reduce it to a mechanistic process?
+2458095	2476910	But yeah, it's like, but I think that there's also this understanding, which is that like you, but yeah, so it's like, I think that that's also, that's also true, but an advantage that you, of that pathway, I mean, I don't think the thing that I just described would work because the more I think about it, like a big problem with a lot of these sensors, a lot of these sensors are also very noisy because you're trying to capture individual events at a quantum scale.
+2477711	2481214	And even if you cool them all with liquid nitrogen, you're still going to have some minimum of thermal noise.
+2481734	2483515	And the events are also very high energy.
+2483855	2487858	And you can't model every single particle collision and particle deformation.
+2488098	2491681	And plus, there's also some noise that's introduced with the fact that you're measuring quantum systems in general.
+2494183	2504450	But what they're doing that's so important, though, is they're reducing the problem, which is completely beyond any individual human's understanding, like you said, the statistical model.
+2506424	2508208	that are important for humans to look at.
+2509009	2509731	Right?
+2509891	2516164	So the statistics that are performed by the LHC are basically trying to say
+2517987	2520069	You're like, well, I mean, yeah.
+2520269	2522931	And it has a model of noise that lets it throw away things.
+2523612	2526395	And always the question is, how dangerous is that noise?
+2526535	2527355	Oh, yeah.
+2527396	2527576	Is it?
+2527616	2528056	Oh, yeah, for sure.
+2528076	2543890	Which is also like the reason the filter system at the LHC is very complicated is not because the filter system itself is horrendously complicated, but because on top of that, you have this like chain of design decisions that essentially go ahead and say that's like, oh, well, we are actually going ahead and passing through the uncertainties at every single level when we filter events.
+2544331	2544451	Right.
+2544651	2556257	Like, and that entire part of, like, how they deal with actually, like, oh, well, you're actually, you're getting these many results, and then the fact that you're throwing away these and selectively amplifying these introduces this much uncertainty, and then you just have, like, blah-de-blah-de-blah.
+2556277	2561039	They're just, like, go ahead and, like, check all of the, check what all of the uncertainties across all the chain are.
+2561059	2561799	Right.
+2561899	2568542	Which is complicated, and I don't understand it, but, like, that's, my understanding is that that's also, like, a very important part of the filter system at the LHC is the design.
+2569023	2569203	Right.
+2569223	2574145	But getting back to metabolism violence, even doing something relatively simple,
+2574710	2580352	like the electricity system, which is always where things should start, because that's the simplest thing.
+2580933	2583914	No biology.
+2584754	2593458	You can have this Gaussian splat description of the electrical system, where all your surfaces are described.
+2593738	2598360	But underneath that, you have this actual model that contains things
+2600035	2604700	and things that you could put into an electrical simulator, right?
+2605020	2611346	And then you run that simulator, and then you visualize that by doing the reverse direction.
+2611366	2617011	Now you go back to Gaussian Splats, which then go to something you can display on the computer screen.
+2617251	2617771	Oh, for sure.
+2617952	2618632	Yeah, well...
+2618692	2621955	Right, so that round trip becomes really important.
+2622496	2623317	But...
+2625028	2627830	But how do you get into flows, right?
+2627870	2629991	I mean, you can do that topology.
+2630231	2630491	Yeah.
+2631051	2637835	But how do you start modeling flows that aren't directly observable from your system, right?
+2637895	2641697	Now the flows are kind of an artifact of your discrete model.
+2641917	2642158	Yeah.
+2642238	2644779	Or whatever you call that electrical model, right?
+2646840	2651263	Which can start to be described in greater and greater physical reality, right?
+2651403	2651583	Yeah.
+2652264	2671076	electrical models are very abstract, but if you start modeling, you know, lines and the tendency of those lines to sag and, you know, how that interacts with the biological system, you know, you can get into arbitrary levels of detail, but you're still looking at kind of a model that doesn't necessarily translate into how you look at that model.
+2671096	2671216	Yeah.
+2671236	2681342	Well, I mean, and this is also like one of, this is like one of the big important reasons in physics is that the models in physics need to be interpretable because at some level, the interpretability is how you judge if they work or not.
+2682405	2691231	You want to make a non-trivial prediction for your model, and then you want to be able to prepare a system in the real world that simulates that.
+2692792	2697015	And then you want to run the simulation, you want to run the physical experiment.
+2697415	2700097	You want those two to agree at some level.
+2700117	2702539	But you're really looking to find places where they don't agree.
+2702599	2703800	The goal is not to find...
+2704600	2705621	tests that agree.
+2705661	2710043	The goal is to find the most rigorous test you can to try to prove that it doesn't agree.
+2710303	2718227	Oh, well, I mean, is it, well, I mean, and I think that this is also the reason why, like, Transformers have worked really well, um, is kind of because psychohistory is not a thing that exists.
+2718547	2720889	Psychohistory is not a thing that you have any reason to expect to exist.
+2720929	2723450	And, like, for context, that's just, like, a thing that can be...
+2723910	2745660	a thing that can accurately model the per can actually model human societies on a long horizon timescale or in the context of this something a mathematical formalism that actually could model the underlying distribution of language that an lm is trying to capture you don't expect the the chances of that the chances of like some scientists in the future figuring out a model for human language
+2746200	2753862	Like, oh well, oh my god, like, after, like, thousands of years, I've actually figured out, like, here is the underlying model that defines the distribution of human language.
+2754122	2754782	Uh-huh.
+2754802	2766426	And it's around, like, uh, and it's a, maybe it's not, like, significantly, significantly more complicated than the, uh, uh, than, uh, than, like, the standard model of quantum field theory.
+2767726	2768586	is, like, impossible.
+2768806	2770907	Like, that's not a thing that you expect to exist.
+2771047	2779649	Like, at some point in time, you would kind of expect any high-level description of the natural variability in human language to kind of be, like, not simple.
+2779709	2791052	It's essentially, it's this, like, the rules themselves that define the simulation might be simple, but there are so many emergent interactions that you kind of just need to just give up and model the whole thing as, like, one big statistical blob.
+2792874	2798754	Well, you've also seen the, if you think about the growth of complexity in language, you know, I mean,
+2799282	2804344	Languages, I think, evolved from relatively primitive symbol systems at the very beginning.
+2804564	2814507	So that growth of it into the complexity of it, there's trillions of agential emergent things where somebody said, here's a new word.
+2814867	2816547	Here's a new word.
+2816947	2823229	And those new words were hopefully attached to concepts that were describing phenomena in the real world.
+2823249	2825830	So you have it, which were then used to create
+2827138	2829299	more complexity in the real world.
+2829339	2837961	So that co-emergence of language and real world complexity on the planet is a huge thing.
+2838101	2845823	So now you've got not just you have to describe the evolution of language, but you have to describe the co-evolutionary
+2846836	2849537	description of the human technological society.
+2850278	2850598	Yeah.
+2850718	2854739	Which is also very, very, you know, which obeys the laws of physics, right?
+2854779	2856460	But in super non-trivial ways.
+2856500	2857000	Yeah, exactly.
+2857020	2869766	I mean, you know, the physics you would be required to describe the whole transformer architecture at the, you know, at the kind of molecular level or the atomic level is incredibly complex, right?
+2869786	2869966	Yeah.
+2869986	2874328	I mean, you know, you can argue that probably conventional physics doesn't totally get...
+2874852	2876213	what's going on in the transformer?
+2876333	2877154	Oh, they definitely don't.
+2877174	2880036	Well, machine learning doesn't understand what's going on in the conventional transformer.
+2880056	2890523	Like, if you're actually trying to understand, like, what the weights mean, is, like, is an impossible thing to know, which is also why it's impossible to, which is also why it's, like, it's kind of an impossible thing to control.
+2890964	2895927	This is, this is, the fact that transformers are not interpretable is a thing that makes them extremely dangerous.
+2896007	2896227	Right.
+2896648	2899650	But you would argue that your economic model has to have...
+2900805	2902206	greater commitment to interpretability?
+2902246	2904868	It needs to have a greater commitment to interpretability.
+2905268	2907350	Maybe not a pure physical interpretability.
+2907430	2909751	It needs to not have a pure physics-based interpretability.
+2909771	2912253	I mean, I think that there is a very...
+2912493	2917196	So the bigger question is, what is that model of interpretability?
+2917276	2921479	How much interpretability does economics have to have?
+2921679	2927823	So when you start thinking about how you're going to do economic modeling, what are your standards for ensuring interpretability?
+2928052	2931699	Well, I, first off, I think there, first off, there's a cool project you might want to check out called Wikidata.
+2932320	2932701	Yeah.
+2932881	2933162	Okay.
+2933182	2933402	Yeah.
+2933442	2937169	So, but yeah, so like, I think that there's, what's that?
+2937189	2937770	Where's it going with this?
+2938091	2938271	Right.
+2938612	2938772	Um,
+2941363	2957313	I think when you're looking at building local digital twins, you're now leveraging things like satellite streams and cell phone capture of surfaces and things, 3D camera captures of surfaces, LIDAR capture.
+2957593	2966979	So you've got this whole from space and then you've got this whole from the ground level, which is a flood of data that's almost impossible to describe.
+2967039	2967859	It's so huge.
+2968139	2968940	Oh, for sure.
+2969360	2970841	I mean, it's doable, but it's so huge.
+2971542	2972623	It is so huge.
+2972723	2975844	But like, I think that there's like, there is a part of there.
+2976104	2979085	So first of all, like, if you're thinking about like, well, what would actually a system look like?
+2979405	2984747	There's kind of two approaches that you can kind of take from, which is a self-driving car model.
+2985288	2990830	The understanding of the best approach for self-driving cars, the last time I looked at them, like three or four years ago.
+2991538	2993318	And then there's also how Stockfish works.
+2993518	2995419	And I think Stockfish is, like, a very interesting example.
+2995439	2998359	So Stockfish is not a ML system.
+2998519	2999000	I know.
+2999320	2999540	Yeah.
+2999760	3000620	You have to.
+3001040	3002420	We have to cut this off in the next two minutes.
+3002500	3002760	Okay.
+3002820	3003961	I'm going to miss my run, buddy.
+3004621	3006781	You could just miss your... You could... Do you want to run tonight?
+3007161	3008021	No, I want to run now.
+3008221	3008542	Okay.
+3009402	3009802	So anyway.
+3010202	3010802	But yeah, so...
+3010902	3011422	But the thing is...
+3011742	3012042	But yeah.
+3012122	3015243	We need to cut these conversations off earlier so you can put it...
+3015873	3017674	in the LLM and get it working on these things?
+3017714	3018155	Oh, for sure.
+3018175	3018955	Well, I mean, we can cut this off.
+3018975	3022117	But anyway, so there's an approach to how Stockfish does things.
+3022137	3025239	So Stockfish is not actually a machine-based learning system.
+3025259	3032264	For a long time, Stockfish actually didn't include any neural networks in its design until 2021, if I remember correctly.
+3033104	3037347	And the way that it works is it just did very conventional search across the entire space.
+3038508	3042711	But then eventually in 2021, it kind of had this hybrid approach, which I think is very interesting.
+3043091	3044792	It does its alpha-beta pruning search.
+3045384	3056747	And then at the bottom, it used to have a hand-tuned algorithm that would go ahead and estimate exactly what are the values of all the pieces at this base-level board state, and then alpha-beta prune its way back up to the top.
+3057147	3065769	But now it actually, of that final model step, in addition to its hand-rolled parameters that are very fast, it also does a very, very short ML computation.
+3066190	3067590	On top of that, this is designed to like...
+3067986	3080581	And the point of that model, that very small model, is to try to capture some of the positional subtleties at the very base of the tree and then use the raw computation power of Stockfish to go ahead and roll itself all back up.
+3080822	3081062	Right.
+3081242	3087590	So it's kind of a combination of, like, you essentially have some physical, like, Chess has very simple physical laws, like,
+3087929	3089350	You know when you're in checkmate.
+3089370	3090670	You know how all the pieces are supposed to move.
+3091151	3092792	And you can assign...
+3092832	3094653	It's also fundamentally a discrete state space.
+3094813	3095153	Well, yeah.
+3095193	3099055	Well, and fundamentally, if you... You don't have to worry about the process of moving the king too much.
+3099075	3099355	Oh, is it?
+3099375	3099695	Oh, for sure.
+3099715	3103817	And if you min-max on that state, you know the correct move at every single position in chess.
+3104198	3108620	But you can kind of encode, like, oh, well, there are physical invariants the system must obey.
+3109259	3114001	And then you kind of use a physical, you kind of use an approximation to that at the base layer.
+3114901	3117382	And then you actually model a physical system directly at the top.
+3117402	3122623	So you're kind of like using an LLMBO and say that it's like, oh, well, we probably can't predict all of the very simple things.
+3124524	3126265	We probably can't predict all the very simple things.
+3126745	3129466	So, but we know there's broad invariants the entire system must have made.
+3129486	3133667	So we're going to implement that as like, those invariants are going to get implemented in the program.
+3134452	3147184	Uh, and then at the very bottom layers, you're going to have these, uh, machine learning networks that will go ahead and kind of pick up the slack for things that we don't necessarily necessarily have the compute power to like compute power or understanding to go ahead and fully model.
+3147624	3160916	And this also kind of similar to how like self-driving car networks have worked because like the point of self-driving cars is to get them to a crash rate of zero, because that's the only way they're kind of deemed a socially acceptable technology and the amount of training data that you need in order to get cars to never crash.
+3161395	3165596	is like more driving hours than it does in the entire universe if you're doing it a full end-to-end system.
+3165956	3171818	So the way that you do that is you essentially go and say, it's like, oh, well, there actually is a certain mechanistic model of how we expect road users to behave.
+3172878	3175739	There's like a certain mechanism of how we expect road things to behave.
+3176039	3178720	And then you can use a machine learning model at every single step.
+3179100	3185464	But because those machine learning networks are smaller, you can train them to actually much higher levels of accuracy on much smaller data sets.
+3185804	3191647	So the entire chain actually has a higher level of accuracy than if you just did a full end-to-end, like a full CNN end-to-end.
+3191687	3192608	Right, right.
+3193708	3197991	So I think that that's probably the system that you, that's one of the systems you might end up going with.
+3198051	3208597	Oh no, I think self-driving cars are a great model for sort of where you would go with, because I think you are, not just you've got a self-driving car, but the fact that those would be interacting.
+3209098	3212119	with the human desires to get transportation.
+3212399	3212939	Oh, for sure.
+3212979	3215759	I mean, that larger system is like one of those...
+3216379	3221120	I mean, this is how you provide transportation to every human for as much as they want.
+3221640	3229042	If you want to provide unlimited transportation to every human, you develop a self-driving system, and not just cars, but all the other things.
+3229082	3233983	Well, I mean, I actually am more optimistic about self-driving cars just because the tech lords have...
+3234775	3240522	pissed away all of their credibility and favorability with the masses over the last, like, four years.
+3240942	3246288	And there's also this understanding that, like, increasing understanding that if you actually went ahead and...
+3246585	3251287	replaced every single car trip with a self-driving car trip, the roads themselves would collapse.
+3251688	3256450	Just because cars have a low utilization does not mean that roads do.
+3256650	3259151	Roads at certain times of the day have peak utilization.
+3259431	3266395	And if you add in the fact that you're going back and forth to a bunch of different destinations during that utilization time, the road system itself is going to collapse.
+3267376	3268336	You still need public.
+3268497	3270218	There is no viable alternative to driving.
+3270318	3273541	There is no solution to reducing traffic other than viable alternatives to driving.
+3273561	3276964	And that remains true with cars versus without cars.
+3277084	3278886	Without self-driving cars versus without self-driving cars.
+3279406	3279627	Right.
+3279647	3282369	So cars are used to solve the last mile problem.
+3282389	3283530	And that's their only function.
+3283550	3284431	Yeah, pretty much.
+3284992	3288435	Because, yeah, you can massively parallelize with trains.
+3288515	3290857	Like all your things that you've said around.
+3290877	3291477	Yeah, exactly.
+3291537	3291998	How much...
+3292420	3296144	The road capacity of trains is versus the road capacity of the road, right?
+3296204	3296464	Yeah.
+3296884	3300047	But roads are really important because those are like the capillaries, right?
+3300368	3301489	Oh, very much.
+3301509	3305353	We have a system where we try to make the capillaries all the way down.
+3305373	3312379	Well, I mean, and I think there is just like most of the rich people's obsession with self-driving cars is definitely born out of a...
+3314358	3319225	desire to not interact with lower classes in society.
+3319265	3321588	This is why we can't have billionaires.
+3321869	3325774	You can't have someone with so much money that they can't write a public transportation.
+3325794	3327837	It should be the ultimate wealth cap for socialists.
+3328700	3329020	Yeah.
+3329080	3333982	Because otherwise they'll drive the system towards private solutions where they don't have their wealth.
+3334142	3335122	Well, yeah.
+3335222	3339084	And this is also why if you're doing a transparency, it needed to be more like New York and less like Singapore.
+3339324	3341885	Seeing how Singapore does things, we have like a mind eye opening.
+3341905	3342325	Okay, what's next?
+3342345	3342505	Sorry.
+3342685	3343785	We need to finish this up.
+3343986	3345006	Is there anything else you want to talk?
+3345246	3347567	Anything else you want to throw to the comics window while we're at it?
+3348907	3350408	Well, I still feel like...
+3353943	3360670	Like, if multi-scale from physics is not the way to do it, now you're looking at kind of transdisciplinarity, right?
+3361050	3369618	You know, you want your models to be accurate to each sort of level of reality without necessarily reducing each one of those levels to physics.
+3369638	3371220	So it's not a reductionistic program.
+3371260	3372021	For sure, yeah.
+3372221	3376405	But then how do you leverage the LLMs to really...
+3376762	3378482	develop that transdisciplinary framework?
+3378542	3379282	Because they can do it.
+3379302	3381503	Oh yeah, I'm convinced right now that they can do it.
+3381883	3386364	But do you build upon existing transdisciplinary approaches like systems theory?
+3386824	3393005	Or do you try to have the alum discover transdisciplinary principles in a pairwise way?
+3394125	3401106	With the goal of eventually creating a simulation model that can serve as a local digital twin.
+3401126	3404047	Or we should say an island digital twin, I think, just to be super concrete.
+3404107	3404587	Oh, for sure.
+3404607	3404827	Yeah.
+3406626	3408909	Yeah, exactly.
+3409510	3416360	So what's the process that we go through to help realize that instinct?
+3418142	3418362	Yeah.
+3418642	3419082	Oh, for sure.
+3419122	3420003	I think that that's 100.
+3420263	3429406	So anyway, can we boil that down to a place where an LLM at least gets started in terms of looking at developing sub-agents to tackle the individual problems associated with that?
+3429867	3436669	So I think specifying that big problem is like, and I think we, you know, and your idea was let's use an LLM to do that.
+3436729	3437190	Yeah.
+3437210	3445813	Well, and explicitly kind of part of my thought about this is that like what shaped the final arc, like the big point of last, if I had to summarize like last day's conversation into like one big point,
+3446233	3450497	It's that the shape of your model is determined by the shape of your data.
+3450877	3458383	You cannot, whatever, if you're trying to create a model a priority without understanding what data you're throwing into it, is a bad way to design models.
+3459124	3461826	Like, and I don't even, I don't think that's always a bad way to design models.
+3461846	3466249	You kind of can't design a model in any other way than for that model to take the shape of its input data.
+3466409	3466890	Right.
+3466930	3470693	But you can't take the data as a given, right, because what you're going to do
+3472062	3476724	local digital twin is start building, you know, data fit systems that aren't currently there.
+3476744	3477005	Oh, is it?
+3477045	3477325	Oh, yeah.
+3477345	3482948	So, like, so there is kind of, like, a thing where it's, like, oh, well, what data, like, with LLMs, you have the, you have some ability to go on and specify.
+3482968	3485349	It's, like, oh, well, what data can LLMs collect?
+3485589	3487230	What data are they good at collecting?
+3487250	3489951	And what data would actually be good for specifying the behavior of the system?
+3490351	3493473	And then once you have that data, you can go on and say, it's, like, oh, well, how would you actually try to build a model?
+3493940	3495322	would kind of be my approach for this.
+3495603	3496424	Right, right.
+3496444	3503936	I mean, you can look at an electrical system where you currently have kind of, you know, node information that's still kept private by
+3504651	3507513	corporation, but you can imagine opening that up, right?
+3507813	3512416	And you get your local marginal price for each node in the system, right?
+3512596	3516399	I mean, that would be a constraint on modeling your flows in an electrical system.
+3516959	3520101	But the thing that an LM would be doing would be modifying.
+3520501	3524224	It starts to say, well, we need more here, we need more there.
+3524264	3526005	When you start looking at a tough design,
+3526632	3535600	Because really what you're doing with the local digit twin is not trying to model what the world is as is, but you're trying to use it to develop possible futures going forward.
+3535800	3537262	Yeah, exactly.
+3538142	3548412	So much like a capacity, so it's this distinction between a production cost model, which might simulate the system as is, and a capacity expansion model, which is looking at what does the future look like.
+3548872	3555097	And then you round trip that, you know, your capacity expansion goes here and then you say, well, can that production cost model, you know, satisfy that?
+3555237	3555797	Yeah, exactly.
+3555817	3559620	If I build those things, well, does that, is that a physically realizable system?
+3559640	3561681	So you have those two, you're always going to have those two chains.
+3561701	3567846	Yeah, well, is it, well, yeah, well, I mean, and importantly, like one of the big things our model is trying to do is our model is trying to generalize beyond production of electricity.
+3568359	3569621	Oh, for sure.
+3570041	3572504	It's interesting.
+3572844	3576208	The reason electricity is very useful is because there is actually a model.
+3576648	3578911	Electricity is kind of like the single simplest commodity.
+3578951	3580993	Well, I think it's also been done.
+3581033	3583656	The thing about electricity is the only system where this has actually been done.
+3583696	3586920	It's the only system where it's done, but it's also a perfect implementation.
+3586960	3588462	I don't want to say it's a perfect implementation, but it's a
+3588802	3593484	complete and accurate implementation of the simplest possible commodity without any further wrinkles.
+3593804	3605490	If you're trying to model other commodities, other commodities are not instantly transportable, they're not instantly interchangeable, and also have production compli- the production processes are also just way more complicated.
+3605510	3612533	Like, the, like, is it, like, it's, at some point, like, the production cost models are not trying to model the inputs to the production process of electricity.
+3613179	3614140	Which are actual commodities.
+3614160	3623328	It's essentially just like, oh, you throw money at the... Like, production cost models, their only understanding of the model is you throw money into the electrical grid and then out pops this electricity commodity.
+3623348	3626130	Actually, production cost models don't understand anything about the economics.
+3626510	3627071	Interesting.
+3627091	3629673	The capacity expansion model is actually where...
+3630103	3633466	The physical system interacts with the economic world.
+3633666	3639330	But the production cost model just wants to produce electricity.
+3639530	3643593	And it has this scalar quantity known as money, which serves as a constraint.
+3644034	3647056	But it doesn't understand anything about that money.
+3647296	3649178	The money follows certain laws.
+3649818	3656382	you know, it's, you know, decays exponentially and things like that, but it's a pretty simple, it's a pretty simple idea in a production cost model.
+3656522	3656722	Yes.
+3656842	3663507	You know, so, so I don't, I would argue production cost models don't understand anything about economics because it doesn't understand the investment function.
+3663907	3675254	It just understands the operational uses of money, which are always CMC, investment being MCM, you know, in Marxian speak, is kind
+3678005	3688427	That notion of interacting an MCM model, which looks at investment, and a CMC model, which looks at, given investment, how do I allocate commodities, is really
+3692912	3697034	models for either of those is, you know, for anything besides something like electricity.
+3697294	3701196	But even then, I think the MCM models and capacity expansion models are super primitive.
+3701496	3701777	Yeah.
+3701877	3702117	Right.
+3702217	3708460	I mean, you see this with sort of, you know, like these, you know, these exponential decay, you know.
+3708500	3709320	Yeah.
+3709340	3714763	Well, the exponential decay of money, I think, is like, is kind of, I think we can argue about, like, well, is that a real thing?
+3714803	3715744	Is that not a real thing?
+3716224	3717805	But, like, yeah.
+3717845	3718425	Right.
+3718505	3721246	But capacity expansion models reduce it basically to a...
+3723577	3725879	you know, a single step optimization process.
+3725999	3726400	Oh, for sure.
+3726440	3726640	Right.
+3726680	3731004	Rather than looking at it as at least it's not even a sequential decision process sometimes.
+3731465	3739327	in a capacity expansion model because it's kind of assuming that you know that the money in the future is reducible to money in the present using an invertible function.
+3739387	3750930	Oh yeah, and this is one of the things that if we are going to actually build a model of the system, the way you're going to have to, if I had to guess what's the architecture of the system going to look like, it's going to have to look autoregressive to some degree.
+3751630	3759652	One of the things that's nice about capacity expansion models is that if you go ahead and put in your cost of what you expect the cost to look like in the future, it can actually optimize for future outcomes perfectly.
+3761652	3762312	Right.
+3762593	3773939	But, like, if you're trying to actually model things that are more complicated than that, it's probably going to have to be autoregressive where it's like, oh, well, we guess that this will reduce cost of a specific step T, and then you're essentially just, as you, like, run the economy more and more, you're going to have to, like, transition away from these things.
+3773959	3778481	Like, we are going to have to give up a lot in order to get a system that is more accurate.
+3779282	3779462	Right.
+3779482	3780502	And that also includes scale.
+3780522	3782664	It also includes computational attractability.
+3783304	3784905	But we still want it to be somewhat computational attractability.
+3785480	3785740	Right.
+3786080	3798203	But again, you know, getting back to your work on social cost of carbon, you know, you've got this, you've got these, the physical world, you know, will have impacts on the electrical system and the economic system that are profound.
+3798223	3811146	And the idea that you could kind of model the interaction between our choices now and their consequences as, you know, an exponentially declining Hamiltonian with one free variable is pretty absurd.
+3811406	3812486	Oh, for sure.
+3812646	3813987	So I think that's where you...
+3815348	3826188	If you start doing physically realistic modeling, your choices in the present have consequences that are not well modeled by your understanding of the behavior of money in the future.
+3826585	3832467	It always assumes that the money system sort of continues along unperturbed without profound transitions.
+3832567	3833247	For sure.
+3833447	3836568	So it kind of assumes out crisis.
+3837488	3841589	That your present choices can't lead to a crisis in the monetary system, but transform it.
+3841969	3849591	And that's why modeling money as a non-equilibrium system or even something more sophisticated is, I think, really important.
+3849791	3852632	Because I think that by ruling out crises,
+3853192	3856334	you end up making decisions that are incredibly poor and present.
+3856534	3857755	Oh, absolutely.
+3858275	3860937	Anyway, I don't know how you do that, but it's important.
+3860957	3862318	It's an interesting problem to think about.
+3862578	3863218	For sure.
+3863799	3864799	I'll let you go.
+3864820	3867541	I didn't mean to take the last word.
+3867621	3868062	Oh, no.
+3868082	3868382	You're good.
+3868402	3869843	You're good.
+3869863	3870763	One second.
+3870883	3873845	I'll go ahead and just tap on something extra.
+3873885	3875586	I don't know if you ran out of running time.
+3875626	3876447	Really sorry about that.
+3878131	3884162	But yeah, so as one final bit of context, when we're talking about these kind of...
+3886815	3894778	embedded models for, is it, yeah, like, we're talking about these, like, semantically meaningful, yeah, these semantically meaningful Gaussian splats.
+3895438	3897078	We don't necessarily know what that's going to look like yet.
+3897178	3909703	My kind of, like, person who knows nothing about machine learning type approach would be to go ahead and use one of the joint embedding models from, like, one of the joint embedding models from Yann LeCun's group.
+3911363	3919825	that essentially goes ahead and takes an entire image and then tries to condense that down into a vector and then tries to figure out, oh, well, in the state space, how do these things go ahead and move?
+3921285	3925426	You essentially go ahead and take that joint embedding.
+3926186	3927366	You simultaneously do things.
+3927386	3930667	You have potentially tens of thousands of images in your training set.
+3931687	3937248	You go ahead and then calculate a Gaussian splat based on all 10,000 of those images in a specific scene.
+3937848	3946054	Then you also go ahead and run each one of those images through a joint embedding model and then try to figure out, and then figure out like, well, what is the final end result for all of those images?
+3946414	3949717	Then for each one of the pixel, then you kind of do a backwards process.
+3950057	3961365	You have the outputs of, for each joint embedding architecture, you go ahead and take a look at every single pixel and then figure out, it's like, oh, well, what is that pixel's variation and contribution towards the final image?
+3961706	3962606	And what does that look like?
+3963287	3966189	Then you pass it back into the model and then back out the model the other way.
+3966569	3967689	Then you go ahead and pass that back down.
+3967709	3974192	So for every single pixel in every single image, you have a vector that is essentially in the final direction of the input token.
+3974712	3977753	What is that token's single individual contribution towards those final weights?
+3978373	3990498	Then you go ahead and have the Gaussian splat, which essentially says that, oh, well, this single individual pixel's color is being contributed by these seven or eight Gaussians.
+3990998	4000945	And then you essentially go ahead and say, oh, well, this pixel has a vector, and I'm going to associate that vector to each one of these Gaussian spots in a weighted proportion, depending on how much they influence that pixel.
+4001565	4006508	And then you average that across every single pixel that that Gaussian spot contributes to.
+4007009	4008650	So the end point of this, and...
+4009370	4011351	is that you essentially have a semantic...
+4011551	4018012	The endpoint that you kind of want for this is that for every single Gaussian splat, you kind of have a semantic meaning vector that's associated with it.
+4018032	4026995	And the idea is that if a joint embedding model kind of has the same embedding for multiple objects from different reference frames, you essentially have that, like, oh, well, if you have a...
+4027755	4037483	Like, if you have, like, a thousand Gaussian splats that contribute to, like, what an image of an electric pole is, every single one of those Gaussian splats has a similar, like, meaning vector associated with it.
+4037764	4045931	So that if you do, like, nearest distance neighbors, you can kind of select out both that telephone pole, but also, like, all telephone poles in the network, and all telephone wires, as an example.
+4047513	4049014	And this kind of just gives you a way to, like, segment.
+4049034	4051815	Because, like, my understanding is the big problem with Gaussian spots right now is they look nice.
+4051835	4052815	They have, like, very pretty colors.
+4052835	4053975	They're great for visualization.
+4054296	4062378	But it's very unclear, like, oh, well, what are the semantic... How do you go ahead and figure out that, like, this Gaussian spot's part of a fridge or part of a, like, telephone pole, for example?
+4062858	4065619	And that's kind of, like, a person-knows-nothing approach.
+4065639	4066760	Like, how would you go ahead and do that?
+4066780	4069621	I'm sure there is better and more valid approaches for this.
+4070281	4070981	I am...
+4071501	4074622	But I also have not looked at the literature, so I'm kind of curious what that's there.
+4075103	4075263	And...
+4076343	4088528	The idea for that is that that can kind of serve as, like, one of the foundational pieces of, like, oh, well, we know the model must, we know that the model must, our economic models must obey constraints in the material world.
+4088828	4099613	So if we actually have, like, a relatively good model of the material world, even on, like, a small place like Kauai, for example, like, you could probably go ahead and get, like, decent Gaussian splats for, like, the entire island, assuming you're able to throw enough compute at it.
+4101667	4102187	There's that.
+4102227	4103528	What else is there?
+4103668	4112815	There's also this secondary component, I think, for... You know it must kind of obey the material world.
+4113075	4119539	I don't necessarily know if I said this in other models, so I'm just trying to go ahead and condense all the thoughts I've been having about this for the last month or so.
+4120280	4124943	And part of the idea for trying to actually go ahead and get the data for this is that...
+4126865	4130989	is that traditionally you don't have economic data that's available in regular model.
+4131029	4133112	You don't have economic data that's available regularly.
+4133753	4136936	And yeah, the problem with economic data is that it mostly doesn't exist.
+4136956	4139920	You have individual earning data for specific companies.
+4140260	4144886	You have global data that's aggregated by Fred and other central banks in the US.
+4146700	4157740	You also have, and then you have these microeconomic studies that are done on small regions that can potentially get you more concrete data, but you don't have data across the entire economy at any level of granularity.
+4161935	4162616	And that's a problem.
+4162996	4164598	So how do you go ahead and solve that?
+4165058	4170763	My kind of thought for this is that like you, LLMs contain, it's kind of getting back to what I was saying yesterday.
+4170863	4174686	LLMs contain lots of data about the economy because they contain lots of data about everything.
+4175367	4189499	So the idea for this is that you can actually extract the data that LLMs have about the economy by essentially saying, hey, LLM, go ahead and produce an expert report about this production process and this production process inputs, this production processes outputs.
+4190059	4206787	um what it actually needs to go ahead and do that you can have it throw it into some kind of structured database or graph database of some kind um and then have a semantic text box where you can actually go ahead and try to um convey a very short distillation of what makes that production process unique or like other problems that you might encounter with that process
+4208048	4228204	And using this, one of the things you can actually build up with this is potentially a graph of every single production input and production process in the entire economy at a very inaccurate level, but definitely more accurate than you're able to get previously, because they're grounded both in the truth of the knowledge of the trillion parameter LLMs and the information contained in their weights.
+4228905	4231667	So it's kind of bounded based on a base in reality on that in step one.
+4231927	4241053	But you can also go ahead and use the fact that LMs are somewhat agentic to go ahead and have them cross-reference their checks of human data.
+4241073	4245236	So essentially, you're both cross-referencing with all of the data in the LMs, but you're also cross-referencing with...
+4246096	4248637	all of the publicly available non-structured text about the topic.
+4249117	4255000	So this might be like patents, this might be like internal company emails, this might be like tons of different things on like how the production process works.
+4255020	4255820	It might be news articles.
+4255840	4258401	There's lots of data on how the economy works in an unstructured format.
+4258821	4264904	And you get that both by having LLM write the report and also having the LLM research unstructured text while it's writing the report.
+4264924	4266965	So you kind of turn the unstructured text into structured text.
+4267565	4271326	And so you kind of have that as an approximate, you kind of have like that as a baseline approximation.
+4271346	4272067	So you have like a...
+4272827	4277408	But so first off, like the issue with this is like, how do you actually go ahead and get this into a somewhat structured form?
+4277588	4285870	Like the structured form of material reality, the material reality that we're trying to capture for this is kind of somewhat determined by what the literature does.
+4285890	4295772	So like the literature has very, the literature does not have any ways to model 3D reality in a high level of detail that is not Gaussian splats at the current point in time, just because cameras are so much cheaper than LiDAR.
+4296192	4301234	And it's also somewhat harder to convert LiDAR into a like 3D representation of a space.
+4301534	4302654	And it's also just a lot more limited.
+4303715	4305557	so, uh, splats are kind of where that's at.
+4305577	4311663	You can kind of, you need to figure out a way to embed semantic meeting into splats, but ultimately that is just going to look like a vector.
+4312304	4315787	Like every single spot is going to have some kind of semantic meeting vector associated with it.
+4315827	4319791	That kind of captures like what exactly that Gaussian spot is doing.
+4320372	4320592	And, uh,
+4321993	4326503	Regardless of what architecture you need to achieve that, the final data is going to look like that shape.
+4327224	4332896	One of the things that I am unclear about is if you're trying to actually model this production cost data, what exactly is the final shape of that?
+4332976	4337205	I've written a little bit about that, but that's still a thing that is unclear.
+4338909	4341153	I'm trying to remember if there's anything else I want to add to this context window.
+4341194	4341855	No, I think that's about it.
+4341955	4342717	Okay, see you later.
+4342837	4343098	Bye.
