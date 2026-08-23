@@ -1,0 +1,10 @@
+(* Render a hypergraph query as a markdown evidence bundle for an agent.
+   Type-checked boundary: {concept, max_edges} in, string out. *)
+let evidence_of : !{ concept: string, max_edges: number } -> !string = exec {
+  cmd: "python3",
+  args: ["../scripts/graph_query.py", "--mode", "text"]
+}
+
+let main : !{ concept: string, max_edges: number } -> !string = plumb(input, output) {
+  spawn evidence_of(input, output)
+}

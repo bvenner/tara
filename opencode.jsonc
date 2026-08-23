@@ -7,6 +7,12 @@
       "command": ["/home/brad/Documents/Research/anytype-mcp-wrapper.sh"],
       "environment": {},
       "enabled": true
+    },
+    "plumb": {
+      "type": "local",
+      "command": ["/home/brad/Documents/Research/projects/knowledge-repository-poc/plumb-mcp-wrapper.sh"],
+      "environment": {},
+      "enabled": true
     }
   }
 }

@@ -57,5 +57,38 @@ python scripts/build_hypergraph.py            # ≥ Py3.10, stdlib only
 
 ## Next
 
-- **Step 2:** plumbing pipelines (`ingest`, `query`, `evidence`) over this graph, exposed to opencode via `plumb-mcp`.
+- **Step 2 ✅ — plumbing pipelines + MCP wiring** (2026-08-23). Three typed pipelines in `pipelines/`, backed by JSON-Lines workers over the graph artifact via plumbing's `exec` primitive; exposed to opencode via `plumb-mcp`.
+
+### Pipelines (`pipelines/`)
+
+| Pipeline | Input | Output | Purpose |
+|---|---|---|---|
+| `ingest.plumb` | `null` | `{docs,nodes,edges,mean_degree,max_degree}` | Rebuild the co-occurrence hypergraph from the corpus (`build_hypergraph.py --compact`) |
+| `query.plumb` | `{concept}` | typed `QueryResult` record | Concept → matching hyperedges with `doc`/`section` provenance |
+| `evidence.plumb` | `{concept, max_edges}` | `string` | Markdown evidence bundle for agent grounding |
+
+Workers: `scripts/graph_query.py` (JSON Lines in/out, resolves the graph relative to its own file) and `build_hypergraph.py --compact`.
+
+### MCP wiring
+
+- `plumb-mcp-wrapper.sh` runs the nix-built `plumb-mcp` with cwd = `pipelines/` (so `exec` relative paths resolve); registered as the `plumb` MCP server in `opencode.jsonc`.
+- Verified: `opencode mcp list` → `plumb ✓ connected`; raw JSON-RPC handshake served `check` + `call` and a `call` of `query.plumb` returned the query result.
+
+### Verified behavior
+
+- `ingest`: rebuild → `{"docs":32,"nodes":396,"edges":114,"mean_degree":1.874,"max_degree":33}`.
+- `query`: `{concept:"cattaneo"}` → 5 matched nodes (notation + section + 2 keywords + citation), 30 edges with provenance; `{concept:"pineapple"}` → empty result.
+- `evidence`: `SK condition` → bundles the corpus's core sections (§4 Track A, §1 Overview, §3 correspondence) as markdown.
+- Boundary rejection: a non-object into `query.plumb` fatals the `exec` morphism before the worker runs.
+- `plumb-check`: all three pipelines pass (`query`: 3 types, 2 bindings).
+
+### Step 2 gotchas (learned)
+
+- `id` is a reserved token in plumbing (the identity morphism) — record fields must not be named `id` (renamed to `node_id`/`edge_id`).
+- `exec` input-type failure fatals the morphism without the detailed `input_type_mismatch` diagnostic that `map` emits — still a hard rejection.
+- Pipelines assume cwd = `pipelines/` (the wrapper provides it); relative `../scripts/...` paths resolve from there.
+
+## Next
+
+- **Step 3:** one agentic reasoning pass over the corpus via these pipelines (e.g. grounding the τ→0 / SK-condition exposition through `evidence`), outputting an evidence trace.
 - Later: embeddings; then (decision-staged) LLM relation-typing as enrichment.

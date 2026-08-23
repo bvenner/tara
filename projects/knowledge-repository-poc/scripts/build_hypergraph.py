@@ -158,6 +158,8 @@ def build():
     ap = argparse.ArgumentParser(description="Build co-occurrence hypergraph over RET x TSSI corpus")
     ap.add_argument("--doc-keys", type=int, default=15, help="RAKE keywords kept per document")
     ap.add_argument("--sec-keys", type=int, default=6, help="RAKE keywords kept per section")
+    ap.add_argument("--compact", action="store_true",
+                    help="Emit only a 5-field summary JSON line (for plumbing `exec` pipelines)")
     args = ap.parse_args()
 
     bib = parse_bib(CORPUS_DIR / "program" / "references.bib")
@@ -244,6 +246,14 @@ def build():
 
     # ── Write artifacts ─────────────────────────────────────────────
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    if args.compact:
+        print(json.dumps({
+            "docs": stats["docs"], "nodes": stats["nodes"], "edges": stats["edges"],
+            "mean_degree": stats["mean_degree"], "max_degree": stats["max_degree"],
+        }, default=str))
+        return
+
     graph = {
         "meta": {
             "corpus_dir": str(CORPUS_DIR),
