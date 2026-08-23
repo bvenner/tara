@@ -150,6 +150,26 @@ Topic "extended thermodynamics relaxation" (8 works) + DOIs for Foley 1994 (JET)
 
 ## Next
 
-- **LLM pairing (key-gated):** add an `agent` binding after `trace` so the LLM answers from the evidence bundle (repository stays the guardrail).
+- **OpenCode-side LLM pairing ✅ implemented (2026-08-23)** — no provider key needed.
+
+The LLM stays in opencode (the agent already runs on a model); plumbing remains
+mechanical (grounding). Two equivalent ways to pull repository evidence:
+
+1. **MCP:** `plumb:call` with `{source, input}` (server registered in `opencode.jsonc`).
+2. **bash helper:** `python projects/knowledge-repository-poc/scripts/pipeline.py <name> '<json>'` (always available; mirrors `call`).
+
+Demonstrated end-to-end: the τ→0/SK question was answered by the opencode agent
+synthesizing *only* from the trace output, with per-claim `doc :: section`
+citations — saved as `graph/grounded-answer-tau-sk.md`. A repo **skill**
+(`skills/hypergraph-grounding/SKILL.md`, registered via `opencode.jsonc`
+`skills.paths`) teaches future sessions when/how to ground answers, cite
+provenance, and regenerate after corpus edits.
+
+Also fixed in this pass: bibliography author extraction now drops single-letter
+tokens (cleaner author hyperedges).
+
+## Next
+
+- **Pipeline-internal LLM** (still key-gated): an `agent` binding after `trace`, for when a provider key is available — repository stays the guardrail; the LLM renders the argument inside the pipeline.
 - **Embeddings** for semantic neighborhood queries (beyond substring matching).
 - **Phase C** (persistent query service / review protocols / dashboard) only if file-based serving proves insufficient.

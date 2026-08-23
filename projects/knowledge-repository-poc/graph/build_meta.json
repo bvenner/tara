@@ -33,7 +33,7 @@
   "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
   "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
   "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
-  "poc/REPORT.md": "5e5737fc36e164c2616cc9fbb8411914804cdab71bb1bbfdac7724d1f670efef",
+  "poc/REPORT.md": "badbd0e5a5e91784e2de52fb9381c627647bce4b1d42b7cc0767976ece2dbd2a",
   "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
   "top/knowledge-repository-proposal.md": "56624daa6c60942a365a1eb578a33d83bf6b4a220585fa9731c3a79f33baf003",
   "openalex/https_openalex.org_W1919133474": "c700612065d96ceafa063b917c071802935ec852113f60def6119d3968629a2a",
@@ -50,43 +50,41 @@
  "n_docs": 45,
  "stats": {
   "docs": 45,
-  "sections": 162,
-  "nodes": 636,
-  "edges": 162,
+  "sections": 169,
+  "nodes": 624,
+  "edges": 169,
   "node_kinds": {
    "project": 4,
-   "section": 150,
-   "keyword": 349,
+   "section": 156,
+   "keyword": 359,
    "notation": 8,
-   "citation": 31,
-   "author": 74,
    "artifact": 10,
+   "citation": 21,
+   "author": 56,
    "work": 10
   },
   "arity_hist": {
-   "2": 11,
-   "3": 21,
-   "4": 18,
-   "5": 18,
-   "6": 12,
-   "7": 14,
-   "8": 10,
-   "9": 11,
+   "2": 14,
+   "3": 24,
+   "4": 20,
+   "5": 20,
+   "6": 13,
+   "7": 18,
+   "8": 11,
+   "9": 12,
    "10": 9,
-   "11": 9,
-   "12": 5,
-   "13": 5,
-   "14": 3,
-   "15": 5,
+   "11": 7,
+   "12": 4,
+   "13": 4,
+   "14": 2,
+   "15": 3,
    "16": 3,
    "17": 1,
-   "18": 1,
    "19": 2,
-   "20": 1,
-   "24": 2,
-   "47": 1
+   "22": 1,
+   "45": 1
   },
-  "mean_degree": 1.986,
+  "mean_degree": 1.907,
   "max_degree": 116,
   "top_hubs": [
    {
@@ -99,31 +97,31 @@
     "node": "notation:gravitation",
     "kind": "notation",
     "label": "gravitation",
-    "degree": 36
+    "degree": 37
    },
    {
     "node": "notation:cattaneo",
     "kind": "notation",
     "label": "Cattaneo",
-    "degree": 34
-   },
-   {
-    "node": "notation:sk condition",
-    "kind": "notation",
-    "label": "SK condition",
-    "degree": 31
-   },
-   {
-    "node": "notation:simultaneism",
-    "kind": "notation",
-    "label": "simultaneism",
-    "degree": 31
+    "degree": 35
    },
    {
     "node": "project:poc",
     "kind": "project",
     "label": "poc",
-    "degree": 26
+    "degree": 33
+   },
+   {
+    "node": "notation:sk condition",
+    "kind": "notation",
+    "label": "SK condition",
+    "degree": 32
+   },
+   {
+    "node": "notation:simultaneism",
+    "kind": "notation",
+    "label": "simultaneism",
+    "degree": 32
    },
    {
     "node": "artifact:t3",
@@ -135,13 +133,13 @@
     "node": "notation:tau_j",
     "kind": "notation",
     "label": "tau_J",
-    "degree": 23
+    "degree": 24
    },
    {
     "node": "artifact:track a",
     "kind": "artifact",
     "label": "Track A",
-    "degree": 21
+    "degree": 22
    },
    {
     "node": "artifact:t4",

@@ -76,21 +76,6 @@
    "kind": "keyword"
   },
   {
-   "id": "citation:muller-ruggeri1998 (1998)",
-   "label": "muller-ruggeri1998 (1998)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:m",
-   "label": "m",
-   "kind": "author"
-  },
-  {
-   "id": "citation:muller1967 (1967)",
-   "label": "muller1967 (1967)",
-   "kind": "citation"
-  },
-  {
    "id": "notation:sk condition",
    "label": "SK condition",
    "kind": "notation"
@@ -289,31 +274,6 @@
    "id": "keyword:initial layer",
    "label": "initial layer",
    "kind": "keyword"
-  },
-  {
-   "id": "citation:burger-etal2013 (2013)",
-   "label": "burger-etal2013 (2013)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:martin",
-   "label": "martin",
-   "kind": "author"
-  },
-  {
-   "id": "author:a",
-   "label": "a",
-   "kind": "author"
-  },
-  {
-   "id": "author:marie-therese",
-   "label": "marie-therese",
-   "kind": "author"
-  },
-  {
-   "id": "author:luis",
-   "label": "luis",
-   "kind": "author"
   },
   {
    "id": "section:[cattaneo (1948) - sulla conduzione del calore]",
@@ -776,21 +736,6 @@
    "kind": "keyword"
   },
   {
-   "id": "citation:gurtin-williams1967 (1967)",
-   "label": "gurtin-williams1967 (1967)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:o",
-   "label": "o",
-   "kind": "author"
-  },
-  {
-   "id": "author:e",
-   "label": "e",
-   "kind": "author"
-  },
-  {
    "id": "section:[ruggeri & strumia (1981) - main field and convex covariant density]",
    "label": "[Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density]",
    "kind": "section"
@@ -1029,46 +974,6 @@
    "id": "keyword:interpretive question",
    "label": "interpretive question",
    "kind": "keyword"
-  },
-  {
-   "id": "citation:cottrell-etal2009 (2009)",
-   "label": "cottrell-etal2009 (2009)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:j",
-   "label": "j",
-   "kind": "author"
-  },
-  {
-   "id": "author:p",
-   "label": "p",
-   "kind": "author"
-  },
-  {
-   "id": "author:paul",
-   "label": "paul",
-   "kind": "author"
-  },
-  {
-   "id": "author:f",
-   "label": "f",
-   "kind": "author"
-  },
-  {
-   "id": "citation:markowich-etal2009 (2009)",
-   "label": "markowich-etal2009 (2009)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:jan-f",
-   "label": "jan-f",
-   "kind": "author"
-  },
-  {
-   "id": "author:norayr",
-   "label": "norayr",
-   "kind": "author"
   },
   {
    "id": "section:[a5. \"the relaxation limit vindicates simultaneism\"]",
@@ -1381,13 +1286,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:ellis",
-   "label": "ellis",
+   "id": "author:gregor",
+   "label": "gregor",
    "kind": "author"
   },
   {
-   "id": "author:gregor",
-   "label": "gregor",
+   "id": "author:ellis",
+   "label": "ellis",
    "kind": "author"
   },
   {
@@ -1406,28 +1311,18 @@
    "kind": "author"
   },
   {
-   "id": "citation:foley1994 (1994)",
-   "label": "foley1994 (1994)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:k",
-   "label": "k",
-   "kind": "author"
-  },
-  {
    "id": "citation:jin-xin1995 (1995)",
    "label": "jin-xin1995 (1995)",
    "kind": "citation"
   },
   {
-   "id": "author:shi",
-   "label": "shi",
+   "id": "author:ping",
+   "label": "ping",
    "kind": "author"
   },
   {
-   "id": "author:ping",
-   "label": "ping",
+   "id": "author:shi",
+   "label": "shi",
    "kind": "author"
   },
   {
@@ -1439,26 +1334,6 @@
    "id": "keyword:track",
    "label": "track",
    "kind": "keyword"
-  },
-  {
-   "id": "citation:bar-sinai2019 (2019)",
-   "label": "bar-sinai2019 (2019)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:stephan",
-   "label": "stephan",
-   "kind": "author"
-  },
-  {
-   "id": "author:yohai",
-   "label": "yohai",
-   "kind": "author"
-  },
-  {
-   "id": "author:jason",
-   "label": "jason",
-   "kind": "author"
   },
   {
    "id": "section:[finite-speed value: a research program in marxian econophysics]",
@@ -1511,31 +1386,6 @@
    "kind": "keyword"
   },
   {
-   "id": "citation:day1972 (1972)",
-   "label": "day1972 (1972)",
-   "kind": "citation"
-  },
-  {
-   "id": "citation:baez-lynch-moeller2023 (2023)",
-   "label": "baez-lynch-moeller2023 (2023)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:joe",
-   "label": "joe",
-   "kind": "author"
-  },
-  {
-   "id": "author:c",
-   "label": "c",
-   "kind": "author"
-  },
-  {
-   "id": "author:owen",
-   "label": "owen",
-   "kind": "author"
-  },
-  {
    "id": "section:[2.3 gravitation dynamics]",
    "label": "[2.3 Gravitation dynamics]",
    "kind": "section"
@@ -1554,16 +1404,6 @@
    "id": "section:[2.4 classical econophysics and finite-speed precedents]",
    "label": "[2.4 Classical econophysics and finite-speed precedents]",
    "kind": "section"
-  },
-  {
-   "id": "citation:farjoun-machover1983 (1983)",
-   "label": "farjoun-machover1983 (1983)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:emmanuel",
-   "label": "emmanuel",
-   "kind": "author"
   },
   {
    "id": "section:[2.5 gap summary]",
@@ -1676,16 +1516,6 @@
    "kind": "citation"
   },
   {
-   "id": "citation:gupta-lermusiaux2021 (2021)",
-   "label": "gupta-lermusiaux2021 (2021)",
-   "kind": "citation"
-  },
-  {
-   "id": "author:arjit",
-   "label": "arjit",
-   "kind": "author"
-  },
-  {
    "id": "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]",
    "label": "[2026-08-16 \u2014 Track refactor (3 \u2192 4 tracks, four-discipline framing)]",
    "kind": "section"
@@ -1706,13 +1536,13 @@
    "kind": "author"
   },
   {
-   "id": "author:em",
-   "label": "em",
+   "id": "author:paris",
+   "label": "paris",
    "kind": "author"
   },
   {
-   "id": "author:paris",
-   "label": "paris",
+   "id": "author:em",
+   "label": "em",
    "kind": "author"
   },
   {
@@ -1731,18 +1561,48 @@
    "kind": "author"
   },
   {
+   "id": "citation:gupta-lermusiaux2021 (2021)",
+   "label": "gupta-lermusiaux2021 (2021)",
+   "kind": "citation"
+  },
+  {
+   "id": "author:arjit",
+   "label": "arjit",
+   "kind": "author"
+  },
+  {
+   "id": "citation:bar-sinai2019 (2019)",
+   "label": "bar-sinai2019 (2019)",
+   "kind": "citation"
+  },
+  {
+   "id": "author:jason",
+   "label": "jason",
+   "kind": "author"
+  },
+  {
+   "id": "author:yohai",
+   "label": "yohai",
+   "kind": "author"
+  },
+  {
+   "id": "author:stephan",
+   "label": "stephan",
+   "kind": "author"
+  },
+  {
    "id": "citation:brennan-venturi2018 (2018)",
    "label": "brennan-venturi2018 (2018)",
    "kind": "citation"
   },
   {
-   "id": "author:daniele",
-   "label": "daniele",
+   "id": "author:christopher",
+   "label": "christopher",
    "kind": "author"
   },
   {
-   "id": "author:christopher",
-   "label": "christopher",
+   "id": "author:daniele",
+   "label": "daniele",
    "kind": "author"
   },
   {
@@ -1756,13 +1616,13 @@
    "kind": "author"
   },
   {
-   "id": "author:james",
-   "label": "james",
+   "id": "author:sophie",
+   "label": "sophie",
    "kind": "author"
   },
   {
-   "id": "author:sophie",
-   "label": "sophie",
+   "id": "author:james",
+   "label": "james",
    "kind": "author"
   },
   {
@@ -1776,13 +1636,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:maia",
-   "label": "maia",
+   "id": "author:jesus",
+   "label": "jesus",
    "kind": "author"
   },
   {
-   "id": "author:jesus",
-   "label": "jesus",
+   "id": "author:maia",
+   "label": "maia",
    "kind": "author"
   },
   {
@@ -2386,19 +2246,99 @@
    "kind": "keyword"
   },
   {
-   "id": "keyword:llm",
-   "label": "llm",
+   "id": "keyword:phase",
+   "label": "phase",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[corpus manifest (`corpus.json`) - build is now manifest-driven]",
+   "label": "[Corpus manifest (`corpus.json`) \u2014 build is now manifest-driven]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:poc",
+   "label": "poc",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:pocs",
+   "label": "pocs",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[pipelines]",
+   "label": "[Pipelines]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:reusing",
+   "label": "reusing",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[growth (rebuilt graph)]",
+   "label": "[Growth (rebuilt graph)]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[new capability demonstrated]",
+   "label": "[New capability demonstrated]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:foley",
+   "label": "foley",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:returns",
+   "label": "returns",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[incremental fast path]",
+   "label": "[Incremental fast path]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:unchanged corpus reuses",
+   "label": "unchanged corpus reuses",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:corpus size rebuilds",
+   "label": "corpus size rebuilds",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:stored summary",
+   "label": "stored summary",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[openalex expansion run (this build)]",
+   "label": "[OpenAlex expansion run (this build)]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:file-based serving proves insufficient",
+   "label": "file-based serving proves insufficient",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:llm answers",
+   "label": "llm answers",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:semantic neighborhood queries",
+   "label": "semantic neighborhood queries",
    "kind": "keyword"
   },
   {
    "id": "section:[plumbing - environment setup & smoke test]",
    "label": "[Plumbing \u2014 environment setup & smoke test]",
    "kind": "section"
-  },
-  {
-   "id": "keyword:phase",
-   "label": "phase",
-   "kind": "keyword"
   },
   {
    "id": "section:[what plumbing provides here]",
@@ -3213,9 +3153,6 @@
   {
    "id": "e2",
    "members": [
-    "author:m",
-    "citation:muller-ruggeri1998 (1998)",
-    "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
@@ -3325,11 +3262,6 @@
   {
    "id": "e11",
    "members": [
-    "author:a",
-    "author:luis",
-    "author:marie-therese",
-    "author:martin",
-    "citation:burger-etal2013 (2013)",
     "keyword:initial layer",
     "keyword:kinetic models solutions",
     "keyword:parabolic descriptions",
@@ -3563,11 +3495,6 @@
    "id": "e28",
    "members": [
     "artifact:track a",
-    "author:e",
-    "author:m",
-    "author:o",
-    "citation:gurtin-williams1967 (1967)",
-    "citation:muller1967 (1967)",
     "keyword:constitutive relations",
     "keyword:rational mechanics",
     "keyword:rational thermodynamics",
@@ -3666,11 +3593,6 @@
    "members": [
     "artifact:t3",
     "artifact:t4",
-    "author:a",
-    "author:luis",
-    "author:marie-therese",
-    "author:martin",
-    "citation:burger-etal2013 (2013)",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
@@ -3705,17 +3627,6 @@
    "members": [
     "artifact:t3",
     "artifact:t4",
-    "author:a",
-    "author:f",
-    "author:j",
-    "author:jan-f",
-    "author:m",
-    "author:marie-therese",
-    "author:norayr",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
-    "citation:markowich-etal2009 (2009)",
     "keyword:interpretive question",
     "keyword:program defends tssi",
     "keyword:tssi",
@@ -3947,13 +3858,11 @@
     "artifact:track f",
     "author:ellis",
     "author:gregor",
-    "author:k",
     "author:miroslav",
     "author:ping",
     "author:roberto",
     "author:shi",
     "author:simon",
-    "citation:foley1994 (1994)",
     "citation:grmela2015 (2015)",
     "citation:grmela2021 (2021)",
     "citation:jin-xin1995 (1995)",
@@ -3973,11 +3882,6 @@
     "artifact:track b",
     "artifact:track e",
     "artifact:track f",
-    "author:jason",
-    "author:p",
-    "author:stephan",
-    "author:yohai",
-    "citation:bar-sinai2019 (2019)",
     "keyword:track",
     "project:ret-tssi",
     "section:[watch list (to read before the expos\u00e9)]"
@@ -4002,12 +3906,6 @@
     "artifact:track d",
     "artifact:track e",
     "artifact:track f",
-    "author:f",
-    "author:j",
-    "author:m",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
     "keyword:modern hyperbolic theory supply",
     "keyword:simultaneist value theory",
     "notation:cattaneo",
@@ -4021,17 +3919,6 @@
   {
    "id": "e63",
    "members": [
-    "author:a",
-    "author:f",
-    "author:j",
-    "author:jan-f",
-    "author:m",
-    "author:marie-therese",
-    "author:norayr",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
-    "citation:markowich-etal2009 (2009)",
     "project:ret-tssi",
     "section:[2.1 the transformation problem and tssi]"
    ]
@@ -4039,14 +3926,6 @@
   {
    "id": "e64",
    "members": [
-    "author:a",
-    "author:c",
-    "author:joe",
-    "author:m",
-    "author:owen",
-    "citation:baez-lynch-moeller2023 (2023)",
-    "citation:day1972 (1972)",
-    "citation:muller1967 (1967)",
     "keyword:concave entropy density",
     "keyword:convex entropy extension renders",
     "keyword:entropy principle",
@@ -4072,9 +3951,6 @@
   {
    "id": "e66",
    "members": [
-    "author:e",
-    "author:emmanuel",
-    "citation:farjoun-machover1983 (1983)",
     "project:ret-tssi",
     "section:[2.4 classical econophysics and finite-speed precedents]"
    ]
@@ -4221,21 +4097,6 @@
   {
    "id": "e77",
    "members": [
-    "author:e",
-    "author:emmanuel",
-    "author:f",
-    "author:j",
-    "author:jason",
-    "author:m",
-    "author:p",
-    "author:paul",
-    "author:stephan",
-    "author:yohai",
-    "citation:bar-sinai2019 (2019)",
-    "citation:cottrell-etal2009 (2009)",
-    "citation:farjoun-machover1983 (1983)",
-    "citation:muller-ruggeri1998 (1998)",
-    "citation:muller1967 (1967)",
     "notation:cattaneo",
     "project:ret-tssi",
     "section:[12. references]"
@@ -4247,11 +4108,6 @@
     "artifact:t1",
     "artifact:t4",
     "artifact:track a",
-    "author:a",
-    "author:luis",
-    "author:marie-therese",
-    "author:martin",
-    "citation:burger-etal2013 (2013)",
     "notation:gravitation",
     "project:ret-tssi",
     "section:[2026-08-15 - project initialization and program document]"
@@ -4261,22 +4117,17 @@
    "id": "e79",
    "members": [
     "artifact:track c",
-    "author:arjit",
     "author:ellis",
     "author:gregor",
-    "author:j",
-    "author:k",
     "author:miroslav",
     "author:ping",
     "author:roberto",
     "author:shi",
     "author:simon",
-    "citation:foley1994 (1994)",
     "citation:grmela-ottinger1997a (1997)",
     "citation:grmela2015 (2015)",
     "citation:grmela2018 (2018)",
     "citation:grmela2021 (2021)",
-    "citation:gupta-lermusiaux2021 (2021)",
     "citation:jin-xin1995 (1995)",
     "citation:mohun-veneziani2017 (2017)",
     "citation:scharfenaker-semieniuk2017 (2017)",
@@ -4314,7 +4165,6 @@
     "author:floris",
     "author:guillaume",
     "author:heather",
-    "author:j",
     "author:james",
     "author:jason",
     "author:jesus",
@@ -4323,7 +4173,6 @@
     "author:luke",
     "author:maia",
     "author:maziar",
-    "author:p",
     "author:paris",
     "author:ping",
     "author:scott",
@@ -4362,8 +4211,6 @@
   {
    "id": "e83",
    "members": [
-    "author:k",
-    "citation:foley1994 (1994)",
     "keyword:driven non-equilibrium steady state",
     "notation:cattaneo",
     "notation:gravitation",
@@ -4490,9 +4337,6 @@
   {
    "id": "e96",
    "members": [
-    "author:arjit",
-    "author:j",
-    "citation:gupta-lermusiaux2021 (2021)",
     "keyword:doi",
     "project:ret-tssi",
     "section:[8. verification ledger (what was checked, so it isnt re-checked)]"
@@ -4640,8 +4484,6 @@
    "members": [
     "artifact:track a",
     "artifact:track b",
-    "author:m",
-    "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
@@ -4671,12 +4513,6 @@
    "id": "e111",
    "members": [
     "artifact:track d",
-    "author:f",
-    "author:j",
-    "author:m",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
     "keyword:prices form one system",
     "keyword:prices visibly differ",
     "notation:gravitation",
@@ -4895,13 +4731,79 @@
   {
    "id": "e130",
    "members": [
-    "keyword:llm",
+    "keyword:phase",
     "project:poc",
     "section:[next]"
    ]
   },
   {
    "id": "e131",
+   "members": [
+    "keyword:poc",
+    "keyword:pocs",
+    "project:poc",
+    "section:[corpus manifest (`corpus.json`) - build is now manifest-driven]"
+   ]
+  },
+  {
+   "id": "e132",
+   "members": [
+    "keyword:reusing",
+    "project:poc",
+    "section:[pipelines]"
+   ]
+  },
+  {
+   "id": "e133",
+   "members": [
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:gravitation",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "notation:tau_j",
+    "project:poc",
+    "section:[growth (rebuilt graph)]"
+   ]
+  },
+  {
+   "id": "e134",
+   "members": [
+    "keyword:foley",
+    "keyword:returns",
+    "project:poc",
+    "section:[new capability demonstrated]"
+   ]
+  },
+  {
+   "id": "e135",
+   "members": [
+    "keyword:corpus size rebuilds",
+    "keyword:stored summary",
+    "keyword:unchanged corpus reuses",
+    "project:poc",
+    "section:[incremental fast path]"
+   ]
+  },
+  {
+   "id": "e136",
+   "members": [
+    "project:poc",
+    "section:[openalex expansion run (this build)]"
+   ]
+  },
+  {
+   "id": "e137",
+   "members": [
+    "keyword:file-based serving proves insufficient",
+    "keyword:llm answers",
+    "keyword:semantic neighborhood queries",
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e138",
    "members": [
     "keyword:opencode",
     "keyword:phase",
@@ -4910,7 +4812,7 @@
    ]
   },
   {
-   "id": "e132",
+   "id": "e139",
    "members": [
     "keyword:research workflow",
     "project:poc",
@@ -4918,7 +4820,7 @@
    ]
   },
   {
-   "id": "e133",
+   "id": "e140",
    "members": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -4927,7 +4829,7 @@
    ]
   },
   {
-   "id": "e134",
+   "id": "e141",
    "members": [
     "keyword:dune build",
     "project:poc",
@@ -4935,7 +4837,7 @@
    ]
   },
   {
-   "id": "e135",
+   "id": "e142",
    "members": [
     "keyword:bash",
     "project:poc",
@@ -4943,14 +4845,14 @@
    ]
   },
   {
-   "id": "e136",
+   "id": "e143",
    "members": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
    ]
   },
   {
-   "id": "e137",
+   "id": "e144",
    "members": [
     "keyword:nix develop",
     "project:poc",
@@ -4958,7 +4860,7 @@
    ]
   },
   {
-   "id": "e138",
+   "id": "e145",
    "members": [
     "keyword:nix develop",
     "project:poc",
@@ -4966,7 +4868,7 @@
    ]
   },
   {
-   "id": "e139",
+   "id": "e146",
    "members": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -4975,14 +4877,14 @@
    ]
   },
   {
-   "id": "e140",
+   "id": "e147",
    "members": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
    ]
   },
   {
-   "id": "e141",
+   "id": "e148",
    "members": [
     "keyword:nix build",
     "project:poc",
@@ -4990,7 +4892,7 @@
    ]
   },
   {
-   "id": "e142",
+   "id": "e149",
    "members": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -4999,7 +4901,7 @@
    ]
   },
   {
-   "id": "e143",
+   "id": "e150",
    "members": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -5007,7 +4909,7 @@
    ]
   },
   {
-   "id": "e144",
+   "id": "e151",
    "members": [
     "keyword:reasoning",
     "project:top",
@@ -5015,7 +4917,7 @@
    ]
   },
   {
-   "id": "e145",
+   "id": "e152",
    "members": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -5024,14 +4926,14 @@
    ]
   },
   {
-   "id": "e146",
+   "id": "e153",
    "members": [
     "project:top",
     "section:[3. proposed architecture]"
    ]
   },
   {
-   "id": "e147",
+   "id": "e154",
    "members": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -5039,14 +4941,14 @@
    ]
   },
   {
-   "id": "e148",
+   "id": "e155",
    "members": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
    ]
   },
   {
-   "id": "e149",
+   "id": "e156",
    "members": [
     "artifact:track f",
     "notation:sk condition",
@@ -5055,14 +4957,14 @@
    ]
   },
   {
-   "id": "e150",
+   "id": "e157",
    "members": [
     "project:top",
     "section:[7. risks and open decisions]"
    ]
   },
   {
-   "id": "e151",
+   "id": "e158",
    "members": [
     "artifact:track b",
     "project:top",
@@ -5070,7 +4972,7 @@
    ]
   },
   {
-   "id": "e152",
+   "id": "e159",
    "members": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -5091,7 +4993,7 @@
    ]
   },
   {
-   "id": "e153",
+   "id": "e160",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -5110,7 +5012,7 @@
    ]
   },
   {
-   "id": "e154",
+   "id": "e161",
    "members": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -5120,7 +5022,7 @@
    ]
   },
   {
-   "id": "e155",
+   "id": "e162",
    "members": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -5140,7 +5042,7 @@
    ]
   },
   {
-   "id": "e156",
+   "id": "e163",
    "members": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -5161,7 +5063,7 @@
    ]
   },
   {
-   "id": "e157",
+   "id": "e164",
    "members": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -5179,7 +5081,7 @@
    ]
   },
   {
-   "id": "e158",
+   "id": "e165",
    "members": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -5195,7 +5097,7 @@
    ]
   },
   {
-   "id": "e159",
+   "id": "e166",
    "members": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -5219,7 +5121,7 @@
    ]
   },
   {
-   "id": "e160",
+   "id": "e167",
    "members": [
     "author:arnau riera",
     "author:john goold",
@@ -5241,7 +5143,7 @@
    ]
   },
   {
-   "id": "e161",
+   "id": "e168",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -5331,21 +5233,6 @@
    "id": "keyword:entropy principle",
    "label": "entropy principle",
    "kind": "keyword"
-  },
-  "citation:muller-ruggeri1998 (1998)": {
-   "id": "citation:muller-ruggeri1998 (1998)",
-   "label": "muller-ruggeri1998 (1998)",
-   "kind": "citation"
-  },
-  "author:m": {
-   "id": "author:m",
-   "label": "m",
-   "kind": "author"
-  },
-  "citation:muller1967 (1967)": {
-   "id": "citation:muller1967 (1967)",
-   "label": "muller1967 (1967)",
-   "kind": "citation"
   },
   "notation:sk condition": {
    "id": "notation:sk condition",
@@ -5546,31 +5433,6 @@
    "id": "keyword:initial layer",
    "label": "initial layer",
    "kind": "keyword"
-  },
-  "citation:burger-etal2013 (2013)": {
-   "id": "citation:burger-etal2013 (2013)",
-   "label": "burger-etal2013 (2013)",
-   "kind": "citation"
-  },
-  "author:martin": {
-   "id": "author:martin",
-   "label": "martin",
-   "kind": "author"
-  },
-  "author:a": {
-   "id": "author:a",
-   "label": "a",
-   "kind": "author"
-  },
-  "author:marie-therese": {
-   "id": "author:marie-therese",
-   "label": "marie-therese",
-   "kind": "author"
-  },
-  "author:luis": {
-   "id": "author:luis",
-   "label": "luis",
-   "kind": "author"
   },
   "section:[cattaneo (1948) - sulla conduzione del calore]": {
    "id": "section:[cattaneo (1948) - sulla conduzione del calore]",
@@ -6032,21 +5894,6 @@
    "label": "rational mechanics",
    "kind": "keyword"
   },
-  "citation:gurtin-williams1967 (1967)": {
-   "id": "citation:gurtin-williams1967 (1967)",
-   "label": "gurtin-williams1967 (1967)",
-   "kind": "citation"
-  },
-  "author:o": {
-   "id": "author:o",
-   "label": "o",
-   "kind": "author"
-  },
-  "author:e": {
-   "id": "author:e",
-   "label": "e",
-   "kind": "author"
-  },
   "section:[ruggeri & strumia (1981) - main field and convex covariant density]": {
    "id": "section:[ruggeri & strumia (1981) - main field and convex covariant density]",
    "label": "[Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density]",
@@ -6286,46 +6133,6 @@
    "id": "keyword:interpretive question",
    "label": "interpretive question",
    "kind": "keyword"
-  },
-  "citation:cottrell-etal2009 (2009)": {
-   "id": "citation:cottrell-etal2009 (2009)",
-   "label": "cottrell-etal2009 (2009)",
-   "kind": "citation"
-  },
-  "author:j": {
-   "id": "author:j",
-   "label": "j",
-   "kind": "author"
-  },
-  "author:p": {
-   "id": "author:p",
-   "label": "p",
-   "kind": "author"
-  },
-  "author:paul": {
-   "id": "author:paul",
-   "label": "paul",
-   "kind": "author"
-  },
-  "author:f": {
-   "id": "author:f",
-   "label": "f",
-   "kind": "author"
-  },
-  "citation:markowich-etal2009 (2009)": {
-   "id": "citation:markowich-etal2009 (2009)",
-   "label": "markowich-etal2009 (2009)",
-   "kind": "citation"
-  },
-  "author:jan-f": {
-   "id": "author:jan-f",
-   "label": "jan-f",
-   "kind": "author"
-  },
-  "author:norayr": {
-   "id": "author:norayr",
-   "label": "norayr",
-   "kind": "author"
   },
   "section:[a5. \"the relaxation limit vindicates simultaneism\"]": {
    "id": "section:[a5. \"the relaxation limit vindicates simultaneism\"]",
@@ -6637,14 +6444,14 @@
    "label": "scharfenaker-semieniuk2017 (2017)",
    "kind": "citation"
   },
-  "author:ellis": {
-   "id": "author:ellis",
-   "label": "ellis",
-   "kind": "author"
-  },
   "author:gregor": {
    "id": "author:gregor",
    "label": "gregor",
+   "kind": "author"
+  },
+  "author:ellis": {
+   "id": "author:ellis",
+   "label": "ellis",
    "kind": "author"
   },
   "citation:mohun-veneziani2017 (2017)": {
@@ -6662,29 +6469,19 @@
    "label": "simon",
    "kind": "author"
   },
-  "citation:foley1994 (1994)": {
-   "id": "citation:foley1994 (1994)",
-   "label": "foley1994 (1994)",
-   "kind": "citation"
-  },
-  "author:k": {
-   "id": "author:k",
-   "label": "k",
-   "kind": "author"
-  },
   "citation:jin-xin1995 (1995)": {
    "id": "citation:jin-xin1995 (1995)",
    "label": "jin-xin1995 (1995)",
    "kind": "citation"
   },
-  "author:shi": {
-   "id": "author:shi",
-   "label": "shi",
-   "kind": "author"
-  },
   "author:ping": {
    "id": "author:ping",
    "label": "ping",
+   "kind": "author"
+  },
+  "author:shi": {
+   "id": "author:shi",
+   "label": "shi",
    "kind": "author"
   },
   "section:[watch list (to read before the expos\u00e9)]": {
@@ -6696,26 +6493,6 @@
    "id": "keyword:track",
    "label": "track",
    "kind": "keyword"
-  },
-  "citation:bar-sinai2019 (2019)": {
-   "id": "citation:bar-sinai2019 (2019)",
-   "label": "bar-sinai2019 (2019)",
-   "kind": "citation"
-  },
-  "author:stephan": {
-   "id": "author:stephan",
-   "label": "stephan",
-   "kind": "author"
-  },
-  "author:yohai": {
-   "id": "author:yohai",
-   "label": "yohai",
-   "kind": "author"
-  },
-  "author:jason": {
-   "id": "author:jason",
-   "label": "jason",
-   "kind": "author"
   },
   "section:[finite-speed value: a research program in marxian econophysics]": {
    "id": "section:[finite-speed value: a research program in marxian econophysics]",
@@ -6767,31 +6544,6 @@
    "label": "concave entropy density",
    "kind": "keyword"
   },
-  "citation:day1972 (1972)": {
-   "id": "citation:day1972 (1972)",
-   "label": "day1972 (1972)",
-   "kind": "citation"
-  },
-  "citation:baez-lynch-moeller2023 (2023)": {
-   "id": "citation:baez-lynch-moeller2023 (2023)",
-   "label": "baez-lynch-moeller2023 (2023)",
-   "kind": "citation"
-  },
-  "author:joe": {
-   "id": "author:joe",
-   "label": "joe",
-   "kind": "author"
-  },
-  "author:c": {
-   "id": "author:c",
-   "label": "c",
-   "kind": "author"
-  },
-  "author:owen": {
-   "id": "author:owen",
-   "label": "owen",
-   "kind": "author"
-  },
   "section:[2.3 gravitation dynamics]": {
    "id": "section:[2.3 gravitation dynamics]",
    "label": "[2.3 Gravitation dynamics]",
@@ -6811,16 +6563,6 @@
    "id": "section:[2.4 classical econophysics and finite-speed precedents]",
    "label": "[2.4 Classical econophysics and finite-speed precedents]",
    "kind": "section"
-  },
-  "citation:farjoun-machover1983 (1983)": {
-   "id": "citation:farjoun-machover1983 (1983)",
-   "label": "farjoun-machover1983 (1983)",
-   "kind": "citation"
-  },
-  "author:emmanuel": {
-   "id": "author:emmanuel",
-   "label": "emmanuel",
-   "kind": "author"
   },
   "section:[2.5 gap summary]": {
    "id": "section:[2.5 gap summary]",
@@ -6932,16 +6674,6 @@
    "label": "grmela2018 (2018)",
    "kind": "citation"
   },
-  "citation:gupta-lermusiaux2021 (2021)": {
-   "id": "citation:gupta-lermusiaux2021 (2021)",
-   "label": "gupta-lermusiaux2021 (2021)",
-   "kind": "citation"
-  },
-  "author:arjit": {
-   "id": "author:arjit",
-   "label": "arjit",
-   "kind": "author"
-  },
   "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]": {
    "id": "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]",
    "label": "[2026-08-16 \u2014 Track refactor (3 \u2192 4 tracks, four-discipline framing)]",
@@ -6962,14 +6694,14 @@
    "label": "maziar",
    "kind": "author"
   },
-  "author:em": {
-   "id": "author:em",
-   "label": "em",
-   "kind": "author"
-  },
   "author:paris": {
    "id": "author:paris",
    "label": "paris",
+   "kind": "author"
+  },
+  "author:em": {
+   "id": "author:em",
+   "label": "em",
    "kind": "author"
   },
   "citation:pan-duraisamy2018 (2018)": {
@@ -6987,19 +6719,49 @@
    "label": "shaowu",
    "kind": "author"
   },
+  "citation:gupta-lermusiaux2021 (2021)": {
+   "id": "citation:gupta-lermusiaux2021 (2021)",
+   "label": "gupta-lermusiaux2021 (2021)",
+   "kind": "citation"
+  },
+  "author:arjit": {
+   "id": "author:arjit",
+   "label": "arjit",
+   "kind": "author"
+  },
+  "citation:bar-sinai2019 (2019)": {
+   "id": "citation:bar-sinai2019 (2019)",
+   "label": "bar-sinai2019 (2019)",
+   "kind": "citation"
+  },
+  "author:jason": {
+   "id": "author:jason",
+   "label": "jason",
+   "kind": "author"
+  },
+  "author:yohai": {
+   "id": "author:yohai",
+   "label": "yohai",
+   "kind": "author"
+  },
+  "author:stephan": {
+   "id": "author:stephan",
+   "label": "stephan",
+   "kind": "author"
+  },
   "citation:brennan-venturi2018 (2018)": {
    "id": "citation:brennan-venturi2018 (2018)",
    "label": "brennan-venturi2018 (2018)",
    "kind": "citation"
   },
-  "author:daniele": {
-   "id": "author:daniele",
-   "label": "daniele",
-   "kind": "author"
-  },
   "author:christopher": {
    "id": "author:christopher",
    "label": "christopher",
+   "kind": "author"
+  },
+  "author:daniele": {
+   "id": "author:daniele",
+   "label": "daniele",
    "kind": "author"
   },
   "citation:libkind-etal2022 (2022)": {
@@ -7012,14 +6774,14 @@
    "label": "andrew",
    "kind": "author"
   },
-  "author:james": {
-   "id": "author:james",
-   "label": "james",
-   "kind": "author"
-  },
   "author:sophie": {
    "id": "author:sophie",
    "label": "sophie",
+   "kind": "author"
+  },
+  "author:james": {
+   "id": "author:james",
+   "label": "james",
    "kind": "author"
   },
   "author:evan": {
@@ -7032,14 +6794,14 @@
    "label": "morris-etal2024 (2024)",
    "kind": "citation"
   },
-  "author:maia": {
-   "id": "author:maia",
-   "label": "maia",
-   "kind": "author"
-  },
   "author:jesus": {
    "id": "author:jesus",
    "label": "jesus",
+   "kind": "author"
+  },
+  "author:maia": {
+   "id": "author:maia",
+   "label": "maia",
    "kind": "author"
   },
   "author:luke": {
@@ -7642,20 +7404,100 @@
    "label": "ranked output",
    "kind": "keyword"
   },
-  "keyword:llm": {
-   "id": "keyword:llm",
-   "label": "llm",
+  "keyword:phase": {
+   "id": "keyword:phase",
+   "label": "phase",
+   "kind": "keyword"
+  },
+  "section:[corpus manifest (`corpus.json`) - build is now manifest-driven]": {
+   "id": "section:[corpus manifest (`corpus.json`) - build is now manifest-driven]",
+   "label": "[Corpus manifest (`corpus.json`) \u2014 build is now manifest-driven]",
+   "kind": "section"
+  },
+  "keyword:poc": {
+   "id": "keyword:poc",
+   "label": "poc",
+   "kind": "keyword"
+  },
+  "keyword:pocs": {
+   "id": "keyword:pocs",
+   "label": "pocs",
+   "kind": "keyword"
+  },
+  "section:[pipelines]": {
+   "id": "section:[pipelines]",
+   "label": "[Pipelines]",
+   "kind": "section"
+  },
+  "keyword:reusing": {
+   "id": "keyword:reusing",
+   "label": "reusing",
+   "kind": "keyword"
+  },
+  "section:[growth (rebuilt graph)]": {
+   "id": "section:[growth (rebuilt graph)]",
+   "label": "[Growth (rebuilt graph)]",
+   "kind": "section"
+  },
+  "section:[new capability demonstrated]": {
+   "id": "section:[new capability demonstrated]",
+   "label": "[New capability demonstrated]",
+   "kind": "section"
+  },
+  "keyword:foley": {
+   "id": "keyword:foley",
+   "label": "foley",
+   "kind": "keyword"
+  },
+  "keyword:returns": {
+   "id": "keyword:returns",
+   "label": "returns",
+   "kind": "keyword"
+  },
+  "section:[incremental fast path]": {
+   "id": "section:[incremental fast path]",
+   "label": "[Incremental fast path]",
+   "kind": "section"
+  },
+  "keyword:unchanged corpus reuses": {
+   "id": "keyword:unchanged corpus reuses",
+   "label": "unchanged corpus reuses",
+   "kind": "keyword"
+  },
+  "keyword:corpus size rebuilds": {
+   "id": "keyword:corpus size rebuilds",
+   "label": "corpus size rebuilds",
+   "kind": "keyword"
+  },
+  "keyword:stored summary": {
+   "id": "keyword:stored summary",
+   "label": "stored summary",
+   "kind": "keyword"
+  },
+  "section:[openalex expansion run (this build)]": {
+   "id": "section:[openalex expansion run (this build)]",
+   "label": "[OpenAlex expansion run (this build)]",
+   "kind": "section"
+  },
+  "keyword:file-based serving proves insufficient": {
+   "id": "keyword:file-based serving proves insufficient",
+   "label": "file-based serving proves insufficient",
+   "kind": "keyword"
+  },
+  "keyword:llm answers": {
+   "id": "keyword:llm answers",
+   "label": "llm answers",
+   "kind": "keyword"
+  },
+  "keyword:semantic neighborhood queries": {
+   "id": "keyword:semantic neighborhood queries",
+   "label": "semantic neighborhood queries",
    "kind": "keyword"
   },
   "section:[plumbing - environment setup & smoke test]": {
    "id": "section:[plumbing - environment setup & smoke test]",
    "label": "[Plumbing \u2014 environment setup & smoke test]",
    "kind": "section"
-  },
-  "keyword:phase": {
-   "id": "keyword:phase",
-   "label": "phase",
-   "kind": "keyword"
   },
   "section:[what plumbing provides here]": {
    "id": "section:[what plumbing provides here]",
@@ -8476,9 +8318,6 @@
   {
    "id": "e2",
    "nodes": [
-    "author:m",
-    "citation:muller-ruggeri1998 (1998)",
-    "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
@@ -8487,7 +8326,7 @@
    ],
    "doc": "ret-tssi/findings.md",
    "section": "2. The thermodynamic pole (what we borrow)",
-   "arity": 8
+   "arity": 5
   },
   {
    "id": "e3",
@@ -8615,11 +8454,6 @@
   {
    "id": "e11",
    "nodes": [
-    "author:a",
-    "author:luis",
-    "author:marie-therese",
-    "author:martin",
-    "citation:burger-etal2013 (2013)",
     "keyword:initial layer",
     "keyword:kinetic models solutions",
     "keyword:parabolic descriptions",
@@ -8632,7 +8466,7 @@
    ],
    "doc": "ret-tssi/literature/burger-etal-2013.md",
    "section": "Burger, Caffarelli, Markowich & Wolfram (2013) \u2014 A Boltzmann-Type Price Formation Model",
-   "arity": 14
+   "arity": 9
   },
   {
    "id": "e12",
@@ -8904,11 +8738,6 @@
    "id": "e28",
    "nodes": [
     "artifact:track a",
-    "author:e",
-    "author:m",
-    "author:o",
-    "citation:gurtin-williams1967 (1967)",
-    "citation:muller1967 (1967)",
     "keyword:constitutive relations",
     "keyword:rational mechanics",
     "keyword:rational thermodynamics",
@@ -8920,7 +8749,7 @@
    ],
    "doc": "ret-tssi/literature/rational-thermodynamics-tradition.md",
    "section": "The Rational Thermodynamics Tradition \u2014 Coleman\u2013Noll (1963), Coleman (1964), Truesdell (1984), Gurtin\u2013Williams (1967), M\u00fcller (1967), Liu (1972)",
-   "arity": 14
+   "arity": 9
   },
   {
    "id": "e29",
@@ -9028,11 +8857,6 @@
    "nodes": [
     "artifact:t3",
     "artifact:t4",
-    "author:a",
-    "author:luis",
-    "author:marie-therese",
-    "author:martin",
-    "citation:burger-etal2013 (2013)",
     "notation:gravitation",
     "notation:simultaneism",
     "notation:sk condition",
@@ -9041,7 +8865,7 @@
    ],
    "doc": "ret-tssi/program/critiques.md",
    "section": "A1. \"Physics envy \u2014 this is a metaphor, not a model\"",
-   "arity": 12
+   "arity": 7
   },
   {
    "id": "e36",
@@ -9076,17 +8900,6 @@
    "nodes": [
     "artifact:t3",
     "artifact:t4",
-    "author:a",
-    "author:f",
-    "author:j",
-    "author:jan-f",
-    "author:m",
-    "author:marie-therese",
-    "author:norayr",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
-    "citation:markowich-etal2009 (2009)",
     "keyword:interpretive question",
     "keyword:program defends tssi",
     "keyword:tssi",
@@ -9096,7 +8909,7 @@
    ],
    "doc": "ret-tssi/program/critiques.md",
    "section": "A4. \"You're solving a non-problem\"",
-   "arity": 19
+   "arity": 8
   },
   {
    "id": "e39",
@@ -9381,13 +9194,11 @@
     "artifact:track f",
     "author:ellis",
     "author:gregor",
-    "author:k",
     "author:miroslav",
     "author:ping",
     "author:roberto",
     "author:shi",
     "author:simon",
-    "citation:foley1994 (1994)",
     "citation:grmela2015 (2015)",
     "citation:grmela2021 (2021)",
     "citation:jin-xin1995 (1995)",
@@ -9402,7 +9213,7 @@
    ],
    "doc": "ret-tssi/program/critiques.md",
    "section": "Consolidated amendments to `research-program.md`",
-   "arity": 24
+   "arity": 22
   },
   {
    "id": "e60",
@@ -9410,18 +9221,13 @@
     "artifact:track b",
     "artifact:track e",
     "artifact:track f",
-    "author:jason",
-    "author:p",
-    "author:stephan",
-    "author:yohai",
-    "citation:bar-sinai2019 (2019)",
     "keyword:track",
     "project:ret-tssi",
     "section:[watch list (to read before the expos\u00e9)]"
    ],
    "doc": "ret-tssi/program/critiques.md",
    "section": "Watch list (to read before the expos\u00e9)",
-   "arity": 11
+   "arity": 6
   },
   {
    "id": "e61",
@@ -9445,12 +9251,6 @@
     "artifact:track d",
     "artifact:track e",
     "artifact:track f",
-    "author:f",
-    "author:j",
-    "author:m",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
     "keyword:modern hyperbolic theory supply",
     "keyword:simultaneist value theory",
     "notation:cattaneo",
@@ -9462,40 +9262,21 @@
    ],
    "doc": "ret-tssi/program/research-program.md",
    "section": "1. Overview",
-   "arity": 20
+   "arity": 14
   },
   {
    "id": "e63",
    "nodes": [
-    "author:a",
-    "author:f",
-    "author:j",
-    "author:jan-f",
-    "author:m",
-    "author:marie-therese",
-    "author:norayr",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
-    "citation:markowich-etal2009 (2009)",
     "project:ret-tssi",
     "section:[2.1 the transformation problem and tssi]"
    ],
    "doc": "ret-tssi/program/research-program.md",
    "section": "2.1 The transformation problem and TSSI",
-   "arity": 13
+   "arity": 2
   },
   {
    "id": "e64",
    "nodes": [
-    "author:a",
-    "author:c",
-    "author:joe",
-    "author:m",
-    "author:owen",
-    "citation:baez-lynch-moeller2023 (2023)",
-    "citation:day1972 (1972)",
-    "citation:muller1967 (1967)",
     "keyword:concave entropy density",
     "keyword:convex entropy extension renders",
     "keyword:entropy principle",
@@ -9506,7 +9287,7 @@
    ],
    "doc": "ret-tssi/program/research-program.md",
    "section": "2.2 Rational extended thermodynamics",
-   "arity": 15
+   "arity": 7
   },
   {
    "id": "e65",
@@ -9527,15 +9308,12 @@
   {
    "id": "e66",
    "nodes": [
-    "author:e",
-    "author:emmanuel",
-    "citation:farjoun-machover1983 (1983)",
     "project:ret-tssi",
     "section:[2.4 classical econophysics and finite-speed precedents]"
    ],
    "doc": "ret-tssi/program/research-program.md",
    "section": "2.4 Classical econophysics and finite-speed precedents",
-   "arity": 5
+   "arity": 2
   },
   {
    "id": "e67",
@@ -9709,28 +9487,13 @@
   {
    "id": "e77",
    "nodes": [
-    "author:e",
-    "author:emmanuel",
-    "author:f",
-    "author:j",
-    "author:jason",
-    "author:m",
-    "author:p",
-    "author:paul",
-    "author:stephan",
-    "author:yohai",
-    "citation:bar-sinai2019 (2019)",
-    "citation:cottrell-etal2009 (2009)",
-    "citation:farjoun-machover1983 (1983)",
-    "citation:muller-ruggeri1998 (1998)",
-    "citation:muller1967 (1967)",
     "notation:cattaneo",
     "project:ret-tssi",
     "section:[12. references]"
    ],
    "doc": "ret-tssi/program/research-program.md",
    "section": "12. References",
-   "arity": 18
+   "arity": 3
   },
   {
    "id": "e78",
@@ -9738,39 +9501,29 @@
     "artifact:t1",
     "artifact:t4",
     "artifact:track a",
-    "author:a",
-    "author:luis",
-    "author:marie-therese",
-    "author:martin",
-    "citation:burger-etal2013 (2013)",
     "notation:gravitation",
     "project:ret-tssi",
     "section:[2026-08-15 - project initialization and program document]"
    ],
    "doc": "ret-tssi/research-log.md",
    "section": "2026-08-15 \u2014 Project initialization and program document",
-   "arity": 11
+   "arity": 6
   },
   {
    "id": "e79",
    "nodes": [
     "artifact:track c",
-    "author:arjit",
     "author:ellis",
     "author:gregor",
-    "author:j",
-    "author:k",
     "author:miroslav",
     "author:ping",
     "author:roberto",
     "author:shi",
     "author:simon",
-    "citation:foley1994 (1994)",
     "citation:grmela-ottinger1997a (1997)",
     "citation:grmela2015 (2015)",
     "citation:grmela2018 (2018)",
     "citation:grmela2021 (2021)",
-    "citation:gupta-lermusiaux2021 (2021)",
     "citation:jin-xin1995 (1995)",
     "citation:mohun-veneziani2017 (2017)",
     "citation:scharfenaker-semieniuk2017 (2017)",
@@ -9781,7 +9534,7 @@
    ],
    "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Git commit + critiques document",
-   "arity": 24
+   "arity": 19
   },
   {
    "id": "e80",
@@ -9814,7 +9567,6 @@
     "author:floris",
     "author:guillaume",
     "author:heather",
-    "author:j",
     "author:james",
     "author:jason",
     "author:jesus",
@@ -9823,7 +9575,6 @@
     "author:luke",
     "author:maia",
     "author:maziar",
-    "author:p",
     "author:paris",
     "author:ping",
     "author:scott",
@@ -9851,7 +9602,7 @@
    ],
    "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Six-track completion + bibliography reorganization",
-   "arity": 47
+   "arity": 45
   },
   {
    "id": "e82",
@@ -9868,8 +9619,6 @@
   {
    "id": "e83",
    "nodes": [
-    "author:k",
-    "citation:foley1994 (1994)",
     "keyword:driven non-equilibrium steady state",
     "notation:cattaneo",
     "notation:gravitation",
@@ -9880,7 +9629,7 @@
    ],
    "doc": "ret-tssi/research-log.md",
    "section": "2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring",
-   "arity": 9
+   "arity": 7
   },
   {
    "id": "e84",
@@ -10035,16 +9784,13 @@
   {
    "id": "e96",
    "nodes": [
-    "author:arjit",
-    "author:j",
-    "citation:gupta-lermusiaux2021 (2021)",
     "keyword:doi",
     "project:ret-tssi",
     "section:[8. verification ledger (what was checked, so it isnt re-checked)]"
    ],
    "doc": "ret-tssi/to_human/2026-08-16-context-preservation.md",
    "section": "8. Verification ledger (what was checked, so it isn't re-checked)",
-   "arity": 6
+   "arity": 3
   },
   {
    "id": "e97",
@@ -10224,8 +9970,6 @@
    "nodes": [
     "artifact:track a",
     "artifact:track b",
-    "author:m",
-    "citation:muller1967 (1967)",
     "keyword:entropy principle",
     "notation:sk condition",
     "notation:subcharacteristic",
@@ -10234,7 +9978,7 @@
    ],
    "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "5. The physics explainer",
-   "arity": 9
+   "arity": 7
   },
   {
    "id": "e110",
@@ -10261,12 +10005,6 @@
    "id": "e111",
    "nodes": [
     "artifact:track d",
-    "author:f",
-    "author:j",
-    "author:m",
-    "author:p",
-    "author:paul",
-    "citation:cottrell-etal2009 (2009)",
     "keyword:prices form one system",
     "keyword:prices visibly differ",
     "notation:gravitation",
@@ -10278,7 +10016,7 @@
    ],
    "doc": "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md",
    "section": "7. The economics explainer",
-   "arity": 15
+   "arity": 9
   },
   {
    "id": "e112",
@@ -10542,7 +10280,7 @@
   {
    "id": "e130",
    "nodes": [
-    "keyword:llm",
+    "keyword:phase",
     "project:poc",
     "section:[next]"
    ],
@@ -10552,6 +10290,93 @@
   },
   {
    "id": "e131",
+   "nodes": [
+    "keyword:poc",
+    "keyword:pocs",
+    "project:poc",
+    "section:[corpus manifest (`corpus.json`) - build is now manifest-driven]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Corpus manifest (`corpus.json`) \u2014 build is now manifest-driven",
+   "arity": 4
+  },
+  {
+   "id": "e132",
+   "nodes": [
+    "keyword:reusing",
+    "project:poc",
+    "section:[pipelines]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Pipelines",
+   "arity": 3
+  },
+  {
+   "id": "e133",
+   "nodes": [
+    "artifact:track a",
+    "notation:cattaneo",
+    "notation:gravitation",
+    "notation:simultaneism",
+    "notation:sk condition",
+    "notation:tau_j",
+    "project:poc",
+    "section:[growth (rebuilt graph)]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Growth (rebuilt graph)",
+   "arity": 8
+  },
+  {
+   "id": "e134",
+   "nodes": [
+    "keyword:foley",
+    "keyword:returns",
+    "project:poc",
+    "section:[new capability demonstrated]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "New capability demonstrated",
+   "arity": 4
+  },
+  {
+   "id": "e135",
+   "nodes": [
+    "keyword:corpus size rebuilds",
+    "keyword:stored summary",
+    "keyword:unchanged corpus reuses",
+    "project:poc",
+    "section:[incremental fast path]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Incremental fast path",
+   "arity": 5
+  },
+  {
+   "id": "e136",
+   "nodes": [
+    "project:poc",
+    "section:[openalex expansion run (this build)]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "OpenAlex expansion run (this build)",
+   "arity": 2
+  },
+  {
+   "id": "e137",
+   "nodes": [
+    "keyword:file-based serving proves insufficient",
+    "keyword:llm answers",
+    "keyword:semantic neighborhood queries",
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 5
+  },
+  {
+   "id": "e138",
    "nodes": [
     "keyword:opencode",
     "keyword:phase",
@@ -10563,7 +10388,7 @@
    "arity": 4
   },
   {
-   "id": "e132",
+   "id": "e139",
    "nodes": [
     "keyword:research workflow",
     "project:poc",
@@ -10574,7 +10399,7 @@
    "arity": 3
   },
   {
-   "id": "e133",
+   "id": "e140",
    "nodes": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -10586,7 +10411,7 @@
    "arity": 4
   },
   {
-   "id": "e134",
+   "id": "e141",
    "nodes": [
     "keyword:dune build",
     "project:poc",
@@ -10597,7 +10422,7 @@
    "arity": 3
   },
   {
-   "id": "e135",
+   "id": "e142",
    "nodes": [
     "keyword:bash",
     "project:poc",
@@ -10608,7 +10433,7 @@
    "arity": 3
   },
   {
-   "id": "e136",
+   "id": "e143",
    "nodes": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
@@ -10618,7 +10443,7 @@
    "arity": 2
   },
   {
-   "id": "e137",
+   "id": "e144",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -10629,7 +10454,7 @@
    "arity": 3
   },
   {
-   "id": "e138",
+   "id": "e145",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -10640,7 +10465,7 @@
    "arity": 3
   },
   {
-   "id": "e139",
+   "id": "e146",
    "nodes": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -10652,7 +10477,7 @@
    "arity": 4
   },
   {
-   "id": "e140",
+   "id": "e147",
    "nodes": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
@@ -10662,7 +10487,7 @@
    "arity": 2
   },
   {
-   "id": "e141",
+   "id": "e148",
    "nodes": [
     "keyword:nix build",
     "project:poc",
@@ -10673,7 +10498,7 @@
    "arity": 3
   },
   {
-   "id": "e142",
+   "id": "e149",
    "nodes": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -10685,7 +10510,7 @@
    "arity": 4
   },
   {
-   "id": "e143",
+   "id": "e150",
    "nodes": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -10696,7 +10521,7 @@
    "arity": 3
   },
   {
-   "id": "e144",
+   "id": "e151",
    "nodes": [
     "keyword:reasoning",
     "project:top",
@@ -10707,7 +10532,7 @@
    "arity": 3
   },
   {
-   "id": "e145",
+   "id": "e152",
    "nodes": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -10719,7 +10544,7 @@
    "arity": 4
   },
   {
-   "id": "e146",
+   "id": "e153",
    "nodes": [
     "project:top",
     "section:[3. proposed architecture]"
@@ -10729,7 +10554,7 @@
    "arity": 2
   },
   {
-   "id": "e147",
+   "id": "e154",
    "nodes": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -10740,7 +10565,7 @@
    "arity": 3
   },
   {
-   "id": "e148",
+   "id": "e155",
    "nodes": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
@@ -10750,7 +10575,7 @@
    "arity": 2
   },
   {
-   "id": "e149",
+   "id": "e156",
    "nodes": [
     "artifact:track f",
     "notation:sk condition",
@@ -10762,7 +10587,7 @@
    "arity": 4
   },
   {
-   "id": "e150",
+   "id": "e157",
    "nodes": [
     "project:top",
     "section:[7. risks and open decisions]"
@@ -10772,7 +10597,7 @@
    "arity": 2
   },
   {
-   "id": "e151",
+   "id": "e158",
    "nodes": [
     "artifact:track b",
     "project:top",
@@ -10783,7 +10608,7 @@
    "arity": 3
   },
   {
-   "id": "e152",
+   "id": "e159",
    "nodes": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -10807,7 +10632,7 @@
    "arity": 16
   },
   {
-   "id": "e153",
+   "id": "e160",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -10829,7 +10654,7 @@
    "arity": 14
   },
   {
-   "id": "e154",
+   "id": "e161",
    "nodes": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -10842,7 +10667,7 @@
    "arity": 5
   },
   {
-   "id": "e155",
+   "id": "e162",
    "nodes": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -10865,7 +10690,7 @@
    "arity": 15
   },
   {
-   "id": "e156",
+   "id": "e163",
    "nodes": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -10889,7 +10714,7 @@
    "arity": 16
   },
   {
-   "id": "e157",
+   "id": "e164",
    "nodes": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -10910,7 +10735,7 @@
    "arity": 13
   },
   {
-   "id": "e158",
+   "id": "e165",
    "nodes": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -10929,7 +10754,7 @@
    "arity": 11
   },
   {
-   "id": "e159",
+   "id": "e166",
    "nodes": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -10956,7 +10781,7 @@
    "arity": 19
   },
   {
-   "id": "e160",
+   "id": "e167",
    "nodes": [
     "author:arnau riera",
     "author:john goold",
@@ -10981,7 +10806,7 @@
    "arity": 17
   },
   {
-   "id": "e161",
+   "id": "e168",
    "nodes": [
     "author:david jou",
     "author:g. lebon",

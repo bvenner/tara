@@ -131,7 +131,9 @@ def parse_bib(bib_path: Path) -> dict:
         for token in re.split(r"\s+and\s+", authors):
             parts = _WORD_RE.findall(norm(token))
             if parts:
-                author_names.add(parts[-1])
+                nm = parts[-1]
+                if len(nm) >= 2 and nm not in {"et", "al"}:
+                    author_names.add(nm)
         ym = re.search(r"year\s*=\s*[{]?\"?(\d{4})", text[m.end():m.end() + 500], re.I)
         entries[key] = {"names": author_names, "year": ym.group(1) if ym else ""}
     return entries
