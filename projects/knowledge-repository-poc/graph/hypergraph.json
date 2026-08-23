@@ -1286,13 +1286,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:gregor",
-   "label": "gregor",
+   "id": "author:ellis",
+   "label": "ellis",
    "kind": "author"
   },
   {
-   "id": "author:ellis",
-   "label": "ellis",
+   "id": "author:gregor",
+   "label": "gregor",
    "kind": "author"
   },
   {
@@ -1301,13 +1301,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:roberto",
-   "label": "roberto",
+   "id": "author:simon",
+   "label": "simon",
    "kind": "author"
   },
   {
-   "id": "author:simon",
-   "label": "simon",
+   "id": "author:roberto",
+   "label": "roberto",
    "kind": "author"
   },
   {
@@ -1316,13 +1316,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:ping",
-   "label": "ping",
+   "id": "author:shi",
+   "label": "shi",
    "kind": "author"
   },
   {
-   "id": "author:shi",
-   "label": "shi",
+   "id": "author:ping",
+   "label": "ping",
    "kind": "author"
   },
   {
@@ -1531,13 +1531,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:maziar",
-   "label": "maziar",
+   "id": "author:paris",
+   "label": "paris",
    "kind": "author"
   },
   {
-   "id": "author:paris",
-   "label": "paris",
+   "id": "author:maziar",
+   "label": "maziar",
    "kind": "author"
   },
   {
@@ -1551,13 +1551,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:karthik",
-   "label": "karthik",
+   "id": "author:shaowu",
+   "label": "shaowu",
    "kind": "author"
   },
   {
-   "id": "author:shaowu",
-   "label": "shaowu",
+   "id": "author:karthik",
+   "label": "karthik",
    "kind": "author"
   },
   {
@@ -1576,8 +1576,8 @@
    "kind": "citation"
   },
   {
-   "id": "author:jason",
-   "label": "jason",
+   "id": "author:stephan",
+   "label": "stephan",
    "kind": "author"
   },
   {
@@ -1586,8 +1586,8 @@
    "kind": "author"
   },
   {
-   "id": "author:stephan",
-   "label": "stephan",
+   "id": "author:jason",
+   "label": "jason",
    "kind": "author"
   },
   {
@@ -1611,8 +1611,8 @@
    "kind": "citation"
   },
   {
-   "id": "author:andrew",
-   "label": "andrew",
+   "id": "author:evan",
+   "label": "evan",
    "kind": "author"
   },
   {
@@ -1626,8 +1626,8 @@
    "kind": "author"
   },
   {
-   "id": "author:evan",
-   "label": "evan",
+   "id": "author:andrew",
+   "label": "andrew",
    "kind": "author"
   },
   {
@@ -1636,13 +1636,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:jesus",
-   "label": "jesus",
+   "id": "author:maia",
+   "label": "maia",
    "kind": "author"
   },
   {
-   "id": "author:maia",
-   "label": "maia",
+   "id": "author:jesus",
+   "label": "jesus",
    "kind": "author"
   },
   {
@@ -1656,13 +1656,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:scott",
-   "label": "scott",
+   "id": "author:tuomo",
+   "label": "tuomo",
    "kind": "author"
   },
   {
-   "id": "author:tuomo",
-   "label": "tuomo",
+   "id": "author:scott",
+   "label": "scott",
    "kind": "author"
   },
   {
@@ -1691,13 +1691,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:heather",
-   "label": "heather",
+   "id": "author:floris",
+   "label": "floris",
    "kind": "author"
   },
   {
-   "id": "author:floris",
-   "label": "floris",
+   "id": "author:heather",
+   "label": "heather",
    "kind": "author"
   },
   {
@@ -1706,13 +1706,13 @@
    "kind": "citation"
   },
   {
-   "id": "author:guillaume",
-   "label": "guillaume",
+   "id": "author:erik",
+   "label": "erik",
    "kind": "author"
   },
   {
-   "id": "author:erik",
-   "label": "erik",
+   "id": "author:guillaume",
+   "label": "guillaume",
    "kind": "author"
   },
   {
@@ -2326,8 +2326,8 @@
    "kind": "keyword"
   },
   {
-   "id": "keyword:llm answers",
-   "label": "llm answers",
+   "id": "keyword:llm renders",
+   "label": "llm renders",
    "kind": "keyword"
   },
   {
@@ -2521,9 +2521,209 @@
    "kind": "section"
   },
   {
+   "id": "project:island-dt",
+   "label": "island-dt",
+   "kind": "project"
+  },
+  {
+   "id": "section:[island digital twin - literature review]",
+   "label": "[Island Digital Twin \u2014 Literature Review]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:sources",
+   "label": "sources",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[executive summary]",
+   "label": "[Executive summary]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[a. island & urban metabolism - the flow layer]",
+   "label": "[A. Island & urban metabolism \u2014 the flow layer]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:island twin would simulate",
+   "label": "island twin would simulate",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island twin",
+   "label": "island twin",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[b. 3d city models & standards - the geometric + data substrate]",
+   "label": "[B. 3D city models & standards \u2014 the geometric + data substrate]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:citygml energy ade",
+   "label": "citygml energy ade",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[c. digital twins - the container (urban theory, island practice, eu policy)]",
+   "label": "[C. Digital twins \u2014 the container (urban theory, island practice, EU policy)]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:european island twin",
+   "label": "european island twin",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:peer-to-peer smart grid using digital twins",
+   "label": "peer-to-peer smart grid using digital twins",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[d. participatory planning support & geodesign - the decision process]",
+   "label": "[D. Participatory planning support & geodesign \u2014 the decision process]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[synthesis: how the pieces compose into an \"island digital twin\"]",
+   "label": "[Synthesis: how the pieces compose into an \"island digital twin\"]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:integrated island twin",
+   "label": "integrated island twin",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island metabolic planning",
+   "label": "island metabolic planning",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island model",
+   "label": "island model",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[caveats]",
+   "label": "[Caveats]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:editorial author list unverified",
+   "label": "editorial author list unverified",
+   "kind": "keyword"
+  },
+  {
    "id": "project:openalex",
    "label": "openalex",
    "kind": "project"
+  },
+  {
+   "id": "work:resource use in small island states",
+   "label": "Resource Use in Small Island States",
+   "kind": "work"
+  },
+  {
+   "id": "author:fridolin krausmann",
+   "label": "Fridolin Krausmann",
+   "kind": "author"
+  },
+  {
+   "id": "author:regina richter",
+   "label": "Regina Richter",
+   "kind": "author"
+  },
+  {
+   "id": "author:nina eisenmenger",
+   "label": "Nina Eisenmenger",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:specific institutional arrangements drives domestic resource-use patterns",
+   "label": "specific institutional arrangements drives domestic resource-use patterns",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:narrow domestic resource base",
+   "label": "narrow domestic resource base",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:domestic material consumption",
+   "label": "domestic material consumption",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:large export-oriented metal processing industries",
+   "label": "large export-oriented metal processing industries",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:domestic renewable electricity",
+   "label": "domestic renewable electricity",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:small open economies",
+   "label": "small open economies",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:specific resource-use patterns",
+   "label": "specific resource-use patterns",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:export-oriented industries lead",
+   "label": "export-oriented industries lead",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:two key resources",
+   "label": "two key resources",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:comparatively low complexity provides interesting insights",
+   "label": "comparatively low complexity provides interesting insights",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:planning support systems and smart cities",
+   "label": "Planning Support Systems and Smart Cities",
+   "kind": "work"
+  },
+  {
+   "id": "author:stan geertman",
+   "label": "Stan Geertman",
+   "kind": "author"
+  },
+  {
+   "id": "author:joseph ferreira",
+   "label": "Joseph Ferreira",
+   "kind": "author"
+  },
+  {
+   "id": "author:robert goodspeed",
+   "label": "Robert Goodspeed",
+   "kind": "author"
+  },
+  {
+   "id": "author:john stillwell",
+   "label": "John Stillwell",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:planning support systems",
+   "label": "planning support systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:smart cities",
+   "label": "smart cities",
+   "kind": "keyword"
   },
   {
    "id": "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
@@ -2598,6 +2798,71 @@
   {
    "id": "keyword:eigenstate thermalization",
    "label": "eigenstate thermalization",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:public participation geographic information systems: a literature review and framework",
+   "label": "Public Participation Geographic Information Systems: A Literature Review and Framework",
+   "kind": "work"
+  },
+  {
+   "id": "author:ren\u00e9e sieber",
+   "label": "Ren\u00e9e Sieber",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:public participation geographic information systems",
+   "label": "public participation geographic information systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:evaluating current ppgis activities",
+   "label": "evaluating current ppgis activities",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:future ppgis research",
+   "label": "future ppgis research",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:ppgis",
+   "label": "ppgis",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:broaden public involvement",
+   "label": "broaden public involvement",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:four major themes found",
+   "label": "four major themes found",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:framework",
+   "label": "framework",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:community-based organizations",
+   "label": "community-based organizations",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:themes constitute",
+   "label": "themes constitute",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:literature review",
+   "label": "literature review",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:gis",
+   "label": "gis",
    "kind": "keyword"
   },
   {
@@ -2881,6 +3146,41 @@
    "kind": "keyword"
   },
   {
+   "id": "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research",
+   "label": "Key issues and research priorities for public participation GIS (PPGIS): A synthesis based on empirical research",
+   "kind": "work"
+  },
+  {
+   "id": "author:greg brown",
+   "label": "Greg Brown",
+   "kind": "author"
+  },
+  {
+   "id": "author:marketta kytt\u00e4",
+   "label": "Marketta Kytt\u00e4",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:research priorities",
+   "label": "research priorities",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:empirical research",
+   "label": "empirical research",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:key issues",
+   "label": "key issues",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:synthesis based",
+   "label": "synthesis based",
+   "kind": "keyword"
+  },
+  {
    "id": "work:stochastic thermodynamics, fluctuation theorems and molecular machines",
    "label": "Stochastic thermodynamics, fluctuation theorems and molecular machines",
    "kind": "work"
@@ -2928,6 +3228,136 @@
   {
    "id": "keyword:molecular motors",
    "label": "molecular motors",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:the changing metabolism of cities",
+   "label": "The Changing Metabolism of Cities",
+   "kind": "work"
+  },
+  {
+   "id": "author:christopher kennedy",
+   "label": "Christopher Kennedy",
+   "kind": "author"
+  },
+  {
+   "id": "author:john cuddihy",
+   "label": "John Cuddihy",
+   "kind": "author"
+  },
+  {
+   "id": "author:joshua engel\u2010yan",
+   "label": "Joshua Engel\u2010Yan",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:changing metabolism",
+   "label": "changing metabolism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:cities",
+   "label": "cities",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:applications of 3d city models: state of the art review",
+   "label": "Applications of 3D City Models: State of the Art Review",
+   "kind": "work"
+  },
+  {
+   "id": "author:filip biljecki",
+   "label": "Filip Biljecki",
+   "kind": "author"
+  },
+  {
+   "id": "author:jantien stoter",
+   "label": "Jantien Stoter",
+   "kind": "author"
+  },
+  {
+   "id": "author:hugo ledoux",
+   "label": "Hugo Ledoux",
+   "kind": "author"
+  },
+  {
+   "id": "author:sisi zlatanova",
+   "label": "Sisi Zlatanova",
+   "kind": "author"
+  },
+  {
+   "id": "author:arzu \u00e7\u00f6ltekin",
+   "label": "Arzu \u00c7\u00f6ltekin",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:city models appear",
+   "label": "city models appear",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:city models",
+   "label": "city models",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:identified use cases",
+   "label": "identified use cases",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:comprehensive literature study including hundreds",
+   "label": "comprehensive literature study including hundreds",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:study demonstrates",
+   "label": "study demonstrates",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:study",
+   "label": "study",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:technical information",
+   "label": "technical information",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:planning support science for smarter urban futures",
+   "label": "Planning Support Science for Smarter Urban Futures",
+   "kind": "work"
+  },
+  {
+   "id": "author:stan 1955- geertman",
+   "label": "Stan 1955- Geertman",
+   "kind": "author"
+  },
+  {
+   "id": "author:andrew allan",
+   "label": "Andrew Allan",
+   "kind": "author"
+  },
+  {
+   "id": "author:chris pettit",
+   "label": "Chris Pettit",
+   "kind": "author"
+  },
+  {
+   "id": "author:john 1952- stillwell",
+   "label": "John 1952- Stillwell",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:planning support science",
+   "label": "planning support science",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:smarter urban futures",
+   "label": "smarter urban futures",
    "kind": "keyword"
   },
   {
@@ -3011,6 +3441,306 @@
    "kind": "keyword"
   },
   {
+   "id": "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations",
+   "label": "The Energy Application Domain Extension for CityGML: enhancing interoperability for urban energy simulations",
+   "kind": "work"
+  },
+  {
+   "id": "author:giorgio agugiaro",
+   "label": "Giorgio Agugiaro",
+   "kind": "author"
+  },
+  {
+   "id": "author:joachim benner",
+   "label": "Joachim Benner",
+   "kind": "author"
+  },
+  {
+   "id": "author:piergiorgio cipriano",
+   "label": "Piergiorgio Cipriano",
+   "kind": "author"
+  },
+  {
+   "id": "author:romain nouvel",
+   "label": "Romain Nouvel",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:urban energy simulations",
+   "label": "urban energy simulations",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy application domain extension",
+   "label": "energy application domain extension",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy domain",
+   "label": "energy domain",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy ade",
+   "label": "energy ade",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy planning tools",
+   "label": "energy planning tools",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy consumption reduction",
+   "label": "energy consumption reduction",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy",
+   "label": "energy",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:omni-comprehensive urban data model covering",
+   "label": "omni-comprehensive urban data model covering",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:standard-based data model",
+   "label": "standard-based data model",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:existing data interoperability issues",
+   "label": "existing data interoperability issues",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia",
+   "label": "The \u201cMetal-Energy-Construction Mineral\u201d Nexus in the Island Metabolism: The Case of the Extractive Economy of New Caledonia",
+   "kind": "work"
+  },
+  {
+   "id": "author:jean\u2010baptiste bahers",
+   "label": "Jean\u2010Baptiste Bahers",
+   "kind": "author"
+  },
+  {
+   "id": "author:paula higuera",
+   "label": "Paula Higuera",
+   "kind": "author"
+  },
+  {
+   "id": "author:anne ventura",
+   "label": "Anne Ventura",
+   "kind": "author"
+  },
+  {
+   "id": "author:nicolas antheaume",
+   "label": "Nicolas Antheaume",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:island metabolism strives",
+   "label": "island metabolism strives",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:caledonian island metabolism",
+   "label": "caledonian island metabolism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island metabolism",
+   "label": "island metabolism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:extractive island",
+   "label": "extractive island",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island scale",
+   "label": "island scale",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island corresponds",
+   "label": "island corresponds",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:nexus approach",
+   "label": "nexus approach",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:nexus subsystem",
+   "label": "nexus subsystem",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:nexus",
+   "label": "nexus",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:islands metabolism",
+   "label": "islands metabolism",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:the impact of hurricane irma on the metabolism of st. martins island",
+   "label": "The Impact of Hurricane Irma on the Metabolism of St. Martin\u2019s Island",
+   "kind": "work"
+  },
+  {
+   "id": "author:roxana cristina popescu",
+   "label": "Roxana Cristina Popescu",
+   "kind": "author"
+  },
+  {
+   "id": "author:h\u00e9l\u00e8ne beraud",
+   "label": "H\u00e9l\u00e8ne Beraud",
+   "kind": "author"
+  },
+  {
+   "id": "author:bruno barroca",
+   "label": "Bruno Barroca",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:hurricane waste flows",
+   "label": "hurricane waste flows",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:waste flows changed durably",
+   "label": "waste flows changed durably",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:waste flows",
+   "label": "waste flows",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:improving post-hurricane waste planning",
+   "label": "improving post-hurricane waste planning",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:waste management system",
+   "label": "waste management system",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:islands total destruction tended toward",
+   "label": "islands total destruction tended toward",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:three structuring territorial metabolism dimensions",
+   "label": "three structuring territorial metabolism dimensions",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:saint martins metabolism",
+   "label": "saint martins metabolism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:metabolism",
+   "label": "metabolism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:small islands leave",
+   "label": "small islands leave",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:hurricane irma",
+   "label": "hurricane irma",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:islands",
+   "label": "islands",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki",
+   "label": "Concept and Evaluation of Heating Demand Prediction Based on 3D City Models and the CityGML Energy ADE\u2014Case Study Helsinki",
+   "kind": "work"
+  },
+  {
+   "id": "author:maxim rossknecht",
+   "label": "Maxim Rossknecht",
+   "kind": "author"
+  },
+  {
+   "id": "author:enni airaksinen",
+   "label": "Enni Airaksinen",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:heating demand prediction based",
+   "label": "heating demand prediction based",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:helsinkis assumed heating demand reduction",
+   "label": "helsinkis assumed heating demand reduction",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:heating demand reduction",
+   "label": "heating demand reduction",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:heating demand",
+   "label": "heating demand",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:district heating network",
+   "label": "district heating network",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:citygml energy ade-case study helsinki",
+   "label": "citygml energy ade-case study helsinki",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:resulting co2 emissions prediction based",
+   "label": "resulting co2 emissions prediction based",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:helsinki energy",
+   "label": "helsinki energy",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:co2 emissions",
+   "label": "co2 emissions",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:lower co2 emission factors",
+   "label": "lower co2 emission factors",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:provide energy-relevant information based",
+   "label": "provide energy-relevant information based",
+   "kind": "keyword"
+  },
+  {
    "id": "work:the role of quantum information in thermodynamics-a topical review",
    "label": "The role of quantum information in thermodynamics\u2014a topical review",
    "kind": "work"
@@ -3086,6 +3816,156 @@
    "kind": "keyword"
   },
   {
+   "id": "work:introduction: the metabolism of islands",
+   "label": "Introduction: The Metabolism of Islands",
+   "kind": "work"
+  },
+  {
+   "id": "author:simron jit singh",
+   "label": "Simron Jit Singh",
+   "kind": "author"
+  },
+  {
+   "id": "author:marina fischer\u2010kowalski",
+   "label": "Marina Fischer\u2010Kowalski",
+   "kind": "author"
+  },
+  {
+   "id": "author:marian chertow",
+   "label": "Marian Chertow",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:sustain small islands",
+   "label": "sustain small islands",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island industrial ecology",
+   "label": "island industrial ecology",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:introduce key industrial ecology concepts",
+   "label": "introduce key industrial ecology concepts",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:climate change",
+   "label": "climate change",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:allow island governments",
+   "label": "allow island governments",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:global environmental change",
+   "label": "global environmental change",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island cases",
+   "label": "island cases",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:special issue",
+   "label": "special issue",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:climate action",
+   "label": "climate action",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019",
+   "label": "The sociometabolic transition of a small Greek island: Assessing stock dynamics, resource flows, and material circularity from 1929 to 2019",
+   "kind": "work"
+  },
+  {
+   "id": "author:dominik noll",
+   "label": "Dominik Noll",
+   "kind": "author"
+  },
+  {
+   "id": "author:christian lauk",
+   "label": "Christian Lauk",
+   "kind": "author"
+  },
+  {
+   "id": "author:willi haas",
+   "label": "Willi Haas",
+   "kind": "author"
+  },
+  {
+   "id": "author:panos petridis",
+   "label": "Panos Petridis",
+   "kind": "author"
+  },
+  {
+   "id": "author:dominik wiedenhofer",
+   "label": "Dominik Wiedenhofer",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:circular material use",
+   "label": "circular material use",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:current material stocks",
+   "label": "current material stocks",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:sustainable material",
+   "label": "sustainable material",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:material circularity",
+   "label": "material circularity",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:apply material",
+   "label": "apply material",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:geomorphological characteristics make island systems special focal points",
+   "label": "geomorphological characteristics make island systems special focal points",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island almost half",
+   "label": "island almost half",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:greek island",
+   "label": "greek island",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:island community",
+   "label": "island community",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:almost entirely circular biophysical economy toward one",
+   "label": "almost entirely circular biophysical economy toward one",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:socioeconomic biophysical stocks",
+   "label": "socioeconomic biophysical stocks",
+   "kind": "keyword"
+  },
+  {
    "id": "work:extended irreversible thermodynamics",
    "label": "Extended irreversible thermodynamics",
    "kind": "work"
@@ -3123,6 +4003,326 @@
   {
    "id": "keyword:classical constitutive laws",
    "label": "classical constitutive laws",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:information modelling for urban building energy simulation-a taxonomic review",
+   "label": "Information modelling for urban building energy simulation\u2014A taxonomic review",
+   "kind": "work"
+  },
+  {
+   "id": "author:avichal malhotra",
+   "label": "Avichal Malhotra",
+   "kind": "author"
+  },
+  {
+   "id": "author:julian bischof",
+   "label": "Julian Bischof",
+   "kind": "author"
+  },
+  {
+   "id": "author:alexandru nichersu",
+   "label": "Alexandru Nichersu",
+   "kind": "author"
+  },
+  {
+   "id": "author:karl\u2010heinz h\u00e4fele",
+   "label": "Karl\u2010Heinz H\u00e4fele",
+   "kind": "author"
+  },
+  {
+   "id": "author:johannes exenberger",
+   "label": "Johannes Exenberger",
+   "kind": "author"
+  },
+  {
+   "id": "author:divyanshu sood",
+   "label": "Divyanshu Sood",
+   "kind": "author"
+  },
+  {
+   "id": "author:james allan",
+   "label": "James Allan",
+   "kind": "author"
+  },
+  {
+   "id": "author:j\u00e9r\u00f4me frisch",
+   "label": "J\u00e9r\u00f4me Frisch",
+   "kind": "author"
+  },
+  {
+   "id": "author:christoph van treeck",
+   "label": "Christoph van Treeck",
+   "kind": "author"
+  },
+  {
+   "id": "author:james odonnell",
+   "label": "James O\u2019Donnell",
+   "kind": "author"
+  },
+  {
+   "id": "author:gerald schweiger",
+   "label": "Gerald Schweiger",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:input data",
+   "label": "input data",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:associated data formats",
+   "label": "associated data formats",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:data sources",
+   "label": "data sources",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:output data",
+   "label": "output data",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:simulation processes",
+   "label": "simulation processes",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:simulation workflows",
+   "label": "simulation workflows",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:overall energy system",
+   "label": "overall energy system",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:energy consumption",
+   "label": "energy consumption",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:input",
+   "label": "input",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:ubem",
+   "label": "ubem",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago",
+   "label": "Analyzing Socio-Metabolic Vulnerability: Evidence from the Comoros Archipelago",
+   "kind": "work"
+  },
+  {
+   "id": "author:mathieu durand",
+   "label": "Mathieu Durand",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:comoros archipelago",
+   "label": "comoros archipelago",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:digital twins",
+   "label": "Digital twins",
+   "kind": "work"
+  },
+  {
+   "id": "author:michael batty",
+   "label": "Michael Batty",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:digital twins",
+   "label": "digital twins",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:socio-metabolic risk and tipping points on islands",
+   "label": "Socio-metabolic risk and tipping points on islands",
+   "kind": "work"
+  },
+  {
+   "id": "author:tailin huang",
+   "label": "Tailin Huang",
+   "kind": "author"
+  },
+  {
+   "id": "author:nidhi nagabhatla",
+   "label": "Nidhi Nagabhatla",
+   "kind": "author"
+  },
+  {
+   "id": "author:pia\u2010johanna schweizer",
+   "label": "Pia\u2010Johanna Schweizer",
+   "kind": "author"
+  },
+  {
+   "id": "author:matthew j. eckelman",
+   "label": "Matthew J. Eckelman",
+   "kind": "author"
+  },
+  {
+   "id": "author:jasper verschuur",
+   "label": "Jasper Verschuur",
+   "kind": "author"
+  },
+  {
+   "id": "author:reshma soman",
+   "label": "Reshma Soman",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:small islands using insights",
+   "label": "small islands using insights",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:small islands",
+   "label": "small islands",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:sids would mean governing socio-metabolic flows",
+   "label": "sids would mean governing socio-metabolic flows",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:pandemics significantly hinder sids progress",
+   "label": "pandemics significantly hinder sids progress",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:socio-metabolic risk",
+   "label": "socio-metabolic risk",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effectively deliver societal services necessary",
+   "label": "effectively deliver societal services necessary",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:governing smr",
+   "label": "governing smr",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:systemic risk associated",
+   "label": "systemic risk associated",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:societal services",
+   "label": "societal services",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:positioning smr",
+   "label": "positioning smr",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:tipping points",
+   "label": "tipping points",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:digital twins: the current \"krays\" of urban analytics?",
+   "label": "Digital twins: The current \u201cKrays\u201d of urban analytics?",
+   "kind": "work"
+  },
+  {
+   "id": "author:a. stewart fotheringham",
+   "label": "A. Stewart Fotheringham",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:urban analytics",
+   "label": "urban analytics",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island",
+   "label": "Evaluation of a Peer-to-Peer Smart Grid Using Digital Twins: A Case Study of a Remote European Island",
+   "kind": "work"
+  },
+  {
+   "id": "author:niall buckley",
+   "label": "Niall Buckley",
+   "kind": "author"
+  },
+  {
+   "id": "author:claudia bo",
+   "label": "Claudia Bo",
+   "kind": "author"
+  },
+  {
+   "id": "author:faezeh delkhah",
+   "label": "Faezeh Delkhah",
+   "kind": "author"
+  },
+  {
+   "id": "author:niall byrne",
+   "label": "Niall Byrne",
+   "kind": "author"
+  },
+  {
+   "id": "author:avril n\u00ed shearcaigh",
+   "label": "Avril N\u00ed Shearcaigh",
+   "kind": "author"
+  },
+  {
+   "id": "author:stephanie brennan",
+   "label": "Stephanie Brennan",
+   "kind": "author"
+  },
+  {
+   "id": "author:dayanne peretti corr\u00eaa",
+   "label": "Dayanne Peretti Corr\u00eaa",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:using digital twins",
+   "label": "using digital twins",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:predictive digital twins",
+   "label": "predictive digital twins",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:p2p energy trading",
+   "label": "p2p energy trading",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:electrifying energy systems",
+   "label": "electrifying energy systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:current energy use",
+   "label": "current energy use",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:shift energy loads",
+   "label": "shift energy loads",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:optimizing local res",
+   "label": "optimizing local res",
    "kind": "keyword"
   }
  ],
@@ -4795,15 +5995,24 @@
   {
    "id": "e137",
    "members": [
-    "keyword:file-based serving proves insufficient",
-    "keyword:llm answers",
-    "keyword:semantic neighborhood queries",
+    "keyword:opencode",
+    "notation:sk condition",
     "project:poc",
     "section:[next]"
    ]
   },
   {
    "id": "e138",
+   "members": [
+    "keyword:file-based serving proves insufficient",
+    "keyword:llm renders",
+    "keyword:semantic neighborhood queries",
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e139",
    "members": [
     "keyword:opencode",
     "keyword:phase",
@@ -4812,7 +6021,7 @@
    ]
   },
   {
-   "id": "e139",
+   "id": "e140",
    "members": [
     "keyword:research workflow",
     "project:poc",
@@ -4820,7 +6029,7 @@
    ]
   },
   {
-   "id": "e140",
+   "id": "e141",
    "members": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -4829,7 +6038,7 @@
    ]
   },
   {
-   "id": "e141",
+   "id": "e142",
    "members": [
     "keyword:dune build",
     "project:poc",
@@ -4837,7 +6046,7 @@
    ]
   },
   {
-   "id": "e142",
+   "id": "e143",
    "members": [
     "keyword:bash",
     "project:poc",
@@ -4845,18 +6054,10 @@
    ]
   },
   {
-   "id": "e143",
+   "id": "e144",
    "members": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
-   ]
-  },
-  {
-   "id": "e144",
-   "members": [
-    "keyword:nix develop",
-    "project:poc",
-    "section:[type-check at load time]"
    ]
   },
   {
@@ -4864,11 +6065,19 @@
    "members": [
     "keyword:nix develop",
     "project:poc",
-    "section:[render the architecture as a graph (dot)]"
+    "section:[type-check at load time]"
    ]
   },
   {
    "id": "e146",
+   "members": [
+    "keyword:nix develop",
+    "project:poc",
+    "section:[render the architecture as a graph (dot)]"
+   ]
+  },
+  {
+   "id": "e147",
    "members": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -4877,14 +6086,14 @@
    ]
   },
   {
-   "id": "e147",
+   "id": "e148",
    "members": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
    ]
   },
   {
-   "id": "e148",
+   "id": "e149",
    "members": [
     "keyword:nix build",
     "project:poc",
@@ -4892,7 +6101,7 @@
    ]
   },
   {
-   "id": "e149",
+   "id": "e150",
    "members": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -4901,7 +6110,7 @@
    ]
   },
   {
-   "id": "e150",
+   "id": "e151",
    "members": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -4909,7 +6118,7 @@
    ]
   },
   {
-   "id": "e151",
+   "id": "e152",
    "members": [
     "keyword:reasoning",
     "project:top",
@@ -4917,7 +6126,7 @@
    ]
   },
   {
-   "id": "e152",
+   "id": "e153",
    "members": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -4926,14 +6135,14 @@
    ]
   },
   {
-   "id": "e153",
+   "id": "e154",
    "members": [
     "project:top",
     "section:[3. proposed architecture]"
    ]
   },
   {
-   "id": "e154",
+   "id": "e155",
    "members": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -4941,14 +6150,14 @@
    ]
   },
   {
-   "id": "e155",
+   "id": "e156",
    "members": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
    ]
   },
   {
-   "id": "e156",
+   "id": "e157",
    "members": [
     "artifact:track f",
     "notation:sk condition",
@@ -4957,14 +6166,14 @@
    ]
   },
   {
-   "id": "e157",
+   "id": "e158",
    "members": [
     "project:top",
     "section:[7. risks and open decisions]"
    ]
   },
   {
-   "id": "e158",
+   "id": "e159",
    "members": [
     "artifact:track b",
     "project:top",
@@ -4972,7 +6181,109 @@
    ]
   },
   {
-   "id": "e159",
+   "id": "e160",
+   "members": [
+    "keyword:sources",
+    "project:island-dt",
+    "section:[island digital twin - literature review]"
+   ]
+  },
+  {
+   "id": "e161",
+   "members": [
+    "project:island-dt",
+    "section:[executive summary]"
+   ]
+  },
+  {
+   "id": "e162",
+   "members": [
+    "keyword:island twin",
+    "keyword:island twin would simulate",
+    "project:island-dt",
+    "section:[a. island & urban metabolism - the flow layer]"
+   ]
+  },
+  {
+   "id": "e163",
+   "members": [
+    "keyword:citygml energy ade",
+    "project:island-dt",
+    "section:[b. 3d city models & standards - the geometric + data substrate]"
+   ]
+  },
+  {
+   "id": "e164",
+   "members": [
+    "keyword:european island twin",
+    "keyword:island twin",
+    "keyword:peer-to-peer smart grid using digital twins",
+    "project:island-dt",
+    "section:[c. digital twins - the container (urban theory, island practice, eu policy)]"
+   ]
+  },
+  {
+   "id": "e165",
+   "members": [
+    "keyword:island twin",
+    "project:island-dt",
+    "section:[d. participatory planning support & geodesign - the decision process]"
+   ]
+  },
+  {
+   "id": "e166",
+   "members": [
+    "keyword:integrated island twin",
+    "keyword:island metabolic planning",
+    "keyword:island model",
+    "keyword:island twin",
+    "project:island-dt",
+    "section:[synthesis: how the pieces compose into an \"island digital twin\"]"
+   ]
+  },
+  {
+   "id": "e167",
+   "members": [
+    "keyword:editorial author list unverified",
+    "project:island-dt",
+    "section:[caveats]"
+   ]
+  },
+  {
+   "id": "e168",
+   "members": [
+    "author:fridolin krausmann",
+    "author:nina eisenmenger",
+    "author:regina richter",
+    "keyword:comparatively low complexity provides interesting insights",
+    "keyword:domestic material consumption",
+    "keyword:domestic renewable electricity",
+    "keyword:export-oriented industries lead",
+    "keyword:large export-oriented metal processing industries",
+    "keyword:narrow domestic resource base",
+    "keyword:small open economies",
+    "keyword:specific institutional arrangements drives domestic resource-use patterns",
+    "keyword:specific resource-use patterns",
+    "keyword:two key resources",
+    "project:openalex",
+    "work:resource use in small island states"
+   ]
+  },
+  {
+   "id": "e169",
+   "members": [
+    "author:john stillwell",
+    "author:joseph ferreira",
+    "author:robert goodspeed",
+    "author:stan geertman",
+    "keyword:planning support systems",
+    "keyword:smart cities",
+    "project:openalex",
+    "work:planning support systems and smart cities"
+   ]
+  },
+  {
+   "id": "e170",
    "members": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -4993,7 +6304,26 @@
    ]
   },
   {
-   "id": "e160",
+   "id": "e171",
+   "members": [
+    "author:ren\u00e9e sieber",
+    "keyword:broaden public involvement",
+    "keyword:community-based organizations",
+    "keyword:evaluating current ppgis activities",
+    "keyword:four major themes found",
+    "keyword:framework",
+    "keyword:future ppgis research",
+    "keyword:gis",
+    "keyword:literature review",
+    "keyword:ppgis",
+    "keyword:public participation geographic information systems",
+    "keyword:themes constitute",
+    "project:openalex",
+    "work:public participation geographic information systems: a literature review and framework"
+   ]
+  },
+  {
+   "id": "e172",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -5012,7 +6342,7 @@
    ]
   },
   {
-   "id": "e161",
+   "id": "e173",
    "members": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -5022,7 +6352,7 @@
    ]
   },
   {
-   "id": "e162",
+   "id": "e174",
    "members": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -5042,7 +6372,7 @@
    ]
   },
   {
-   "id": "e163",
+   "id": "e175",
    "members": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -5063,7 +6393,7 @@
    ]
   },
   {
-   "id": "e164",
+   "id": "e176",
    "members": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -5081,7 +6411,20 @@
    ]
   },
   {
-   "id": "e165",
+   "id": "e177",
+   "members": [
+    "author:greg brown",
+    "author:marketta kytt\u00e4",
+    "keyword:empirical research",
+    "keyword:key issues",
+    "keyword:research priorities",
+    "keyword:synthesis based",
+    "project:openalex",
+    "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research"
+   ]
+  },
+  {
+   "id": "e178",
    "members": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -5097,7 +6440,52 @@
    ]
   },
   {
-   "id": "e166",
+   "id": "e179",
+   "members": [
+    "author:christopher kennedy",
+    "author:john cuddihy",
+    "author:joshua engel\u2010yan",
+    "keyword:changing metabolism",
+    "keyword:cities",
+    "project:openalex",
+    "work:the changing metabolism of cities"
+   ]
+  },
+  {
+   "id": "e180",
+   "members": [
+    "author:arzu \u00e7\u00f6ltekin",
+    "author:filip biljecki",
+    "author:hugo ledoux",
+    "author:jantien stoter",
+    "author:sisi zlatanova",
+    "keyword:applications",
+    "keyword:city models",
+    "keyword:city models appear",
+    "keyword:comprehensive literature study including hundreds",
+    "keyword:identified use cases",
+    "keyword:study",
+    "keyword:study demonstrates",
+    "keyword:technical information",
+    "project:openalex",
+    "work:applications of 3d city models: state of the art review"
+   ]
+  },
+  {
+   "id": "e181",
+   "members": [
+    "author:andrew allan",
+    "author:chris pettit",
+    "author:john 1952- stillwell",
+    "author:stan 1955- geertman",
+    "keyword:planning support science",
+    "keyword:smarter urban futures",
+    "project:openalex",
+    "work:planning support science for smarter urban futures"
+   ]
+  },
+  {
+   "id": "e182",
    "members": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -5121,7 +6509,91 @@
    ]
   },
   {
-   "id": "e167",
+   "id": "e183",
+   "members": [
+    "author:giorgio agugiaro",
+    "author:joachim benner",
+    "author:piergiorgio cipriano",
+    "author:romain nouvel",
+    "keyword:energy",
+    "keyword:energy ade",
+    "keyword:energy application domain extension",
+    "keyword:energy consumption reduction",
+    "keyword:energy domain",
+    "keyword:energy planning tools",
+    "keyword:existing data interoperability issues",
+    "keyword:omni-comprehensive urban data model covering",
+    "keyword:standard-based data model",
+    "keyword:urban energy simulations",
+    "project:openalex",
+    "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations"
+   ]
+  },
+  {
+   "id": "e184",
+   "members": [
+    "author:anne ventura",
+    "author:jean\u2010baptiste bahers",
+    "author:nicolas antheaume",
+    "author:paula higuera",
+    "keyword:caledonian island metabolism",
+    "keyword:extractive island",
+    "keyword:island corresponds",
+    "keyword:island metabolism",
+    "keyword:island metabolism strives",
+    "keyword:island scale",
+    "keyword:islands metabolism",
+    "keyword:nexus",
+    "keyword:nexus approach",
+    "keyword:nexus subsystem",
+    "project:openalex",
+    "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia"
+   ]
+  },
+  {
+   "id": "e185",
+   "members": [
+    "author:bruno barroca",
+    "author:h\u00e9l\u00e8ne beraud",
+    "author:roxana cristina popescu",
+    "keyword:hurricane irma",
+    "keyword:hurricane waste flows",
+    "keyword:improving post-hurricane waste planning",
+    "keyword:islands",
+    "keyword:islands total destruction tended toward",
+    "keyword:metabolism",
+    "keyword:saint martins metabolism",
+    "keyword:small islands leave",
+    "keyword:three structuring territorial metabolism dimensions",
+    "keyword:waste flows",
+    "keyword:waste flows changed durably",
+    "keyword:waste management system",
+    "project:openalex",
+    "work:the impact of hurricane irma on the metabolism of st. martins island"
+   ]
+  },
+  {
+   "id": "e186",
+   "members": [
+    "author:enni airaksinen",
+    "author:maxim rossknecht",
+    "keyword:citygml energy ade-case study helsinki",
+    "keyword:co2 emissions",
+    "keyword:district heating network",
+    "keyword:heating demand",
+    "keyword:heating demand prediction based",
+    "keyword:heating demand reduction",
+    "keyword:helsinki energy",
+    "keyword:helsinkis assumed heating demand reduction",
+    "keyword:lower co2 emission factors",
+    "keyword:provide energy-relevant information based",
+    "keyword:resulting co2 emissions prediction based",
+    "project:openalex",
+    "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki"
+   ]
+  },
+  {
+   "id": "e187",
    "members": [
     "author:arnau riera",
     "author:john goold",
@@ -5143,7 +6615,51 @@
    ]
   },
   {
-   "id": "e168",
+   "id": "e188",
+   "members": [
+    "author:marian chertow",
+    "author:marina fischer\u2010kowalski",
+    "author:simron jit singh",
+    "keyword:allow island governments",
+    "keyword:climate action",
+    "keyword:climate change",
+    "keyword:global environmental change",
+    "keyword:introduce key industrial ecology concepts",
+    "keyword:island cases",
+    "keyword:island industrial ecology",
+    "keyword:islands",
+    "keyword:special issue",
+    "keyword:sustain small islands",
+    "project:openalex",
+    "work:introduction: the metabolism of islands"
+   ]
+  },
+  {
+   "id": "e189",
+   "members": [
+    "author:christian lauk",
+    "author:dominik noll",
+    "author:dominik wiedenhofer",
+    "author:panos petridis",
+    "author:simron jit singh",
+    "author:willi haas",
+    "keyword:almost entirely circular biophysical economy toward one",
+    "keyword:apply material",
+    "keyword:circular material use",
+    "keyword:current material stocks",
+    "keyword:geomorphological characteristics make island systems special focal points",
+    "keyword:greek island",
+    "keyword:island almost half",
+    "keyword:island community",
+    "keyword:material circularity",
+    "keyword:socioeconomic biophysical stocks",
+    "keyword:sustainable material",
+    "project:openalex",
+    "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019"
+   ]
+  },
+  {
+   "id": "e190",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -5160,6 +6676,112 @@
     "keyword:thermodynamics",
     "project:openalex",
     "work:extended irreversible thermodynamics"
+   ]
+  },
+  {
+   "id": "e191",
+   "members": [
+    "author:alexandru nichersu",
+    "author:avichal malhotra",
+    "author:christoph van treeck",
+    "author:divyanshu sood",
+    "author:gerald schweiger",
+    "author:james allan",
+    "author:james odonnell",
+    "author:johannes exenberger",
+    "author:julian bischof",
+    "author:j\u00e9r\u00f4me frisch",
+    "author:karl\u2010heinz h\u00e4fele",
+    "keyword:associated data formats",
+    "keyword:data sources",
+    "keyword:energy consumption",
+    "keyword:input",
+    "keyword:input data",
+    "keyword:output data",
+    "keyword:overall energy system",
+    "keyword:simulation processes",
+    "keyword:simulation workflows",
+    "keyword:ubem",
+    "project:openalex",
+    "work:information modelling for urban building energy simulation-a taxonomic review"
+   ]
+  },
+  {
+   "id": "e192",
+   "members": [
+    "author:jean\u2010baptiste bahers",
+    "author:mathieu durand",
+    "author:simron jit singh",
+    "keyword:comoros archipelago",
+    "project:openalex",
+    "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago"
+   ]
+  },
+  {
+   "id": "e193",
+   "members": [
+    "author:michael batty",
+    "keyword:digital twins",
+    "project:openalex",
+    "work:digital twins"
+   ]
+  },
+  {
+   "id": "e194",
+   "members": [
+    "author:jasper verschuur",
+    "author:matthew j. eckelman",
+    "author:nidhi nagabhatla",
+    "author:pia\u2010johanna schweizer",
+    "author:reshma soman",
+    "author:simron jit singh",
+    "author:tailin huang",
+    "keyword:effectively deliver societal services necessary",
+    "keyword:governing smr",
+    "keyword:islands",
+    "keyword:pandemics significantly hinder sids progress",
+    "keyword:positioning smr",
+    "keyword:sids would mean governing socio-metabolic flows",
+    "keyword:small islands",
+    "keyword:small islands using insights",
+    "keyword:societal services",
+    "keyword:socio-metabolic risk",
+    "keyword:systemic risk associated",
+    "keyword:tipping points",
+    "project:openalex",
+    "work:socio-metabolic risk and tipping points on islands"
+   ]
+  },
+  {
+   "id": "e195",
+   "members": [
+    "author:a. stewart fotheringham",
+    "keyword:digital twins",
+    "keyword:urban analytics",
+    "project:openalex",
+    "work:digital twins: the current \"krays\" of urban analytics?"
+   ]
+  },
+  {
+   "id": "e196",
+   "members": [
+    "author:avril n\u00ed shearcaigh",
+    "author:claudia bo",
+    "author:dayanne peretti corr\u00eaa",
+    "author:faezeh delkhah",
+    "author:niall buckley",
+    "author:niall byrne",
+    "author:stephanie brennan",
+    "keyword:current energy use",
+    "keyword:electrifying energy systems",
+    "keyword:optimizing local res",
+    "keyword:p2p energy trading",
+    "keyword:peer-to-peer smart grid using digital twins",
+    "keyword:predictive digital twins",
+    "keyword:shift energy loads",
+    "keyword:using digital twins",
+    "project:openalex",
+    "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island"
    ]
   }
  ],
@@ -6444,14 +8066,14 @@
    "label": "scharfenaker-semieniuk2017 (2017)",
    "kind": "citation"
   },
-  "author:gregor": {
-   "id": "author:gregor",
-   "label": "gregor",
-   "kind": "author"
-  },
   "author:ellis": {
    "id": "author:ellis",
    "label": "ellis",
+   "kind": "author"
+  },
+  "author:gregor": {
+   "id": "author:gregor",
+   "label": "gregor",
    "kind": "author"
   },
   "citation:mohun-veneziani2017 (2017)": {
@@ -6459,14 +8081,14 @@
    "label": "mohun-veneziani2017 (2017)",
    "kind": "citation"
   },
-  "author:roberto": {
-   "id": "author:roberto",
-   "label": "roberto",
-   "kind": "author"
-  },
   "author:simon": {
    "id": "author:simon",
    "label": "simon",
+   "kind": "author"
+  },
+  "author:roberto": {
+   "id": "author:roberto",
+   "label": "roberto",
    "kind": "author"
   },
   "citation:jin-xin1995 (1995)": {
@@ -6474,14 +8096,14 @@
    "label": "jin-xin1995 (1995)",
    "kind": "citation"
   },
-  "author:ping": {
-   "id": "author:ping",
-   "label": "ping",
-   "kind": "author"
-  },
   "author:shi": {
    "id": "author:shi",
    "label": "shi",
+   "kind": "author"
+  },
+  "author:ping": {
+   "id": "author:ping",
+   "label": "ping",
    "kind": "author"
   },
   "section:[watch list (to read before the expos\u00e9)]": {
@@ -6689,14 +8311,14 @@
    "label": "raissi2019 (2019)",
    "kind": "citation"
   },
-  "author:maziar": {
-   "id": "author:maziar",
-   "label": "maziar",
-   "kind": "author"
-  },
   "author:paris": {
    "id": "author:paris",
    "label": "paris",
+   "kind": "author"
+  },
+  "author:maziar": {
+   "id": "author:maziar",
+   "label": "maziar",
    "kind": "author"
   },
   "author:em": {
@@ -6709,14 +8331,14 @@
    "label": "pan-duraisamy2018 (2018)",
    "kind": "citation"
   },
-  "author:karthik": {
-   "id": "author:karthik",
-   "label": "karthik",
-   "kind": "author"
-  },
   "author:shaowu": {
    "id": "author:shaowu",
    "label": "shaowu",
+   "kind": "author"
+  },
+  "author:karthik": {
+   "id": "author:karthik",
+   "label": "karthik",
    "kind": "author"
   },
   "citation:gupta-lermusiaux2021 (2021)": {
@@ -6734,9 +8356,9 @@
    "label": "bar-sinai2019 (2019)",
    "kind": "citation"
   },
-  "author:jason": {
-   "id": "author:jason",
-   "label": "jason",
+  "author:stephan": {
+   "id": "author:stephan",
+   "label": "stephan",
    "kind": "author"
   },
   "author:yohai": {
@@ -6744,9 +8366,9 @@
    "label": "yohai",
    "kind": "author"
   },
-  "author:stephan": {
-   "id": "author:stephan",
-   "label": "stephan",
+  "author:jason": {
+   "id": "author:jason",
+   "label": "jason",
    "kind": "author"
   },
   "citation:brennan-venturi2018 (2018)": {
@@ -6769,9 +8391,9 @@
    "label": "libkind-etal2022 (2022)",
    "kind": "citation"
   },
-  "author:andrew": {
-   "id": "author:andrew",
-   "label": "andrew",
+  "author:evan": {
+   "id": "author:evan",
+   "label": "evan",
    "kind": "author"
   },
   "author:sophie": {
@@ -6784,9 +8406,9 @@
    "label": "james",
    "kind": "author"
   },
-  "author:evan": {
-   "id": "author:evan",
-   "label": "evan",
+  "author:andrew": {
+   "id": "author:andrew",
+   "label": "andrew",
    "kind": "author"
   },
   "citation:morris-etal2024 (2024)": {
@@ -6794,14 +8416,14 @@
    "label": "morris-etal2024 (2024)",
    "kind": "citation"
   },
-  "author:jesus": {
-   "id": "author:jesus",
-   "label": "jesus",
-   "kind": "author"
-  },
   "author:maia": {
    "id": "author:maia",
    "label": "maia",
+   "kind": "author"
+  },
+  "author:jesus": {
+   "id": "author:jesus",
+   "label": "jesus",
    "kind": "author"
   },
   "author:luke": {
@@ -6814,14 +8436,14 @@
    "label": "armstrong-kuusi2025 (2025)",
    "kind": "citation"
   },
-  "author:scott": {
-   "id": "author:scott",
-   "label": "scott",
-   "kind": "author"
-  },
   "author:tuomo": {
    "id": "author:tuomo",
    "label": "tuomo",
+   "kind": "author"
+  },
+  "author:scott": {
+   "id": "author:scott",
+   "label": "scott",
    "kind": "author"
   },
   "citation:coarsegraining-lean (2025)": {
@@ -6849,14 +8471,14 @@
    "label": "vandoor-macbeth2024 (2024)",
    "kind": "citation"
   },
-  "author:heather": {
-   "id": "author:heather",
-   "label": "heather",
-   "kind": "author"
-  },
   "author:floris": {
    "id": "author:floris",
    "label": "floris",
+   "kind": "author"
+  },
+  "author:heather": {
+   "id": "author:heather",
+   "label": "heather",
    "kind": "author"
   },
   "citation:martin-dorel-melquiond2016 (2016)": {
@@ -6864,14 +8486,14 @@
    "label": "martin-dorel-melquiond2016 (2016)",
    "kind": "citation"
   },
-  "author:guillaume": {
-   "id": "author:guillaume",
-   "label": "guillaume",
-   "kind": "author"
-  },
   "author:erik": {
    "id": "author:erik",
    "label": "erik",
+   "kind": "author"
+  },
+  "author:guillaume": {
+   "id": "author:guillaume",
+   "label": "guillaume",
    "kind": "author"
   },
   "section:[2026-08-16 - commit + context preservation]": {
@@ -7484,9 +9106,9 @@
    "label": "file-based serving proves insufficient",
    "kind": "keyword"
   },
-  "keyword:llm answers": {
-   "id": "keyword:llm answers",
-   "label": "llm answers",
+  "keyword:llm renders": {
+   "id": "keyword:llm renders",
+   "label": "llm renders",
    "kind": "keyword"
   },
   "keyword:semantic neighborhood queries": {
@@ -7679,10 +9301,210 @@
    "label": "[8. Why this fits the research program]",
    "kind": "section"
   },
+  "project:island-dt": {
+   "id": "project:island-dt",
+   "label": "island-dt",
+   "kind": "project"
+  },
+  "section:[island digital twin - literature review]": {
+   "id": "section:[island digital twin - literature review]",
+   "label": "[Island Digital Twin \u2014 Literature Review]",
+   "kind": "section"
+  },
+  "keyword:sources": {
+   "id": "keyword:sources",
+   "label": "sources",
+   "kind": "keyword"
+  },
+  "section:[executive summary]": {
+   "id": "section:[executive summary]",
+   "label": "[Executive summary]",
+   "kind": "section"
+  },
+  "section:[a. island & urban metabolism - the flow layer]": {
+   "id": "section:[a. island & urban metabolism - the flow layer]",
+   "label": "[A. Island & urban metabolism \u2014 the flow layer]",
+   "kind": "section"
+  },
+  "keyword:island twin would simulate": {
+   "id": "keyword:island twin would simulate",
+   "label": "island twin would simulate",
+   "kind": "keyword"
+  },
+  "keyword:island twin": {
+   "id": "keyword:island twin",
+   "label": "island twin",
+   "kind": "keyword"
+  },
+  "section:[b. 3d city models & standards - the geometric + data substrate]": {
+   "id": "section:[b. 3d city models & standards - the geometric + data substrate]",
+   "label": "[B. 3D city models & standards \u2014 the geometric + data substrate]",
+   "kind": "section"
+  },
+  "keyword:citygml energy ade": {
+   "id": "keyword:citygml energy ade",
+   "label": "citygml energy ade",
+   "kind": "keyword"
+  },
+  "section:[c. digital twins - the container (urban theory, island practice, eu policy)]": {
+   "id": "section:[c. digital twins - the container (urban theory, island practice, eu policy)]",
+   "label": "[C. Digital twins \u2014 the container (urban theory, island practice, EU policy)]",
+   "kind": "section"
+  },
+  "keyword:european island twin": {
+   "id": "keyword:european island twin",
+   "label": "european island twin",
+   "kind": "keyword"
+  },
+  "keyword:peer-to-peer smart grid using digital twins": {
+   "id": "keyword:peer-to-peer smart grid using digital twins",
+   "label": "peer-to-peer smart grid using digital twins",
+   "kind": "keyword"
+  },
+  "section:[d. participatory planning support & geodesign - the decision process]": {
+   "id": "section:[d. participatory planning support & geodesign - the decision process]",
+   "label": "[D. Participatory planning support & geodesign \u2014 the decision process]",
+   "kind": "section"
+  },
+  "section:[synthesis: how the pieces compose into an \"island digital twin\"]": {
+   "id": "section:[synthesis: how the pieces compose into an \"island digital twin\"]",
+   "label": "[Synthesis: how the pieces compose into an \"island digital twin\"]",
+   "kind": "section"
+  },
+  "keyword:integrated island twin": {
+   "id": "keyword:integrated island twin",
+   "label": "integrated island twin",
+   "kind": "keyword"
+  },
+  "keyword:island metabolic planning": {
+   "id": "keyword:island metabolic planning",
+   "label": "island metabolic planning",
+   "kind": "keyword"
+  },
+  "keyword:island model": {
+   "id": "keyword:island model",
+   "label": "island model",
+   "kind": "keyword"
+  },
+  "section:[caveats]": {
+   "id": "section:[caveats]",
+   "label": "[Caveats]",
+   "kind": "section"
+  },
+  "keyword:editorial author list unverified": {
+   "id": "keyword:editorial author list unverified",
+   "label": "editorial author list unverified",
+   "kind": "keyword"
+  },
   "project:openalex": {
    "id": "project:openalex",
    "label": "openalex",
    "kind": "project"
+  },
+  "work:resource use in small island states": {
+   "id": "work:resource use in small island states",
+   "label": "Resource Use in Small Island States",
+   "kind": "work"
+  },
+  "author:fridolin krausmann": {
+   "id": "author:fridolin krausmann",
+   "label": "Fridolin Krausmann",
+   "kind": "author"
+  },
+  "author:regina richter": {
+   "id": "author:regina richter",
+   "label": "Regina Richter",
+   "kind": "author"
+  },
+  "author:nina eisenmenger": {
+   "id": "author:nina eisenmenger",
+   "label": "Nina Eisenmenger",
+   "kind": "author"
+  },
+  "keyword:specific institutional arrangements drives domestic resource-use patterns": {
+   "id": "keyword:specific institutional arrangements drives domestic resource-use patterns",
+   "label": "specific institutional arrangements drives domestic resource-use patterns",
+   "kind": "keyword"
+  },
+  "keyword:narrow domestic resource base": {
+   "id": "keyword:narrow domestic resource base",
+   "label": "narrow domestic resource base",
+   "kind": "keyword"
+  },
+  "keyword:domestic material consumption": {
+   "id": "keyword:domestic material consumption",
+   "label": "domestic material consumption",
+   "kind": "keyword"
+  },
+  "keyword:large export-oriented metal processing industries": {
+   "id": "keyword:large export-oriented metal processing industries",
+   "label": "large export-oriented metal processing industries",
+   "kind": "keyword"
+  },
+  "keyword:domestic renewable electricity": {
+   "id": "keyword:domestic renewable electricity",
+   "label": "domestic renewable electricity",
+   "kind": "keyword"
+  },
+  "keyword:small open economies": {
+   "id": "keyword:small open economies",
+   "label": "small open economies",
+   "kind": "keyword"
+  },
+  "keyword:specific resource-use patterns": {
+   "id": "keyword:specific resource-use patterns",
+   "label": "specific resource-use patterns",
+   "kind": "keyword"
+  },
+  "keyword:export-oriented industries lead": {
+   "id": "keyword:export-oriented industries lead",
+   "label": "export-oriented industries lead",
+   "kind": "keyword"
+  },
+  "keyword:two key resources": {
+   "id": "keyword:two key resources",
+   "label": "two key resources",
+   "kind": "keyword"
+  },
+  "keyword:comparatively low complexity provides interesting insights": {
+   "id": "keyword:comparatively low complexity provides interesting insights",
+   "label": "comparatively low complexity provides interesting insights",
+   "kind": "keyword"
+  },
+  "work:planning support systems and smart cities": {
+   "id": "work:planning support systems and smart cities",
+   "label": "Planning Support Systems and Smart Cities",
+   "kind": "work"
+  },
+  "author:stan geertman": {
+   "id": "author:stan geertman",
+   "label": "Stan Geertman",
+   "kind": "author"
+  },
+  "author:joseph ferreira": {
+   "id": "author:joseph ferreira",
+   "label": "Joseph Ferreira",
+   "kind": "author"
+  },
+  "author:robert goodspeed": {
+   "id": "author:robert goodspeed",
+   "label": "Robert Goodspeed",
+   "kind": "author"
+  },
+  "author:john stillwell": {
+   "id": "author:john stillwell",
+   "label": "John Stillwell",
+   "kind": "author"
+  },
+  "keyword:planning support systems": {
+   "id": "keyword:planning support systems",
+   "label": "planning support systems",
+   "kind": "keyword"
+  },
+  "keyword:smart cities": {
+   "id": "keyword:smart cities",
+   "label": "smart cities",
+   "kind": "keyword"
   },
   "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics": {
    "id": "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
@@ -7757,6 +9579,71 @@
   "keyword:eigenstate thermalization": {
    "id": "keyword:eigenstate thermalization",
    "label": "eigenstate thermalization",
+   "kind": "keyword"
+  },
+  "work:public participation geographic information systems: a literature review and framework": {
+   "id": "work:public participation geographic information systems: a literature review and framework",
+   "label": "Public Participation Geographic Information Systems: A Literature Review and Framework",
+   "kind": "work"
+  },
+  "author:ren\u00e9e sieber": {
+   "id": "author:ren\u00e9e sieber",
+   "label": "Ren\u00e9e Sieber",
+   "kind": "author"
+  },
+  "keyword:public participation geographic information systems": {
+   "id": "keyword:public participation geographic information systems",
+   "label": "public participation geographic information systems",
+   "kind": "keyword"
+  },
+  "keyword:evaluating current ppgis activities": {
+   "id": "keyword:evaluating current ppgis activities",
+   "label": "evaluating current ppgis activities",
+   "kind": "keyword"
+  },
+  "keyword:future ppgis research": {
+   "id": "keyword:future ppgis research",
+   "label": "future ppgis research",
+   "kind": "keyword"
+  },
+  "keyword:ppgis": {
+   "id": "keyword:ppgis",
+   "label": "ppgis",
+   "kind": "keyword"
+  },
+  "keyword:broaden public involvement": {
+   "id": "keyword:broaden public involvement",
+   "label": "broaden public involvement",
+   "kind": "keyword"
+  },
+  "keyword:four major themes found": {
+   "id": "keyword:four major themes found",
+   "label": "four major themes found",
+   "kind": "keyword"
+  },
+  "keyword:framework": {
+   "id": "keyword:framework",
+   "label": "framework",
+   "kind": "keyword"
+  },
+  "keyword:community-based organizations": {
+   "id": "keyword:community-based organizations",
+   "label": "community-based organizations",
+   "kind": "keyword"
+  },
+  "keyword:themes constitute": {
+   "id": "keyword:themes constitute",
+   "label": "themes constitute",
+   "kind": "keyword"
+  },
+  "keyword:literature review": {
+   "id": "keyword:literature review",
+   "label": "literature review",
+   "kind": "keyword"
+  },
+  "keyword:gis": {
+   "id": "keyword:gis",
+   "label": "gis",
    "kind": "keyword"
   },
   "work:extended irreversible thermodynamics revisited (1988-98)": {
@@ -8039,6 +9926,41 @@
    "label": "agents",
    "kind": "keyword"
   },
+  "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research": {
+   "id": "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research",
+   "label": "Key issues and research priorities for public participation GIS (PPGIS): A synthesis based on empirical research",
+   "kind": "work"
+  },
+  "author:greg brown": {
+   "id": "author:greg brown",
+   "label": "Greg Brown",
+   "kind": "author"
+  },
+  "author:marketta kytt\u00e4": {
+   "id": "author:marketta kytt\u00e4",
+   "label": "Marketta Kytt\u00e4",
+   "kind": "author"
+  },
+  "keyword:research priorities": {
+   "id": "keyword:research priorities",
+   "label": "research priorities",
+   "kind": "keyword"
+  },
+  "keyword:empirical research": {
+   "id": "keyword:empirical research",
+   "label": "empirical research",
+   "kind": "keyword"
+  },
+  "keyword:key issues": {
+   "id": "keyword:key issues",
+   "label": "key issues",
+   "kind": "keyword"
+  },
+  "keyword:synthesis based": {
+   "id": "keyword:synthesis based",
+   "label": "synthesis based",
+   "kind": "keyword"
+  },
   "work:stochastic thermodynamics, fluctuation theorems and molecular machines": {
    "id": "work:stochastic thermodynamics, fluctuation theorems and molecular machines",
    "label": "Stochastic thermodynamics, fluctuation theorems and molecular machines",
@@ -8087,6 +10009,136 @@
   "keyword:molecular motors": {
    "id": "keyword:molecular motors",
    "label": "molecular motors",
+   "kind": "keyword"
+  },
+  "work:the changing metabolism of cities": {
+   "id": "work:the changing metabolism of cities",
+   "label": "The Changing Metabolism of Cities",
+   "kind": "work"
+  },
+  "author:christopher kennedy": {
+   "id": "author:christopher kennedy",
+   "label": "Christopher Kennedy",
+   "kind": "author"
+  },
+  "author:john cuddihy": {
+   "id": "author:john cuddihy",
+   "label": "John Cuddihy",
+   "kind": "author"
+  },
+  "author:joshua engel\u2010yan": {
+   "id": "author:joshua engel\u2010yan",
+   "label": "Joshua Engel\u2010Yan",
+   "kind": "author"
+  },
+  "keyword:changing metabolism": {
+   "id": "keyword:changing metabolism",
+   "label": "changing metabolism",
+   "kind": "keyword"
+  },
+  "keyword:cities": {
+   "id": "keyword:cities",
+   "label": "cities",
+   "kind": "keyword"
+  },
+  "work:applications of 3d city models: state of the art review": {
+   "id": "work:applications of 3d city models: state of the art review",
+   "label": "Applications of 3D City Models: State of the Art Review",
+   "kind": "work"
+  },
+  "author:filip biljecki": {
+   "id": "author:filip biljecki",
+   "label": "Filip Biljecki",
+   "kind": "author"
+  },
+  "author:jantien stoter": {
+   "id": "author:jantien stoter",
+   "label": "Jantien Stoter",
+   "kind": "author"
+  },
+  "author:hugo ledoux": {
+   "id": "author:hugo ledoux",
+   "label": "Hugo Ledoux",
+   "kind": "author"
+  },
+  "author:sisi zlatanova": {
+   "id": "author:sisi zlatanova",
+   "label": "Sisi Zlatanova",
+   "kind": "author"
+  },
+  "author:arzu \u00e7\u00f6ltekin": {
+   "id": "author:arzu \u00e7\u00f6ltekin",
+   "label": "Arzu \u00c7\u00f6ltekin",
+   "kind": "author"
+  },
+  "keyword:city models appear": {
+   "id": "keyword:city models appear",
+   "label": "city models appear",
+   "kind": "keyword"
+  },
+  "keyword:city models": {
+   "id": "keyword:city models",
+   "label": "city models",
+   "kind": "keyword"
+  },
+  "keyword:identified use cases": {
+   "id": "keyword:identified use cases",
+   "label": "identified use cases",
+   "kind": "keyword"
+  },
+  "keyword:comprehensive literature study including hundreds": {
+   "id": "keyword:comprehensive literature study including hundreds",
+   "label": "comprehensive literature study including hundreds",
+   "kind": "keyword"
+  },
+  "keyword:study demonstrates": {
+   "id": "keyword:study demonstrates",
+   "label": "study demonstrates",
+   "kind": "keyword"
+  },
+  "keyword:study": {
+   "id": "keyword:study",
+   "label": "study",
+   "kind": "keyword"
+  },
+  "keyword:technical information": {
+   "id": "keyword:technical information",
+   "label": "technical information",
+   "kind": "keyword"
+  },
+  "work:planning support science for smarter urban futures": {
+   "id": "work:planning support science for smarter urban futures",
+   "label": "Planning Support Science for Smarter Urban Futures",
+   "kind": "work"
+  },
+  "author:stan 1955- geertman": {
+   "id": "author:stan 1955- geertman",
+   "label": "Stan 1955- Geertman",
+   "kind": "author"
+  },
+  "author:andrew allan": {
+   "id": "author:andrew allan",
+   "label": "Andrew Allan",
+   "kind": "author"
+  },
+  "author:chris pettit": {
+   "id": "author:chris pettit",
+   "label": "Chris Pettit",
+   "kind": "author"
+  },
+  "author:john 1952- stillwell": {
+   "id": "author:john 1952- stillwell",
+   "label": "John 1952- Stillwell",
+   "kind": "author"
+  },
+  "keyword:planning support science": {
+   "id": "keyword:planning support science",
+   "label": "planning support science",
+   "kind": "keyword"
+  },
+  "keyword:smarter urban futures": {
+   "id": "keyword:smarter urban futures",
+   "label": "smarter urban futures",
    "kind": "keyword"
   },
   "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes": {
@@ -8169,6 +10221,306 @@
    "label": "system",
    "kind": "keyword"
   },
+  "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations": {
+   "id": "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations",
+   "label": "The Energy Application Domain Extension for CityGML: enhancing interoperability for urban energy simulations",
+   "kind": "work"
+  },
+  "author:giorgio agugiaro": {
+   "id": "author:giorgio agugiaro",
+   "label": "Giorgio Agugiaro",
+   "kind": "author"
+  },
+  "author:joachim benner": {
+   "id": "author:joachim benner",
+   "label": "Joachim Benner",
+   "kind": "author"
+  },
+  "author:piergiorgio cipriano": {
+   "id": "author:piergiorgio cipriano",
+   "label": "Piergiorgio Cipriano",
+   "kind": "author"
+  },
+  "author:romain nouvel": {
+   "id": "author:romain nouvel",
+   "label": "Romain Nouvel",
+   "kind": "author"
+  },
+  "keyword:urban energy simulations": {
+   "id": "keyword:urban energy simulations",
+   "label": "urban energy simulations",
+   "kind": "keyword"
+  },
+  "keyword:energy application domain extension": {
+   "id": "keyword:energy application domain extension",
+   "label": "energy application domain extension",
+   "kind": "keyword"
+  },
+  "keyword:energy domain": {
+   "id": "keyword:energy domain",
+   "label": "energy domain",
+   "kind": "keyword"
+  },
+  "keyword:energy ade": {
+   "id": "keyword:energy ade",
+   "label": "energy ade",
+   "kind": "keyword"
+  },
+  "keyword:energy planning tools": {
+   "id": "keyword:energy planning tools",
+   "label": "energy planning tools",
+   "kind": "keyword"
+  },
+  "keyword:energy consumption reduction": {
+   "id": "keyword:energy consumption reduction",
+   "label": "energy consumption reduction",
+   "kind": "keyword"
+  },
+  "keyword:energy": {
+   "id": "keyword:energy",
+   "label": "energy",
+   "kind": "keyword"
+  },
+  "keyword:omni-comprehensive urban data model covering": {
+   "id": "keyword:omni-comprehensive urban data model covering",
+   "label": "omni-comprehensive urban data model covering",
+   "kind": "keyword"
+  },
+  "keyword:standard-based data model": {
+   "id": "keyword:standard-based data model",
+   "label": "standard-based data model",
+   "kind": "keyword"
+  },
+  "keyword:existing data interoperability issues": {
+   "id": "keyword:existing data interoperability issues",
+   "label": "existing data interoperability issues",
+   "kind": "keyword"
+  },
+  "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia": {
+   "id": "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia",
+   "label": "The \u201cMetal-Energy-Construction Mineral\u201d Nexus in the Island Metabolism: The Case of the Extractive Economy of New Caledonia",
+   "kind": "work"
+  },
+  "author:jean\u2010baptiste bahers": {
+   "id": "author:jean\u2010baptiste bahers",
+   "label": "Jean\u2010Baptiste Bahers",
+   "kind": "author"
+  },
+  "author:paula higuera": {
+   "id": "author:paula higuera",
+   "label": "Paula Higuera",
+   "kind": "author"
+  },
+  "author:anne ventura": {
+   "id": "author:anne ventura",
+   "label": "Anne Ventura",
+   "kind": "author"
+  },
+  "author:nicolas antheaume": {
+   "id": "author:nicolas antheaume",
+   "label": "Nicolas Antheaume",
+   "kind": "author"
+  },
+  "keyword:island metabolism strives": {
+   "id": "keyword:island metabolism strives",
+   "label": "island metabolism strives",
+   "kind": "keyword"
+  },
+  "keyword:caledonian island metabolism": {
+   "id": "keyword:caledonian island metabolism",
+   "label": "caledonian island metabolism",
+   "kind": "keyword"
+  },
+  "keyword:island metabolism": {
+   "id": "keyword:island metabolism",
+   "label": "island metabolism",
+   "kind": "keyword"
+  },
+  "keyword:extractive island": {
+   "id": "keyword:extractive island",
+   "label": "extractive island",
+   "kind": "keyword"
+  },
+  "keyword:island scale": {
+   "id": "keyword:island scale",
+   "label": "island scale",
+   "kind": "keyword"
+  },
+  "keyword:island corresponds": {
+   "id": "keyword:island corresponds",
+   "label": "island corresponds",
+   "kind": "keyword"
+  },
+  "keyword:nexus approach": {
+   "id": "keyword:nexus approach",
+   "label": "nexus approach",
+   "kind": "keyword"
+  },
+  "keyword:nexus subsystem": {
+   "id": "keyword:nexus subsystem",
+   "label": "nexus subsystem",
+   "kind": "keyword"
+  },
+  "keyword:nexus": {
+   "id": "keyword:nexus",
+   "label": "nexus",
+   "kind": "keyword"
+  },
+  "keyword:islands metabolism": {
+   "id": "keyword:islands metabolism",
+   "label": "islands metabolism",
+   "kind": "keyword"
+  },
+  "work:the impact of hurricane irma on the metabolism of st. martins island": {
+   "id": "work:the impact of hurricane irma on the metabolism of st. martins island",
+   "label": "The Impact of Hurricane Irma on the Metabolism of St. Martin\u2019s Island",
+   "kind": "work"
+  },
+  "author:roxana cristina popescu": {
+   "id": "author:roxana cristina popescu",
+   "label": "Roxana Cristina Popescu",
+   "kind": "author"
+  },
+  "author:h\u00e9l\u00e8ne beraud": {
+   "id": "author:h\u00e9l\u00e8ne beraud",
+   "label": "H\u00e9l\u00e8ne Beraud",
+   "kind": "author"
+  },
+  "author:bruno barroca": {
+   "id": "author:bruno barroca",
+   "label": "Bruno Barroca",
+   "kind": "author"
+  },
+  "keyword:hurricane waste flows": {
+   "id": "keyword:hurricane waste flows",
+   "label": "hurricane waste flows",
+   "kind": "keyword"
+  },
+  "keyword:waste flows changed durably": {
+   "id": "keyword:waste flows changed durably",
+   "label": "waste flows changed durably",
+   "kind": "keyword"
+  },
+  "keyword:waste flows": {
+   "id": "keyword:waste flows",
+   "label": "waste flows",
+   "kind": "keyword"
+  },
+  "keyword:improving post-hurricane waste planning": {
+   "id": "keyword:improving post-hurricane waste planning",
+   "label": "improving post-hurricane waste planning",
+   "kind": "keyword"
+  },
+  "keyword:waste management system": {
+   "id": "keyword:waste management system",
+   "label": "waste management system",
+   "kind": "keyword"
+  },
+  "keyword:islands total destruction tended toward": {
+   "id": "keyword:islands total destruction tended toward",
+   "label": "islands total destruction tended toward",
+   "kind": "keyword"
+  },
+  "keyword:three structuring territorial metabolism dimensions": {
+   "id": "keyword:three structuring territorial metabolism dimensions",
+   "label": "three structuring territorial metabolism dimensions",
+   "kind": "keyword"
+  },
+  "keyword:saint martins metabolism": {
+   "id": "keyword:saint martins metabolism",
+   "label": "saint martins metabolism",
+   "kind": "keyword"
+  },
+  "keyword:metabolism": {
+   "id": "keyword:metabolism",
+   "label": "metabolism",
+   "kind": "keyword"
+  },
+  "keyword:small islands leave": {
+   "id": "keyword:small islands leave",
+   "label": "small islands leave",
+   "kind": "keyword"
+  },
+  "keyword:hurricane irma": {
+   "id": "keyword:hurricane irma",
+   "label": "hurricane irma",
+   "kind": "keyword"
+  },
+  "keyword:islands": {
+   "id": "keyword:islands",
+   "label": "islands",
+   "kind": "keyword"
+  },
+  "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki": {
+   "id": "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki",
+   "label": "Concept and Evaluation of Heating Demand Prediction Based on 3D City Models and the CityGML Energy ADE\u2014Case Study Helsinki",
+   "kind": "work"
+  },
+  "author:maxim rossknecht": {
+   "id": "author:maxim rossknecht",
+   "label": "Maxim Rossknecht",
+   "kind": "author"
+  },
+  "author:enni airaksinen": {
+   "id": "author:enni airaksinen",
+   "label": "Enni Airaksinen",
+   "kind": "author"
+  },
+  "keyword:heating demand prediction based": {
+   "id": "keyword:heating demand prediction based",
+   "label": "heating demand prediction based",
+   "kind": "keyword"
+  },
+  "keyword:helsinkis assumed heating demand reduction": {
+   "id": "keyword:helsinkis assumed heating demand reduction",
+   "label": "helsinkis assumed heating demand reduction",
+   "kind": "keyword"
+  },
+  "keyword:heating demand reduction": {
+   "id": "keyword:heating demand reduction",
+   "label": "heating demand reduction",
+   "kind": "keyword"
+  },
+  "keyword:heating demand": {
+   "id": "keyword:heating demand",
+   "label": "heating demand",
+   "kind": "keyword"
+  },
+  "keyword:district heating network": {
+   "id": "keyword:district heating network",
+   "label": "district heating network",
+   "kind": "keyword"
+  },
+  "keyword:citygml energy ade-case study helsinki": {
+   "id": "keyword:citygml energy ade-case study helsinki",
+   "label": "citygml energy ade-case study helsinki",
+   "kind": "keyword"
+  },
+  "keyword:resulting co2 emissions prediction based": {
+   "id": "keyword:resulting co2 emissions prediction based",
+   "label": "resulting co2 emissions prediction based",
+   "kind": "keyword"
+  },
+  "keyword:helsinki energy": {
+   "id": "keyword:helsinki energy",
+   "label": "helsinki energy",
+   "kind": "keyword"
+  },
+  "keyword:co2 emissions": {
+   "id": "keyword:co2 emissions",
+   "label": "co2 emissions",
+   "kind": "keyword"
+  },
+  "keyword:lower co2 emission factors": {
+   "id": "keyword:lower co2 emission factors",
+   "label": "lower co2 emission factors",
+   "kind": "keyword"
+  },
+  "keyword:provide energy-relevant information based": {
+   "id": "keyword:provide energy-relevant information based",
+   "label": "provide energy-relevant information based",
+   "kind": "keyword"
+  },
   "work:the role of quantum information in thermodynamics-a topical review": {
    "id": "work:the role of quantum information in thermodynamics-a topical review",
    "label": "The role of quantum information in thermodynamics\u2014a topical review",
@@ -8244,6 +10596,156 @@
    "label": "convenient entry point",
    "kind": "keyword"
   },
+  "work:introduction: the metabolism of islands": {
+   "id": "work:introduction: the metabolism of islands",
+   "label": "Introduction: The Metabolism of Islands",
+   "kind": "work"
+  },
+  "author:simron jit singh": {
+   "id": "author:simron jit singh",
+   "label": "Simron Jit Singh",
+   "kind": "author"
+  },
+  "author:marina fischer\u2010kowalski": {
+   "id": "author:marina fischer\u2010kowalski",
+   "label": "Marina Fischer\u2010Kowalski",
+   "kind": "author"
+  },
+  "author:marian chertow": {
+   "id": "author:marian chertow",
+   "label": "Marian Chertow",
+   "kind": "author"
+  },
+  "keyword:sustain small islands": {
+   "id": "keyword:sustain small islands",
+   "label": "sustain small islands",
+   "kind": "keyword"
+  },
+  "keyword:island industrial ecology": {
+   "id": "keyword:island industrial ecology",
+   "label": "island industrial ecology",
+   "kind": "keyword"
+  },
+  "keyword:introduce key industrial ecology concepts": {
+   "id": "keyword:introduce key industrial ecology concepts",
+   "label": "introduce key industrial ecology concepts",
+   "kind": "keyword"
+  },
+  "keyword:climate change": {
+   "id": "keyword:climate change",
+   "label": "climate change",
+   "kind": "keyword"
+  },
+  "keyword:allow island governments": {
+   "id": "keyword:allow island governments",
+   "label": "allow island governments",
+   "kind": "keyword"
+  },
+  "keyword:global environmental change": {
+   "id": "keyword:global environmental change",
+   "label": "global environmental change",
+   "kind": "keyword"
+  },
+  "keyword:island cases": {
+   "id": "keyword:island cases",
+   "label": "island cases",
+   "kind": "keyword"
+  },
+  "keyword:special issue": {
+   "id": "keyword:special issue",
+   "label": "special issue",
+   "kind": "keyword"
+  },
+  "keyword:climate action": {
+   "id": "keyword:climate action",
+   "label": "climate action",
+   "kind": "keyword"
+  },
+  "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019": {
+   "id": "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019",
+   "label": "The sociometabolic transition of a small Greek island: Assessing stock dynamics, resource flows, and material circularity from 1929 to 2019",
+   "kind": "work"
+  },
+  "author:dominik noll": {
+   "id": "author:dominik noll",
+   "label": "Dominik Noll",
+   "kind": "author"
+  },
+  "author:christian lauk": {
+   "id": "author:christian lauk",
+   "label": "Christian Lauk",
+   "kind": "author"
+  },
+  "author:willi haas": {
+   "id": "author:willi haas",
+   "label": "Willi Haas",
+   "kind": "author"
+  },
+  "author:panos petridis": {
+   "id": "author:panos petridis",
+   "label": "Panos Petridis",
+   "kind": "author"
+  },
+  "author:dominik wiedenhofer": {
+   "id": "author:dominik wiedenhofer",
+   "label": "Dominik Wiedenhofer",
+   "kind": "author"
+  },
+  "keyword:circular material use": {
+   "id": "keyword:circular material use",
+   "label": "circular material use",
+   "kind": "keyword"
+  },
+  "keyword:current material stocks": {
+   "id": "keyword:current material stocks",
+   "label": "current material stocks",
+   "kind": "keyword"
+  },
+  "keyword:sustainable material": {
+   "id": "keyword:sustainable material",
+   "label": "sustainable material",
+   "kind": "keyword"
+  },
+  "keyword:material circularity": {
+   "id": "keyword:material circularity",
+   "label": "material circularity",
+   "kind": "keyword"
+  },
+  "keyword:apply material": {
+   "id": "keyword:apply material",
+   "label": "apply material",
+   "kind": "keyword"
+  },
+  "keyword:geomorphological characteristics make island systems special focal points": {
+   "id": "keyword:geomorphological characteristics make island systems special focal points",
+   "label": "geomorphological characteristics make island systems special focal points",
+   "kind": "keyword"
+  },
+  "keyword:island almost half": {
+   "id": "keyword:island almost half",
+   "label": "island almost half",
+   "kind": "keyword"
+  },
+  "keyword:greek island": {
+   "id": "keyword:greek island",
+   "label": "greek island",
+   "kind": "keyword"
+  },
+  "keyword:island community": {
+   "id": "keyword:island community",
+   "label": "island community",
+   "kind": "keyword"
+  },
+  "keyword:almost entirely circular biophysical economy toward one": {
+   "id": "keyword:almost entirely circular biophysical economy toward one",
+   "label": "almost entirely circular biophysical economy toward one",
+   "kind": "keyword"
+  },
+  "keyword:socioeconomic biophysical stocks": {
+   "id": "keyword:socioeconomic biophysical stocks",
+   "label": "socioeconomic biophysical stocks",
+   "kind": "keyword"
+  },
   "work:extended irreversible thermodynamics": {
    "id": "work:extended irreversible thermodynamics",
    "label": "Extended irreversible thermodynamics",
@@ -8282,6 +10784,326 @@
   "keyword:classical constitutive laws": {
    "id": "keyword:classical constitutive laws",
    "label": "classical constitutive laws",
+   "kind": "keyword"
+  },
+  "work:information modelling for urban building energy simulation-a taxonomic review": {
+   "id": "work:information modelling for urban building energy simulation-a taxonomic review",
+   "label": "Information modelling for urban building energy simulation\u2014A taxonomic review",
+   "kind": "work"
+  },
+  "author:avichal malhotra": {
+   "id": "author:avichal malhotra",
+   "label": "Avichal Malhotra",
+   "kind": "author"
+  },
+  "author:julian bischof": {
+   "id": "author:julian bischof",
+   "label": "Julian Bischof",
+   "kind": "author"
+  },
+  "author:alexandru nichersu": {
+   "id": "author:alexandru nichersu",
+   "label": "Alexandru Nichersu",
+   "kind": "author"
+  },
+  "author:karl\u2010heinz h\u00e4fele": {
+   "id": "author:karl\u2010heinz h\u00e4fele",
+   "label": "Karl\u2010Heinz H\u00e4fele",
+   "kind": "author"
+  },
+  "author:johannes exenberger": {
+   "id": "author:johannes exenberger",
+   "label": "Johannes Exenberger",
+   "kind": "author"
+  },
+  "author:divyanshu sood": {
+   "id": "author:divyanshu sood",
+   "label": "Divyanshu Sood",
+   "kind": "author"
+  },
+  "author:james allan": {
+   "id": "author:james allan",
+   "label": "James Allan",
+   "kind": "author"
+  },
+  "author:j\u00e9r\u00f4me frisch": {
+   "id": "author:j\u00e9r\u00f4me frisch",
+   "label": "J\u00e9r\u00f4me Frisch",
+   "kind": "author"
+  },
+  "author:christoph van treeck": {
+   "id": "author:christoph van treeck",
+   "label": "Christoph van Treeck",
+   "kind": "author"
+  },
+  "author:james odonnell": {
+   "id": "author:james odonnell",
+   "label": "James O\u2019Donnell",
+   "kind": "author"
+  },
+  "author:gerald schweiger": {
+   "id": "author:gerald schweiger",
+   "label": "Gerald Schweiger",
+   "kind": "author"
+  },
+  "keyword:input data": {
+   "id": "keyword:input data",
+   "label": "input data",
+   "kind": "keyword"
+  },
+  "keyword:associated data formats": {
+   "id": "keyword:associated data formats",
+   "label": "associated data formats",
+   "kind": "keyword"
+  },
+  "keyword:data sources": {
+   "id": "keyword:data sources",
+   "label": "data sources",
+   "kind": "keyword"
+  },
+  "keyword:output data": {
+   "id": "keyword:output data",
+   "label": "output data",
+   "kind": "keyword"
+  },
+  "keyword:simulation processes": {
+   "id": "keyword:simulation processes",
+   "label": "simulation processes",
+   "kind": "keyword"
+  },
+  "keyword:simulation workflows": {
+   "id": "keyword:simulation workflows",
+   "label": "simulation workflows",
+   "kind": "keyword"
+  },
+  "keyword:overall energy system": {
+   "id": "keyword:overall energy system",
+   "label": "overall energy system",
+   "kind": "keyword"
+  },
+  "keyword:energy consumption": {
+   "id": "keyword:energy consumption",
+   "label": "energy consumption",
+   "kind": "keyword"
+  },
+  "keyword:input": {
+   "id": "keyword:input",
+   "label": "input",
+   "kind": "keyword"
+  },
+  "keyword:ubem": {
+   "id": "keyword:ubem",
+   "label": "ubem",
+   "kind": "keyword"
+  },
+  "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago": {
+   "id": "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago",
+   "label": "Analyzing Socio-Metabolic Vulnerability: Evidence from the Comoros Archipelago",
+   "kind": "work"
+  },
+  "author:mathieu durand": {
+   "id": "author:mathieu durand",
+   "label": "Mathieu Durand",
+   "kind": "author"
+  },
+  "keyword:comoros archipelago": {
+   "id": "keyword:comoros archipelago",
+   "label": "comoros archipelago",
+   "kind": "keyword"
+  },
+  "work:digital twins": {
+   "id": "work:digital twins",
+   "label": "Digital twins",
+   "kind": "work"
+  },
+  "author:michael batty": {
+   "id": "author:michael batty",
+   "label": "Michael Batty",
+   "kind": "author"
+  },
+  "keyword:digital twins": {
+   "id": "keyword:digital twins",
+   "label": "digital twins",
+   "kind": "keyword"
+  },
+  "work:socio-metabolic risk and tipping points on islands": {
+   "id": "work:socio-metabolic risk and tipping points on islands",
+   "label": "Socio-metabolic risk and tipping points on islands",
+   "kind": "work"
+  },
+  "author:tailin huang": {
+   "id": "author:tailin huang",
+   "label": "Tailin Huang",
+   "kind": "author"
+  },
+  "author:nidhi nagabhatla": {
+   "id": "author:nidhi nagabhatla",
+   "label": "Nidhi Nagabhatla",
+   "kind": "author"
+  },
+  "author:pia\u2010johanna schweizer": {
+   "id": "author:pia\u2010johanna schweizer",
+   "label": "Pia\u2010Johanna Schweizer",
+   "kind": "author"
+  },
+  "author:matthew j. eckelman": {
+   "id": "author:matthew j. eckelman",
+   "label": "Matthew J. Eckelman",
+   "kind": "author"
+  },
+  "author:jasper verschuur": {
+   "id": "author:jasper verschuur",
+   "label": "Jasper Verschuur",
+   "kind": "author"
+  },
+  "author:reshma soman": {
+   "id": "author:reshma soman",
+   "label": "Reshma Soman",
+   "kind": "author"
+  },
+  "keyword:small islands using insights": {
+   "id": "keyword:small islands using insights",
+   "label": "small islands using insights",
+   "kind": "keyword"
+  },
+  "keyword:small islands": {
+   "id": "keyword:small islands",
+   "label": "small islands",
+   "kind": "keyword"
+  },
+  "keyword:sids would mean governing socio-metabolic flows": {
+   "id": "keyword:sids would mean governing socio-metabolic flows",
+   "label": "sids would mean governing socio-metabolic flows",
+   "kind": "keyword"
+  },
+  "keyword:pandemics significantly hinder sids progress": {
+   "id": "keyword:pandemics significantly hinder sids progress",
+   "label": "pandemics significantly hinder sids progress",
+   "kind": "keyword"
+  },
+  "keyword:socio-metabolic risk": {
+   "id": "keyword:socio-metabolic risk",
+   "label": "socio-metabolic risk",
+   "kind": "keyword"
+  },
+  "keyword:effectively deliver societal services necessary": {
+   "id": "keyword:effectively deliver societal services necessary",
+   "label": "effectively deliver societal services necessary",
+   "kind": "keyword"
+  },
+  "keyword:governing smr": {
+   "id": "keyword:governing smr",
+   "label": "governing smr",
+   "kind": "keyword"
+  },
+  "keyword:systemic risk associated": {
+   "id": "keyword:systemic risk associated",
+   "label": "systemic risk associated",
+   "kind": "keyword"
+  },
+  "keyword:societal services": {
+   "id": "keyword:societal services",
+   "label": "societal services",
+   "kind": "keyword"
+  },
+  "keyword:positioning smr": {
+   "id": "keyword:positioning smr",
+   "label": "positioning smr",
+   "kind": "keyword"
+  },
+  "keyword:tipping points": {
+   "id": "keyword:tipping points",
+   "label": "tipping points",
+   "kind": "keyword"
+  },
+  "work:digital twins: the current \"krays\" of urban analytics?": {
+   "id": "work:digital twins: the current \"krays\" of urban analytics?",
+   "label": "Digital twins: The current \u201cKrays\u201d of urban analytics?",
+   "kind": "work"
+  },
+  "author:a. stewart fotheringham": {
+   "id": "author:a. stewart fotheringham",
+   "label": "A. Stewart Fotheringham",
+   "kind": "author"
+  },
+  "keyword:urban analytics": {
+   "id": "keyword:urban analytics",
+   "label": "urban analytics",
+   "kind": "keyword"
+  },
+  "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island": {
+   "id": "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island",
+   "label": "Evaluation of a Peer-to-Peer Smart Grid Using Digital Twins: A Case Study of a Remote European Island",
+   "kind": "work"
+  },
+  "author:niall buckley": {
+   "id": "author:niall buckley",
+   "label": "Niall Buckley",
+   "kind": "author"
+  },
+  "author:claudia bo": {
+   "id": "author:claudia bo",
+   "label": "Claudia Bo",
+   "kind": "author"
+  },
+  "author:faezeh delkhah": {
+   "id": "author:faezeh delkhah",
+   "label": "Faezeh Delkhah",
+   "kind": "author"
+  },
+  "author:niall byrne": {
+   "id": "author:niall byrne",
+   "label": "Niall Byrne",
+   "kind": "author"
+  },
+  "author:avril n\u00ed shearcaigh": {
+   "id": "author:avril n\u00ed shearcaigh",
+   "label": "Avril N\u00ed Shearcaigh",
+   "kind": "author"
+  },
+  "author:stephanie brennan": {
+   "id": "author:stephanie brennan",
+   "label": "Stephanie Brennan",
+   "kind": "author"
+  },
+  "author:dayanne peretti corr\u00eaa": {
+   "id": "author:dayanne peretti corr\u00eaa",
+   "label": "Dayanne Peretti Corr\u00eaa",
+   "kind": "author"
+  },
+  "keyword:using digital twins": {
+   "id": "keyword:using digital twins",
+   "label": "using digital twins",
+   "kind": "keyword"
+  },
+  "keyword:predictive digital twins": {
+   "id": "keyword:predictive digital twins",
+   "label": "predictive digital twins",
+   "kind": "keyword"
+  },
+  "keyword:p2p energy trading": {
+   "id": "keyword:p2p energy trading",
+   "label": "p2p energy trading",
+   "kind": "keyword"
+  },
+  "keyword:electrifying energy systems": {
+   "id": "keyword:electrifying energy systems",
+   "label": "electrifying energy systems",
+   "kind": "keyword"
+  },
+  "keyword:current energy use": {
+   "id": "keyword:current energy use",
+   "label": "current energy use",
+   "kind": "keyword"
+  },
+  "keyword:shift energy loads": {
+   "id": "keyword:shift energy loads",
+   "label": "shift energy loads",
+   "kind": "keyword"
+  },
+  "keyword:optimizing local res": {
+   "id": "keyword:optimizing local res",
+   "label": "optimizing local res",
    "kind": "keyword"
   }
  },
@@ -10365,8 +13187,20 @@
   {
    "id": "e137",
    "nodes": [
+    "keyword:opencode",
+    "notation:sk condition",
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 4
+  },
+  {
+   "id": "e138",
+   "nodes": [
     "keyword:file-based serving proves insufficient",
-    "keyword:llm answers",
+    "keyword:llm renders",
     "keyword:semantic neighborhood queries",
     "project:poc",
     "section:[next]"
@@ -10376,7 +13210,7 @@
    "arity": 5
   },
   {
-   "id": "e138",
+   "id": "e139",
    "nodes": [
     "keyword:opencode",
     "keyword:phase",
@@ -10388,7 +13222,7 @@
    "arity": 4
   },
   {
-   "id": "e139",
+   "id": "e140",
    "nodes": [
     "keyword:research workflow",
     "project:poc",
@@ -10399,7 +13233,7 @@
    "arity": 3
   },
   {
-   "id": "e140",
+   "id": "e141",
    "nodes": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -10411,7 +13245,7 @@
    "arity": 4
   },
   {
-   "id": "e141",
+   "id": "e142",
    "nodes": [
     "keyword:dune build",
     "project:poc",
@@ -10422,7 +13256,7 @@
    "arity": 3
   },
   {
-   "id": "e142",
+   "id": "e143",
    "nodes": [
     "keyword:bash",
     "project:poc",
@@ -10433,7 +13267,7 @@
    "arity": 3
   },
   {
-   "id": "e143",
+   "id": "e144",
    "nodes": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
@@ -10443,7 +13277,7 @@
    "arity": 2
   },
   {
-   "id": "e144",
+   "id": "e145",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -10454,7 +13288,7 @@
    "arity": 3
   },
   {
-   "id": "e145",
+   "id": "e146",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -10465,7 +13299,7 @@
    "arity": 3
   },
   {
-   "id": "e146",
+   "id": "e147",
    "nodes": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -10477,7 +13311,7 @@
    "arity": 4
   },
   {
-   "id": "e147",
+   "id": "e148",
    "nodes": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
@@ -10487,7 +13321,7 @@
    "arity": 2
   },
   {
-   "id": "e148",
+   "id": "e149",
    "nodes": [
     "keyword:nix build",
     "project:poc",
@@ -10498,7 +13332,7 @@
    "arity": 3
   },
   {
-   "id": "e149",
+   "id": "e150",
    "nodes": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -10510,7 +13344,7 @@
    "arity": 4
   },
   {
-   "id": "e150",
+   "id": "e151",
    "nodes": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -10521,7 +13355,7 @@
    "arity": 3
   },
   {
-   "id": "e151",
+   "id": "e152",
    "nodes": [
     "keyword:reasoning",
     "project:top",
@@ -10532,7 +13366,7 @@
    "arity": 3
   },
   {
-   "id": "e152",
+   "id": "e153",
    "nodes": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -10544,7 +13378,7 @@
    "arity": 4
   },
   {
-   "id": "e153",
+   "id": "e154",
    "nodes": [
     "project:top",
     "section:[3. proposed architecture]"
@@ -10554,7 +13388,7 @@
    "arity": 2
   },
   {
-   "id": "e154",
+   "id": "e155",
    "nodes": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -10565,7 +13399,7 @@
    "arity": 3
   },
   {
-   "id": "e155",
+   "id": "e156",
    "nodes": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
@@ -10575,7 +13409,7 @@
    "arity": 2
   },
   {
-   "id": "e156",
+   "id": "e157",
    "nodes": [
     "artifact:track f",
     "notation:sk condition",
@@ -10587,7 +13421,7 @@
    "arity": 4
   },
   {
-   "id": "e157",
+   "id": "e158",
    "nodes": [
     "project:top",
     "section:[7. risks and open decisions]"
@@ -10597,7 +13431,7 @@
    "arity": 2
   },
   {
-   "id": "e158",
+   "id": "e159",
    "nodes": [
     "artifact:track b",
     "project:top",
@@ -10608,7 +13442,139 @@
    "arity": 3
   },
   {
-   "id": "e159",
+   "id": "e160",
+   "nodes": [
+    "keyword:sources",
+    "project:island-dt",
+    "section:[island digital twin - literature review]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "Island Digital Twin \u2014 Literature Review",
+   "arity": 3
+  },
+  {
+   "id": "e161",
+   "nodes": [
+    "project:island-dt",
+    "section:[executive summary]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "Executive summary",
+   "arity": 2
+  },
+  {
+   "id": "e162",
+   "nodes": [
+    "keyword:island twin",
+    "keyword:island twin would simulate",
+    "project:island-dt",
+    "section:[a. island & urban metabolism - the flow layer]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "A. Island & urban metabolism \u2014 the flow layer",
+   "arity": 4
+  },
+  {
+   "id": "e163",
+   "nodes": [
+    "keyword:citygml energy ade",
+    "project:island-dt",
+    "section:[b. 3d city models & standards - the geometric + data substrate]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "B. 3D city models & standards \u2014 the geometric + data substrate",
+   "arity": 3
+  },
+  {
+   "id": "e164",
+   "nodes": [
+    "keyword:european island twin",
+    "keyword:island twin",
+    "keyword:peer-to-peer smart grid using digital twins",
+    "project:island-dt",
+    "section:[c. digital twins - the container (urban theory, island practice, eu policy)]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "C. Digital twins \u2014 the container (urban theory, island practice, EU policy)",
+   "arity": 5
+  },
+  {
+   "id": "e165",
+   "nodes": [
+    "keyword:island twin",
+    "project:island-dt",
+    "section:[d. participatory planning support & geodesign - the decision process]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "D. Participatory planning support & geodesign \u2014 the decision process",
+   "arity": 3
+  },
+  {
+   "id": "e166",
+   "nodes": [
+    "keyword:integrated island twin",
+    "keyword:island metabolic planning",
+    "keyword:island model",
+    "keyword:island twin",
+    "project:island-dt",
+    "section:[synthesis: how the pieces compose into an \"island digital twin\"]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "Synthesis: how the pieces compose into an \"island digital twin\"",
+   "arity": 6
+  },
+  {
+   "id": "e167",
+   "nodes": [
+    "keyword:editorial author list unverified",
+    "project:island-dt",
+    "section:[caveats]"
+   ],
+   "doc": "island-dt/literature-review.md",
+   "section": "Caveats",
+   "arity": 3
+  },
+  {
+   "id": "e168",
+   "nodes": [
+    "author:fridolin krausmann",
+    "author:nina eisenmenger",
+    "author:regina richter",
+    "keyword:comparatively low complexity provides interesting insights",
+    "keyword:domestic material consumption",
+    "keyword:domestic renewable electricity",
+    "keyword:export-oriented industries lead",
+    "keyword:large export-oriented metal processing industries",
+    "keyword:narrow domestic resource base",
+    "keyword:small open economies",
+    "keyword:specific institutional arrangements drives domestic resource-use patterns",
+    "keyword:specific resource-use patterns",
+    "keyword:two key resources",
+    "project:openalex",
+    "work:resource use in small island states"
+   ],
+   "doc": "openalex/https_openalex.org_W1630122343",
+   "section": "openalex/https_openalex.org_W1630122343",
+   "arity": 15
+  },
+  {
+   "id": "e169",
+   "nodes": [
+    "author:john stillwell",
+    "author:joseph ferreira",
+    "author:robert goodspeed",
+    "author:stan geertman",
+    "keyword:planning support systems",
+    "keyword:smart cities",
+    "project:openalex",
+    "work:planning support systems and smart cities"
+   ],
+   "doc": "openalex/https_openalex.org_W1689769220",
+   "section": "openalex/https_openalex.org_W1689769220",
+   "arity": 8
+  },
+  {
+   "id": "e170",
    "nodes": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -10632,7 +13598,29 @@
    "arity": 16
   },
   {
-   "id": "e160",
+   "id": "e171",
+   "nodes": [
+    "author:ren\u00e9e sieber",
+    "keyword:broaden public involvement",
+    "keyword:community-based organizations",
+    "keyword:evaluating current ppgis activities",
+    "keyword:four major themes found",
+    "keyword:framework",
+    "keyword:future ppgis research",
+    "keyword:gis",
+    "keyword:literature review",
+    "keyword:ppgis",
+    "keyword:public participation geographic information systems",
+    "keyword:themes constitute",
+    "project:openalex",
+    "work:public participation geographic information systems: a literature review and framework"
+   ],
+   "doc": "openalex/https_openalex.org_W1987349636",
+   "section": "openalex/https_openalex.org_W1987349636",
+   "arity": 14
+  },
+  {
+   "id": "e172",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -10654,7 +13642,7 @@
    "arity": 14
   },
   {
-   "id": "e161",
+   "id": "e173",
    "nodes": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -10667,7 +13655,7 @@
    "arity": 5
   },
   {
-   "id": "e162",
+   "id": "e174",
    "nodes": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -10690,7 +13678,7 @@
    "arity": 15
   },
   {
-   "id": "e163",
+   "id": "e175",
    "nodes": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -10714,7 +13702,7 @@
    "arity": 16
   },
   {
-   "id": "e164",
+   "id": "e176",
    "nodes": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -10735,7 +13723,23 @@
    "arity": 13
   },
   {
-   "id": "e165",
+   "id": "e177",
+   "nodes": [
+    "author:greg brown",
+    "author:marketta kytt\u00e4",
+    "keyword:empirical research",
+    "keyword:key issues",
+    "keyword:research priorities",
+    "keyword:synthesis based",
+    "project:openalex",
+    "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research"
+   ],
+   "doc": "openalex/https_openalex.org_W2099504029",
+   "section": "openalex/https_openalex.org_W2099504029",
+   "arity": 8
+  },
+  {
+   "id": "e178",
    "nodes": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -10754,7 +13758,61 @@
    "arity": 11
   },
   {
-   "id": "e166",
+   "id": "e179",
+   "nodes": [
+    "author:christopher kennedy",
+    "author:john cuddihy",
+    "author:joshua engel\u2010yan",
+    "keyword:changing metabolism",
+    "keyword:cities",
+    "project:openalex",
+    "work:the changing metabolism of cities"
+   ],
+   "doc": "openalex/https_openalex.org_W2147828940",
+   "section": "openalex/https_openalex.org_W2147828940",
+   "arity": 7
+  },
+  {
+   "id": "e180",
+   "nodes": [
+    "author:arzu \u00e7\u00f6ltekin",
+    "author:filip biljecki",
+    "author:hugo ledoux",
+    "author:jantien stoter",
+    "author:sisi zlatanova",
+    "keyword:applications",
+    "keyword:city models",
+    "keyword:city models appear",
+    "keyword:comprehensive literature study including hundreds",
+    "keyword:identified use cases",
+    "keyword:study",
+    "keyword:study demonstrates",
+    "keyword:technical information",
+    "project:openalex",
+    "work:applications of 3d city models: state of the art review"
+   ],
+   "doc": "openalex/https_openalex.org_W2215173806",
+   "section": "openalex/https_openalex.org_W2215173806",
+   "arity": 15
+  },
+  {
+   "id": "e181",
+   "nodes": [
+    "author:andrew allan",
+    "author:chris pettit",
+    "author:john 1952- stillwell",
+    "author:stan 1955- geertman",
+    "keyword:planning support science",
+    "keyword:smarter urban futures",
+    "project:openalex",
+    "work:planning support science for smarter urban futures"
+   ],
+   "doc": "openalex/https_openalex.org_W2613067797",
+   "section": "openalex/https_openalex.org_W2613067797",
+   "arity": 8
+  },
+  {
+   "id": "e182",
    "nodes": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -10781,7 +13839,103 @@
    "arity": 19
   },
   {
-   "id": "e167",
+   "id": "e183",
+   "nodes": [
+    "author:giorgio agugiaro",
+    "author:joachim benner",
+    "author:piergiorgio cipriano",
+    "author:romain nouvel",
+    "keyword:energy",
+    "keyword:energy ade",
+    "keyword:energy application domain extension",
+    "keyword:energy consumption reduction",
+    "keyword:energy domain",
+    "keyword:energy planning tools",
+    "keyword:existing data interoperability issues",
+    "keyword:omni-comprehensive urban data model covering",
+    "keyword:standard-based data model",
+    "keyword:urban energy simulations",
+    "project:openalex",
+    "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations"
+   ],
+   "doc": "openalex/https_openalex.org_W2793851618",
+   "section": "openalex/https_openalex.org_W2793851618",
+   "arity": 16
+  },
+  {
+   "id": "e184",
+   "nodes": [
+    "author:anne ventura",
+    "author:jean\u2010baptiste bahers",
+    "author:nicolas antheaume",
+    "author:paula higuera",
+    "keyword:caledonian island metabolism",
+    "keyword:extractive island",
+    "keyword:island corresponds",
+    "keyword:island metabolism",
+    "keyword:island metabolism strives",
+    "keyword:island scale",
+    "keyword:islands metabolism",
+    "keyword:nexus",
+    "keyword:nexus approach",
+    "keyword:nexus subsystem",
+    "project:openalex",
+    "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia"
+   ],
+   "doc": "openalex/https_openalex.org_W3012074597",
+   "section": "openalex/https_openalex.org_W3012074597",
+   "arity": 16
+  },
+  {
+   "id": "e185",
+   "nodes": [
+    "author:bruno barroca",
+    "author:h\u00e9l\u00e8ne beraud",
+    "author:roxana cristina popescu",
+    "keyword:hurricane irma",
+    "keyword:hurricane waste flows",
+    "keyword:improving post-hurricane waste planning",
+    "keyword:islands",
+    "keyword:islands total destruction tended toward",
+    "keyword:metabolism",
+    "keyword:saint martins metabolism",
+    "keyword:small islands leave",
+    "keyword:three structuring territorial metabolism dimensions",
+    "keyword:waste flows",
+    "keyword:waste flows changed durably",
+    "keyword:waste management system",
+    "project:openalex",
+    "work:the impact of hurricane irma on the metabolism of st. martins island"
+   ],
+   "doc": "openalex/https_openalex.org_W3054626598",
+   "section": "openalex/https_openalex.org_W3054626598",
+   "arity": 17
+  },
+  {
+   "id": "e186",
+   "nodes": [
+    "author:enni airaksinen",
+    "author:maxim rossknecht",
+    "keyword:citygml energy ade-case study helsinki",
+    "keyword:co2 emissions",
+    "keyword:district heating network",
+    "keyword:heating demand",
+    "keyword:heating demand prediction based",
+    "keyword:heating demand reduction",
+    "keyword:helsinki energy",
+    "keyword:helsinkis assumed heating demand reduction",
+    "keyword:lower co2 emission factors",
+    "keyword:provide energy-relevant information based",
+    "keyword:resulting co2 emissions prediction based",
+    "project:openalex",
+    "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki"
+   ],
+   "doc": "openalex/https_openalex.org_W3092573715",
+   "section": "openalex/https_openalex.org_W3092573715",
+   "arity": 15
+  },
+  {
+   "id": "e187",
    "nodes": [
     "author:arnau riera",
     "author:john goold",
@@ -10806,7 +13960,57 @@
    "arity": 17
   },
   {
-   "id": "e168",
+   "id": "e188",
+   "nodes": [
+    "author:marian chertow",
+    "author:marina fischer\u2010kowalski",
+    "author:simron jit singh",
+    "keyword:allow island governments",
+    "keyword:climate action",
+    "keyword:climate change",
+    "keyword:global environmental change",
+    "keyword:introduce key industrial ecology concepts",
+    "keyword:island cases",
+    "keyword:island industrial ecology",
+    "keyword:islands",
+    "keyword:special issue",
+    "keyword:sustain small islands",
+    "project:openalex",
+    "work:introduction: the metabolism of islands"
+   ],
+   "doc": "openalex/https_openalex.org_W3100951637",
+   "section": "openalex/https_openalex.org_W3100951637",
+   "arity": 15
+  },
+  {
+   "id": "e189",
+   "nodes": [
+    "author:christian lauk",
+    "author:dominik noll",
+    "author:dominik wiedenhofer",
+    "author:panos petridis",
+    "author:simron jit singh",
+    "author:willi haas",
+    "keyword:almost entirely circular biophysical economy toward one",
+    "keyword:apply material",
+    "keyword:circular material use",
+    "keyword:current material stocks",
+    "keyword:geomorphological characteristics make island systems special focal points",
+    "keyword:greek island",
+    "keyword:island almost half",
+    "keyword:island community",
+    "keyword:material circularity",
+    "keyword:socioeconomic biophysical stocks",
+    "keyword:sustainable material",
+    "project:openalex",
+    "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019"
+   ],
+   "doc": "openalex/https_openalex.org_W3209883919",
+   "section": "openalex/https_openalex.org_W3209883919",
+   "arity": 19
+  },
+  {
+   "id": "e190",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -10827,6 +14031,130 @@
    "doc": "openalex/https_openalex.org_W3212950476",
    "section": "openalex/https_openalex.org_W3212950476",
    "arity": 15
+  },
+  {
+   "id": "e191",
+   "nodes": [
+    "author:alexandru nichersu",
+    "author:avichal malhotra",
+    "author:christoph van treeck",
+    "author:divyanshu sood",
+    "author:gerald schweiger",
+    "author:james allan",
+    "author:james odonnell",
+    "author:johannes exenberger",
+    "author:julian bischof",
+    "author:j\u00e9r\u00f4me frisch",
+    "author:karl\u2010heinz h\u00e4fele",
+    "keyword:associated data formats",
+    "keyword:data sources",
+    "keyword:energy consumption",
+    "keyword:input",
+    "keyword:input data",
+    "keyword:output data",
+    "keyword:overall energy system",
+    "keyword:simulation processes",
+    "keyword:simulation workflows",
+    "keyword:ubem",
+    "project:openalex",
+    "work:information modelling for urban building energy simulation-a taxonomic review"
+   ],
+   "doc": "openalex/https_openalex.org_W3213037972",
+   "section": "openalex/https_openalex.org_W3213037972",
+   "arity": 23
+  },
+  {
+   "id": "e192",
+   "nodes": [
+    "author:jean\u2010baptiste bahers",
+    "author:mathieu durand",
+    "author:simron jit singh",
+    "keyword:comoros archipelago",
+    "project:openalex",
+    "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago"
+   ],
+   "doc": "openalex/https_openalex.org_W4220846098",
+   "section": "openalex/https_openalex.org_W4220846098",
+   "arity": 6
+  },
+  {
+   "id": "e193",
+   "nodes": [
+    "author:michael batty",
+    "keyword:digital twins",
+    "project:openalex",
+    "work:digital twins"
+   ],
+   "doc": "openalex/https_openalex.org_W4250399327",
+   "section": "openalex/https_openalex.org_W4250399327",
+   "arity": 4
+  },
+  {
+   "id": "e194",
+   "nodes": [
+    "author:jasper verschuur",
+    "author:matthew j. eckelman",
+    "author:nidhi nagabhatla",
+    "author:pia\u2010johanna schweizer",
+    "author:reshma soman",
+    "author:simron jit singh",
+    "author:tailin huang",
+    "keyword:effectively deliver societal services necessary",
+    "keyword:governing smr",
+    "keyword:islands",
+    "keyword:pandemics significantly hinder sids progress",
+    "keyword:positioning smr",
+    "keyword:sids would mean governing socio-metabolic flows",
+    "keyword:small islands",
+    "keyword:small islands using insights",
+    "keyword:societal services",
+    "keyword:socio-metabolic risk",
+    "keyword:systemic risk associated",
+    "keyword:tipping points",
+    "project:openalex",
+    "work:socio-metabolic risk and tipping points on islands"
+   ],
+   "doc": "openalex/https_openalex.org_W4280559094",
+   "section": "openalex/https_openalex.org_W4280559094",
+   "arity": 21
+  },
+  {
+   "id": "e195",
+   "nodes": [
+    "author:a. stewart fotheringham",
+    "keyword:digital twins",
+    "keyword:urban analytics",
+    "project:openalex",
+    "work:digital twins: the current \"krays\" of urban analytics?"
+   ],
+   "doc": "openalex/https_openalex.org_W4362472596",
+   "section": "openalex/https_openalex.org_W4362472596",
+   "arity": 5
+  },
+  {
+   "id": "e196",
+   "nodes": [
+    "author:avril n\u00ed shearcaigh",
+    "author:claudia bo",
+    "author:dayanne peretti corr\u00eaa",
+    "author:faezeh delkhah",
+    "author:niall buckley",
+    "author:niall byrne",
+    "author:stephanie brennan",
+    "keyword:current energy use",
+    "keyword:electrifying energy systems",
+    "keyword:optimizing local res",
+    "keyword:p2p energy trading",
+    "keyword:peer-to-peer smart grid using digital twins",
+    "keyword:predictive digital twins",
+    "keyword:shift energy loads",
+    "keyword:using digital twins",
+    "project:openalex",
+    "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island"
+   ],
+   "doc": "openalex/https_openalex.org_W4404111866",
+   "section": "openalex/https_openalex.org_W4404111866",
+   "arity": 17
   }
  ]
 }

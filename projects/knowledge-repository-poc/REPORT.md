@@ -170,6 +170,16 @@ tokens (cleaner author hyperedges).
 
 ## Next
 
+- **Out-of-sample test: "island digital twin" (2026-08-23).** A fresh research question on a topic the corpus had never touched — island metabolism × local digital twins (see `projects/island-digital-twin/literature-review.md`).
+
+**What was done:** added `island-dt` to the corpus manifest; ingested 19 DOI-keyed sources via the `expand` pipeline (OpenAlex); rebuilt. Graph: 65 docs / 864 nodes / 197 hyperedges / 5 projects / 29 works / 126 authors. OpenAlex metadata also verified several items that the review had flagged (e.g., Helsinki B5 = Airaksinen & Rossknecht; New Caledonia = Bahers, Ventura, Antheaume et al.).
+
+**The measurement that matters:** grounding trace on the composed question at `min_seeds=2` produced **2 hits, both within the 3D/energy pillar** — single-abstract co-occurrence hyperedges do **not** intersect across pillars (metabolic ↔ twin ↔ participatory). At `min_seeds=1` (evidence bundle = union over seeds) the repository assembles **13 sections across all four pillars**, saved as `graph/evidence-trace-island-dt.md`. This is the workflow-value test paying off: for cross-pillar questions, co-occurrence-within-section is a *precision* tool, not a *recall* tool.
+
+**Decision signal:** the union-as-evidence-bundle already works; **embeddings (semantic neighborhoods)** would be the principled recall-widening to make a fresh cross-domain question assemble at higher min-seeds — the "embeddings vs Phase C" question now has corpus-side evidence pointing toward embeddings if cross-pillar assembly matters.
+
+## Next
+
 - **Pipeline-internal LLM** (still key-gated): an `agent` binding after `trace`, for when a provider key is available — repository stays the guardrail; the LLM renders the argument inside the pipeline.
 - **Embeddings** for semantic neighborhood queries (beyond substring matching).
 - **Phase C** (persistent query service / review protocols / dashboard) only if file-based serving proves insufficient.

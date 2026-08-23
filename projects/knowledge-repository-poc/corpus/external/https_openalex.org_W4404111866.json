@@ -1,0 +1,18 @@
+{
+ "openalex_id": "https://openalex.org/W4404111866",
+ "doi": "https://doi.org/10.3390/en17225541",
+ "title": "Evaluation of a Peer-to-Peer Smart Grid Using Digital Twins: A Case Study of a Remote European Island",
+ "year": 2024,
+ "venue": "Energies",
+ "authors": [
+  "Niall Buckley",
+  "Claudia Bo",
+  "Faezeh Delkhah",
+  "Niall Byrne",
+  "Avril N\u00ed Shearcaigh",
+  "Stephanie Brennan",
+  "Dayanne Peretti Corr\u00eaa"
+ ],
+ "abstract": "Decarbonization of the built environment by electrifying energy systems and decarbonizing the electrical grid coupled with the digitization of these systems is a central strategy implemented by the European Commission (EC) to meet carbon reduction policies. The proliferation of technologies such as renewable energy sources (RES) and demand-side management (DSM) systems can be improved by using digital twins to predict and optimize their integration with existing systems. Digital twins in the built environment have been used for multiple purposes, such as predicting the performance of a system before its inception or optimizing its operation during use. To this end, a novel application of a combination of these technologies towards optimized DSM is peer-to-peer (P2P) energy trading, which can improve the local use of RES in the built environment. This paper investigates the potential of P2P energy trading in optimizing local RES of a remote island, Inishmore, Republic of Ireland, using a combination of data-driven and predictive digital twins towards the island\u2019s journey to net zero. Data-driven digital twins are used to evaluate the current energy use at the pilot site. Predictive digital twins are applied to estimate the impact of applying P2P in the future and its influence on RES consumption at the pilot site. The findings show that in scenarios with limited RES coverage, P2P can significantly increase the local consumption of excess RES energy, reducing the risk of transmission or curtailment losses. However, P2P is limited in scenarios with widespread RES installation without storage or behavioral change to shift energy loads.",
+ "citation_count": 11
+}

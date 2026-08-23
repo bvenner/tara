@@ -17,6 +17,12 @@
       "dir": ".",
       "glob": "knowledge-repository-proposal.md",
       "exclude": []
+    },
+    {
+      "name": "island-dt",
+      "dir": "projects/island-digital-twin",
+      "glob": "*.md",
+      "exclude": []
     }
   ],
   "external_dir": "projects/knowledge-repository-poc/corpus/external",

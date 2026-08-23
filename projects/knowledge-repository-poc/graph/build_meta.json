@@ -1,5 +1,5 @@
 {
- "manifest_sha": "16edabfd0e2cbf0f10cb5ca629d082074aabc07f2cc5d66d3ec8603f7df4bce2",
+ "manifest_sha": "00e5a65c2a62daaca678f442bfd1f963a3bf3166975a13ddbb2bca4ccb4723d6",
  "docs": {
   "ret-tssi/findings.md": "9dbe0efcc6bb41119fe5d8478c6b0350289cee3690b9e2fa726f8028a73a9222",
   "ret-tssi/literature/baez-lynch-moeller-2023.md": "03e5e815f35ace1207f41b74b9ec1a479e337c6b30a30d47df0131fe71ef1863",
@@ -33,58 +33,80 @@
   "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
   "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
   "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
-  "poc/REPORT.md": "badbd0e5a5e91784e2de52fb9381c627647bce4b1d42b7cc0767976ece2dbd2a",
+  "poc/REPORT.md": "8fecb42490f98f8ab8410aeacb3c2248648d8adb58cce880f2a1d2b3857cd309",
   "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
   "top/knowledge-repository-proposal.md": "56624daa6c60942a365a1eb578a33d83bf6b4a220585fa9731c3a79f33baf003",
+  "island-dt/literature-review.md": "bc29fbec48bf1fce9307bd5de6a3521043839c28636f89203f20b0cfc6e898ca",
+  "openalex/https_openalex.org_W1630122343": "b09040cc1043d3ecc0a21ddd775f653d599316565caf767f96daa03f02ebe0a6",
+  "openalex/https_openalex.org_W1689769220": "b24727af0ab1b77079a50ccc9879acefc7dc28ba81864a83b6ffcd32a7e3f046",
   "openalex/https_openalex.org_W1919133474": "c700612065d96ceafa063b917c071802935ec852113f60def6119d3968629a2a",
+  "openalex/https_openalex.org_W1987349636": "9487b7409e06c451bdbae7d354ec81b18ea1884b3045059f91242fa16668574f",
   "openalex/https_openalex.org_W1988468031": "bf2122b7bdc62a4a25071b44c31c7de98c7e155670b5b71e71fabc476ba0c32b",
   "openalex/https_openalex.org_W2017005585": "8895a70e42db4b4a64190dda5528ad15870172222dd0d30cc5e5144d33be8ed0",
   "openalex/https_openalex.org_W2050945279": "54473f56524694fd365724398d4b6697a9037223b67d6cc519d7912ea9fd4633",
   "openalex/https_openalex.org_W2076330525": "7e437fc12ee5cf4cf89910369090af1127946f78134203cd0d3b06c67898df76",
   "openalex/https_openalex.org_W2088012579": "d1b2d411370c88dcb248aa01229de2950b436f3c86457521797b2a7004435743",
+  "openalex/https_openalex.org_W2099504029": "caef95047ab8f0789a8a7d4de60b9fca87768661e87f80717dc926e735092d7b",
   "openalex/https_openalex.org_W2102277728": "9f31cdb5733ed833b1f84745e04c6b8ffae83c8eb6d52357f823dce926647a1a",
+  "openalex/https_openalex.org_W2147828940": "6ece40004bd56a4522b3a537238b8c7b10b9720593155f6eb0eaebb3ee836b09",
+  "openalex/https_openalex.org_W2215173806": "641ff71d9cb5a031840dcd236668dd43184eaa6e68e32a7951b454c350863994",
+  "openalex/https_openalex.org_W2613067797": "14d8dbc991712c12c91471af9d544aea85883fe3a23db96bd61eee3e79653935",
   "openalex/https_openalex.org_W2747676085": "8d9dab226f77d3e8c5419d90d1890ec09be4b128cea433bff4331d03c93172a6",
+  "openalex/https_openalex.org_W2793851618": "10568e04ada3b97b98ba54ca102b2149403350f7c398438a07b122bcb59e9a30",
+  "openalex/https_openalex.org_W3012074597": "7612140b61118d5374ab6df80f15796d52ee239460528ac9e6c3c34851b5df46",
+  "openalex/https_openalex.org_W3054626598": "f37981f35f26bfd1d07f93ded1805293ff88fbc2a81514c2f45367f4b5ba067d",
+  "openalex/https_openalex.org_W3092573715": "f557b3f29c690dffb566c72a632da8ceba5fee3eb7fda5334b95308edce23251",
   "openalex/https_openalex.org_W3098165131": "df3f21f03e18c374762d68f199a61156ab7eecee7aa3fb562168535b34f16fe4",
-  "openalex/https_openalex.org_W3212950476": "ec9c071309f1955c5694258be2bd66abecbdc6eeacf279344a5d004317df9472"
+  "openalex/https_openalex.org_W3100951637": "7e9f1d090f21ab1ee253e7f33ac1fd9c7f3f77cf78e679b59e5a69a32eefa324",
+  "openalex/https_openalex.org_W3209883919": "4c3879d0ad73151703fc6b6b884f6bf10f7d1d7810a680763d510a445cb15648",
+  "openalex/https_openalex.org_W3212950476": "ec9c071309f1955c5694258be2bd66abecbdc6eeacf279344a5d004317df9472",
+  "openalex/https_openalex.org_W3213037972": "ecf232dc04f1df28f1f17d3b850324a01e717fd1a2614f3afe5b14b4acb3fb2a",
+  "openalex/https_openalex.org_W4220846098": "6126f8c6af2538381f23c5dda298efd42385abcde2f2674b8da65b0ca10f4479",
+  "openalex/https_openalex.org_W4250399327": "bdfe82bbb6dd5b499819c7796513552994c43adba3a12e18cb3a9a69bbbad02f",
+  "openalex/https_openalex.org_W4280559094": "bc50665d95b6b48b63b6ac5781a9f17305d0c0bcfcb47ea4c4b8a56f6bb9c9eb",
+  "openalex/https_openalex.org_W4362472596": "e60738318a87cd1228c85278d331dea936ee6fe5885c1578f80b9fe78ff7a12c",
+  "openalex/https_openalex.org_W4404111866": "e8899a126f2a702b795202fd13d8d9a747116917b7d5a5ee63728d67500fa18e"
  },
- "n_docs": 45,
+ "n_docs": 65,
  "stats": {
-  "docs": 45,
-  "sections": 169,
-  "nodes": 624,
-  "edges": 169,
+  "docs": 65,
+  "sections": 197,
+  "nodes": 864,
+  "edges": 197,
   "node_kinds": {
-   "project": 4,
-   "section": 156,
-   "keyword": 359,
+   "project": 5,
+   "section": 164,
+   "keyword": 501,
    "notation": 8,
    "artifact": 10,
    "citation": 21,
-   "author": 56,
-   "work": 10
+   "author": 126,
+   "work": 29
   },
   "arity_hist": {
-   "2": 14,
-   "3": 24,
-   "4": 20,
-   "5": 20,
-   "6": 13,
-   "7": 18,
-   "8": 11,
+   "2": 15,
+   "3": 28,
+   "4": 23,
+   "5": 22,
+   "6": 15,
+   "7": 19,
+   "8": 14,
    "9": 12,
    "10": 9,
    "11": 7,
    "12": 4,
    "13": 4,
-   "14": 2,
-   "15": 3,
-   "16": 3,
-   "17": 1,
-   "19": 2,
+   "14": 3,
+   "15": 7,
+   "16": 5,
+   "17": 3,
+   "19": 3,
+   "21": 1,
    "22": 1,
+   "23": 1,
    "45": 1
   },
-  "mean_degree": 1.907,
+  "mean_degree": 1.704,
   "max_degree": 116,
   "top_hubs": [
    {
@@ -109,19 +131,25 @@
     "node": "project:poc",
     "kind": "project",
     "label": "poc",
-    "degree": 33
+    "degree": 34
    },
    {
     "node": "notation:sk condition",
     "kind": "notation",
     "label": "SK condition",
-    "degree": 32
+    "degree": 33
    },
    {
     "node": "notation:simultaneism",
     "kind": "notation",
     "label": "simultaneism",
     "degree": 32
+   },
+   {
+    "node": "project:openalex",
+    "kind": "project",
+    "label": "openalex",
+    "degree": 29
    },
    {
     "node": "artifact:t3",
@@ -170,21 +198,16 @@
     "kind": "artifact",
     "label": "T1",
     "degree": 16
-   },
-   {
-    "node": "notation:fourier",
-    "kind": "notation",
-    "label": "Fourier",
-    "degree": 13
    }
   ],
   "bib_entries": 74,
   "projects": [
    "ret-tssi",
    "poc",
-   "top"
+   "top",
+   "island-dt"
   ],
-  "external_works": 10,
+  "external_works": 29,
   "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"
  }
 }

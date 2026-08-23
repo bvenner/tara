@@ -1,40 +1,42 @@
 {
- "docs": 45,
- "sections": 169,
- "nodes": 624,
- "edges": 169,
+ "docs": 65,
+ "sections": 197,
+ "nodes": 864,
+ "edges": 197,
  "node_kinds": {
-  "project": 4,
-  "section": 156,
-  "keyword": 359,
+  "project": 5,
+  "section": 164,
+  "keyword": 501,
   "notation": 8,
   "artifact": 10,
   "citation": 21,
-  "author": 56,
-  "work": 10
+  "author": 126,
+  "work": 29
  },
  "arity_hist": {
-  "2": 14,
-  "3": 24,
-  "4": 20,
-  "5": 20,
-  "6": 13,
-  "7": 18,
-  "8": 11,
+  "2": 15,
+  "3": 28,
+  "4": 23,
+  "5": 22,
+  "6": 15,
+  "7": 19,
+  "8": 14,
   "9": 12,
   "10": 9,
   "11": 7,
   "12": 4,
   "13": 4,
-  "14": 2,
-  "15": 3,
-  "16": 3,
-  "17": 1,
-  "19": 2,
+  "14": 3,
+  "15": 7,
+  "16": 5,
+  "17": 3,
+  "19": 3,
+  "21": 1,
   "22": 1,
+  "23": 1,
   "45": 1
  },
- "mean_degree": 1.907,
+ "mean_degree": 1.704,
  "max_degree": 116,
  "top_hubs": [
   {
@@ -59,19 +61,25 @@
    "node": "project:poc",
    "kind": "project",
    "label": "poc",
-   "degree": 33
+   "degree": 34
   },
   {
    "node": "notation:sk condition",
    "kind": "notation",
    "label": "SK condition",
-   "degree": 32
+   "degree": 33
   },
   {
    "node": "notation:simultaneism",
    "kind": "notation",
    "label": "simultaneism",
    "degree": 32
+  },
+  {
+   "node": "project:openalex",
+   "kind": "project",
+   "label": "openalex",
+   "degree": 29
   },
   {
    "node": "artifact:t3",
@@ -120,20 +128,15 @@
    "kind": "artifact",
    "label": "T1",
    "degree": 16
-  },
-  {
-   "node": "notation:fourier",
-   "kind": "notation",
-   "label": "Fourier",
-   "degree": 13
   }
  ],
  "bib_entries": 74,
  "projects": [
   "ret-tssi",
   "poc",
-  "top"
+  "top",
+  "island-dt"
  ],
- "external_works": 10,
+ "external_works": 29,
  "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"
 }
