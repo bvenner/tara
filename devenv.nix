@@ -1,6 +1,4 @@
-{ pkgs, ... }:
-
-{
+{pkgs, ...}: {
   # Basic environment variables
   env.ANYTYPE_API_BASE_URL = "http://127.0.0.1:31012";
 
@@ -8,15 +6,15 @@
   dotenv.enable = true;
 
   # Packages from nixpkgs (always available in shell)
-  packages = [
-    pkgs.anytype-cli
-    pkgs.sops
-    pkgs.age
-    pkgs.nodejs_22
-    pkgs.jq
-    pkgs.curl
-    pkgs.git
-    pkgs.gh
+  packages = with pkgs; [
+    anytype-cli
+    sops
+    age
+    nodejs_22
+    jq
+    curl
+    git
+    gh
   ];
 
   enterShell = ''
