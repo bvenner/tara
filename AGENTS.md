@@ -7,7 +7,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 1. **RET × TSSI research program** (finished delivery; academic program doc) — `projects/ret-tssi-value-dynamics/AGENTS.md` → program docs, critiques, references.bib, walkthrough. Master's sub-problem M1–M6 still open (default M1).
 2. **Knowledge repository** (active infrastructure: hypergraph + plumbing) — `knowledge-repository-proposal.md` (3 recorded decisions at top), authoritative status: `projects/knowledge-repository-poc/REPORT.md`. Everything is committed & reproducible.
 3. **Island Digital Twin** (active new research question) — `projects/island-digital-twin/literature-review.md`; corpus ingested into the repository; grounding tested (`graph/evidence-trace-island-dt.md`).
-4. **AnyType elimination** (superseded by #2; keep as-is) — `anytype-based-tara/eliminate-anytype-plan.md` (Phase 0 export done to `data/tara_graph.db` + dumps).
+4. **AnyType elimination** (superseded by #2; keep as-is) — `archive/projects/anytype-based-tara/eliminate-anytype-plan.md` (Phase 0 export done to `data/tara_graph.db` + dumps).
 
 ## Tooling facts (do not re-derive)
 
@@ -20,7 +20,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 ## Conventions
 
 - Semantic commit prefixes; commit only when asked; never push `main` (feature branch → PR, confirm first); ask before destructive commands / git push|checkout / edits outside this directory.
-- Untracked file that must NEVER be committed: `anytype-based-tara/research-assistant-architecture-bcv.md`.
+- Untracked file that must NEVER be committed: `archive/projects/anytype-based-tara/research-assistant-architecture-bcv.md`.
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.
 - Git: `main` is 9 commits ahead of `origin/main`, unpushed (as of 2026-08-23).
 

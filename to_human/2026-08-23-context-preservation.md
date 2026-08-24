@@ -11,7 +11,7 @@ Full-session state for resumption after compaction/context reset. **Read this fi
 | RET × TSSI research program | delivered; program doc finished; Master's sub-problem open | `projects/ret-tssi-value-dynamics/AGENTS.md` |
 | Knowledge repository (hypergraph + plumbing) | active infrastructure; Phases A–B done | `knowledge-repository-proposal.md` · `projects/knowledge-repository-poc/REPORT.md` |
 | Island Digital Twin | active new research question; literature + corpus + grounding done | `projects/island-digital-twin/literature-review.md` |
-| AnyType elimination | superseded by the repository rethink; Phase 0 export kept as safety net | `anytype-based-tara/eliminate-anytype-plan.md` |
+| AnyType elimination | superseded by the repository rethink; Phase 0 export kept as safety net | `archive/projects/anytype-based-tara/eliminate-anytype-plan.md` |
 
 Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 
@@ -25,7 +25,7 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 
 ## 3. Thread 2 — TARA infra & AnyType elimination (mostly superseded)
 
-- Original architecture: `anytype-based-tara/research-assistant-architecture.md` (tracked). The `-bcv.md` draft is **untracked and must never be committed**.
+- Original architecture: `archive/projects/anytype-based-tara/research-assistant-architecture.md` (tracked). The `-bcv.md` draft is **untracked and must never be committed**.
 - Migration work that still stands as reference: `scripts/export_anytype.py` (dry-run/--commit/--verify), Phase 0 export (21 AnyType objects → `data/tara_graph.db` tables papers/authors/projects/experiments + markdown/JSON dumps in `data/`). Bugs fixed during that pass: quoted `ANYTYPE_API_BASE_URL` in env breaks the AnyType client; `**Field:**` markdown parser bug; stale `anytype_id` collisions on junk rows 1 & 2 (flagged for cleanup).
 - **Superseded by Thread 2 of the rethink:** OpenAlex is the bibliographic ground truth; the SQLite relational direction (Phase 1+ of `eliminate-anytype-plan.md`) is dropped. AnyType is decommission-tracked: MCP entry in `opencode.jsonc` now fails; server may still be running (read-only reference).
 
@@ -75,6 +75,6 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 ## 9. Conventions (stand on these)
 
 - Semantic commit prefixes; commit only when asked; never push main (feature branch + PR); ask before destructive commands / `git push`/`checkout` / edits outside this dir.
-- Untracked `anytype-based-tara/research-assistant-architecture-bcv.md` must never be committed.
+- Untracked `archive/projects/anytype-based-tara/research-assistant-architecture-bcv.md` must never be committed.
 - User: Dr. Bradley "Brad" Vener; Denver/Mountain; GitHub `bvenner`; concise communication.
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.
