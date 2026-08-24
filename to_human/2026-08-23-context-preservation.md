@@ -59,7 +59,7 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 
 - devenv (Nix) shell at repo; Python 3.13 venv (devenv-managed); `nix` 2.34.7; network available.
 - plumbing: **wheels broken** (bundled libzmq needs libnorm/libpgm/libsodium.so.23); working = Nix build at `~/tools/plumbing` (OCaml, `nix develop -c dune build`), binaries under `_build/default/bin/{plumb,check,render,mcp,chat}/main.exe`, language version 1.2~rc1. Gotchas: `id` is a reserved token (records can't have an `id` field); `exec` output must be exact-typed; exec boundary mismatches fatal the morphism; pipelines assume cwd=`pipelines/`; `map(expr)` references input record fields.
-- OpenAlex client at `scripts/lib/openalex_client.py` (4 req/s throttle; DOI/arXiv/topic; abstract reconstruction needed from `abstract_inverted_index`).
+- OpenAlex client at `projects/knowledge-repository-poc/scripts/lib/openalex_client.py` (4 req/s throttle; DOI/arXiv/topic; abstract reconstruction needed from `abstract_inverted_index`).
 - **No LLM provider key** (ANTHROPIC/OPENAI/GOOGLE all absent) — pipeline-internal `agent` is key-gated; opencode-side pairing needs no key.
 - opencode config: `opencode.jsonc` (instructions=[ret-tssi AGENTS.md], `skills.paths`=[poc/skills], mcp: `anytype` [failing, decommission] + `plumb` [working]). **Restart opencode to load skills + plumb MCP.**
 

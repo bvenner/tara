@@ -9,7 +9,7 @@ Writes fetched works as records under <poc>/corpus/external/<openalex_id>.json
 (idempotent: existing files are skipped), then emits one summary line:
   {mode, matched, written, skipped}
 
-The OpenAlex client comes from the repo's scripts/lib (single bibliographic source).
+The OpenAlex client comes from the repo's poc scripts/lib (single bibliographic source).
 """
 import json
 import re
@@ -17,10 +17,9 @@ import sys
 from pathlib import Path
 
 POC_ROOT = Path(__file__).resolve().parents[1]
-REPO_ROOT = Path(__file__).resolve().parents[3]
 EXT_DIR = POC_ROOT / "corpus" / "external"
 
-sys.path.insert(0, str(REPO_ROOT / "scripts" / "lib"))
+sys.path.insert(0, str(POC_ROOT / "scripts" / "lib"))
 import openalex_client as oa  # noqa: E402
 
 

@@ -122,7 +122,7 @@ Three roots + external works: `ret-tssi` (recursive `**/*.md`), `poc` (the POC's
 
 ### Pipelines
 
-- New `expand.plumb` — OpenAlex expansion worker (`scripts/expand_openalex.py`, reusing the repo's `openalex_client`), modes `topic` / `doi` / `arxiv`, reconstructs abstracts from `abstract_inverted_index`, idempotent writes.
+- New `expand.plumb` — OpenAlex expansion worker (`scripts/expand_openalex.py`, reusing the repo's `scripts/lib/openalex_client.py`), modes `topic` / `doi` / `arxiv`, reconstructs abstracts from `abstract_inverted_index`, idempotent writes.
 
 ### Growth (rebuilt graph)
 

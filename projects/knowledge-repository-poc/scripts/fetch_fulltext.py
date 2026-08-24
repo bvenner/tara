@@ -23,12 +23,13 @@ import requests
 
 POC_ROOT = Path(__file__).resolve().parents[1]
 REPO_ROOT = Path(__file__).resolve().parents[3]
+LIB_DIR = Path(__file__).resolve().parent / "lib"
 EXT_DIR = POC_ROOT / "corpus" / "external"
 FULLTEXT_DIR = POC_ROOT / "corpus" / "fulltext"
 INCOMING_DIR = REPO_ROOT / "papers" / "incoming"
 
-sys.path.insert(0, str(REPO_ROOT / "scripts" / "lib"))
-sys.path.insert(0, str(REPO_ROOT / "scripts"))
+sys.path.insert(0, str(LIB_DIR))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.pdf_extractor import extract_from_pdf  # noqa: E402
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0 "
@@ -151,8 +152,7 @@ def handle(req: dict, converter_factory) -> dict:
 
     # Live OpenAlex lookup per DOI: the external records predate best_oa_location
     # capture, so fetch the work fresh rather than trusting stale files.
-    sys.path.insert(0, str(REPO_ROOT / "scripts" / "lib"))
-    import openalex_client as oa  # noqa: E402
+    import openalex_client as oa  # noqa: E402  (LIB_DIR already on sys.path)
 
     for doi, title in candidates:
         found += 1

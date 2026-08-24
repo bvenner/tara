@@ -62,8 +62,8 @@ anytype serve --listen-address 127.0.0.1:31012 > /tmp/anytype-server.log 2>&1 &
 | `scripts/anytype-api-test.sh` | API CRUD smoke test script |
 | `scripts/ingest_pdf.py` | Phase 1 PDF→AnyType ingestion pipeline |
 | `scripts/lib/anytype_client.py` | AnyType REST API wrapper (rate-limited) |
-| `scripts/lib/pdf_extractor.py` | Docling-based PDF text/metadata extraction |
-| `scripts/lib/openalex_client.py` | OpenAlex API client (works, DOI, arXiv, title) |
+| `projects/knowledge-repository-poc/scripts/lib/pdf_extractor.py` | Docling-based PDF text/metadata extraction |
+| `projects/knowledge-repository-poc/scripts/lib/openalex_client.py` | OpenAlex API client (works, DOI, arXiv, title) |
 | `scripts/lib/arxiv_client.py` | arXiv API client (metadata by ID, preferred for arXiv papers) |
 | `scripts/lib/pdf_metadata.py` | PyPDF2-based PDF metadata writer (embeds title/authors/DOI into processed PDFs) |
 | `scripts/lib/graph_store.py` | SQLite citation graph store (papers, authors, citations) |

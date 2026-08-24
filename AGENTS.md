@@ -13,7 +13,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 
 - plumbing: **pip wheels are broken** (missing libnorm/libpgm/libsodium soname); use the Nix source build at `~/tools/plumbing` (`nix develop ~/tools/plumbing -c ~/tools/plumbing/_build/default/bin/{plumb,check,render,mcp}/main.exe`). Pipelines assume cwd = `pipelines/`.
 - Repository pipeline runner (always available, mirrors MCP `call`): `python projects/knowledge-repository-poc/scripts/pipeline.py <name> '<json>'`.
-- OpenAlex client at `scripts/lib/openalex_client.py` (4 req/s; abstracts = `abstract_inverted_index`). Expand via `pipelines/expand.plumb`.
+- OpenAlex client at `projects/knowledge-repository-poc/scripts/lib/openalex_client.py` (4 req/s; abstracts = `abstract_inverted_index`). Expand via `pipelines/expand.plumb`.
 - No LLM provider key is set (ANTHROPIC/OPENAI/GOOGLE absent) → pipeline-internal `agent` is key-gated; the **opencode-side pairing works now** (LLM reads the trace, synthesizes, cites `doc :: section`).
 - `opencode.jsonc` changed this session: `skills.paths` (hypergraph-grounding skill) + `plumb` MCP server + (pre-existing) `anytype` MCP (now failing — decommission). Requires an opencode **restart** to load.
 
