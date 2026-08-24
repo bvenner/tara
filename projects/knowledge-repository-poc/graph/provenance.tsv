@@ -138,62 +138,313 @@ e135	poc/REPORT.md	Incremental fast path	5
 e136	poc/REPORT.md	OpenAlex expansion run (this build)	2
 e137	poc/REPORT.md	Next	4
 e138	poc/REPORT.md	Next	3
-e139	poc/REPORT.md	Next	5
-e140	poc/plumbing-setup.md	Plumbing — environment setup & smoke test	4
-e141	poc/plumbing-setup.md	What plumbing provides here	3
-e142	poc/plumbing-setup.md	Installation — the path that works: Nix source build	4
-e143	poc/plumbing-setup.md	nix available: nix 2.34.7 on this host	3
-e144	poc/plumbing-setup.md	Usage	3
-e145	poc/plumbing-setup.md	Run a pipeline from a JSON stream on stdin	2
-e146	poc/plumbing-setup.md	Type-check at load time	3
-e147	poc/plumbing-setup.md	render the architecture as a graph (dot)	3
-e148	poc/plumbing-setup.md	MCP bridge (exposes pipelines as MCP tools to opencode)	4
-e149	poc/plumbing-setup.md	Smoke-test transcript (all passed)	2
-e150	poc/plumbing-setup.md	Notes / gotchas	3
-e151	top/knowledge-repository-proposal.md	An Explicit Knowledge Repository for the opencode Research Assistant	4
-e152	top/knowledge-repository-proposal.md	1. Framing: the gap this fills	3
-e153	top/knowledge-repository-proposal.md	Why hypergraphs, not a pairwise graph	3
-e154	top/knowledge-repository-proposal.md	2. Design principles	4
-e155	top/knowledge-repository-proposal.md	3. Proposed architecture	2
-e156	top/knowledge-repository-proposal.md	4. Component assessment	3
-e157	top/knowledge-repository-proposal.md	5. The knowledge-engineering loop	2
-e158	top/knowledge-repository-proposal.md	6. Phased plan	4
-e159	top/knowledge-repository-proposal.md	7. Risks and open decisions	2
-e160	top/knowledge-repository-proposal.md	8. Why this fits the research program	3
-e161	island-dt/literature-review.md	Island Digital Twin — Literature Review	3
-e162	island-dt/literature-review.md	Executive summary	2
-e163	island-dt/literature-review.md	A. Island & urban metabolism — the flow layer	4
-e164	island-dt/literature-review.md	B. 3D city models & standards — the geometric + data substrate	3
-e165	island-dt/literature-review.md	C. Digital twins — the container (urban theory, island practice, EU policy)	5
-e166	island-dt/literature-review.md	D. Participatory planning support & geodesign — the decision process	3
-e167	island-dt/literature-review.md	Synthesis: how the pieces compose into an "island digital twin"	6
-e168	island-dt/literature-review.md	Caveats	3
-e169	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
-e170	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
-e171	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
-e172	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
-e173	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
-e174	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
-e175	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
-e176	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
-e177	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
-e178	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
-e179	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
-e180	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
-e181	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
-e182	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
-e183	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
-e184	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
-e185	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
-e186	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
-e187	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
-e188	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
-e189	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
-e190	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
-e191	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
-e192	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
-e193	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
-e194	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
-e195	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
-e196	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
-e197	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17
+e139	poc/REPORT.md	Next	3
+e140	poc/REPORT.md	Next	5
+e141	poc/plumbing-setup.md	Plumbing — environment setup & smoke test	4
+e142	poc/plumbing-setup.md	What plumbing provides here	3
+e143	poc/plumbing-setup.md	Installation — the path that works: Nix source build	4
+e144	poc/plumbing-setup.md	nix available: nix 2.34.7 on this host	3
+e145	poc/plumbing-setup.md	Usage	3
+e146	poc/plumbing-setup.md	Run a pipeline from a JSON stream on stdin	2
+e147	poc/plumbing-setup.md	Type-check at load time	3
+e148	poc/plumbing-setup.md	render the architecture as a graph (dot)	3
+e149	poc/plumbing-setup.md	MCP bridge (exposes pipelines as MCP tools to opencode)	4
+e150	poc/plumbing-setup.md	Smoke-test transcript (all passed)	2
+e151	poc/plumbing-setup.md	Notes / gotchas	3
+e152	top/knowledge-repository-proposal.md	An Explicit Knowledge Repository for the opencode Research Assistant	4
+e153	top/knowledge-repository-proposal.md	1. Framing: the gap this fills	3
+e154	top/knowledge-repository-proposal.md	Why hypergraphs, not a pairwise graph	3
+e155	top/knowledge-repository-proposal.md	2. Design principles	4
+e156	top/knowledge-repository-proposal.md	3. Proposed architecture	2
+e157	top/knowledge-repository-proposal.md	4. Component assessment	3
+e158	top/knowledge-repository-proposal.md	5. The knowledge-engineering loop	2
+e159	top/knowledge-repository-proposal.md	6. Phased plan	4
+e160	top/knowledge-repository-proposal.md	7. Risks and open decisions	2
+e161	top/knowledge-repository-proposal.md	8. Why this fits the research program	3
+e162	island-dt/literature-review.md	Island Digital Twin — Literature Review	3
+e163	island-dt/literature-review.md	Executive summary	2
+e164	island-dt/literature-review.md	A. Island & urban metabolism — the flow layer	4
+e165	island-dt/literature-review.md	B. 3D city models & standards — the geometric + data substrate	3
+e166	island-dt/literature-review.md	C. Digital twins — the container (urban theory, island practice, EU policy)	5
+e167	island-dt/literature-review.md	D. Participatory planning support & geodesign — the decision process	3
+e168	island-dt/literature-review.md	Synthesis: how the pieces compose into an "island digital twin"	6
+e169	island-dt/literature-review.md	Caveats	3
+e170	fulltext/https_openalex.org_W1919133474.md	HEAD	2
+e171	fulltext/https_openalex.org_W1919133474.md	From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics	4
+e172	fulltext/https_openalex.org_W1919133474.md	From Quantum Chaos and Eigenstate Thermalization to Statistical Mechanics and Thermodynamics	4
+e173	fulltext/https_openalex.org_W1919133474.md	1. Introduction	8
+e174	fulltext/https_openalex.org_W1919133474.md	2.1. Classical Chaos	7
+e175	fulltext/https_openalex.org_W1919133474.md	2.2. Random Matrix Theory	5
+e176	fulltext/https_openalex.org_W1919133474.md	2.2.1. Chaotic Eigenfunctions	8
+e177	fulltext/https_openalex.org_W1919133474.md	2.2.2. The Structure of the Matrix Elements of Operators	5
+e178	fulltext/https_openalex.org_W1919133474.md	2.3. Berry-Tabor Conjecture	8
+e179	fulltext/https_openalex.org_W1919133474.md	2.4. The Semi-Classical Limit and Berry's Conjecture	5
+e180	fulltext/https_openalex.org_W1919133474.md	3.1. Examples of Wigner-Dyson and Poisson Statistics	5
+e181	fulltext/https_openalex.org_W1919133474.md	3.2. The Structure of Many-Body Eigenstates	5
+e182	fulltext/https_openalex.org_W1919133474.md	3.3. Quantum Chaos and Entanglement	6
+e183	fulltext/https_openalex.org_W1919133474.md	each time t , nitial product states, let them S ( t ) for each initial state, and -2 n ln 2 -O ( mn ) 3.4. Quantum Chaos and Delocalization in Energy Space	5
+e184	fulltext/https_openalex.org_W1919133474.md	4.1. Thermalization in Quantum Systems	7
+e185	fulltext/https_openalex.org_W1919133474.md	4.2. The Eigenstate Thermalization Hypothesis (ETH)	6
+e186	fulltext/https_openalex.org_W1919133474.md	4.2.1. ETH and Thermalization	6
+e187	fulltext/https_openalex.org_W1919133474.md	4.2.2. ETH and the Quantum Ergodic Theorem	6
+e188	fulltext/https_openalex.org_W1919133474.md	4.3.1. Eigenstate Thermalization	5
+e189	fulltext/https_openalex.org_W1919133474.md	4.3.2. Quantum Quenches and Thermalization in Lattice Systems	5
+e190	fulltext/https_openalex.org_W1919133474.md	5. Quantum Chaos and the Laws of Thermodynamics	7
+e191	fulltext/https_openalex.org_W1919133474.md	5.1. General Setup and Doubly Stochastic Evolution	6
+e192	fulltext/https_openalex.org_W1919133474.md	5.1.1. Properties of Master Equations and Doubly Stochastic Evolution	6
+e193	fulltext/https_openalex.org_W1919133474.md	5.2. General Implications of Doubly Stochastic Evolution	8
+e194	fulltext/https_openalex.org_W1919133474.md	5.2.1. The Infinite Temperature State as an Attractor of Doubly-Stochastic Evolution	6
+e195	fulltext/https_openalex.org_W1919133474.md	5.2.2. Increase of the Diagonal Entropy Under Doubly Stochastic Evolution	6
+e196	fulltext/https_openalex.org_W1919133474.md	5.2.3. The Second Law in the Kelvin Formulation for Passive Density Matrices	6
+e197	fulltext/https_openalex.org_W1919133474.md	5.3. Implications of Doubly-Stochastic Evolution for Chaotic Systems	7
+e198	fulltext/https_openalex.org_W1919133474.md	5.3.1. The Diagonal Entropy and the Fundamental Thermodynamic Relation	5
+e199	fulltext/https_openalex.org_W1919133474.md	5.3.2. The Fundamental Relation vs the First Law of Thermodynamics	7
+e200	fulltext/https_openalex.org_W1919133474.md	6. Quantum Chaos, Fluctuation Theorems, and Linear Response Relations	8
+e201	fulltext/https_openalex.org_W1919133474.md	6.1. Fluctuation Theorems	6
+e202	fulltext/https_openalex.org_W1919133474.md	6.1.1. Fluctuation Theorems for Systems Starting from a Gibbs State	6
+e203	fulltext/https_openalex.org_W1919133474.md	6.1.2. Fluctuation Theorems for Quantum Chaotic Systems	5
+e204	fulltext/https_openalex.org_W1919133474.md	6.2. Detailed Balance for Open Systems	7
+e205	fulltext/https_openalex.org_W1919133474.md	6.3. Einstein's Energy Drift-Diffusion Relations for Isolated and Open Systems	2
+e206	fulltext/https_openalex.org_W1919133474.md	6.4. Fokker-Planck Equation for the Heating of a Driven Isolated System	4
+e207	fulltext/https_openalex.org_W1919133474.md	6.5. Fluctuation Theorems for Two (or More) Conserved Quantities	5
+e208	fulltext/https_openalex.org_W1919133474.md	6.6. Linear Response and Onsager Relations	3
+e209	fulltext/https_openalex.org_W1919133474.md	6.7. Nonlinear Response Coefficients	5
+e210	fulltext/https_openalex.org_W1919133474.md	6.8. ETH and the Fluctuation-Dissipation Relation for a Single Eigenstate	3
+e211	fulltext/https_openalex.org_W1919133474.md	6.9. ETH and Two-Observable Correlations Functions	6
+e212	fulltext/https_openalex.org_W1919133474.md	7. Application of Einstein's Relation to Continuously Driven Systems	3
+e213	fulltext/https_openalex.org_W1919133474.md	7.1. Heating a Particle in a Fluctuating Chaotic Cavity	7
+e214	fulltext/https_openalex.org_W1919133474.md	7.2. Driven Harmonic System and a Phase Transition in the Distribution Function	7
+e215	fulltext/https_openalex.org_W1919133474.md	7.3. Two Equilibrating Systems	7
+e216	fulltext/https_openalex.org_W1919133474.md	8. Integrable Models and the Generalized Gibbs Ensemble (GGE)	6
+e217	fulltext/https_openalex.org_W1919133474.md	8.1. Constrained Equilibrium: the GGE	6
+e218	fulltext/https_openalex.org_W1919133474.md	8.1.1. Noninteracting Spinless Fermions	6
+e219	fulltext/https_openalex.org_W1919133474.md	8.1.2. Hard-Core Bosons	6
+e220	fulltext/https_openalex.org_W1919133474.md	8.2. Generalized Eigenstate Thermalization	6
+e221	fulltext/https_openalex.org_W1919133474.md	8.2.1. Truncated GGE for the Transverse Field Ising Model	6
+e222	fulltext/https_openalex.org_W1919133474.md	( y ) tGGE ,ℓ ) , the subsystem size ranges from ℓ = 5 to ℓ = 50. and sizes change gradually as a function of the size 8.3. Quenches in the XXZ model	4
+e223	fulltext/https_openalex.org_W1919133474.md	8.4. Relaxation of Weakly Non-Integrable Systems: Prethermalization and Quantum Kinetic Equations	3
+e224	fulltext/https_openalex.org_W1919133474.md	Acknowledgments	2
+e225	fulltext/https_openalex.org_W1919133474.md	Appendix A. The Kicked Rotor	3
+e226	fulltext/https_openalex.org_W1919133474.md	Appendix B. Zeros of the Riemann Zeta Function	7
+e227	fulltext/https_openalex.org_W1919133474.md	Appendix C. The Infinite Temperature State as an Attractor	7
+e228	fulltext/https_openalex.org_W1919133474.md	Appendix D. Birkhoff's Theorem and Doubly Stochastic Evolution	7
+e229	fulltext/https_openalex.org_W1919133474.md	Appendix E. Proof of 〈 W 〉 ≥ 0 for Passive Density Matrices and Doubly-Stochastic Evolution	3
+e230	fulltext/https_openalex.org_W1919133474.md	Appendix F. Derivation of the Drift Diffusion Relation for Continuous Processes	4
+e231	fulltext/https_openalex.org_W1919133474.md	Appendix G. Derivation of Onsager Relations	3
+e232	fulltext/https_openalex.org_W1919133474.md	References	2
+e233	fulltext/https_openalex.org_W2017005585.md	HEAD	2
+e234	fulltext/https_openalex.org_W2017005585.md	The social architecture of capitalism	5
+e235	fulltext/https_openalex.org_W2017005585.md	The Social Architecture of Capitalism	2
+e236	fulltext/https_openalex.org_W2017005585.md	Abstract	7
+e237	fulltext/https_openalex.org_W2017005585.md	1 Introduction	5
+e238	fulltext/https_openalex.org_W2017005585.md	2 A dynamic model of the social relations of production	6
+e239	fulltext/https_openalex.org_W2017005585.md	2.1 The active actor	6
+e240	fulltext/https_openalex.org_W2017005585.md	2.2 Employee hiring	6
+e241	fulltext/https_openalex.org_W2017005585.md	2.3 Expenditure on goods and services	8
+e242	fulltext/https_openalex.org_W2017005585.md	2.4 Interaction between firms and the market	7
+e243	fulltext/https_openalex.org_W2017005585.md	2.5 Employee firing	5
+e244	fulltext/https_openalex.org_W2017005585.md	2.6 Wage payment	7
+e245	fulltext/https_openalex.org_W2017005585.md	2.7 Historical time	5
+e246	fulltext/https_openalex.org_W2017005585.md	One month rule 1M :	7
+e247	fulltext/https_openalex.org_W2017005585.md	One year rule 1Y :	6
+e248	fulltext/https_openalex.org_W2017005585.md	3 Results	7
+e249	fulltext/https_openalex.org_W2017005585.md	3.1 Class distribution	5
+e250	fulltext/https_openalex.org_W2017005585.md	3.2 Firm size distribution	6
+e251	fulltext/https_openalex.org_W2017005585.md	3.3 Firm growth distributions	8
+e252	fulltext/https_openalex.org_W2017005585.md	Firm growth in the SR model is measured according to:	6
+e253	fulltext/https_openalex.org_W2017005585.md	3.4 Firm demise distribution	6
+e254	fulltext/https_openalex.org_W2017005585.md	3.5 GDP growth	5
+e255	fulltext/https_openalex.org_W2017005585.md	3.6 Duration of recessions	5
+e256	fulltext/https_openalex.org_W2017005585.md	3.7 Income shares	7
+e257	fulltext/https_openalex.org_W2017005585.md	3.8 Disaggregated income distributions	7
+e258	fulltext/https_openalex.org_W2017005585.md	3.9 Rate-of-profit distribution	7
+e259	fulltext/https_openalex.org_W2017005585.md	4 Discussion	4
+e260	fulltext/https_openalex.org_W2017005585.md	5 Conclusion	8
+e261	fulltext/https_openalex.org_W2017005585.md	References	2
+e262	fulltext/https_openalex.org_W2102277728.md	HEAD	2
+e263	fulltext/https_openalex.org_W2102277728.md	Stochastic thermodynamics, fluctuation theorems and molecular machines	3
+e264	fulltext/https_openalex.org_W2102277728.md	Udo Seifert	3
+e265	fulltext/https_openalex.org_W2102277728.md	CONTENTS	2
+e266	fulltext/https_openalex.org_W2102277728.md	1.1. From classical to stochastic thermodynamics	4
+e267	fulltext/https_openalex.org_W2102277728.md	1.2. Main features of stochastic thermodynamics	3
+e268	fulltext/https_openalex.org_W2102277728.md	1.3. Hamiltonian, thermostatted and open quantum dynamics	4
+e269	fulltext/https_openalex.org_W2102277728.md	1.4. Scope and organization of this review	4
+e270	fulltext/https_openalex.org_W2102277728.md	1.5. Complementary reviews	6
+e271	fulltext/https_openalex.org_W2102277728.md	2. Colloidal particle as paradigm	8
+e272	fulltext/https_openalex.org_W2102277728.md	2.1. Stochastic dynamics	2
+e273	fulltext/https_openalex.org_W2102277728.md	2.2. Non-equilibrium steady states (NESSs)	3
+e274	fulltext/https_openalex.org_W2102277728.md	2.3. Stochastic energetics	7
+e275	fulltext/https_openalex.org_W2102277728.md	2.4. Stochastic entropy	7
+e276	fulltext/https_openalex.org_W2102277728.md	2.5. Ensemble averages	2
+e277	fulltext/https_openalex.org_W2102277728.md	3. Fluctuation theorems (FTs)	6
+e278	fulltext/https_openalex.org_W2102277728.md	3.1. Phenomenological classification	5
+e279	fulltext/https_openalex.org_W2102277728.md	3.2. Non-equilibrium work theorems	3
+e280	fulltext/https_openalex.org_W2102277728.md	3.3. FTs for entropy production	8
+e281	fulltext/https_openalex.org_W2102277728.md	4. Unification of FTs	6
+e282	fulltext/https_openalex.org_W2102277728.md	4.1. Conjugate dynamics	4
+e283	fulltext/https_openalex.org_W2102277728.md	4.2. The master FT	7
+e284	fulltext/https_openalex.org_W2102277728.md	4.3. General IFTs	3
+e285	fulltext/https_openalex.org_W2102277728.md	4.4. FTs derived from time-reversal	2
+e286	fulltext/https_openalex.org_W2102277728.md	4.5. FTs for variants	6
+e287	fulltext/https_openalex.org_W2102277728.md	4.6. FTs for athermal systems	2
+e288	fulltext/https_openalex.org_W2102277728.md	5.1. Principal aspects	6
+e289	fulltext/https_openalex.org_W2102277728.md	5.2. Overdamped motion: Colloidal particles and other systems	6
+e290	fulltext/https_openalex.org_W2102277728.md	5.3. Underdamped motion	5
+e291	fulltext/https_openalex.org_W2102277728.md	5.4. Other systems	3
+e292	fulltext/https_openalex.org_W2102277728.md	6.1. Master equation dynamics	3
+e293	fulltext/https_openalex.org_W2102277728.md	6.2. Entropy production	3
+e294	fulltext/https_openalex.org_W2102277728.md	6.3. FTs for entropy production and 'work'	6
+e295	fulltext/https_openalex.org_W2102277728.md	6.4. FT for currents	5
+e296	fulltext/https_openalex.org_W2102277728.md	7.1. Optimal protocols	6
+e297	fulltext/https_openalex.org_W2102277728.md	7.2. Quantifying time's arrow	6
+e298	fulltext/https_openalex.org_W2102277728.md	7.3. Measurement and feedback	3
+e299	fulltext/https_openalex.org_W2102277728.md	8.1. Overview	5
+e300	fulltext/https_openalex.org_W2102277728.md	8.2. Derivation and discussion	2
+e301	fulltext/https_openalex.org_W2102277728.md	8.4. Sheared suspensions	6
+e302	fulltext/https_openalex.org_W2102277728.md	9.1. Overview	4
+e303	fulltext/https_openalex.org_W2102277728.md	9.2. Biopolymers with continuous degrees of freedom	2
+e304	fulltext/https_openalex.org_W2102277728.md	9.3. Free energy recovery from non-equilibrium data	8
+e305	fulltext/https_openalex.org_W2102277728.md	9.4. Enzymes and molecular motors with discrete states	3
+e306	fulltext/https_openalex.org_W2102277728.md	10.1. General aspects	5
+e307	fulltext/https_openalex.org_W2102277728.md	10.2. General framework for autonomous machines: Cycle representation and entropy production	3
+e308	fulltext/https_openalex.org_W2102277728.md	10.3. Power and efficiency	2
+e309	fulltext/https_openalex.org_W2102277728.md	10.4. Linear response: Relation to phenomenological irreversible thermodynamics	3
+e310	fulltext/https_openalex.org_W2102277728.md	10.5. Unicyclic machines	7
+e311	fulltext/https_openalex.org_W2102277728.md	10.6. Multicyclic machines: Strong vs weak coupling	6
+e312	fulltext/https_openalex.org_W2102277728.md	10.7. Efficiency and EMP of molecular motors	7
+e313	fulltext/https_openalex.org_W2102277728.md	11.1. Carnot, Curzon-Ahlborn and beyond	5
+e314	fulltext/https_openalex.org_W2102277728.md	11.2. Autonomous heat engines	6
+e315	fulltext/https_openalex.org_W2102277728.md	11.3. Periodically driven heat engines	6
+e316	fulltext/https_openalex.org_W2102277728.md	12. Concluding perspective	8
+e317	fulltext/https_openalex.org_W2102277728.md	12.1. Summary	5
+e318	fulltext/https_openalex.org_W2102277728.md	12.2. Beyond a Markovian dynamics: Memory effects and coarse-graining	3
+e319	fulltext/https_openalex.org_W2102277728.md	12.3. Coupling of non-equilibrium steady states: A zeroth law?	7
+e320	fulltext/https_openalex.org_W2102277728.md	12.4. Final remark	5
+e321	fulltext/https_openalex.org_W2102277728.md	Acknowledgments	8
+e322	fulltext/https_openalex.org_W2102277728.md	References	2
+e323	fulltext/https_openalex.org_W2747676085.md	HEAD	2
+e324	fulltext/https_openalex.org_W2747676085.md	Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes	2
+e325	fulltext/https_openalex.org_W2747676085.md	Rational Extended Thermodynamics of a Rarefied Polyatomic Gas with Molecular Relaxation Processes	4
+e326	fulltext/https_openalex.org_W2747676085.md	I. INTRODUCTION	6
+e327	fulltext/https_openalex.org_W2747676085.md	II. DISTRIBUTION FUNCTION WITH TWO ENERGIES OF INTERNAL MODES	7
+e328	fulltext/https_openalex.org_W2747676085.md	A. Equilibrium distribution function	7
+e329	fulltext/https_openalex.org_W2747676085.md	Statement 1	6
+e330	fulltext/https_openalex.org_W2747676085.md	B. Thermal and caloric equations of state	5
+e331	fulltext/https_openalex.org_W2747676085.md	III. NONEQUILIBRIUM TRIPLE HIERARCHY OF MOMENTEQUATIONS	5
+e332	fulltext/https_openalex.org_W2747676085.md	A. Truncated system of balance equations and its closure	6
+e333	fulltext/https_openalex.org_W2747676085.md	1. Galilean invariance	2
+e334	fulltext/https_openalex.org_W2747676085.md	2. MEP and the closure of the system	2
+e335	fulltext/https_openalex.org_W2747676085.md	IV. GENERALIZED BGK-MODEL	7
+e336	fulltext/https_openalex.org_W2747676085.md	A. Three relaxation times	7
+e337	fulltext/https_openalex.org_W2747676085.md	B. Generalized BGK collision term	4
+e338	fulltext/https_openalex.org_W2747676085.md	C. H-theorem	7
+e339	fulltext/https_openalex.org_W2747676085.md	V. ET THEORY WITH SEVEN INDEPENDENT FIELDS: ET 7	7
+e340	fulltext/https_openalex.org_W2747676085.md	A. System of balance equations	6
+e341	fulltext/https_openalex.org_W2747676085.md	B. Nonequilibrium distribution function	5
+e342	fulltext/https_openalex.org_W2747676085.md	Statement 2	8
+e343	fulltext/https_openalex.org_W2747676085.md	C. Closed system of field equations	5
+e344	fulltext/https_openalex.org_W2747676085.md	D. Entropy density and production	6
+e345	fulltext/https_openalex.org_W2747676085.md	E. Production terms in the generalized BGK-model	6
+e346	fulltext/https_openalex.org_W2747676085.md	VI. CHARACTERISTIC FEATURES OF ET 7	5
+e347	fulltext/https_openalex.org_W2747676085.md	A. Comparison with the Meixner theory	7
+e348	fulltext/https_openalex.org_W2747676085.md	B. Characteristic velocity, sub-characteristic conditions, and local exceptionality	5
+e349	fulltext/https_openalex.org_W2747676085.md	C. ET 6 theories as the principal subsystems of the ET 7 theory	6
+e350	fulltext/https_openalex.org_W2747676085.md	D. Near equilibrium case	2
+e351	fulltext/https_openalex.org_W2747676085.md	E. Homogeneous solution and relaxation of nonequilibrium temperatures	6
+e352	fulltext/https_openalex.org_W2747676085.md	VII. DISPERSION AND ATTENUATION OF ULTRASONIC WAVE: AN APPLICATION OF ET 7	8
+e353	fulltext/https_openalex.org_W2747676085.md	A. Dispersion relation	7
+e354	fulltext/https_openalex.org_W2747676085.md	B. Qualitative description of the dispersion relation	4
+e355	fulltext/https_openalex.org_W2747676085.md	C. Comparison with experimental data	5
+e356	fulltext/https_openalex.org_W2747676085.md	VIII. SUMMARY AND OUTLOOK	7
+e357	fulltext/https_openalex.org_W2747676085.md	ACKNOWLEDGMENTS	7
+e358	fulltext/https_openalex.org_W2747676085.md	Appendix: Proof of Statement 2	2
+e359	fulltext/https_openalex.org_W3098165131.md	HEAD	2
+e360	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics—a topical review	4
+e361	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics - a topical review	4
+e362	fulltext/https_openalex.org_W3098165131.md	I. INTRODUCTION	8
+e363	fulltext/https_openalex.org_W3098165131.md	FIG. 1: Maxwell's demon	6
+e364	fulltext/https_openalex.org_W3098165131.md	FIG. 2: The thermodynamic origin of the von Neumann entropy	6
+e365	fulltext/https_openalex.org_W3098165131.md	SCOPE AND OTHER REVIEWS	7
+e366	fulltext/https_openalex.org_W3098165131.md	Definitions and notation	3
+e367	fulltext/https_openalex.org_W3098165131.md	II. FOUNDATIONS OF STATISTICAL MECHANICS	7
+e368	fulltext/https_openalex.org_W3098165131.md	A. Equal a priori probabilities postulate as a consequence of typicality in Hilbert spaces	6
+e369	fulltext/https_openalex.org_W3098165131.md	B. Equilibration. Maximum entropy principle from quantum dynamics	8
+e370	fulltext/https_openalex.org_W3098165131.md	C. Thermalization. Emergence of Gibbs states in local Hamiltonians	7
+e371	fulltext/https_openalex.org_W3098165131.md	D. Equilibration times	8
+e372	fulltext/https_openalex.org_W3098165131.md	E. Outlook	6
+e373	fulltext/https_openalex.org_W3098165131.md	III. RESOURCE THEORIES	6
+e374	fulltext/https_openalex.org_W3098165131.md	A. Models for thermodynamics	7
+e375	fulltext/https_openalex.org_W3098165131.md	1. Noisy and unital operations	7
+e376	fulltext/https_openalex.org_W3098165131.md	2. Thermal operations	5
+e377	fulltext/https_openalex.org_W3098165131.md	3. Gibbs-preserving maps	9
+e378	fulltext/https_openalex.org_W3098165131.md	4. Coherence	8
+e379	fulltext/https_openalex.org_W3098165131.md	Example 1: Free energy as a monotone.	3
+e380	fulltext/https_openalex.org_W3098165131.md	5. Catalysts	8
+e381	fulltext/https_openalex.org_W3098165131.md	6. Clocks	6
+e382	fulltext/https_openalex.org_W3098165131.md	7. Free states and passivity	6
+e383	fulltext/https_openalex.org_W3098165131.md	Example 2: Heat engines	5
+e384	fulltext/https_openalex.org_W3098165131.md	8. Different baths	7
+e385	fulltext/https_openalex.org_W3098165131.md	9. Finite-size effects	6
+e386	fulltext/https_openalex.org_W3098165131.md	10. Single-shot regime	6
+e387	fulltext/https_openalex.org_W3098165131.md	11. Definitions of work	7
+e388	fulltext/https_openalex.org_W3098165131.md	B. Generalizing resource theories	8
+e389	fulltext/https_openalex.org_W3098165131.md	1. Starting from the pre-order	7
+e390	fulltext/https_openalex.org_W3098165131.md	2. Starting from the set of free resources	7
+e391	fulltext/https_openalex.org_W3098165131.md	3. In category theory	5
+e392	fulltext/https_openalex.org_W3098165131.md	Example 3: Landauer's principle	6
+e393	fulltext/https_openalex.org_W3098165131.md	4. Resource theories of knowledge	6
+e394	fulltext/https_openalex.org_W3098165131.md	C. Outlook	7
+e395	fulltext/https_openalex.org_W3098165131.md	IV. ENTANGLEMENT THEORY IN THERMODYNAMIC SETTINGS	8
+e396	fulltext/https_openalex.org_W3098165131.md	A. Correlations and entanglement under entropic restrictions	7
+e397	fulltext/https_openalex.org_W3098165131.md	B. Correlations and entanglement in a thermodynamic background	11
+e398	fulltext/https_openalex.org_W3098165131.md	C. Thermodynamics under locality restrictions	9
+e399	fulltext/https_openalex.org_W3098165131.md	D. Entanglement resources in thermodynamic tasks	8
+e400	fulltext/https_openalex.org_W3098165131.md	E. Using thermodynamics to reveal quantumness	7
+e401	fulltext/https_openalex.org_W3098165131.md	F. Outlook	7
+e402	fulltext/https_openalex.org_W3098165131.md	A. Introduction	7
+e403	fulltext/https_openalex.org_W3098165131.md	B. Phase estimation schemes for extraction of quantum work and heat statistics	9
+e404	fulltext/https_openalex.org_W3098165131.md	C. Fluctuation relations with feedback, measurement and CPTP maps	7
+e405	fulltext/https_openalex.org_W3098165131.md	D. Entropy production, relative entropy and correlations	7
+e406	fulltext/https_openalex.org_W3098165131.md	E. Outlook	5
+e407	fulltext/https_openalex.org_W3098165131.md	VI. QUANTUM THERMAL MACHINES	7
+e408	fulltext/https_openalex.org_W3098165131.md	A. Absorption refrigerators	6
+e409	fulltext/https_openalex.org_W3098165131.md	Example 5: Algorithmic cooling	4
+e410	fulltext/https_openalex.org_W3098165131.md	1. Stationary behaviour	7
+e411	fulltext/https_openalex.org_W3098165131.md	FIG. 5: Three-qubit fridge	7
+e412	fulltext/https_openalex.org_W3098165131.md	2. Transient behaviour	5
+e413	fulltext/https_openalex.org_W3098165131.md	B. Reservoir engineering	8
+e414	fulltext/https_openalex.org_W3098165131.md	C. Quantum thermodynamic signatures	8
+e415	fulltext/https_openalex.org_W3098165131.md	D. Stationary entanglement	7
+e416	fulltext/https_openalex.org_W3098165131.md	E. Outlook	4
+e417	fulltext/https_openalex.org_W3098165131.md	VII. FINAL REMARKS	7
+e418	fulltext/https_openalex.org_W3098165131.md	AUTHOR CONTRIBUTIONS	6
+e419	fulltext/https_openalex.org_W3098165131.md	ACKNOWLEDGEMENTS	2
+e420	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
+e421	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
+e422	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
+e423	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
+e424	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
+e425	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
+e426	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
+e427	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
+e428	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
+e429	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
+e430	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
+e431	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
+e432	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
+e433	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
+e434	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
+e435	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
+e436	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
+e437	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
+e438	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
+e439	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
+e440	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
+e441	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
+e442	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
+e443	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
+e444	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
+e445	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
+e446	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
+e447	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
+e448	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17

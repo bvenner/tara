@@ -1,5 +1,5 @@
 {
- "manifest_sha": "00e5a65c2a62daaca678f442bfd1f963a3bf3166975a13ddbb2bca4ccb4723d6",
+ "manifest_sha": "78e3853a95fcafde458471bd54e956cae92bce5401cc648e2c4920094183e1a3",
  "docs": {
   "ret-tssi/findings.md": "9dbe0efcc6bb41119fe5d8478c6b0350289cee3690b9e2fa726f8028a73a9222",
   "ret-tssi/literature/baez-lynch-moeller-2023.md": "03e5e815f35ace1207f41b74b9ec1a479e337c6b30a30d47df0131fe71ef1863",
@@ -33,10 +33,15 @@
   "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
   "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
   "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
-  "poc/REPORT.md": "0635c31a17ad210177f5c042be7f2af65684359981c231e7b69bd0fa8a3b9fc0",
+  "poc/REPORT.md": "b4c90bce18d0b49dc200e5ece7dcde1240d9a66ca95d4066d9db765e140832e9",
   "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
   "top/knowledge-repository-proposal.md": "56624daa6c60942a365a1eb578a33d83bf6b4a220585fa9731c3a79f33baf003",
-  "island-dt/literature-review.md": "bc29fbec48bf1fce9307bd5de6a3521043839c28636f89203f20b0cfc6e898ca",
+  "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
+  "fulltext/https_openalex.org_W1919133474.md": "88f18b799d57b11ce63148068daeee4330525ad7eb586388d1fa31c1de071379",
+  "fulltext/https_openalex.org_W2017005585.md": "bc50b4f8add8ef755da6782b7352c3508300c674911f4ff910aea5d086842437",
+  "fulltext/https_openalex.org_W2102277728.md": "dcbd4daf0f4109f753546612e8fa932bf6ed802ce662815a098a2f686f060e58",
+  "fulltext/https_openalex.org_W2747676085.md": "4c32b80708b74a78d31a69e43528712d7a81ac412ed1a14085abbdaaab57b573",
+  "fulltext/https_openalex.org_W3098165131.md": "b1b573db78c83a627655753a2319e5a943f252214810104ca824b975bd0da1c4",
   "openalex/https_openalex.org_W1630122343": "b09040cc1043d3ecc0a21ddd775f653d599316565caf767f96daa03f02ebe0a6",
   "openalex/https_openalex.org_W1689769220": "b24727af0ab1b77079a50ccc9879acefc7dc28ba81864a83b6ffcd32a7e3f046",
   "openalex/https_openalex.org_W1919133474": "c700612065d96ceafa063b917c071802935ec852113f60def6119d3968629a2a",
@@ -67,16 +72,16 @@
   "openalex/https_openalex.org_W4362472596": "e60738318a87cd1228c85278d331dea936ee6fe5885c1578f80b9fe78ff7a12c",
   "openalex/https_openalex.org_W4404111866": "e8899a126f2a702b795202fd13d8d9a747116917b7d5a5ee63728d67500fa18e"
  },
- "n_docs": 65,
+ "n_docs": 70,
  "stats": {
-  "docs": 65,
-  "sections": 198,
-  "nodes": 865,
-  "edges": 198,
+  "docs": 70,
+  "sections": 449,
+  "nodes": 1875,
+  "edges": 449,
   "node_kinds": {
-   "project": 5,
-   "section": 164,
-   "keyword": 502,
+   "project": 6,
+   "section": 400,
+   "keyword": 1275,
    "notation": 8,
    "artifact": 10,
    "citation": 21,
@@ -84,16 +89,16 @@
    "work": 29
   },
   "arity_hist": {
-   "2": 15,
-   "3": 29,
-   "4": 23,
-   "5": 22,
-   "6": 15,
-   "7": 19,
-   "8": 14,
-   "9": 12,
+   "2": 40,
+   "3": 53,
+   "4": 41,
+   "5": 61,
+   "6": 74,
+   "7": 76,
+   "8": 39,
+   "9": 15,
    "10": 9,
-   "11": 7,
+   "11": 8,
    "12": 4,
    "13": 4,
    "14": 3,
@@ -106,9 +111,15 @@
    "23": 1,
    "45": 1
   },
-  "mean_degree": 1.705,
-  "max_degree": 116,
+  "mean_degree": 1.523,
+  "max_degree": 250,
   "top_hubs": [
+   {
+    "node": "project:fulltext",
+    "kind": "project",
+    "label": "fulltext",
+    "degree": 250
+   },
    {
     "node": "project:ret-tssi",
     "kind": "project",
@@ -122,15 +133,15 @@
     "degree": 37
    },
    {
-    "node": "notation:cattaneo",
-    "kind": "notation",
-    "label": "Cattaneo",
-    "degree": 35
-   },
-   {
     "node": "project:poc",
     "kind": "project",
     "label": "poc",
+    "degree": 36
+   },
+   {
+    "node": "notation:cattaneo",
+    "kind": "notation",
+    "label": "Cattaneo",
     "degree": 35
    },
    {
@@ -152,16 +163,22 @@
     "degree": 29
    },
    {
+    "node": "notation:tau_j",
+    "kind": "notation",
+    "label": "tau_J",
+    "degree": 27
+   },
+   {
     "node": "artifact:t3",
     "kind": "artifact",
     "label": "T3",
     "degree": 25
    },
    {
-    "node": "notation:tau_j",
+    "node": "notation:fourier",
     "kind": "notation",
-    "label": "tau_J",
-    "degree": 24
+    "label": "Fourier",
+    "degree": 22
    },
    {
     "node": "artifact:track a",
@@ -186,36 +203,25 @@
     "kind": "artifact",
     "label": "Track C",
     "degree": 18
-   },
-   {
-    "node": "notation:subcharacteristic",
-    "kind": "notation",
-    "label": "subcharacteristic",
-    "degree": 16
-   },
-   {
-    "node": "artifact:t1",
-    "kind": "artifact",
-    "label": "T1",
-    "degree": 16
    }
   ],
   "degree_hist": {
-   "1": 794,
-   "2": 62,
-   "3-5": 57,
-   "6-10": 49,
-   "11-20": 125,
-   "21-50": 272,
-   "101-500": 116
+   "1": 1743,
+   "2": 146,
+   "3-5": 106,
+   "6-10": 72,
+   "11-20": 124,
+   "21-50": 298,
+   "101-500": 366
   },
-  "hub_coverage": 0.025,
+  "hub_coverage": 0.024,
   "bib_entries": 74,
   "projects": [
    "ret-tssi",
    "poc",
    "top",
-   "island-dt"
+   "island-dt",
+   "fulltext"
   ],
   "external_works": 29,
   "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"

@@ -1,0 +1,16 @@
+(* Download openly-accessible articles and convert them to markdown for
+   hypergraph extraction. Modes: "doi" (single DOI) or "corpus" (all external
+   records, bounded by limit). Strict licensing by default: only locations with
+   a permissive license / arXiv / green OA status are fetched.
+   Uses the devenv venv python (has docling); exec workers otherwise resolve
+   the plumbing nix shell's bare python. *)
+let run_fulltext : !{ mode: string, doi: string, limit: number, refresh: number, strict: number } ->
+                   !{ mode: string, found: int, downloaded: int, converted: int, skipped: int, reasons: string } = exec {
+  cmd: "/home/brad/Documents/Research/.devenv/state/venv/bin/python3",
+  args: ["../scripts/fetch_fulltext.py"]
+}
+
+let main : !{ mode: string, doi: string, limit: number, refresh: number, strict: number } ->
+           !{ mode: string, found: int, downloaded: int, converted: int, skipped: int, reasons: string } = plumb(input, output) {
+  spawn run_fulltext(input, output)
+}

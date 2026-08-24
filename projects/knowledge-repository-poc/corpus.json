@@ -23,6 +23,12 @@
       "dir": "projects/island-digital-twin",
       "glob": "*.md",
       "exclude": []
+    },
+    {
+      "name": "fulltext",
+      "dir": "projects/knowledge-repository-poc/corpus/fulltext",
+      "glob": "*.md",
+      "exclude": []
     }
   ],
   "external_dir": "projects/knowledge-repository-poc/corpus/external",

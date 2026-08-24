@@ -1,12 +1,12 @@
 {
- "docs": 65,
- "sections": 198,
- "nodes": 865,
- "edges": 198,
+ "docs": 70,
+ "sections": 449,
+ "nodes": 1875,
+ "edges": 449,
  "node_kinds": {
-  "project": 5,
-  "section": 164,
-  "keyword": 502,
+  "project": 6,
+  "section": 400,
+  "keyword": 1275,
   "notation": 8,
   "artifact": 10,
   "citation": 21,
@@ -14,16 +14,16 @@
   "work": 29
  },
  "arity_hist": {
-  "2": 15,
-  "3": 29,
-  "4": 23,
-  "5": 22,
-  "6": 15,
-  "7": 19,
-  "8": 14,
-  "9": 12,
+  "2": 40,
+  "3": 53,
+  "4": 41,
+  "5": 61,
+  "6": 74,
+  "7": 76,
+  "8": 39,
+  "9": 15,
   "10": 9,
-  "11": 7,
+  "11": 8,
   "12": 4,
   "13": 4,
   "14": 3,
@@ -36,9 +36,15 @@
   "23": 1,
   "45": 1
  },
- "mean_degree": 1.705,
- "max_degree": 116,
+ "mean_degree": 1.523,
+ "max_degree": 250,
  "top_hubs": [
+  {
+   "node": "project:fulltext",
+   "kind": "project",
+   "label": "fulltext",
+   "degree": 250
+  },
   {
    "node": "project:ret-tssi",
    "kind": "project",
@@ -52,15 +58,15 @@
    "degree": 37
   },
   {
-   "node": "notation:cattaneo",
-   "kind": "notation",
-   "label": "Cattaneo",
-   "degree": 35
-  },
-  {
    "node": "project:poc",
    "kind": "project",
    "label": "poc",
+   "degree": 36
+  },
+  {
+   "node": "notation:cattaneo",
+   "kind": "notation",
+   "label": "Cattaneo",
    "degree": 35
   },
   {
@@ -82,16 +88,22 @@
    "degree": 29
   },
   {
+   "node": "notation:tau_j",
+   "kind": "notation",
+   "label": "tau_J",
+   "degree": 27
+  },
+  {
    "node": "artifact:t3",
    "kind": "artifact",
    "label": "T3",
    "degree": 25
   },
   {
-   "node": "notation:tau_j",
+   "node": "notation:fourier",
    "kind": "notation",
-   "label": "tau_J",
-   "degree": 24
+   "label": "Fourier",
+   "degree": 22
   },
   {
    "node": "artifact:track a",
@@ -116,36 +128,25 @@
    "kind": "artifact",
    "label": "Track C",
    "degree": 18
-  },
-  {
-   "node": "notation:subcharacteristic",
-   "kind": "notation",
-   "label": "subcharacteristic",
-   "degree": 16
-  },
-  {
-   "node": "artifact:t1",
-   "kind": "artifact",
-   "label": "T1",
-   "degree": 16
   }
  ],
  "degree_hist": {
-  "1": 794,
-  "2": 62,
-  "3-5": 57,
-  "6-10": 49,
-  "11-20": 125,
-  "21-50": 272,
-  "101-500": 116
+  "1": 1743,
+  "2": 146,
+  "3-5": 106,
+  "6-10": 72,
+  "11-20": 124,
+  "21-50": 298,
+  "101-500": 366
  },
- "hub_coverage": 0.025,
+ "hub_coverage": 0.024,
  "bib_entries": 74,
  "projects": [
   "ret-tssi",
   "poc",
   "top",
-  "island-dt"
+  "island-dt",
+  "fulltext"
  ],
  "external_works": 29,
  "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"

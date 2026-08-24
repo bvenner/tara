@@ -170,6 +170,30 @@ tokens (cleaner author hyperedges).
 
 ## Next
 
+- **Full-text ingestion (C1, 2026-08-23).** New `pipelines/fulltext.plumb` +
+  `scripts/fetch_fulltext.py`: download openly-accessible articles, convert to
+  markdown (docling), write to `corpus/fulltext/<openalex_id>.md`, then the
+  existing builder ingests them via the new `fulltext` corpus root. Strict
+  licensing default (cc-*/arXiv/green). Input `{mode: doi|corpus, doi, limit,
+  refresh, strict}`; summary `{found, downloaded, converted, skipped, reasons}`.
+
+**Verified:** types-checked; worker converts PDF→markdown with a provenance
+header (source URL, DOI, license, status) preserving section headings that the
+hypergraph splits on. Corpus run over all 29 external records downloaded 5
+arXiv-hosted works, converted all 5 (physics reviews), skipped the rest with
+per-record reasons (bot-gated publisher CDNs: MDPI/Springer/IOP/Wiley/ScienceDirect
+all 403/Radware/HCaptcha; strict-license rejections; closed works).
+
+**The operational finding:** archive-hosted OA (arXiv) is reliably fetchable;
+publisher `best_oa_location` PDFs are bot-gated (403 at the CDN, headers don't
+help), so full-text coverage effectively = arXiv/green copies. The hypergraph
+rebuild reflects it: 5 full-text docs → sections 198→448, nodes 865→1874,
+edges 198→448 (whole-paper co-occurrence, not just abstracts). The island-DT
+grounding trace is unchanged (13/13) — the converted works are physics reviews,
+as expected for this batch.
+
+## Next
+
 - **Out-of-sample test: "island digital twin" (2026-08-23).** A fresh research question on a topic the corpus had never touched — island metabolism × local digital twins (see `projects/island-digital-twin/literature-review.md`).
 
 **What was done:** added `island-dt` to the corpus manifest; ingested 19 DOI-keyed sources via the `expand` pipeline (OpenAlex); rebuilt. Graph: 65 docs / 864 nodes / 197 hyperedges / 5 projects / 29 works / 126 authors. OpenAlex metadata also verified several items that the review had flagged (e.g., Helsinki B5 = Airaksinen & Rossknecht; New Caledonia = Bahers, Ventura, Antheaume et al.).
