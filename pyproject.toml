@@ -1,0 +1,18 @@
+[project]
+name = "tara"
+version = "0.1.0"
+description = "TARA — Transdisciplinary Action Research Assistant: knowledge repository (hypergraph + plumbing pipelines) and research-program infrastructure."
+requires-python = ">=3.13"
+dependencies = [
+  "docling==2.96.0",
+  "pydantic==2.13.4",
+  "requests==2.34.2",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8",
+]
+
+[tool.uv]
+# Virtual project: not a package (no build-system); uv manages the venv.

@@ -99,7 +99,7 @@ Transdisciplinary (wicked) problems are exactly the cases where multi-entity int
 
 **Build (offline, per corpus):**
 1. **Corpus assembly.** Project markdown (already in git) + PDFs; expand with OpenAlex lookups by DOI/arXiv/title (existing `openalex_client`).
-2. **PDF→Markdown.** Marker/Docling (both already in `requirements.txt`).
+2. **PDF→Markdown.** Docling (pinned in `pyproject.toml` + `uv.lock`); marker-pdf was dropped during the stack-managed migration (torch-class dependency, superseded by docling).
 3. **Hypergraph construction (co-occurrence first).** Statistical hyperedge construction from the markdown corpus: nodes from extracted concepts/tokens, hyperedges from section-level co-occurrence — deterministic, verifiable, and cheap. Its scale-free/HGN structure is measured before any LLM is involved. (**Decision 3:** LLM relation-typing is deferred enrichment, added only after Phase A measures the co-occurrence baseline.)
 4. **Embed** nodes with a local embedding model (nomic-embed-text-v1.5 class).
 5. **Commit** artifacts to git: hyperedges as flat files, a HYPERNETX graph, embeddings, and an extraction log for audit.

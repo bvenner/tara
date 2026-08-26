@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Resolve the TARA uv-managed python from a clean checkout, regardless of
+# whether we're inside the devenv shell or not.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+
+# Canonical: uv run (devenv provides uv; uv sync provisions the venv).
+if command -v uv >/dev/null 2>&1 && [ -f "$ROOT/pyproject.toml" ] && [ -d "$ROOT/.venv" ]; then
+  exec uv run --project "$ROOT" python "$@"
+fi
+
+# Fallback 1: devenv-uv managed venv (.devenv/state/venv, what 'devenv shell' creates)
+DEVENV_PY="$ROOT/.devenv/state/venv/bin/python3"
+if [ -x "$DEVENV_PY" ]; then
+  exec "$DEVENV_PY" "$@"
+fi
+
+# Fallback 2: uv project venv at repo root
+UV_PY="$ROOT/.venv/bin/python"
+if [ -x "$UV_PY" ]; then
+  exec "$UV_PY" "$@"
+fi
+
+# Fallback 3: ad-hoc uv run (provisions on the fly)
+command -v uv >/dev/null 2>&1 && exec uv run --project "$ROOT" python "$@"
+
+echo "tara-python: no managed python found; run 'devenv shell' then 'uv sync' first" >&2
+exit 1

@@ -11,6 +11,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 
 ## Tooling facts (do not re-derive)
 
+- **Python stack: uv-managed** — `pyproject.toml` + committed `uv.lock` are the single source of truth; `devenv.nix` provides the `uv` binary and a pinned CPython 3.13 (nixpkgs-python, needed so binary deps like torch/docling find libstdc++). Provision with `uv sync`; run scripts with `uv run python ...`. `requirements.txt` was deleted — never re-add loose `>=` pins.
 - plumbing: **pip wheels are broken** (missing libnorm/libpgm/libsodium soname); use the Nix source build at `~/tools/plumbing` (`nix develop ~/tools/plumbing -c ~/tools/plumbing/_build/default/bin/{plumb,check,render,mcp}/main.exe`). Pipelines assume cwd = `pipelines/`.
 - Repository pipeline runner (always available, mirrors MCP `call`): `python projects/knowledge-repository-poc/scripts/pipeline.py <name> '<json>'`.
 - OpenAlex client at `projects/knowledge-repository-poc/scripts/lib/openalex_client.py` (4 req/s; abstracts = `abstract_inverted_index`). Expand via `pipelines/expand.plumb`.
@@ -22,7 +23,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 - Semantic commit prefixes; commit only when asked; never push `main` (feature branch → PR, confirm first); ask before destructive commands / git push|checkout / edits outside this directory.
 - Untracked file that must NEVER be committed: `archive/projects/anytype-based-tara/research-assistant-architecture-bcv.md`.
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.
-- Git: `main` is 9 commits ahead of `origin/main`, unpushed (as of 2026-08-23).
+- Git: after the collaborator rebase, `main` contains both histories; current work lives on `feat/fulltext-ingestion-v2` (pushed). Push only to feature branches (never `main`).
 
 ## Open decisions
 

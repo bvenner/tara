@@ -57,11 +57,11 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 
 ## 7. Environment / tooling
 
-- devenv (Nix) shell at repo; Python 3.13 venv (devenv-managed); `nix` 2.34.7; network available.
+- **Python stack: uv-managed (Phase 2, 2026-08-25).** `pyproject.toml` + committed `uv.lock` are the single source of truth (deps: `docling==2.96.0`, `pydantic==2.13.4`, `requests==2.34.2`; dev: pytest). `.python-version` = 3.13. `devenv.nix` now uses `languages.python.uv.enable` + `nixpkgs-python` input (registered in `devenv.yaml`/`devenv.lock`) so the interpreter is the nix CPython with the libstdc++ torch/docling need. `requirements.txt` deleted. Interpreter for the plumb exec workers = `projects/knowledge-repository-poc/bin/tara-python` shim (prefers `uv run`; falls back to `.devenv/state/venv` then `.venv`).
 - plumbing: **wheels broken** (bundled libzmq needs libnorm/libpgm/libsodium.so.23); working = Nix build at `~/tools/plumbing` (OCaml, `nix develop -c dune build`), binaries under `_build/default/bin/{plumb,check,render,mcp,chat}/main.exe`, language version 1.2~rc1. Gotchas: `id` is a reserved token (records can't have an `id` field); `exec` output must be exact-typed; exec boundary mismatches fatal the morphism; pipelines assume cwd=`pipelines/`; `map(expr)` references input record fields.
 - OpenAlex client at `projects/knowledge-repository-poc/scripts/lib/openalex_client.py` (4 req/s throttle; DOI/arXiv/topic; abstract reconstruction needed from `abstract_inverted_index`).
 - **No LLM provider key** (ANTHROPIC/OPENAI/GOOGLE all absent) — pipeline-internal `agent` is key-gated; opencode-side pairing needs no key.
-- opencode config: `opencode.jsonc` (instructions=[ret-tssi AGENTS.md], `skills.paths`=[poc/skills], mcp: `anytype` [failing, decommission] + `plumb` [working]). **Restart opencode to load skills + plumb MCP.**
+- opencode config: `opencode.jsonc` (instructions=[ret-tssi AGENTS.md], `skills.paths`=[poc/skills], mcp: `plumb` [working]). `anytype` MCP + wrapper removed 2026-08-25 (decommissioned). **Restart opencode to load skills + plumb MCP.**
 
 ## 8. Open decisions & likely next steps
 
