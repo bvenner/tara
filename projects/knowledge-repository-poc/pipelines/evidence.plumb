@@ -1,7 +1,7 @@
 (* Render a hypergraph query as a markdown evidence bundle for an agent.
    Type-checked boundary: {concept, max_edges} in, string out. *)
 let evidence_of : !{ concept: string, max_edges: number } -> !string = exec {
-  cmd: "python3",
+  cmd: "../bin/tara-python",
   args: ["../scripts/graph_query.py", "--mode", "text"]
 }
 

@@ -5,7 +5,7 @@ type Edge = { edge_id: string, arity: int, doc: string, section: string, nodes: 
 type QueryResult = { concept: string, matched_nodes: [NodeRef], total_edges: int, edges: [Edge] }
 
 let query_graph : !{ concept: string } -> !QueryResult = exec {
-  cmd: "python3",
+  cmd: "../bin/tara-python",
   args: ["../scripts/graph_query.py", "--max-edges", "50"]
 }
 

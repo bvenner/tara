@@ -20,6 +20,9 @@ from pathlib import Path
 GRAPH = Path(__file__).resolve().parents[1] / "graph" / "hypergraph.json"
 INDEX = Path(__file__).resolve().parents[1] / "graph" / "index.json"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from schemas import Edge, Hit, NodeRef, QueryRequest, QueryResult, Seed, TraceRequest, TraceResult  # noqa: E402
+
 _cache = None
 
 
@@ -82,23 +85,22 @@ def collect(index, nids: list, max_edges: int):
     return out[:max_edges]
 
 
-def to_json(g, concept, nids, edges):
-    return {
-        "concept": concept,
-        "matched_nodes": [
-            {"node_id": nid, "label": g["nodes"][nid]["label"], "kind": g["nodes"][nid]["kind"]}
+def to_json(g, concept, nids, edges) -> QueryResult:
+    return QueryResult(
+        concept=concept,
+        matched_nodes=[
+            NodeRef(node_id=nid, label=g["nodes"][nid]["label"], kind=g["nodes"][nid]["kind"])
             for nid in nids
         ],
-        "total_edges": len(edges),
-        "edges": [
-            {
-                "edge_id": e["id"], "arity": e["arity"], "doc": e["doc"],
-                "section": e["section"],
-                "nodes": [g["nodes"][n].get("label", n) for n in e["nodes"]],
-            }
+        total_edges=len(edges),
+        edges=[
+            Edge(
+                edge_id=e["id"], arity=e["arity"], doc=e["doc"], section=e["section"],
+                nodes=[g["nodes"][n].get("label", n) for n in e["nodes"]],
+            )
             for e in edges
         ],
-    }
+    )
 
 
 def to_text(g, concept, nids, edges):
@@ -145,32 +147,34 @@ def trace(g, edge_by_id, index, topic, concepts, min_seeds, max_edges=40):
         })
     hits.sort(key=lambda h: (len(h["seeds"]), h["arity"]), reverse=True)
     hits = hits[:max_edges]
-    return {
-        "topic": topic, "min_seeds": min_seeds, "seeds": seeds, "hits": hits,
-        "distinct_sections": len({(h["doc"], h["section"]) for h in hits}),
-    }
+    return TraceResult(
+        topic=topic, min_seeds=min_seeds,
+        seeds=[Seed(concept=s["concept"], matched_nodes=s["matched_nodes"]) for s in seeds],
+        hits=[Hit(**h) for h in hits],
+        distinct_sections=len({(h["doc"], h["section"]) for h in hits}),
+    )
 
 
-def trace_text(t, concept_labels=None):
-    lines = [f"# Evidence trace — {t['topic']}", ""]
-    lines.append(f"Seed concepts ({len(t['seeds'])}; min seeds per edge = {t['min_seeds']}):")
-    for s in t["seeds"]:
-        if s["matched_nodes"]:
-            lines.append(f"- `{s['concept']}` -> {', '.join(s['matched_nodes'])}")
+def trace_text(t: TraceResult, concept_labels=None) -> str:
+    lines = [f"# Evidence trace — {t.topic}", ""]
+    lines.append(f"Seed concepts ({len(t.seeds)}; min seeds per edge = {t.min_seeds}):")
+    for s in t.seeds:
+        if s.matched_nodes:
+            lines.append(f"- `{s.concept}` -> {', '.join(s.matched_nodes)}")
         else:
-            lines.append(f"- `{s['concept']}` -> (no match)")
-    if not t["hits"]:
+            lines.append(f"- `{s.concept}` -> (no match)")
+    if not t.hits:
         lines.append("\nNo hyperedge contains enough of these seeds together.")
         return "\n".join(lines)
-    lines.append(f"\nIntersecting hyperedges ({len(t['hits'])}; across {t['distinct_sections']} sections):\n")
+    lines.append(f"\nIntersecting hyperedges ({len(t.hits)}; across {t.distinct_sections} sections):\n")
     by_section = {}
-    for h in t["hits"]:
-        by_section.setdefault((h["doc"], h["section"]), []).append(h)
+    for h in t.hits:
+        by_section.setdefault((h.doc, h.section), []).append(h)
     for (doc, section), hs in by_section.items():
         lines.append(f"### {doc} :: {section}")
         for h in hs:
-            lines.append(f"- [{h['arity']} members; seeds: {', '.join(h['seeds'])}]")
-            lines.append(f"    {', '.join(h['nodes'])}")
+            lines.append(f"- [{h.arity} members; seeds: {', '.join(h.seeds)}]")
+            lines.append(f"    {', '.join(h.nodes)}")
         lines.append("")
     return "\n".join(lines)
 
@@ -187,18 +191,18 @@ def main():
             continue
         req = json.loads(line)
         if args.mode in ("trace", "trace-text"):
-            t = trace(g, edge_by_id, index, req.get("topic", ""), req.get("concepts", []),
-                      int(req.get("min_seeds", 2)), max_edges=int(req.get("max_edges", 40)))
-            print(json.dumps(trace_text(t) if args.mode == "trace-text" else t))
+            tr = TraceRequest(**req)
+            t = trace(g, edge_by_id, index, tr.topic, tr.concepts,
+                      tr.min_seeds, max_edges=tr.max_edges)
+            print(json.dumps(trace_text(t)) if args.mode == "trace-text" else t.model_dump_json())
         else:
-            concept = req.get("concept", "")
-            max_edges = int(req.get("max_edges", args.max_edges))
-            nids = match_nodes(g, concept)
-            edges = collect(index, nids, max_edges)
+            q = QueryRequest(**req)
+            nids = match_nodes(g, q.concept)
+            edges = collect(index, nids, q.max_edges)
             if args.mode == "text":
-                print(json.dumps(to_text(g, concept, nids, edges)))
+                print(json.dumps(to_text(g, q.concept, nids, edges)))
             else:
-                print(json.dumps(to_json(g, concept, nids, edges)))
+                print(to_json(g, q.concept, nids, edges).model_dump_json())
         sys.stdout.flush()
 
 

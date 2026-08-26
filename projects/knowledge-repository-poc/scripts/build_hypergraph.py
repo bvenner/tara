@@ -26,14 +26,27 @@ import argparse
 import hashlib
 import json
 import re
+import sys
 import unicodedata
 from collections import Counter
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from schemas import IngestSummary  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 OUT_DIR = Path(__file__).resolve().parents[1] / "graph"
 DEFAULT_MANIFEST = Path(__file__).resolve().parents[1] / "corpus.json"
 META_FILE = OUT_DIR / "build_meta.json"
+
+
+def _ingest_summary(stats: dict) -> IngestSummary:
+    """Validate the compact ingest summary against the .plumb boundary type."""
+    return IngestSummary(
+        docs=stats.get("docs", 0), nodes=stats.get("nodes", 0),
+        edges=stats.get("edges", 0), mean_degree=stats.get("mean_degree", 0),
+        max_degree=stats.get("max_degree", 0),
+    )
 
 # ── Text normalization ────────────────────────────────────────────
 
@@ -241,11 +254,7 @@ def build():
             and (OUT_DIR / "hypergraph.json").exists():
         cached = previous.get("stats", {})
         if args.compact:
-            print(json.dumps({
-                "docs": cached.get("docs"), "nodes": cached.get("nodes"),
-                "edges": cached.get("edges"), "mean_degree": cached.get("mean_degree"),
-                "max_degree": cached.get("max_degree"),
-            }, default=str))
+            print(_ingest_summary(cached).model_dump_json())
         else:
             print("unchanged:", json.dumps(cached, default=str))
         return
@@ -352,11 +361,7 @@ def build():
     if args.compact:
         current["stats"] = stats
         META_FILE.write_text(json.dumps(current, indent=1, default=str))
-        print(json.dumps({
-            "docs": stats["docs"], "nodes": stats["nodes"], "edges": stats["edges"],
-            "mean_degree": stats["mean_degree"], "max_degree": stats["max_degree"],
-            "external_works": stats["external_works"],
-        }, default=str))
+        print(_ingest_summary(stats).model_dump_json())
         return
 
     graph = {

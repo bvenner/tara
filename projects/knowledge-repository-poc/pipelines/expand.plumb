@@ -1,6 +1,6 @@
 (* Expand the corpus from OpenAlex (bibliographic truth layer). *)
 let expand_works : !{ mode: string, topic: string, limit: number, doi: string } -> !{ mode: string, matched: int, written: int, skipped: int } = exec {
-  cmd: "python3",
+  cmd: "../bin/tara-python",
   args: ["../scripts/expand_openalex.py"]
 }
 

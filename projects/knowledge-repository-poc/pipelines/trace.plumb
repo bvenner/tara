@@ -6,7 +6,7 @@ type Hit = { edge_id: string, doc: string, section: string, arity: int, seeds: [
 type Trace = { topic: string, min_seeds: int, seeds: [Seed], hits: [Hit], distinct_sections: int }
 
 let trace_overlap : !{ topic: string, concepts: [string], min_seeds: number } -> !Trace = exec {
-  cmd: "python3",
+  cmd: "../bin/tara-python",
   args: ["../scripts/graph_query.py", "--mode", "trace"]
 }
 

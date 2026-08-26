@@ -31,6 +31,7 @@ INCOMING_DIR = REPO_ROOT / "papers" / "incoming"
 sys.path.insert(0, str(LIB_DIR))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.pdf_extractor import extract_from_pdf  # noqa: E402
+from schemas import FulltextRequest, FulltextSummary  # noqa: E402
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0 "
       "TARA-knowledge-repository/0.1")
@@ -127,18 +128,18 @@ def convert_md(rec: dict, loc: dict, key: str, converter_factory) -> tuple[str, 
     return full, pdf.name
 
 
-def handle(req: dict, converter_factory) -> dict:
-    mode = req.get("mode", "corpus")
-    refresh = bool(req.get("refresh", 0))
-    strict = bool(req.get("strict", 1))
-    limit = int(req.get("limit", 0))
+def handle(req: FulltextRequest, converter_factory) -> FulltextSummary:
+    mode = req.mode
+    refresh = bool(req.refresh)
+    strict = bool(req.strict)
+    limit = req.limit
     reasons = []
 
     candidates = []
     if mode == "doi":
-        doi = req.get("doi", "")
+        doi = req.doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
         if doi:
-            candidates = [((doi or "").replace("https://doi.org/", "").replace("http://doi.org/", ""), doi)]
+            candidates = [(doi, doi)]
     else:
         for jf in sorted(EXT_DIR.glob("*.json")):
             rec = json.loads(jf.read_text())
@@ -205,12 +206,11 @@ def handle(req: dict, converter_factory) -> dict:
         md_path.write_text(body)
         converted += 1
 
-    return {
-        "mode": mode, "found": found, "downloaded": downloaded,
-        "converted": converted,
-        "skipped": len(candidates) - converted,
-        "reasons": "; ".join(reasons)[:500],
-    }
+    return FulltextSummary(
+        mode=mode, found=found, downloaded=downloaded, converted=converted,
+        skipped=len(candidates) - converted,
+        reasons="; ".join(reasons)[:500],
+    )
 
 
 _converter = None
@@ -232,8 +232,8 @@ def main():
         line = line.strip()
         if not line:
             continue
-        req = json.loads(line)
-        print(json.dumps(handle(req, get_converter)))
+        req = FulltextRequest.model_validate(json.loads(line))
+        print(handle(req, get_converter).model_dump_json())
         sys.stdout.flush()
 
 

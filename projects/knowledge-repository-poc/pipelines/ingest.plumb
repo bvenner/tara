@@ -1,7 +1,7 @@
 (* Rebuild the co-occurrence hypergraph from the corpus.
    Trigger with one `null` token; emits a compact 5-field summary. *)
 let run_ingest : !unit -> !{ docs: int, nodes: int, edges: int, mean_degree: number, max_degree: int } = exec {
-  cmd: "python3",
+  cmd: "../bin/tara-python",
   args: ["../scripts/build_hypergraph.py", "--compact"]
 }
 

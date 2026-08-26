@@ -1,6 +1,6 @@
 (* Human-readable evidence trace (markdown) for a reasoning question. *)
 let trace_report : !{ topic: string, concepts: [string], min_seeds: number } -> !string = exec {
-  cmd: "python3",
+  cmd: "../bin/tara-python",
   args: ["../scripts/graph_query.py", "--mode", "trace-text"]
 }
 

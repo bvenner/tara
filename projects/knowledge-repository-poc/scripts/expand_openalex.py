@@ -10,6 +10,7 @@ Writes fetched works as records under <poc>/corpus/external/<openalex_id>.json
   {mode, matched, written, skipped}
 
 The OpenAlex client comes from the repo's poc scripts/lib (single bibliographic source).
+Requests/summaries are validated by `schemas.py` (pydantic) — see the .plumb type.
 """
 import json
 import re
@@ -21,6 +22,7 @@ EXT_DIR = POC_ROOT / "corpus" / "external"
 
 sys.path.insert(0, str(POC_ROOT / "scripts" / "lib"))
 import openalex_client as oa  # noqa: E402
+from schemas import ExpandRequest, ExpandSummary  # noqa: E402
 
 
 def abstract_text(raw) -> str:
@@ -63,21 +65,19 @@ def write_record(rec) -> bool:
     return True
 
 
-def handle(req) -> dict:
-    mode = req.get("mode", "topic")
+def handle(req: ExpandRequest) -> ExpandSummary:
+    mode = req.mode
     written = 0
     if mode == "topic":
-        topic = req.get("topic", "")
-        limit = int(req.get("limit", 5))
-        results = oa.search_works(topic, per_page=limit)
+        results = oa.search_works(req.topic, per_page=req.limit)
     elif mode == "doi":
-        raw = oa.get_work_by_doi(req.get("doi", ""))
+        raw = oa.get_work_by_doi(req.doi)
         results = [raw] if raw else []
     elif mode == "arxiv":
-        raw = oa.get_work_by_arxiv(req.get("arxiv_id", ""))
+        raw = oa.get_work_by_arxiv(req.arxiv_id or req.doi)
         results = [raw] if raw else []
     else:
-        return {"mode": mode, "matched": 0, "written": 0, "skipped": 0}
+        return ExpandSummary(mode=mode, matched=0, written=0, skipped=0)
     matched = len(results)
     seen = set()
     for raw in results:
@@ -88,8 +88,10 @@ def handle(req) -> dict:
         seen.add(ident)
         if write_record(rec):
             written += 1
-    return {"mode": mode, "matched": matched, "written": written,
-            "skipped": max(0, matched - written - (matched - len(seen)))}
+    return ExpandSummary(
+        mode=mode, matched=matched, written=written,
+        skipped=max(0, matched - written - (matched - len(seen))),
+    )
 
 
 def main():
@@ -98,8 +100,8 @@ def main():
         line = line.strip()
         if not line:
             continue
-        req = json.loads(line)
-        print(json.dumps(handle(req)))
+        req = ExpandRequest.model_validate(json.loads(line))
+        print(handle(req).model_dump_json())
         sys.stdout.flush()
 
 

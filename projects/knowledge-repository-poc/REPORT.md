@@ -204,6 +204,24 @@ as expected for this batch.
 
 ## Next
 
+- **Pydantic worker contracts (2026-08-25).** New `scripts/schemas.py` is the
+  canonical Python-side mirror of every `.plumb` exec boundary: `ExpandRequest/
+  ExpandSummary`, `FulltextRequest/FulltextSummary`, `QueryRequest/QueryResult`
+  (+ NodeRef/Edge), `TraceRequest/TraceResult` (+ Seed/Hit), `IngestSummary`.
+  All four workers validate requests on entry (exit with a clear pydantic
+  ValidationError — the field, offending value, and rule — instead of failing
+  downstream as a silent undefined-behaviour or `morphism_fatal`) and validate
+  before emit. All seven exec workers now run via `bin/tara-python` (the
+  uv-managed interpreter), since pydantic lives in the uv venv; the previously
+  fatal `ingest`/`trace_report` runtime paths are confirmed working.
+
+  Verified: query/evidence/trace/trace_report/expand/fulltext/ingest all run
+  through the plumb runtime; rejection paths produce clean ValidationErrors
+  (empty concept, negative limit, empty concepts list); build stays
+  byte-deterministic; all pipelines type-check; `uv lock --check` clean.
+
+## Next
+
 - **Pipeline-internal LLM** (still key-gated): an `agent` binding after `trace`, for when a provider key is available — repository stays the guardrail; the LLM renders the argument inside the pipeline.
 - **Embeddings** for semantic neighborhood queries (beyond substring matching).
 - **Phase C** (persistent query service / review protocols / dashboard) only if file-based serving proves insufficient.

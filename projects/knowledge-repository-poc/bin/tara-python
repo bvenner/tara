@@ -6,6 +6,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
 
 # Canonical: uv run (devenv provides uv; uv sync provisions the venv).
 if command -v uv >/dev/null 2>&1 && [ -f "$ROOT/pyproject.toml" ] && [ -d "$ROOT/.venv" ]; then
+  unset VIRTUAL_ENV 2>/dev/null || true
   exec uv run --project "$ROOT" python "$@"
 fi
 
