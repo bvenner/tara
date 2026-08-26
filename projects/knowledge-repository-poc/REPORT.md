@@ -222,6 +222,18 @@ as expected for this batch.
 
 ## Next
 
+- **Smoke + CI (Phase 5, 2026-08-25).** `scripts/smoke.py` runs the cheap,
+  deterministic Job-1 checks: stack imports (docling/torch/pydantic/requests),
+  one worker smoke per contract (query/evidence/trace/trace-report/expand/
+  fulltext-skip/ingest), the three pydantic rejection paths, and build
+  determinism (two `--force` builds → byte-identical `hypergraph.json`).
+  Wired into `.github/workflows/stack.yml` (push + PR): `uv lock --check`,
+  `uv sync --frozen`, then the smoke. Nix/plumbing pipeline type-checking
+  stays a manual/Job-2 item (runner-side nix eval is the flaky part). Run
+  locally: `uv run python projects/knowledge-repository-poc/scripts/smoke.py`.
+
+## Next
+
 - **Pipeline-internal LLM** (still key-gated): an `agent` binding after `trace`, for when a provider key is available — repository stays the guardrail; the LLM renders the argument inside the pipeline.
 - **Embeddings** for semantic neighborhood queries (beyond substring matching).
 - **Phase C** (persistent query service / review protocols / dashboard) only if file-based serving proves insufficient.

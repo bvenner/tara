@@ -1,12 +1,12 @@
 {
  "docs": 70,
- "sections": 449,
- "nodes": 1875,
- "edges": 449,
+ "sections": 450,
+ "nodes": 1876,
+ "edges": 450,
  "node_kinds": {
   "project": 6,
   "section": 400,
-  "keyword": 1275,
+  "keyword": 1276,
   "notation": 8,
   "artifact": 10,
   "citation": 21,
@@ -15,7 +15,7 @@
  },
  "arity_hist": {
   "2": 40,
-  "3": 53,
+  "3": 54,
   "4": 41,
   "5": 61,
   "6": 74,
@@ -61,7 +61,7 @@
    "node": "project:poc",
    "kind": "project",
    "label": "poc",
-   "degree": 36
+   "degree": 37
   },
   {
    "node": "notation:cattaneo",
@@ -131,12 +131,12 @@
   }
  ],
  "degree_hist": {
-  "1": 1743,
+  "1": 1744,
   "2": 146,
   "3-5": 106,
-  "6-10": 72,
+  "6-10": 73,
   "11-20": 124,
-  "21-50": 298,
+  "21-50": 299,
   "101-500": 366
  },
  "hub_coverage": 0.024,

@@ -33,7 +33,7 @@
   "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
   "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
   "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
-  "poc/REPORT.md": "a291e5cc592305100384ab8fdb9f567fb7e4d6291b2c506ff0a807b97279bc23",
+  "poc/REPORT.md": "b4e34824d760557d0a6e6e76e37e98a5bc52ce6de0799a5d0754824fa3ae92fb",
   "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
   "top/knowledge-repository-proposal.md": "4cce99f04fe167dbe0ccaeb950d706b34832626ddc1f0b226b8de9af263a3161",
   "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
@@ -75,13 +75,13 @@
  "n_docs": 70,
  "stats": {
   "docs": 70,
-  "sections": 449,
-  "nodes": 1875,
-  "edges": 449,
+  "sections": 450,
+  "nodes": 1876,
+  "edges": 450,
   "node_kinds": {
    "project": 6,
    "section": 400,
-   "keyword": 1275,
+   "keyword": 1276,
    "notation": 8,
    "artifact": 10,
    "citation": 21,
@@ -90,7 +90,7 @@
   },
   "arity_hist": {
    "2": 40,
-   "3": 53,
+   "3": 54,
    "4": 41,
    "5": 61,
    "6": 74,
@@ -136,7 +136,7 @@
     "node": "project:poc",
     "kind": "project",
     "label": "poc",
-    "degree": 36
+    "degree": 37
    },
    {
     "node": "notation:cattaneo",
@@ -206,12 +206,12 @@
    }
   ],
   "degree_hist": {
-   "1": 1743,
+   "1": 1744,
    "2": 146,
    "3-5": 106,
-   "6-10": 72,
+   "6-10": 73,
    "11-20": 124,
-   "21-50": 298,
+   "21-50": 299,
    "101-500": 366
   },
   "hub_coverage": 0.024,
