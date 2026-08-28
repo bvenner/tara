@@ -170,12 +170,13 @@ tokens (cleaner author hyperedges).
 
 ## Next
 
-- **Full-text ingestion (C1, 2026-08-23).** New `pipelines/fulltext.plumb` +
-  `scripts/fetch_fulltext.py`: download openly-accessible articles, convert to
-  markdown (docling), write to `corpus/fulltext/<openalex_id>.md`, then the
-  existing builder ingests them via the new `fulltext` corpus root. Strict
-  licensing default (cc-*/arXiv/green). Input `{mode: doi|corpus, doi, limit,
-  refresh, strict}`; summary `{found, downloaded, converted, skipped, reasons}`.
+- **Full-text ingestion (C1, 2026-08-23, extended 2026-08-25).** New
+  `pipelines/fulltext.plumb` + `scripts/fetch_fulltext.py`: download
+  openly-accessible articles, convert to markdown (docling), write to
+  `corpus/fulltext/<openalex_id>.md`, then the existing builder ingests them
+  via the new `fulltext` corpus root. Strict licensing default (cc-*/arXiv/green).
+  Input `{mode: doi|corpus|local, doi, limit, refresh, strict}`; summary
+  `{found, downloaded, converted, skipped, reasons}`.
 
 **Verified:** types-checked; worker converts PDF→markdown with a provenance
 header (source URL, DOI, license, status) preserving section headings that the
@@ -191,6 +192,21 @@ rebuild reflects it: 5 full-text docs → sections 198→448, nodes 865→1874,
 edges 198→448 (whole-paper co-occurrence, not just abstracts). The island-DT
 grounding trace is unchanged (13/13) — the converted works are physics reviews,
 as expected for this batch.
+
+**Conversion environment (2026-08-25):** the uv stack initially segfaulted
+during conversion — torch 2.13.0+cu130 (CUDA wheel, GPU-less box) crashed in
+docling's layout + rapidocr-OCR inference; docling 2.96 also forces rapidocr's
+`backend="torch"` on top. Fixed three ways: (a) pin `torch`/`torchvision` to
+the CPU builds (`+cpu`, via `[tool.uv.sources]` index
+`download.pytorch.org/whl/cpu`), (b) `pdf_extractor` converts with **OCR and
+table-structure disabled** (`new_docling_converter` → `PdfPipelineOptions(
+do_ocr=False, do_table_structure=False)`) — born-digital text PDFs don't need
+either, and it sidesteps the rapidocr+onnx+torch native clash and a libxcb
+dlopen (tableformer), (c) onnxruntime stays in the lock because docling
+constructs rapidocr even when disabled. Conversion is byte-reproducible.
+**`mode: "local"`** added so a PDF you download by hand (bot-gated publishers)
+can be staged in `papers/incoming/` and converted without re-downloading;
+provenance header tags these as `status: manual`. Smoke covers the local path.
 
 ## Next
 

@@ -47,6 +47,35 @@ def extract_arxiv_id_from_filename(filename: str) -> Optional[str]:
     return None
 
 
+def new_docling_converter():
+    """Build a DocumentConverter with OCR + table-structure disabled.
+
+    For born-digital text PDFs both are redundant, and they drag in native
+    deps that are fragile here: rapidocr pulls onnxruntime+torch (native
+    segfault), and tableformer dlopens libxcb (missing on minimal systems).
+    Keeping both off makes conversion safe, fast, and dependency-light;
+    scanned PDFs and table-heavy layouts are out of scope (route those to a
+    full pipeline instead).
+    """
+    from docling.datamodel.base_models import InputFormat
+    from docling.document_converter import DocumentConverter, PdfFormatOption
+    from docling.datamodel.pipeline_options import PdfPipelineOptions
+
+    opts = PdfPipelineOptions(do_ocr=False, do_table_structure=False)
+    fo = PdfFormatOption(pipeline_options=opts)
+    return DocumentConverter(format_options={InputFormat.PDF: fo})
+
+
+def _converter_for(converter=None):
+    if converter is not None:
+        return converter
+    try:
+        return new_docling_converter()
+    except (ImportError, TypeError):
+        # fall back to default construction if the option plumbing differs
+        return DocumentConverter()
+
+
 def extract_from_pdf(pdf_path: str, converter=None) -> Dict[str, Optional[str]]:
     """Extract metadata and text from a PDF using Docling.
 
@@ -61,7 +90,7 @@ def extract_from_pdf(pdf_path: str, converter=None) -> Dict[str, Optional[str]]:
     if not path.exists():
         raise FileNotFoundError(pdf_path)
 
-    converter = converter or DocumentConverter()
+    converter = _converter_for(converter)
     result = converter.convert(str(path))
     doc = result.document
 

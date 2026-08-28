@@ -5,8 +5,11 @@ description = "TARA — Transdisciplinary Action Research Assistant: knowledge r
 requires-python = ">=3.13"
 dependencies = [
   "docling==2.96.0",
+  "onnxruntime>=1.20",       # docling constructs rapidocr (even with OCR off) which needs its engine
   "pydantic==2.13.4",
   "requests==2.34.2",
+  "torch==2.13.0",           # +cpu build via [tool.uv.sources]; cu130 wheel segfaults on CPU boxes
+  "torchvision==0.28.0",     # must match torch build (cpu index) else AutoProcessor import breaks
 ]
 
 [dependency-groups]
@@ -16,3 +19,18 @@ dev = [
 
 [tool.uv]
 # Virtual project: not a package (no build-system); uv manages the venv.
+# torch/torchvision: PyPI ships CUDA wheels (2.x +cuXXX) with no GPU; they
+# segfault during inference on this machine. Use the official CPU index so the
+# linux resolution picks 2.13.0+cpu / 0.28.0+cpu.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", marker = "platform_system == 'Linux'" },
+]
+torchvision = [
+  { index = "pytorch-cpu", marker = "platform_system == 'Linux'" },
+]

@@ -33,14 +33,15 @@
   "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
   "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
   "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
-  "poc/REPORT.md": "b4e34824d760557d0a6e6e76e37e98a5bc52ce6de0799a5d0754824fa3ae92fb",
+  "poc/REPORT.md": "5ec26a64e6ece43460fd5618037a209470e0382405268e3dc1044fac93b4fe93",
+  "poc/USAGE.md": "c2953d5a9eeee2f5c1cc9d5f5daf2ec963da78bd41c870bad534b2948cfaf360",
   "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
   "top/knowledge-repository-proposal.md": "4cce99f04fe167dbe0ccaeb950d706b34832626ddc1f0b226b8de9af263a3161",
   "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
   "fulltext/https_openalex.org_W1919133474.md": "88f18b799d57b11ce63148068daeee4330525ad7eb586388d1fa31c1de071379",
   "fulltext/https_openalex.org_W2017005585.md": "bc50b4f8add8ef755da6782b7352c3508300c674911f4ff910aea5d086842437",
   "fulltext/https_openalex.org_W2102277728.md": "dcbd4daf0f4109f753546612e8fa932bf6ed802ce662815a098a2f686f060e58",
-  "fulltext/https_openalex.org_W2747676085.md": "4c32b80708b74a78d31a69e43528712d7a81ac412ed1a14085abbdaaab57b573",
+  "fulltext/https_openalex.org_W2747676085.md": "23a4b940e0caac5cba8d61ac2caf59a5bec3429d327b412d647f5040b64346f7",
   "fulltext/https_openalex.org_W3098165131.md": "b1b573db78c83a627655753a2319e5a943f252214810104ca824b975bd0da1c4",
   "openalex/https_openalex.org_W1630122343": "b09040cc1043d3ecc0a21ddd775f653d599316565caf767f96daa03f02ebe0a6",
   "openalex/https_openalex.org_W1689769220": "b24727af0ab1b77079a50ccc9879acefc7dc28ba81864a83b6ffcd32a7e3f046",
@@ -72,16 +73,16 @@
   "openalex/https_openalex.org_W4362472596": "e60738318a87cd1228c85278d331dea936ee6fe5885c1578f80b9fe78ff7a12c",
   "openalex/https_openalex.org_W4404111866": "e8899a126f2a702b795202fd13d8d9a747116917b7d5a5ee63728d67500fa18e"
  },
- "n_docs": 70,
+ "n_docs": 71,
  "stats": {
-  "docs": 70,
-  "sections": 450,
-  "nodes": 1876,
-  "edges": 450,
+  "docs": 71,
+  "sections": 464,
+  "nodes": 1898,
+  "edges": 464,
   "node_kinds": {
    "project": 6,
-   "section": 400,
-   "keyword": 1276,
+   "section": 413,
+   "keyword": 1285,
    "notation": 8,
    "artifact": 10,
    "citation": 21,
@@ -89,10 +90,10 @@
    "work": 29
   },
   "arity_hist": {
-   "2": 40,
-   "3": 54,
-   "4": 41,
-   "5": 61,
+   "2": 44,
+   "3": 60,
+   "4": 43,
+   "5": 63,
    "6": 74,
    "7": 76,
    "8": 39,
@@ -111,7 +112,7 @@
    "23": 1,
    "45": 1
   },
-  "mean_degree": 1.523,
+  "mean_degree": 1.529,
   "max_degree": 250,
   "top_hubs": [
    {
@@ -127,28 +128,28 @@
     "degree": 116
    },
    {
-    "node": "notation:gravitation",
-    "kind": "notation",
-    "label": "gravitation",
-    "degree": 37
-   },
-   {
     "node": "project:poc",
     "kind": "project",
     "label": "poc",
-    "degree": 37
+    "degree": 51
+   },
+   {
+    "node": "notation:gravitation",
+    "kind": "notation",
+    "label": "gravitation",
+    "degree": 38
    },
    {
     "node": "notation:cattaneo",
     "kind": "notation",
     "label": "Cattaneo",
-    "degree": 35
+    "degree": 36
    },
    {
     "node": "notation:sk condition",
     "kind": "notation",
     "label": "SK condition",
-    "degree": 33
+    "degree": 34
    },
    {
     "node": "notation:simultaneism",
@@ -166,7 +167,7 @@
     "node": "notation:tau_j",
     "kind": "notation",
     "label": "tau_J",
-    "degree": 27
+    "degree": 28
    },
    {
     "node": "artifact:t3",
@@ -206,12 +207,13 @@
    }
   ],
   "degree_hist": {
-   "1": 1744,
-   "2": 146,
+   "1": 1763,
+   "2": 152,
    "3-5": 106,
-   "6-10": 73,
+   "6-10": 74,
    "11-20": 124,
-   "21-50": 299,
+   "21-50": 266,
+   "51-100": 51,
    "101-500": 366
   },
   "hub_coverage": 0.024,

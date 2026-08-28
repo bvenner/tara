@@ -4,10 +4,17 @@
 Reads one request per stdin line:
   {mode: "doi",   doi, refresh?, strict?}
   {mode: "corpus", limit?, refresh?, strict?}
+  {mode: "local", doi, refresh?, strict?}
 writes markdown files to <poc>/corpus/fulltext/<openalex_id>.md (with a
 provenance header), staging raw PDFs under <repo>/papers/incoming/ (gitignored),
 then emits one summary line:
   {mode, found, downloaded, converted, skipped, reasons}
+
+mode "local": convert a PDF you already downloaded (e.g. a bot-gated publisher)
+into full-text markdown. Stage the PDF at papers/incoming/<key>.pdf where
+<key> matches the openalex_id (or doi_<sanitized-doi> if no OpenAlex record);
+the worker looks up DOI metadata via OpenAlex, then converts the staged file
+without re-downloading.
 
 OA policy defaults to strict: download only when the OpenAlex best_oa_location
 is genuinely reusable (cc-* license, arXiv, or oa_status=green). Set strict=0
@@ -30,7 +37,7 @@ INCOMING_DIR = REPO_ROOT / "papers" / "incoming"
 
 sys.path.insert(0, str(LIB_DIR))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.pdf_extractor import extract_from_pdf  # noqa: E402
+from lib.pdf_extractor import extract_from_pdf, new_docling_converter  # noqa: E402
 from schemas import FulltextRequest, FulltextSummary  # noqa: E402
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0 "
@@ -128,12 +135,47 @@ def convert_md(rec: dict, loc: dict, key: str, converter_factory) -> tuple[str, 
     return full, pdf.name
 
 
+def convert_local_pdf(rec: dict, key: str, converter_factory) -> tuple[str, str]:
+    """Convert an already-staged PDF (mode "local") to markdown."""
+    pdf = INCOMING_DIR / f"{key}.pdf"
+    if not pdf.exists():
+        raise FileNotFoundError(f"{pdf} not found — stage the manually-downloaded "
+                                "PDF here before running mode local")
+    md = extract_from_pdf(str(pdf), converter=converter_factory())
+    full = md.get("full_text") or ""
+    return full, pdf.name
+
+
+def write_markdown(rec: dict, loc: dict, source: str, status: str, md_path: Path,
+                   md: str, converter_factory=None) -> None:
+    """Compose the provenance header + metadata + body; write <key>.md."""
+    md_body, _title = drop_title_line(md)
+    head = header(rec, loc, source, status)
+    meta = [f"# {rec['title']}", ""]
+    if rec.get("authors"):
+        meta.append(f"**Authors:** {', '.join(rec['authors'])}")
+    if rec.get("venue") or rec.get("year"):
+        meta.append(f"**{rec.get('venue','undated')}** · {rec.get('year','')}")
+    if rec.get("doi"):
+        meta.append(f"**DOI:** {rec['doi']}")
+    body = head + "\n".join(meta) + "\n\n" + md_body + "\n"
+    md_path.parent.mkdir(parents=True, exist_ok=True)
+    md_path.write_text(body)
+
+
 def handle(req: FulltextRequest, converter_factory) -> FulltextSummary:
     mode = req.mode
     refresh = bool(req.refresh)
     strict = bool(req.strict)
     limit = req.limit
     reasons = []
+
+    # Live OpenAlex lookup per DOI: the external records predate best_oa_location
+    # capture, so fetch the work fresh rather than trusting stale files.
+    import openalex_client as oa  # noqa: E402  (LIB_DIR already on sys.path)
+
+    if mode == "local":
+        return _handle_local(req, oa, converter_factory, refresh)
 
     candidates = []
     if mode == "doi":
@@ -151,10 +193,6 @@ def handle(req: FulltextRequest, converter_factory) -> FulltextSummary:
     if limit:
         candidates = candidates[:limit]
 
-    # Live OpenAlex lookup per DOI: the external records predate best_oa_location
-    # capture, so fetch the work fresh rather than trusting stale files.
-    import openalex_client as oa  # noqa: E402  (LIB_DIR already on sys.path)
-
     for doi, title in candidates:
         found += 1
         raw = oa.get_work_by_doi(doi)
@@ -168,22 +206,14 @@ def handle(req: FulltextRequest, converter_factory) -> FulltextSummary:
         if strict and not is_strictly_oa(loc, (raw.get("open_access") or {}).get("oa_status", "")):
             reasons.append(f"{doi}: no permissive license (strict mode)")
             continue
-        rec = {
-            "openalex_id": raw.get("id", ""),
-            "doi": raw.get("doi", ""),
-            "title": raw.get("display_name", title),
-            "year": raw.get("publication_year"),
-            "venue": (raw.get("primary_location") or {}).get("source", {}).get("display_name", ""),
-            "authors": [a["author"]["display_name"]
-                        for a in raw.get("authorships", []) if a.get("author", {}).get("display_name")],
-        }
+        rec = _to_record(raw, title)
         key = sanitize(rec["openalex_id"] or ("doi_" + sanitize(doi)))
         md_path = FULLTEXT_DIR / f"{key}.md"
         if md_path.exists() and not refresh:
             reasons.append(f"{key}: already converted")
             continue
         try:
-            md, stage = convert_md(rec, loc, key, converter_factory)
+            md, _stage = convert_md(rec, loc, key, converter_factory)
         except Exception as e:  # noqa: BLE001
             reasons.append(f"{key}: convert failed ({e.__class__.__name__})")
             continue
@@ -192,18 +222,7 @@ def handle(req: FulltextRequest, converter_factory) -> FulltextSummary:
             continue
         downloaded += 1
         status = (raw.get("open_access") or {}).get("oa_status", "")
-        md_body, _title = drop_title_line(md)
-        head = header(rec, loc, loc["pdf_url"], status)
-        meta = [f"# {rec['title']}", ""]
-        if rec.get("authors"):
-            meta.append(f"**Authors:** {', '.join(rec['authors'])}")
-        if rec.get("venue") or rec.get("year"):
-            meta.append(f"**{rec.get('venue','undated')}** · {rec.get('year','')}")
-        if rec.get("doi"):
-            meta.append(f"**DOI:** {rec['doi']}")
-        body = head + "\n".join(meta) + "\n\n" + md_body + "\n"
-        FULLTEXT_DIR.mkdir(parents=True, exist_ok=True)
-        md_path.write_text(body)
+        write_markdown(rec, loc, loc["pdf_url"], status, md_path, md)
         converted += 1
 
     return FulltextSummary(
@@ -213,6 +232,56 @@ def handle(req: FulltextRequest, converter_factory) -> FulltextSummary:
     )
 
 
+def _to_record(raw: dict, fallback_title: str = "") -> dict:
+    return {
+        "openalex_id": raw.get("id", ""),
+        "doi": raw.get("doi", ""),
+        "title": raw.get("display_name", fallback_title),
+        "year": raw.get("publication_year"),
+        "venue": (raw.get("primary_location") or {}).get("source", {}).get("display_name", ""),
+        "authors": [a["author"]["display_name"]
+                    for a in raw.get("authorships", []) if a.get("author", {}).get("display_name")],
+    }
+
+
+def _handle_local(req: FulltextRequest, oa, converter_factory, refresh: bool) -> FulltextSummary:
+    """Convert a manually-downloaded PDF staged in papers/incoming/.
+
+    <key> = openalex_id (or doi_<sanitized-doi> when OpenAlex has no record).
+    Metadata (title/authors/venue/year) is filled from OpenAlex when available.
+    """
+    doi = req.doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
+    reasons = []
+    raw = oa.get_work_by_doi(doi) if doi else None
+    rec = _to_record(raw, fallback_title=doi) if raw else {
+        "openalex_id": "", "doi": doi, "title": doi or "(untitled)",
+        "year": "", "venue": "", "authors": [],
+    }
+    key = sanitize(rec["openalex_id"] or ("doi_" + sanitize(doi)))
+    if not key or key == "work":
+        reasons.append("mode local requires a doi")
+        return FulltextSummary(mode="local", found=0, downloaded=0, converted=0,
+                               skipped=1, reasons="; ".join(reasons))
+    md_path = FULLTEXT_DIR / f"{key}.md"
+    if md_path.exists() and not refresh:
+        reasons.append(f"{key}: already converted")
+        return FulltextSummary(mode="local", found=1, downloaded=0, converted=0,
+                               skipped=1, reasons="; ".join(reasons))
+    try:
+        md, _stage = convert_local_pdf(rec, key, converter_factory)
+    except Exception as e:  # noqa: BLE001
+        reasons.append(f"{key}: convert failed ({e.__class__.__name__}: {e})")
+        return FulltextSummary(mode="local", found=1, downloaded=0, converted=0,
+                               skipped=1, reasons="; ".join(reasons))
+    if len(md.strip()) < 500:
+        reasons.append(f"{key}: conversion too short, skipped")
+        return FulltextSummary(mode="local", found=1, downloaded=0, converted=0,
+                               skipped=1, reasons="; ".join(reasons))
+    write_markdown(rec, {}, key, "manual", md_path, md)
+    return FulltextSummary(mode="local", found=1, downloaded=0, converted=1,
+                           skipped=0, reasons="; ".join(reasons))
+
+
 _converter = None
 
 
@@ -220,8 +289,7 @@ def get_converter():
     """Lazily create the docling converter (model load is expensive)."""
     global _converter
     if _converter is None:
-        from docling.document_converter import DocumentConverter
-        _converter = DocumentConverter()
+        _converter = new_docling_converter()
     return _converter
 
 

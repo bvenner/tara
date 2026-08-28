@@ -1,12 +1,12 @@
 {
- "docs": 70,
- "sections": 450,
- "nodes": 1876,
- "edges": 450,
+ "docs": 71,
+ "sections": 464,
+ "nodes": 1898,
+ "edges": 464,
  "node_kinds": {
   "project": 6,
-  "section": 400,
-  "keyword": 1276,
+  "section": 413,
+  "keyword": 1285,
   "notation": 8,
   "artifact": 10,
   "citation": 21,
@@ -14,10 +14,10 @@
   "work": 29
  },
  "arity_hist": {
-  "2": 40,
-  "3": 54,
-  "4": 41,
-  "5": 61,
+  "2": 44,
+  "3": 60,
+  "4": 43,
+  "5": 63,
   "6": 74,
   "7": 76,
   "8": 39,
@@ -36,7 +36,7 @@
   "23": 1,
   "45": 1
  },
- "mean_degree": 1.523,
+ "mean_degree": 1.529,
  "max_degree": 250,
  "top_hubs": [
   {
@@ -52,28 +52,28 @@
    "degree": 116
   },
   {
-   "node": "notation:gravitation",
-   "kind": "notation",
-   "label": "gravitation",
-   "degree": 37
-  },
-  {
    "node": "project:poc",
    "kind": "project",
    "label": "poc",
-   "degree": 37
+   "degree": 51
+  },
+  {
+   "node": "notation:gravitation",
+   "kind": "notation",
+   "label": "gravitation",
+   "degree": 38
   },
   {
    "node": "notation:cattaneo",
    "kind": "notation",
    "label": "Cattaneo",
-   "degree": 35
+   "degree": 36
   },
   {
    "node": "notation:sk condition",
    "kind": "notation",
    "label": "SK condition",
-   "degree": 33
+   "degree": 34
   },
   {
    "node": "notation:simultaneism",
@@ -91,7 +91,7 @@
    "node": "notation:tau_j",
    "kind": "notation",
    "label": "tau_J",
-   "degree": 27
+   "degree": 28
   },
   {
    "node": "artifact:t3",
@@ -131,12 +131,13 @@
   }
  ],
  "degree_hist": {
-  "1": 1744,
-  "2": 146,
+  "1": 1763,
+  "2": 152,
   "3-5": 106,
-  "6-10": 73,
+  "6-10": 74,
   "11-20": 124,
-  "21-50": 299,
+  "21-50": 266,
+  "51-100": 51,
   "101-500": 366
  },
  "hub_coverage": 0.024,

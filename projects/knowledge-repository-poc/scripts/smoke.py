@@ -18,8 +18,8 @@ from pathlib import Path
 POC = Path(__file__).resolve().parents[1]
 ROOT = POC.parents[1]
 SHIM = POC / "bin" / "tara-python"
-PYTHON = [str(SHIM)]
 WORKERS = POC / "scripts"
+INCOMING = ROOT / "papers" / "incoming"
 
 # schemas must be importable for the shape assertions below
 sys.path.insert(0, str(POC / "scripts"))
@@ -131,6 +131,38 @@ def fulltext_contract():
                            "(already converted)")
 
 
+def fulltext_local_contract():
+    """mode "local": convert a staged PDF without downloading.
+
+    Stage a copy under the doi_<sanitized-doi> key, convert (refresh), and
+    assert we got a converted md back.
+    """
+    import re as _re
+    import shutil as _shutil
+    src = INCOMING / "https_openalex.org_W2747676085.pdf"
+    if not src.exists():
+        raise RuntimeError("smoke needs a staged arXiv PDF "
+                           "(run fulltext once on this DOI)")
+    key = "doi_" + _re.sub(r"[^a-zA-Z0-9._-]+", "_",
+                           "10.1103/physreve.96.042143").strip("_")
+    staged = INCOMING / f"{key}.pdf"
+    if not staged.exists():
+        _shutil.copy(src, staged)
+    try:
+        out = run(worker("fetch_fulltext.py"),
+                  {"mode": "local", "doi": "10.1103/physreve.96.042143",
+                   "limit": 0, "refresh": 1, "strict": 1})
+        schemas.FulltextSummary.model_validate(out)
+        if out["converted"] != 1:
+            raise RuntimeError(f"local mode should convert 1, got {out}")
+        md = (POC / "corpus" / "fulltext" /
+              "https_openalex.org_W2747676085.md")
+        if not md.exists():
+            raise RuntimeError("local-mode md not written")
+    finally:
+        staged.unlink(missing_ok=True)
+
+
 def ingest_contract():
     out = run(worker("build_hypergraph.py") + ["--compact"], None)
     schemas.IngestSummary.model_validate(out)
@@ -189,6 +221,7 @@ def main():
         ("trace-report contract (markdown)", trace_report_contract),
         ("expand contract (ExpandSummary)", expand_contract),
         ("fulltext contract (FulltextSummary, skip path)", fulltext_contract),
+        ("fulltext local contract (manual PDF -> md)", fulltext_local_contract),
         ("ingest contract (IngestSummary)", ingest_contract),
         ("reject empty concept", reject_empty_concept),
         ("reject negative limit", reject_negative_limit),

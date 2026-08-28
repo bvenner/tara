@@ -1,5 +1,5 @@
-> OpenAlex full text (2026-08-23) — source: https://arxiv.org/pdf/1708.06231
-> DOI: https://doi.org/10.1103/physreve.96.042143 · license: — · status: green
+> OpenAlex full text (2026-08-27) — source: https_openalex.org_W2747676085
+> DOI: https://doi.org/10.1103/physreve.96.042143 · license: — · status: manual
 # Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes
 
 **Authors:** Takashi Arima, Tommaso Ruggeri, Masaru Sugiyama
@@ -300,11 +300,8 @@ Diagrams of the possible relaxation processes are shown in Fig.1.
 
 TABLE I. Three possible relaxation processes in the second stage (ii)
 
-| ( bc )-Process   | ( a ; b ; c )   | Relaxation time   | Collision term   |
-|------------------|-----------------|-------------------|------------------|
-| ( KR )-process   | ( V ; K ; R )   | KR                | Q KR ( f )       |
-| ( KV )-process   | ( R ; K ; V )   | KV                | Q KV ( f )       |
-| ( RV )-process   | ( K ; R ; V )   | RV                | Q RV ( f )       |
+| (  bc  )-Process  (  a  ;  b  ;  c  )  Relaxation time  Collision term  (  KR  )-process  (  V  ;  K  ;  R  )  KR  Q KR  (  f  )  (  KV  )-process  (  R  ;  K  ;  V  )  KV  Q KV  (  f  )  (  RV  )-process  (  K  ;  R  ;  V  )  RV  Q RV  (  f  )   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 FIG. 1. Diagram of the three possible relaxation processes for the translational mode (K), rotational mode (R), and vibrational mode (V). The symbols K , bc (( bc ) = (KR), (KV), (RV)) are partial equilibrium temperatures and T is the local equilibrium temperature. A mode without attaching a symbol of the temperature is not necessarily in partial equilibrium.
 
@@ -614,11 +611,8 @@ where E is the nonequilibrium energy density characterizing the relaxation proce
 
 TABLE II. Three possible ET6 theories.
 
-|         | Process   | ( a ; b ; c )   | p +        | E             | E i               | P E             |
-|---------|-----------|-----------------|------------|---------------|-------------------|-----------------|
-| ET KR 6 | ( KR )    | ( V ; K ; R )   | p ( ; KR ) | " V E ( V )   | " V E ( V ) v i   | P V ll          |
-| ET KV 6 | ( KV )    | ( R ; K ; V )   | p ( ; KV ) | " R E ( R )   | " R E ( R ) v i   | P R ll          |
-| ET RV 6 | ( RV )    | ( K ; R ; V )   | p ( ; K )  | " RV E ( RV ) | " RV E ( RV ) v i | P R ll + P V ll |
+| Process  (  a  ;  b  ;  c  )  p  +  E  E  i  P  E  ET  KR  6  (  KR  )  (  V  ;  K  ;  R  )  p  (  ;  KR  )  "  V  E  (  V  )  "  V  E  (  V  )  vi  P V  ll  ET  KV  6  (  KV  )  (  R  ;  K  ;  V  )  p  (  ;  KV  )  "  R  E  (  R  )  "  R  E  (  R  )  vi  P R  ll  ET  RV  6  (  RV  )  (  K  ;  R  ;  V  )  p  (  ;  K  )  "  RV  E  (  RV  )  "  RV  E  (  RV  )  vi  P R  ll  +  P V  ll   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 The above argument can be rigorously formulated by using the idea of the principal subsystem [10]. In the present case, ET6 is the principal subsystem of ET7. The crucial point is that, all the universal principles of continuum thermomechanics - objectivity, entropy, and causality principles - are automatically preserved also in the subsystem.
 
@@ -672,10 +666,8 @@ where p = p ( ; T ), and A 1 , A 2 and are given in Table III. In the limit ! 0,
 
 TABLE III. Explicit expression of A 1 , A 2 and
 
-| ( bc )           | A 1             | A 2   |                         |
-|------------------|-----------------|-------|-------------------------|
-| ( KR ) or ( KV ) | c c v c b + c v | 0     | p T c b v p T c b + c v |
-| ( RV )           | 0               | c v   | p T c K v               |
+| (  bc  )  A  1  A  2  (  KR  ) or (  KV  )  c  c  v  c  b  +  c  v  0  pT  c  b  v  pT  c  b  +  c  v  (  RV  )  0  cv  pT  c K  v   |
+|--------------------------------------------------------------------------------------------------------------------------------------|
 
 When we apply the Maxwellian iteration [61] on (50)4 ; 5 and retain the first order terms with respect to the relaxation times and , we obtain the following approximations for small relaxation times:
 
@@ -807,13 +799,8 @@ FIG. 3. Typical temperature dependence of the dimensionless specific heats; ˆ c
 
 TABLE IV. Five typical cases. Translational mode is fully excited in all cases.
 
-| Case   | Specific heats                              | Rotational mode   | Vibrational mode   |
-|--------|---------------------------------------------|-------------------|--------------------|
-| (a)    | ˆ c K v = 3 = 2, ˆ c R v = 0, ˆ c V v = 0   | Ground state      | Ground state       |
-| (b)    | ˆ c K v = 3 = 2, ˆ c R v = 1 = 2, ˆ c V v = | 0 Partly excited  | Ground state       |
-| (c)    | ˆ c K v = 3 = 2, ˆ c R v = 1, ˆ c V v = 0   | Fully excited     | Ground state       |
-| (d)    | ˆ c K v = 3 = 2, ˆ c R v = 1, ˆ c V v = 1 = | 2 Fully excited   | Partly excited     |
-| (e)    | ˆ c K v = 3 = 2, ˆ c R v = 1, ˆ c V v = 1   | Fully excited     | Fully excited      |
+| Case Specific heats  Rotational mode  Vibrational mode  (a)  ˆ  c K  v  =  3  =  2, ˆ  c R  v  =  0, ˆ  c V  v  =  0  Ground state  Ground state  (b)  ˆ  c K  v  =  3  =  2, ˆ  c R  v  =  1  =  2, ˆ  c V  v  =  0 Partly excited  Ground state  (c)  ˆ  c K  v  =  3  =  2, ˆ  c R  v  =  1, ˆ  c V  v  =  0  Fully excited  Ground state  (d)  ˆ  c K  v  =  3  =  2, ˆ  c R  v  =  1, ˆ  c V  v  =  1  =  2 Fully excited  Partly excited  (e)  ˆ  c K  v  =  3  =  2, ˆ  c R  v  =  1, ˆ  c V  v  =  1  Fully excited  Fully excited   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 O ( 1 )) and O (10 3 ) ( ! O ( 1 )). See also Remark 9 below.
 
@@ -870,21 +857,8 @@ Remark 11. Many studies of the dispersion relation of sound in polyatomic gases 
 
 TABLE V. The parameter p and the bulk viscosity.
 
-|      |   T [ C] | p [Pa s]    | V [Pa s]    |
-|------|----------|-------------|-------------|
-| CO 2 |     30.5 | 4 : 96 10 1 | 5 : 61 10 2 |
-| CO 2 |     98.7 | 3 : 33 10 1 | 4 : 62 10 2 |
-| CO 2 |      195 | 2 : 30 10 1 | 3 : 75 10 2 |
-| CO 2 |      305 | 1 : 64 10 1 | 2 : 99 10 2 |
-| Cl 2 |       23 | 4 : 08 10 1 | 2 : 98 10 2 |
-| Cl 2 |      103 | 2 : 53 10 1 | 2 : 19 10 2 |
-| Cl 2 |      167 | 1 : 80 10 1 | 1 : 68 10 2 |
-| Cl 2 |      204 | 1 : 49 10 1 | 1 : 43 10 2 |
-| Cl 2 |      256 | 1 : 17 10 1 | 1 : 16 10 2 |
-| Br 2 |     28.0 | 6 : 47 10 2 | 6 : 40 10 3 |
-| Br 2 |      100 | 5 : 47 10 2 | 5 : 69 10 3 |
-| Br 2 |      177 | 4 : 27 10 2 | 4 : 57 10 3 |
-| Br 2 |      256 | 3 : 35 10 2 | 3 : 65 10 3 |
+| Gas  T  [  C]  p  [Pa  s]  V  [Pa  s]  CO2  30.5  4  :  96  10  1  5  :  61  10  2  98.7  3  :  33  10  1  4  :  62  10  2  195  2  :  30  10  1  3  :  75  10  2  305  1  :  64  10  1  2  :  99  10  2  Cl2  23  4  :  08  10  1  2  :  98  10  2  103  2  :  53  10  1  2  :  19  10  2  167  1  :  80  10  1  1  :  68  10  2  204  1  :  49  10  1  1  :  43  10  2  256  1  :  17  10  1  1  :  16  10  2  Br2  28.0  6  :  47  10  2  6  :  40  10  3  100  5  :  47  10  2  5  :  69  10  3  177  4  :  27  10  2  4  :  57  10  3  256  3  :  35  10  2  3  :  65  10  3   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## VIII. SUMMARY AND OUTLOOK
 

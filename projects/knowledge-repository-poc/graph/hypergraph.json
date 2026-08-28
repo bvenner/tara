@@ -2336,6 +2336,11 @@
    "kind": "keyword"
   },
   {
+   "id": "keyword:smoke",
+   "label": "smoke",
+   "kind": "keyword"
+  },
+  {
    "id": "keyword:file-based serving proves insufficient",
    "label": "file-based serving proves insufficient",
    "kind": "keyword"
@@ -2348,6 +2353,121 @@
   {
    "id": "keyword:semantic neighborhood queries",
    "label": "semantic neighborhood queries",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[knowledge repository - how to use]",
+   "label": "[Knowledge Repository \u2014 How to Use]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:guide assumes youre",
+   "label": "guide assumes youre",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[1. one-time setup]",
+   "label": "[1. One-time setup]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[2. minimal workflow (60 seconds)]",
+   "label": "[2. Minimal workflow (60 seconds)]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:bash",
+   "label": "bash",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[rebuild the hypergraph from the current corpus]",
+   "label": "[Rebuild the hypergraph from the current corpus]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:ingest null",
+   "label": "ingest null",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[ground a claim: which sections co-occur with my seed concepts?]",
+   "label": "[Ground a claim: which sections co-occur with my seed concepts?]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[3. what the pipelines do]",
+   "label": "[3. What the pipelines do]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[modes detail]",
+   "label": "[Modes detail]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[manually downloading a full-text pdf and converting it]",
+   "label": "[Manually downloading a full-text PDF and converting it]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:doi openalex",
+   "label": "doi openalex",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:openalex-known doi",
+   "label": "openalex-known doi",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[4. growing the corpus]",
+   "label": "[4. Growing the corpus]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[5. the grounding skill]",
+   "label": "[5. The grounding skill]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:teaches agents",
+   "label": "teaches agents",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:whenever claims",
+   "label": "whenever claims",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:corpus sections",
+   "label": "corpus sections",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[6. local verification (smoke) and ci]",
+   "label": "[6. Local verification (smoke) and CI]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:exact script runs",
+   "label": "exact script runs",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[7. artifacts and layout]",
+   "label": "[7. Artifacts and layout]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[8. gotchas]",
+   "label": "[8. Gotchas]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:plumbing",
+   "label": "plumbing",
    "kind": "keyword"
   },
   {
@@ -2394,11 +2514,6 @@
    "id": "section:[usage]",
    "label": "[Usage]",
    "kind": "section"
-  },
-  {
-   "id": "keyword:bash",
-   "label": "bash",
-   "kind": "keyword"
   },
   {
    "id": "section:[run a pipeline from a json stream on stdin]",
@@ -6161,18 +6276,13 @@
    "kind": "section"
   },
   {
-   "id": "keyword:bulk viscosity coe cients",
-   "label": "bulk viscosity coe cients",
-   "kind": "keyword"
-  },
-  {
    "id": "keyword:br2 gases",
    "label": "br2 gases",
    "kind": "keyword"
   },
   {
-   "id": "keyword:least square method",
-   "label": "least square method",
+   "id": "keyword:bulk viscosity coe cients",
+   "label": "bulk viscosity coe cients",
    "kind": "keyword"
   },
   {
@@ -11088,6 +11198,14 @@
   {
    "id": "e141",
    "members": [
+    "keyword:smoke",
+    "project:poc",
+    "section:[next]"
+   ]
+  },
+  {
+   "id": "e142",
+   "members": [
     "keyword:file-based serving proves insufficient",
     "keyword:llm renders",
     "keyword:semantic neighborhood queries",
@@ -11096,7 +11214,114 @@
    ]
   },
   {
-   "id": "e142",
+   "id": "e143",
+   "members": [
+    "keyword:co-occurrence hypergraph",
+    "keyword:guide assumes youre",
+    "project:poc",
+    "section:[knowledge repository - how to use]"
+   ]
+  },
+  {
+   "id": "e144",
+   "members": [
+    "project:poc",
+    "section:[1. one-time setup]"
+   ]
+  },
+  {
+   "id": "e145",
+   "members": [
+    "keyword:bash",
+    "project:poc",
+    "section:[2. minimal workflow (60 seconds)]"
+   ]
+  },
+  {
+   "id": "e146",
+   "members": [
+    "keyword:ingest null",
+    "project:poc",
+    "section:[rebuild the hypergraph from the current corpus]"
+   ]
+  },
+  {
+   "id": "e147",
+   "members": [
+    "notation:gravitation",
+    "notation:sk condition",
+    "notation:tau_j",
+    "project:poc",
+    "section:[ground a claim: which sections co-occur with my seed concepts?]"
+   ]
+  },
+  {
+   "id": "e148",
+   "members": [
+    "notation:cattaneo",
+    "project:poc",
+    "section:[3. what the pipelines do]"
+   ]
+  },
+  {
+   "id": "e149",
+   "members": [
+    "project:poc",
+    "section:[modes detail]"
+   ]
+  },
+  {
+   "id": "e150",
+   "members": [
+    "keyword:doi",
+    "keyword:doi openalex",
+    "keyword:openalex-known doi",
+    "project:poc",
+    "section:[manually downloading a full-text pdf and converting it]"
+   ]
+  },
+  {
+   "id": "e151",
+   "members": [
+    "project:poc",
+    "section:[4. growing the corpus]"
+   ]
+  },
+  {
+   "id": "e152",
+   "members": [
+    "keyword:corpus sections",
+    "keyword:teaches agents",
+    "keyword:whenever claims",
+    "project:poc",
+    "section:[5. the grounding skill]"
+   ]
+  },
+  {
+   "id": "e153",
+   "members": [
+    "keyword:exact script runs",
+    "project:poc",
+    "section:[6. local verification (smoke) and ci]"
+   ]
+  },
+  {
+   "id": "e154",
+   "members": [
+    "project:poc",
+    "section:[7. artifacts and layout]"
+   ]
+  },
+  {
+   "id": "e155",
+   "members": [
+    "keyword:plumbing",
+    "project:poc",
+    "section:[8. gotchas]"
+   ]
+  },
+  {
+   "id": "e156",
    "members": [
     "keyword:opencode",
     "keyword:phase",
@@ -11105,7 +11330,7 @@
    ]
   },
   {
-   "id": "e143",
+   "id": "e157",
    "members": [
     "keyword:research workflow",
     "project:poc",
@@ -11113,7 +11338,7 @@
    ]
   },
   {
-   "id": "e144",
+   "id": "e158",
    "members": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -11122,7 +11347,7 @@
    ]
   },
   {
-   "id": "e145",
+   "id": "e159",
    "members": [
     "keyword:dune build",
     "project:poc",
@@ -11130,7 +11355,7 @@
    ]
   },
   {
-   "id": "e146",
+   "id": "e160",
    "members": [
     "keyword:bash",
     "project:poc",
@@ -11138,14 +11363,14 @@
    ]
   },
   {
-   "id": "e147",
+   "id": "e161",
    "members": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
    ]
   },
   {
-   "id": "e148",
+   "id": "e162",
    "members": [
     "keyword:nix develop",
     "project:poc",
@@ -11153,7 +11378,7 @@
    ]
   },
   {
-   "id": "e149",
+   "id": "e163",
    "members": [
     "keyword:nix develop",
     "project:poc",
@@ -11161,7 +11386,7 @@
    ]
   },
   {
-   "id": "e150",
+   "id": "e164",
    "members": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -11170,14 +11395,14 @@
    ]
   },
   {
-   "id": "e151",
+   "id": "e165",
    "members": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
    ]
   },
   {
-   "id": "e152",
+   "id": "e166",
    "members": [
     "keyword:nix build",
     "project:poc",
@@ -11185,7 +11410,7 @@
    ]
   },
   {
-   "id": "e153",
+   "id": "e167",
    "members": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -11194,7 +11419,7 @@
    ]
   },
   {
-   "id": "e154",
+   "id": "e168",
    "members": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -11202,7 +11427,7 @@
    ]
   },
   {
-   "id": "e155",
+   "id": "e169",
    "members": [
     "keyword:reasoning",
     "project:top",
@@ -11210,7 +11435,7 @@
    ]
   },
   {
-   "id": "e156",
+   "id": "e170",
    "members": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -11219,14 +11444,14 @@
    ]
   },
   {
-   "id": "e157",
+   "id": "e171",
    "members": [
     "project:top",
     "section:[3. proposed architecture]"
    ]
   },
   {
-   "id": "e158",
+   "id": "e172",
    "members": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -11234,14 +11459,14 @@
    ]
   },
   {
-   "id": "e159",
+   "id": "e173",
    "members": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
    ]
   },
   {
-   "id": "e160",
+   "id": "e174",
    "members": [
     "artifact:track f",
     "notation:sk condition",
@@ -11250,14 +11475,14 @@
    ]
   },
   {
-   "id": "e161",
+   "id": "e175",
    "members": [
     "project:top",
     "section:[7. risks and open decisions]"
    ]
   },
   {
-   "id": "e162",
+   "id": "e176",
    "members": [
     "artifact:track b",
     "project:top",
@@ -11265,7 +11490,7 @@
    ]
   },
   {
-   "id": "e163",
+   "id": "e177",
    "members": [
     "keyword:sources",
     "project:island-dt",
@@ -11273,14 +11498,14 @@
    ]
   },
   {
-   "id": "e164",
+   "id": "e178",
    "members": [
     "project:island-dt",
     "section:[executive summary]"
    ]
   },
   {
-   "id": "e165",
+   "id": "e179",
    "members": [
     "keyword:island twin",
     "keyword:island twin would simulate",
@@ -11289,7 +11514,7 @@
    ]
   },
   {
-   "id": "e166",
+   "id": "e180",
    "members": [
     "keyword:citygml energy ade",
     "project:island-dt",
@@ -11297,7 +11522,7 @@
    ]
   },
   {
-   "id": "e167",
+   "id": "e181",
    "members": [
     "keyword:european island twin",
     "keyword:island twin",
@@ -11307,7 +11532,7 @@
    ]
   },
   {
-   "id": "e168",
+   "id": "e182",
    "members": [
     "keyword:island twin",
     "project:island-dt",
@@ -11315,7 +11540,7 @@
    ]
   },
   {
-   "id": "e169",
+   "id": "e183",
    "members": [
     "keyword:integrated island twin",
     "keyword:island metabolic planning",
@@ -11326,7 +11551,7 @@
    ]
   },
   {
-   "id": "e170",
+   "id": "e184",
    "members": [
     "keyword:editorial author list unverified",
     "project:island-dt",
@@ -11334,14 +11559,14 @@
    ]
   },
   {
-   "id": "e171",
+   "id": "e185",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e172",
+   "id": "e186",
    "members": [
     "keyword:http",
     "keyword:physics vol",
@@ -11350,7 +11575,7 @@
    ]
   },
   {
-   "id": "e173",
+   "id": "e187",
    "members": [
     "keyword:integrable quantum systems",
     "keyword:quantum systems",
@@ -11359,7 +11584,7 @@
    ]
   },
   {
-   "id": "e174",
+   "id": "e188",
    "members": [
     "keyword:generic many-body quantum systems",
     "keyword:isolated quantum systems",
@@ -11372,7 +11597,7 @@
    ]
   },
   {
-   "id": "e175",
+   "id": "e189",
    "members": [
     "keyword:briefly discuss chaotic dynamics",
     "keyword:chaotic motion",
@@ -11384,7 +11609,7 @@
    ]
   },
   {
-   "id": "e176",
+   "id": "e190",
    "members": [
     "keyword:quantum chaos",
     "keyword:quantum chaos builds came",
@@ -11394,7 +11619,7 @@
    ]
   },
   {
-   "id": "e177",
+   "id": "e191",
    "members": [
     "keyword:essentially random vectors",
     "keyword:first random hamiltonian",
@@ -11407,7 +11632,7 @@
    ]
   },
   {
-   "id": "e178",
+   "id": "e192",
    "members": [
     "keyword:diagonal matrix elements",
     "keyword:matrix elements",
@@ -11417,7 +11642,7 @@
    ]
   },
   {
-   "id": "e179",
+   "id": "e193",
    "members": [
     "keyword:energy level statistics",
     "keyword:many quantum systems whose classical counterpart",
@@ -11430,7 +11655,7 @@
    ]
   },
   {
-   "id": "e180",
+   "id": "e194",
    "members": [
     "keyword:momentum phase-space variables one",
     "keyword:slightly modified conjecture one",
@@ -11440,7 +11665,7 @@
    ]
   },
   {
-   "id": "e181",
+   "id": "e195",
    "members": [
     "keyword:level distribution",
     "keyword:level spacing distribution",
@@ -11450,7 +11675,7 @@
    ]
   },
   {
-   "id": "e182",
+   "id": "e196",
    "members": [
     "keyword:average information entropy",
     "keyword:information entropy rapidly increases",
@@ -11460,7 +11685,7 @@
    ]
   },
   {
-   "id": "e183",
+   "id": "e197",
    "members": [
     "keyword:entanglement entropy grows linearly",
     "keyword:second renyi entanglement entropy",
@@ -11471,7 +11696,7 @@
    ]
   },
   {
-   "id": "e184",
+   "id": "e198",
    "members": [
     "keyword:diagonal entropy",
     "keyword:diagonal entropy becomes almost",
@@ -11481,7 +11706,7 @@
    ]
   },
   {
-   "id": "e185",
+   "id": "e199",
    "members": [
     "keyword:arbitrary quantum systems assuming",
     "keyword:even large systems thermalize",
@@ -11493,7 +11718,7 @@
    ]
   },
   {
-   "id": "e186",
+   "id": "e200",
    "members": [
     "keyword:energy levels",
     "keyword:energy window narrower",
@@ -11504,7 +11729,7 @@
    ]
   },
   {
-   "id": "e187",
+   "id": "e201",
    "members": [
     "keyword:energy fluctuations",
     "keyword:equilibrium statistical fluctuations",
@@ -11515,7 +11740,7 @@
    ]
   },
   {
-   "id": "e188",
+   "id": "e202",
    "members": [
     "keyword:microcanonical energy window",
     "keyword:microcanonical energy window defines",
@@ -11526,7 +11751,7 @@
    ]
   },
   {
-   "id": "e189",
+   "id": "e203",
    "members": [
     "keyword:few off-diagonal matrix elements",
     "keyword:off-diagonal matrix elements",
@@ -11536,7 +11761,7 @@
    ]
   },
   {
-   "id": "e190",
+   "id": "e204",
    "members": [
     "keyword:diagonal ensemble",
     "keyword:diagonal ensemble predictions",
@@ -11546,7 +11771,7 @@
    ]
   },
   {
-   "id": "e191",
+   "id": "e205",
    "members": [
     "keyword:chaos",
     "keyword:isolated quantum systems taken far",
@@ -11558,7 +11783,7 @@
    ]
   },
   {
-   "id": "e192",
+   "id": "e206",
    "members": [
     "keyword:dynamical process",
     "keyword:dynamical process involves changing parameters",
@@ -11569,7 +11794,7 @@
    ]
   },
   {
-   "id": "e193",
+   "id": "e207",
    "members": [
     "keyword:doubly stochastic matrix",
     "keyword:doubly stochastic transition rates",
@@ -11580,7 +11805,7 @@
    ]
   },
   {
-   "id": "e194",
+   "id": "e208",
    "members": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochasticity",
@@ -11593,7 +11818,7 @@
    ]
   },
   {
-   "id": "e195",
+   "id": "e209",
    "members": [
     "keyword:infinite temperature",
     "keyword:infinite temperature state",
@@ -11604,7 +11829,7 @@
    ]
   },
   {
-   "id": "e196",
+   "id": "e210",
    "members": [
     "keyword:diagonal entropy cannot decrease",
     "keyword:diagonal entropy increases",
@@ -11615,7 +11840,7 @@
    ]
   },
   {
-   "id": "e197",
+   "id": "e211",
    "members": [
     "keyword:doubly stochastic cyclic evolution",
     "keyword:initial density matrix",
@@ -11626,7 +11851,7 @@
    ]
   },
   {
-   "id": "e198",
+   "id": "e212",
    "members": [
     "keyword:cyclic doubly stochastic evolution leads",
     "keyword:discussed three important results",
@@ -11638,7 +11863,7 @@
    ]
   },
   {
-   "id": "e199",
+   "id": "e213",
    "members": [
     "keyword:extensive thermodynamic entropy",
     "keyword:thermodynamic entropy",
@@ -11648,7 +11873,7 @@
    ]
   },
   {
-   "id": "e200",
+   "id": "e214",
    "members": [
     "keyword:energy change",
     "keyword:energy spectrum",
@@ -11660,7 +11885,7 @@
    ]
   },
   {
-   "id": "e201",
+   "id": "e215",
    "members": [
     "keyword:driven isolated systems",
     "keyword:fluctuation theorems",
@@ -11673,7 +11898,7 @@
    ]
   },
   {
-   "id": "e202",
+   "id": "e216",
    "members": [
     "keyword:jarzynski equality allows one",
     "keyword:jarzynski equality constraints different cumulants",
@@ -11684,7 +11909,7 @@
    ]
   },
   {
-   "id": "e203",
+   "id": "e217",
    "members": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochastic evolution describes unitary dynamics",
@@ -11695,7 +11920,7 @@
    ]
   },
   {
-   "id": "e204",
+   "id": "e218",
    "members": [
     "keyword:forward process starting",
     "keyword:reverse process",
@@ -11705,7 +11930,7 @@
    ]
   },
   {
-   "id": "e205",
+   "id": "e219",
    "members": [
     "keyword:detailed balance condition",
     "keyword:familiar detailed balance condition",
@@ -11717,14 +11942,14 @@
    ]
   },
   {
-   "id": "e206",
+   "id": "e220",
    "members": [
     "project:fulltext",
     "section:[6.3. einsteins energy drift-diffusion relations for isolated and open systems]"
    ]
   },
   {
-   "id": "e207",
+   "id": "e221",
    "members": [
     "keyword:energy distribution function",
     "keyword:finding universal energy distributions",
@@ -11733,7 +11958,7 @@
    ]
   },
   {
-   "id": "e208",
+   "id": "e222",
    "members": [
     "keyword:two initially separated chaotic systems",
     "keyword:two large macroscopic systems",
@@ -11743,7 +11968,7 @@
    ]
   },
   {
-   "id": "e209",
+   "id": "e223",
    "members": [
     "keyword:lhs one",
     "project:fulltext",
@@ -11751,7 +11976,7 @@
    ]
   },
   {
-   "id": "e210",
+   "id": "e224",
    "members": [
     "keyword:cumulant expansion",
     "keyword:cumulant tensors",
@@ -11761,7 +11986,7 @@
    ]
   },
   {
-   "id": "e211",
+   "id": "e225",
    "members": [
     "notation:fourier",
     "project:fulltext",
@@ -11769,7 +11994,7 @@
    ]
   },
   {
-   "id": "e212",
+   "id": "e226",
    "members": [
     "keyword:correlation function",
     "keyword:higher order correlation functions",
@@ -11780,7 +12005,7 @@
    ]
   },
   {
-   "id": "e213",
+   "id": "e227",
    "members": [
     "keyword:quasi-static process one usually understands",
     "project:fulltext",
@@ -11788,7 +12013,7 @@
    ]
   },
   {
-   "id": "e214",
+   "id": "e228",
    "members": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -11800,7 +12025,7 @@
    ]
   },
   {
-   "id": "e215",
+   "id": "e229",
    "members": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -11812,7 +12037,7 @@
    ]
   },
   {
-   "id": "e216",
+   "id": "e230",
    "members": [
     "keyword:canonical energy fluctuations",
     "keyword:energy fluctuations",
@@ -11824,7 +12049,7 @@
    ]
   },
   {
-   "id": "e217",
+   "id": "e231",
    "members": [
     "keyword:isolated nonintegrable quantum systems",
     "keyword:quantum chaos",
@@ -11835,7 +12060,7 @@
    ]
   },
   {
-   "id": "e218",
+   "id": "e232",
    "members": [
     "keyword:extensive conserved quantities",
     "keyword:integrable quantum systems",
@@ -11846,7 +12071,7 @@
    ]
   },
   {
-   "id": "e219",
+   "id": "e233",
    "members": [
     "keyword:discuss one particular noninteracting system",
     "keyword:gge constructed using occupation modes",
@@ -11857,7 +12082,7 @@
    ]
   },
   {
-   "id": "e220",
+   "id": "e234",
    "members": [
     "keyword:grand canonical ensemble",
     "keyword:grand canonical ensemble results",
@@ -11868,7 +12093,7 @@
    ]
   },
   {
-   "id": "e221",
+   "id": "e235",
    "members": [
     "keyword:eigenstate expectation values",
     "keyword:eigenstate expectation values vanishes",
@@ -11879,7 +12104,7 @@
    ]
   },
   {
-   "id": "e222",
+   "id": "e236",
    "members": [
     "keyword:conservation laws",
     "keyword:imposing local conservation laws",
@@ -11890,7 +12115,7 @@
    ]
   },
   {
-   "id": "e223",
+   "id": "e237",
    "members": [
     "keyword:gge results",
     "keyword:integrable xxz model written",
@@ -11899,7 +12124,7 @@
    ]
   },
   {
-   "id": "e224",
+   "id": "e238",
    "members": [
     "keyword:weakly interacting disordered systems",
     "project:fulltext",
@@ -11907,14 +12132,14 @@
    ]
   },
   {
-   "id": "e225",
+   "id": "e239",
    "members": [
     "project:fulltext",
     "section:[acknowledgments]"
    ]
   },
   {
-   "id": "e226",
+   "id": "e240",
    "members": [
     "notation:fourier",
     "project:fulltext",
@@ -11922,7 +12147,7 @@
    ]
   },
   {
-   "id": "e227",
+   "id": "e241",
    "members": [
     "keyword:partition function",
     "keyword:riemann zeta function",
@@ -11934,7 +12159,7 @@
    ]
   },
   {
-   "id": "e228",
+   "id": "e242",
    "members": [
     "keyword:doubly stochastic matrices",
     "keyword:doubly stochastic matrix",
@@ -11946,7 +12171,7 @@
    ]
   },
   {
-   "id": "e229",
+   "id": "e243",
    "members": [
     "keyword:doubly stochastic master equation",
     "keyword:general doubly stochastic matrix",
@@ -11958,7 +12183,7 @@
    ]
   },
   {
-   "id": "e230",
+   "id": "e244",
    "members": [
     "keyword:doubly stochastic condition",
     "project:fulltext",
@@ -11966,7 +12191,7 @@
    ]
   },
   {
-   "id": "e231",
+   "id": "e245",
    "members": [
     "keyword:energy dissipation",
     "keyword:single many-body energy eigenstate",
@@ -11975,7 +12200,7 @@
    ]
   },
   {
-   "id": "e232",
+   "id": "e246",
    "members": [
     "keyword:second order",
     "project:fulltext",
@@ -11983,21 +12208,21 @@
    ]
   },
   {
-   "id": "e233",
+   "id": "e247",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e234",
+   "id": "e248",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e235",
+   "id": "e249",
    "members": [
     "keyword:authors",
     "keyword:physa",
@@ -12007,14 +12232,14 @@
    ]
   },
   {
-   "id": "e236",
+   "id": "e250",
    "members": [
     "project:fulltext",
     "section:[the social architecture of capitalism]"
    ]
   },
   {
-   "id": "e237",
+   "id": "e251",
    "members": [
     "keyword:dynamic model",
     "keyword:model",
@@ -12026,7 +12251,7 @@
    ]
   },
   {
-   "id": "e238",
+   "id": "e252",
    "members": [
     "keyword:social architecture",
     "keyword:social dependence mediated",
@@ -12036,7 +12261,7 @@
    ]
   },
   {
-   "id": "e239",
+   "id": "e253",
    "members": [
     "keyword:actor",
     "keyword:actor cannot belong",
@@ -12047,7 +12272,7 @@
    ]
   },
   {
-   "id": "e240",
+   "id": "e254",
    "members": [
     "keyword:active actor",
     "keyword:actor",
@@ -12058,7 +12283,7 @@
    ]
   },
   {
-   "id": "e241",
+   "id": "e255",
    "members": [
     "keyword:following hiring rule",
     "keyword:hiring favour",
@@ -12069,7 +12294,7 @@
    ]
   },
   {
-   "id": "e242",
+   "id": "e256",
    "members": [
     "keyword:actors total expenditure",
     "keyword:expenditure",
@@ -12082,7 +12307,7 @@
    ]
   },
   {
-   "id": "e243",
+   "id": "e257",
    "members": [
     "keyword:current available market value",
     "keyword:individual market transactions",
@@ -12094,7 +12319,7 @@
    ]
   },
   {
-   "id": "e244",
+   "id": "e258",
    "members": [
     "keyword:ante wage bill",
     "keyword:firms current money holdings",
@@ -12104,7 +12329,7 @@
    ]
   },
   {
-   "id": "e245",
+   "id": "e259",
    "members": [
     "keyword:concrete model would introduce wage contracts",
     "keyword:employers pay wages according",
@@ -12116,7 +12341,7 @@
    ]
   },
   {
-   "id": "e246",
+   "id": "e260",
    "members": [
     "keyword:execute expenditure rule",
     "keyword:execute hiring rule",
@@ -12126,7 +12351,7 @@
    ]
   },
   {
-   "id": "e247",
+   "id": "e261",
    "members": [
     "keyword:execute rule",
     "keyword:month",
@@ -12138,7 +12363,7 @@
    ]
   },
   {
-   "id": "e248",
+   "id": "e262",
    "members": [
     "keyword:model",
     "keyword:real time",
@@ -12149,7 +12374,7 @@
    ]
   },
   {
-   "id": "e249",
+   "id": "e263",
    "members": [
     "keyword:highest possible wage never exceeds",
     "keyword:minimum wage",
@@ -12161,7 +12386,7 @@
    ]
   },
   {
-   "id": "e250",
+   "id": "e264",
    "members": [
     "keyword:class sizes",
     "keyword:class sizes generated",
@@ -12171,7 +12396,7 @@
    ]
   },
   {
-   "id": "e251",
+   "id": "e265",
    "members": [
     "keyword:firm size distribution",
     "keyword:firm size distribution followed",
@@ -12182,7 +12407,7 @@
    ]
   },
   {
-   "id": "e252",
+   "id": "e266",
    "members": [
     "keyword:growth rates",
     "keyword:holds true whether growth rates",
@@ -12195,7 +12420,7 @@
    ]
   },
   {
-   "id": "e253",
+   "id": "e267",
    "members": [
     "keyword:empirical laplace growth distribution suggests",
     "keyword:laplace growth distribution",
@@ -12206,7 +12431,7 @@
    ]
   },
   {
-   "id": "e254",
+   "id": "e268",
    "members": [
     "keyword:firm demise measure",
     "keyword:firm demise occurs",
@@ -12217,7 +12442,7 @@
    ]
   },
   {
-   "id": "e255",
+   "id": "e269",
    "members": [
     "keyword:gdp growth rate",
     "keyword:gdp log growth rates",
@@ -12227,7 +12452,7 @@
    ]
   },
   {
-   "id": "e256",
+   "id": "e270",
    "members": [
     "keyword:average duration",
     "keyword:average recession duration",
@@ -12237,7 +12462,7 @@
    ]
   },
   {
-   "id": "e257",
+   "id": "e271",
    "members": [
     "keyword:advanced capitalist countries publish national income accounts",
     "keyword:profit share fluctuates",
@@ -12249,7 +12474,7 @@
    ]
   },
   {
-   "id": "e258",
+   "id": "e272",
    "members": [
     "keyword:capitalist income distribution generated",
     "keyword:complete income distribution plotted",
@@ -12261,7 +12486,7 @@
    ]
   },
   {
-   "id": "e259",
+   "id": "e273",
    "members": [
     "keyword:firm size distribution",
     "keyword:firm-weighted rate-of-profit distribution",
@@ -12273,7 +12498,7 @@
    ]
   },
   {
-   "id": "e260",
+   "id": "e274",
    "members": [
     "keyword:existing economic models",
     "keyword:standard economic models",
@@ -12282,7 +12507,7 @@
    ]
   },
   {
-   "id": "e261",
+   "id": "e275",
    "members": [
     "keyword:empirical rate-of-profit distribution",
     "keyword:gamma-like rate-of-profit distribution",
@@ -12295,21 +12520,21 @@
    ]
   },
   {
-   "id": "e262",
+   "id": "e276",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e263",
+   "id": "e277",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e264",
+   "id": "e278",
    "members": [
     "keyword:progress",
     "project:fulltext",
@@ -12317,7 +12542,7 @@
    ]
   },
   {
-   "id": "e265",
+   "id": "e279",
    "members": [
     "keyword:thermoelectric devices involving single electron transport",
     "project:fulltext",
@@ -12325,14 +12550,14 @@
    ]
   },
   {
-   "id": "e266",
+   "id": "e280",
    "members": [
     "project:fulltext",
     "section:[contents]"
    ]
   },
   {
-   "id": "e267",
+   "id": "e281",
    "members": [
     "keyword:entropy production",
     "keyword:entropy production seriously",
@@ -12341,7 +12566,7 @@
    ]
   },
   {
-   "id": "e268",
+   "id": "e282",
    "members": [
     "keyword:relevant system size",
     "project:fulltext",
@@ -12349,7 +12574,7 @@
    ]
   },
   {
-   "id": "e269",
+   "id": "e283",
    "members": [
     "keyword:deterministic dynamics",
     "keyword:one keeps deterministic equations",
@@ -12358,7 +12583,7 @@
    ]
   },
   {
-   "id": "e270",
+   "id": "e284",
    "members": [
     "keyword:distinguish isothermal engines like molecular motors discussed",
     "keyword:heat engines like thermoelectric devices treated",
@@ -12367,7 +12592,7 @@
    ]
   },
   {
-   "id": "e271",
+   "id": "e285",
    "members": [
     "keyword:brief reviews",
     "keyword:reviews dealing",
@@ -12378,7 +12603,7 @@
    ]
   },
   {
-   "id": "e272",
+   "id": "e286",
    "members": [
     "keyword:colloidal particle confined",
     "keyword:introduced using",
@@ -12391,14 +12616,14 @@
    ]
   },
   {
-   "id": "e273",
+   "id": "e287",
    "members": [
     "project:fulltext",
     "section:[2.1. stochastic dynamics]"
    ]
   },
   {
-   "id": "e274",
+   "id": "e288",
    "members": [
     "keyword:corresponding stationary state",
     "project:fulltext",
@@ -12406,7 +12631,7 @@
    ]
   },
   {
-   "id": "e275",
+   "id": "e289",
    "members": [
     "keyword:dissipated heat",
     "keyword:heat dissipated",
@@ -12418,7 +12643,7 @@
    ]
   },
   {
-   "id": "e276",
+   "id": "e290",
    "members": [
     "keyword:stochastic entropy",
     "keyword:stochastic entropy depends",
@@ -12430,14 +12655,14 @@
    ]
   },
   {
-   "id": "e277",
+   "id": "e291",
    "members": [
     "project:fulltext",
     "section:[2.5. ensemble averages]"
    ]
   },
   {
-   "id": "e278",
+   "id": "e292",
    "members": [
     "keyword:fluctuating trajectories taken",
     "keyword:fluctuation theorems express universal properties",
@@ -12448,7 +12673,7 @@
    ]
   },
   {
-   "id": "e279",
+   "id": "e293",
    "members": [
     "keyword:detailed fluctuation theorem corresponds",
     "keyword:ift implies",
@@ -12458,7 +12683,7 @@
    ]
   },
   {
-   "id": "e280",
+   "id": "e294",
    "members": [
     "keyword:jarzynski relation since",
     "project:fulltext",
@@ -12466,7 +12691,7 @@
    ]
   },
   {
-   "id": "e281",
+   "id": "e295",
    "members": [
     "keyword:called entropy production",
     "keyword:ensemble entropy change",
@@ -12479,7 +12704,7 @@
    ]
   },
   {
-   "id": "e282",
+   "id": "e296",
    "members": [
     "keyword:derive fts",
     "keyword:fts",
@@ -12490,7 +12715,7 @@
    ]
   },
   {
-   "id": "e283",
+   "id": "e297",
    "members": [
     "keyword:conjugate dynamics",
     "keyword:dual dynamics",
@@ -12499,7 +12724,7 @@
    ]
   },
   {
-   "id": "e284",
+   "id": "e298",
    "members": [
     "keyword:conjugate dynamics",
     "keyword:conjugate dynamics according",
@@ -12511,7 +12736,7 @@
    ]
   },
   {
-   "id": "e285",
+   "id": "e299",
    "members": [
     "keyword:one obtains",
     "project:fulltext",
@@ -12519,14 +12744,14 @@
    ]
   },
   {
-   "id": "e286",
+   "id": "e300",
    "members": [
     "project:fulltext",
     "section:[4.4. fts derived from time-reversal]"
    ]
   },
   {
-   "id": "e287",
+   "id": "e301",
    "members": [
     "keyword:external flow",
     "keyword:flow unchanged",
@@ -12537,14 +12762,14 @@
    ]
   },
   {
-   "id": "e288",
+   "id": "e302",
    "members": [
     "project:fulltext",
     "section:[4.6. fts for athermal systems]"
    ]
   },
   {
-   "id": "e289",
+   "id": "e303",
    "members": [
     "keyword:detailed theorems give",
     "keyword:fluctuation theorems given above",
@@ -12555,7 +12780,7 @@
    ]
   },
   {
-   "id": "e290",
+   "id": "e304",
    "members": [
     "keyword:colloidal particle",
     "keyword:colloidal particle driven",
@@ -12566,7 +12791,7 @@
    ]
   },
   {
-   "id": "e291",
+   "id": "e305",
    "members": [
     "keyword:calculated work weighted propagators",
     "keyword:driven torsion pendulum differs fundamentally",
@@ -12576,7 +12801,7 @@
    ]
   },
   {
-   "id": "e292",
+   "id": "e306",
    "members": [
     "keyword:experimental work",
     "project:fulltext",
@@ -12584,7 +12809,7 @@
    ]
   },
   {
-   "id": "e293",
+   "id": "e307",
    "members": [
     "notation:tau_j",
     "project:fulltext",
@@ -12592,7 +12817,7 @@
    ]
   },
   {
-   "id": "e294",
+   "id": "e308",
    "members": [
     "notation:tau_j",
     "project:fulltext",
@@ -12600,7 +12825,7 @@
    ]
   },
   {
-   "id": "e295",
+   "id": "e309",
    "members": [
     "keyword:driven two-level system modelling single electron transport",
     "keyword:experimental case studies experimental work measuring",
@@ -12611,7 +12836,7 @@
    ]
   },
   {
-   "id": "e296",
+   "id": "e310",
    "members": [
     "keyword:entropy production",
     "keyword:entropy production associated",
@@ -12621,7 +12846,7 @@
    ]
   },
   {
-   "id": "e297",
+   "id": "e311",
    "members": [
     "keyword:optimal protocol",
     "keyword:optimal protocol connecting arbitrary given initial",
@@ -12632,7 +12857,7 @@
    ]
   },
   {
-   "id": "e298",
+   "id": "e312",
    "members": [
     "keyword:dissipated work",
     "keyword:dissipated work determines",
@@ -12643,7 +12868,7 @@
    ]
   },
   {
-   "id": "e299",
+   "id": "e313",
    "members": [
     "keyword:brownian information machines obeying",
     "project:fulltext",
@@ -12651,7 +12876,7 @@
    ]
   },
   {
-   "id": "e300",
+   "id": "e314",
    "members": [
     "keyword:equilibrium equilibrium systems react",
     "keyword:interacting systems one often finds numerically good agreement",
@@ -12661,14 +12886,14 @@
    ]
   },
   {
-   "id": "e301",
+   "id": "e315",
    "members": [
     "project:fulltext",
     "section:[8.2. derivation and discussion]"
    ]
   },
   {
-   "id": "e302",
+   "id": "e316",
    "members": [
     "keyword:shear flow",
     "keyword:shear flow provides",
@@ -12679,7 +12904,7 @@
    ]
   },
   {
-   "id": "e303",
+   "id": "e317",
    "members": [
     "keyword:stochastic thermodynamics",
     "keyword:stochastic thermodynamics carries",
@@ -12688,14 +12913,14 @@
    ]
   },
   {
-   "id": "e304",
+   "id": "e318",
    "members": [
     "project:fulltext",
     "section:[9.2. biopolymers with continuous degrees of freedom]"
    ]
   },
   {
-   "id": "e305",
+   "id": "e319",
    "members": [
     "keyword:determine free energy changes induced",
     "keyword:free choice",
@@ -12708,7 +12933,7 @@
    ]
   },
   {
-   "id": "e306",
+   "id": "e320",
    "members": [
     "notation:tau_j",
     "project:fulltext",
@@ -12716,7 +12941,7 @@
    ]
   },
   {
-   "id": "e307",
+   "id": "e321",
    "members": [
     "keyword:archetypical thermodynamic machines",
     "keyword:isothermal autonomous machines",
@@ -12726,7 +12951,7 @@
    ]
   },
   {
-   "id": "e308",
+   "id": "e322",
    "members": [
     "keyword:directed cycle current",
     "project:fulltext",
@@ -12734,14 +12959,14 @@
    ]
   },
   {
-   "id": "e309",
+   "id": "e323",
    "members": [
     "project:fulltext",
     "section:[10.3. power and efficiency]"
    ]
   },
   {
-   "id": "e310",
+   "id": "e324",
    "members": [
     "keyword:formula-not-decoded",
     "project:fulltext",
@@ -12749,7 +12974,7 @@
    ]
   },
   {
-   "id": "e311",
+   "id": "e325",
    "members": [
     "keyword:simple unicyclic machines",
     "keyword:unicyclic machine",
@@ -12761,7 +12986,7 @@
    ]
   },
   {
-   "id": "e312",
+   "id": "e326",
    "members": [
     "keyword:output transition",
     "keyword:strongly coupled machines exactly",
@@ -12772,7 +12997,7 @@
    ]
   },
   {
-   "id": "e313",
+   "id": "e327",
    "members": [
     "keyword:models combining discrete",
     "keyword:molecular motor",
@@ -12784,7 +13009,7 @@
    ]
   },
   {
-   "id": "e314",
+   "id": "e328",
    "members": [
     "keyword:assume ordinary heat conduction",
     "keyword:heat flux taken",
@@ -12794,7 +13019,7 @@
    ]
   },
   {
-   "id": "e315",
+   "id": "e329",
    "members": [
     "keyword:different temperature",
     "keyword:straightforward since one needs significant temperature differences",
@@ -12805,7 +13030,7 @@
    ]
   },
   {
-   "id": "e316",
+   "id": "e330",
    "members": [
     "keyword:heat engine",
     "keyword:micron-sized heat engine based",
@@ -12816,7 +13041,7 @@
    ]
   },
   {
-   "id": "e317",
+   "id": "e331",
    "members": [
     "keyword:appropriate",
     "keyword:basic assumption",
@@ -12829,7 +13054,7 @@
    ]
   },
   {
-   "id": "e318",
+   "id": "e332",
    "members": [
     "keyword:entropy production",
     "keyword:stochastic entropy",
@@ -12839,7 +13064,7 @@
    ]
   },
   {
-   "id": "e319",
+   "id": "e333",
    "members": [
     "keyword:slow one",
     "project:fulltext",
@@ -12847,7 +13072,7 @@
    ]
   },
   {
-   "id": "e320",
+   "id": "e334",
    "members": [
     "keyword:equilibrium systems",
     "keyword:non-equilibrium chemical potential",
@@ -12859,7 +13084,7 @@
    ]
   },
   {
-   "id": "e321",
+   "id": "e335",
    "members": [
     "keyword:classical thermodynamics albeit",
     "keyword:optimizing quite practical matters like",
@@ -12869,7 +13094,7 @@
    ]
   },
   {
-   "id": "e322",
+   "id": "e336",
    "members": [
     "keyword:graduate students",
     "keyword:long-standing enjoyable collaboration",
@@ -12882,28 +13107,28 @@
    ]
   },
   {
-   "id": "e323",
+   "id": "e337",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e324",
+   "id": "e338",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e325",
+   "id": "e339",
    "members": [
     "project:fulltext",
     "section:[rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes]"
    ]
   },
   {
-   "id": "e326",
+   "id": "e340",
    "members": [
     "keyword:rational extended thermodynamic theory",
     "keyword:rational extended thermodynamics",
@@ -12912,7 +13137,7 @@
    ]
   },
   {
-   "id": "e327",
+   "id": "e341",
    "members": [
     "keyword:energy density gll",
     "keyword:specific internal energy composed",
@@ -12923,7 +13148,7 @@
    ]
   },
   {
-   "id": "e328",
+   "id": "e342",
    "members": [
     "keyword:equilibrium distribution function",
     "keyword:internal modes",
@@ -12935,7 +13160,7 @@
    ]
   },
   {
-   "id": "e329",
+   "id": "e343",
    "members": [
     "keyword:energy density gll",
     "keyword:entropy density",
@@ -12947,7 +13172,7 @@
    ]
   },
   {
-   "id": "e330",
+   "id": "e344",
    "members": [
     "keyword:entropy density",
     "keyword:equilibrium distribution function",
@@ -12958,7 +13183,7 @@
    ]
   },
   {
-   "id": "e331",
+   "id": "e345",
    "members": [
     "keyword:equilibrium distribution function",
     "keyword:formula-not-decoded",
@@ -12968,7 +13193,7 @@
    ]
   },
   {
-   "id": "e332",
+   "id": "e346",
    "members": [
     "keyword:balance equations",
     "keyword:obtain three hierarchies",
@@ -12978,7 +13203,7 @@
    ]
   },
   {
-   "id": "e333",
+   "id": "e347",
    "members": [
     "keyword:compactly expressed",
     "keyword:finite system",
@@ -12989,21 +13214,21 @@
    ]
   },
   {
-   "id": "e334",
+   "id": "e348",
    "members": [
     "project:fulltext",
     "section:[1. galilean invariance]"
    ]
   },
   {
-   "id": "e335",
+   "id": "e349",
    "members": [
     "project:fulltext",
     "section:[2. mep and the closure of the system]"
    ]
   },
   {
-   "id": "e336",
+   "id": "e350",
    "members": [
     "keyword:collision term struchtrup",
     "keyword:internal mode",
@@ -13015,7 +13240,7 @@
    ]
   },
   {
-   "id": "e337",
+   "id": "e351",
    "members": [
     "keyword:possible relaxation processes",
     "keyword:relaxation process",
@@ -13027,7 +13252,7 @@
    ]
   },
   {
-   "id": "e338",
+   "id": "e352",
    "members": [
     "keyword:distribution function fkr",
     "keyword:local equilibrium distribution function given",
@@ -13036,7 +13261,7 @@
    ]
   },
   {
-   "id": "e339",
+   "id": "e353",
    "members": [
     "keyword:distribution functions",
     "keyword:entropy production",
@@ -13048,7 +13273,7 @@
    ]
   },
   {
-   "id": "e340",
+   "id": "e354",
    "members": [
     "keyword:closed system",
     "keyword:et7 theory focuses",
@@ -13060,7 +13285,7 @@
    ]
   },
   {
-   "id": "e341",
+   "id": "e355",
    "members": [
     "keyword:balance equations",
     "keyword:easily verified",
@@ -13071,7 +13296,7 @@
    ]
   },
   {
-   "id": "e342",
+   "id": "e356",
    "members": [
     "keyword:first",
     "keyword:following statement",
@@ -13081,7 +13306,7 @@
    ]
   },
   {
-   "id": "e343",
+   "id": "e357",
    "members": [
     "keyword:erent temperatures",
     "keyword:nonequilibrium chemical potentials",
@@ -13094,7 +13319,7 @@
    ]
   },
   {
-   "id": "e344",
+   "id": "e358",
    "members": [
     "keyword:constitutive equations",
     "keyword:constitutive equations above",
@@ -13104,7 +13329,7 @@
    ]
   },
   {
-   "id": "e345",
+   "id": "e359",
    "members": [
     "keyword:entropy density",
     "keyword:entropy flux",
@@ -13115,7 +13340,7 @@
    ]
   },
   {
-   "id": "e346",
+   "id": "e360",
    "members": [
     "keyword:collision term",
     "keyword:formula-not-decoded",
@@ -13126,7 +13351,7 @@
    ]
   },
   {
-   "id": "e347",
+   "id": "e361",
    "members": [
     "keyword:et7 theory",
     "keyword:features",
@@ -13136,7 +13361,7 @@
    ]
   },
   {
-   "id": "e348",
+   "id": "e362",
    "members": [
     "keyword:et7 theory",
     "keyword:internal variables",
@@ -13148,7 +13373,7 @@
    ]
   },
   {
-   "id": "e349",
+   "id": "e363",
    "members": [
     "keyword:formula-not-decoded",
     "keyword:specific heat defined",
@@ -13158,7 +13383,7 @@
    ]
   },
   {
-   "id": "e350",
+   "id": "e364",
    "members": [
     "keyword:et6 theory studied",
     "keyword:previous et6 theory",
@@ -13169,14 +13394,14 @@
    ]
   },
   {
-   "id": "e351",
+   "id": "e365",
    "members": [
     "project:fulltext",
     "section:[d. near equilibrium case]"
    ]
   },
   {
-   "id": "e352",
+   "id": "e366",
    "members": [
     "keyword:initial time",
     "keyword:internal molecular relaxation processes",
@@ -13187,7 +13412,7 @@
    ]
   },
   {
-   "id": "e353",
+   "id": "e367",
    "members": [
     "keyword:dispersion relation",
     "keyword:experimental data",
@@ -13200,7 +13425,7 @@
    ]
   },
   {
-   "id": "e354",
+   "id": "e368",
    "members": [
     "keyword:dispersion relation",
     "keyword:dispersion relations",
@@ -13212,7 +13437,7 @@
    ]
   },
   {
-   "id": "e355",
+   "id": "e369",
    "members": [
     "keyword:characteristic temperature dependence",
     "keyword:typical temperature dependence",
@@ -13221,17 +13446,16 @@
    ]
   },
   {
-   "id": "e356",
+   "id": "e370",
    "members": [
     "keyword:br2 gases",
     "keyword:bulk viscosity coe cients",
-    "keyword:least square method",
     "project:fulltext",
     "section:[c. comparison with experimental data]"
    ]
   },
   {
-   "id": "e357",
+   "id": "e371",
    "members": [
     "keyword:detailed shock wave structure",
     "keyword:peculiar shock wave structure",
@@ -13243,7 +13467,7 @@
    ]
   },
   {
-   "id": "e358",
+   "id": "e372",
    "members": [
     "keyword:jsps kakenhi grant numbers jp15k21452",
     "keyword:mathematical physics gnfm-indam",
@@ -13255,21 +13479,21 @@
    ]
   },
   {
-   "id": "e359",
+   "id": "e373",
    "members": [
     "project:fulltext",
     "section:[appendix: proof of statement 2]"
    ]
   },
   {
-   "id": "e360",
+   "id": "e374",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e361",
+   "id": "e375",
    "members": [
     "keyword:mathematical",
     "keyword:physics",
@@ -13278,7 +13502,7 @@
    ]
   },
   {
-   "id": "e362",
+   "id": "e376",
    "members": [
     "keyword:quantum fluctuation relations",
     "keyword:quantum information theory",
@@ -13287,7 +13511,7 @@
    ]
   },
   {
-   "id": "e363",
+   "id": "e377",
    "members": [
     "keyword:quantum information",
     "keyword:quantum information theory",
@@ -13300,7 +13524,7 @@
    ]
   },
   {
-   "id": "e364",
+   "id": "e378",
    "members": [
     "keyword:quantum information community",
     "keyword:quantum information theorists",
@@ -13311,7 +13535,7 @@
    ]
   },
   {
-   "id": "e365",
+   "id": "e379",
    "members": [
     "keyword:applying different unitary transformations",
     "keyword:shannon entropy",
@@ -13322,7 +13546,7 @@
    ]
   },
   {
-   "id": "e366",
+   "id": "e380",
    "members": [
     "keyword:fully quantum mechanical perspective",
     "keyword:quantum information",
@@ -13334,7 +13558,7 @@
    ]
   },
   {
-   "id": "e367",
+   "id": "e381",
    "members": [
     "keyword:states",
     "project:fulltext",
@@ -13342,7 +13566,7 @@
    ]
   },
   {
-   "id": "e368",
+   "id": "e382",
    "members": [
     "keyword:microscopic theory",
     "keyword:progress made",
@@ -13354,7 +13578,7 @@
    ]
   },
   {
-   "id": "e369",
+   "id": "e383",
    "members": [
     "keyword:physical states",
     "keyword:priori probabilities states",
@@ -13365,7 +13589,7 @@
    ]
   },
   {
-   "id": "e370",
+   "id": "e384",
    "members": [
     "keyword:certain state",
     "keyword:equilibrium state introduced",
@@ -13378,7 +13602,7 @@
    ]
   },
   {
-   "id": "e371",
+   "id": "e385",
    "members": [
     "keyword:gibbs ensemble",
     "keyword:gibbs state",
@@ -13390,7 +13614,7 @@
    ]
   },
   {
-   "id": "e372",
+   "id": "e386",
    "members": [
     "keyword:equilibration process takes",
     "keyword:equilibration time",
@@ -13403,7 +13627,7 @@
    ]
   },
   {
-   "id": "e373",
+   "id": "e387",
    "members": [
     "keyword:classify quantum systems",
     "keyword:many body quantum systems",
@@ -13414,7 +13638,7 @@
    ]
   },
   {
-   "id": "e374",
+   "id": "e388",
    "members": [
     "keyword:allowed state transformations",
     "keyword:quantum state",
@@ -13425,7 +13649,7 @@
    ]
   },
   {
-   "id": "e375",
+   "id": "e389",
    "members": [
     "keyword:allowed operations",
     "keyword:different models",
@@ -13437,7 +13661,7 @@
    ]
   },
   {
-   "id": "e376",
+   "id": "e390",
    "members": [
     "keyword:fully mixed state",
     "keyword:fully mixed states",
@@ -13449,7 +13673,7 @@
    ]
   },
   {
-   "id": "e377",
+   "id": "e391",
    "members": [
     "keyword:equilibrium states",
     "keyword:gibbs states",
@@ -13459,7 +13683,7 @@
    ]
   },
   {
-   "id": "e378",
+   "id": "e392",
    "members": [
     "keyword:general quantum states",
     "keyword:gibbs-preserving map",
@@ -13473,7 +13697,7 @@
    ]
   },
   {
-   "id": "e379",
+   "id": "e393",
    "members": [
     "keyword:coherence reservoir would",
     "keyword:coherence reservoirs",
@@ -13486,7 +13710,7 @@
    ]
   },
   {
-   "id": "e380",
+   "id": "e394",
    "members": [
     "keyword:quantities represent optimal conversion rates",
     "project:fulltext",
@@ -13494,7 +13718,7 @@
    ]
   },
   {
-   "id": "e381",
+   "id": "e395",
    "members": [
     "keyword:catalytic properties stay unaffected",
     "keyword:desired state",
@@ -13507,7 +13731,7 @@
    ]
   },
   {
-   "id": "e382",
+   "id": "e396",
    "members": [
     "keyword:hamiltonian applied",
     "keyword:quantum state",
@@ -13518,7 +13742,7 @@
    ]
   },
   {
-   "id": "e383",
+   "id": "e397",
    "members": [
     "keyword:gibbs states",
     "keyword:gibbs states come",
@@ -13529,7 +13753,7 @@
    ]
   },
   {
-   "id": "e384",
+   "id": "e398",
    "members": [
     "keyword:build heat engines",
     "keyword:build two-qubit heat engines",
@@ -13539,7 +13763,7 @@
    ]
   },
   {
-   "id": "e385",
+   "id": "e399",
    "members": [
     "keyword:baths",
     "keyword:general conserved quantities",
@@ -13551,7 +13775,7 @@
    ]
   },
   {
-   "id": "e386",
+   "id": "e400",
    "members": [
     "keyword:draw arbitrary thermal subsystems",
     "keyword:heat bath",
@@ -13562,7 +13786,7 @@
    ]
   },
   {
-   "id": "e387",
+   "id": "e401",
    "members": [
     "keyword:single-shot",
     "keyword:single-shot free energy",
@@ -13573,7 +13797,7 @@
    ]
   },
   {
-   "id": "e388",
+   "id": "e402",
    "members": [
     "keyword:average work",
     "keyword:define work",
@@ -13585,7 +13809,7 @@
    ]
   },
   {
-   "id": "e389",
+   "id": "e403",
    "members": [
     "keyword:abstract",
     "keyword:common features",
@@ -13598,7 +13822,7 @@
    ]
   },
   {
-   "id": "e390",
+   "id": "e404",
    "members": [
     "keyword:abstract state space equipped",
     "keyword:allowed transformations",
@@ -13610,7 +13834,7 @@
    ]
   },
   {
-   "id": "e391",
+   "id": "e405",
    "members": [
     "keyword:free resources",
     "keyword:free state",
@@ -13622,7 +13846,7 @@
    ]
   },
   {
-   "id": "e392",
+   "id": "e406",
    "members": [
     "keyword:authors identify quantitative theories",
     "keyword:many different resources",
@@ -13632,7 +13856,7 @@
    ]
   },
   {
-   "id": "e393",
+   "id": "e407",
    "members": [
     "keyword:completely unknown state",
     "keyword:perform logical operations",
@@ -13643,7 +13867,7 @@
    ]
   },
   {
-   "id": "e394",
+   "id": "e408",
    "members": [
     "keyword:different agents perspectives",
     "keyword:embed macroscopic descriptions",
@@ -13654,7 +13878,7 @@
    ]
   },
   {
-   "id": "e395",
+   "id": "e409",
    "members": [
     "keyword:coherent quantum states",
     "keyword:find meaningful resource theories",
@@ -13666,7 +13890,7 @@
    ]
   },
   {
-   "id": "e396",
+   "id": "e410",
    "members": [
     "keyword:quantum information",
     "keyword:quantum information processing",
@@ -13679,7 +13903,7 @@
    ]
   },
   {
-   "id": "e397",
+   "id": "e411",
    "members": [
     "keyword:best conceivable operation creating entanglement",
     "keyword:entanglement theory classically correlated states come",
@@ -13691,7 +13915,7 @@
    ]
   },
   {
-   "id": "e398",
+   "id": "e412",
    "members": [
     "keyword:always induce work cost related",
     "keyword:bipartite quantum states",
@@ -13707,7 +13931,7 @@
    ]
   },
   {
-   "id": "e399",
+   "id": "e413",
    "members": [
     "keyword:additional locality restrictions",
     "keyword:bipartite quantum states",
@@ -13721,7 +13945,7 @@
    ]
   },
   {
-   "id": "e400",
+   "id": "e414",
    "members": [
     "keyword:entangling unitaries enable work extraction",
     "keyword:extract work indicates",
@@ -13734,7 +13958,7 @@
    ]
   },
   {
-   "id": "e401",
+   "id": "e415",
    "members": [
     "keyword:directly imply entanglement",
     "keyword:fact often many low energy eigenstates even",
@@ -13746,7 +13970,7 @@
    ]
   },
   {
-   "id": "e402",
+   "id": "e416",
    "members": [
     "keyword:adaptively quantifies possible resources",
     "keyword:capture one specific aspect",
@@ -13758,7 +13982,7 @@
    ]
   },
   {
-   "id": "e403",
+   "id": "e417",
    "members": [
     "keyword:externally controlled work parameter lambda",
     "keyword:quantum work distribution",
@@ -13770,7 +13994,7 @@
    ]
   },
   {
-   "id": "e404",
+   "id": "e418",
    "members": [
     "keyword:evolving quantum system",
     "keyword:quantum state",
@@ -13784,7 +14008,7 @@
    ]
   },
   {
-   "id": "e405",
+   "id": "e419",
    "members": [
     "keyword:feedback based fluctuation theorems",
     "keyword:feedback controlled scenario",
@@ -13796,7 +14020,7 @@
    ]
   },
   {
-   "id": "e406",
+   "id": "e420",
    "members": [
     "keyword:correlated quantum systems",
     "keyword:general quantum correlations",
@@ -13808,7 +14032,7 @@
    ]
   },
   {
-   "id": "e407",
+   "id": "e421",
    "members": [
     "keyword:quantum fluctuation theorems",
     "keyword:quantum information theory",
@@ -13818,7 +14042,7 @@
    ]
   },
   {
-   "id": "e408",
+   "id": "e422",
    "members": [
     "keyword:one thermal bath",
     "keyword:quantum machines",
@@ -13830,7 +14054,7 @@
    ]
   },
   {
-   "id": "e409",
+   "id": "e423",
    "members": [
     "keyword:absorption refrigerator",
     "keyword:room temperature reservoir",
@@ -13841,7 +14065,7 @@
    ]
   },
   {
-   "id": "e410",
+   "id": "e424",
    "members": [
     "keyword:infinite temperature",
     "keyword:inverse temperature",
@@ -13850,7 +14074,7 @@
    ]
   },
   {
-   "id": "e411",
+   "id": "e425",
    "members": [
     "keyword:authors studied quantum discord",
     "keyword:quantum correlation weaker",
@@ -13862,7 +14086,7 @@
    ]
   },
   {
-   "id": "e412",
+   "id": "e426",
    "members": [
     "keyword:entanglement",
     "keyword:entanglement found",
@@ -13874,7 +14098,7 @@
    ]
   },
   {
-   "id": "e413",
+   "id": "e427",
    "members": [
     "keyword:rabi oscillations",
     "keyword:strong-interaction case rabi oscillations indeed take place",
@@ -13884,7 +14108,7 @@
    ]
   },
   {
-   "id": "e414",
+   "id": "e428",
    "members": [
     "keyword:fact squeezed thermal states",
     "keyword:quantum thermal machines",
@@ -13897,7 +14121,7 @@
    ]
   },
   {
-   "id": "e415",
+   "id": "e429",
    "members": [
     "keyword:genuinely using quantum effects",
     "keyword:quantum behaviour",
@@ -13910,7 +14134,7 @@
    ]
   },
   {
-   "id": "e416",
+   "id": "e430",
    "members": [
     "keyword:experimentally accessible situations steady state entanglement",
     "keyword:non-equilibrium steady state",
@@ -13922,7 +14146,7 @@
    ]
   },
   {
-   "id": "e417",
+   "id": "e431",
    "members": [
     "keyword:quantum thermal machines",
     "keyword:standard quantum error correction ideas",
@@ -13931,7 +14155,7 @@
    ]
   },
   {
-   "id": "e418",
+   "id": "e432",
    "members": [
     "keyword:many fields currently contributing",
     "keyword:plac- ing information",
@@ -13943,7 +14167,7 @@
    ]
   },
   {
-   "id": "e419",
+   "id": "e433",
    "members": [
     "keyword:adapted",
     "keyword:authors contributed equally",
@@ -13954,14 +14178,14 @@
    ]
   },
   {
-   "id": "e420",
+   "id": "e434",
    "members": [
     "project:fulltext",
     "section:[acknowledgements]"
    ]
   },
   {
-   "id": "e421",
+   "id": "e435",
    "members": [
     "author:fridolin krausmann",
     "author:nina eisenmenger",
@@ -13981,7 +14205,7 @@
    ]
   },
   {
-   "id": "e422",
+   "id": "e436",
    "members": [
     "author:john stillwell",
     "author:joseph ferreira",
@@ -13994,7 +14218,7 @@
    ]
   },
   {
-   "id": "e423",
+   "id": "e437",
    "members": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -14015,7 +14239,7 @@
    ]
   },
   {
-   "id": "e424",
+   "id": "e438",
    "members": [
     "author:ren\u00e9e sieber",
     "keyword:broaden public involvement",
@@ -14034,7 +14258,7 @@
    ]
   },
   {
-   "id": "e425",
+   "id": "e439",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -14053,7 +14277,7 @@
    ]
   },
   {
-   "id": "e426",
+   "id": "e440",
    "members": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -14063,7 +14287,7 @@
    ]
   },
   {
-   "id": "e427",
+   "id": "e441",
    "members": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -14083,7 +14307,7 @@
    ]
   },
   {
-   "id": "e428",
+   "id": "e442",
    "members": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -14104,7 +14328,7 @@
    ]
   },
   {
-   "id": "e429",
+   "id": "e443",
    "members": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -14122,7 +14346,7 @@
    ]
   },
   {
-   "id": "e430",
+   "id": "e444",
    "members": [
     "author:greg brown",
     "author:marketta kytt\u00e4",
@@ -14135,7 +14359,7 @@
    ]
   },
   {
-   "id": "e431",
+   "id": "e445",
    "members": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -14151,7 +14375,7 @@
    ]
   },
   {
-   "id": "e432",
+   "id": "e446",
    "members": [
     "author:christopher kennedy",
     "author:john cuddihy",
@@ -14163,7 +14387,7 @@
    ]
   },
   {
-   "id": "e433",
+   "id": "e447",
    "members": [
     "author:arzu \u00e7\u00f6ltekin",
     "author:filip biljecki",
@@ -14183,7 +14407,7 @@
    ]
   },
   {
-   "id": "e434",
+   "id": "e448",
    "members": [
     "author:andrew allan",
     "author:chris pettit",
@@ -14196,7 +14420,7 @@
    ]
   },
   {
-   "id": "e435",
+   "id": "e449",
    "members": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -14220,7 +14444,7 @@
    ]
   },
   {
-   "id": "e436",
+   "id": "e450",
    "members": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -14241,7 +14465,7 @@
    ]
   },
   {
-   "id": "e437",
+   "id": "e451",
    "members": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -14262,7 +14486,7 @@
    ]
   },
   {
-   "id": "e438",
+   "id": "e452",
    "members": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -14284,7 +14508,7 @@
    ]
   },
   {
-   "id": "e439",
+   "id": "e453",
    "members": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -14304,7 +14528,7 @@
    ]
   },
   {
-   "id": "e440",
+   "id": "e454",
    "members": [
     "author:arnau riera",
     "author:john goold",
@@ -14326,7 +14550,7 @@
    ]
   },
   {
-   "id": "e441",
+   "id": "e455",
    "members": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -14346,7 +14570,7 @@
    ]
   },
   {
-   "id": "e442",
+   "id": "e456",
    "members": [
     "author:christian lauk",
     "author:dominik noll",
@@ -14370,7 +14594,7 @@
    ]
   },
   {
-   "id": "e443",
+   "id": "e457",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -14390,7 +14614,7 @@
    ]
   },
   {
-   "id": "e444",
+   "id": "e458",
    "members": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -14418,7 +14642,7 @@
    ]
   },
   {
-   "id": "e445",
+   "id": "e459",
    "members": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -14429,7 +14653,7 @@
    ]
   },
   {
-   "id": "e446",
+   "id": "e460",
    "members": [
     "author:michael batty",
     "keyword:digital twins",
@@ -14438,7 +14662,7 @@
    ]
   },
   {
-   "id": "e447",
+   "id": "e461",
    "members": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -14464,7 +14688,7 @@
    ]
   },
   {
-   "id": "e448",
+   "id": "e462",
    "members": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -14474,7 +14698,7 @@
    ]
   },
   {
-   "id": "e449",
+   "id": "e463",
    "members": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",
@@ -16827,6 +17051,11 @@
    "label": "seven exec workers",
    "kind": "keyword"
   },
+  "keyword:smoke": {
+   "id": "keyword:smoke",
+   "label": "smoke",
+   "kind": "keyword"
+  },
   "keyword:file-based serving proves insufficient": {
    "id": "keyword:file-based serving proves insufficient",
    "label": "file-based serving proves insufficient",
@@ -16840,6 +17069,121 @@
   "keyword:semantic neighborhood queries": {
    "id": "keyword:semantic neighborhood queries",
    "label": "semantic neighborhood queries",
+   "kind": "keyword"
+  },
+  "section:[knowledge repository - how to use]": {
+   "id": "section:[knowledge repository - how to use]",
+   "label": "[Knowledge Repository \u2014 How to Use]",
+   "kind": "section"
+  },
+  "keyword:guide assumes youre": {
+   "id": "keyword:guide assumes youre",
+   "label": "guide assumes youre",
+   "kind": "keyword"
+  },
+  "section:[1. one-time setup]": {
+   "id": "section:[1. one-time setup]",
+   "label": "[1. One-time setup]",
+   "kind": "section"
+  },
+  "section:[2. minimal workflow (60 seconds)]": {
+   "id": "section:[2. minimal workflow (60 seconds)]",
+   "label": "[2. Minimal workflow (60 seconds)]",
+   "kind": "section"
+  },
+  "keyword:bash": {
+   "id": "keyword:bash",
+   "label": "bash",
+   "kind": "keyword"
+  },
+  "section:[rebuild the hypergraph from the current corpus]": {
+   "id": "section:[rebuild the hypergraph from the current corpus]",
+   "label": "[Rebuild the hypergraph from the current corpus]",
+   "kind": "section"
+  },
+  "keyword:ingest null": {
+   "id": "keyword:ingest null",
+   "label": "ingest null",
+   "kind": "keyword"
+  },
+  "section:[ground a claim: which sections co-occur with my seed concepts?]": {
+   "id": "section:[ground a claim: which sections co-occur with my seed concepts?]",
+   "label": "[Ground a claim: which sections co-occur with my seed concepts?]",
+   "kind": "section"
+  },
+  "section:[3. what the pipelines do]": {
+   "id": "section:[3. what the pipelines do]",
+   "label": "[3. What the pipelines do]",
+   "kind": "section"
+  },
+  "section:[modes detail]": {
+   "id": "section:[modes detail]",
+   "label": "[Modes detail]",
+   "kind": "section"
+  },
+  "section:[manually downloading a full-text pdf and converting it]": {
+   "id": "section:[manually downloading a full-text pdf and converting it]",
+   "label": "[Manually downloading a full-text PDF and converting it]",
+   "kind": "section"
+  },
+  "keyword:doi openalex": {
+   "id": "keyword:doi openalex",
+   "label": "doi openalex",
+   "kind": "keyword"
+  },
+  "keyword:openalex-known doi": {
+   "id": "keyword:openalex-known doi",
+   "label": "openalex-known doi",
+   "kind": "keyword"
+  },
+  "section:[4. growing the corpus]": {
+   "id": "section:[4. growing the corpus]",
+   "label": "[4. Growing the corpus]",
+   "kind": "section"
+  },
+  "section:[5. the grounding skill]": {
+   "id": "section:[5. the grounding skill]",
+   "label": "[5. The grounding skill]",
+   "kind": "section"
+  },
+  "keyword:teaches agents": {
+   "id": "keyword:teaches agents",
+   "label": "teaches agents",
+   "kind": "keyword"
+  },
+  "keyword:whenever claims": {
+   "id": "keyword:whenever claims",
+   "label": "whenever claims",
+   "kind": "keyword"
+  },
+  "keyword:corpus sections": {
+   "id": "keyword:corpus sections",
+   "label": "corpus sections",
+   "kind": "keyword"
+  },
+  "section:[6. local verification (smoke) and ci]": {
+   "id": "section:[6. local verification (smoke) and ci]",
+   "label": "[6. Local verification (smoke) and CI]",
+   "kind": "section"
+  },
+  "keyword:exact script runs": {
+   "id": "keyword:exact script runs",
+   "label": "exact script runs",
+   "kind": "keyword"
+  },
+  "section:[7. artifacts and layout]": {
+   "id": "section:[7. artifacts and layout]",
+   "label": "[7. Artifacts and layout]",
+   "kind": "section"
+  },
+  "section:[8. gotchas]": {
+   "id": "section:[8. gotchas]",
+   "label": "[8. Gotchas]",
+   "kind": "section"
+  },
+  "keyword:plumbing": {
+   "id": "keyword:plumbing",
+   "label": "plumbing",
    "kind": "keyword"
   },
   "section:[plumbing - environment setup & smoke test]": {
@@ -16886,11 +17230,6 @@
    "id": "section:[usage]",
    "label": "[Usage]",
    "kind": "section"
-  },
-  "keyword:bash": {
-   "id": "keyword:bash",
-   "label": "bash",
-   "kind": "keyword"
   },
   "section:[run a pipeline from a json stream on stdin]": {
    "id": "section:[run a pipeline from a json stream on stdin]",
@@ -20652,19 +20991,14 @@
    "label": "[C. Comparison with experimental data]",
    "kind": "section"
   },
-  "keyword:bulk viscosity coe cients": {
-   "id": "keyword:bulk viscosity coe cients",
-   "label": "bulk viscosity coe cients",
-   "kind": "keyword"
-  },
   "keyword:br2 gases": {
    "id": "keyword:br2 gases",
    "label": "br2 gases",
    "kind": "keyword"
   },
-  "keyword:least square method": {
-   "id": "keyword:least square method",
-   "label": "least square method",
+  "keyword:bulk viscosity coe cients": {
+   "id": "keyword:bulk viscosity coe cients",
+   "label": "bulk viscosity coe cients",
    "kind": "keyword"
   },
   "section:[viii. summary and outlook]": {
@@ -26003,6 +26337,17 @@
   {
    "id": "e141",
    "nodes": [
+    "keyword:smoke",
+    "project:poc",
+    "section:[next]"
+   ],
+   "doc": "poc/REPORT.md",
+   "section": "Next",
+   "arity": 3
+  },
+  {
+   "id": "e142",
+   "nodes": [
     "keyword:file-based serving proves insufficient",
     "keyword:llm renders",
     "keyword:semantic neighborhood queries",
@@ -26014,7 +26359,153 @@
    "arity": 5
   },
   {
-   "id": "e142",
+   "id": "e143",
+   "nodes": [
+    "keyword:co-occurrence hypergraph",
+    "keyword:guide assumes youre",
+    "project:poc",
+    "section:[knowledge repository - how to use]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "Knowledge Repository \u2014 How to Use",
+   "arity": 4
+  },
+  {
+   "id": "e144",
+   "nodes": [
+    "project:poc",
+    "section:[1. one-time setup]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "1. One-time setup",
+   "arity": 2
+  },
+  {
+   "id": "e145",
+   "nodes": [
+    "keyword:bash",
+    "project:poc",
+    "section:[2. minimal workflow (60 seconds)]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "2. Minimal workflow (60 seconds)",
+   "arity": 3
+  },
+  {
+   "id": "e146",
+   "nodes": [
+    "keyword:ingest null",
+    "project:poc",
+    "section:[rebuild the hypergraph from the current corpus]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "Rebuild the hypergraph from the current corpus",
+   "arity": 3
+  },
+  {
+   "id": "e147",
+   "nodes": [
+    "notation:gravitation",
+    "notation:sk condition",
+    "notation:tau_j",
+    "project:poc",
+    "section:[ground a claim: which sections co-occur with my seed concepts?]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "Ground a claim: which sections co-occur with my seed concepts?",
+   "arity": 5
+  },
+  {
+   "id": "e148",
+   "nodes": [
+    "notation:cattaneo",
+    "project:poc",
+    "section:[3. what the pipelines do]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "3. What the pipelines do",
+   "arity": 3
+  },
+  {
+   "id": "e149",
+   "nodes": [
+    "project:poc",
+    "section:[modes detail]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "Modes detail",
+   "arity": 2
+  },
+  {
+   "id": "e150",
+   "nodes": [
+    "keyword:doi",
+    "keyword:doi openalex",
+    "keyword:openalex-known doi",
+    "project:poc",
+    "section:[manually downloading a full-text pdf and converting it]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "Manually downloading a full-text PDF and converting it",
+   "arity": 5
+  },
+  {
+   "id": "e151",
+   "nodes": [
+    "project:poc",
+    "section:[4. growing the corpus]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "4. Growing the corpus",
+   "arity": 2
+  },
+  {
+   "id": "e152",
+   "nodes": [
+    "keyword:corpus sections",
+    "keyword:teaches agents",
+    "keyword:whenever claims",
+    "project:poc",
+    "section:[5. the grounding skill]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "5. The grounding skill",
+   "arity": 5
+  },
+  {
+   "id": "e153",
+   "nodes": [
+    "keyword:exact script runs",
+    "project:poc",
+    "section:[6. local verification (smoke) and ci]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "6. Local verification (smoke) and CI",
+   "arity": 3
+  },
+  {
+   "id": "e154",
+   "nodes": [
+    "project:poc",
+    "section:[7. artifacts and layout]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "7. Artifacts and layout",
+   "arity": 2
+  },
+  {
+   "id": "e155",
+   "nodes": [
+    "keyword:plumbing",
+    "project:poc",
+    "section:[8. gotchas]"
+   ],
+   "doc": "poc/USAGE.md",
+   "section": "8. Gotchas",
+   "arity": 3
+  },
+  {
+   "id": "e156",
    "nodes": [
     "keyword:opencode",
     "keyword:phase",
@@ -26026,7 +26517,7 @@
    "arity": 4
   },
   {
-   "id": "e143",
+   "id": "e157",
    "nodes": [
     "keyword:research workflow",
     "project:poc",
@@ -26037,7 +26528,7 @@
    "arity": 3
   },
   {
-   "id": "e144",
+   "id": "e158",
    "nodes": [
     "keyword:bundled",
     "keyword:prebuilt wheels",
@@ -26049,7 +26540,7 @@
    "arity": 4
   },
   {
-   "id": "e145",
+   "id": "e159",
    "nodes": [
     "keyword:dune build",
     "project:poc",
@@ -26060,7 +26551,7 @@
    "arity": 3
   },
   {
-   "id": "e146",
+   "id": "e160",
    "nodes": [
     "keyword:bash",
     "project:poc",
@@ -26071,7 +26562,7 @@
    "arity": 3
   },
   {
-   "id": "e147",
+   "id": "e161",
    "nodes": [
     "project:poc",
     "section:[run a pipeline from a json stream on stdin]"
@@ -26081,7 +26572,7 @@
    "arity": 2
   },
   {
-   "id": "e148",
+   "id": "e162",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -26092,7 +26583,7 @@
    "arity": 3
   },
   {
-   "id": "e149",
+   "id": "e163",
    "nodes": [
     "keyword:nix develop",
     "project:poc",
@@ -26103,7 +26594,7 @@
    "arity": 3
   },
   {
-   "id": "e150",
+   "id": "e164",
    "nodes": [
     "keyword:nix develop",
     "keyword:stdout",
@@ -26115,7 +26606,7 @@
    "arity": 4
   },
   {
-   "id": "e151",
+   "id": "e165",
    "nodes": [
     "project:poc",
     "section:[smoke-test transcript (all passed)]"
@@ -26125,7 +26616,7 @@
    "arity": 2
   },
   {
-   "id": "e152",
+   "id": "e166",
    "nodes": [
     "keyword:nix build",
     "project:poc",
@@ -26136,7 +26627,7 @@
    "arity": 3
   },
   {
-   "id": "e153",
+   "id": "e167",
    "nodes": [
     "keyword:multi-party session types built",
     "keyword:plumbing precedes",
@@ -26148,7 +26639,7 @@
    "arity": 4
   },
   {
-   "id": "e154",
+   "id": "e168",
    "nodes": [
     "keyword:global graph openalex already owns",
     "project:top",
@@ -26159,7 +26650,7 @@
    "arity": 3
   },
   {
-   "id": "e155",
+   "id": "e169",
    "nodes": [
     "keyword:reasoning",
     "project:top",
@@ -26170,7 +26661,7 @@
    "arity": 3
   },
   {
-   "id": "e156",
+   "id": "e170",
    "nodes": [
     "keyword:first corpus",
     "keyword:openalex",
@@ -26182,7 +26673,7 @@
    "arity": 4
   },
   {
-   "id": "e157",
+   "id": "e171",
    "nodes": [
     "project:top",
     "section:[3. proposed architecture]"
@@ -26192,7 +26683,7 @@
    "arity": 2
   },
   {
-   "id": "e158",
+   "id": "e172",
    "nodes": [
     "keyword:runtime whose host language provides multi-party session types natively",
     "project:top",
@@ -26203,7 +26694,7 @@
    "arity": 3
   },
   {
-   "id": "e159",
+   "id": "e173",
    "nodes": [
     "project:top",
     "section:[5. the knowledge-engineering loop]"
@@ -26213,7 +26704,7 @@
    "arity": 2
   },
   {
-   "id": "e160",
+   "id": "e174",
    "nodes": [
     "artifact:track f",
     "notation:sk condition",
@@ -26225,7 +26716,7 @@
    "arity": 4
   },
   {
-   "id": "e161",
+   "id": "e175",
    "nodes": [
     "project:top",
     "section:[7. risks and open decisions]"
@@ -26235,7 +26726,7 @@
    "arity": 2
   },
   {
-   "id": "e162",
+   "id": "e176",
    "nodes": [
     "artifact:track b",
     "project:top",
@@ -26246,7 +26737,7 @@
    "arity": 3
   },
   {
-   "id": "e163",
+   "id": "e177",
    "nodes": [
     "keyword:sources",
     "project:island-dt",
@@ -26257,7 +26748,7 @@
    "arity": 3
   },
   {
-   "id": "e164",
+   "id": "e178",
    "nodes": [
     "project:island-dt",
     "section:[executive summary]"
@@ -26267,7 +26758,7 @@
    "arity": 2
   },
   {
-   "id": "e165",
+   "id": "e179",
    "nodes": [
     "keyword:island twin",
     "keyword:island twin would simulate",
@@ -26279,7 +26770,7 @@
    "arity": 4
   },
   {
-   "id": "e166",
+   "id": "e180",
    "nodes": [
     "keyword:citygml energy ade",
     "project:island-dt",
@@ -26290,7 +26781,7 @@
    "arity": 3
   },
   {
-   "id": "e167",
+   "id": "e181",
    "nodes": [
     "keyword:european island twin",
     "keyword:island twin",
@@ -26303,7 +26794,7 @@
    "arity": 5
   },
   {
-   "id": "e168",
+   "id": "e182",
    "nodes": [
     "keyword:island twin",
     "project:island-dt",
@@ -26314,7 +26805,7 @@
    "arity": 3
   },
   {
-   "id": "e169",
+   "id": "e183",
    "nodes": [
     "keyword:integrated island twin",
     "keyword:island metabolic planning",
@@ -26328,7 +26819,7 @@
    "arity": 6
   },
   {
-   "id": "e170",
+   "id": "e184",
    "nodes": [
     "keyword:editorial author list unverified",
     "project:island-dt",
@@ -26339,7 +26830,7 @@
    "arity": 3
   },
   {
-   "id": "e171",
+   "id": "e185",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -26349,7 +26840,7 @@
    "arity": 2
   },
   {
-   "id": "e172",
+   "id": "e186",
    "nodes": [
     "keyword:http",
     "keyword:physics vol",
@@ -26361,7 +26852,7 @@
    "arity": 4
   },
   {
-   "id": "e173",
+   "id": "e187",
    "nodes": [
     "keyword:integrable quantum systems",
     "keyword:quantum systems",
@@ -26373,7 +26864,7 @@
    "arity": 4
   },
   {
-   "id": "e174",
+   "id": "e188",
    "nodes": [
     "keyword:generic many-body quantum systems",
     "keyword:isolated quantum systems",
@@ -26389,7 +26880,7 @@
    "arity": 8
   },
   {
-   "id": "e175",
+   "id": "e189",
    "nodes": [
     "keyword:briefly discuss chaotic dynamics",
     "keyword:chaotic motion",
@@ -26404,7 +26895,7 @@
    "arity": 7
   },
   {
-   "id": "e176",
+   "id": "e190",
    "nodes": [
     "keyword:quantum chaos",
     "keyword:quantum chaos builds came",
@@ -26417,7 +26908,7 @@
    "arity": 5
   },
   {
-   "id": "e177",
+   "id": "e191",
    "nodes": [
     "keyword:essentially random vectors",
     "keyword:first random hamiltonian",
@@ -26433,7 +26924,7 @@
    "arity": 8
   },
   {
-   "id": "e178",
+   "id": "e192",
    "nodes": [
     "keyword:diagonal matrix elements",
     "keyword:matrix elements",
@@ -26446,7 +26937,7 @@
    "arity": 5
   },
   {
-   "id": "e179",
+   "id": "e193",
    "nodes": [
     "keyword:energy level statistics",
     "keyword:many quantum systems whose classical counterpart",
@@ -26462,7 +26953,7 @@
    "arity": 8
   },
   {
-   "id": "e180",
+   "id": "e194",
    "nodes": [
     "keyword:momentum phase-space variables one",
     "keyword:slightly modified conjecture one",
@@ -26475,7 +26966,7 @@
    "arity": 5
   },
   {
-   "id": "e181",
+   "id": "e195",
    "nodes": [
     "keyword:level distribution",
     "keyword:level spacing distribution",
@@ -26488,7 +26979,7 @@
    "arity": 5
   },
   {
-   "id": "e182",
+   "id": "e196",
    "nodes": [
     "keyword:average information entropy",
     "keyword:information entropy rapidly increases",
@@ -26501,7 +26992,7 @@
    "arity": 5
   },
   {
-   "id": "e183",
+   "id": "e197",
    "nodes": [
     "keyword:entanglement entropy grows linearly",
     "keyword:second renyi entanglement entropy",
@@ -26515,7 +27006,7 @@
    "arity": 6
   },
   {
-   "id": "e184",
+   "id": "e198",
    "nodes": [
     "keyword:diagonal entropy",
     "keyword:diagonal entropy becomes almost",
@@ -26528,7 +27019,7 @@
    "arity": 5
   },
   {
-   "id": "e185",
+   "id": "e199",
    "nodes": [
     "keyword:arbitrary quantum systems assuming",
     "keyword:even large systems thermalize",
@@ -26543,7 +27034,7 @@
    "arity": 7
   },
   {
-   "id": "e186",
+   "id": "e200",
    "nodes": [
     "keyword:energy levels",
     "keyword:energy window narrower",
@@ -26557,7 +27048,7 @@
    "arity": 6
   },
   {
-   "id": "e187",
+   "id": "e201",
    "nodes": [
     "keyword:energy fluctuations",
     "keyword:equilibrium statistical fluctuations",
@@ -26571,7 +27062,7 @@
    "arity": 6
   },
   {
-   "id": "e188",
+   "id": "e202",
    "nodes": [
     "keyword:microcanonical energy window",
     "keyword:microcanonical energy window defines",
@@ -26585,7 +27076,7 @@
    "arity": 6
   },
   {
-   "id": "e189",
+   "id": "e203",
    "nodes": [
     "keyword:few off-diagonal matrix elements",
     "keyword:off-diagonal matrix elements",
@@ -26598,7 +27089,7 @@
    "arity": 5
   },
   {
-   "id": "e190",
+   "id": "e204",
    "nodes": [
     "keyword:diagonal ensemble",
     "keyword:diagonal ensemble predictions",
@@ -26611,7 +27102,7 @@
    "arity": 5
   },
   {
-   "id": "e191",
+   "id": "e205",
    "nodes": [
     "keyword:chaos",
     "keyword:isolated quantum systems taken far",
@@ -26626,7 +27117,7 @@
    "arity": 7
   },
   {
-   "id": "e192",
+   "id": "e206",
    "nodes": [
     "keyword:dynamical process",
     "keyword:dynamical process involves changing parameters",
@@ -26640,7 +27131,7 @@
    "arity": 6
   },
   {
-   "id": "e193",
+   "id": "e207",
    "nodes": [
     "keyword:doubly stochastic matrix",
     "keyword:doubly stochastic transition rates",
@@ -26654,7 +27145,7 @@
    "arity": 6
   },
   {
-   "id": "e194",
+   "id": "e208",
    "nodes": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochasticity",
@@ -26670,7 +27161,7 @@
    "arity": 8
   },
   {
-   "id": "e195",
+   "id": "e209",
    "nodes": [
     "keyword:infinite temperature",
     "keyword:infinite temperature state",
@@ -26684,7 +27175,7 @@
    "arity": 6
   },
   {
-   "id": "e196",
+   "id": "e210",
    "nodes": [
     "keyword:diagonal entropy cannot decrease",
     "keyword:diagonal entropy increases",
@@ -26698,7 +27189,7 @@
    "arity": 6
   },
   {
-   "id": "e197",
+   "id": "e211",
    "nodes": [
     "keyword:doubly stochastic cyclic evolution",
     "keyword:initial density matrix",
@@ -26712,7 +27203,7 @@
    "arity": 6
   },
   {
-   "id": "e198",
+   "id": "e212",
    "nodes": [
     "keyword:cyclic doubly stochastic evolution leads",
     "keyword:discussed three important results",
@@ -26727,7 +27218,7 @@
    "arity": 7
   },
   {
-   "id": "e199",
+   "id": "e213",
    "nodes": [
     "keyword:extensive thermodynamic entropy",
     "keyword:thermodynamic entropy",
@@ -26740,7 +27231,7 @@
    "arity": 5
   },
   {
-   "id": "e200",
+   "id": "e214",
    "nodes": [
     "keyword:energy change",
     "keyword:energy spectrum",
@@ -26755,7 +27246,7 @@
    "arity": 7
   },
   {
-   "id": "e201",
+   "id": "e215",
    "nodes": [
     "keyword:driven isolated systems",
     "keyword:fluctuation theorems",
@@ -26771,7 +27262,7 @@
    "arity": 8
   },
   {
-   "id": "e202",
+   "id": "e216",
    "nodes": [
     "keyword:jarzynski equality allows one",
     "keyword:jarzynski equality constraints different cumulants",
@@ -26785,7 +27276,7 @@
    "arity": 6
   },
   {
-   "id": "e203",
+   "id": "e217",
    "nodes": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochastic evolution describes unitary dynamics",
@@ -26799,7 +27290,7 @@
    "arity": 6
   },
   {
-   "id": "e204",
+   "id": "e218",
    "nodes": [
     "keyword:forward process starting",
     "keyword:reverse process",
@@ -26812,7 +27303,7 @@
    "arity": 5
   },
   {
-   "id": "e205",
+   "id": "e219",
    "nodes": [
     "keyword:detailed balance condition",
     "keyword:familiar detailed balance condition",
@@ -26827,7 +27318,7 @@
    "arity": 7
   },
   {
-   "id": "e206",
+   "id": "e220",
    "nodes": [
     "project:fulltext",
     "section:[6.3. einsteins energy drift-diffusion relations for isolated and open systems]"
@@ -26837,7 +27328,7 @@
    "arity": 2
   },
   {
-   "id": "e207",
+   "id": "e221",
    "nodes": [
     "keyword:energy distribution function",
     "keyword:finding universal energy distributions",
@@ -26849,7 +27340,7 @@
    "arity": 4
   },
   {
-   "id": "e208",
+   "id": "e222",
    "nodes": [
     "keyword:two initially separated chaotic systems",
     "keyword:two large macroscopic systems",
@@ -26862,7 +27353,7 @@
    "arity": 5
   },
   {
-   "id": "e209",
+   "id": "e223",
    "nodes": [
     "keyword:lhs one",
     "project:fulltext",
@@ -26873,7 +27364,7 @@
    "arity": 3
   },
   {
-   "id": "e210",
+   "id": "e224",
    "nodes": [
     "keyword:cumulant expansion",
     "keyword:cumulant tensors",
@@ -26886,7 +27377,7 @@
    "arity": 5
   },
   {
-   "id": "e211",
+   "id": "e225",
    "nodes": [
     "notation:fourier",
     "project:fulltext",
@@ -26897,7 +27388,7 @@
    "arity": 3
   },
   {
-   "id": "e212",
+   "id": "e226",
    "nodes": [
     "keyword:correlation function",
     "keyword:higher order correlation functions",
@@ -26911,7 +27402,7 @@
    "arity": 6
   },
   {
-   "id": "e213",
+   "id": "e227",
    "nodes": [
     "keyword:quasi-static process one usually understands",
     "project:fulltext",
@@ -26922,7 +27413,7 @@
    "arity": 3
   },
   {
-   "id": "e214",
+   "id": "e228",
    "nodes": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -26937,7 +27428,7 @@
    "arity": 7
   },
   {
-   "id": "e215",
+   "id": "e229",
    "nodes": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -26952,7 +27443,7 @@
    "arity": 7
   },
   {
-   "id": "e216",
+   "id": "e230",
    "nodes": [
     "keyword:canonical energy fluctuations",
     "keyword:energy fluctuations",
@@ -26967,7 +27458,7 @@
    "arity": 7
   },
   {
-   "id": "e217",
+   "id": "e231",
    "nodes": [
     "keyword:isolated nonintegrable quantum systems",
     "keyword:quantum chaos",
@@ -26981,7 +27472,7 @@
    "arity": 6
   },
   {
-   "id": "e218",
+   "id": "e232",
    "nodes": [
     "keyword:extensive conserved quantities",
     "keyword:integrable quantum systems",
@@ -26995,7 +27486,7 @@
    "arity": 6
   },
   {
-   "id": "e219",
+   "id": "e233",
    "nodes": [
     "keyword:discuss one particular noninteracting system",
     "keyword:gge constructed using occupation modes",
@@ -27009,7 +27500,7 @@
    "arity": 6
   },
   {
-   "id": "e220",
+   "id": "e234",
    "nodes": [
     "keyword:grand canonical ensemble",
     "keyword:grand canonical ensemble results",
@@ -27023,7 +27514,7 @@
    "arity": 6
   },
   {
-   "id": "e221",
+   "id": "e235",
    "nodes": [
     "keyword:eigenstate expectation values",
     "keyword:eigenstate expectation values vanishes",
@@ -27037,7 +27528,7 @@
    "arity": 6
   },
   {
-   "id": "e222",
+   "id": "e236",
    "nodes": [
     "keyword:conservation laws",
     "keyword:imposing local conservation laws",
@@ -27051,7 +27542,7 @@
    "arity": 6
   },
   {
-   "id": "e223",
+   "id": "e237",
    "nodes": [
     "keyword:gge results",
     "keyword:integrable xxz model written",
@@ -27063,7 +27554,7 @@
    "arity": 4
   },
   {
-   "id": "e224",
+   "id": "e238",
    "nodes": [
     "keyword:weakly interacting disordered systems",
     "project:fulltext",
@@ -27074,7 +27565,7 @@
    "arity": 3
   },
   {
-   "id": "e225",
+   "id": "e239",
    "nodes": [
     "project:fulltext",
     "section:[acknowledgments]"
@@ -27084,7 +27575,7 @@
    "arity": 2
   },
   {
-   "id": "e226",
+   "id": "e240",
    "nodes": [
     "notation:fourier",
     "project:fulltext",
@@ -27095,7 +27586,7 @@
    "arity": 3
   },
   {
-   "id": "e227",
+   "id": "e241",
    "nodes": [
     "keyword:partition function",
     "keyword:riemann zeta function",
@@ -27110,7 +27601,7 @@
    "arity": 7
   },
   {
-   "id": "e228",
+   "id": "e242",
    "nodes": [
     "keyword:doubly stochastic matrices",
     "keyword:doubly stochastic matrix",
@@ -27125,7 +27616,7 @@
    "arity": 7
   },
   {
-   "id": "e229",
+   "id": "e243",
    "nodes": [
     "keyword:doubly stochastic master equation",
     "keyword:general doubly stochastic matrix",
@@ -27140,7 +27631,7 @@
    "arity": 7
   },
   {
-   "id": "e230",
+   "id": "e244",
    "nodes": [
     "keyword:doubly stochastic condition",
     "project:fulltext",
@@ -27151,7 +27642,7 @@
    "arity": 3
   },
   {
-   "id": "e231",
+   "id": "e245",
    "nodes": [
     "keyword:energy dissipation",
     "keyword:single many-body energy eigenstate",
@@ -27163,7 +27654,7 @@
    "arity": 4
   },
   {
-   "id": "e232",
+   "id": "e246",
    "nodes": [
     "keyword:second order",
     "project:fulltext",
@@ -27174,7 +27665,7 @@
    "arity": 3
   },
   {
-   "id": "e233",
+   "id": "e247",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -27184,7 +27675,7 @@
    "arity": 2
   },
   {
-   "id": "e234",
+   "id": "e248",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -27194,7 +27685,7 @@
    "arity": 2
   },
   {
-   "id": "e235",
+   "id": "e249",
    "nodes": [
     "keyword:authors",
     "keyword:physa",
@@ -27207,7 +27698,7 @@
    "arity": 5
   },
   {
-   "id": "e236",
+   "id": "e250",
    "nodes": [
     "project:fulltext",
     "section:[the social architecture of capitalism]"
@@ -27217,7 +27708,7 @@
    "arity": 2
   },
   {
-   "id": "e237",
+   "id": "e251",
    "nodes": [
     "keyword:dynamic model",
     "keyword:model",
@@ -27232,7 +27723,7 @@
    "arity": 7
   },
   {
-   "id": "e238",
+   "id": "e252",
    "nodes": [
     "keyword:social architecture",
     "keyword:social dependence mediated",
@@ -27245,7 +27736,7 @@
    "arity": 5
   },
   {
-   "id": "e239",
+   "id": "e253",
    "nodes": [
     "keyword:actor",
     "keyword:actor cannot belong",
@@ -27259,7 +27750,7 @@
    "arity": 6
   },
   {
-   "id": "e240",
+   "id": "e254",
    "nodes": [
     "keyword:active actor",
     "keyword:actor",
@@ -27273,7 +27764,7 @@
    "arity": 6
   },
   {
-   "id": "e241",
+   "id": "e255",
    "nodes": [
     "keyword:following hiring rule",
     "keyword:hiring favour",
@@ -27287,7 +27778,7 @@
    "arity": 6
   },
   {
-   "id": "e242",
+   "id": "e256",
    "nodes": [
     "keyword:actors total expenditure",
     "keyword:expenditure",
@@ -27303,7 +27794,7 @@
    "arity": 8
   },
   {
-   "id": "e243",
+   "id": "e257",
    "nodes": [
     "keyword:current available market value",
     "keyword:individual market transactions",
@@ -27318,7 +27809,7 @@
    "arity": 7
   },
   {
-   "id": "e244",
+   "id": "e258",
    "nodes": [
     "keyword:ante wage bill",
     "keyword:firms current money holdings",
@@ -27331,7 +27822,7 @@
    "arity": 5
   },
   {
-   "id": "e245",
+   "id": "e259",
    "nodes": [
     "keyword:concrete model would introduce wage contracts",
     "keyword:employers pay wages according",
@@ -27346,7 +27837,7 @@
    "arity": 7
   },
   {
-   "id": "e246",
+   "id": "e260",
    "nodes": [
     "keyword:execute expenditure rule",
     "keyword:execute hiring rule",
@@ -27359,7 +27850,7 @@
    "arity": 5
   },
   {
-   "id": "e247",
+   "id": "e261",
    "nodes": [
     "keyword:execute rule",
     "keyword:month",
@@ -27374,7 +27865,7 @@
    "arity": 7
   },
   {
-   "id": "e248",
+   "id": "e262",
    "nodes": [
     "keyword:model",
     "keyword:real time",
@@ -27388,7 +27879,7 @@
    "arity": 6
   },
   {
-   "id": "e249",
+   "id": "e263",
    "nodes": [
     "keyword:highest possible wage never exceeds",
     "keyword:minimum wage",
@@ -27403,7 +27894,7 @@
    "arity": 7
   },
   {
-   "id": "e250",
+   "id": "e264",
    "nodes": [
     "keyword:class sizes",
     "keyword:class sizes generated",
@@ -27416,7 +27907,7 @@
    "arity": 5
   },
   {
-   "id": "e251",
+   "id": "e265",
    "nodes": [
     "keyword:firm size distribution",
     "keyword:firm size distribution followed",
@@ -27430,7 +27921,7 @@
    "arity": 6
   },
   {
-   "id": "e252",
+   "id": "e266",
    "nodes": [
     "keyword:growth rates",
     "keyword:holds true whether growth rates",
@@ -27446,7 +27937,7 @@
    "arity": 8
   },
   {
-   "id": "e253",
+   "id": "e267",
    "nodes": [
     "keyword:empirical laplace growth distribution suggests",
     "keyword:laplace growth distribution",
@@ -27460,7 +27951,7 @@
    "arity": 6
   },
   {
-   "id": "e254",
+   "id": "e268",
    "nodes": [
     "keyword:firm demise measure",
     "keyword:firm demise occurs",
@@ -27474,7 +27965,7 @@
    "arity": 6
   },
   {
-   "id": "e255",
+   "id": "e269",
    "nodes": [
     "keyword:gdp growth rate",
     "keyword:gdp log growth rates",
@@ -27487,7 +27978,7 @@
    "arity": 5
   },
   {
-   "id": "e256",
+   "id": "e270",
    "nodes": [
     "keyword:average duration",
     "keyword:average recession duration",
@@ -27500,7 +27991,7 @@
    "arity": 5
   },
   {
-   "id": "e257",
+   "id": "e271",
    "nodes": [
     "keyword:advanced capitalist countries publish national income accounts",
     "keyword:profit share fluctuates",
@@ -27515,7 +28006,7 @@
    "arity": 7
   },
   {
-   "id": "e258",
+   "id": "e272",
    "nodes": [
     "keyword:capitalist income distribution generated",
     "keyword:complete income distribution plotted",
@@ -27530,7 +28021,7 @@
    "arity": 7
   },
   {
-   "id": "e259",
+   "id": "e273",
    "nodes": [
     "keyword:firm size distribution",
     "keyword:firm-weighted rate-of-profit distribution",
@@ -27545,7 +28036,7 @@
    "arity": 7
   },
   {
-   "id": "e260",
+   "id": "e274",
    "nodes": [
     "keyword:existing economic models",
     "keyword:standard economic models",
@@ -27557,7 +28048,7 @@
    "arity": 4
   },
   {
-   "id": "e261",
+   "id": "e275",
    "nodes": [
     "keyword:empirical rate-of-profit distribution",
     "keyword:gamma-like rate-of-profit distribution",
@@ -27573,7 +28064,7 @@
    "arity": 8
   },
   {
-   "id": "e262",
+   "id": "e276",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -27583,7 +28074,7 @@
    "arity": 2
   },
   {
-   "id": "e263",
+   "id": "e277",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -27593,7 +28084,7 @@
    "arity": 2
   },
   {
-   "id": "e264",
+   "id": "e278",
    "nodes": [
     "keyword:progress",
     "project:fulltext",
@@ -27604,7 +28095,7 @@
    "arity": 3
   },
   {
-   "id": "e265",
+   "id": "e279",
    "nodes": [
     "keyword:thermoelectric devices involving single electron transport",
     "project:fulltext",
@@ -27615,7 +28106,7 @@
    "arity": 3
   },
   {
-   "id": "e266",
+   "id": "e280",
    "nodes": [
     "project:fulltext",
     "section:[contents]"
@@ -27625,7 +28116,7 @@
    "arity": 2
   },
   {
-   "id": "e267",
+   "id": "e281",
    "nodes": [
     "keyword:entropy production",
     "keyword:entropy production seriously",
@@ -27637,7 +28128,7 @@
    "arity": 4
   },
   {
-   "id": "e268",
+   "id": "e282",
    "nodes": [
     "keyword:relevant system size",
     "project:fulltext",
@@ -27648,7 +28139,7 @@
    "arity": 3
   },
   {
-   "id": "e269",
+   "id": "e283",
    "nodes": [
     "keyword:deterministic dynamics",
     "keyword:one keeps deterministic equations",
@@ -27660,7 +28151,7 @@
    "arity": 4
   },
   {
-   "id": "e270",
+   "id": "e284",
    "nodes": [
     "keyword:distinguish isothermal engines like molecular motors discussed",
     "keyword:heat engines like thermoelectric devices treated",
@@ -27672,7 +28163,7 @@
    "arity": 4
   },
   {
-   "id": "e271",
+   "id": "e285",
    "nodes": [
     "keyword:brief reviews",
     "keyword:reviews dealing",
@@ -27686,7 +28177,7 @@
    "arity": 6
   },
   {
-   "id": "e272",
+   "id": "e286",
    "nodes": [
     "keyword:colloidal particle confined",
     "keyword:introduced using",
@@ -27702,7 +28193,7 @@
    "arity": 8
   },
   {
-   "id": "e273",
+   "id": "e287",
    "nodes": [
     "project:fulltext",
     "section:[2.1. stochastic dynamics]"
@@ -27712,7 +28203,7 @@
    "arity": 2
   },
   {
-   "id": "e274",
+   "id": "e288",
    "nodes": [
     "keyword:corresponding stationary state",
     "project:fulltext",
@@ -27723,7 +28214,7 @@
    "arity": 3
   },
   {
-   "id": "e275",
+   "id": "e289",
    "nodes": [
     "keyword:dissipated heat",
     "keyword:heat dissipated",
@@ -27738,7 +28229,7 @@
    "arity": 7
   },
   {
-   "id": "e276",
+   "id": "e290",
    "nodes": [
     "keyword:stochastic entropy",
     "keyword:stochastic entropy depends",
@@ -27753,7 +28244,7 @@
    "arity": 7
   },
   {
-   "id": "e277",
+   "id": "e291",
    "nodes": [
     "project:fulltext",
     "section:[2.5. ensemble averages]"
@@ -27763,7 +28254,7 @@
    "arity": 2
   },
   {
-   "id": "e278",
+   "id": "e292",
    "nodes": [
     "keyword:fluctuating trajectories taken",
     "keyword:fluctuation theorems express universal properties",
@@ -27777,7 +28268,7 @@
    "arity": 6
   },
   {
-   "id": "e279",
+   "id": "e293",
    "nodes": [
     "keyword:detailed fluctuation theorem corresponds",
     "keyword:ift implies",
@@ -27790,7 +28281,7 @@
    "arity": 5
   },
   {
-   "id": "e280",
+   "id": "e294",
    "nodes": [
     "keyword:jarzynski relation since",
     "project:fulltext",
@@ -27801,7 +28292,7 @@
    "arity": 3
   },
   {
-   "id": "e281",
+   "id": "e295",
    "nodes": [
     "keyword:called entropy production",
     "keyword:ensemble entropy change",
@@ -27817,7 +28308,7 @@
    "arity": 8
   },
   {
-   "id": "e282",
+   "id": "e296",
    "nodes": [
     "keyword:derive fts",
     "keyword:fts",
@@ -27831,7 +28322,7 @@
    "arity": 6
   },
   {
-   "id": "e283",
+   "id": "e297",
    "nodes": [
     "keyword:conjugate dynamics",
     "keyword:dual dynamics",
@@ -27843,7 +28334,7 @@
    "arity": 4
   },
   {
-   "id": "e284",
+   "id": "e298",
    "nodes": [
     "keyword:conjugate dynamics",
     "keyword:conjugate dynamics according",
@@ -27858,7 +28349,7 @@
    "arity": 7
   },
   {
-   "id": "e285",
+   "id": "e299",
    "nodes": [
     "keyword:one obtains",
     "project:fulltext",
@@ -27869,7 +28360,7 @@
    "arity": 3
   },
   {
-   "id": "e286",
+   "id": "e300",
    "nodes": [
     "project:fulltext",
     "section:[4.4. fts derived from time-reversal]"
@@ -27879,7 +28370,7 @@
    "arity": 2
   },
   {
-   "id": "e287",
+   "id": "e301",
    "nodes": [
     "keyword:external flow",
     "keyword:flow unchanged",
@@ -27893,7 +28384,7 @@
    "arity": 6
   },
   {
-   "id": "e288",
+   "id": "e302",
    "nodes": [
     "project:fulltext",
     "section:[4.6. fts for athermal systems]"
@@ -27903,7 +28394,7 @@
    "arity": 2
   },
   {
-   "id": "e289",
+   "id": "e303",
    "nodes": [
     "keyword:detailed theorems give",
     "keyword:fluctuation theorems given above",
@@ -27917,7 +28408,7 @@
    "arity": 6
   },
   {
-   "id": "e290",
+   "id": "e304",
    "nodes": [
     "keyword:colloidal particle",
     "keyword:colloidal particle driven",
@@ -27931,7 +28422,7 @@
    "arity": 6
   },
   {
-   "id": "e291",
+   "id": "e305",
    "nodes": [
     "keyword:calculated work weighted propagators",
     "keyword:driven torsion pendulum differs fundamentally",
@@ -27944,7 +28435,7 @@
    "arity": 5
   },
   {
-   "id": "e292",
+   "id": "e306",
    "nodes": [
     "keyword:experimental work",
     "project:fulltext",
@@ -27955,7 +28446,7 @@
    "arity": 3
   },
   {
-   "id": "e293",
+   "id": "e307",
    "nodes": [
     "notation:tau_j",
     "project:fulltext",
@@ -27966,7 +28457,7 @@
    "arity": 3
   },
   {
-   "id": "e294",
+   "id": "e308",
    "nodes": [
     "notation:tau_j",
     "project:fulltext",
@@ -27977,7 +28468,7 @@
    "arity": 3
   },
   {
-   "id": "e295",
+   "id": "e309",
    "nodes": [
     "keyword:driven two-level system modelling single electron transport",
     "keyword:experimental case studies experimental work measuring",
@@ -27991,7 +28482,7 @@
    "arity": 6
   },
   {
-   "id": "e296",
+   "id": "e310",
    "nodes": [
     "keyword:entropy production",
     "keyword:entropy production associated",
@@ -28004,7 +28495,7 @@
    "arity": 5
   },
   {
-   "id": "e297",
+   "id": "e311",
    "nodes": [
     "keyword:optimal protocol",
     "keyword:optimal protocol connecting arbitrary given initial",
@@ -28018,7 +28509,7 @@
    "arity": 6
   },
   {
-   "id": "e298",
+   "id": "e312",
    "nodes": [
     "keyword:dissipated work",
     "keyword:dissipated work determines",
@@ -28032,7 +28523,7 @@
    "arity": 6
   },
   {
-   "id": "e299",
+   "id": "e313",
    "nodes": [
     "keyword:brownian information machines obeying",
     "project:fulltext",
@@ -28043,7 +28534,7 @@
    "arity": 3
   },
   {
-   "id": "e300",
+   "id": "e314",
    "nodes": [
     "keyword:equilibrium equilibrium systems react",
     "keyword:interacting systems one often finds numerically good agreement",
@@ -28056,7 +28547,7 @@
    "arity": 5
   },
   {
-   "id": "e301",
+   "id": "e315",
    "nodes": [
     "project:fulltext",
     "section:[8.2. derivation and discussion]"
@@ -28066,7 +28557,7 @@
    "arity": 2
   },
   {
-   "id": "e302",
+   "id": "e316",
    "nodes": [
     "keyword:shear flow",
     "keyword:shear flow provides",
@@ -28080,7 +28571,7 @@
    "arity": 6
   },
   {
-   "id": "e303",
+   "id": "e317",
    "nodes": [
     "keyword:stochastic thermodynamics",
     "keyword:stochastic thermodynamics carries",
@@ -28092,7 +28583,7 @@
    "arity": 4
   },
   {
-   "id": "e304",
+   "id": "e318",
    "nodes": [
     "project:fulltext",
     "section:[9.2. biopolymers with continuous degrees of freedom]"
@@ -28102,7 +28593,7 @@
    "arity": 2
   },
   {
-   "id": "e305",
+   "id": "e319",
    "nodes": [
     "keyword:determine free energy changes induced",
     "keyword:free choice",
@@ -28118,7 +28609,7 @@
    "arity": 8
   },
   {
-   "id": "e306",
+   "id": "e320",
    "nodes": [
     "notation:tau_j",
     "project:fulltext",
@@ -28129,7 +28620,7 @@
    "arity": 3
   },
   {
-   "id": "e307",
+   "id": "e321",
    "nodes": [
     "keyword:archetypical thermodynamic machines",
     "keyword:isothermal autonomous machines",
@@ -28142,7 +28633,7 @@
    "arity": 5
   },
   {
-   "id": "e308",
+   "id": "e322",
    "nodes": [
     "keyword:directed cycle current",
     "project:fulltext",
@@ -28153,7 +28644,7 @@
    "arity": 3
   },
   {
-   "id": "e309",
+   "id": "e323",
    "nodes": [
     "project:fulltext",
     "section:[10.3. power and efficiency]"
@@ -28163,7 +28654,7 @@
    "arity": 2
   },
   {
-   "id": "e310",
+   "id": "e324",
    "nodes": [
     "keyword:formula-not-decoded",
     "project:fulltext",
@@ -28174,7 +28665,7 @@
    "arity": 3
   },
   {
-   "id": "e311",
+   "id": "e325",
    "nodes": [
     "keyword:simple unicyclic machines",
     "keyword:unicyclic machine",
@@ -28189,7 +28680,7 @@
    "arity": 7
   },
   {
-   "id": "e312",
+   "id": "e326",
    "nodes": [
     "keyword:output transition",
     "keyword:strongly coupled machines exactly",
@@ -28203,7 +28694,7 @@
    "arity": 6
   },
   {
-   "id": "e313",
+   "id": "e327",
    "nodes": [
     "keyword:models combining discrete",
     "keyword:molecular motor",
@@ -28218,7 +28709,7 @@
    "arity": 7
   },
   {
-   "id": "e314",
+   "id": "e328",
    "nodes": [
     "keyword:assume ordinary heat conduction",
     "keyword:heat flux taken",
@@ -28231,7 +28722,7 @@
    "arity": 5
   },
   {
-   "id": "e315",
+   "id": "e329",
    "nodes": [
     "keyword:different temperature",
     "keyword:straightforward since one needs significant temperature differences",
@@ -28245,7 +28736,7 @@
    "arity": 6
   },
   {
-   "id": "e316",
+   "id": "e330",
    "nodes": [
     "keyword:heat engine",
     "keyword:micron-sized heat engine based",
@@ -28259,7 +28750,7 @@
    "arity": 6
   },
   {
-   "id": "e317",
+   "id": "e331",
    "nodes": [
     "keyword:appropriate",
     "keyword:basic assumption",
@@ -28275,7 +28766,7 @@
    "arity": 8
   },
   {
-   "id": "e318",
+   "id": "e332",
    "nodes": [
     "keyword:entropy production",
     "keyword:stochastic entropy",
@@ -28288,7 +28779,7 @@
    "arity": 5
   },
   {
-   "id": "e319",
+   "id": "e333",
    "nodes": [
     "keyword:slow one",
     "project:fulltext",
@@ -28299,7 +28790,7 @@
    "arity": 3
   },
   {
-   "id": "e320",
+   "id": "e334",
    "nodes": [
     "keyword:equilibrium systems",
     "keyword:non-equilibrium chemical potential",
@@ -28314,7 +28805,7 @@
    "arity": 7
   },
   {
-   "id": "e321",
+   "id": "e335",
    "nodes": [
     "keyword:classical thermodynamics albeit",
     "keyword:optimizing quite practical matters like",
@@ -28327,7 +28818,7 @@
    "arity": 5
   },
   {
-   "id": "e322",
+   "id": "e336",
    "nodes": [
     "keyword:graduate students",
     "keyword:long-standing enjoyable collaboration",
@@ -28343,7 +28834,7 @@
    "arity": 8
   },
   {
-   "id": "e323",
+   "id": "e337",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -28353,7 +28844,7 @@
    "arity": 2
   },
   {
-   "id": "e324",
+   "id": "e338",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -28363,7 +28854,7 @@
    "arity": 2
   },
   {
-   "id": "e325",
+   "id": "e339",
    "nodes": [
     "project:fulltext",
     "section:[rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes]"
@@ -28373,7 +28864,7 @@
    "arity": 2
   },
   {
-   "id": "e326",
+   "id": "e340",
    "nodes": [
     "keyword:rational extended thermodynamic theory",
     "keyword:rational extended thermodynamics",
@@ -28385,7 +28876,7 @@
    "arity": 4
   },
   {
-   "id": "e327",
+   "id": "e341",
    "nodes": [
     "keyword:energy density gll",
     "keyword:specific internal energy composed",
@@ -28399,7 +28890,7 @@
    "arity": 6
   },
   {
-   "id": "e328",
+   "id": "e342",
    "nodes": [
     "keyword:equilibrium distribution function",
     "keyword:internal modes",
@@ -28414,7 +28905,7 @@
    "arity": 7
   },
   {
-   "id": "e329",
+   "id": "e343",
    "nodes": [
     "keyword:energy density gll",
     "keyword:entropy density",
@@ -28429,7 +28920,7 @@
    "arity": 7
   },
   {
-   "id": "e330",
+   "id": "e344",
    "nodes": [
     "keyword:entropy density",
     "keyword:equilibrium distribution function",
@@ -28443,7 +28934,7 @@
    "arity": 6
   },
   {
-   "id": "e331",
+   "id": "e345",
    "nodes": [
     "keyword:equilibrium distribution function",
     "keyword:formula-not-decoded",
@@ -28456,7 +28947,7 @@
    "arity": 5
   },
   {
-   "id": "e332",
+   "id": "e346",
    "nodes": [
     "keyword:balance equations",
     "keyword:obtain three hierarchies",
@@ -28469,7 +28960,7 @@
    "arity": 5
   },
   {
-   "id": "e333",
+   "id": "e347",
    "nodes": [
     "keyword:compactly expressed",
     "keyword:finite system",
@@ -28483,7 +28974,7 @@
    "arity": 6
   },
   {
-   "id": "e334",
+   "id": "e348",
    "nodes": [
     "project:fulltext",
     "section:[1. galilean invariance]"
@@ -28493,7 +28984,7 @@
    "arity": 2
   },
   {
-   "id": "e335",
+   "id": "e349",
    "nodes": [
     "project:fulltext",
     "section:[2. mep and the closure of the system]"
@@ -28503,7 +28994,7 @@
    "arity": 2
   },
   {
-   "id": "e336",
+   "id": "e350",
    "nodes": [
     "keyword:collision term struchtrup",
     "keyword:internal mode",
@@ -28518,7 +29009,7 @@
    "arity": 7
   },
   {
-   "id": "e337",
+   "id": "e351",
    "nodes": [
     "keyword:possible relaxation processes",
     "keyword:relaxation process",
@@ -28533,7 +29024,7 @@
    "arity": 7
   },
   {
-   "id": "e338",
+   "id": "e352",
    "nodes": [
     "keyword:distribution function fkr",
     "keyword:local equilibrium distribution function given",
@@ -28545,7 +29036,7 @@
    "arity": 4
   },
   {
-   "id": "e339",
+   "id": "e353",
    "nodes": [
     "keyword:distribution functions",
     "keyword:entropy production",
@@ -28560,7 +29051,7 @@
    "arity": 7
   },
   {
-   "id": "e340",
+   "id": "e354",
    "nodes": [
     "keyword:closed system",
     "keyword:et7 theory focuses",
@@ -28575,7 +29066,7 @@
    "arity": 7
   },
   {
-   "id": "e341",
+   "id": "e355",
    "nodes": [
     "keyword:balance equations",
     "keyword:easily verified",
@@ -28589,7 +29080,7 @@
    "arity": 6
   },
   {
-   "id": "e342",
+   "id": "e356",
    "nodes": [
     "keyword:first",
     "keyword:following statement",
@@ -28602,7 +29093,7 @@
    "arity": 5
   },
   {
-   "id": "e343",
+   "id": "e357",
    "nodes": [
     "keyword:erent temperatures",
     "keyword:nonequilibrium chemical potentials",
@@ -28618,7 +29109,7 @@
    "arity": 8
   },
   {
-   "id": "e344",
+   "id": "e358",
    "nodes": [
     "keyword:constitutive equations",
     "keyword:constitutive equations above",
@@ -28631,7 +29122,7 @@
    "arity": 5
   },
   {
-   "id": "e345",
+   "id": "e359",
    "nodes": [
     "keyword:entropy density",
     "keyword:entropy flux",
@@ -28645,7 +29136,7 @@
    "arity": 6
   },
   {
-   "id": "e346",
+   "id": "e360",
    "nodes": [
     "keyword:collision term",
     "keyword:formula-not-decoded",
@@ -28659,7 +29150,7 @@
    "arity": 6
   },
   {
-   "id": "e347",
+   "id": "e361",
    "nodes": [
     "keyword:et7 theory",
     "keyword:features",
@@ -28672,7 +29163,7 @@
    "arity": 5
   },
   {
-   "id": "e348",
+   "id": "e362",
    "nodes": [
     "keyword:et7 theory",
     "keyword:internal variables",
@@ -28687,7 +29178,7 @@
    "arity": 7
   },
   {
-   "id": "e349",
+   "id": "e363",
    "nodes": [
     "keyword:formula-not-decoded",
     "keyword:specific heat defined",
@@ -28700,7 +29191,7 @@
    "arity": 5
   },
   {
-   "id": "e350",
+   "id": "e364",
    "nodes": [
     "keyword:et6 theory studied",
     "keyword:previous et6 theory",
@@ -28714,7 +29205,7 @@
    "arity": 6
   },
   {
-   "id": "e351",
+   "id": "e365",
    "nodes": [
     "project:fulltext",
     "section:[d. near equilibrium case]"
@@ -28724,7 +29215,7 @@
    "arity": 2
   },
   {
-   "id": "e352",
+   "id": "e366",
    "nodes": [
     "keyword:initial time",
     "keyword:internal molecular relaxation processes",
@@ -28738,7 +29229,7 @@
    "arity": 6
   },
   {
-   "id": "e353",
+   "id": "e367",
    "nodes": [
     "keyword:dispersion relation",
     "keyword:experimental data",
@@ -28754,7 +29245,7 @@
    "arity": 8
   },
   {
-   "id": "e354",
+   "id": "e368",
    "nodes": [
     "keyword:dispersion relation",
     "keyword:dispersion relations",
@@ -28769,7 +29260,7 @@
    "arity": 7
   },
   {
-   "id": "e355",
+   "id": "e369",
    "nodes": [
     "keyword:characteristic temperature dependence",
     "keyword:typical temperature dependence",
@@ -28781,20 +29272,19 @@
    "arity": 4
   },
   {
-   "id": "e356",
+   "id": "e370",
    "nodes": [
     "keyword:br2 gases",
     "keyword:bulk viscosity coe cients",
-    "keyword:least square method",
     "project:fulltext",
     "section:[c. comparison with experimental data]"
    ],
    "doc": "fulltext/https_openalex.org_W2747676085.md",
    "section": "C. Comparison with experimental data",
-   "arity": 5
+   "arity": 4
   },
   {
-   "id": "e357",
+   "id": "e371",
    "nodes": [
     "keyword:detailed shock wave structure",
     "keyword:peculiar shock wave structure",
@@ -28809,7 +29299,7 @@
    "arity": 7
   },
   {
-   "id": "e358",
+   "id": "e372",
    "nodes": [
     "keyword:jsps kakenhi grant numbers jp15k21452",
     "keyword:mathematical physics gnfm-indam",
@@ -28824,7 +29314,7 @@
    "arity": 7
   },
   {
-   "id": "e359",
+   "id": "e373",
    "nodes": [
     "project:fulltext",
     "section:[appendix: proof of statement 2]"
@@ -28834,7 +29324,7 @@
    "arity": 2
   },
   {
-   "id": "e360",
+   "id": "e374",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -28844,7 +29334,7 @@
    "arity": 2
   },
   {
-   "id": "e361",
+   "id": "e375",
    "nodes": [
     "keyword:mathematical",
     "keyword:physics",
@@ -28856,7 +29346,7 @@
    "arity": 4
   },
   {
-   "id": "e362",
+   "id": "e376",
    "nodes": [
     "keyword:quantum fluctuation relations",
     "keyword:quantum information theory",
@@ -28868,7 +29358,7 @@
    "arity": 4
   },
   {
-   "id": "e363",
+   "id": "e377",
    "nodes": [
     "keyword:quantum information",
     "keyword:quantum information theory",
@@ -28884,7 +29374,7 @@
    "arity": 8
   },
   {
-   "id": "e364",
+   "id": "e378",
    "nodes": [
     "keyword:quantum information community",
     "keyword:quantum information theorists",
@@ -28898,7 +29388,7 @@
    "arity": 6
   },
   {
-   "id": "e365",
+   "id": "e379",
    "nodes": [
     "keyword:applying different unitary transformations",
     "keyword:shannon entropy",
@@ -28912,7 +29402,7 @@
    "arity": 6
   },
   {
-   "id": "e366",
+   "id": "e380",
    "nodes": [
     "keyword:fully quantum mechanical perspective",
     "keyword:quantum information",
@@ -28927,7 +29417,7 @@
    "arity": 7
   },
   {
-   "id": "e367",
+   "id": "e381",
    "nodes": [
     "keyword:states",
     "project:fulltext",
@@ -28938,7 +29428,7 @@
    "arity": 3
   },
   {
-   "id": "e368",
+   "id": "e382",
    "nodes": [
     "keyword:microscopic theory",
     "keyword:progress made",
@@ -28953,7 +29443,7 @@
    "arity": 7
   },
   {
-   "id": "e369",
+   "id": "e383",
    "nodes": [
     "keyword:physical states",
     "keyword:priori probabilities states",
@@ -28967,7 +29457,7 @@
    "arity": 6
   },
   {
-   "id": "e370",
+   "id": "e384",
    "nodes": [
     "keyword:certain state",
     "keyword:equilibrium state introduced",
@@ -28983,7 +29473,7 @@
    "arity": 8
   },
   {
-   "id": "e371",
+   "id": "e385",
    "nodes": [
     "keyword:gibbs ensemble",
     "keyword:gibbs state",
@@ -28998,7 +29488,7 @@
    "arity": 7
   },
   {
-   "id": "e372",
+   "id": "e386",
    "nodes": [
     "keyword:equilibration process takes",
     "keyword:equilibration time",
@@ -29014,7 +29504,7 @@
    "arity": 8
   },
   {
-   "id": "e373",
+   "id": "e387",
    "nodes": [
     "keyword:classify quantum systems",
     "keyword:many body quantum systems",
@@ -29028,7 +29518,7 @@
    "arity": 6
   },
   {
-   "id": "e374",
+   "id": "e388",
    "nodes": [
     "keyword:allowed state transformations",
     "keyword:quantum state",
@@ -29042,7 +29532,7 @@
    "arity": 6
   },
   {
-   "id": "e375",
+   "id": "e389",
    "nodes": [
     "keyword:allowed operations",
     "keyword:different models",
@@ -29057,7 +29547,7 @@
    "arity": 7
   },
   {
-   "id": "e376",
+   "id": "e390",
    "nodes": [
     "keyword:fully mixed state",
     "keyword:fully mixed states",
@@ -29072,7 +29562,7 @@
    "arity": 7
   },
   {
-   "id": "e377",
+   "id": "e391",
    "nodes": [
     "keyword:equilibrium states",
     "keyword:gibbs states",
@@ -29085,7 +29575,7 @@
    "arity": 5
   },
   {
-   "id": "e378",
+   "id": "e392",
    "nodes": [
     "keyword:general quantum states",
     "keyword:gibbs-preserving map",
@@ -29102,7 +29592,7 @@
    "arity": 9
   },
   {
-   "id": "e379",
+   "id": "e393",
    "nodes": [
     "keyword:coherence reservoir would",
     "keyword:coherence reservoirs",
@@ -29118,7 +29608,7 @@
    "arity": 8
   },
   {
-   "id": "e380",
+   "id": "e394",
    "nodes": [
     "keyword:quantities represent optimal conversion rates",
     "project:fulltext",
@@ -29129,7 +29619,7 @@
    "arity": 3
   },
   {
-   "id": "e381",
+   "id": "e395",
    "nodes": [
     "keyword:catalytic properties stay unaffected",
     "keyword:desired state",
@@ -29145,7 +29635,7 @@
    "arity": 8
   },
   {
-   "id": "e382",
+   "id": "e396",
    "nodes": [
     "keyword:hamiltonian applied",
     "keyword:quantum state",
@@ -29159,7 +29649,7 @@
    "arity": 6
   },
   {
-   "id": "e383",
+   "id": "e397",
    "nodes": [
     "keyword:gibbs states",
     "keyword:gibbs states come",
@@ -29173,7 +29663,7 @@
    "arity": 6
   },
   {
-   "id": "e384",
+   "id": "e398",
    "nodes": [
     "keyword:build heat engines",
     "keyword:build two-qubit heat engines",
@@ -29186,7 +29676,7 @@
    "arity": 5
   },
   {
-   "id": "e385",
+   "id": "e399",
    "nodes": [
     "keyword:baths",
     "keyword:general conserved quantities",
@@ -29201,7 +29691,7 @@
    "arity": 7
   },
   {
-   "id": "e386",
+   "id": "e400",
    "nodes": [
     "keyword:draw arbitrary thermal subsystems",
     "keyword:heat bath",
@@ -29215,7 +29705,7 @@
    "arity": 6
   },
   {
-   "id": "e387",
+   "id": "e401",
    "nodes": [
     "keyword:single-shot",
     "keyword:single-shot free energy",
@@ -29229,7 +29719,7 @@
    "arity": 6
   },
   {
-   "id": "e388",
+   "id": "e402",
    "nodes": [
     "keyword:average work",
     "keyword:define work",
@@ -29244,7 +29734,7 @@
    "arity": 7
   },
   {
-   "id": "e389",
+   "id": "e403",
    "nodes": [
     "keyword:abstract",
     "keyword:common features",
@@ -29260,7 +29750,7 @@
    "arity": 8
   },
   {
-   "id": "e390",
+   "id": "e404",
    "nodes": [
     "keyword:abstract state space equipped",
     "keyword:allowed transformations",
@@ -29275,7 +29765,7 @@
    "arity": 7
   },
   {
-   "id": "e391",
+   "id": "e405",
    "nodes": [
     "keyword:free resources",
     "keyword:free state",
@@ -29290,7 +29780,7 @@
    "arity": 7
   },
   {
-   "id": "e392",
+   "id": "e406",
    "nodes": [
     "keyword:authors identify quantitative theories",
     "keyword:many different resources",
@@ -29303,7 +29793,7 @@
    "arity": 5
   },
   {
-   "id": "e393",
+   "id": "e407",
    "nodes": [
     "keyword:completely unknown state",
     "keyword:perform logical operations",
@@ -29317,7 +29807,7 @@
    "arity": 6
   },
   {
-   "id": "e394",
+   "id": "e408",
    "nodes": [
     "keyword:different agents perspectives",
     "keyword:embed macroscopic descriptions",
@@ -29331,7 +29821,7 @@
    "arity": 6
   },
   {
-   "id": "e395",
+   "id": "e409",
    "nodes": [
     "keyword:coherent quantum states",
     "keyword:find meaningful resource theories",
@@ -29346,7 +29836,7 @@
    "arity": 7
   },
   {
-   "id": "e396",
+   "id": "e410",
    "nodes": [
     "keyword:quantum information",
     "keyword:quantum information processing",
@@ -29362,7 +29852,7 @@
    "arity": 8
   },
   {
-   "id": "e397",
+   "id": "e411",
    "nodes": [
     "keyword:best conceivable operation creating entanglement",
     "keyword:entanglement theory classically correlated states come",
@@ -29377,7 +29867,7 @@
    "arity": 7
   },
   {
-   "id": "e398",
+   "id": "e412",
    "nodes": [
     "keyword:always induce work cost related",
     "keyword:bipartite quantum states",
@@ -29396,7 +29886,7 @@
    "arity": 11
   },
   {
-   "id": "e399",
+   "id": "e413",
    "nodes": [
     "keyword:additional locality restrictions",
     "keyword:bipartite quantum states",
@@ -29413,7 +29903,7 @@
    "arity": 9
   },
   {
-   "id": "e400",
+   "id": "e414",
    "nodes": [
     "keyword:entangling unitaries enable work extraction",
     "keyword:extract work indicates",
@@ -29429,7 +29919,7 @@
    "arity": 8
   },
   {
-   "id": "e401",
+   "id": "e415",
    "nodes": [
     "keyword:directly imply entanglement",
     "keyword:fact often many low energy eigenstates even",
@@ -29444,7 +29934,7 @@
    "arity": 7
   },
   {
-   "id": "e402",
+   "id": "e416",
    "nodes": [
     "keyword:adaptively quantifies possible resources",
     "keyword:capture one specific aspect",
@@ -29459,7 +29949,7 @@
    "arity": 7
   },
   {
-   "id": "e403",
+   "id": "e417",
    "nodes": [
     "keyword:externally controlled work parameter lambda",
     "keyword:quantum work distribution",
@@ -29474,7 +29964,7 @@
    "arity": 7
   },
   {
-   "id": "e404",
+   "id": "e418",
    "nodes": [
     "keyword:evolving quantum system",
     "keyword:quantum state",
@@ -29491,7 +29981,7 @@
    "arity": 9
   },
   {
-   "id": "e405",
+   "id": "e419",
    "nodes": [
     "keyword:feedback based fluctuation theorems",
     "keyword:feedback controlled scenario",
@@ -29506,7 +29996,7 @@
    "arity": 7
   },
   {
-   "id": "e406",
+   "id": "e420",
    "nodes": [
     "keyword:correlated quantum systems",
     "keyword:general quantum correlations",
@@ -29521,7 +30011,7 @@
    "arity": 7
   },
   {
-   "id": "e407",
+   "id": "e421",
    "nodes": [
     "keyword:quantum fluctuation theorems",
     "keyword:quantum information theory",
@@ -29534,7 +30024,7 @@
    "arity": 5
   },
   {
-   "id": "e408",
+   "id": "e422",
    "nodes": [
     "keyword:one thermal bath",
     "keyword:quantum machines",
@@ -29549,7 +30039,7 @@
    "arity": 7
   },
   {
-   "id": "e409",
+   "id": "e423",
    "nodes": [
     "keyword:absorption refrigerator",
     "keyword:room temperature reservoir",
@@ -29563,7 +30053,7 @@
    "arity": 6
   },
   {
-   "id": "e410",
+   "id": "e424",
    "nodes": [
     "keyword:infinite temperature",
     "keyword:inverse temperature",
@@ -29575,7 +30065,7 @@
    "arity": 4
   },
   {
-   "id": "e411",
+   "id": "e425",
    "nodes": [
     "keyword:authors studied quantum discord",
     "keyword:quantum correlation weaker",
@@ -29590,7 +30080,7 @@
    "arity": 7
   },
   {
-   "id": "e412",
+   "id": "e426",
    "nodes": [
     "keyword:entanglement",
     "keyword:entanglement found",
@@ -29605,7 +30095,7 @@
    "arity": 7
   },
   {
-   "id": "e413",
+   "id": "e427",
    "nodes": [
     "keyword:rabi oscillations",
     "keyword:strong-interaction case rabi oscillations indeed take place",
@@ -29618,7 +30108,7 @@
    "arity": 5
   },
   {
-   "id": "e414",
+   "id": "e428",
    "nodes": [
     "keyword:fact squeezed thermal states",
     "keyword:quantum thermal machines",
@@ -29634,7 +30124,7 @@
    "arity": 8
   },
   {
-   "id": "e415",
+   "id": "e429",
    "nodes": [
     "keyword:genuinely using quantum effects",
     "keyword:quantum behaviour",
@@ -29650,7 +30140,7 @@
    "arity": 8
   },
   {
-   "id": "e416",
+   "id": "e430",
    "nodes": [
     "keyword:experimentally accessible situations steady state entanglement",
     "keyword:non-equilibrium steady state",
@@ -29665,7 +30155,7 @@
    "arity": 7
   },
   {
-   "id": "e417",
+   "id": "e431",
    "nodes": [
     "keyword:quantum thermal machines",
     "keyword:standard quantum error correction ideas",
@@ -29677,7 +30167,7 @@
    "arity": 4
   },
   {
-   "id": "e418",
+   "id": "e432",
    "nodes": [
     "keyword:many fields currently contributing",
     "keyword:plac- ing information",
@@ -29692,7 +30182,7 @@
    "arity": 7
   },
   {
-   "id": "e419",
+   "id": "e433",
    "nodes": [
     "keyword:adapted",
     "keyword:authors contributed equally",
@@ -29706,7 +30196,7 @@
    "arity": 6
   },
   {
-   "id": "e420",
+   "id": "e434",
    "nodes": [
     "project:fulltext",
     "section:[acknowledgements]"
@@ -29716,7 +30206,7 @@
    "arity": 2
   },
   {
-   "id": "e421",
+   "id": "e435",
    "nodes": [
     "author:fridolin krausmann",
     "author:nina eisenmenger",
@@ -29739,7 +30229,7 @@
    "arity": 15
   },
   {
-   "id": "e422",
+   "id": "e436",
    "nodes": [
     "author:john stillwell",
     "author:joseph ferreira",
@@ -29755,7 +30245,7 @@
    "arity": 8
   },
   {
-   "id": "e423",
+   "id": "e437",
    "nodes": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -29779,7 +30269,7 @@
    "arity": 16
   },
   {
-   "id": "e424",
+   "id": "e438",
    "nodes": [
     "author:ren\u00e9e sieber",
     "keyword:broaden public involvement",
@@ -29801,7 +30291,7 @@
    "arity": 14
   },
   {
-   "id": "e425",
+   "id": "e439",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -29823,7 +30313,7 @@
    "arity": 14
   },
   {
-   "id": "e426",
+   "id": "e440",
    "nodes": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -29836,7 +30326,7 @@
    "arity": 5
   },
   {
-   "id": "e427",
+   "id": "e441",
    "nodes": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -29859,7 +30349,7 @@
    "arity": 15
   },
   {
-   "id": "e428",
+   "id": "e442",
    "nodes": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -29883,7 +30373,7 @@
    "arity": 16
   },
   {
-   "id": "e429",
+   "id": "e443",
    "nodes": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -29904,7 +30394,7 @@
    "arity": 13
   },
   {
-   "id": "e430",
+   "id": "e444",
    "nodes": [
     "author:greg brown",
     "author:marketta kytt\u00e4",
@@ -29920,7 +30410,7 @@
    "arity": 8
   },
   {
-   "id": "e431",
+   "id": "e445",
    "nodes": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -29939,7 +30429,7 @@
    "arity": 11
   },
   {
-   "id": "e432",
+   "id": "e446",
    "nodes": [
     "author:christopher kennedy",
     "author:john cuddihy",
@@ -29954,7 +30444,7 @@
    "arity": 7
   },
   {
-   "id": "e433",
+   "id": "e447",
    "nodes": [
     "author:arzu \u00e7\u00f6ltekin",
     "author:filip biljecki",
@@ -29977,7 +30467,7 @@
    "arity": 15
   },
   {
-   "id": "e434",
+   "id": "e448",
    "nodes": [
     "author:andrew allan",
     "author:chris pettit",
@@ -29993,7 +30483,7 @@
    "arity": 8
   },
   {
-   "id": "e435",
+   "id": "e449",
    "nodes": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -30020,7 +30510,7 @@
    "arity": 19
   },
   {
-   "id": "e436",
+   "id": "e450",
    "nodes": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -30044,7 +30534,7 @@
    "arity": 16
   },
   {
-   "id": "e437",
+   "id": "e451",
    "nodes": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -30068,7 +30558,7 @@
    "arity": 16
   },
   {
-   "id": "e438",
+   "id": "e452",
    "nodes": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -30093,7 +30583,7 @@
    "arity": 17
   },
   {
-   "id": "e439",
+   "id": "e453",
    "nodes": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -30116,7 +30606,7 @@
    "arity": 15
   },
   {
-   "id": "e440",
+   "id": "e454",
    "nodes": [
     "author:arnau riera",
     "author:john goold",
@@ -30141,7 +30631,7 @@
    "arity": 17
   },
   {
-   "id": "e441",
+   "id": "e455",
    "nodes": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -30164,7 +30654,7 @@
    "arity": 15
   },
   {
-   "id": "e442",
+   "id": "e456",
    "nodes": [
     "author:christian lauk",
     "author:dominik noll",
@@ -30191,7 +30681,7 @@
    "arity": 19
   },
   {
-   "id": "e443",
+   "id": "e457",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -30214,7 +30704,7 @@
    "arity": 15
   },
   {
-   "id": "e444",
+   "id": "e458",
    "nodes": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -30245,7 +30735,7 @@
    "arity": 23
   },
   {
-   "id": "e445",
+   "id": "e459",
    "nodes": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -30259,7 +30749,7 @@
    "arity": 6
   },
   {
-   "id": "e446",
+   "id": "e460",
    "nodes": [
     "author:michael batty",
     "keyword:digital twins",
@@ -30271,7 +30761,7 @@
    "arity": 4
   },
   {
-   "id": "e447",
+   "id": "e461",
    "nodes": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -30300,7 +30790,7 @@
    "arity": 21
   },
   {
-   "id": "e448",
+   "id": "e462",
    "nodes": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -30313,7 +30803,7 @@
    "arity": 5
   },
   {
-   "id": "e449",
+   "id": "e463",
    "nodes": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",

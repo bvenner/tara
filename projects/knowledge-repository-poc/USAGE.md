@@ -53,7 +53,7 @@ four/five fields — see the table; `ingest` takes exactly `null`).
 | `trace` | Structured intersection reasoning | `{"topic":"...","concepts":["a","b"],"min_seeds":2}` |
 | `trace_report` | Markdown version of `trace` | same |
 | `expand` | Pull works from OpenAlex (bibliographic truth) | `{"mode":"doi","topic":"","limit":5,"doi":"10.3390/..."}` |
-| `fulltext` | Download OA full text → markdown (docling) | `{"mode":"corpus","doi":"","limit":5,"refresh":0,"strict":1}` |
+| `fulltext` | Download OA full text → markdown (docling); or convert a locally-staged PDF (`mode:"local"`) | `{"mode":"corpus","doi":"","limit":5,"refresh":0,"strict":1}` |
 
 Run any of them with:
 
@@ -66,12 +66,48 @@ uv run python projects/knowledge-repository-poc/scripts/pipeline.py <name> '<jso
 - **`expand`** modes: `topic` (search, `{"mode":"topic","topic":"...","limit":5,"doi":""}`), `doi`,
   `arxiv`. Writes to `corpus/external/<openalex_id>.json` (idempotent — skips
   existing).
-- **`fulltext`** modes: `doi`, `corpus` (all external records, bounded by
-  `limit`). Full record: `{"mode":"...","doi":"...","limit":N,"refresh":0,"strict":1}`.
+- **`fulltext`** modes: `doi`, `corpus`, and `local`. Full record:
+  `{"mode":"...","doi":"...","limit":N,"refresh":0,"strict":1}`.
   `strict:1` (default) only downloads permissively-licensed locations
   (`cc-*`, arXiv, green OA). Writes markdown to `corpus/fulltext/`; PDFs are
   staged in `papers/incoming/`. Note: many publisher hosts bot-gate their PDFs
-  (403/Radware), so reliable coverage is archive-hosted OA (arXiv).
+  (403/Radware), so reliable *downloaded* coverage is archive-hosted OA
+  (arXiv) — which is exactly when you fall back to `mode: "local"`.
+
+### Manually downloading a full-text PDF and converting it
+
+Publishers blocking auto-downloads (403/Radware on MDPI, Springer, IOP,
+Wiley, ScienceDirect) are the common case. The workflow: get the PDF yourself,
+stage it, and let the pipeline convert it with `mode: "local"`.
+
+1. **Download the PDF by hand** (e.g. from the publisher or a colleague) and
+   save it to `papers/incoming/` with the right key name. The key is the
+   `openalex_id` if OpenAlex knows the DOI, else `doi_<sanitized-doi>`:
+
+   ```bash
+   # a DOI that IS in OpenAlex -> key is the openalex id (e.g. https_openalex.org_W4404111866)
+   # a DOI OpenAlex does not know -> key is: doi_10_9999_my_doi
+   # simplest: run the pipeline once; the error message tells you the exact expected filename
+   ```
+
+2. **Convert it:**
+   ```bash
+   uv run python projects/knowledge-repository-poc/scripts/pipeline.py fulltext \
+     '{"mode":"local","doi":"10.3390/en17225541","refresh":0,"strict":1}'
+   ```
+   Expect `{"mode":"local","found":1,"converted":1,...}` and a markdown file at
+   `corpus/fulltext/<key>.md`.
+
+   If the stage filename is wrong, the worker reports
+   `FileNotFoundError: papers/incoming/<key>.pdf not found` — rename to that
+   exact name (rerun `fulltext` in `doi` or `corpus` mode once if you need the
+   key for an OpenAlex-known DOI).
+
+3. The conversion uses docling with **OCR and table-structure disabled**
+   (born-digital text PDFs don't need either; it also avoids the
+   rapidocr+torch native crash and a libxcb dependency that this stack
+   otherwise trips). Scanned PDFs and table-heavy layouts are out of scope —
+   route those to a full docling pipeline instead.
 
 ---
 
