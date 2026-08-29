@@ -1,0 +1,836 @@
+WEBVTT
+
+00:00.975 --> 00:02.477
+[SPEAKER_01]: OK, so I think we've made a new one.
+
+00:02.537 --> 00:05.420
+[SPEAKER_01]: OK, so what is an agent-based system?
+
+00:05.480 --> 00:14.289
+[SPEAKER_01]: So an agent-based or an agent-based modeling or an agent-based simulation is one way of thinking about, is one description of scientific literature.
+
+00:14.309 --> 00:17.192
+[SPEAKER_01]: It's where you have a thing that's called an agent and then you go ahead
+
+00:18.319 --> 00:22.101
+[SPEAKER_01]: Your behavior of this, you essentially give rules for the agents.
+
+00:22.822 --> 00:27.684
+[SPEAKER_01]: You essentially have a bunch of descriptions of agent behavior and a bunch of rules about how agents can interact.
+
+00:28.064 --> 00:32.187
+[SPEAKER_01]: And then the simulation is an outcome of how those rules interact.
+
+00:32.207 --> 00:32.607
+[SPEAKER_00]: Right.
+
+00:32.627 --> 00:37.770
+[SPEAKER_00]: But an agent in an agent-based modeling system is probably even less capable than a hacker.
+
+00:38.490 --> 00:38.810
+[SPEAKER_01]: Yeah.
+
+00:38.870 --> 00:40.371
+[SPEAKER_00]: They're often just a function.
+
+00:45.310 --> 00:52.278
+[SPEAKER_00]: Like in the Rust game engine I was looking at, they were just, you know, an agent was just a function.
+
+00:52.658 --> 00:52.878
+[SPEAKER_01]: Yeah.
+
+00:53.259 --> 00:54.060
+[SPEAKER_01]: Oh, yeah, exactly.
+
+00:54.080 --> 00:55.661
+[SPEAKER_00]: So they're not very sophisticated.
+
+00:56.302 --> 01:01.067
+[SPEAKER_00]: Even an actor model would have more sophisticated... Well... Because they're running in it.
+
+01:01.107 --> 01:03.430
+[SPEAKER_00]: They're designed to be super lightweight running in a game engine.
+
+01:03.450 --> 01:04.271
+[SPEAKER_00]: They don't do a lot of...
+
+01:04.742 --> 01:05.042
+[SPEAKER_01]: Yeah.
+
+01:05.422 --> 01:17.425
+[SPEAKER_01]: Well, I mean, so, yeah, it's, like, now, my big issue with this is that, like, that description is so complicated that it can essentially, you can essentially fully abstract that out into, like, a different computing architecture.
+
+01:17.445 --> 01:20.686
+[SPEAKER_01]: So, like, the first part of this is where the agents are very simple.
+
+01:21.166 --> 01:25.007
+[SPEAKER_01]: The agents are very simple, and the simulation entirely exists in the domain of a single computer.
+
+01:25.967 --> 01:26.447
+[SPEAKER_01]: Right.
+
+01:26.747 --> 01:33.329
+[SPEAKER_01]: In which case, you're literally just looking at, I'm just going ahead and redoing everything for the all-in-one tasks I can, which is essentially, like, a game like Factorio.
+
+01:34.128 --> 01:40.361
+[SPEAKER_01]: Factorio is a game where every single agent doesn't need to be doing asynchronous steps.
+
+01:40.662 --> 01:43.388
+[SPEAKER_01]: At every single time step, the agent does a specific kind of thing.
+
+01:44.928 --> 01:46.809
+[SPEAKER_01]: And the code is just synchronous within the entire engine.
+
+01:46.849 --> 01:55.011
+[SPEAKER_01]: So if you're looking at the execution path of the CPU, the CPU doesn't know that the agents exist and doesn't care that the agents exist.
+
+01:55.411 --> 02:06.234
+[SPEAKER_01]: The entire runtime for generating a single frame of the simulation is it will go ahead and loop across every single entity in your entire system.
+
+02:06.634 --> 02:14.518
+[SPEAKER_01]: go ahead and do its behavior across, essentially go ahead and run its entire behavior, and then we'll just, like, go ahead and cleanly just, like, loop across everything.
+
+02:15.618 --> 02:19.360
+[SPEAKER_01]: And that isn't even really an agent-based, like, you don't have a single thread.
+
+02:20.140 --> 02:25.723
+[SPEAKER_01]: Importantly, what you don't have is you don't have, like, Factorio does not have a thread or even a coroutine.
+
+02:26.203 --> 02:37.691
+[SPEAKER_01]: or anything else that's really lightweight, running for every single tile or every single item or every single conveyor belt.
+
+02:38.011 --> 02:41.714
+[SPEAKER_01]: It's all just like... Now, an advantage about this is that you can have a huge number of agents.
+
+02:42.294 --> 02:43.415
+[SPEAKER_01]: You can have millions.
+
+02:43.695 --> 02:49.359
+[SPEAKER_01]: Literally, on a single Factor game, you might have actual millions of individual items or entities.
+
+02:49.719 --> 02:51.260
+[SPEAKER_01]: Which is partially...
+
+02:51.641 --> 02:51.901
+[SPEAKER_01]: So...
+
+02:52.267 --> 02:54.608
+[SPEAKER_01]: Now let's assume that you want something a little bit more complicated.
+
+02:55.028 --> 02:56.009
+[SPEAKER_01]: This is Tokyo.
+
+02:56.549 --> 03:01.372
+[SPEAKER_01]: So you were kind of saying, so let's just do like the single, like next step hub would be Tokyo.
+
+03:01.672 --> 03:09.076
+[SPEAKER_01]: So Tokyo is what now your big objection to Tokyo was that the Tokyo runtime is Tokyo is very heavy.
+
+03:09.636 --> 03:12.677
+[SPEAKER_01]: Um, but Tokyo is like heavy in an interesting way.
+
+03:12.718 --> 03:15.419
+[SPEAKER_01]: The Tokyo runtime is very heavy.
+
+03:16.559 --> 03:19.501
+[SPEAKER_01]: Um, the Tokyo runtime is very heavy.
+
+03:20.201 --> 03:21.342
+[SPEAKER_01]: Um, and.
+
+03:22.071 --> 03:28.474
+[SPEAKER_01]: If you're essentially saying, oh, well, I need this small service to be asynchronous, a Tokyo is not a feasible thing.
+
+03:28.935 --> 03:43.122
+[SPEAKER_01]: However, what is feasible is if you have an entire system, if you essentially only pay the Tokyo runtime cost once across the entire system, and then every single agent in your system is a Tokyo thread.
+
+03:45.644 --> 03:45.884
+[SPEAKER_00]: Right.
+
+03:46.044 --> 03:47.505
+[SPEAKER_00]: So now rather than running...
+
+03:49.237 --> 03:56.581
+[SPEAKER_00]: your agents in a game system, you're running your agents in a Tokyo runtime.
+
+03:56.941 --> 04:06.086
+[SPEAKER_00]: Each agent is a Tokyo thread and you can potentially get enough parallelism to do that.
+
+04:06.367 --> 04:09.808
+[SPEAKER_01]: Yeah, so Tokyo is like natively multi-threadable.
+
+04:09.828 --> 04:13.691
+[SPEAKER_01]: You can throw it on a CPU with thousands of cores and it'll just eat it all up.
+
+04:14.111 --> 04:17.793
+[SPEAKER_01]: And the reason that this is more efficient is that if you look at how Tokyo works in the background,
+
+04:18.353 --> 04:28.518
+[SPEAKER_01]: it is essentially trying to, both at compile time and at runtime, unroll your code so that even though you're writing your code so that like, oh, well, every single agent is its own thread, it's kind of unrolling it into...
+
+04:29.338 --> 04:33.119
+[SPEAKER_01]: a code path that kind of looks like an entity component system type thing.
+
+04:33.379 --> 04:35.080
+[SPEAKER_01]: That's kind of what it's designed to do.
+
+04:35.100 --> 04:47.183
+[SPEAKER_01]: That's why the type system is so complicated, because it's essentially like, oh, well, when this async function calls this async function, when this async function hits this thing, we're going to manually compose these seven functions together and then break here, break here, break here.
+
+04:47.523 --> 04:50.423
+[SPEAKER_01]: So it essentially will try to optimize all that away in the background.
+
+04:50.443 --> 04:53.204
+[SPEAKER_01]: It's relatively fast, the fact that it's able to compete with Nginx.
+
+04:53.524 --> 04:55.805
+[SPEAKER_01]: So by the fact that Nginx is only designed to be a web server,
+
+04:57.085 --> 05:01.146
+[SPEAKER_01]: and has also had, like, 20 years of design in it, is an indication that Tokyo's, like, pretty good at its job.
+
+05:01.366 --> 05:01.647
+[SPEAKER_01]: Yeah.
+
+05:01.687 --> 05:02.027
+[SPEAKER_01]: Right there.
+
+05:02.307 --> 05:16.531
+[SPEAKER_01]: The issue with this is that you, the thing that you pay for all this is that the Tokyo runtime, the operating system and the code that actually does all of that, both the compile time system does all that stitching together, and the runtime operations that actually does all of the scheduling, is very complicated.
+
+05:17.011 --> 05:17.771
+[SPEAKER_01]: And very heavy.
+
+05:18.191 --> 05:20.272
+[SPEAKER_01]: So, the, but on the other hand,
+
+05:20.719 --> 05:26.863
+[SPEAKER_01]: you can probably have like tens to hundreds of thousands of agents running on a system like this as individual Tokyo tasks.
+
+05:27.363 --> 05:32.406
+[SPEAKER_01]: And the fact that the Tokyo runtime itself is heavy doesn't necessarily matter because you're splitting that cost around.
+
+05:32.866 --> 05:34.727
+[SPEAKER_01]: Every single agent doesn't have its own Tokyo runtime.
+
+05:35.567 --> 05:35.848
+[SPEAKER_00]: Right.
+
+05:36.108 --> 05:36.408
+[SPEAKER_01]: So...
+
+05:37.228 --> 05:38.109
+[SPEAKER_00]: Right.
+
+05:38.129 --> 05:38.669
+[SPEAKER_00]: That makes sense.
+
+05:38.909 --> 05:39.270
+[SPEAKER_01]: This is...
+
+05:39.430 --> 05:48.455
+[SPEAKER_01]: So now we get into the second problem, which is how do you go ahead and get this to the point where it's running across multiple machines?
+
+05:50.910 --> 05:55.894
+[SPEAKER_01]: And then this is kind of the thing where it's like, oh, well, it's like, well, what if you kind of want every single agent to...
+
+06:05.362 --> 06:08.284
+[SPEAKER_01]: The momnado returns.
+
+06:08.304 --> 06:12.608
+[SPEAKER_00]: I don't know, Marie.
+
+06:12.828 --> 06:14.750
+[SPEAKER_00]: It could be a problem with the screen, for sure.
+
+06:22.598 --> 06:24.518
+[SPEAKER_01]: We're in the middle of something.
+
+06:25.619 --> 06:27.920
+[SPEAKER_01]: Well, can we fix it later?
+
+06:27.940 --> 06:35.842
+[SPEAKER_01]: Okay, so yeah.
+
+06:35.882 --> 06:40.864
+[SPEAKER_01]: Do you want me to go look at it right now?
+
+06:42.945 --> 06:45.146
+[SPEAKER_00]: Why don't you just talk?
+
+06:45.326 --> 06:46.266
+[SPEAKER_01]: Okay, I can just talk.
+
+06:46.286 --> 06:48.127
+[SPEAKER_01]: I'm not contributing very much.
+
+06:48.510 --> 06:50.091
+[SPEAKER_01]: Well, I'm just trying to do a quick summary.
+
+06:50.131 --> 06:54.052
+[SPEAKER_01]: So yeah, I'll finish the summary and then we'll come back.
+
+06:54.152 --> 07:15.559
+[SPEAKER_01]: So anyway, like the idea for this is that you can have a second step for this, which is like what if every single agent kind of needs some more isolation or what if the agents themselves need to have like more capabilities about what they can do or need like some level of security that is kind of more intense than what you could provide in a single like Tokyo runtime thread.
+
+07:15.958 --> 07:22.602
+[SPEAKER_01]: So, a solution for this is to use OS-level threads, but OS-level threads also don't necessarily give you, like, a perfect solution for this.
+
+07:23.062 --> 07:41.293
+[SPEAKER_01]: So, another thing that you can do is you can essentially just go ahead and have, like, each agent be a very small virtual machine that is, like, compiled on bare metal hardware and is, like, so your bare metal system is running something like Xen, and then every single system is running, like, a very small unikernel design.
+
+07:42.237 --> 07:43.979
+[SPEAKER_01]: There have been solutions for this for aux camel.
+
+07:44.019 --> 07:46.941
+[SPEAKER_01]: You can also go ahead and compile it with Rust and use Embassy or something similar.
+
+07:48.202 --> 07:50.924
+[SPEAKER_01]: And you can potentially maybe run hundreds of these on a single machine.
+
+07:51.324 --> 07:52.105
+[SPEAKER_01]: It really depends.
+
+07:52.125 --> 07:56.248
+[SPEAKER_01]: You're kind of very much counting on the fact that every single agent is this very lightweight thing.
+
+07:56.748 --> 08:00.411
+[SPEAKER_01]: And this can go ahead and interface with the external org using the embassy.net library.
+
+08:00.731 --> 08:05.955
+[SPEAKER_01]: And you can go ahead and kind of transfer these agents across machines in a kind of very deterministic way.
+
+08:05.975 --> 08:06.756
+[SPEAKER_01]: And then...
+
+08:07.222 --> 08:11.245
+[SPEAKER_01]: But then the issue with this is that every single environment is already kind of very lightweight.
+
+08:11.265 --> 08:15.208
+[SPEAKER_01]: You don't have access to like a full environment that you would expect in a regular Linux machine.
+
+08:15.528 --> 08:17.509
+[SPEAKER_01]: And then there's obviously the fourth thing, which is containers.
+
+08:17.569 --> 08:19.291
+[SPEAKER_01]: Every single agent is its own container.
+
+08:19.331 --> 08:21.973
+[SPEAKER_01]: And then you can simulate all of those on a single container.
+
+08:21.993 --> 08:25.075
+[SPEAKER_01]: My understanding is that the unikernels are lighter than containers.
+
+08:25.155 --> 08:34.121
+[SPEAKER_01]: I might be wrong about that, but unikernels kind of just obeying the principle of like things are faster on a computer when you do less of them.
+
+08:34.441 --> 08:36.483
+[SPEAKER_01]: So a unikernel is doing way less.
+
+08:37.279 --> 08:43.050
+[SPEAKER_01]: then a unikernel like compiled from Scratch to do a specific class is doing way less than a container.
+
+08:43.090 --> 08:49.261
+[SPEAKER_01]: So my understanding is you could probably run way more container, way more unikernels on a system than you could if that same system was running containers.
+
+08:50.600 --> 08:50.740
+[SPEAKER_00]: Right.
+
+08:50.760 --> 08:53.962
+[SPEAKER_00]: But this is a very empirical question that the LLM will be able to answer.
+
+08:54.022 --> 08:54.382
+[SPEAKER_01]: Yeah.
+
+08:54.402 --> 08:55.923
+[SPEAKER_01]: So are unikernels more intensive?
+
+08:55.963 --> 08:58.424
+[SPEAKER_01]: I mean, the answer is it's going to depend on the size of your unikernel.
+
+08:58.444 --> 09:02.586
+[SPEAKER_00]: Because I think you're kind of positing a hierarchy of agent capabilities now.
+
+09:03.067 --> 09:03.467
+[SPEAKER_01]: Yeah.
+
+09:03.747 --> 09:07.969
+[SPEAKER_00]: An ECS to a Tokyo to a- Unikernel.
+
+09:08.309 --> 09:11.411
+[SPEAKER_00]: Well, I think we're missing kind of processes and operating systems.
+
+09:11.771 --> 09:12.492
+[SPEAKER_00]: Yeah.
+
+09:12.772 --> 09:16.494
+[SPEAKER_00]: And then you've got machines on a hybrid.
+
+09:16.594 --> 09:16.794
+[SPEAKER_01]: Right.
+
+09:16.834 --> 09:19.055
+[SPEAKER_01]: The middle step is actually the single most important one.
+
+09:19.515 --> 09:21.157
+[SPEAKER_01]: The answer for that is BubbleWrap.
+
+09:22.438 --> 09:32.286
+[SPEAKER_01]: So BubbleWrap is one of those magic things which is essentially a super lightweight environment that is used for handling applications in Linux.
+
+09:33.307 --> 09:37.011
+[SPEAKER_01]: So for example, you know what Flatpak is, right?
+
+09:37.411 --> 09:39.433
+[SPEAKER_01]: Flatpak's permission structure is done with BubbleWrap.
+
+09:40.734 --> 09:42.195
+[SPEAKER_01]: Yeah, let me see if you can hear me.
+
+09:42.535 --> 09:44.277
+[SPEAKER_01]: But yeah, so that's essentially done with a BubbleWrap.
+
+09:44.796 --> 09:51.040
+[SPEAKER_01]: So you can essentially very narrowly define permission structures with a bubble wrap system.
+
+09:51.080 --> 09:55.423
+[SPEAKER_01]: And then you can go up to unicurls and then containers are your final step of capabilities.
+
+09:56.584 --> 10:02.568
+[SPEAKER_00]: Yeah, so you would have single machine processes, single machine containers.
+
+10:03.831 --> 10:06.233
+[SPEAKER_00]: Single machine hypervisor.
+
+10:06.853 --> 10:11.096
+[SPEAKER_01]: Well, the thing that's worth noting is that Tokyo-based solutions and ECS are both lighter than threads.
+
+10:11.397 --> 10:11.717
+[SPEAKER_00]: For sure.
+
+10:12.117 --> 10:13.919
+[SPEAKER_01]: Are both way lighter than threads.
+
+10:14.279 --> 10:17.541
+[SPEAKER_01]: Bubble wrap is heavier than a thread, but a thread is not.
+
+10:17.801 --> 10:20.764
+[SPEAKER_01]: You can't bear run threads because of containerization issues.
+
+10:20.984 --> 10:21.204
+[SPEAKER_01]: Right.
+
+10:21.604 --> 10:22.565
+[SPEAKER_01]: So, like...
+
+10:23.101 --> 10:25.002
+[SPEAKER_01]: And, like, anything that you could...
+
+10:25.182 --> 10:30.103
+[SPEAKER_01]: So, yeah, so you're essentially kind of left with, like, super... Like, there kind of is no threads in an ECS.
+
+10:30.383 --> 10:32.544
+[SPEAKER_01]: There are thread-like things in Tokyo.
+
+10:32.724 --> 10:34.345
+[SPEAKER_01]: There are definitely threads in Bubblewrap.
+
+10:34.525 --> 10:38.226
+[SPEAKER_01]: There are even more, like, thready objects in Unikernels.
+
+10:38.366 --> 10:44.048
+[SPEAKER_01]: And then there are, obviously... And then, obviously, like, containers are your, like, highest level of abstraction.
+
+10:45.264 --> 10:47.706
+[SPEAKER_00]: So you think a container is a higher level of abstraction than a kernel?
+
+10:47.726 --> 10:51.449
+[SPEAKER_01]: Or no, a container is heavier than a kernel, I think, personally, potentially.
+
+10:51.489 --> 10:52.069
+[SPEAKER_01]: They shouldn't be.
+
+10:52.509 --> 10:53.590
+[SPEAKER_01]: I don't think they...
+
+10:54.011 --> 10:54.571
+[SPEAKER_01]: Here's the thing.
+
+10:54.691 --> 10:56.393
+[SPEAKER_01]: Linux is just big.
+
+10:56.473 --> 10:59.135
+[SPEAKER_01]: There's no way to get around Linux being just extremely big.
+
+11:00.496 --> 11:12.025
+[SPEAKER_01]: And you can kind of get around the fact that Linux is very big by going ahead and sharing your operating system environment, sharing your operating system with other threads on a machine.
+
+11:12.593 --> 11:16.815
+[SPEAKER_01]: But I mean, this is maybe just a vibe.
+
+11:17.195 --> 11:20.276
+[SPEAKER_01]: I don't necessarily think.
+
+11:20.296 --> 11:26.919
+[SPEAKER_01]: I get the impression that this is definitely a thing I'm prepared to be extremely wrong about.
+
+11:27.439 --> 11:34.642
+[SPEAKER_01]: I am thinking that Unikernels might be closer to Zen performance-wise than Containers.
+
+11:36.725 --> 11:46.288
+[SPEAKER_01]: Or, sorry, might be closer to, like, unikurtles are obviously, my guess is that both, like, unikurtles are somewhere between bubble wrap and containers in performance.
+
+11:46.668 --> 11:47.548
+[SPEAKER_01]: It's, like, a reasonable thing.
+
+11:47.949 --> 11:53.690
+[SPEAKER_01]: I suspect, and I might be wrong about this, that they're probably closer to bubble wrap in terms of overhead.
+
+11:54.211 --> 12:04.574
+[SPEAKER_01]: And an advantage about this is that the fact that you have, like, full control over your, like, bare metal hardware, like, unikurtles are also, like, way more portable and are also, like, way more deployable on an edge environment.
+
+12:05.139 --> 12:07.962
+[SPEAKER_01]: than a bubble wrap system, which is another reason that it's nice.
+
+12:07.982 --> 12:17.752
+[SPEAKER_01]: And then you also have virtual machines on top, but I don't really think, assuming you're running Linux on a machine, that there's essentially not a lot that you gain from going full virtual machine to go into just individual containers on an HBase system.
+
+12:18.670 --> 12:26.716
+[SPEAKER_00]: I mean, the only thing you get in a virtual machine thing running on a hypervisor is you can go from unicurls that are very small to having a full machine.
+
+12:26.776 --> 12:28.017
+[SPEAKER_01]: Oh, operations, they're very big.
+
+12:28.037 --> 12:38.685
+[SPEAKER_01]: And I think there's also another thing, which is that the only big thing, the big benefit that you get from containers is that LLMs expect to exist inside a full Linux environment, typically.
+
+12:39.053 --> 12:39.253
+[SPEAKER_00]: Right.
+
+12:39.633 --> 12:40.594
+[SPEAKER_01]: Or a full...
+
+12:40.634 --> 12:43.956
+[SPEAKER_00]: I shouldn't even say... That's the code harness, rather than...
+
+12:44.037 --> 12:45.618
+[SPEAKER_00]: Ultimately, writing a code...
+
+12:45.658 --> 12:47.819
+[SPEAKER_00]: This project, ultimately, will have to write a code harness.
+
+12:47.839 --> 12:50.641
+[SPEAKER_00]: We're going to put that off for as long as absolutely possible.
+
+12:50.661 --> 12:53.603
+[SPEAKER_01]: But I think there's also another thing, which is, first off, code harnesses are not that hard to write.
+
+12:53.643 --> 12:55.905
+[SPEAKER_01]: Me and Miri were able to write a code harness that was competent.
+
+12:56.605 --> 13:00.048
+[SPEAKER_01]: And still kind of beats the market today on some major features.
+
+13:01.288 --> 13:04.991
+[SPEAKER_01]: But again, it doesn't necessarily... Code harnesses don't necessarily matter.
+
+13:06.152 --> 13:06.312
+[SPEAKER_01]: Um...
+
+13:06.856 --> 13:11.039
+[SPEAKER_01]: Well, or I should say the problem with code harnesses is there's definitely a co-design problem.
+
+13:11.440 --> 13:21.567
+[SPEAKER_01]: Like, you can definitely change a design harness a fair bit, but fundamentally there is a co-design process between your RLVR agents and the harness that they exist within.
+
+13:22.047 --> 13:26.351
+[SPEAKER_01]: And most of those RLVR environments, and most of the environments that exist in the wild.
+
+13:27.151 --> 13:27.792
+[SPEAKER_00]: The machine.
+
+13:27.832 --> 13:28.572
+[SPEAKER_01]: Oh, yeah.
+
+13:28.592 --> 13:31.534
+[SPEAKER_01]: RLVR is literally just like reinforcement for verifiable rewards.
+
+13:32.055 --> 13:32.255
+[SPEAKER_00]: Okay.
+
+13:32.917 --> 13:34.498
+[SPEAKER_00]: Enforcement learning from verified rewards.
+
+13:34.578 --> 13:34.818
+[SPEAKER_00]: Yes.
+
+13:35.339 --> 13:39.081
+[SPEAKER_01]: I got the acronym right, which is another good one.
+
+13:39.942 --> 13:58.074
+[SPEAKER_01]: So it essentially has, but yeah, so you can go ahead and have an agent exist in a system that is, you can have an agent exist in a system that is not a Linux environment, but the closer it is to a Linux-y environment, the better things are going to work.
+
+14:00.300 --> 14:01.380
+[SPEAKER_01]: Like, that makes sense.
+
+14:01.420 --> 14:02.001
+[SPEAKER_01]: I mean, I don't know.
+
+14:02.021 --> 14:07.483
+[SPEAKER_01]: It's like, and I think, I personally think that that's an assumption we should definitely poke at a lot.
+
+14:07.683 --> 14:16.747
+[SPEAKER_01]: There's also another thing which is important, which is that every single agent that an LLM is using, if you're going to be using LLM agents for this, you already, you can't do an ECS.
+
+14:19.308 --> 14:27.471
+[SPEAKER_01]: I mean, at least probably not, because in general, like, the fundamental part of kind of doing the ECS architecture is that the loop is hot.
+
+14:28.420 --> 14:38.923
+[SPEAKER_01]: So, um, the loop is hot and you can't LLM requests, um, at scale like this, or you can't do them in an individual basis as needed.
+
+14:38.983 --> 14:39.163
+[SPEAKER_01]: Yeah.
+
+14:39.283 --> 14:46.365
+[SPEAKER_00]: The way that it's like the thinking fast and slow duality idea and LLM is thinking hyper slow.
+
+14:46.825 --> 14:47.505
+[SPEAKER_01]: Yeah.
+
+14:47.545 --> 14:57.168
+[SPEAKER_01]: Especially like, Oh, is it in the context of, but there's also like another important thing, which is that, um, in AI system, like you kind of can't run it in any way, like
+
+14:58.075 --> 15:04.040
+[SPEAKER_01]: Your LLM inference, and I think it's kind of important to really think about, well, how does your inference logic kind of relate to your modeling system?
+
+15:04.400 --> 15:09.243
+[SPEAKER_01]: The way that a LLM inference system works is, first off, you kind of need to have a network barrier there.
+
+15:10.804 --> 15:17.549
+[SPEAKER_01]: You need to have a network barrier just because the complexity of doing LLM serving requests is already complicated enough, and you also need dedicated hardware, so it kind of needs...
+
+15:18.786 --> 15:24.328
+[SPEAKER_01]: It's not generally a good idea to go ahead and build a super GPU-heavy system and a super CPU-heavy system in the same machine.
+
+15:24.649 --> 15:29.591
+[SPEAKER_01]: So passing over to a GPU-heavy system is almost always going to involve a network request of some kind.
+
+15:31.091 --> 15:33.713
+[SPEAKER_01]: I'm not following there.
+
+15:33.813 --> 15:39.135
+[SPEAKER_01]: So you have your CPU system, which is kind of like your environment that the agents are doing their stuff in.
+
+15:39.651 --> 15:42.834
+[SPEAKER_01]: And then you have the GPU system, which is actually computing the neural weights for the agents.
+
+15:43.074 --> 15:43.254
+[SPEAKER_00]: Right.
+
+15:43.434 --> 15:49.659
+[SPEAKER_01]: It's typically, like, bad form to have those both in the same system because, like, you have a finite amount of power.
+
+15:49.719 --> 15:53.582
+[SPEAKER_01]: Every system only has a 1,500-watt power supply, kind of, like, a basic level.
+
+15:53.623 --> 15:59.968
+[SPEAKER_01]: But then there's also another thing, which is that, like, it's just, like, it's essentially just, like, bad performance applications.
+
+15:59.988 --> 16:02.370
+[SPEAKER_01]: Like, it's good to have the machines that are designed for specific purposes.
+
+16:02.430 --> 16:03.671
+[SPEAKER_01]: It's kind of, like, an abstract thing.
+
+16:04.929 --> 16:06.710
+[SPEAKER_01]: So there's always almost going to be a network overhead.
+
+16:07.011 --> 16:13.136
+[SPEAKER_01]: And even if you have LLM inference running on the same machine, there's also almost always going to be a network overhead just because that's how the systems are designed.
+
+16:13.276 --> 16:13.496
+[SPEAKER_00]: Right.
+
+16:13.877 --> 16:19.322
+[SPEAKER_00]: But to be very basic here, you still could call HTTP from a Tokyo thread.
+
+16:19.502 --> 16:19.722
+[SPEAKER_01]: Yes.
+
+16:19.862 --> 16:22.785
+[SPEAKER_01]: Tokyo is so good at this.
+
+16:23.045 --> 16:24.687
+[SPEAKER_01]: Tokyo is literally designed to have...
+
+16:25.527 --> 16:30.969
+[SPEAKER_01]: hundreds of thousands of threads, all of which are doing hundreds or thousands of network requests.
+
+16:32.850 --> 16:36.631
+[SPEAKER_01]: The way that I like to think about Tokyo is it's designed to be an Nginx framework.
+
+16:37.791 --> 16:38.891
+[SPEAKER_01]: It's a way to think about it.
+
+16:38.911 --> 16:46.794
+[SPEAKER_01]: You essentially have anything that's super asynchronous like Nginx, you can do that in Tokyo, but you have full control over all the code and how it all executes.
+
+16:47.238 --> 16:50.259
+[SPEAKER_00]: So just for contrast here, very similar.
+
+16:50.760 --> 16:56.342
+[SPEAKER_00]: So the Abel's proposal is using EIO, which is kind of a competitor to Tokyo.
+
+16:56.742 --> 17:01.725
+[SPEAKER_00]: So EIO is written in OCaml and Tokyo is written in Rust.
+
+17:01.805 --> 17:04.686
+[SPEAKER_00]: So that would be a competitor technology at that point.
+
+17:04.706 --> 17:05.026
+[SPEAKER_00]: Oh, for sure.
+
+17:05.046 --> 17:06.907
+[SPEAKER_00]: And there's competitor technologies all the way up the stack.
+
+17:06.927 --> 17:08.688
+[SPEAKER_01]: There's competitor technologies all the way up the stack.
+
+17:08.748 --> 17:11.529
+[SPEAKER_01]: A big advantage of Tokyo is that it's just absolutely massive.
+
+17:12.338 --> 17:14.719
+[SPEAKER_01]: In terms of adoption in industry.
+
+17:15.299 --> 17:18.221
+[SPEAKER_01]: And also tooling.
+
+17:18.281 --> 17:25.264
+[SPEAKER_01]: One of the things that's nice about Tokyo is the fact that it is used for a significant part of the Cloudflare networking stack as an indication that it's somewhat reliable.
+
+17:26.444 --> 17:30.766
+[SPEAKER_01]: And you don't necessarily have that with other technologies.
+
+17:32.107 --> 17:36.969
+[SPEAKER_01]: And then as you get up in the stack, obviously containers are valid, but containers are also buggy as shit.
+
+17:37.769 --> 17:39.290
+[SPEAKER_01]: So I'm not really sure...
+
+17:39.844 --> 17:44.507
+[SPEAKER_01]: Like, I'm not really sure to what extent, like, containers are a super good solution to this, but those are kind of the problems with this.
+
+17:44.527 --> 17:50.871
+[SPEAKER_01]: The issue with this is that all of those, if you're doing anything in the bottom two stacks, you essentially kind of need a lean type system.
+
+17:52.212 --> 17:56.134
+[SPEAKER_01]: Why, that's a... Or, no, so you essentially need, you need more of a rust type system.
+
+17:57.115 --> 18:09.002
+[SPEAKER_01]: I mean, I don't know, is that, like, if you're doing an EC, I, how do I say this, I think that in general, I don't know if the ECS is the suitable for our, so, like, we have this continuum right here.
+
+18:09.865 --> 18:14.330
+[SPEAKER_01]: I don't think ECS is super suitable.
+
+18:14.611 --> 18:18.475
+[SPEAKER_00]: I would say I agree with that.
+
+18:18.916 --> 18:29.688
+[SPEAKER_00]: The only way I could see ECS as being suitable would be as almost a compiled version of a Tokyo-based system.
+
+18:30.966 --> 18:34.228
+[SPEAKER_00]: But you should be able to get enough real-world performance on a Tokyo system.
+
+18:34.268 --> 18:36.889
+[SPEAKER_00]: I just worry about graphics, obviously.
+
+18:37.369 --> 18:50.515
+[SPEAKER_00]: Mostly, in practice, what distinguishes an agent-based system from a game system is agent-based systems don't generate real-world graphic outputs the way that a game system does.
+
+18:50.535 --> 18:56.018
+[SPEAKER_00]: The game system is tied to the clock refresh rate of your video system.
+
+18:56.038 --> 18:57.038
+[SPEAKER_01]: Yeah, exactly.
+
+18:57.078 --> 18:59.179
+[SPEAKER_01]: The performance demands on a game...
+
+18:59.359 --> 19:02.161
+[SPEAKER_01]: on a game like Factorio, are so intense.
+
+19:02.582 --> 19:05.984
+[SPEAKER_01]: This is an agent-based system that needs to handle millions of agents.
+
+19:06.645 --> 19:08.366
+[SPEAKER_01]: Or I should say millions of individual agents.
+
+19:08.747 --> 19:12.970
+[SPEAKER_01]: Every single second, it needs to fully do all of their computations in...
+
+19:15.320 --> 19:16.401
+[SPEAKER_01]: in 20 milliseconds.
+
+19:17.121 --> 19:19.022
+[SPEAKER_01]: Or actually in like 18 milliseconds, sorry.
+
+19:19.322 --> 19:22.244
+[SPEAKER_01]: So if it ever takes more than 18 milliseconds, your computer crashes.
+
+19:22.264 --> 19:28.747
+[SPEAKER_01]: It also needs to do this on every single piece of hardware out there, including like pieces of shit hardware from like 2015, which is when it was released.
+
+19:29.268 --> 19:31.409
+[SPEAKER_01]: It's actually 10 years old, jeez.
+
+19:31.729 --> 19:42.835
+[SPEAKER_01]: Anyway, aside from like somewhat existential nostalgia, the entire point is that...
+
+19:43.763 --> 19:49.326
+[SPEAKER_01]: Any academic project is going to have way less intense performance requirements on it.
+
+19:49.987 --> 19:51.688
+[SPEAKER_01]: Both in the sense that...
+
+19:51.908 --> 20:00.653
+[SPEAKER_01]: Both in the sense that, like, Factorio is designed to... Factorio can essentially go ahead and make it so that a lot of its agents are very unphysical and kind of, like...
+
+20:01.310 --> 20:29.942
+[SPEAKER_01]: unphysical in kind of like very interesting ways and they have they in some sense can scope the scale of their simulation because like anything that's too complicated they just don't have to simulate or anything that would be too performance intensive they just don't have to simulate and they can essentially go ahead and say hey what if we just change the rules of our game so that this thing was easier and more performant they actually have like a really good blog post on like how to do that so it's like they're specifically changing game mechanics to go ahead and make the game feel more performant there's almost nothing
+
+20:32.435 --> 20:34.797
+[SPEAKER_01]: you know, like two web pages.
+
+20:36.158 --> 20:37.979
+[SPEAKER_01]: And it's shaking.
+
+20:38.019 --> 20:41.001
+[SPEAKER_01]: Have you tried suspending and then reopening the computer?
+
+20:41.021 --> 20:42.282
+[SPEAKER_00]: She shut down her old computer.
+
+20:44.384 --> 20:47.786
+[SPEAKER_01]: Should we go upstairs and continue this conversation while we debug mom's computer?
+
+20:47.946 --> 20:56.733
+[SPEAKER_00]: I think what we should do is let's cut out the second monitor and just see what happens just with the built-in HDMI input to the Mac.
+
+20:57.053 --> 20:59.235
+[SPEAKER_00]: Because it could be that we need a new... Crazy birds.
+
+20:59.295 --> 21:02.057
+[SPEAKER_01]: It could be that we need
+
+21:03.106 --> 21:04.029
+[SPEAKER_01]: Should I pause this?
+
+21:05.916 --> 21:08.144
+[SPEAKER_01]: Should I pause this or should I bring it upstairs?
+
+21:09.007 --> 21:11.616
+[SPEAKER_00]: I would say go ahead and stop it.
+
+21:12.218 --> 21:12.720
+[SPEAKER_00]: Upload it.
+

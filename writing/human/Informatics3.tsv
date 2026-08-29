@@ -1,0 +1,279 @@
+start	end	text
+975	2477	OK, so I think we've made a new one.
+2537	5420	OK, so what is an agent-based system?
+5480	14289	So an agent-based or an agent-based modeling or an agent-based simulation is one way of thinking about, is one description of scientific literature.
+14309	17192	It's where you have a thing that's called an agent and then you go ahead
+18319	22101	Your behavior of this, you essentially give rules for the agents.
+22822	27684	You essentially have a bunch of descriptions of agent behavior and a bunch of rules about how agents can interact.
+28064	32187	And then the simulation is an outcome of how those rules interact.
+32207	32607	Right.
+32627	37770	But an agent in an agent-based modeling system is probably even less capable than a hacker.
+38490	38810	Yeah.
+38870	40371	They're often just a function.
+45310	52278	Like in the Rust game engine I was looking at, they were just, you know, an agent was just a function.
+52658	52878	Yeah.
+53259	54060	Oh, yeah, exactly.
+54080	55661	So they're not very sophisticated.
+56302	61067	Even an actor model would have more sophisticated... Well... Because they're running in it.
+61107	63430	They're designed to be super lightweight running in a game engine.
+63450	64271	They don't do a lot of...
+64742	65042	Yeah.
+65422	77425	Well, I mean, so, yeah, it's, like, now, my big issue with this is that, like, that description is so complicated that it can essentially, you can essentially fully abstract that out into, like, a different computing architecture.
+77445	80686	So, like, the first part of this is where the agents are very simple.
+81166	85007	The agents are very simple, and the simulation entirely exists in the domain of a single computer.
+85967	86447	Right.
+86747	93329	In which case, you're literally just looking at, I'm just going ahead and redoing everything for the all-in-one tasks I can, which is essentially, like, a game like Factorio.
+94128	100361	Factorio is a game where every single agent doesn't need to be doing asynchronous steps.
+100662	103388	At every single time step, the agent does a specific kind of thing.
+104928	106809	And the code is just synchronous within the entire engine.
+106849	115011	So if you're looking at the execution path of the CPU, the CPU doesn't know that the agents exist and doesn't care that the agents exist.
+115411	126234	The entire runtime for generating a single frame of the simulation is it will go ahead and loop across every single entity in your entire system.
+126634	134518	go ahead and do its behavior across, essentially go ahead and run its entire behavior, and then we'll just, like, go ahead and cleanly just, like, loop across everything.
+135618	139360	And that isn't even really an agent-based, like, you don't have a single thread.
+140140	145723	Importantly, what you don't have is you don't have, like, Factorio does not have a thread or even a coroutine.
+146203	157691	or anything else that's really lightweight, running for every single tile or every single item or every single conveyor belt.
+158011	161714	It's all just like... Now, an advantage about this is that you can have a huge number of agents.
+162294	163415	You can have millions.
+163695	169359	Literally, on a single Factor game, you might have actual millions of individual items or entities.
+169719	171260	Which is partially...
+171641	171901	So...
+172267	174608	Now let's assume that you want something a little bit more complicated.
+175028	176009	This is Tokyo.
+176549	181372	So you were kind of saying, so let's just do like the single, like next step hub would be Tokyo.
+181672	189076	So Tokyo is what now your big objection to Tokyo was that the Tokyo runtime is Tokyo is very heavy.
+189636	192677	Um, but Tokyo is like heavy in an interesting way.
+192718	195419	The Tokyo runtime is very heavy.
+196559	199501	Um, the Tokyo runtime is very heavy.
+200201	201342	Um, and.
+202071	208474	If you're essentially saying, oh, well, I need this small service to be asynchronous, a Tokyo is not a feasible thing.
+208935	223122	However, what is feasible is if you have an entire system, if you essentially only pay the Tokyo runtime cost once across the entire system, and then every single agent in your system is a Tokyo thread.
+225644	225884	Right.
+226044	227505	So now rather than running...
+229237	236581	your agents in a game system, you're running your agents in a Tokyo runtime.
+236941	246086	Each agent is a Tokyo thread and you can potentially get enough parallelism to do that.
+246367	249808	Yeah, so Tokyo is like natively multi-threadable.
+249828	253691	You can throw it on a CPU with thousands of cores and it'll just eat it all up.
+254111	257793	And the reason that this is more efficient is that if you look at how Tokyo works in the background,
+258353	268518	it is essentially trying to, both at compile time and at runtime, unroll your code so that even though you're writing your code so that like, oh, well, every single agent is its own thread, it's kind of unrolling it into...
+269338	273119	a code path that kind of looks like an entity component system type thing.
+273379	275080	That's kind of what it's designed to do.
+275100	287183	That's why the type system is so complicated, because it's essentially like, oh, well, when this async function calls this async function, when this async function hits this thing, we're going to manually compose these seven functions together and then break here, break here, break here.
+287523	290423	So it essentially will try to optimize all that away in the background.
+290443	293204	It's relatively fast, the fact that it's able to compete with Nginx.
+293524	295805	So by the fact that Nginx is only designed to be a web server,
+297085	301146	and has also had, like, 20 years of design in it, is an indication that Tokyo's, like, pretty good at its job.
+301366	301647	Yeah.
+301687	302027	Right there.
+302307	316531	The issue with this is that you, the thing that you pay for all this is that the Tokyo runtime, the operating system and the code that actually does all of that, both the compile time system does all that stitching together, and the runtime operations that actually does all of the scheduling, is very complicated.
+317011	317771	And very heavy.
+318191	320272	So, the, but on the other hand,
+320719	326863	you can probably have like tens to hundreds of thousands of agents running on a system like this as individual Tokyo tasks.
+327363	332406	And the fact that the Tokyo runtime itself is heavy doesn't necessarily matter because you're splitting that cost around.
+332866	334727	Every single agent doesn't have its own Tokyo runtime.
+335567	335848	Right.
+336108	336408	So...
+337228	338109	Right.
+338129	338669	That makes sense.
+338909	339270	This is...
+339430	348455	So now we get into the second problem, which is how do you go ahead and get this to the point where it's running across multiple machines?
+350910	355894	And then this is kind of the thing where it's like, oh, well, it's like, well, what if you kind of want every single agent to...
+365362	368284	The momnado returns.
+368304	372608	I don't know, Marie.
+372828	374750	It could be a problem with the screen, for sure.
+382598	384518	We're in the middle of something.
+385619	387920	Well, can we fix it later?
+387940	395842	Okay, so yeah.
+395882	400864	Do you want me to go look at it right now?
+402945	405146	Why don't you just talk?
+405326	406266	Okay, I can just talk.
+406286	408127	I'm not contributing very much.
+408510	410091	Well, I'm just trying to do a quick summary.
+410131	414052	So yeah, I'll finish the summary and then we'll come back.
+414152	435559	So anyway, like the idea for this is that you can have a second step for this, which is like what if every single agent kind of needs some more isolation or what if the agents themselves need to have like more capabilities about what they can do or need like some level of security that is kind of more intense than what you could provide in a single like Tokyo runtime thread.
+435958	442602	So, a solution for this is to use OS-level threads, but OS-level threads also don't necessarily give you, like, a perfect solution for this.
+443062	461293	So, another thing that you can do is you can essentially just go ahead and have, like, each agent be a very small virtual machine that is, like, compiled on bare metal hardware and is, like, so your bare metal system is running something like Xen, and then every single system is running, like, a very small unikernel design.
+462237	463979	There have been solutions for this for aux camel.
+464019	466941	You can also go ahead and compile it with Rust and use Embassy or something similar.
+468202	470924	And you can potentially maybe run hundreds of these on a single machine.
+471324	472105	It really depends.
+472125	476248	You're kind of very much counting on the fact that every single agent is this very lightweight thing.
+476748	480411	And this can go ahead and interface with the external org using the embassy.net library.
+480731	485955	And you can go ahead and kind of transfer these agents across machines in a kind of very deterministic way.
+485975	486756	And then...
+487222	491245	But then the issue with this is that every single environment is already kind of very lightweight.
+491265	495208	You don't have access to like a full environment that you would expect in a regular Linux machine.
+495528	497509	And then there's obviously the fourth thing, which is containers.
+497569	499291	Every single agent is its own container.
+499331	501973	And then you can simulate all of those on a single container.
+501993	505075	My understanding is that the unikernels are lighter than containers.
+505155	514121	I might be wrong about that, but unikernels kind of just obeying the principle of like things are faster on a computer when you do less of them.
+514441	516483	So a unikernel is doing way less.
+517279	523050	then a unikernel like compiled from Scratch to do a specific class is doing way less than a container.
+523090	529261	So my understanding is you could probably run way more container, way more unikernels on a system than you could if that same system was running containers.
+530600	530740	Right.
+530760	533962	But this is a very empirical question that the LLM will be able to answer.
+534022	534382	Yeah.
+534402	535923	So are unikernels more intensive?
+535963	538424	I mean, the answer is it's going to depend on the size of your unikernel.
+538444	542586	Because I think you're kind of positing a hierarchy of agent capabilities now.
+543067	543467	Yeah.
+543747	547969	An ECS to a Tokyo to a- Unikernel.
+548309	551411	Well, I think we're missing kind of processes and operating systems.
+551771	552492	Yeah.
+552772	556494	And then you've got machines on a hybrid.
+556594	556794	Right.
+556834	559055	The middle step is actually the single most important one.
+559515	561157	The answer for that is BubbleWrap.
+562438	572286	So BubbleWrap is one of those magic things which is essentially a super lightweight environment that is used for handling applications in Linux.
+573307	577011	So for example, you know what Flatpak is, right?
+577411	579433	Flatpak's permission structure is done with BubbleWrap.
+580734	582195	Yeah, let me see if you can hear me.
+582535	584277	But yeah, so that's essentially done with a BubbleWrap.
+584796	591040	So you can essentially very narrowly define permission structures with a bubble wrap system.
+591080	595423	And then you can go up to unicurls and then containers are your final step of capabilities.
+596584	602568	Yeah, so you would have single machine processes, single machine containers.
+603831	606233	Single machine hypervisor.
+606853	611096	Well, the thing that's worth noting is that Tokyo-based solutions and ECS are both lighter than threads.
+611397	611717	For sure.
+612117	613919	Are both way lighter than threads.
+614279	617541	Bubble wrap is heavier than a thread, but a thread is not.
+617801	620764	You can't bear run threads because of containerization issues.
+620984	621204	Right.
+621604	622565	So, like...
+623101	625002	And, like, anything that you could...
+625182	630103	So, yeah, so you're essentially kind of left with, like, super... Like, there kind of is no threads in an ECS.
+630383	632544	There are thread-like things in Tokyo.
+632724	634345	There are definitely threads in Bubblewrap.
+634525	638226	There are even more, like, thready objects in Unikernels.
+638366	644048	And then there are, obviously... And then, obviously, like, containers are your, like, highest level of abstraction.
+645264	647706	So you think a container is a higher level of abstraction than a kernel?
+647726	651449	Or no, a container is heavier than a kernel, I think, personally, potentially.
+651489	652069	They shouldn't be.
+652509	653590	I don't think they...
+654011	654571	Here's the thing.
+654691	656393	Linux is just big.
+656473	659135	There's no way to get around Linux being just extremely big.
+660496	672025	And you can kind of get around the fact that Linux is very big by going ahead and sharing your operating system environment, sharing your operating system with other threads on a machine.
+672593	676815	But I mean, this is maybe just a vibe.
+677195	680276	I don't necessarily think.
+680296	686919	I get the impression that this is definitely a thing I'm prepared to be extremely wrong about.
+687439	694642	I am thinking that Unikernels might be closer to Zen performance-wise than Containers.
+696725	706288	Or, sorry, might be closer to, like, unikurtles are obviously, my guess is that both, like, unikurtles are somewhere between bubble wrap and containers in performance.
+706668	707548	It's, like, a reasonable thing.
+707949	713690	I suspect, and I might be wrong about this, that they're probably closer to bubble wrap in terms of overhead.
+714211	724574	And an advantage about this is that the fact that you have, like, full control over your, like, bare metal hardware, like, unikurtles are also, like, way more portable and are also, like, way more deployable on an edge environment.
+725139	727962	than a bubble wrap system, which is another reason that it's nice.
+727982	737752	And then you also have virtual machines on top, but I don't really think, assuming you're running Linux on a machine, that there's essentially not a lot that you gain from going full virtual machine to go into just individual containers on an HBase system.
+738670	746716	I mean, the only thing you get in a virtual machine thing running on a hypervisor is you can go from unicurls that are very small to having a full machine.
+746776	748017	Oh, operations, they're very big.
+748037	758685	And I think there's also another thing, which is that the only big thing, the big benefit that you get from containers is that LLMs expect to exist inside a full Linux environment, typically.
+759053	759253	Right.
+759633	760594	Or a full...
+760634	763956	I shouldn't even say... That's the code harness, rather than...
+764037	765618	Ultimately, writing a code...
+765658	767819	This project, ultimately, will have to write a code harness.
+767839	770641	We're going to put that off for as long as absolutely possible.
+770661	773603	But I think there's also another thing, which is, first off, code harnesses are not that hard to write.
+773643	775905	Me and Miri were able to write a code harness that was competent.
+776605	780048	And still kind of beats the market today on some major features.
+781288	784991	But again, it doesn't necessarily... Code harnesses don't necessarily matter.
+786152	786312	Um...
+786856	791039	Well, or I should say the problem with code harnesses is there's definitely a co-design problem.
+791440	801567	Like, you can definitely change a design harness a fair bit, but fundamentally there is a co-design process between your RLVR agents and the harness that they exist within.
+802047	806351	And most of those RLVR environments, and most of the environments that exist in the wild.
+807151	807792	The machine.
+807832	808572	Oh, yeah.
+808592	811534	RLVR is literally just like reinforcement for verifiable rewards.
+812055	812255	Okay.
+812917	814498	Enforcement learning from verified rewards.
+814578	814818	Yes.
+815339	819081	I got the acronym right, which is another good one.
+819942	838074	So it essentially has, but yeah, so you can go ahead and have an agent exist in a system that is, you can have an agent exist in a system that is not a Linux environment, but the closer it is to a Linux-y environment, the better things are going to work.
+840300	841380	Like, that makes sense.
+841420	842001	I mean, I don't know.
+842021	847483	It's like, and I think, I personally think that that's an assumption we should definitely poke at a lot.
+847683	856747	There's also another thing which is important, which is that every single agent that an LLM is using, if you're going to be using LLM agents for this, you already, you can't do an ECS.
+859308	867471	I mean, at least probably not, because in general, like, the fundamental part of kind of doing the ECS architecture is that the loop is hot.
+868420	878923	So, um, the loop is hot and you can't LLM requests, um, at scale like this, or you can't do them in an individual basis as needed.
+878983	879163	Yeah.
+879283	886365	The way that it's like the thinking fast and slow duality idea and LLM is thinking hyper slow.
+886825	887505	Yeah.
+887545	897168	Especially like, Oh, is it in the context of, but there's also like another important thing, which is that, um, in AI system, like you kind of can't run it in any way, like
+898075	904040	Your LLM inference, and I think it's kind of important to really think about, well, how does your inference logic kind of relate to your modeling system?
+904400	909243	The way that a LLM inference system works is, first off, you kind of need to have a network barrier there.
+910804	917549	You need to have a network barrier just because the complexity of doing LLM serving requests is already complicated enough, and you also need dedicated hardware, so it kind of needs...
+918786	924328	It's not generally a good idea to go ahead and build a super GPU-heavy system and a super CPU-heavy system in the same machine.
+924649	929591	So passing over to a GPU-heavy system is almost always going to involve a network request of some kind.
+931091	933713	I'm not following there.
+933813	939135	So you have your CPU system, which is kind of like your environment that the agents are doing their stuff in.
+939651	942834	And then you have the GPU system, which is actually computing the neural weights for the agents.
+943074	943254	Right.
+943434	949659	It's typically, like, bad form to have those both in the same system because, like, you have a finite amount of power.
+949719	953582	Every system only has a 1,500-watt power supply, kind of, like, a basic level.
+953623	959968	But then there's also another thing, which is that, like, it's just, like, it's essentially just, like, bad performance applications.
+959988	962370	Like, it's good to have the machines that are designed for specific purposes.
+962430	963671	It's kind of, like, an abstract thing.
+964929	966710	So there's always almost going to be a network overhead.
+967011	973136	And even if you have LLM inference running on the same machine, there's also almost always going to be a network overhead just because that's how the systems are designed.
+973276	973496	Right.
+973877	979322	But to be very basic here, you still could call HTTP from a Tokyo thread.
+979502	979722	Yes.
+979862	982785	Tokyo is so good at this.
+983045	984687	Tokyo is literally designed to have...
+985527	990969	hundreds of thousands of threads, all of which are doing hundreds or thousands of network requests.
+992850	996631	The way that I like to think about Tokyo is it's designed to be an Nginx framework.
+997791	998891	It's a way to think about it.
+998911	1006794	You essentially have anything that's super asynchronous like Nginx, you can do that in Tokyo, but you have full control over all the code and how it all executes.
+1007238	1010259	So just for contrast here, very similar.
+1010760	1016342	So the Abel's proposal is using EIO, which is kind of a competitor to Tokyo.
+1016742	1021725	So EIO is written in OCaml and Tokyo is written in Rust.
+1021805	1024686	So that would be a competitor technology at that point.
+1024706	1025026	Oh, for sure.
+1025046	1026907	And there's competitor technologies all the way up the stack.
+1026927	1028688	There's competitor technologies all the way up the stack.
+1028748	1031529	A big advantage of Tokyo is that it's just absolutely massive.
+1032338	1034719	In terms of adoption in industry.
+1035299	1038221	And also tooling.
+1038281	1045264	One of the things that's nice about Tokyo is the fact that it is used for a significant part of the Cloudflare networking stack as an indication that it's somewhat reliable.
+1046444	1050766	And you don't necessarily have that with other technologies.
+1052107	1056969	And then as you get up in the stack, obviously containers are valid, but containers are also buggy as shit.
+1057769	1059290	So I'm not really sure...
+1059844	1064507	Like, I'm not really sure to what extent, like, containers are a super good solution to this, but those are kind of the problems with this.
+1064527	1070871	The issue with this is that all of those, if you're doing anything in the bottom two stacks, you essentially kind of need a lean type system.
+1072212	1076134	Why, that's a... Or, no, so you essentially need, you need more of a rust type system.
+1077115	1089002	I mean, I don't know, is that, like, if you're doing an EC, I, how do I say this, I think that in general, I don't know if the ECS is the suitable for our, so, like, we have this continuum right here.
+1089865	1094330	I don't think ECS is super suitable.
+1094611	1098475	I would say I agree with that.
+1098916	1109688	The only way I could see ECS as being suitable would be as almost a compiled version of a Tokyo-based system.
+1110966	1114228	But you should be able to get enough real-world performance on a Tokyo system.
+1114268	1116889	I just worry about graphics, obviously.
+1117369	1130515	Mostly, in practice, what distinguishes an agent-based system from a game system is agent-based systems don't generate real-world graphic outputs the way that a game system does.
+1130535	1136018	The game system is tied to the clock refresh rate of your video system.
+1136038	1137038	Yeah, exactly.
+1137078	1139179	The performance demands on a game...
+1139359	1142161	on a game like Factorio, are so intense.
+1142582	1145984	This is an agent-based system that needs to handle millions of agents.
+1146645	1148366	Or I should say millions of individual agents.
+1148747	1152970	Every single second, it needs to fully do all of their computations in...
+1155320	1156401	in 20 milliseconds.
+1157121	1159022	Or actually in like 18 milliseconds, sorry.
+1159322	1162244	So if it ever takes more than 18 milliseconds, your computer crashes.
+1162264	1168747	It also needs to do this on every single piece of hardware out there, including like pieces of shit hardware from like 2015, which is when it was released.
+1169268	1171409	It's actually 10 years old, jeez.
+1171729	1182835	Anyway, aside from like somewhat existential nostalgia, the entire point is that...
+1183763	1189326	Any academic project is going to have way less intense performance requirements on it.
+1189987	1191688	Both in the sense that...
+1191908	1200653	Both in the sense that, like, Factorio is designed to... Factorio can essentially go ahead and make it so that a lot of its agents are very unphysical and kind of, like...
+1201310	1229942	unphysical in kind of like very interesting ways and they have they in some sense can scope the scale of their simulation because like anything that's too complicated they just don't have to simulate or anything that would be too performance intensive they just don't have to simulate and they can essentially go ahead and say hey what if we just change the rules of our game so that this thing was easier and more performant they actually have like a really good blog post on like how to do that so it's like they're specifically changing game mechanics to go ahead and make the game feel more performant there's almost nothing
+1232435	1234797	you know, like two web pages.
+1236158	1237979	And it's shaking.
+1238019	1241001	Have you tried suspending and then reopening the computer?
+1241021	1242282	She shut down her old computer.
+1244384	1247786	Should we go upstairs and continue this conversation while we debug mom's computer?
+1247946	1256733	I think what we should do is let's cut out the second monitor and just see what happens just with the built-in HDMI input to the Mac.
+1257053	1259235	Because it could be that we need a new... Crazy birds.
+1259295	1262057	It could be that we need
+1263106	1264029	Should I pause this?
+1265916	1268144	Should I pause this or should I bring it upstairs?
+1269007	1271616	I would say go ahead and stop it.
+1272218	1272720	Upload it.
