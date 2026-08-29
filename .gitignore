@@ -18,6 +18,9 @@ __pycache__/
 # AnyType
 anytype-cli-data/
 
+# Archived material (commit to archive/ only when explicitly asked)
+archive/
+
 # Secrets & logs
 *.log
 .env
