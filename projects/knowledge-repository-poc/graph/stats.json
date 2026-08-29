@@ -1,17 +1,17 @@
 {
- "docs": 71,
- "sections": 464,
- "nodes": 1898,
- "edges": 464,
+ "docs": 75,
+ "sections": 468,
+ "nodes": 1964,
+ "edges": 468,
  "node_kinds": {
   "project": 6,
   "section": 413,
-  "keyword": 1285,
+  "keyword": 1324,
   "notation": 8,
   "artifact": 10,
   "citation": 21,
-  "author": 126,
-  "work": 29
+  "author": 149,
+  "work": 33
  },
  "arity_hist": {
   "2": 44,
@@ -27,16 +27,17 @@
   "12": 4,
   "13": 4,
   "14": 3,
-  "15": 7,
+  "15": 8,
   "16": 5,
-  "17": 3,
+  "17": 4,
   "19": 3,
   "21": 1,
-  "22": 1,
+  "22": 2,
   "23": 1,
+  "24": 1,
   "45": 1
  },
- "mean_degree": 1.529,
+ "mean_degree": 1.517,
  "max_degree": 250,
  "top_hubs": [
   {
@@ -76,16 +77,16 @@
    "degree": 34
   },
   {
+   "node": "project:openalex",
+   "kind": "project",
+   "label": "openalex",
+   "degree": 33
+  },
+  {
    "node": "notation:simultaneism",
    "kind": "notation",
    "label": "simultaneism",
    "degree": 32
-  },
-  {
-   "node": "project:openalex",
-   "kind": "project",
-   "label": "openalex",
-   "degree": 29
   },
   {
    "node": "notation:tau_j",
@@ -131,12 +132,12 @@
   }
  ],
  "degree_hist": {
-  "1": 1763,
-  "2": 152,
-  "3-5": 106,
+  "1": 1822,
+  "2": 164,
+  "3-5": 109,
   "6-10": 74,
   "11-20": 124,
-  "21-50": 266,
+  "21-50": 270,
   "51-100": 51,
   "101-500": 366
  },
@@ -149,6 +150,6 @@
   "island-dt",
   "fulltext"
  ],
- "external_works": 29,
+ "external_works": 33,
  "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"
 }

@@ -8521,6 +8521,186 @@
    "kind": "keyword"
   },
   {
+   "id": "work:dependent types and multi-monadic effects in f*",
+   "label": "Dependent types and multi-monadic effects in F*",
+   "kind": "work"
+  },
+  {
+   "id": "author:nikhil swamy",
+   "label": "Nikhil Swamy",
+   "kind": "author"
+  },
+  {
+   "id": "author:c\u0103t\u0103lin hri\u0163cu",
+   "label": "C\u0103t\u0103lin Hri\u0163cu",
+   "kind": "author"
+  },
+  {
+   "id": "author:chantal keller",
+   "label": "Chantal Keller",
+   "kind": "author"
+  },
+  {
+   "id": "author:aseem rastogi",
+   "label": "Aseem Rastogi",
+   "kind": "author"
+  },
+  {
+   "id": "author:antoine delignat-lavaud",
+   "label": "Antoine Delignat-Lavaud",
+   "kind": "author"
+  },
+  {
+   "id": "author:simon forest",
+   "label": "Simon Forest",
+   "kind": "author"
+  },
+  {
+   "id": "author:karthikeyan bhargavan",
+   "label": "Karthikeyan Bhargavan",
+   "kind": "author"
+  },
+  {
+   "id": "author:c\u00e9dric fournet",
+   "label": "C\u00e9dric Fournet",
+   "kind": "author"
+  },
+  {
+   "id": "author:pierre-yves strub",
+   "label": "Pierre-Yves Strub",
+   "kind": "author"
+  },
+  {
+   "id": "author:markulf kohlweiss",
+   "label": "Markulf Kohlweiss",
+   "kind": "author"
+  },
+  {
+   "id": "author:jean-karim zinzindohou\u00e9",
+   "label": "Jean-Karim Zinzindohou\u00e9",
+   "kind": "author"
+  },
+  {
+   "id": "author:santiago zanella-b\u00e9guelin",
+   "label": "Santiago Zanella-B\u00e9guelin",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:general-purpose programming language",
+   "label": "general-purpose programming language",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:verification-oriented language",
+   "label": "verification-oriented language",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:language",
+   "label": "language",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:itself---these proofs make essential use",
+   "label": "itself---these proofs make essential use",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:resulting proof obligations using",
+   "label": "resulting proof obligations using",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:proof assistant",
+   "label": "proof assistant",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:proof terms---its consistency",
+   "label": "proof terms---its consistency",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:simply typed lambda calculus",
+   "label": "simply typed lambda calculus",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:multi-monadic effects",
+   "label": "multi-monadic effects",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:specify effects",
+   "label": "specify effects",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:dijkstra monads for free",
+   "label": "Dijkstra monads for free",
+   "kind": "work"
+  },
+  {
+   "id": "author:danel ahman",
+   "label": "Danel Ahman",
+   "kind": "author"
+  },
+  {
+   "id": "author:kenji maillard",
+   "label": "Kenji Maillard",
+   "kind": "author"
+  },
+  {
+   "id": "author:guido mart\u00ednez",
+   "label": "Guido Mart\u00ednez",
+   "kind": "author"
+  },
+  {
+   "id": "author:gordon plotkin",
+   "label": "Gordon Plotkin",
+   "kind": "author"
+  },
+  {
+   "id": "author:jonathan protzenko",
+   "label": "Jonathan Protzenko",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:dijkstra monads",
+   "label": "dijkstra monads",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:dependent type theory",
+   "label": "dependent type theory",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:dependent type theories",
+   "label": "dependent type theories",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:user-defined effects",
+   "label": "user-defined effects",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:emf",
+   "label": "emf",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:verifying effectful code",
+   "label": "verifying effectful code",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:verification tools like",
+   "label": "verification tools like",
+   "kind": "keyword"
+  },
+  {
    "id": "work:planning support science for smarter urban futures",
    "label": "Planning Support Science for Smarter Urban Futures",
    "kind": "work"
@@ -8698,6 +8878,86 @@
   {
    "id": "keyword:existing data interoperability issues",
    "label": "existing data interoperability issues",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:dijkstra monads for all",
+   "label": "Dijkstra monads for all",
+   "kind": "work"
+  },
+  {
+   "id": "author:robert atkey",
+   "label": "Robert Atkey",
+   "kind": "author"
+  },
+  {
+   "id": "author:exequiel rivas",
+   "label": "Exequiel Rivas",
+   "kind": "author"
+  },
+  {
+   "id": "author:\u00e9ric tanter",
+   "label": "\u00c9ric Tanter",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:arbitrary monadic side-effects using dijkstra monads",
+   "label": "arbitrary monadic side-effects using dijkstra monads",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:obtaining dijkstra monads tailored",
+   "label": "obtaining dijkstra monads tailored",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:specification monads",
+   "label": "specification monads",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:dijkstra monad",
+   "label": "dijkstra monad",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:specification monad gives rise",
+   "label": "specification monad gives rise",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:specification monad",
+   "label": "specification monad",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:defining correct monad transformers",
+   "label": "defining correct monad transformers",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:applying monad transformers",
+   "label": "applying monad transformers",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:monad morphism",
+   "label": "monad morphism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:computational monad",
+   "label": "computational monad",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:moggis monadic metalanguage",
+   "label": "moggis monadic metalanguage",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:general semantic framework",
+   "label": "general semantic framework",
    "kind": "keyword"
   },
   {
@@ -9048,6 +9308,76 @@
   {
    "id": "keyword:climate action",
    "label": "climate action",
+   "kind": "keyword"
+  },
+  {
+   "id": "work:effects as capabilities: effect handlers and lightweight effect polymorphism",
+   "label": "Effects as capabilities: effect handlers and lightweight effect polymorphism",
+   "kind": "work"
+  },
+  {
+   "id": "author:jonathan immanuel brachth\u00e4user",
+   "label": "Jonathan Immanuel Brachth\u00e4user",
+   "kind": "author"
+  },
+  {
+   "id": "author:philipp schuster",
+   "label": "Philipp Schuster",
+   "kind": "author"
+  },
+  {
+   "id": "author:klaus ostermann",
+   "label": "Klaus Ostermann",
+   "kind": "author"
+  },
+  {
+   "id": "keyword:effect handlers",
+   "label": "effect handlers",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effect systems impedes reasoning",
+   "label": "effect systems impedes reasoning",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effect systems",
+   "label": "effect systems",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effect polymorphism",
+   "label": "effect polymorphism",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:guarantee effect safety",
+   "label": "guarantee effect safety",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effect parametricity",
+   "label": "effect parametricity",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effect encapsulation",
+   "label": "effect encapsulation",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:language effekt",
+   "label": "language effekt",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effekt revolves",
+   "label": "effekt revolves",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:effekt",
+   "label": "effekt",
    "kind": "keyword"
   },
   {
@@ -14409,6 +14739,57 @@
   {
    "id": "e448",
    "members": [
+    "author:antoine delignat-lavaud",
+    "author:aseem rastogi",
+    "author:chantal keller",
+    "author:c\u00e9dric fournet",
+    "author:c\u0103t\u0103lin hri\u0163cu",
+    "author:jean-karim zinzindohou\u00e9",
+    "author:karthikeyan bhargavan",
+    "author:markulf kohlweiss",
+    "author:nikhil swamy",
+    "author:pierre-yves strub",
+    "author:santiago zanella-b\u00e9guelin",
+    "author:simon forest",
+    "keyword:general-purpose programming language",
+    "keyword:itself---these proofs make essential use",
+    "keyword:language",
+    "keyword:multi-monadic effects",
+    "keyword:proof assistant",
+    "keyword:proof terms---its consistency",
+    "keyword:resulting proof obligations using",
+    "keyword:simply typed lambda calculus",
+    "keyword:specify effects",
+    "keyword:verification-oriented language",
+    "project:openalex",
+    "work:dependent types and multi-monadic effects in f*"
+   ]
+  },
+  {
+   "id": "e449",
+   "members": [
+    "author:aseem rastogi",
+    "author:c\u0103t\u0103lin hri\u0163cu",
+    "author:danel ahman",
+    "author:gordon plotkin",
+    "author:guido mart\u00ednez",
+    "author:jonathan protzenko",
+    "author:kenji maillard",
+    "author:nikhil swamy",
+    "keyword:dependent type theories",
+    "keyword:dependent type theory",
+    "keyword:dijkstra monads",
+    "keyword:emf",
+    "keyword:user-defined effects",
+    "keyword:verification tools like",
+    "keyword:verifying effectful code",
+    "project:openalex",
+    "work:dijkstra monads for free"
+   ]
+  },
+  {
+   "id": "e450",
+   "members": [
     "author:andrew allan",
     "author:chris pettit",
     "author:john 1952- stillwell",
@@ -14420,7 +14801,7 @@
    ]
   },
   {
-   "id": "e449",
+   "id": "e451",
    "members": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -14444,7 +14825,7 @@
    ]
   },
   {
-   "id": "e450",
+   "id": "e452",
    "members": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -14465,7 +14846,34 @@
    ]
   },
   {
-   "id": "e451",
+   "id": "e453",
+   "members": [
+    "author:c\u0103t\u0103lin hri\u0163cu",
+    "author:danel ahman",
+    "author:exequiel rivas",
+    "author:guido mart\u00ednez",
+    "author:kenji maillard",
+    "author:robert atkey",
+    "author:\u00e9ric tanter",
+    "keyword:applying monad transformers",
+    "keyword:arbitrary monadic side-effects using dijkstra monads",
+    "keyword:computational monad",
+    "keyword:defining correct monad transformers",
+    "keyword:dijkstra monad",
+    "keyword:dijkstra monads",
+    "keyword:general semantic framework",
+    "keyword:moggis monadic metalanguage",
+    "keyword:monad morphism",
+    "keyword:obtaining dijkstra monads tailored",
+    "keyword:specification monad",
+    "keyword:specification monad gives rise",
+    "keyword:specification monads",
+    "project:openalex",
+    "work:dijkstra monads for all"
+   ]
+  },
+  {
+   "id": "e454",
    "members": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -14486,7 +14894,7 @@
    ]
   },
   {
-   "id": "e452",
+   "id": "e455",
    "members": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -14508,7 +14916,7 @@
    ]
   },
   {
-   "id": "e453",
+   "id": "e456",
    "members": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -14528,7 +14936,7 @@
    ]
   },
   {
-   "id": "e454",
+   "id": "e457",
    "members": [
     "author:arnau riera",
     "author:john goold",
@@ -14550,7 +14958,7 @@
    ]
   },
   {
-   "id": "e455",
+   "id": "e458",
    "members": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -14570,7 +14978,27 @@
    ]
   },
   {
-   "id": "e456",
+   "id": "e459",
+   "members": [
+    "author:jonathan immanuel brachth\u00e4user",
+    "author:klaus ostermann",
+    "author:philipp schuster",
+    "keyword:effect encapsulation",
+    "keyword:effect handlers",
+    "keyword:effect parametricity",
+    "keyword:effect polymorphism",
+    "keyword:effect systems",
+    "keyword:effect systems impedes reasoning",
+    "keyword:effekt",
+    "keyword:effekt revolves",
+    "keyword:guarantee effect safety",
+    "keyword:language effekt",
+    "project:openalex",
+    "work:effects as capabilities: effect handlers and lightweight effect polymorphism"
+   ]
+  },
+  {
+   "id": "e460",
    "members": [
     "author:christian lauk",
     "author:dominik noll",
@@ -14594,7 +15022,7 @@
    ]
   },
   {
-   "id": "e457",
+   "id": "e461",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -14614,7 +15042,7 @@
    ]
   },
   {
-   "id": "e458",
+   "id": "e462",
    "members": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -14642,7 +15070,7 @@
    ]
   },
   {
-   "id": "e459",
+   "id": "e463",
    "members": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -14653,7 +15081,7 @@
    ]
   },
   {
-   "id": "e460",
+   "id": "e464",
    "members": [
     "author:michael batty",
     "keyword:digital twins",
@@ -14662,7 +15090,7 @@
    ]
   },
   {
-   "id": "e461",
+   "id": "e465",
    "members": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -14688,7 +15116,7 @@
    ]
   },
   {
-   "id": "e462",
+   "id": "e466",
    "members": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -14698,7 +15126,7 @@
    ]
   },
   {
-   "id": "e463",
+   "id": "e467",
    "members": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",
@@ -23236,6 +23664,186 @@
    "label": "technical information",
    "kind": "keyword"
   },
+  "work:dependent types and multi-monadic effects in f*": {
+   "id": "work:dependent types and multi-monadic effects in f*",
+   "label": "Dependent types and multi-monadic effects in F*",
+   "kind": "work"
+  },
+  "author:nikhil swamy": {
+   "id": "author:nikhil swamy",
+   "label": "Nikhil Swamy",
+   "kind": "author"
+  },
+  "author:c\u0103t\u0103lin hri\u0163cu": {
+   "id": "author:c\u0103t\u0103lin hri\u0163cu",
+   "label": "C\u0103t\u0103lin Hri\u0163cu",
+   "kind": "author"
+  },
+  "author:chantal keller": {
+   "id": "author:chantal keller",
+   "label": "Chantal Keller",
+   "kind": "author"
+  },
+  "author:aseem rastogi": {
+   "id": "author:aseem rastogi",
+   "label": "Aseem Rastogi",
+   "kind": "author"
+  },
+  "author:antoine delignat-lavaud": {
+   "id": "author:antoine delignat-lavaud",
+   "label": "Antoine Delignat-Lavaud",
+   "kind": "author"
+  },
+  "author:simon forest": {
+   "id": "author:simon forest",
+   "label": "Simon Forest",
+   "kind": "author"
+  },
+  "author:karthikeyan bhargavan": {
+   "id": "author:karthikeyan bhargavan",
+   "label": "Karthikeyan Bhargavan",
+   "kind": "author"
+  },
+  "author:c\u00e9dric fournet": {
+   "id": "author:c\u00e9dric fournet",
+   "label": "C\u00e9dric Fournet",
+   "kind": "author"
+  },
+  "author:pierre-yves strub": {
+   "id": "author:pierre-yves strub",
+   "label": "Pierre-Yves Strub",
+   "kind": "author"
+  },
+  "author:markulf kohlweiss": {
+   "id": "author:markulf kohlweiss",
+   "label": "Markulf Kohlweiss",
+   "kind": "author"
+  },
+  "author:jean-karim zinzindohou\u00e9": {
+   "id": "author:jean-karim zinzindohou\u00e9",
+   "label": "Jean-Karim Zinzindohou\u00e9",
+   "kind": "author"
+  },
+  "author:santiago zanella-b\u00e9guelin": {
+   "id": "author:santiago zanella-b\u00e9guelin",
+   "label": "Santiago Zanella-B\u00e9guelin",
+   "kind": "author"
+  },
+  "keyword:general-purpose programming language": {
+   "id": "keyword:general-purpose programming language",
+   "label": "general-purpose programming language",
+   "kind": "keyword"
+  },
+  "keyword:verification-oriented language": {
+   "id": "keyword:verification-oriented language",
+   "label": "verification-oriented language",
+   "kind": "keyword"
+  },
+  "keyword:language": {
+   "id": "keyword:language",
+   "label": "language",
+   "kind": "keyword"
+  },
+  "keyword:itself---these proofs make essential use": {
+   "id": "keyword:itself---these proofs make essential use",
+   "label": "itself---these proofs make essential use",
+   "kind": "keyword"
+  },
+  "keyword:resulting proof obligations using": {
+   "id": "keyword:resulting proof obligations using",
+   "label": "resulting proof obligations using",
+   "kind": "keyword"
+  },
+  "keyword:proof assistant": {
+   "id": "keyword:proof assistant",
+   "label": "proof assistant",
+   "kind": "keyword"
+  },
+  "keyword:proof terms---its consistency": {
+   "id": "keyword:proof terms---its consistency",
+   "label": "proof terms---its consistency",
+   "kind": "keyword"
+  },
+  "keyword:simply typed lambda calculus": {
+   "id": "keyword:simply typed lambda calculus",
+   "label": "simply typed lambda calculus",
+   "kind": "keyword"
+  },
+  "keyword:multi-monadic effects": {
+   "id": "keyword:multi-monadic effects",
+   "label": "multi-monadic effects",
+   "kind": "keyword"
+  },
+  "keyword:specify effects": {
+   "id": "keyword:specify effects",
+   "label": "specify effects",
+   "kind": "keyword"
+  },
+  "work:dijkstra monads for free": {
+   "id": "work:dijkstra monads for free",
+   "label": "Dijkstra monads for free",
+   "kind": "work"
+  },
+  "author:danel ahman": {
+   "id": "author:danel ahman",
+   "label": "Danel Ahman",
+   "kind": "author"
+  },
+  "author:kenji maillard": {
+   "id": "author:kenji maillard",
+   "label": "Kenji Maillard",
+   "kind": "author"
+  },
+  "author:guido mart\u00ednez": {
+   "id": "author:guido mart\u00ednez",
+   "label": "Guido Mart\u00ednez",
+   "kind": "author"
+  },
+  "author:gordon plotkin": {
+   "id": "author:gordon plotkin",
+   "label": "Gordon Plotkin",
+   "kind": "author"
+  },
+  "author:jonathan protzenko": {
+   "id": "author:jonathan protzenko",
+   "label": "Jonathan Protzenko",
+   "kind": "author"
+  },
+  "keyword:dijkstra monads": {
+   "id": "keyword:dijkstra monads",
+   "label": "dijkstra monads",
+   "kind": "keyword"
+  },
+  "keyword:dependent type theory": {
+   "id": "keyword:dependent type theory",
+   "label": "dependent type theory",
+   "kind": "keyword"
+  },
+  "keyword:dependent type theories": {
+   "id": "keyword:dependent type theories",
+   "label": "dependent type theories",
+   "kind": "keyword"
+  },
+  "keyword:user-defined effects": {
+   "id": "keyword:user-defined effects",
+   "label": "user-defined effects",
+   "kind": "keyword"
+  },
+  "keyword:emf": {
+   "id": "keyword:emf",
+   "label": "emf",
+   "kind": "keyword"
+  },
+  "keyword:verifying effectful code": {
+   "id": "keyword:verifying effectful code",
+   "label": "verifying effectful code",
+   "kind": "keyword"
+  },
+  "keyword:verification tools like": {
+   "id": "keyword:verification tools like",
+   "label": "verification tools like",
+   "kind": "keyword"
+  },
   "work:planning support science for smarter urban futures": {
    "id": "work:planning support science for smarter urban futures",
    "label": "Planning Support Science for Smarter Urban Futures",
@@ -23414,6 +24022,86 @@
   "keyword:existing data interoperability issues": {
    "id": "keyword:existing data interoperability issues",
    "label": "existing data interoperability issues",
+   "kind": "keyword"
+  },
+  "work:dijkstra monads for all": {
+   "id": "work:dijkstra monads for all",
+   "label": "Dijkstra monads for all",
+   "kind": "work"
+  },
+  "author:robert atkey": {
+   "id": "author:robert atkey",
+   "label": "Robert Atkey",
+   "kind": "author"
+  },
+  "author:exequiel rivas": {
+   "id": "author:exequiel rivas",
+   "label": "Exequiel Rivas",
+   "kind": "author"
+  },
+  "author:\u00e9ric tanter": {
+   "id": "author:\u00e9ric tanter",
+   "label": "\u00c9ric Tanter",
+   "kind": "author"
+  },
+  "keyword:arbitrary monadic side-effects using dijkstra monads": {
+   "id": "keyword:arbitrary monadic side-effects using dijkstra monads",
+   "label": "arbitrary monadic side-effects using dijkstra monads",
+   "kind": "keyword"
+  },
+  "keyword:obtaining dijkstra monads tailored": {
+   "id": "keyword:obtaining dijkstra monads tailored",
+   "label": "obtaining dijkstra monads tailored",
+   "kind": "keyword"
+  },
+  "keyword:specification monads": {
+   "id": "keyword:specification monads",
+   "label": "specification monads",
+   "kind": "keyword"
+  },
+  "keyword:dijkstra monad": {
+   "id": "keyword:dijkstra monad",
+   "label": "dijkstra monad",
+   "kind": "keyword"
+  },
+  "keyword:specification monad gives rise": {
+   "id": "keyword:specification monad gives rise",
+   "label": "specification monad gives rise",
+   "kind": "keyword"
+  },
+  "keyword:specification monad": {
+   "id": "keyword:specification monad",
+   "label": "specification monad",
+   "kind": "keyword"
+  },
+  "keyword:defining correct monad transformers": {
+   "id": "keyword:defining correct monad transformers",
+   "label": "defining correct monad transformers",
+   "kind": "keyword"
+  },
+  "keyword:applying monad transformers": {
+   "id": "keyword:applying monad transformers",
+   "label": "applying monad transformers",
+   "kind": "keyword"
+  },
+  "keyword:monad morphism": {
+   "id": "keyword:monad morphism",
+   "label": "monad morphism",
+   "kind": "keyword"
+  },
+  "keyword:computational monad": {
+   "id": "keyword:computational monad",
+   "label": "computational monad",
+   "kind": "keyword"
+  },
+  "keyword:moggis monadic metalanguage": {
+   "id": "keyword:moggis monadic metalanguage",
+   "label": "moggis monadic metalanguage",
+   "kind": "keyword"
+  },
+  "keyword:general semantic framework": {
+   "id": "keyword:general semantic framework",
+   "label": "general semantic framework",
    "kind": "keyword"
   },
   "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia": {
@@ -23764,6 +24452,76 @@
   "keyword:climate action": {
    "id": "keyword:climate action",
    "label": "climate action",
+   "kind": "keyword"
+  },
+  "work:effects as capabilities: effect handlers and lightweight effect polymorphism": {
+   "id": "work:effects as capabilities: effect handlers and lightweight effect polymorphism",
+   "label": "Effects as capabilities: effect handlers and lightweight effect polymorphism",
+   "kind": "work"
+  },
+  "author:jonathan immanuel brachth\u00e4user": {
+   "id": "author:jonathan immanuel brachth\u00e4user",
+   "label": "Jonathan Immanuel Brachth\u00e4user",
+   "kind": "author"
+  },
+  "author:philipp schuster": {
+   "id": "author:philipp schuster",
+   "label": "Philipp Schuster",
+   "kind": "author"
+  },
+  "author:klaus ostermann": {
+   "id": "author:klaus ostermann",
+   "label": "Klaus Ostermann",
+   "kind": "author"
+  },
+  "keyword:effect handlers": {
+   "id": "keyword:effect handlers",
+   "label": "effect handlers",
+   "kind": "keyword"
+  },
+  "keyword:effect systems impedes reasoning": {
+   "id": "keyword:effect systems impedes reasoning",
+   "label": "effect systems impedes reasoning",
+   "kind": "keyword"
+  },
+  "keyword:effect systems": {
+   "id": "keyword:effect systems",
+   "label": "effect systems",
+   "kind": "keyword"
+  },
+  "keyword:effect polymorphism": {
+   "id": "keyword:effect polymorphism",
+   "label": "effect polymorphism",
+   "kind": "keyword"
+  },
+  "keyword:guarantee effect safety": {
+   "id": "keyword:guarantee effect safety",
+   "label": "guarantee effect safety",
+   "kind": "keyword"
+  },
+  "keyword:effect parametricity": {
+   "id": "keyword:effect parametricity",
+   "label": "effect parametricity",
+   "kind": "keyword"
+  },
+  "keyword:effect encapsulation": {
+   "id": "keyword:effect encapsulation",
+   "label": "effect encapsulation",
+   "kind": "keyword"
+  },
+  "keyword:language effekt": {
+   "id": "keyword:language effekt",
+   "label": "language effekt",
+   "kind": "keyword"
+  },
+  "keyword:effekt revolves": {
+   "id": "keyword:effekt revolves",
+   "label": "effekt revolves",
+   "kind": "keyword"
+  },
+  "keyword:effekt": {
+   "id": "keyword:effekt",
+   "label": "effekt",
    "kind": "keyword"
   },
   "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019": {
@@ -30469,6 +31227,63 @@
   {
    "id": "e448",
    "nodes": [
+    "author:antoine delignat-lavaud",
+    "author:aseem rastogi",
+    "author:chantal keller",
+    "author:c\u00e9dric fournet",
+    "author:c\u0103t\u0103lin hri\u0163cu",
+    "author:jean-karim zinzindohou\u00e9",
+    "author:karthikeyan bhargavan",
+    "author:markulf kohlweiss",
+    "author:nikhil swamy",
+    "author:pierre-yves strub",
+    "author:santiago zanella-b\u00e9guelin",
+    "author:simon forest",
+    "keyword:general-purpose programming language",
+    "keyword:itself---these proofs make essential use",
+    "keyword:language",
+    "keyword:multi-monadic effects",
+    "keyword:proof assistant",
+    "keyword:proof terms---its consistency",
+    "keyword:resulting proof obligations using",
+    "keyword:simply typed lambda calculus",
+    "keyword:specify effects",
+    "keyword:verification-oriented language",
+    "project:openalex",
+    "work:dependent types and multi-monadic effects in f*"
+   ],
+   "doc": "openalex/https_openalex.org_W2267469130",
+   "section": "openalex/https_openalex.org_W2267469130",
+   "arity": 24
+  },
+  {
+   "id": "e449",
+   "nodes": [
+    "author:aseem rastogi",
+    "author:c\u0103t\u0103lin hri\u0163cu",
+    "author:danel ahman",
+    "author:gordon plotkin",
+    "author:guido mart\u00ednez",
+    "author:jonathan protzenko",
+    "author:kenji maillard",
+    "author:nikhil swamy",
+    "keyword:dependent type theories",
+    "keyword:dependent type theory",
+    "keyword:dijkstra monads",
+    "keyword:emf",
+    "keyword:user-defined effects",
+    "keyword:verification tools like",
+    "keyword:verifying effectful code",
+    "project:openalex",
+    "work:dijkstra monads for free"
+   ],
+   "doc": "openalex/https_openalex.org_W2507710874",
+   "section": "openalex/https_openalex.org_W2507710874",
+   "arity": 17
+  },
+  {
+   "id": "e450",
+   "nodes": [
     "author:andrew allan",
     "author:chris pettit",
     "author:john 1952- stillwell",
@@ -30483,7 +31298,7 @@
    "arity": 8
   },
   {
-   "id": "e449",
+   "id": "e451",
    "nodes": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -30510,7 +31325,7 @@
    "arity": 19
   },
   {
-   "id": "e450",
+   "id": "e452",
    "nodes": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -30534,7 +31349,37 @@
    "arity": 16
   },
   {
-   "id": "e451",
+   "id": "e453",
+   "nodes": [
+    "author:c\u0103t\u0103lin hri\u0163cu",
+    "author:danel ahman",
+    "author:exequiel rivas",
+    "author:guido mart\u00ednez",
+    "author:kenji maillard",
+    "author:robert atkey",
+    "author:\u00e9ric tanter",
+    "keyword:applying monad transformers",
+    "keyword:arbitrary monadic side-effects using dijkstra monads",
+    "keyword:computational monad",
+    "keyword:defining correct monad transformers",
+    "keyword:dijkstra monad",
+    "keyword:dijkstra monads",
+    "keyword:general semantic framework",
+    "keyword:moggis monadic metalanguage",
+    "keyword:monad morphism",
+    "keyword:obtaining dijkstra monads tailored",
+    "keyword:specification monad",
+    "keyword:specification monad gives rise",
+    "keyword:specification monads",
+    "project:openalex",
+    "work:dijkstra monads for all"
+   ],
+   "doc": "openalex/https_openalex.org_W2919561213",
+   "section": "openalex/https_openalex.org_W2919561213",
+   "arity": 22
+  },
+  {
+   "id": "e454",
    "nodes": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -30558,7 +31403,7 @@
    "arity": 16
   },
   {
-   "id": "e452",
+   "id": "e455",
    "nodes": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -30583,7 +31428,7 @@
    "arity": 17
   },
   {
-   "id": "e453",
+   "id": "e456",
    "nodes": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -30606,7 +31451,7 @@
    "arity": 15
   },
   {
-   "id": "e454",
+   "id": "e457",
    "nodes": [
     "author:arnau riera",
     "author:john goold",
@@ -30631,7 +31476,7 @@
    "arity": 17
   },
   {
-   "id": "e455",
+   "id": "e458",
    "nodes": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -30654,7 +31499,30 @@
    "arity": 15
   },
   {
-   "id": "e456",
+   "id": "e459",
+   "nodes": [
+    "author:jonathan immanuel brachth\u00e4user",
+    "author:klaus ostermann",
+    "author:philipp schuster",
+    "keyword:effect encapsulation",
+    "keyword:effect handlers",
+    "keyword:effect parametricity",
+    "keyword:effect polymorphism",
+    "keyword:effect systems",
+    "keyword:effect systems impedes reasoning",
+    "keyword:effekt",
+    "keyword:effekt revolves",
+    "keyword:guarantee effect safety",
+    "keyword:language effekt",
+    "project:openalex",
+    "work:effects as capabilities: effect handlers and lightweight effect polymorphism"
+   ],
+   "doc": "openalex/https_openalex.org_W3107145433",
+   "section": "openalex/https_openalex.org_W3107145433",
+   "arity": 15
+  },
+  {
+   "id": "e460",
    "nodes": [
     "author:christian lauk",
     "author:dominik noll",
@@ -30681,7 +31549,7 @@
    "arity": 19
   },
   {
-   "id": "e457",
+   "id": "e461",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -30704,7 +31572,7 @@
    "arity": 15
   },
   {
-   "id": "e458",
+   "id": "e462",
    "nodes": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -30735,7 +31603,7 @@
    "arity": 23
   },
   {
-   "id": "e459",
+   "id": "e463",
    "nodes": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -30749,7 +31617,7 @@
    "arity": 6
   },
   {
-   "id": "e460",
+   "id": "e464",
    "nodes": [
     "author:michael batty",
     "keyword:digital twins",
@@ -30761,7 +31629,7 @@
    "arity": 4
   },
   {
-   "id": "e461",
+   "id": "e465",
    "nodes": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -30790,7 +31658,7 @@
    "arity": 21
   },
   {
-   "id": "e462",
+   "id": "e466",
    "nodes": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -30803,7 +31671,7 @@
    "arity": 5
   },
   {
-   "id": "e463",
+   "id": "e467",
    "nodes": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",

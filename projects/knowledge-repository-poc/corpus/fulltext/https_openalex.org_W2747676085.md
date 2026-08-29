@@ -1,4 +1,4 @@
-> OpenAlex full text (2026-08-27) — source: https_openalex.org_W2747676085
+> OpenAlex full text (2026-08-29) — source: https_openalex.org_W2747676085
 > DOI: https://doi.org/10.1103/physreve.96.042143 · license: — · status: manual
 # Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes
 
