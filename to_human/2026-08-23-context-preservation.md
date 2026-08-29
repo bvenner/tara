@@ -25,7 +25,7 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 
 ## 3. Thread 2 — TARA infra & AnyType elimination (mostly superseded)
 
-- Original architecture: `archive/projects/anytype-based-tara/research-assistant-architecture.md` (tracked). The `-bcv.md` draft is **untracked and must never be committed**.
+- Original architecture: `archive/projects/anytype-based-tara/research-assistant-architecture.md` (tracked). The `-bcv.md` draft is now also tracked (2026-08-29; previous block on committing it lifted).
 - Migration work that still stands as reference: `scripts/export_anytype.py` (dry-run/--commit/--verify), Phase 0 export (21 AnyType objects → `data/tara_graph.db` tables papers/authors/projects/experiments + markdown/JSON dumps in `data/`). Bugs fixed during that pass: quoted `ANYTYPE_API_BASE_URL` in env breaks the AnyType client; `**Field:**` markdown parser bug; stale `anytype_id` collisions on junk rows 1 & 2 (flagged for cleanup).
 - **Superseded by Thread 2 of the rethink:** OpenAlex is the bibliographic ground truth; the SQLite relational direction (Phase 1+ of `eliminate-anytype-plan.md`) is dropped. AnyType is decommission-tracked: MCP entry in `opencode.jsonc` now fails; server may still be running (read-only reference).
 
@@ -75,6 +75,6 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 ## 9. Conventions (stand on these)
 
 - Semantic commit prefixes; commit only when asked; never push main (feature branch + PR); ask before destructive commands / `git push`/`checkout` / edits outside this dir.
-- Untracked `archive/projects/anytype-based-tara/research-assistant-architecture-bcv.md` must never be committed.
+- `archive/` is gitignored (archived material; commit to it only when explicitly asked). `research-assistant-architecture-bcv.md` is tracked (previously blocked; rule lifted 2026-08-29).
 - User: Dr. Bradley "Brad" Vener; Denver/Mountain; GitHub `bvenner`; concise communication.
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.

@@ -22,7 +22,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 ## Conventions
 
 - Semantic commit prefixes; commit only when asked; never push `main` (feature branch → PR, confirm first); ask before destructive commands / git push|checkout / edits outside this directory.
-- Untracked file that must NEVER be committed: `archive/projects/anytype-based-tara/research-assistant-architecture-bcv.md`.
+- `archive/` is gitignored (archived material; commit to it only when explicitly asked). Historical note: `research-assistant-architecture-bcv.md` was once blocked from commit — that rule is now lifted (it is tracked).
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.
 - Git: after the collaborator rebase, `main` contains both histories; current work lives on `feat/fulltext-ingestion-v2` (pushed). Push only to feature branches (never `main`).
 

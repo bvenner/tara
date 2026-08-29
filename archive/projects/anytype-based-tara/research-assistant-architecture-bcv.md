@@ -1,0 +1,443 @@
+# Transdisciplinary Action Research Assistant (TARA)
+## Architecture Document — AnyType as User Interface Layer
+
+**Version**: 0.1  
+**Date**: 2026-05-31  
+**Author**: Dr. Bradley Vener  
+**Status**: Draft for evaluation
+
+---
+
+## 1. Executive Summary
+
+This document proposes a preliminary design for a **Transdisciplinary Action Research Assistant (TARA)**. The inputThe output of the research system is a model of the real-word system that is used as an input to a **transdisciplinary action design assistant (TADA)** that will design an intervention into that real-world system. 
+
+TARA builds upon the foundational insights of C. Ward Churchman into the design of inquiring systems.
+
+The architecture is **layered and modular**. It follows state-of-the art architechture patterns for the design of effective AI agents. Since the state-of-the-art is rapidly advancing, TARA maintains a research project that uses the research tools in the project to update a model of it's own architecture. TARA pursues transdisciplinary research on multi-agent systems for research from a number of scientific disciplines, including artificial intelligence, computer science, mathematics, sociology. 
+
+TARA is built upon following agent design best practices:
+
+1. smart simply, scale intelligently
+2. choose the right model for the job
+3. practice modular design
+4. extend capabilities with agent skills
+
+TARA builds upon existing research agent coding harnesses that are implemented for OpenCode. In later phases, TARA will need to help build it's own coding harness. TARA uses open-source components whenever possible. 
+
+One of the design goals is effective collaboration with external users. One means to encourage this collaboration is to interface with user's personal knowledge management systems. The current project uses **AnyType** to implement this design goal. AnyType serves as the interface to the research outputs, which are presented as a structured workspace and knowledge graph. Heavy computation — PDF extraction, citation graph traversal, semantic search, and system modeling — lives in dedicated local-first tools outside AnyType. Outputs are synced into AnyType as typed objects with relations, making them explorable and editable by human researchers.
+
+---
+
+## 2. Context & Goals
+
+### 2.1 Transdisciplinary Action Research (TARA)
+
+TARA is structured as one process in a larger process. It builds upon a four component model of 
+
+1. Reflect
+2. Research
+3. Design
+4. Implement
+
+A transdisciplinary problem is a complex problem that cannot be understood or solved from a single scientific perspective. Transdisciplinary problems are also called wicked problems. Transdisciplinary research crosses disciplinary boundaries. Action research involves stakeholders beyond the system designers. The goal of the larger process is **designed interventions into complex systems**.
+
+### 2.2 Near-Term Goal
+
+Support a small number of developers (starting with one) working to design this system. The immediate concrete deliverable is a **PDF processing pipeline and citation graph** to support academic research feeding into intervention design.
+
+### 2.3 Role of AnyType
+
+AnyType is evaluated as the **primary interface between the user and the LLM-based research agent**. Its object-oriented graph structure is well-suited to modeling research artifacts (papers, authors, projects, interventions) and relations between them. Its local-first, encrypted model aligns with research sovereignty. Its API and MCP server allow programmatic population from agent outputs.
+
+---
+
+## 3. Component Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    USER INTERFACE LAYER                     │
+│  ┌──────────────┐  ┌─────────────────┐  ┌────────────────┐  │
+│  │   AnyType    │  │  OpenCode CLI   │  │  Zotero (cite) │  │
+│  │  (Knowledge  │  │  (Agent command │  │  (Reference    │  │
+│  │   graph,     │  │   & skill invoc)│  │   management)  │  │
+│  │   projects)  │  │                 │  │                │  │
+│  └──────┬───────┘  └─────────────────┘  └────────────────┘  │
+└─────────┼───────────────────────────────────────────────────┘
+          │ MCP / REST
+┌─────────┼───────────────────────────────────────────────────┐
+│         │         AGENT ORCHESTRATION LAYER                 │
+│  ┌──────┴──────────────────────────────────────────────┐    │
+│  │  OpenCode + Custom Skills                           │    │
+│  └──────────────────┬─--───────────────────────────────┘    │
+│                     │                                       │
+└─────────────────────┼───────────────────────────────────────┘
+                      │ MCP multiplexing 
+┌─────────────────────┼───────────────────────────────────────┐
+│                     │        TOOL & DATA LAYER              │
+│  ┌──────────────────┴────────────────────────────────────┐  │
+│  │  MCP Server Mesh (via AgentGateway or direct config)  │  │
+│  │  ┌─────────────┐ ┌──────────────┐ ┌─────────────────┐ │  │
+│  │  │ AnyType MCP │ │ OpenAlex MCP │ │  Custom PDF MCP │ │  │
+│  │  │  (objects)  │ │ (citations)  │ │  (extraction)   │ │  │
+│  │  └─────────────┘ └──────────────┘ └─────────────────┘ │  │
+│  └───────────────────────────────────────────────────────┘  │
+│                                                             │
+│  ┌──────────────┐  ┌─────────────────┐  ┌─────────────────┐ │
+│  │ OpenAlex API │  │  Docling/Marker │  │  Local Graph    │ │
+│  │  (remote +   │  │  (PDF→Markdown  │  │  Store (Kùzu/   │ │
+│  │   local snap)│  │   + structure)  │  │   SQLite)       │ │
+│  └──────────────┘  └─────────────────┘  └─────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### 3.1 Layer Responsibilities
+
+| Layer | Components | Responsibility |
+|---|---|---|
+| **User Interface** | AnyType Desktop App, OpenCode CLI, Zotero | Human exploration, agent invocation, reference capture |
+| **Agent Orchestration** | OpenCode + custom skills | Research lifecycle management, boundary critique prompting, synthesis |
+| **MCP Server Mesh** | AnyType MCP, OpenAlex MCP, custom MCPs | Protocol bridges between agents and tools |
+| **Tool & Data** | OpenAlex, Docling, Marker, Kùzu/SQLite, local LLMs | Computation: citation graphs, PDF extraction, graph queries, inference |
+
+---
+
+## 4. Component Evaluation
+
+| Component | Role | Pros | Cons | Verdict |
+|---|---|---|---|---|
+| **AnyType** | User-facing knowledge graph, project tracker, intervention workspace | Local-first, E2E encrypted, rich types/relations, collections, file storage, human-readable | Rate limited (1rps sustained, burst 60), no semantic search, body updates recreate object, no server-side graph queries, requires desktop app or CLI running | **Use as UI layer**, not primary compute store |
+| **AnyType CLI** | Headless API server (port 31012) | Bot accounts, isolated from personal vault, ~512MB RAM, systemd service, same API as desktop | New (v0.3.2), bot accounts only (no mnemonic login), gRPC ports hardcoded | **Primary automation backbone** |
+| **OpenCode + autoresearch skill** | Agent orchestration, research lifecycle manager | Already in use, skill system exists, MCP support, manual invocation matches action research reflexivity | Skills are editor-bound, no persistent agent memory across sessions | **Extend with new skills**, keep as orchestrator |
+| **OpenAlex (API + local)** | Global citation graph, paper metadata, author disambiguation | 450M+ works, CC0, free API, local snapshot available, MCP server exists, abstracts for ~50% | $1/day API limit, snapshot is 200GB+, no full text for most | **Primary citation backbone** |
+| **Docling** | PDF→structured text extraction | MIT license, CPU-friendly, preserves tables/structure, `DoclingDocument` programmable, MCP server exists | Slower than MarkItDown on clean PDFs, ~600MB models | **Primary PDF extractor** |
+| **Marker** | PDF→markdown (math-heavy) | Best LaTeX/equation handling, high accuracy on academic papers | GPL-3.0 + custom model license, GPU-hungry, slow on CPU | **Secondary/academic specialization** |
+| **Zotero** | Personal reference library, citation generation | Mature, Better BibTeX, browser connector, group libraries | Not local-first, no graph view, no API (needs bridge) | **Keep for capture & CSL export; bridge to AnyType** |
+| **Kùzu / SQLite** | Local citation/entity graph | Fast graph queries, embeddable, SotAScope proven pattern (SQLite) | Another datastore to maintain | **Start with SQLite** (SotAScope model works), migrate to Kùzu if graph queries become bottleneck |
+
+---
+
+## 5. AnyType Data Model
+
+The following custom types and relations are proposed for TARA. They map academic research artifacts and action research concepts to AnyType's object-oriented structure.
+
+### 5.1 Custom Types
+
+| Type | Key Properties | Purpose |
+|---|---|---|
+| **Paper** | Title, DOI, Year, Venue, Abstract, OpenAlex ID, Local PDF Path, Ingestion Date | Academic paper as primary research artifact |
+| **Author** | Name, ORCID, Affiliation, H-Index | Disambiguated researcher |
+| **Project** | Title, Description, Status, Start Date, End Date | A research or intervention project |
+| **Research Question** | Question Text, Domain, Priority, Status | Driving question for a project |
+| **Intervention** | Title, Target System, Status, Cycle Count | A designed intervention into a real-world system |
+| **Stakeholder** | Name, Role, Group, Contact | Person or group affected by or involved in an intervention |
+| **Boundary Judgment** | Dimension (CSH 1-12), Is Answer, Ought Answer, Source Claim | Documented boundary critique output |
+| **Observation** | Date, Context, Data, Reflection | Action research observation from a cycle |
+| **System Model** | Name, Description, Type (causal loop, stock-flow, etc.), File | Formal or informal model of a system |
+
+### 5.2 Key Relations
+
+| Relation | From → To | Semantics |
+|---|---|---|
+| **authored_by** | Paper → Author | Paper written by author |
+| **cites** | Paper → Paper | Directed citation |
+| **related_to** | Paper → Paper | Semantic or topical relation (non-citation) |
+| **belongs_to** | Paper → Project | Paper is part of a project's literature base |
+| **addresses** | Project → Research Question | Project aims to answer this question |
+| **designs** | Project → Intervention | Project outputs this intervention |
+| **affects** | Intervention → Stakeholder | Stakeholder is affected by intervention |
+| **involves** | Intervention → Stakeholder | Stakeholder is involved in designing intervention |
+| **informs** | Boundary Judgment → Intervention | Boundary critique informs this intervention |
+| **models** | System Model → Intervention | Model represents system this intervention targets |
+| **observed_during** | Observation → Intervention | Observation collected during this intervention cycle |
+
+### 5.3 Collections (Sets)
+
+- **Literature Review** — all Papers in a Project
+- **Citation Network** — Papers linked by `cites`
+- **Active Interventions** — Interventions with status "in progress"
+- **Boundary Critique Log** — Boundary Judgments grouped by Intervention
+- **Stakeholder Map** — Stakeholders linked to an Intervention
+
+---
+
+## 6. Data Flows
+
+### 6.1 Near-Term: PDF Processing & Citation Pipeline
+
+```
+PDF (drop / Zotero)
+    │
+    ▼
+┌─────────────────┐
+│ Docling (CPU)   │ → Structured Markdown + JSON metadata
+│ or Marker (GPU) │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Metadata Extract  │ → DOI, title, authors
+│ (regex / header)  │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ OpenAlex API      │ → Work ID, references, cited_by, abstract
+│ (or local snap)   │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ Local Graph Store │ → Paper/Author/Citation nodes & edges
+│ (SQLite / Kùzu)   │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│ AnyType Sync Agent│ → Creates/updates AnyType objects
+│ (respects 1rps)   │    Paper, Author, Citation relations
+└─────────────────┘
+```
+
+### 6.2 Long-Term: Action Research / Intervention Design
+
+```
+Intervention Proposal
+    │
+    ▼
+┌──────────────────────────┐
+│ CSH Boundary Critique Skill│ → 12 boundary questions (is/ought)
+│ (OpenCode custom skill)    │    structured Boundary Judgment objects
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│ System Modeling Tools      │ → Causal loop diagrams, stock-flow
+│ (external or agent-built)  │    stored as System Model objects
+└────────┬─────────────────┘
+         │
+         ▼
+┌──────────────────────────┐
+│ AnyType Workspace          │ → Intervention, Stakeholder, Boundary
+│                            │    Judgment, System Model linked
+└────────┬─────────────────┘
+         │
+         ▼
+Plan → Act → Observe → Reflect cycles
+    │
+    ▼
+Each cycle creates: Observation objects
+                      linked to Intervention
+                      with date, data, reflection
+```
+
+---
+
+### 6.3 Vault / Channel Interaction Model (Multi-Device Sync)
+
+**Hierarchy:** Vault → Channel → Object
+
+- **Vault**: An encrypted container on a device. All Channels live inside it. Unlocked with a Key.
+- **Channel**: A graph container inside a Vault. Each Channel has its own sidebar, privacy settings, and access rights.
+- **Object**: A single page/note/file inside a Channel.
+
+**Key insight for TARA:** The bot's Vault and the user's Vault are completely separate. For multi-device sync, research objects must live in the **user's Vault** (because only the user's Vault syncs to their phone, tablet, and other computers via AnyType's native protocol). The bot joins the user's Channels via invite links.
+
+#### Channel-per-Project Decision
+
+**Recommendation:** One shared "TARA" Channel for the user–bot collaboration, with "Project" objects inside it for each research project.
+
+- **Why not one Channel per project?** AnyType does not have sub-channels. Switching between many Channels is cumbersome for the user. A single shared Channel with project-based collections/sets is more ergonomic.
+- **When to create a separate Channel:** Only for projects with different collaborators or privacy requirements.
+
+**Proposed Channel structure:**
+
+```
+Channel: "TARA Research"
+├── Project: "AI Safety in Healthcare"
+│   ├── Paper: "..."
+│   ├── Experiment: "..."
+│   └── Observation: "..."
+├── Project: "CSH in Urban Planning"
+│   ├── Intervention: "..."
+│   └── Stakeholder: "..."
+└── Collection: "All Projects"
+```
+
+#### Notification Model
+
+The bot notifies the user by creating **"Status Update"** objects in the shared Channel:
+
+- The bot creates a "Status Update" object linked to a Project
+- The user sees it in real-time in AnyType Desktop on all devices
+- Status updates contain progress, findings, or requests for human input
+- The user can reply by creating a new object or adding comments
+
+#### Interaction Diagram: Shared Channel Creation
+
+```
+User Vault (Personal)                Bot Vault (tara-bot)
+┌─────────────────────┐              ┌─────────────────────┐
+│                     │              │                     │
+│  [AnyType Desktop]  │              │  [anytype-cli]      │
+│  (Phone, Tablet,    │              │  (headless server)  │
+│   Laptop, etc.)     │              │                     │
+│                     │              │                     │
+└──────────┬──────────┘              └──────────┬──────────┘
+           │                                      │
+           │  1. User creates Channel "TARA"      │
+           │  2. User generates invite link       │
+           │     (Editor rights)                    │
+           │  3. User sends invite link to bot      │
+           │◄───────────────────────────────────────│
+           │                                      │
+           │  4. Bot joins Channel via invite link  │
+           │  5. Bot lists spaces → confirms joined │
+           │────────────────────────────────────────►│
+           │                                      │
+           │  6. Bot creates "Project" object       │
+           │  7. Bot creates "Status Update" object │
+           │◄───────────────────────────────────────│
+           │                                      │
+           │  8. User sees updates in Desktop app   │
+           │  9. AnyType syncs to all devices         │
+           │                                      │
+           │  10. User adds "Intervention" object   │
+           │  11. Bot reads and updates graph       │
+           │────────────────────────────────────────►│
+           │                                      │
+           │  12. Bot creates "Observation" objects │
+           │◄───────────────────────────────────────│
+           │                                      │
+           └──────────────────────────────────────┘
+```
+
+**Key flow:**
+1. **User** creates a Channel in their personal Vault and invites the bot
+2. **Bot** joins the Channel and can create/edit objects
+3. **Bot** creates "Project" and "Status Update" objects as research progresses
+4. **User** sees everything in AnyType Desktop on all devices
+5. **User** can add objects (e.g., "Intervention", "Boundary Judgment") and the bot responds
+
+#### Multi-Device Access
+
+Because the Channel lives in the **user's Vault**, AnyType's native sync ensures:
+- All objects appear on the user's phone, tablet, and other computers
+- The bot does not need to be running on those devices
+- Changes made by the bot on the server sync to the user's devices automatically
+- Changes made by the user on any device sync back to the bot (via the shared Channel)
+
+---
+
+## 7. Critical Gaps & Risks
+
+| Gap | Risk | Mitigation |
+|---|---|---|
+| AnyType API rate limits (1rps sustained, burst 60) | Bulk imports of large citation graphs are slow | Batch via script with sleeps; use local graph store for analysis, only sync summaries to AnyType |
+| No semantic search in AnyType | Cannot find semantically similar papers inside AnyType | Semantic search lives in OpenAlex-local or custom vector DB; AnyType stores OpenAlex IDs as properties |
+| AnyType requires desktop app or CLI running | Headless automation needs a service | Use `anytype-cli` as systemd service (port 31012); bot accounts are isolated |
+| Bot cannot access user's Vault directly | Bot must be invited to each Channel | Generate invite links from AnyType Desktop; bot joins via `anytype space join` |
+| No block-level API editing | Fine-grained updates to long research notes are clunky | Keep notes as smaller atomic objects; use Markdown body for final reports only |
+| CSH has no software implementation | Boundary critique is manual | Build as OpenCode skill using Ulrich's 12 questions as structured prompt template |
+| Bobrik / AI Ally is alpha-only | Native AnyType agent not ready | Use MCP-based external agents (OpenCode, Claude) via `anytype-cli` API for now |
+| `anytype-cli` is new (v0.3.2) | API may change, bugs possible | Pin version in devenv, follow releases, contribute issues upstream |
+
+---
+
+## 8. Implementation Phases
+
+| Phase | Deliverable | Components | Est. Effort |
+|---|---|---|---|
+| **0: Foundation** | Working AnyType ↔ OpenCode MCP connection | Install `anytype-cli` as service, configure AnyType MCP in OpenCode, verify object CRUD | 1 day |
+| **1: PDF Pipeline** | PDF ingestion → Docling → AnyType paper objects | Docling wrapper script, define AnyType `Paper`/`Author` types, test on sample PDFs | 2–3 days |
+| **2: Citation Graph** | Local OpenAlex + graph queries → AnyType collections | OpenAlex MCP or local snapshot, SQLite graph schema, sync agent | 3–5 days |
+| **3: Research Agent Integration** | OpenCode autoresearch outputs structured objects to AnyType | Extend autoresearch skill to emit AnyType objects; project-based collections | 3–5 days |
+| **4: Action Research** | CSH boundary critique skill, intervention types in AnyType | Custom skill for 12 boundary questions; AnyType types for interventions, stakeholders, observations | 5–7 days |
+
+---
+
+## 9. Tradeoff Decisions & Recommendations
+
+### 9.1 Graph Store: Kùzu vs SQLite
+
+**Recommendation: Start with SQLite**.
+
+The SotAScope project proves SQLite handles academic citation graphs well (FastAPI + SQLAlchemy + SQLite WAL). Kùzu is faster for complex graph traversals but adds a dependency. Migrate if query patterns demand it.
+
+### 9.2 PDF Extractor: Docling vs Marker vs Both
+
+**Recommendation: Docling primary, Marker conditional.**
+
+Docling is MIT-licensed, CPU-friendly, and preserves structure well. Its `DoclingDocument` intermediate representation is programmatically useful. Marker is superior for LaTeX/math-heavy papers but is GPL-3.0 with a custom model license and needs GPU. Use a router: Docling by default, Marker only for detected academic PDFs with heavy math.
+
+### 9.3 AnyType Sync Direction
+
+**Recommendation: Mostly one-way (compute → AnyType) with selective bidirectional links.**
+
+User tags and manual annotations in AnyType can propagate back to the local graph. Bulk citation data and agent outputs flow into AnyType. This avoids rate limit pain and data model mismatches.
+
+### 9.4 MCP Strategy: Direct vs Multiplexed Gateway
+
+**Recommendation: Direct to start.**
+
+Configure AnyType MCP, OpenAlex MCP, and custom PDF MCP directly in OpenCode. Add AgentGateway or Composio-style gateway only if server sprawl becomes unmanageable (likely after Phase 3+).
+
+---
+
+## 10. Related Projects & Prior Art
+
+| Project | Relevance | URL |
+|---|---|---|
+| **Orchestra Research AI-Research-SKILLs** | Two-loop autonomous research architecture; basis for autoresearch skill | github.com/Orchestra-Research/AI-research-SKILLs |
+| **SotAScope** | Local-first citation graph dashboard; SQLite + FastAPI + React pattern | github.com/jonkro/SotAScope |
+| **OpenAlex Local** | 284M-work local database with semantic search | github.com/ywatanabe1989/openalex-local |
+| **AnyType Mind** | AnyType + Claude Code structured brain; lifecycle hooks and subagents | github.com/imcvampire/anytype-mind |
+| **AnyType MCP Server** | Official MCP bridge; converts OpenAPI to MCP tools | github.com/anyproto/anytype-mcp |
+| **AnyType MCP Plus** | Enhanced community MCP with 34 tools, bug fixes | github.com/MAB2908/anytype-mcp-plus |
+| **Docling** | IBM's MIT-licensed PDF→structured text extractor | github.com/docling-project/docling |
+| **Marker** | Datalab's accuracy-first PDF→markdown converter | github.com/datalab-to/marker |
+| **OpenAlex MCP Server** | MCP server for scholarly database search and citation traversal | github.com/SMABoundless/openalex-mcp-server |
+| **Agent-Tektology** | Coalgebraic formalization of agent-organization coupling (Brad's own) | ~/Projects/agent-tektology |
+
+---
+
+## 11. Appendices
+
+### A. AnyType API Endpoints Relevant to TARA
+
+| Endpoint | Purpose | Limitation |
+|---|---|---|
+| `POST /v1/auth/challenges` | Generate auth challenge for API key | Requires desktop app or CLI running |
+| `POST /v1/auth/api_keys` | Obtain bearer token | One-time pairing per client |
+| `GET /v1/spaces` | List spaces | Bot account only sees joined spaces |
+| `POST /v1/spaces` | Create new space | — |
+| `GET /v1/spaces/{id}/types` | List custom types | — |
+| `POST /v1/spaces/{id}/types` | Create custom type | Key must be camelCase, unique |
+| `GET /v1/spaces/{id}/objects` | List objects (paginated) | Dynamic filtering experimental |
+| `POST /v1/spaces/{id}/objects` | Create object | Body is Markdown; properties in request |
+| `PATCH /v1/spaces/{id}/objects/{id}` | Update object | Body update recreates object (new ID) |
+| `POST /v1/search` | Global search across spaces | Matches name + snippet only; no semantic |
+| `POST /v1/spaces/{id}/lists/{id}/objects` | Add object to collection | — |
+
+### B. CSH Boundary Questions (Ulrich, 1983)
+
+Twelve boundary categories across four dimensions:
+
+1. **Sources of motivation** — Who ought to be the beneficiary? Who is?
+2. **Sources of power** — Who ought to be involved? Who is?
+3. **Sources of knowledge** — Who ought to be considered competent? Who is?
+4. **Sources of legitimation** — Who ought to be the guarantor? Who is?
+5. **System boundaries** — What is the relevant whole? What is considered?
+6. **Environment boundaries** — What is the relevant environment? What is considered?
+7. **Context of application** — What is the context of responsible action? What is assumed?
+8. **Universe of discourse** — What is the total conceivable universe? What is assumed?
+9. **Stakeholder stakes** — What improvements ought to be sought? What is sought?
+10. **Stakeholding issues** — What risks ought to be taken? What are taken?
+11. **Decision environment** — What guarantees ought to be given? What are given?
+12. **Planning concerns** — What worldviews ought to be considered? What are considered?
+
+Each question is answered in **"is"** mode (actual) and **"ought"** mode (ideal). Differences reveal boundary judgments to critique.
+
+---
+
+*End of document*
