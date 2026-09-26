@@ -135,14 +135,16 @@ def fulltext_local_contract():
     """mode "local": convert a staged PDF without downloading.
 
     Stage a copy under the doi_<sanitized-doi> key, convert (refresh), and
-    assert we got a converted md back.
+    assert we got a converted md back. Skipped in CI: staged PDFs live under
+    papers/incoming/, which is gitignored, so the source can never be present
+    in a fresh checkout. Locally, stage one PDF and the full check runs.
     """
     import re as _re
     import shutil as _shutil
     src = INCOMING / "https_openalex.org_W2747676085.pdf"
     if not src.exists():
-        raise RuntimeError("smoke needs a staged arXiv PDF "
-                           "(run fulltext once on this DOI)")
+        print("       SKIP  fulltext local contract (no staged PDF in papers/incoming/)")
+        return
     key = "doi_" + _re.sub(r"[^a-zA-Z0-9._-]+", "_",
                            "10.1103/physreve.96.042143").strip("_")
     staged = INCOMING / f"{key}.pdf"
