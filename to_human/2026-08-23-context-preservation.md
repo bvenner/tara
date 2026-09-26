@@ -76,5 +76,6 @@ Environment facts are in `AGENTS.md` (tooling bullets) and §7 below.
 
 - Semantic commit prefixes; commit only when asked; never push main (feature branch + PR); ask before destructive commands / `git push`/`checkout` / edits outside this dir.
 - `archive/` is gitignored (archived material; commit to it only when explicitly asked). `research-assistant-architecture-bcv.md` is tracked (previously blocked; rule lifted 2026-08-29).
-- User: Dr. Bradley "Brad" Vener; Denver/Mountain; GitHub `bvenner`; concise communication.
+- User: Dr. Bradley "Brad" Venner; Denver/Mountain; GitHub `bvenner`; concise communication.
+- Collaborator: Nic Venner; Denver/Mountain; GitHub `cappuccinocosmico`.
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.
