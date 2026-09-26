@@ -1,0 +1,236 @@
+{
+ "manifest_sha": "78e3853a95fcafde458471bd54e956cae92bce5401cc648e2c4920094183e1a3",
+ "docs": {
+  "ret-tssi/findings.md": "9dbe0efcc6bb41119fe5d8478c6b0350289cee3690b9e2fa726f8028a73a9222",
+  "ret-tssi/literature/baez-lynch-moeller-2023.md": "03e5e815f35ace1207f41b74b9ec1a479e337c6b30a30d47df0131fe71ef1863",
+  "ret-tssi/literature/bortkiewicz-sraffa-dual-system.md": "e864bb4ba880618b9398db39e0c877e6eafbde99668a3b4aba10407489009a1d",
+  "ret-tssi/literature/burger-etal-2013.md": "fc43890c7ab7353f14a2aae1d703a5472115b5f2bbaef0a829d60cb2e0956632",
+  "ret-tssi/literature/cattaneo-1948.md": "132277de2c6cc7745a2c5a87433f94e8de50094fb78484cee29131b0d24a1876",
+  "ret-tssi/literature/chen-levermore-liu-1994.md": "a02631c162f88c9f3e425446564288b60d7f84c35e9fffc66927d771c3b7c5cd",
+  "ret-tssi/literature/cockshott-2016.md": "ee324c5382315a7368c78493d7c7b86a1a956c99a22fb9b30a519f4ffe551a6e",
+  "ret-tssi/literature/cockshott-cottrell-1998.md": "9a68587466af0e47bd06f49aaf159ab7b2ce951cc9faf02bc8929c81154ff022",
+  "ret-tssi/literature/cottrell-etal-2009.md": "b22a53762982c292f734c2d6a26a5a2a943ba8bae0579aefe5072297a3216321",
+  "ret-tssi/literature/dumenil-levy-1987.md": "32ab45446ffcbed5b7be15694da420cf010fc186ffdaae95e5d613ae63def881",
+  "ret-tssi/literature/farjoun-machover-1983.md": "900ffd8cccedd43784c509cb4acd8ba0264916fb3fc273409e50bef1c8bc572b",
+  "ret-tssi/literature/flaschel-semmler-1987.md": "c1976d8b2b70fdd5b2a1f15cc370a6f58b68d6accbff43bfe35b7d092c79604a",
+  "ret-tssi/literature/freeman-1996.md": "bd4b2f296f7134c05b38d174ffa145b47f46c172b60b65bda6c7dc991e05c952",
+  "ret-tssi/literature/grmela-generic-multiscale.md": "013d5d12629260555b697587b21527bd45b70904d68ea3b7d101dd90d2fa70b5",
+  "ret-tssi/literature/jou-etal-eit.md": "1d32288e433854bf90ccc26bba9ff0ed08ca3ddb10ad826a26bad2869c768aa7",
+  "ret-tssi/literature/kliman-mcglone-1999.md": "f236b353d13edd58fb375613d729400783f9b7f4dc1a881ab9cc36dfe771a628",
+  "ret-tssi/literature/lawvere-1986.md": "7cd7756aa0f02b3ae9ba52c4416b94886f5f086f5d30e622fc8c17a86dee2a95",
+  "ret-tssi/literature/mohun-veneziani-2009.md": "e11a9c054074094fda12e9b1211d87f5e367e1461bb1964782d3b3c60f40fd84",
+  "ret-tssi/literature/muller-ruggeri-1998.md": "34fc87a9194773913b2b7d4d89455e8f5e87800b0a453aa0f00e69bf3910a60e",
+  "ret-tssi/literature/ratanov-telegraph-finance.md": "52a64937facee9b7248b4f198a7ba5048cda517ab36ff00820c9ab65e6fe338e",
+  "ret-tssi/literature/rational-thermodynamics-tradition.md": "b1cf4a74a81b5e34cfbe760c8a6d2eecc82ed3c487d734c73ad9d111acc6ecd4",
+  "ret-tssi/literature/ruggeri-strumia-1981.md": "f9fb2bf1d1d8e4524c4e2468dd2659a9640ac4a852fd0e9fa9ffc34fa0b94b04",
+  "ret-tssi/literature/stability-dissipative-hyperbolic.md": "751c24fa1ca77be52574539a064ab022e00bb9b811e3d3242d7c2411b8337fdc",
+  "ret-tssi/literature/steedman-1984.md": "44f721afffb7b3caa032ab60b71538ed7b3fd7d8c5f2f2e6dd203e575562cecb",
+  "ret-tssi/literature/veneziani-2005.md": "4e077a75288c533615f13ec1c5a197a4ccac98e1a7da5434bbc9729dedfa481e",
+  "ret-tssi/literature/wright-2005.md": "6cecf43127ff9f6cfddf64c44edd864633a0e3afb6e653a4948766c5eebf5e60",
+  "ret-tssi/program/critiques.md": "0f8d9c080208e412a9f0a83bd09dc3f40bfa3980c7b11a0c95d995f66bc3adc2",
+  "ret-tssi/program/research-program.md": "41f1f84a3a8f457ca3b940e80a1739cd3a25eb7f3a1ce0f79a0c8f4fc31b164b",
+  "ret-tssi/research-log.md": "325d60eda3ce65351f4c53bb90a65c4bc145130660683eeca932575a4eb1eed0",
+  "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
+  "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
+  "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
+  "poc/REPORT.md": "5ec26a64e6ece43460fd5618037a209470e0382405268e3dc1044fac93b4fe93",
+  "poc/USAGE.md": "c2953d5a9eeee2f5c1cc9d5f5daf2ec963da78bd41c870bad534b2948cfaf360",
+  "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
+  "top/knowledge-repository-proposal.md": "4cce99f04fe167dbe0ccaeb950d706b34832626ddc1f0b226b8de9af263a3161",
+  "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
+  "fulltext/https_openalex.org_W1919133474.md": "88f18b799d57b11ce63148068daeee4330525ad7eb586388d1fa31c1de071379",
+  "fulltext/https_openalex.org_W2017005585.md": "bc50b4f8add8ef755da6782b7352c3508300c674911f4ff910aea5d086842437",
+  "fulltext/https_openalex.org_W2102277728.md": "dcbd4daf0f4109f753546612e8fa932bf6ed802ce662815a098a2f686f060e58",
+  "fulltext/https_openalex.org_W2747676085.md": "cbd58a2f286f2acb617386c96849e6ed339e553d445fa65d19dec36798ac20d3",
+  "fulltext/https_openalex.org_W3098165131.md": "b1b573db78c83a627655753a2319e5a943f252214810104ca824b975bd0da1c4",
+  "openalex/https_openalex.org_W1630122343": "b09040cc1043d3ecc0a21ddd775f653d599316565caf767f96daa03f02ebe0a6",
+  "openalex/https_openalex.org_W1689769220": "b24727af0ab1b77079a50ccc9879acefc7dc28ba81864a83b6ffcd32a7e3f046",
+  "openalex/https_openalex.org_W1919133474": "c700612065d96ceafa063b917c071802935ec852113f60def6119d3968629a2a",
+  "openalex/https_openalex.org_W1987349636": "9487b7409e06c451bdbae7d354ec81b18ea1884b3045059f91242fa16668574f",
+  "openalex/https_openalex.org_W1988468031": "bf2122b7bdc62a4a25071b44c31c7de98c7e155670b5b71e71fabc476ba0c32b",
+  "openalex/https_openalex.org_W2017005585": "8895a70e42db4b4a64190dda5528ad15870172222dd0d30cc5e5144d33be8ed0",
+  "openalex/https_openalex.org_W2050945279": "54473f56524694fd365724398d4b6697a9037223b67d6cc519d7912ea9fd4633",
+  "openalex/https_openalex.org_W2076330525": "7e437fc12ee5cf4cf89910369090af1127946f78134203cd0d3b06c67898df76",
+  "openalex/https_openalex.org_W2088012579": "d1b2d411370c88dcb248aa01229de2950b436f3c86457521797b2a7004435743",
+  "openalex/https_openalex.org_W2099504029": "caef95047ab8f0789a8a7d4de60b9fca87768661e87f80717dc926e735092d7b",
+  "openalex/https_openalex.org_W2102277728": "9f31cdb5733ed833b1f84745e04c6b8ffae83c8eb6d52357f823dce926647a1a",
+  "openalex/https_openalex.org_W2147828940": "6ece40004bd56a4522b3a537238b8c7b10b9720593155f6eb0eaebb3ee836b09",
+  "openalex/https_openalex.org_W2215173806": "641ff71d9cb5a031840dcd236668dd43184eaa6e68e32a7951b454c350863994",
+  "openalex/https_openalex.org_W2267469130": "00f1364f627547e4b1a32ecf405d034dfd12f7ef9ebd42132e4c29d8cf108c05",
+  "openalex/https_openalex.org_W2507710874": "f8cfeae5a20be3b8fa041726be10533756ccafe67ebd4cc26c41a18fd52c9d3c",
+  "openalex/https_openalex.org_W2613067797": "14d8dbc991712c12c91471af9d544aea85883fe3a23db96bd61eee3e79653935",
+  "openalex/https_openalex.org_W2747676085": "8d9dab226f77d3e8c5419d90d1890ec09be4b128cea433bff4331d03c93172a6",
+  "openalex/https_openalex.org_W2793851618": "10568e04ada3b97b98ba54ca102b2149403350f7c398438a07b122bcb59e9a30",
+  "openalex/https_openalex.org_W2919561213": "c487f1f6029644bcb4f00bf8c802843181d5c025dd449152ba2a7190c7d5bbaf",
+  "openalex/https_openalex.org_W3012074597": "7612140b61118d5374ab6df80f15796d52ee239460528ac9e6c3c34851b5df46",
+  "openalex/https_openalex.org_W3054626598": "f37981f35f26bfd1d07f93ded1805293ff88fbc2a81514c2f45367f4b5ba067d",
+  "openalex/https_openalex.org_W3092573715": "f557b3f29c690dffb566c72a632da8ceba5fee3eb7fda5334b95308edce23251",
+  "openalex/https_openalex.org_W3098165131": "df3f21f03e18c374762d68f199a61156ab7eecee7aa3fb562168535b34f16fe4",
+  "openalex/https_openalex.org_W3100951637": "7e9f1d090f21ab1ee253e7f33ac1fd9c7f3f77cf78e679b59e5a69a32eefa324",
+  "openalex/https_openalex.org_W3107145433": "d58804081ea0a0ed1c394cc8e4b4c9b94c726600ec9b7620e8d7a5c10f75bf6b",
+  "openalex/https_openalex.org_W3209883919": "4c3879d0ad73151703fc6b6b884f6bf10f7d1d7810a680763d510a445cb15648",
+  "openalex/https_openalex.org_W3212950476": "ec9c071309f1955c5694258be2bd66abecbdc6eeacf279344a5d004317df9472",
+  "openalex/https_openalex.org_W3213037972": "ecf232dc04f1df28f1f17d3b850324a01e717fd1a2614f3afe5b14b4acb3fb2a",
+  "openalex/https_openalex.org_W4220846098": "6126f8c6af2538381f23c5dda298efd42385abcde2f2674b8da65b0ca10f4479",
+  "openalex/https_openalex.org_W4250399327": "bdfe82bbb6dd5b499819c7796513552994c43adba3a12e18cb3a9a69bbbad02f",
+  "openalex/https_openalex.org_W4280559094": "bc50665d95b6b48b63b6ac5781a9f17305d0c0bcfcb47ea4c4b8a56f6bb9c9eb",
+  "openalex/https_openalex.org_W4362472596": "e60738318a87cd1228c85278d331dea936ee6fe5885c1578f80b9fe78ff7a12c",
+  "openalex/https_openalex.org_W4404111866": "e8899a126f2a702b795202fd13d8d9a747116917b7d5a5ee63728d67500fa18e"
+ },
+ "n_docs": 75,
+ "stats": {
+  "docs": 75,
+  "sections": 468,
+  "nodes": 1964,
+  "edges": 468,
+  "node_kinds": {
+   "project": 6,
+   "section": 413,
+   "keyword": 1324,
+   "notation": 8,
+   "artifact": 10,
+   "citation": 21,
+   "author": 149,
+   "work": 33
+  },
+  "arity_hist": {
+   "2": 44,
+   "3": 60,
+   "4": 43,
+   "5": 63,
+   "6": 74,
+   "7": 76,
+   "8": 39,
+   "9": 15,
+   "10": 9,
+   "11": 8,
+   "12": 4,
+   "13": 4,
+   "14": 3,
+   "15": 8,
+   "16": 5,
+   "17": 4,
+   "19": 3,
+   "21": 1,
+   "22": 2,
+   "23": 1,
+   "24": 1,
+   "45": 1
+  },
+  "mean_degree": 1.517,
+  "max_degree": 250,
+  "top_hubs": [
+   {
+    "node": "project:fulltext",
+    "kind": "project",
+    "label": "fulltext",
+    "degree": 250
+   },
+   {
+    "node": "project:ret-tssi",
+    "kind": "project",
+    "label": "ret-tssi",
+    "degree": 116
+   },
+   {
+    "node": "project:poc",
+    "kind": "project",
+    "label": "poc",
+    "degree": 51
+   },
+   {
+    "node": "notation:gravitation",
+    "kind": "notation",
+    "label": "gravitation",
+    "degree": 38
+   },
+   {
+    "node": "notation:cattaneo",
+    "kind": "notation",
+    "label": "Cattaneo",
+    "degree": 36
+   },
+   {
+    "node": "notation:sk condition",
+    "kind": "notation",
+    "label": "SK condition",
+    "degree": 34
+   },
+   {
+    "node": "project:openalex",
+    "kind": "project",
+    "label": "openalex",
+    "degree": 33
+   },
+   {
+    "node": "notation:simultaneism",
+    "kind": "notation",
+    "label": "simultaneism",
+    "degree": 32
+   },
+   {
+    "node": "notation:tau_j",
+    "kind": "notation",
+    "label": "tau_J",
+    "degree": 28
+   },
+   {
+    "node": "artifact:t3",
+    "kind": "artifact",
+    "label": "T3",
+    "degree": 25
+   },
+   {
+    "node": "notation:fourier",
+    "kind": "notation",
+    "label": "Fourier",
+    "degree": 22
+   },
+   {
+    "node": "artifact:track a",
+    "kind": "artifact",
+    "label": "Track A",
+    "degree": 22
+   },
+   {
+    "node": "artifact:t4",
+    "kind": "artifact",
+    "label": "T4",
+    "degree": 20
+   },
+   {
+    "node": "artifact:track b",
+    "kind": "artifact",
+    "label": "Track B",
+    "degree": 19
+   },
+   {
+    "node": "artifact:track c",
+    "kind": "artifact",
+    "label": "Track C",
+    "degree": 18
+   }
+  ],
+  "degree_hist": {
+   "1": 1822,
+   "2": 164,
+   "3-5": 109,
+   "6-10": 74,
+   "11-20": 124,
+   "21-50": 270,
+   "51-100": 51,
+   "101-500": 366
+  },
+  "hub_coverage": 0.024,
+  "bib_entries": 74,
+  "projects": [
+   "ret-tssi",
+   "poc",
+   "top",
+   "island-dt",
+   "fulltext"
+  ],
+  "external_works": 33,
+  "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"
+ }
+}

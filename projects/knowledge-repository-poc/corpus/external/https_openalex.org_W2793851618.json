@@ -1,0 +1,15 @@
+{
+ "openalex_id": "https://openalex.org/W2793851618",
+ "doi": "https://doi.org/10.1186/s40965-018-0042-y",
+ "title": "The Energy Application Domain Extension for CityGML: enhancing interoperability for urban energy simulations",
+ "year": 2018,
+ "venue": "Open Geospatial Data Software and Standards",
+ "authors": [
+  "Giorgio Agugiaro",
+  "Joachim Benner",
+  "Piergiorgio Cipriano",
+  "Romain Nouvel"
+ ],
+ "abstract": "The road towards achievement of the climate protection goals requires, among the rest, a thorough rethinking of the energy planning tools (and policies) at all levels, from local to global. Nevertheless, it is in the cities where the largest part of energy is produced and consumed, and therefore it makes sense to focus the attention particularly on the cities as they yield great potentials in terms of energy consumption reduction and efficiency increase. As a direct consequence, a comprehensive knowledge of the demand and supply of energy resources, including their spatial distribution within urban areas, is therefore of utmost importance. Precise, integrated knowledge about 3D urban space, i.e. all urban (above and underground) features, infrastructures, their functional and semantic characteristics, and their mutual dependencies and interrelations play a relevant role for advanced simulation and analyses. As a matter of fact, what in the last years has proven to be an emerging and effective approach is the adoption of standard-based, integrated semantic 3D virtual city models, which represent an information hub for most of the above-mentioned needs. In particular, being based on open standards (e.g. on the CityGML standard by the Open Geospatial Consortium), virtual city models firstly reduce the effort in terms of data preparation and provision. Secondly, they offer clear data structures, ontologies and semantics to facilitate data exchange between different domains and applications. However, a standardised and omni-comprehensive urban data model covering also the energy domain is still missing at the time of writing (January 2018). Even CityGML falls partially short when it comes to the definition of specific entities and attributes for energy-related applications. Nevertheless, and starting from the current version of CityGML (i.e. 2.0), this article describes the conception and the definition of an Energy Application Domain Extension (ADE) for CityGML. The Energy ADE is meant to offer a unique and standard-based data model to fill, on one hand, the above-mentioned gap, and, on the other hand, to allow for both detailed single-building energy simulation (based on sophisticated models for building physics and occupant behaviour) and city-wide, bottom-up energy assessments, with particular focus on the buildings sector. The overall goal is to tackle the existing data interoperability issues when dealing with energy-related applications at urban scale. The article presents the rationale behind the Energy ADE, it describes its main characteristics, the relation to other standards, and provides some examples of current applications and case studies already adopting it.",
+ "citation_count": 118
+}

@@ -1,0 +1,12 @@
+{
+ "openalex_id": "https://openalex.org/W2076330525",
+ "doi": "https://doi.org/10.1063/1.1728759",
+ "title": "Mechanics of Deformation and Acoustic Propagation in Porous Media",
+ "year": 1962,
+ "venue": "Journal of Applied Physics",
+ "authors": [
+  "M. A. Biot"
+ ],
+ "abstract": "A unified treatment of the mechanics of deformation and acoustic propagation in porous media is presented, and some new results and generalizations are derived. The writer's earlier theory of deformation of porous media derived from general principles of nonequilibrium thermodynamics is applied. The fluid-solid medium is treated as a complex physical-chemical system with resultant relaxation and viscoelastic properties of a very general nature. Specific relaxation models are discussed, and the general applicability of a correspondence principle is further emphasized. The theory of acoustic propagation is extended to include anisotropic media, solid dissipation, and other relaxation effects. Some typical examples of sources of dissipation other than fluid viscosity are considered.",
+ "citation_count": 3928
+}

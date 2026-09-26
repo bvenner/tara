@@ -1,0 +1,155 @@
+{
+ "docs": 75,
+ "sections": 468,
+ "nodes": 1964,
+ "edges": 468,
+ "node_kinds": {
+  "project": 6,
+  "section": 413,
+  "keyword": 1324,
+  "notation": 8,
+  "artifact": 10,
+  "citation": 21,
+  "author": 149,
+  "work": 33
+ },
+ "arity_hist": {
+  "2": 44,
+  "3": 60,
+  "4": 43,
+  "5": 63,
+  "6": 74,
+  "7": 76,
+  "8": 39,
+  "9": 15,
+  "10": 9,
+  "11": 8,
+  "12": 4,
+  "13": 4,
+  "14": 3,
+  "15": 8,
+  "16": 5,
+  "17": 4,
+  "19": 3,
+  "21": 1,
+  "22": 2,
+  "23": 1,
+  "24": 1,
+  "45": 1
+ },
+ "mean_degree": 1.517,
+ "max_degree": 250,
+ "top_hubs": [
+  {
+   "node": "project:fulltext",
+   "kind": "project",
+   "label": "fulltext",
+   "degree": 250
+  },
+  {
+   "node": "project:ret-tssi",
+   "kind": "project",
+   "label": "ret-tssi",
+   "degree": 116
+  },
+  {
+   "node": "project:poc",
+   "kind": "project",
+   "label": "poc",
+   "degree": 51
+  },
+  {
+   "node": "notation:gravitation",
+   "kind": "notation",
+   "label": "gravitation",
+   "degree": 38
+  },
+  {
+   "node": "notation:cattaneo",
+   "kind": "notation",
+   "label": "Cattaneo",
+   "degree": 36
+  },
+  {
+   "node": "notation:sk condition",
+   "kind": "notation",
+   "label": "SK condition",
+   "degree": 34
+  },
+  {
+   "node": "project:openalex",
+   "kind": "project",
+   "label": "openalex",
+   "degree": 33
+  },
+  {
+   "node": "notation:simultaneism",
+   "kind": "notation",
+   "label": "simultaneism",
+   "degree": 32
+  },
+  {
+   "node": "notation:tau_j",
+   "kind": "notation",
+   "label": "tau_J",
+   "degree": 28
+  },
+  {
+   "node": "artifact:t3",
+   "kind": "artifact",
+   "label": "T3",
+   "degree": 25
+  },
+  {
+   "node": "notation:fourier",
+   "kind": "notation",
+   "label": "Fourier",
+   "degree": 22
+  },
+  {
+   "node": "artifact:track a",
+   "kind": "artifact",
+   "label": "Track A",
+   "degree": 22
+  },
+  {
+   "node": "artifact:t4",
+   "kind": "artifact",
+   "label": "T4",
+   "degree": 20
+  },
+  {
+   "node": "artifact:track b",
+   "kind": "artifact",
+   "label": "Track B",
+   "degree": 19
+  },
+  {
+   "node": "artifact:track c",
+   "kind": "artifact",
+   "label": "Track C",
+   "degree": 18
+  }
+ ],
+ "degree_hist": {
+  "1": 1822,
+  "2": 164,
+  "3-5": 109,
+  "6-10": 74,
+  "11-20": 124,
+  "21-50": 270,
+  "51-100": 51,
+  "101-500": 366
+ },
+ "hub_coverage": 0.024,
+ "bib_entries": 74,
+ "projects": [
+  "ret-tssi",
+  "poc",
+  "top",
+  "island-dt",
+  "fulltext"
+ ],
+ "external_works": 33,
+ "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"
+}

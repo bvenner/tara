@@ -1,0 +1,15 @@
+(* Hyperedge-intersection reasoning over the knowledge repository.
+   Given seed concepts, return the hyperedges where at least `min_seeds`
+   of them co-occur — the strongest grounding for a reasoning question. *)
+type Seed = { concept: string, matched_nodes: [string] }
+type Hit = { edge_id: string, doc: string, section: string, arity: int, seeds: [string], nodes: [string] }
+type Trace = { topic: string, min_seeds: int, seeds: [Seed], hits: [Hit], distinct_sections: int }
+
+let trace_overlap : !{ topic: string, concepts: [string], min_seeds: number } -> !Trace = exec {
+  cmd: "../bin/tara-python",
+  args: ["../scripts/graph_query.py", "--mode", "trace"]
+}
+
+let main : !{ topic: string, concepts: [string], min_seeds: number } -> !Trace = plumb(input, output) {
+  spawn trace_overlap(input, output)
+}

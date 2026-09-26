@@ -1,0 +1,28 @@
+name: stack (Job 1)
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.13"
+
+      - name: Lockfile not stale
+        run: uv lock --check
+
+      - name: Install from frozen lockfile
+        run: uv sync --frozen
+
+      - name: Smoke (worker contracts, rejection paths, determinism)
+        run: uv run python projects/knowledge-repository-poc/scripts/smoke.py

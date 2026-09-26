@@ -1,0 +1,22 @@
+{
+ "openalex_id": "https://openalex.org/W3213037972",
+ "doi": "https://doi.org/10.1016/j.buildenv.2021.108552",
+ "title": "Information modelling for urban building energy simulation\u2014A taxonomic review",
+ "year": 2021,
+ "venue": "Building and Environment",
+ "authors": [
+  "Avichal Malhotra",
+  "Julian Bischof",
+  "Alexandru Nichersu",
+  "Karl\u2010Heinz H\u00e4fele",
+  "Johannes Exenberger",
+  "Divyanshu Sood",
+  "James Allan",
+  "J\u00e9r\u00f4me Frisch",
+  "Christoph van Treeck",
+  "James O\u2019Donnell",
+  "Gerald Schweiger"
+ ],
+ "abstract": "Climate change, increasing emissions and rising global temperatures have gradually affected the way we think about the future of our planet. Urban areas possess significant potential for reducing the energy consumption of the overall energy system. In recent years, there is an increasing number of research initiatives related to Urban Building Energy Modelling (UBEM) that focus on simulation processes and validation techniques. Although input data are crucial for the modelling process as well as for the validity of the results, the availability of input data and associated data formats were not analysed in detail. This paper closes the identified knowledge gap by presenting a taxonomic analysis of key UBEM components including: input data formats, simulation tools, simulation results and validation techniques. This paper concludes that over \u223c95% of the studies analysed were not reproducible due to the absence of information relating to key aspects of the respective methodologies such as data sources and simulation workflows. This paper also qualifies how weak levels of interoperability, with respect to input and output data, is present in all phases of UBEM.",
+ "citation_count": 87
+}

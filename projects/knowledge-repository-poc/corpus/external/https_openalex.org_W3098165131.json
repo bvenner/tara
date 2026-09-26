@@ -1,0 +1,16 @@
+{
+ "openalex_id": "https://openalex.org/W3098165131",
+ "doi": "https://doi.org/10.1088/1751-8113/49/14/143001",
+ "title": "The role of quantum information in thermodynamics\u2014a topical review",
+ "year": 2016,
+ "venue": "Journal of Physics A Mathematical and Theoretical",
+ "authors": [
+  "John Goold",
+  "Marcus Huber",
+  "Arnau Riera",
+  "L\u00eddia del Rio",
+  "Paul Skrzypczyk"
+ ],
+ "abstract": "Abstract This topical review article gives an overview of the interplay between quantum information theory and thermodynamics of quantum systems. We focus on several trending topics including the foundations of statistical mechanics, resource theories, entanglement in thermodynamic settings, fluctuation theorems and thermal machines. This is not a comprehensive review of the diverse field of quantum thermodynamics; rather, it is a convenient entry point for the thermo-curious information theorist. Furthermore this review should facilitate the unification and understanding of different interdisciplinary approaches emerging in research groups around the world.",
+ "citation_count": 943
+}

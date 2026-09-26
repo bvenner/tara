@@ -1,0 +1,16 @@
+(* Download openly-accessible articles and convert them to markdown for
+   hypergraph extraction. Modes: "doi" (single DOI) or "corpus" (all external
+   records, bounded by limit). Strict licensing by default: only locations with
+   a permissive license / arXiv / green OA status are fetched.
+   The exec interpreter comes from bin/tara-python (uv-managed devenv venv),
+   since this worker imports docling/torch that no bare nix shell provides. *)
+let run_fulltext : !{ mode: string, doi: string, limit: number, refresh: number, strict: number } ->
+                   !{ mode: string, found: int, downloaded: int, converted: int, skipped: int, reasons: string } = exec {
+  cmd: "../bin/tara-python",
+  args: ["../scripts/fetch_fulltext.py"]
+}
+
+let main : !{ mode: string, doi: string, limit: number, refresh: number, strict: number } ->
+           !{ mode: string, found: int, downloaded: int, converted: int, skipped: int, reasons: string } = plumb(input, output) {
+  spawn run_fulltext(input, output)
+}

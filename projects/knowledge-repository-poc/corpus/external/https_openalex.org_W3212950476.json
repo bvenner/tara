@@ -1,0 +1,14 @@
+{
+ "openalex_id": "https://openalex.org/W3212950476",
+ "doi": "https://doi.org/10.1088/0034-4885/51/8/002",
+ "title": "Extended irreversible thermodynamics",
+ "year": 1988,
+ "venue": "Reports on Progress in Physics",
+ "authors": [
+  "David Jou",
+  "Jos\u00e9 Casas-V\u00e1zquez",
+  "G. Lebon"
+ ],
+ "abstract": "A new formulation of nonequilibrium thermodynamics, known as extended irreversible thermodynamics, has fuelled increasing attention. The basic features of this formalism and several applications are reviewed. Extended irreversible thermodynamics includes dissipative fluxes (heat flux, viscous pressure tensor, electric current) in the set of basic independent variables of the entropy. Starting from this hypothesis, and by using methods similar to classical irreversible thermodynamics, evolution equations for these fluxes are obtained. These equations reduce to the classical constitutive laws in the limit of slow phenomena, but may also be applied to fast phenomena, such as second sound in solids, ultrasound propagation or generalised hydrodynamics. In contrast with the classical theory, extended thermodynamics leads to hyperbolic equations with finite speeds of propagation for thermal and viscous signals. Supplementary information about the macroscopic parameters is provided by fluctuation theory. The results of the macroscopic theory are confirmed by the kinetic theory of gases and nonequilibrium statistical mechanics. The theory is particularly useful for studying the thermodynamics of nonequilibrium steady states and systems with long relaxation times, such as viscoelastic media or systems at low temperatures. There is no difficulty in formulating the theory in the relativistic context. Applications to rigid electrical conductors as well as several generalisations including higher-order fluxes are also presented. A final section is devoted to the formulation of extended irreversible thermodynamics within the framework of the so-called rational thermodynamics.",
+ "citation_count": 538
+}

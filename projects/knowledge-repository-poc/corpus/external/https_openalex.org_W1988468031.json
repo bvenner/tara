@@ -1,0 +1,14 @@
+{
+ "openalex_id": "https://openalex.org/W1988468031",
+ "doi": "https://doi.org/10.1088/0034-4885/62/7/201",
+ "title": "Extended irreversible thermodynamics revisited (1988-98)",
+ "year": 1999,
+ "venue": "Reports on Progress in Physics",
+ "authors": [
+  "David Jou",
+  "Jos\u00e9 Casas-V\u00e1zquez",
+  "G. Lebon"
+ ],
+ "abstract": "We review the progress made in extended irreversible thermodynamics during the ten years that have elapsed since the publication of our first review on the same subject ( Rep. Prog. Phys. 1988 51 1105 - 72). During this decade much effort has been devoted to achieving a better understanding of the fundamentals and a broadening of the domain of applications. The macroscopic formulation of extended irreversible thermodynamics is reviewed and compared with other non-equilibrium thermodynamic theories. The foundations of EIT are discussed on the bases of information theory, kinetic theory, stochastic phenomena and computer simulations. Several significant applications are presented, some of them of considerable practical interest (non-classical heat transport, polymer solutions, non-Fickian diffusion, microelectronic devices, dielectric relaxation), and some others of special theoretical appeal (superfluids, nuclear collisions, cosmology). We also outline some basic problems which are not yet completely solved, such as the definitions of entropy and temperature out of equilibrium, the selection of the relevant variables, and the status to be reserved to the H -theorem and its relation to the second law. In writing this review, we had four objectives in mind: to show (i) that extended irreversible thermodynamics stands at the frontiers of modern thermodynamics; (ii) that it opens the way to new and useful applications; (iii) that much progress has been achieved during the last decade, and (iv) that the subject is far from being exhausted.",
+ "citation_count": 267
+}

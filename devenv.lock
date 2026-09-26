@@ -17,6 +17,22 @@
         "type": "github"
       }
     },
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1767039857,
+        "narHash": "sha256-vNpUSpF5Nuw8xvDLj2KCwwksIbjua2LZCqhV1LNRDns=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "5edf11c44bc78a0d334f6334cdaf7d60d732daab",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "inputs": {
         "nixpkgs-src": "nixpkgs-src"
@@ -33,6 +49,27 @@
         "owner": "cachix",
         "ref": "rolling",
         "repo": "devenv-nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-python": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1786471740,
+        "narHash": "sha256-9PEUIbLorWC455Oa/4dxuLh+PFPfENBOgEN52gw+Onk=",
+        "owner": "cachix",
+        "repo": "nixpkgs-python",
+        "rev": "4d2bd16c09baaa04f4045f16f6a5574654aaba16",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cachix",
+        "repo": "nixpkgs-python",
         "type": "github"
       }
     },
@@ -73,6 +110,7 @@
       "inputs": {
         "devenv": "devenv",
         "nixpkgs": "nixpkgs",
+        "nixpkgs-python": "nixpkgs-python",
         "nixpkgs-unstable": "nixpkgs-unstable"
       }
     }

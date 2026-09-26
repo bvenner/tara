@@ -1,0 +1,15 @@
+{
+ "openalex_id": "https://openalex.org/W1919133474",
+ "doi": "https://doi.org/10.1080/00018732.2016.1198134",
+ "title": "From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics",
+ "year": 2016,
+ "venue": "Advances In Physics",
+ "authors": [
+  "Luca D'Alessio",
+  "Yariv Kafri",
+  "Anatoli Polkovnikov",
+  "Marcos Rigol"
+ ],
+ "abstract": "This review gives a pedagogical introduction to the eigenstate thermalization hypothesis (ETH), its basis, and its implications to statistical mechanics and thermodynamics. In the first part, ETH is introduced as a natural extension of ideas from quantum chaos and random matrix theory (RMT). To this end, we present a brief overview of classical and quantum chaos, as well as RMT and some of its most important predictions. The latter include the statistics of energy levels, eigenstate components, and matrix elements of observables. Building on these, we introduce the ETH and show that it allows one to describe thermalization in isolated chaotic systems without invoking the notion of an external bath. We examine numerical evidence of eigenstate thermalization from studies of many-body lattice systems. We also introduce the concept of a quench as a means of taking isolated systems out of equilibrium, and discuss results of numerical experiments on quantum quenches. The second part of the review explores the implications of quantum chaos and ETH to thermodynamics. Basic thermodynamic relations are derived, including the second law of thermodynamics, the fundamental thermodynamic relation, fluctuation theorems, the fluctuation\u2013dissipation relation, and the Einstein and Onsager relations. In particular, it is shown that quantum chaos allows one to prove these relations for individual Hamiltonian eigenstates and thus extend them to arbitrary stationary statistical ensembles. In some cases, it is possible to extend their regimes of applicability beyond the standard thermal equilibrium domain. We then show how one can use these relations to obtain nontrivial universal energy distributions in continuously driven systems. At the end of the review, we briefly discuss the relaxation dynamics and description after relaxation of integrable quantum systems, for which ETH is violated. We present results from numerical experiments and analytical studies of quantum quenches at integrability. We introduce the concept of the generalized Gibbs ensemble and discuss its connection with ideas of prethermalization in weakly interacting systems.",
+ "citation_count": 2404
+}

@@ -1,0 +1,469 @@
+edge_id	doc	section	arity
+e0	ret-tssi/findings.md	Findings — The Formal Correspondence	8
+e1	ret-tssi/findings.md	1. The two paradoxes of simultaneity	5
+e2	ret-tssi/findings.md	2. The thermodynamic pole (what we borrow)	5
+e3	ret-tssi/findings.md	3. The economic pole (what we reformulate)	6
+e4	ret-tssi/findings.md	4. The correspondence table	9
+e5	ret-tssi/findings.md	5. Model skeleton (Track A, Phase 1 — candidate Master's problem)	12
+e6	ret-tssi/findings.md	6. Track B synthesis (foundations)	5
+e7	ret-tssi/findings.md	7. Track C synthesis (computational/empirical)	4
+e8	ret-tssi/findings.md	8. Risk register (program level)	4
+e9	ret-tssi/literature/baez-lynch-moeller-2023.md	Baez, Lynch & Moeller (2023) — Compositional Thermostatics	9
+e10	ret-tssi/literature/bortkiewicz-sraffa-dual-system.md	Bortkiewicz–Sraffa Tradition — The Simultaneous Dual-System Benchmark	10
+e11	ret-tssi/literature/burger-etal-2013.md	Burger, Caffarelli, Markowich & Wolfram (2013) — A Boltzmann-Type Price Formation Model	9
+e12	ret-tssi/literature/cattaneo-1948.md	Cattaneo (1948) — Sulla conduzione del calore	12
+e13	ret-tssi/literature/chen-levermore-liu-1994.md	Chen, Levermore & Liu (1994) — Hyperbolic Conservation Laws with Stiff Relaxation and Entropy	9
+e14	ret-tssi/literature/cockshott-2016.md	Cockshott (2016) — Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence	9
+e15	ret-tssi/literature/cockshott-cottrell-1998.md	Cockshott & Cottrell (1997/1998) — Does Marx Need to Transform? / Scientific Status of the LTV	7
+e16	ret-tssi/literature/cottrell-etal-2009.md	Cottrell, Cockshott, Michaelson, Wright & Yakovenko (2009) — Classical Econophysics	10
+e17	ret-tssi/literature/dumenil-levy-1987.md	Duménil & Lévy (1987) — The Dynamics of Competition: A Restoration of the Classical Analysis	9
+e18	ret-tssi/literature/farjoun-machover-1983.md	Farjoun & Machover (1983) — Laws of Chaos	8
+e19	ret-tssi/literature/flaschel-semmler-1987.md	Flaschel & Semmler (1987) — Classical and Neoclassical Competitive Adjustment Processes	10
+e20	ret-tssi/literature/freeman-1996.md	Freeman (1996) — Price, Value and Profit: A Continuous, General Treatment	10
+e21	ret-tssi/literature/grmela-generic-multiscale.md	Grmela & Öttinger — GENERIC and Multiscale Thermodynamics	6
+e22	ret-tssi/literature/jou-etal-eit.md	Jou, Casas-Vázquez & Lebon — Extended Irreversible Thermodynamics; Ruggeri & Sugiyama (2015)	8
+e23	ret-tssi/literature/kliman-mcglone-1999.md	Kliman & McGlone (1999) — A Temporal Single-system Interpretation of Marx's Value Theory	8
+e24	ret-tssi/literature/lawvere-1986.md	Lawvere & Schanuel (1986) — Categories in Continuum Physics	7
+e25	ret-tssi/literature/mohun-veneziani-2009.md	Mohun & Veneziani (2009) — The Temporal Single-System Interpretation: Underdetermination and Inconsistency	11
+e26	ret-tssi/literature/muller-ruggeri-1998.md	Müller & Ruggeri (1998) — Rational Extended Thermodynamics (2nd ed.)	5
+e27	ret-tssi/literature/ratanov-telegraph-finance.md	Telegraph-Process Models in Finance — Ratanov et al.	9
+e28	ret-tssi/literature/rational-thermodynamics-tradition.md	The Rational Thermodynamics Tradition — Coleman–Noll (1963), Coleman (1964), Truesdell (1984), Gurtin–Williams (1967), Müller (1967), Liu (1972)	9
+e29	ret-tssi/literature/ruggeri-strumia-1981.md	Ruggeri & Strumia (1981) — Main Field and Convex Covariant Density	10
+e30	ret-tssi/literature/stability-dissipative-hyperbolic.md	Stability of Dissipative Hyperbolic Systems — Hanouzet–Natalini (2003), Ruggeri–Serre (2004), Bianchini–Hanouzet–Natalini (2007)	10
+e31	ret-tssi/literature/steedman-1984.md	Steedman (1984) — Natural Prices, Differential Profit Rates and the Classical Competitive Process	12
+e32	ret-tssi/literature/veneziani-2005.md	Veneziani (2005) — Dynamics, Disequilibrium, and Marxian Economics: A Formal Analysis of Temporal Single-System Marxism	8
+e33	ret-tssi/literature/wright-2005.md	Wright (2005) — The Social Architecture of Capitalism	8
+e34	ret-tssi/program/critiques.md	Critiques of the Program — Steelman Document	5
+e35	ret-tssi/program/critiques.md	A1. "Physics envy — this is a metaphor, not a model"	7
+e36	ret-tssi/program/critiques.md	A2. "Category mistake: an economy is not a continuum"	3
+e37	ret-tssi/program/critiques.md	A3. "Unobservable parameters, unparsimonious"	9
+e38	ret-tssi/program/critiques.md	A4. "You're solving a non-problem"	8
+e39	ret-tssi/program/critiques.md	A5. "The relaxation limit vindicates simultaneism"	7
+e40	ret-tssi/program/critiques.md	A6. "Stability theorems reintroduce equilibrium by the back door"	5
+e41	ret-tssi/program/critiques.md	B1. "TSSI is an interpretation of a text, not a dynamical system"	5
+e42	ret-tssi/program/critiques.md	B2. "Your closure is one of infinitely many — why this one?" (underdetermination returns)	10
+e43	ret-tssi/program/critiques.md	B3. "There is no tendency to equalization at all" (the probabilist flank)	3
+e44	ret-tssi/program/critiques.md	B4. Priority/etiquette within the school	4
+e45	ret-tssi/program/critiques.md	C1. The entropy extension probably doesn't exist	9
+e46	ret-tssi/program/critiques.md	C2. "Hyperbolic" is overdressed for an ODE system	5
+e47	ret-tssi/program/critiques.md	C3. The singular limit is only locally valid in time	6
+e48	ret-tssi/program/critiques.md	C4. Only small-data stability is within reach	6
+e49	ret-tssi/program/critiques.md	C5. "Formalization is a proof of the obvious" (Track F)	5
+e50	ret-tssi/program/critiques.md	C6. "Proof assistants aren't ready for the real objects" (Track F)	6
+e51	ret-tssi/program/critiques.md	D1. No kinetic underpinning	5
+e52	ret-tssi/program/critiques.md	D2. "Entropy" is just a Lyapunov function with a borrowed name	4
+e53	ret-tssi/program/critiques.md	D3. "Why RET rather than GENERIC?"	3
+e54	ret-tssi/program/critiques.md	D4. "Learned closures are circular or unphysical" (Track E)	6
+e55	ret-tssi/program/critiques.md	E1. Audience squeeze (now four disciplines)	7
+e56	ret-tssi/program/critiques.md	E2. Missed neighbors	3
+e57	ret-tssi/program/critiques.md	E3. Scope creep (self-critique, sharpened for six tracks)	5
+e58	ret-tssi/program/critiques.md	E4. "The computational tracks are orthogonal to value theory"	10
+e59	ret-tssi/program/critiques.md	Consolidated amendments to `research-program.md`	22
+e60	ret-tssi/program/critiques.md	Watch list (to read before the exposé)	6
+e61	ret-tssi/program/research-program.md	Finite-Speed Value: A Research Program in Marxian Econophysics	5
+e62	ret-tssi/program/research-program.md	1. Overview	14
+e63	ret-tssi/program/research-program.md	2.1 The transformation problem and TSSI	2
+e64	ret-tssi/program/research-program.md	2.2 Rational extended thermodynamics	7
+e65	ret-tssi/program/research-program.md	2.3 Gravitation dynamics	8
+e66	ret-tssi/program/research-program.md	2.4 Classical econophysics and finite-speed precedents	2
+e67	ret-tssi/program/research-program.md	2.5 Gap summary	5
+e68	ret-tssi/program/research-program.md	3. The core correspondence	13
+e69	ret-tssi/program/research-program.md	4. Track A — Physics × Economics: the hyperbolic value-price system	16
+e70	ret-tssi/program/research-program.md	5. Track B — Mathematics × Physics: foundations of extended thermodynamics	4
+e71	ret-tssi/program/research-program.md	6. Track C — Computer Science × Economics: simulation and empirical estimation	7
+e72	ret-tssi/program/research-program.md	7. Track D — Mathematics × Economics: the formal theory of value-price dynamics	9
+e73	ret-tssi/program/research-program.md	8. Track E — Physics × Computer Science: computational thermodynamics of value-price dynamics	11
+e74	ret-tssi/program/research-program.md	9. Track F — Mathematics × Computer Science: certified and executable mathematics	7
+e75	ret-tssi/program/research-program.md	10. Phasing, dependencies, publication strategy	6
+e76	ret-tssi/program/research-program.md	11. Master's thesis decision point	11
+e77	ret-tssi/program/research-program.md	12. References	3
+e78	ret-tssi/research-log.md	2026-08-15 — Project initialization and program document	6
+e79	ret-tssi/research-log.md	2026-08-16 — Git commit + critiques document	19
+e80	ret-tssi/research-log.md	2026-08-16 — Track refactor (3 → 4 tracks, four-discipline framing)	7
+e81	ret-tssi/research-log.md	2026-08-16 — Six-track completion + bibliography reorganization	45
+e82	ret-tssi/research-log.md	2026-08-16 — Commit + context preservation	4
+e83	ret-tssi/research-log.md	2026-08-16 — Proposal walkthrough + AGENTS.md wiring	7
+e84	ret-tssi/to_human/2026-08-15-program-delivery.md	What exists now	7
+e85	ret-tssi/to_human/2026-08-15-program-delivery.md	Decisions embedded (confirm or redirect)	7
+e86	ret-tssi/to_human/2026-08-15-program-delivery.md	Not done (awaiting your review)	3
+e87	ret-tssi/to_human/2026-08-16-context-preservation.md	Context Preservation — read after a context reset	2
+e88	ret-tssi/to_human/2026-08-16-context-preservation.md	1. Project origin (attribution)	6
+e89	ret-tssi/to_human/2026-08-16-context-preservation.md	2. Program framing decisions (confirmed with Brad, in order)	8
+e90	ret-tssi/to_human/2026-08-16-context-preservation.md	3. Master's thesis exposé — format benchmarks (from web research; needed for phase 2)	3
+e91	ret-tssi/to_human/2026-08-16-context-preservation.md	4. Open next steps (from Brad's list; status)	3
+e92	ret-tssi/to_human/2026-08-16-context-preservation.md	5. Status: the consolidated amendments to research-program.md	5
+e93	ret-tssi/to_human/2026-08-16-context-preservation.md	6. Open decisions awaiting Brad	3
+e94	ret-tssi/to_human/2026-08-16-context-preservation.md	6.5 Pending commitments (conversation-only, not in any document)	5
+e95	ret-tssi/to_human/2026-08-16-context-preservation.md	7. Working conventions (per AGENTS.md + session)	2
+e96	ret-tssi/to_human/2026-08-16-context-preservation.md	8. Verification ledger (what was checked, so it isn't re-checked)	3
+e97	ret-tssi/to_human/2026-08-16-context-preservation.md	9. Key intellectual landmarks (theses that must survive)	7
+e98	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	Finite-Speed Value: A Walkthrough	6
+e99	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	1. The whole program in five minutes	11
+e100	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	2.1 The heat paradox (physics)	8
+e101	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	2.2 The transformation problem (economics)	7
+e102	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	2.3 What the two paradoxes share	4
+e103	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	3. The core move: a formal correspondence	7
+e104	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4. The statistical compass: Jaynes as the guide	7
+e105	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.1 Jaynes' MaxEnt in one paragraph	4
+e106	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.2 Four statistical mirrors	7
+e107	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.3 Statistical equilibrium is already Jaynesian	3
+e108	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	4.4 What the compass does and does not claim	6
+e109	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	5. The physics explainer	7
+e110	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	6. The mathematics explainer	13
+e111	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	7. The economics explainer	9
+e112	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	8. The computer science explainer	10
+e113	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	9. Assembling the tracks	6
+e114	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	10. What success looks like	11
+e115	ret-tssi/to_human/2026-08-16-proposal-walkthrough.md	11. Glossary	12
+e116	poc/REPORT.md	Knowledge-Repository POC — Phase A, Step 1	4
+e117	poc/REPORT.md	Method	13
+e118	poc/REPORT.md	Corpus	4
+e119	poc/REPORT.md	Results	15
+e120	poc/REPORT.md	Artifacts (`graph/`)	2
+e121	poc/REPORT.md	Rebuild	2
+e122	poc/REPORT.md	Next	5
+e123	poc/REPORT.md	Pipelines (`pipelines/`)	2
+e124	poc/REPORT.md	MCP wiring	4
+e125	poc/REPORT.md	Verified behavior	5
+e126	poc/REPORT.md	Step 2 gotchas (learned)	3
+e127	poc/REPORT.md	Next	2
+e128	poc/REPORT.md	The demo question	11
+e129	poc/REPORT.md	Step 3 gotcha	4
+e130	poc/REPORT.md	Next	3
+e131	poc/REPORT.md	Corpus manifest (`corpus.json`) — build is now manifest-driven	4
+e132	poc/REPORT.md	Pipelines	3
+e133	poc/REPORT.md	Growth (rebuilt graph)	8
+e134	poc/REPORT.md	New capability demonstrated	4
+e135	poc/REPORT.md	Incremental fast path	5
+e136	poc/REPORT.md	OpenAlex expansion run (this build)	2
+e137	poc/REPORT.md	Next	4
+e138	poc/REPORT.md	Next	3
+e139	poc/REPORT.md	Next	3
+e140	poc/REPORT.md	Next	3
+e141	poc/REPORT.md	Next	3
+e142	poc/REPORT.md	Next	5
+e143	poc/USAGE.md	Knowledge Repository — How to Use	4
+e144	poc/USAGE.md	1. One-time setup	2
+e145	poc/USAGE.md	2. Minimal workflow (60 seconds)	3
+e146	poc/USAGE.md	Rebuild the hypergraph from the current corpus	3
+e147	poc/USAGE.md	Ground a claim: which sections co-occur with my seed concepts?	5
+e148	poc/USAGE.md	3. What the pipelines do	3
+e149	poc/USAGE.md	Modes detail	2
+e150	poc/USAGE.md	Manually downloading a full-text PDF and converting it	5
+e151	poc/USAGE.md	4. Growing the corpus	2
+e152	poc/USAGE.md	5. The grounding skill	5
+e153	poc/USAGE.md	6. Local verification (smoke) and CI	3
+e154	poc/USAGE.md	7. Artifacts and layout	2
+e155	poc/USAGE.md	8. Gotchas	3
+e156	poc/plumbing-setup.md	Plumbing — environment setup & smoke test	4
+e157	poc/plumbing-setup.md	What plumbing provides here	3
+e158	poc/plumbing-setup.md	Installation — the path that works: Nix source build	4
+e159	poc/plumbing-setup.md	nix available: nix 2.34.7 on this host	3
+e160	poc/plumbing-setup.md	Usage	3
+e161	poc/plumbing-setup.md	Run a pipeline from a JSON stream on stdin	2
+e162	poc/plumbing-setup.md	Type-check at load time	3
+e163	poc/plumbing-setup.md	render the architecture as a graph (dot)	3
+e164	poc/plumbing-setup.md	MCP bridge (exposes pipelines as MCP tools to opencode)	4
+e165	poc/plumbing-setup.md	Smoke-test transcript (all passed)	2
+e166	poc/plumbing-setup.md	Notes / gotchas	3
+e167	top/knowledge-repository-proposal.md	An Explicit Knowledge Repository for the opencode Research Assistant	4
+e168	top/knowledge-repository-proposal.md	1. Framing: the gap this fills	3
+e169	top/knowledge-repository-proposal.md	Why hypergraphs, not a pairwise graph	3
+e170	top/knowledge-repository-proposal.md	2. Design principles	4
+e171	top/knowledge-repository-proposal.md	3. Proposed architecture	2
+e172	top/knowledge-repository-proposal.md	4. Component assessment	3
+e173	top/knowledge-repository-proposal.md	5. The knowledge-engineering loop	2
+e174	top/knowledge-repository-proposal.md	6. Phased plan	4
+e175	top/knowledge-repository-proposal.md	7. Risks and open decisions	2
+e176	top/knowledge-repository-proposal.md	8. Why this fits the research program	3
+e177	island-dt/literature-review.md	Island Digital Twin — Literature Review	3
+e178	island-dt/literature-review.md	Executive summary	2
+e179	island-dt/literature-review.md	A. Island & urban metabolism — the flow layer	4
+e180	island-dt/literature-review.md	B. 3D city models & standards — the geometric + data substrate	3
+e181	island-dt/literature-review.md	C. Digital twins — the container (urban theory, island practice, EU policy)	5
+e182	island-dt/literature-review.md	D. Participatory planning support & geodesign — the decision process	3
+e183	island-dt/literature-review.md	Synthesis: how the pieces compose into an "island digital twin"	6
+e184	island-dt/literature-review.md	Caveats	3
+e185	fulltext/https_openalex.org_W1919133474.md	HEAD	2
+e186	fulltext/https_openalex.org_W1919133474.md	From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics	4
+e187	fulltext/https_openalex.org_W1919133474.md	From Quantum Chaos and Eigenstate Thermalization to Statistical Mechanics and Thermodynamics	4
+e188	fulltext/https_openalex.org_W1919133474.md	1. Introduction	8
+e189	fulltext/https_openalex.org_W1919133474.md	2.1. Classical Chaos	7
+e190	fulltext/https_openalex.org_W1919133474.md	2.2. Random Matrix Theory	5
+e191	fulltext/https_openalex.org_W1919133474.md	2.2.1. Chaotic Eigenfunctions	8
+e192	fulltext/https_openalex.org_W1919133474.md	2.2.2. The Structure of the Matrix Elements of Operators	5
+e193	fulltext/https_openalex.org_W1919133474.md	2.3. Berry-Tabor Conjecture	8
+e194	fulltext/https_openalex.org_W1919133474.md	2.4. The Semi-Classical Limit and Berry's Conjecture	5
+e195	fulltext/https_openalex.org_W1919133474.md	3.1. Examples of Wigner-Dyson and Poisson Statistics	5
+e196	fulltext/https_openalex.org_W1919133474.md	3.2. The Structure of Many-Body Eigenstates	5
+e197	fulltext/https_openalex.org_W1919133474.md	3.3. Quantum Chaos and Entanglement	6
+e198	fulltext/https_openalex.org_W1919133474.md	each time t , nitial product states, let them S ( t ) for each initial state, and -2 n ln 2 -O ( mn ) 3.4. Quantum Chaos and Delocalization in Energy Space	5
+e199	fulltext/https_openalex.org_W1919133474.md	4.1. Thermalization in Quantum Systems	7
+e200	fulltext/https_openalex.org_W1919133474.md	4.2. The Eigenstate Thermalization Hypothesis (ETH)	6
+e201	fulltext/https_openalex.org_W1919133474.md	4.2.1. ETH and Thermalization	6
+e202	fulltext/https_openalex.org_W1919133474.md	4.2.2. ETH and the Quantum Ergodic Theorem	6
+e203	fulltext/https_openalex.org_W1919133474.md	4.3.1. Eigenstate Thermalization	5
+e204	fulltext/https_openalex.org_W1919133474.md	4.3.2. Quantum Quenches and Thermalization in Lattice Systems	5
+e205	fulltext/https_openalex.org_W1919133474.md	5. Quantum Chaos and the Laws of Thermodynamics	7
+e206	fulltext/https_openalex.org_W1919133474.md	5.1. General Setup and Doubly Stochastic Evolution	6
+e207	fulltext/https_openalex.org_W1919133474.md	5.1.1. Properties of Master Equations and Doubly Stochastic Evolution	6
+e208	fulltext/https_openalex.org_W1919133474.md	5.2. General Implications of Doubly Stochastic Evolution	8
+e209	fulltext/https_openalex.org_W1919133474.md	5.2.1. The Infinite Temperature State as an Attractor of Doubly-Stochastic Evolution	6
+e210	fulltext/https_openalex.org_W1919133474.md	5.2.2. Increase of the Diagonal Entropy Under Doubly Stochastic Evolution	6
+e211	fulltext/https_openalex.org_W1919133474.md	5.2.3. The Second Law in the Kelvin Formulation for Passive Density Matrices	6
+e212	fulltext/https_openalex.org_W1919133474.md	5.3. Implications of Doubly-Stochastic Evolution for Chaotic Systems	7
+e213	fulltext/https_openalex.org_W1919133474.md	5.3.1. The Diagonal Entropy and the Fundamental Thermodynamic Relation	5
+e214	fulltext/https_openalex.org_W1919133474.md	5.3.2. The Fundamental Relation vs the First Law of Thermodynamics	7
+e215	fulltext/https_openalex.org_W1919133474.md	6. Quantum Chaos, Fluctuation Theorems, and Linear Response Relations	8
+e216	fulltext/https_openalex.org_W1919133474.md	6.1. Fluctuation Theorems	6
+e217	fulltext/https_openalex.org_W1919133474.md	6.1.1. Fluctuation Theorems for Systems Starting from a Gibbs State	6
+e218	fulltext/https_openalex.org_W1919133474.md	6.1.2. Fluctuation Theorems for Quantum Chaotic Systems	5
+e219	fulltext/https_openalex.org_W1919133474.md	6.2. Detailed Balance for Open Systems	7
+e220	fulltext/https_openalex.org_W1919133474.md	6.3. Einstein's Energy Drift-Diffusion Relations for Isolated and Open Systems	2
+e221	fulltext/https_openalex.org_W1919133474.md	6.4. Fokker-Planck Equation for the Heating of a Driven Isolated System	4
+e222	fulltext/https_openalex.org_W1919133474.md	6.5. Fluctuation Theorems for Two (or More) Conserved Quantities	5
+e223	fulltext/https_openalex.org_W1919133474.md	6.6. Linear Response and Onsager Relations	3
+e224	fulltext/https_openalex.org_W1919133474.md	6.7. Nonlinear Response Coefficients	5
+e225	fulltext/https_openalex.org_W1919133474.md	6.8. ETH and the Fluctuation-Dissipation Relation for a Single Eigenstate	3
+e226	fulltext/https_openalex.org_W1919133474.md	6.9. ETH and Two-Observable Correlations Functions	6
+e227	fulltext/https_openalex.org_W1919133474.md	7. Application of Einstein's Relation to Continuously Driven Systems	3
+e228	fulltext/https_openalex.org_W1919133474.md	7.1. Heating a Particle in a Fluctuating Chaotic Cavity	7
+e229	fulltext/https_openalex.org_W1919133474.md	7.2. Driven Harmonic System and a Phase Transition in the Distribution Function	7
+e230	fulltext/https_openalex.org_W1919133474.md	7.3. Two Equilibrating Systems	7
+e231	fulltext/https_openalex.org_W1919133474.md	8. Integrable Models and the Generalized Gibbs Ensemble (GGE)	6
+e232	fulltext/https_openalex.org_W1919133474.md	8.1. Constrained Equilibrium: the GGE	6
+e233	fulltext/https_openalex.org_W1919133474.md	8.1.1. Noninteracting Spinless Fermions	6
+e234	fulltext/https_openalex.org_W1919133474.md	8.1.2. Hard-Core Bosons	6
+e235	fulltext/https_openalex.org_W1919133474.md	8.2. Generalized Eigenstate Thermalization	6
+e236	fulltext/https_openalex.org_W1919133474.md	8.2.1. Truncated GGE for the Transverse Field Ising Model	6
+e237	fulltext/https_openalex.org_W1919133474.md	( y ) tGGE ,ℓ ) , the subsystem size ranges from ℓ = 5 to ℓ = 50. and sizes change gradually as a function of the size 8.3. Quenches in the XXZ model	4
+e238	fulltext/https_openalex.org_W1919133474.md	8.4. Relaxation of Weakly Non-Integrable Systems: Prethermalization and Quantum Kinetic Equations	3
+e239	fulltext/https_openalex.org_W1919133474.md	Acknowledgments	2
+e240	fulltext/https_openalex.org_W1919133474.md	Appendix A. The Kicked Rotor	3
+e241	fulltext/https_openalex.org_W1919133474.md	Appendix B. Zeros of the Riemann Zeta Function	7
+e242	fulltext/https_openalex.org_W1919133474.md	Appendix C. The Infinite Temperature State as an Attractor	7
+e243	fulltext/https_openalex.org_W1919133474.md	Appendix D. Birkhoff's Theorem and Doubly Stochastic Evolution	7
+e244	fulltext/https_openalex.org_W1919133474.md	Appendix E. Proof of 〈 W 〉 ≥ 0 for Passive Density Matrices and Doubly-Stochastic Evolution	3
+e245	fulltext/https_openalex.org_W1919133474.md	Appendix F. Derivation of the Drift Diffusion Relation for Continuous Processes	4
+e246	fulltext/https_openalex.org_W1919133474.md	Appendix G. Derivation of Onsager Relations	3
+e247	fulltext/https_openalex.org_W1919133474.md	References	2
+e248	fulltext/https_openalex.org_W2017005585.md	HEAD	2
+e249	fulltext/https_openalex.org_W2017005585.md	The social architecture of capitalism	5
+e250	fulltext/https_openalex.org_W2017005585.md	The Social Architecture of Capitalism	2
+e251	fulltext/https_openalex.org_W2017005585.md	Abstract	7
+e252	fulltext/https_openalex.org_W2017005585.md	1 Introduction	5
+e253	fulltext/https_openalex.org_W2017005585.md	2 A dynamic model of the social relations of production	6
+e254	fulltext/https_openalex.org_W2017005585.md	2.1 The active actor	6
+e255	fulltext/https_openalex.org_W2017005585.md	2.2 Employee hiring	6
+e256	fulltext/https_openalex.org_W2017005585.md	2.3 Expenditure on goods and services	8
+e257	fulltext/https_openalex.org_W2017005585.md	2.4 Interaction between firms and the market	7
+e258	fulltext/https_openalex.org_W2017005585.md	2.5 Employee firing	5
+e259	fulltext/https_openalex.org_W2017005585.md	2.6 Wage payment	7
+e260	fulltext/https_openalex.org_W2017005585.md	2.7 Historical time	5
+e261	fulltext/https_openalex.org_W2017005585.md	One month rule 1M :	7
+e262	fulltext/https_openalex.org_W2017005585.md	One year rule 1Y :	6
+e263	fulltext/https_openalex.org_W2017005585.md	3 Results	7
+e264	fulltext/https_openalex.org_W2017005585.md	3.1 Class distribution	5
+e265	fulltext/https_openalex.org_W2017005585.md	3.2 Firm size distribution	6
+e266	fulltext/https_openalex.org_W2017005585.md	3.3 Firm growth distributions	8
+e267	fulltext/https_openalex.org_W2017005585.md	Firm growth in the SR model is measured according to:	6
+e268	fulltext/https_openalex.org_W2017005585.md	3.4 Firm demise distribution	6
+e269	fulltext/https_openalex.org_W2017005585.md	3.5 GDP growth	5
+e270	fulltext/https_openalex.org_W2017005585.md	3.6 Duration of recessions	5
+e271	fulltext/https_openalex.org_W2017005585.md	3.7 Income shares	7
+e272	fulltext/https_openalex.org_W2017005585.md	3.8 Disaggregated income distributions	7
+e273	fulltext/https_openalex.org_W2017005585.md	3.9 Rate-of-profit distribution	7
+e274	fulltext/https_openalex.org_W2017005585.md	4 Discussion	4
+e275	fulltext/https_openalex.org_W2017005585.md	5 Conclusion	8
+e276	fulltext/https_openalex.org_W2017005585.md	References	2
+e277	fulltext/https_openalex.org_W2102277728.md	HEAD	2
+e278	fulltext/https_openalex.org_W2102277728.md	Stochastic thermodynamics, fluctuation theorems and molecular machines	3
+e279	fulltext/https_openalex.org_W2102277728.md	Udo Seifert	3
+e280	fulltext/https_openalex.org_W2102277728.md	CONTENTS	2
+e281	fulltext/https_openalex.org_W2102277728.md	1.1. From classical to stochastic thermodynamics	4
+e282	fulltext/https_openalex.org_W2102277728.md	1.2. Main features of stochastic thermodynamics	3
+e283	fulltext/https_openalex.org_W2102277728.md	1.3. Hamiltonian, thermostatted and open quantum dynamics	4
+e284	fulltext/https_openalex.org_W2102277728.md	1.4. Scope and organization of this review	4
+e285	fulltext/https_openalex.org_W2102277728.md	1.5. Complementary reviews	6
+e286	fulltext/https_openalex.org_W2102277728.md	2. Colloidal particle as paradigm	8
+e287	fulltext/https_openalex.org_W2102277728.md	2.1. Stochastic dynamics	2
+e288	fulltext/https_openalex.org_W2102277728.md	2.2. Non-equilibrium steady states (NESSs)	3
+e289	fulltext/https_openalex.org_W2102277728.md	2.3. Stochastic energetics	7
+e290	fulltext/https_openalex.org_W2102277728.md	2.4. Stochastic entropy	7
+e291	fulltext/https_openalex.org_W2102277728.md	2.5. Ensemble averages	2
+e292	fulltext/https_openalex.org_W2102277728.md	3. Fluctuation theorems (FTs)	6
+e293	fulltext/https_openalex.org_W2102277728.md	3.1. Phenomenological classification	5
+e294	fulltext/https_openalex.org_W2102277728.md	3.2. Non-equilibrium work theorems	3
+e295	fulltext/https_openalex.org_W2102277728.md	3.3. FTs for entropy production	8
+e296	fulltext/https_openalex.org_W2102277728.md	4. Unification of FTs	6
+e297	fulltext/https_openalex.org_W2102277728.md	4.1. Conjugate dynamics	4
+e298	fulltext/https_openalex.org_W2102277728.md	4.2. The master FT	7
+e299	fulltext/https_openalex.org_W2102277728.md	4.3. General IFTs	3
+e300	fulltext/https_openalex.org_W2102277728.md	4.4. FTs derived from time-reversal	2
+e301	fulltext/https_openalex.org_W2102277728.md	4.5. FTs for variants	6
+e302	fulltext/https_openalex.org_W2102277728.md	4.6. FTs for athermal systems	2
+e303	fulltext/https_openalex.org_W2102277728.md	5.1. Principal aspects	6
+e304	fulltext/https_openalex.org_W2102277728.md	5.2. Overdamped motion: Colloidal particles and other systems	6
+e305	fulltext/https_openalex.org_W2102277728.md	5.3. Underdamped motion	5
+e306	fulltext/https_openalex.org_W2102277728.md	5.4. Other systems	3
+e307	fulltext/https_openalex.org_W2102277728.md	6.1. Master equation dynamics	3
+e308	fulltext/https_openalex.org_W2102277728.md	6.2. Entropy production	3
+e309	fulltext/https_openalex.org_W2102277728.md	6.3. FTs for entropy production and 'work'	6
+e310	fulltext/https_openalex.org_W2102277728.md	6.4. FT for currents	5
+e311	fulltext/https_openalex.org_W2102277728.md	7.1. Optimal protocols	6
+e312	fulltext/https_openalex.org_W2102277728.md	7.2. Quantifying time's arrow	6
+e313	fulltext/https_openalex.org_W2102277728.md	7.3. Measurement and feedback	3
+e314	fulltext/https_openalex.org_W2102277728.md	8.1. Overview	5
+e315	fulltext/https_openalex.org_W2102277728.md	8.2. Derivation and discussion	2
+e316	fulltext/https_openalex.org_W2102277728.md	8.4. Sheared suspensions	6
+e317	fulltext/https_openalex.org_W2102277728.md	9.1. Overview	4
+e318	fulltext/https_openalex.org_W2102277728.md	9.2. Biopolymers with continuous degrees of freedom	2
+e319	fulltext/https_openalex.org_W2102277728.md	9.3. Free energy recovery from non-equilibrium data	8
+e320	fulltext/https_openalex.org_W2102277728.md	9.4. Enzymes and molecular motors with discrete states	3
+e321	fulltext/https_openalex.org_W2102277728.md	10.1. General aspects	5
+e322	fulltext/https_openalex.org_W2102277728.md	10.2. General framework for autonomous machines: Cycle representation and entropy production	3
+e323	fulltext/https_openalex.org_W2102277728.md	10.3. Power and efficiency	2
+e324	fulltext/https_openalex.org_W2102277728.md	10.4. Linear response: Relation to phenomenological irreversible thermodynamics	3
+e325	fulltext/https_openalex.org_W2102277728.md	10.5. Unicyclic machines	7
+e326	fulltext/https_openalex.org_W2102277728.md	10.6. Multicyclic machines: Strong vs weak coupling	6
+e327	fulltext/https_openalex.org_W2102277728.md	10.7. Efficiency and EMP of molecular motors	7
+e328	fulltext/https_openalex.org_W2102277728.md	11.1. Carnot, Curzon-Ahlborn and beyond	5
+e329	fulltext/https_openalex.org_W2102277728.md	11.2. Autonomous heat engines	6
+e330	fulltext/https_openalex.org_W2102277728.md	11.3. Periodically driven heat engines	6
+e331	fulltext/https_openalex.org_W2102277728.md	12. Concluding perspective	8
+e332	fulltext/https_openalex.org_W2102277728.md	12.1. Summary	5
+e333	fulltext/https_openalex.org_W2102277728.md	12.2. Beyond a Markovian dynamics: Memory effects and coarse-graining	3
+e334	fulltext/https_openalex.org_W2102277728.md	12.3. Coupling of non-equilibrium steady states: A zeroth law?	7
+e335	fulltext/https_openalex.org_W2102277728.md	12.4. Final remark	5
+e336	fulltext/https_openalex.org_W2102277728.md	Acknowledgments	8
+e337	fulltext/https_openalex.org_W2102277728.md	References	2
+e338	fulltext/https_openalex.org_W2747676085.md	HEAD	2
+e339	fulltext/https_openalex.org_W2747676085.md	Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes	2
+e340	fulltext/https_openalex.org_W2747676085.md	Rational Extended Thermodynamics of a Rarefied Polyatomic Gas with Molecular Relaxation Processes	4
+e341	fulltext/https_openalex.org_W2747676085.md	I. INTRODUCTION	6
+e342	fulltext/https_openalex.org_W2747676085.md	II. DISTRIBUTION FUNCTION WITH TWO ENERGIES OF INTERNAL MODES	7
+e343	fulltext/https_openalex.org_W2747676085.md	A. Equilibrium distribution function	7
+e344	fulltext/https_openalex.org_W2747676085.md	Statement 1	6
+e345	fulltext/https_openalex.org_W2747676085.md	B. Thermal and caloric equations of state	5
+e346	fulltext/https_openalex.org_W2747676085.md	III. NONEQUILIBRIUM TRIPLE HIERARCHY OF MOMENTEQUATIONS	5
+e347	fulltext/https_openalex.org_W2747676085.md	A. Truncated system of balance equations and its closure	6
+e348	fulltext/https_openalex.org_W2747676085.md	1. Galilean invariance	2
+e349	fulltext/https_openalex.org_W2747676085.md	2. MEP and the closure of the system	2
+e350	fulltext/https_openalex.org_W2747676085.md	IV. GENERALIZED BGK-MODEL	7
+e351	fulltext/https_openalex.org_W2747676085.md	A. Three relaxation times	7
+e352	fulltext/https_openalex.org_W2747676085.md	B. Generalized BGK collision term	4
+e353	fulltext/https_openalex.org_W2747676085.md	C. H-theorem	7
+e354	fulltext/https_openalex.org_W2747676085.md	V. ET THEORY WITH SEVEN INDEPENDENT FIELDS: ET 7	7
+e355	fulltext/https_openalex.org_W2747676085.md	A. System of balance equations	6
+e356	fulltext/https_openalex.org_W2747676085.md	B. Nonequilibrium distribution function	5
+e357	fulltext/https_openalex.org_W2747676085.md	Statement 2	8
+e358	fulltext/https_openalex.org_W2747676085.md	C. Closed system of field equations	5
+e359	fulltext/https_openalex.org_W2747676085.md	D. Entropy density and production	6
+e360	fulltext/https_openalex.org_W2747676085.md	E. Production terms in the generalized BGK-model	6
+e361	fulltext/https_openalex.org_W2747676085.md	VI. CHARACTERISTIC FEATURES OF ET 7	5
+e362	fulltext/https_openalex.org_W2747676085.md	A. Comparison with the Meixner theory	7
+e363	fulltext/https_openalex.org_W2747676085.md	B. Characteristic velocity, sub-characteristic conditions, and local exceptionality	5
+e364	fulltext/https_openalex.org_W2747676085.md	C. ET 6 theories as the principal subsystems of the ET 7 theory	6
+e365	fulltext/https_openalex.org_W2747676085.md	D. Near equilibrium case	2
+e366	fulltext/https_openalex.org_W2747676085.md	E. Homogeneous solution and relaxation of nonequilibrium temperatures	6
+e367	fulltext/https_openalex.org_W2747676085.md	VII. DISPERSION AND ATTENUATION OF ULTRASONIC WAVE: AN APPLICATION OF ET 7	8
+e368	fulltext/https_openalex.org_W2747676085.md	A. Dispersion relation	7
+e369	fulltext/https_openalex.org_W2747676085.md	B. Qualitative description of the dispersion relation	4
+e370	fulltext/https_openalex.org_W2747676085.md	C. Comparison with experimental data	4
+e371	fulltext/https_openalex.org_W2747676085.md	VIII. SUMMARY AND OUTLOOK	7
+e372	fulltext/https_openalex.org_W2747676085.md	ACKNOWLEDGMENTS	7
+e373	fulltext/https_openalex.org_W2747676085.md	Appendix: Proof of Statement 2	2
+e374	fulltext/https_openalex.org_W3098165131.md	HEAD	2
+e375	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics—a topical review	4
+e376	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics - a topical review	4
+e377	fulltext/https_openalex.org_W3098165131.md	I. INTRODUCTION	8
+e378	fulltext/https_openalex.org_W3098165131.md	FIG. 1: Maxwell's demon	6
+e379	fulltext/https_openalex.org_W3098165131.md	FIG. 2: The thermodynamic origin of the von Neumann entropy	6
+e380	fulltext/https_openalex.org_W3098165131.md	SCOPE AND OTHER REVIEWS	7
+e381	fulltext/https_openalex.org_W3098165131.md	Definitions and notation	3
+e382	fulltext/https_openalex.org_W3098165131.md	II. FOUNDATIONS OF STATISTICAL MECHANICS	7
+e383	fulltext/https_openalex.org_W3098165131.md	A. Equal a priori probabilities postulate as a consequence of typicality in Hilbert spaces	6
+e384	fulltext/https_openalex.org_W3098165131.md	B. Equilibration. Maximum entropy principle from quantum dynamics	8
+e385	fulltext/https_openalex.org_W3098165131.md	C. Thermalization. Emergence of Gibbs states in local Hamiltonians	7
+e386	fulltext/https_openalex.org_W3098165131.md	D. Equilibration times	8
+e387	fulltext/https_openalex.org_W3098165131.md	E. Outlook	6
+e388	fulltext/https_openalex.org_W3098165131.md	III. RESOURCE THEORIES	6
+e389	fulltext/https_openalex.org_W3098165131.md	A. Models for thermodynamics	7
+e390	fulltext/https_openalex.org_W3098165131.md	1. Noisy and unital operations	7
+e391	fulltext/https_openalex.org_W3098165131.md	2. Thermal operations	5
+e392	fulltext/https_openalex.org_W3098165131.md	3. Gibbs-preserving maps	9
+e393	fulltext/https_openalex.org_W3098165131.md	4. Coherence	8
+e394	fulltext/https_openalex.org_W3098165131.md	Example 1: Free energy as a monotone.	3
+e395	fulltext/https_openalex.org_W3098165131.md	5. Catalysts	8
+e396	fulltext/https_openalex.org_W3098165131.md	6. Clocks	6
+e397	fulltext/https_openalex.org_W3098165131.md	7. Free states and passivity	6
+e398	fulltext/https_openalex.org_W3098165131.md	Example 2: Heat engines	5
+e399	fulltext/https_openalex.org_W3098165131.md	8. Different baths	7
+e400	fulltext/https_openalex.org_W3098165131.md	9. Finite-size effects	6
+e401	fulltext/https_openalex.org_W3098165131.md	10. Single-shot regime	6
+e402	fulltext/https_openalex.org_W3098165131.md	11. Definitions of work	7
+e403	fulltext/https_openalex.org_W3098165131.md	B. Generalizing resource theories	8
+e404	fulltext/https_openalex.org_W3098165131.md	1. Starting from the pre-order	7
+e405	fulltext/https_openalex.org_W3098165131.md	2. Starting from the set of free resources	7
+e406	fulltext/https_openalex.org_W3098165131.md	3. In category theory	5
+e407	fulltext/https_openalex.org_W3098165131.md	Example 3: Landauer's principle	6
+e408	fulltext/https_openalex.org_W3098165131.md	4. Resource theories of knowledge	6
+e409	fulltext/https_openalex.org_W3098165131.md	C. Outlook	7
+e410	fulltext/https_openalex.org_W3098165131.md	IV. ENTANGLEMENT THEORY IN THERMODYNAMIC SETTINGS	8
+e411	fulltext/https_openalex.org_W3098165131.md	A. Correlations and entanglement under entropic restrictions	7
+e412	fulltext/https_openalex.org_W3098165131.md	B. Correlations and entanglement in a thermodynamic background	11
+e413	fulltext/https_openalex.org_W3098165131.md	C. Thermodynamics under locality restrictions	9
+e414	fulltext/https_openalex.org_W3098165131.md	D. Entanglement resources in thermodynamic tasks	8
+e415	fulltext/https_openalex.org_W3098165131.md	E. Using thermodynamics to reveal quantumness	7
+e416	fulltext/https_openalex.org_W3098165131.md	F. Outlook	7
+e417	fulltext/https_openalex.org_W3098165131.md	A. Introduction	7
+e418	fulltext/https_openalex.org_W3098165131.md	B. Phase estimation schemes for extraction of quantum work and heat statistics	9
+e419	fulltext/https_openalex.org_W3098165131.md	C. Fluctuation relations with feedback, measurement and CPTP maps	7
+e420	fulltext/https_openalex.org_W3098165131.md	D. Entropy production, relative entropy and correlations	7
+e421	fulltext/https_openalex.org_W3098165131.md	E. Outlook	5
+e422	fulltext/https_openalex.org_W3098165131.md	VI. QUANTUM THERMAL MACHINES	7
+e423	fulltext/https_openalex.org_W3098165131.md	A. Absorption refrigerators	6
+e424	fulltext/https_openalex.org_W3098165131.md	Example 5: Algorithmic cooling	4
+e425	fulltext/https_openalex.org_W3098165131.md	1. Stationary behaviour	7
+e426	fulltext/https_openalex.org_W3098165131.md	FIG. 5: Three-qubit fridge	7
+e427	fulltext/https_openalex.org_W3098165131.md	2. Transient behaviour	5
+e428	fulltext/https_openalex.org_W3098165131.md	B. Reservoir engineering	8
+e429	fulltext/https_openalex.org_W3098165131.md	C. Quantum thermodynamic signatures	8
+e430	fulltext/https_openalex.org_W3098165131.md	D. Stationary entanglement	7
+e431	fulltext/https_openalex.org_W3098165131.md	E. Outlook	4
+e432	fulltext/https_openalex.org_W3098165131.md	VII. FINAL REMARKS	7
+e433	fulltext/https_openalex.org_W3098165131.md	AUTHOR CONTRIBUTIONS	6
+e434	fulltext/https_openalex.org_W3098165131.md	ACKNOWLEDGEMENTS	2
+e435	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
+e436	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
+e437	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
+e438	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
+e439	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
+e440	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
+e441	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
+e442	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
+e443	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
+e444	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
+e445	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
+e446	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
+e447	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
+e448	openalex/https_openalex.org_W2267469130	openalex/https_openalex.org_W2267469130	24
+e449	openalex/https_openalex.org_W2507710874	openalex/https_openalex.org_W2507710874	17
+e450	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
+e451	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
+e452	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
+e453	openalex/https_openalex.org_W2919561213	openalex/https_openalex.org_W2919561213	22
+e454	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
+e455	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
+e456	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
+e457	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
+e458	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
+e459	openalex/https_openalex.org_W3107145433	openalex/https_openalex.org_W3107145433	15
+e460	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
+e461	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
+e462	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
+e463	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
+e464	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
+e465	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
+e466	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
+e467	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17

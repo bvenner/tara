@@ -1,0 +1,6913 @@
+{
+ "hypergraph_sha": "dde6cdf3b722c3e5a61cd9ef5d47e417cd0a947a5dfb24874380d30c5f02541a",
+ "index": {
+  "keyword:capital stocks": [
+   "e0"
+  ],
+  "keyword:direct labor vector": [
+   "e0"
+  ],
+  "keyword:price vector": [
+   "e0"
+  ],
+  "keyword:tau": [
+   "e0",
+   "e12"
+  ],
+  "notation:melt": [
+   "e0",
+   "e3",
+   "e5",
+   "e20",
+   "e23",
+   "e25",
+   "e32",
+   "e69",
+   "e115",
+   "e117"
+  ],
+  "notation:tau_j": [
+   "e0",
+   "e4",
+   "e5",
+   "e7",
+   "e37",
+   "e42",
+   "e54",
+   "e58",
+   "e59",
+   "e68",
+   "e69",
+   "e71",
+   "e73",
+   "e79",
+   "e82",
+   "e92",
+   "e97",
+   "e103",
+   "e111",
+   "e112",
+   "e117",
+   "e119",
+   "e128",
+   "e133",
+   "e147",
+   "e307",
+   "e308",
+   "e320"
+  ],
+  "project:ret-tssi": [
+   "e0",
+   "e1",
+   "e2",
+   "e3",
+   "e4",
+   "e5",
+   "e6",
+   "e7",
+   "e8",
+   "e9",
+   "e10",
+   "e11",
+   "e12",
+   "e13",
+   "e14",
+   "e15",
+   "e16",
+   "e17",
+   "e18",
+   "e19",
+   "e20",
+   "e21",
+   "e22",
+   "e23",
+   "e24",
+   "e25",
+   "e26",
+   "e27",
+   "e28",
+   "e29",
+   "e30",
+   "e31",
+   "e32",
+   "e33",
+   "e34",
+   "e35",
+   "e36",
+   "e37",
+   "e38",
+   "e39",
+   "e40",
+   "e41",
+   "e42",
+   "e43",
+   "e44",
+   "e45",
+   "e46",
+   "e47",
+   "e48",
+   "e49",
+   "e50",
+   "e51",
+   "e52",
+   "e53",
+   "e54",
+   "e55",
+   "e56",
+   "e57",
+   "e58",
+   "e59",
+   "e60",
+   "e61",
+   "e62",
+   "e63",
+   "e64",
+   "e65",
+   "e66",
+   "e67",
+   "e68",
+   "e69",
+   "e70",
+   "e71",
+   "e72",
+   "e73",
+   "e74",
+   "e75",
+   "e76",
+   "e77",
+   "e78",
+   "e79",
+   "e80",
+   "e81",
+   "e82",
+   "e83",
+   "e84",
+   "e85",
+   "e86",
+   "e87",
+   "e88",
+   "e89",
+   "e90",
+   "e91",
+   "e92",
+   "e93",
+   "e94",
+   "e95",
+   "e96",
+   "e97",
+   "e98",
+   "e99",
+   "e100",
+   "e101",
+   "e102",
+   "e103",
+   "e104",
+   "e105",
+   "e106",
+   "e107",
+   "e108",
+   "e109",
+   "e110",
+   "e111",
+   "e112",
+   "e113",
+   "e114",
+   "e115"
+  ],
+  "section:[findings - the formal correspondence]": [
+   "e0"
+  ],
+  "keyword:instantaneous closure creates": [
+   "e1"
+  ],
+  "keyword:instantaneous constitutive closure": [
+   "e1"
+  ],
+  "notation:cattaneo": [
+   "e1",
+   "e4",
+   "e5",
+   "e12",
+   "e17",
+   "e20",
+   "e25",
+   "e27",
+   "e28",
+   "e31",
+   "e42",
+   "e46",
+   "e59",
+   "e62",
+   "e65",
+   "e69",
+   "e73",
+   "e76",
+   "e77",
+   "e83",
+   "e84",
+   "e89",
+   "e94",
+   "e97",
+   "e99",
+   "e103",
+   "e106",
+   "e110",
+   "e114",
+   "e115",
+   "e117",
+   "e119",
+   "e125",
+   "e128",
+   "e133",
+   "e148"
+  ],
+  "section:[1. the two paradoxes of simultaneity]": [
+   "e1"
+  ],
+  "keyword:entropy principle": [
+   "e2",
+   "e64",
+   "e109"
+  ],
+  "notation:sk condition": [
+   "e2",
+   "e4",
+   "e5",
+   "e14",
+   "e17",
+   "e19",
+   "e30",
+   "e31",
+   "e35",
+   "e43",
+   "e50",
+   "e62",
+   "e64",
+   "e65",
+   "e68",
+   "e69",
+   "e72",
+   "e74",
+   "e83",
+   "e94",
+   "e103",
+   "e106",
+   "e109",
+   "e110",
+   "e111",
+   "e115",
+   "e117",
+   "e119",
+   "e125",
+   "e128",
+   "e133",
+   "e137",
+   "e147",
+   "e174"
+  ],
+  "notation:subcharacteristic": [
+   "e2",
+   "e13",
+   "e29",
+   "e39",
+   "e54",
+   "e59",
+   "e64",
+   "e69",
+   "e72",
+   "e73",
+   "e109",
+   "e112",
+   "e115",
+   "e117",
+   "e119",
+   "e128",
+   "e363"
+  ],
+  "section:[2. the thermodynamic pole (what we borrow)]": [
+   "e2"
+  ],
+  "notation:fourier": [
+   "e3",
+   "e4",
+   "e5",
+   "e12",
+   "e22",
+   "e26",
+   "e27",
+   "e31",
+   "e65",
+   "e100",
+   "e106",
+   "e117",
+   "e119",
+   "e194",
+   "e225",
+   "e226",
+   "e234",
+   "e240",
+   "e241",
+   "e314",
+   "e341",
+   "e418"
+  ],
+  "notation:gravitation": [
+   "e3",
+   "e4",
+   "e5",
+   "e7",
+   "e10",
+   "e14",
+   "e17",
+   "e19",
+   "e30",
+   "e31",
+   "e35",
+   "e37",
+   "e42",
+   "e45",
+   "e59",
+   "e62",
+   "e67",
+   "e68",
+   "e69",
+   "e71",
+   "e72",
+   "e75",
+   "e78",
+   "e79",
+   "e83",
+   "e97",
+   "e99",
+   "e103",
+   "e106",
+   "e110",
+   "e111",
+   "e114",
+   "e115",
+   "e117",
+   "e119",
+   "e128",
+   "e133",
+   "e147"
+  ],
+  "notation:simultaneism": [
+   "e3",
+   "e4",
+   "e10",
+   "e13",
+   "e25",
+   "e26",
+   "e35",
+   "e37",
+   "e38",
+   "e39",
+   "e40",
+   "e47",
+   "e62",
+   "e68",
+   "e69",
+   "e73",
+   "e83",
+   "e85",
+   "e94",
+   "e97",
+   "e99",
+   "e101",
+   "e103",
+   "e106",
+   "e110",
+   "e111",
+   "e112",
+   "e114",
+   "e115",
+   "e117",
+   "e119",
+   "e133"
+  ],
+  "section:[3. the economic pole (what we reformulate)]": [
+   "e3"
+  ],
+  "artifact:track b": [
+   "e4",
+   "e9",
+   "e21",
+   "e24",
+   "e53",
+   "e57",
+   "e59",
+   "e60",
+   "e62",
+   "e68",
+   "e74",
+   "e75",
+   "e76",
+   "e80",
+   "e89",
+   "e91",
+   "e109",
+   "e119",
+   "e176"
+  ],
+  "section:[4. the correspondence table]": [
+   "e4"
+  ],
+  "artifact:t1": [
+   "e5",
+   "e6",
+   "e45",
+   "e69",
+   "e70",
+   "e75",
+   "e76",
+   "e78",
+   "e84",
+   "e85",
+   "e110",
+   "e113",
+   "e114",
+   "e117",
+   "e119",
+   "e128"
+  ],
+  "artifact:t2": [
+   "e5",
+   "e58",
+   "e69",
+   "e71",
+   "e73",
+   "e110",
+   "e112",
+   "e113",
+   "e114"
+  ],
+  "artifact:t3": [
+   "e5",
+   "e35",
+   "e38",
+   "e39",
+   "e44",
+   "e45",
+   "e47",
+   "e58",
+   "e59",
+   "e69",
+   "e72",
+   "e73",
+   "e74",
+   "e76",
+   "e80",
+   "e82",
+   "e85",
+   "e92",
+   "e97",
+   "e110",
+   "e112",
+   "e113",
+   "e114",
+   "e119",
+   "e128"
+  ],
+  "artifact:t4": [
+   "e5",
+   "e6",
+   "e8",
+   "e35",
+   "e38",
+   "e45",
+   "e69",
+   "e70",
+   "e72",
+   "e75",
+   "e76",
+   "e78",
+   "e84",
+   "e85",
+   "e110",
+   "e113",
+   "e114",
+   "e117",
+   "e119",
+   "e128"
+  ],
+  "section:[5. model skeleton (track a, phase 1 - candidate masters problem)]": [
+   "e5"
+  ],
+  "keyword:one categorical structure": [
+   "e6"
+  ],
+  "section:[6. track b synthesis (foundations)]": [
+   "e6"
+  ],
+  "section:[7. track c synthesis (computational/empirical)]": [
+   "e7"
+  ],
+  "keyword:entropy extension": [
+   "e8",
+   "e45"
+  ],
+  "section:[8. risk register (program level)]": [
+   "e8"
+  ],
+  "keyword:composed equilibrium maximizes total entropy subject": [
+   "e9"
+  ],
+  "keyword:concave entropy function": [
+   "e9"
+  ],
+  "keyword:convex space": [
+   "e9"
+  ],
+  "keyword:entropy depending": [
+   "e9"
+  ],
+  "keyword:entropy maximization": [
+   "e9"
+  ],
+  "keyword:generalized convex spaces": [
+   "e9"
+  ],
+  "section:[baez, lynch & moeller (2023) - compositional thermostatics]": [
+   "e9"
+  ],
+  "author:von": [
+   "e10"
+  ],
+  "citation:bortkiewicz1907 (1907)": [
+   "e10"
+  ],
+  "keyword:algebraic system": [
+   "e10"
+  ],
+  "keyword:input prices equal output prices": [
+   "e10"
+  ],
+  "keyword:marxs fundamental theoretical construction": [
+   "e10"
+  ],
+  "keyword:simultaneous system": [
+   "e10"
+  ],
+  "section:[bortkiewicz-sraffa tradition - the simultaneous dual-system benchmark]": [
+   "e10"
+  ],
+  "keyword:initial layer": [
+   "e11",
+   "e47"
+  ],
+  "keyword:kinetic models solutions": [
+   "e11"
+  ],
+  "keyword:parabolic descriptions": [
+   "e11"
+  ],
+  "keyword:parabolic models solutions": [
+   "e11"
+  ],
+  "keyword:price formation": [
+   "e11"
+  ],
+  "keyword:price-formation level": [
+   "e11"
+  ],
+  "keyword:transaction-level price formation": [
+   "e11"
+  ],
+  "section:[burger, caffarelli, markowich & wolfram (2013) - a boltzmann-type price formation model]": [
+   "e11"
+  ],
+  "artifact:track a": [
+   "e12",
+   "e19",
+   "e20",
+   "e21",
+   "e28",
+   "e48",
+   "e62",
+   "e68",
+   "e72",
+   "e73",
+   "e74",
+   "e76",
+   "e78",
+   "e80",
+   "e89",
+   "e93",
+   "e109",
+   "e117",
+   "e119",
+   "e125",
+   "e128",
+   "e133"
+  ],
+  "keyword:cattaneo equation": [
+   "e12"
+  ],
+  "keyword:heat equation": [
+   "e12"
+  ],
+  "keyword:hyperbolic equation": [
+   "e12"
+  ],
+  "keyword:parabolic heat equation": [
+   "e12",
+   "e100"
+  ],
+  "keyword:relaxation equation": [
+   "e12"
+  ],
+  "keyword:telegraph equation": [
+   "e12"
+  ],
+  "section:[cattaneo (1948) - sulla conduzione del calore]": [
+   "e12"
+  ],
+  "keyword:full systems speeds": [
+   "e13"
+  ],
+  "keyword:hyperbolic conservation laws": [
+   "e13"
+  ],
+  "keyword:stiff relaxation": [
+   "e13"
+  ],
+  "keyword:stiff relaxation source terms": [
+   "e13"
+  ],
+  "keyword:stiff relaxation terms": [
+   "e13"
+  ],
+  "section:[chen, levermore & liu (1994) - hyperbolic conservation laws with stiff relaxation and entropy]": [
+   "e13"
+  ],
+  "artifact:track c": [
+   "e14",
+   "e15",
+   "e16",
+   "e27",
+   "e37",
+   "e42",
+   "e48",
+   "e51",
+   "e62",
+   "e68",
+   "e69",
+   "e71",
+   "e73",
+   "e79",
+   "e80",
+   "e112",
+   "e115",
+   "e119"
+  ],
+  "keyword:marxian reproduction prices versus prices": [
+   "e14"
+  ],
+  "keyword:prices": [
+   "e14",
+   "e65",
+   "e99",
+   "e101",
+   "e115"
+  ],
+  "keyword:programs sk-type coupling condition promises": [
+   "e14"
+  ],
+  "keyword:third price theory implicit": [
+   "e14"
+  ],
+  "section:[cockshott (2016) - marxian reproduction prices versus prices of production: probability and convergence]": [
+   "e14"
+  ],
+  "keyword:cottrell": [
+   "e15"
+  ],
+  "keyword:marx need": [
+   "e15"
+  ],
+  "keyword:production prices act": [
+   "e15"
+  ],
+  "keyword:sraffian prices": [
+   "e15"
+  ],
+  "section:[cockshott & cottrell (1997/1998) - does marx need to transform? / scientific status of the ltv]": [
+   "e15"
+  ],
+  "keyword:cockshott": [
+   "e16"
+  ],
+  "keyword:deterministic balance-law core": [
+   "e16"
+  ],
+  "keyword:marxian econophysics": [
+   "e16"
+  ],
+  "keyword:michaelson": [
+   "e16"
+  ],
+  "keyword:models": [
+   "e16"
+  ],
+  "keyword:ricardian labor theory": [
+   "e16"
+  ],
+  "keyword:yakovenko": [
+   "e16"
+  ],
+  "section:[cottrell, cockshott, michaelson, wright & yakovenko (2009) - classical econophysics]": [
+   "e16"
+  ],
+  "keyword:classical equilibrium manifold": [
+   "e17"
+  ],
+  "keyword:classical long-term equilibrium": [
+   "e17"
+  ],
+  "keyword:established low-dimensional models": [
+   "e17"
+  ],
+  "keyword:models already treat adjustment": [
+   "e17"
+  ],
+  "section:[dum\u00e9nil & l\u00e9vy (1987) - the dynamics of competition: a restoration of the classical analysis]": [
+   "e17"
+  ],
+  "keyword:hyperbolic relaxation system": [
+   "e18"
+  ],
+  "keyword:persistent forcing predicts": [
+   "e18"
+  ],
+  "keyword:probabilistic approach": [
+   "e18"
+  ],
+  "keyword:profit rates": [
+   "e18",
+   "e19",
+   "e31",
+   "e107"
+  ],
+  "keyword:programs deterministic balance-law core": [
+   "e18"
+  ],
+  "keyword:rate": [
+   "e18"
+  ],
+  "section:[farjoun & machover (1983) - laws of chaos]": [
+   "e18"
+  ],
+  "keyword:classical": [
+   "e19"
+  ],
+  "keyword:input-output models": [
+   "e19"
+  ],
+  "keyword:neoclassical competitive adjustment processes": [
+   "e19"
+  ],
+  "keyword:stable cross-dual adjustment process": [
+   "e19"
+  ],
+  "section:[flaschel & semmler (1987) - classical and neoclassical competitive adjustment processes]": [
+   "e19"
+  ],
+  "keyword:freemans continuous-time conservation equations": [
+   "e20"
+  ],
+  "keyword:general mathematical specification": [
+   "e20"
+  ],
+  "keyword:time-varying field coupling monetary magnitudes": [
+   "e20"
+  ],
+  "keyword:value": [
+   "e20",
+   "e23"
+  ],
+  "keyword:value holds identically": [
+   "e20"
+  ],
+  "section:[freeman (1996) - price, value and profit: a continuous, general treatment]": [
+   "e20"
+  ],
+  "keyword:entropy": [
+   "e21"
+  ],
+  "keyword:thermodynamics": [
+   "e21",
+   "e28",
+   "e457",
+   "e461"
+  ],
+  "section:[grmela & \u00f6ttinger - generic and multiscale thermodynamics]": [
+   "e21"
+  ],
+  "keyword:classical irreversible thermodynamics rather": [
+   "e22"
+  ],
+  "keyword:extended entropy includes explicit flux contributions": [
+   "e22"
+  ],
+  "keyword:extended irreversible thermodynamics": [
+   "e22",
+   "e439",
+   "e461"
+  ],
+  "keyword:extended thermodynamics": [
+   "e22"
+  ],
+  "keyword:rational extended thermodynamics": [
+   "e22",
+   "e26",
+   "e61",
+   "e88",
+   "e340",
+   "e451"
+  ],
+  "section:[jou, casas-v\u00e1zquez & lebon - extended irreversible thermodynamics; ruggeri & sugiyama (2015)]": [
+   "e22"
+  ],
+  "keyword:marxs value theory": [
+   "e23"
+  ],
+  "keyword:temporal": [
+   "e23"
+  ],
+  "keyword:temporal determination": [
+   "e23"
+  ],
+  "keyword:temporal single-system interpretation": [
+   "e23",
+   "e61"
+  ],
+  "section:[kliman & mcglone (1999) - a temporal single-system interpretation of marxs value theory]": [
+   "e23"
+  ],
+  "keyword:coleman-noll-style rational thermodynamics": [
+   "e24"
+  ],
+  "keyword:continuum mechanics": [
+   "e24"
+  ],
+  "keyword:rational thermodynamics": [
+   "e24",
+   "e28"
+  ],
+  "keyword:truesdell-noll rational mechanics": [
+   "e24"
+  ],
+  "section:[lawvere & schanuel (1986) - categories in continuum physics]": [
+   "e24"
+  ],
+  "keyword:capital fluxes": [
+   "e25"
+  ],
+  "keyword:kliman": [
+   "e25"
+  ],
+  "keyword:tssi": [
+   "e25",
+   "e38"
+  ],
+  "keyword:tssi equations": [
+   "e25"
+  ],
+  "keyword:underdetermination": [
+   "e25"
+  ],
+  "keyword:underdetermination charge": [
+   "e25"
+  ],
+  "section:[mohun & veneziani (2009) - the temporal single-system interpretation: underdetermination and inconsistency]": [
+   "e25"
+  ],
+  "section:[m\u00fcller & ruggeri (1998) - rational extended thermodynamics (2nd ed.)]": [
+   "e26"
+  ],
+  "keyword:finance literature already accepts finite-speed corrections": [
+   "e27"
+  ],
+  "keyword:infinite propagation speed": [
+   "e27"
+  ],
+  "keyword:jump telegraph model": [
+   "e27"
+  ],
+  "keyword:telegraph models": [
+   "e27"
+  ],
+  "section:[telegraph-process models in finance - ratanov et al.]": [
+   "e27"
+  ],
+  "keyword:constitutive relations": [
+   "e28"
+  ],
+  "keyword:rational mechanics": [
+   "e28"
+  ],
+  "keyword:truesdell-school rational thermodynamics": [
+   "e28"
+  ],
+  "section:[the rational thermodynamics tradition - coleman-noll (1963), coleman (1964), truesdell (1984), gurtin-williams (1967), m\u00fcller (1967), liu (1972)]": [
+   "e28"
+  ],
+  "keyword:convex covariant density": [
+   "e29"
+  ],
+  "keyword:convex entropy": [
+   "e29"
+  ],
+  "keyword:convex entropy extension": [
+   "e29"
+  ],
+  "keyword:convex extension": [
+   "e29"
+  ],
+  "keyword:entropy density concave": [
+   "e29"
+  ],
+  "keyword:first-order quasi-linear system": [
+   "e29"
+  ],
+  "keyword:value-price system": [
+   "e29"
+  ],
+  "section:[ruggeri & strumia (1981) - main field and convex covariant density]": [
+   "e29"
+  ],
+  "keyword:constant equilibrium state": [
+   "e30"
+  ],
+  "keyword:constant equilibrium state exist globally": [
+   "e30"
+  ],
+  "keyword:dissipative balance laws system": [
+   "e30"
+  ],
+  "keyword:entropy-dissipative hyperbolic balance laws": [
+   "e30"
+  ],
+  "keyword:partially dissipative hyperbolic systems": [
+   "e30"
+  ],
+  "keyword:systems": [
+   "e30"
+  ],
+  "section:[stability of dissipative hyperbolic systems - hanouzet-natalini (2003), ruggeri-serre (2004), bianchini-hanouzet-natalini (2007)]": [
+   "e30"
+  ],
+  "keyword:classical competitive process": [
+   "e31"
+  ],
+  "keyword:cross-dual": [
+   "e31"
+  ],
+  "keyword:cross-dual process slaves capital reallocation instantaneously": [
+   "e31"
+  ],
+  "keyword:market prices adjust": [
+   "e31"
+  ],
+  "keyword:naive gravitation argument": [
+   "e31"
+  ],
+  "section:[steedman (1984) - natural prices, differential profit rates and the classical competitive process]": [
+   "e31"
+  ],
+  "keyword:formal analysis": [
+   "e32"
+  ],
+  "keyword:marxian economics": [
+   "e32"
+  ],
+  "keyword:rigorous analysis": [
+   "e32"
+  ],
+  "keyword:veneziani critique": [
+   "e32"
+  ],
+  "keyword:veneziani finds missing": [
+   "e32"
+  ],
+  "section:[veneziani (2005) - dynamics, disequilibrium, and marxian economics: a formal analysis of temporal single-system marxism]": [
+   "e32"
+  ],
+  "keyword:agent-based experiments": [
+   "e33"
+  ],
+  "keyword:continuum theorys relaxation times": [
+   "e33"
+  ],
+  "keyword:dynamic equilibrium whose statistical properties match": [
+   "e33"
+  ],
+  "keyword:measurable relaxation spectrum": [
+   "e33"
+  ],
+  "keyword:simulation rather": [
+   "e33"
+  ],
+  "keyword:social architecture": [
+   "e33",
+   "e252",
+   "e440"
+  ],
+  "section:[wright (2005) - the social architecture of capitalism]": [
+   "e33"
+  ],
+  "artifact:track e": [
+   "e34",
+   "e54",
+   "e58",
+   "e59",
+   "e60",
+   "e62",
+   "e68",
+   "e76",
+   "e81",
+   "e89",
+   "e112"
+  ],
+  "keyword:program": [
+   "e34",
+   "e40",
+   "e52",
+   "e98"
+  ],
+  "keyword:program document": [
+   "e34",
+   "e57"
+  ],
+  "section:[critiques of the program - steelman document]": [
+   "e34"
+  ],
+  "section:[a1. \"physics envy - this is a metaphor, not a model\"]": [
+   "e35"
+  ],
+  "keyword:per-link transmission speed": [
+   "e36"
+  ],
+  "section:[a2. \"category mistake: an economy is not a continuum\"]": [
+   "e36"
+  ],
+  "keyword:model adds parameters": [
+   "e37"
+  ],
+  "keyword:models testable content": [
+   "e37"
+  ],
+  "keyword:vaonas gravitation econometrics gives adjacent estimates": [
+   "e37"
+  ],
+  "section:[a3. \"unobservable parameters, unparsimonious\"]": [
+   "e37"
+  ],
+  "keyword:interpretive question": [
+   "e38"
+  ],
+  "keyword:program defends tssi": [
+   "e38"
+  ],
+  "section:[a4. \"youre solving a non-problem\"]": [
+   "e38"
+  ],
+  "keyword:limit": [
+   "e39"
+  ],
+  "keyword:temporal profit rates diverge systematically": [
+   "e39"
+  ],
+  "section:[a5. \"the relaxation limit vindicates simultaneism\"]": [
+   "e39"
+  ],
+  "keyword:program doc": [
+   "e40"
+  ],
+  "section:[a6. \"stability theorems reintroduce equilibrium by the back door\"]": [
+   "e40"
+  ],
+  "keyword:one adopts": [
+   "e41"
+  ],
+  "keyword:program brackets exegesis entirely": [
+   "e41"
+  ],
+  "keyword:program removes": [
+   "e41"
+  ],
+  "section:[b1. \"tssi is an interpretation of a text, not a dynamical system\"]": [
+   "e41"
+  ],
+  "keyword:cattaneo closure": [
+   "e42"
+  ],
+  "keyword:closure": [
+   "e42",
+   "e102"
+  ],
+  "keyword:closure becomes": [
+   "e42"
+  ],
+  "keyword:closure identification": [
+   "e42"
+  ],
+  "section:[b2. \"your closure is one of infinitely many - why this one?\" (underdetermination returns)]": [
+   "e42"
+  ],
+  "section:[b3. \"there is no tendency to equalization at all\" (the probabilist flank)]": [
+   "e43"
+  ],
+  "keyword:answering tssis critics": [
+   "e44"
+  ],
+  "section:[b4. priority/etiquette within the school]": [
+   "e44"
+  ],
+  "keyword:convex entropy exists": [
+   "e45"
+  ],
+  "keyword:entropy search": [
+   "e45"
+  ],
+  "section:[c1. the entropy extension probably doesnt exist]": [
+   "e45"
+  ],
+  "keyword:hyperbolic pdes": [
+   "e46"
+  ],
+  "keyword:papers use pde language": [
+   "e46"
+  ],
+  "section:[c2. \"hyperbolic\" is overdressed for an ode system]": [
+   "e46"
+  ],
+  "keyword:initial layers": [
+   "e47"
+  ],
+  "section:[c3. the singular limit is only locally valid in time]": [
+   "e47"
+  ],
+  "keyword:program claims local theory rigorously": [
+   "e48"
+  ],
+  "keyword:program doc track": [
+   "e48"
+  ],
+  "section:[c4. only small-data stability is within reach]": [
+   "e48"
+  ],
+  "artifact:track f": [
+   "e49",
+   "e50",
+   "e58",
+   "e59",
+   "e60",
+   "e62",
+   "e68",
+   "e76",
+   "e81",
+   "e89",
+   "e112",
+   "e174"
+  ],
+  "keyword:machine-checked statement": [
+   "e49"
+  ],
+  "keyword:machine-checked statement cannot silently change definition mid-proof": [
+   "e49"
+  ],
+  "section:[c5. \"formalization is a proof of the obvious\" (track f)]": [
+   "e49"
+  ],
+  "keyword:discrete recursion": [
+   "e50"
+  ],
+  "keyword:discrete recursion requires rebuilding large analysis infrastructure": [
+   "e50"
+  ],
+  "section:[c6. \"proof assistants arent ready for the real objects\" (track f)]": [
+   "e50"
+  ],
+  "keyword:every extended theory needs": [
+   "e51"
+  ],
+  "keyword:microscopic kinetic theory": [
+   "e51"
+  ],
+  "section:[d1. no kinetic underpinning]": [
+   "e51"
+  ],
+  "keyword:program uses": [
+   "e52"
+  ],
+  "section:[d2. \"entropy\" is just a lyapunov function with a borrowed name]": [
+   "e52"
+  ],
+  "section:[d3. \"why ret rather than generic?\"]": [
+   "e53"
+  ],
+  "keyword:subcharacteristic structure": [
+   "e54"
+  ],
+  "section:[d4. \"learned closures are circular or unphysical\" (track e)]": [
+   "e54"
+  ],
+  "keyword:econ-facing paper leads": [
+   "e55"
+  ],
+  "keyword:math paper": [
+   "e55"
+  ],
+  "keyword:much methodological machinery": [
+   "e55"
+  ],
+  "keyword:per-track venue mapping": [
+   "e55"
+  ],
+  "keyword:single paper speaks": [
+   "e55"
+  ],
+  "section:[e1. audience squeeze (now four disciplines)]": [
+   "e55"
+  ],
+  "keyword:program ignores": [
+   "e56"
+  ],
+  "section:[e2. missed neighbors]": [
+   "e56"
+  ],
+  "keyword:tracks b-f": [
+   "e57"
+  ],
+  "section:[e3. scope creep (self-critique, sharpened for six tracks)]": [
+   "e57"
+  ],
+  "keyword:economic content": [
+   "e58"
+  ],
+  "keyword:economic system": [
+   "e58"
+  ],
+  "keyword:models economic content": [
+   "e58"
+  ],
+  "section:[e4. \"the computational tracks are orthogonal to value theory\"]": [
+   "e58"
+  ],
+  "author:ellis": [
+   "e59",
+   "e79"
+  ],
+  "author:gregor": [
+   "e59",
+   "e79"
+  ],
+  "author:miroslav": [
+   "e59",
+   "e79"
+  ],
+  "author:ping": [
+   "e59",
+   "e79",
+   "e81"
+  ],
+  "author:roberto": [
+   "e59",
+   "e79"
+  ],
+  "author:shi": [
+   "e59",
+   "e79",
+   "e81"
+  ],
+  "author:simon": [
+   "e59",
+   "e79"
+  ],
+  "citation:grmela2015 (2015)": [
+   "e59",
+   "e79"
+  ],
+  "citation:grmela2021 (2021)": [
+   "e59",
+   "e79"
+  ],
+  "citation:jin-xin1995 (1995)": [
+   "e59",
+   "e79",
+   "e81"
+  ],
+  "citation:mohun-veneziani2017 (2017)": [
+   "e59",
+   "e79"
+  ],
+  "citation:scharfenaker-semieniuk2017 (2017)": [
+   "e59",
+   "e79"
+  ],
+  "section:[consolidated amendments to `research-program.md`]": [
+   "e59"
+  ],
+  "keyword:track": [
+   "e60"
+  ],
+  "section:[watch list (to read before the expos\u00e9)]": [
+   "e60"
+  ],
+  "keyword:formal framework": [
+   "e61"
+  ],
+  "section:[finite-speed value: a research program in marxian econophysics]": [
+   "e61"
+  ],
+  "artifact:track d": [
+   "e62",
+   "e68",
+   "e69",
+   "e76",
+   "e80",
+   "e111"
+  ],
+  "keyword:modern hyperbolic theory supply": [
+   "e62"
+  ],
+  "keyword:simultaneist value theory": [
+   "e62",
+   "e68"
+  ],
+  "section:[1. overview]": [
+   "e62"
+  ],
+  "section:[2.1 the transformation problem and tssi]": [
+   "e63"
+  ],
+  "keyword:concave entropy density": [
+   "e64"
+  ],
+  "keyword:convex entropy extension renders": [
+   "e64"
+  ],
+  "section:[2.2 rational extended thermodynamics]": [
+   "e64"
+  ],
+  "keyword:market prices": [
+   "e65",
+   "e115"
+  ],
+  "keyword:profit-rate differentials drive capital reallocation": [
+   "e65"
+  ],
+  "section:[2.3 gravitation dynamics]": [
+   "e65"
+  ],
+  "section:[2.4 classical econophysics and finite-speed precedents]": [
+   "e66"
+  ],
+  "keyword:non-physical application": [
+   "e67"
+  ],
+  "keyword:value-theoretic dynamics": [
+   "e67"
+  ],
+  "section:[2.5 gap summary]": [
+   "e67"
+  ],
+  "section:[3. the core correspondence]": [
+   "e68"
+  ],
+  "keyword:simultaneous-closure dynamics whose rest point": [
+   "e69"
+  ],
+  "section:[4. track a - physics \u00d7 economics: the hyperbolic value-price system]": [
+   "e69"
+  ],
+  "section:[5. track b - mathematics \u00d7 physics: foundations of extended thermodynamics]": [
+   "e70"
+  ],
+  "keyword:data": [
+   "e71"
+  ],
+  "section:[6. track c - computer science \u00d7 economics: simulation and empirical estimation]": [
+   "e71"
+  ],
+  "keyword:axiomatic theory": [
+   "e72"
+  ],
+  "section:[7. track d - mathematics \u00d7 economics: the formal theory of value-price dynamics]": [
+   "e72"
+  ],
+  "keyword:numerical methods": [
+   "e73"
+  ],
+  "section:[8. track e - physics \u00d7 computer science: computational thermodynamics of value-price dynamics]": [
+   "e73"
+  ],
+  "keyword:promise full formalization": [
+   "e74"
+  ],
+  "section:[9. track f - mathematics \u00d7 computer science: certified and executable mathematics]": [
+   "e74"
+  ],
+  "section:[10. phasing, dependencies, publication strategy]": [
+   "e75"
+  ],
+  "section:[11. masters thesis decision point]": [
+   "e76"
+  ],
+  "section:[12. references]": [
+   "e77"
+  ],
+  "section:[2026-08-15 - project initialization and program document]": [
+   "e78"
+  ],
+  "citation:grmela-ottinger1997a (1997)": [
+   "e79"
+  ],
+  "citation:grmela2018 (2018)": [
+   "e79"
+  ],
+  "section:[2026-08-16 - git commit + critiques document]": [
+   "e79"
+  ],
+  "section:[2026-08-16 - track refactor (3 -> 4 tracks, four-discipline framing)]": [
+   "e80"
+  ],
+  "author:andrew": [
+   "e81"
+  ],
+  "author:arjit": [
+   "e81"
+  ],
+  "author:christopher": [
+   "e81"
+  ],
+  "author:collaborators": [
+   "e81"
+  ],
+  "author:daniele": [
+   "e81"
+  ],
+  "author:em": [
+   "e81"
+  ],
+  "author:erik": [
+   "e81"
+  ],
+  "author:evan": [
+   "e81"
+  ],
+  "author:floris": [
+   "e81"
+  ],
+  "author:guillaume": [
+   "e81"
+  ],
+  "author:heather": [
+   "e81"
+  ],
+  "author:james": [
+   "e81"
+  ],
+  "author:jason": [
+   "e81"
+  ],
+  "author:jesus": [
+   "e81"
+  ],
+  "author:karthik": [
+   "e81"
+  ],
+  "author:lab": [
+   "e81"
+  ],
+  "author:luke": [
+   "e81"
+  ],
+  "author:maia": [
+   "e81"
+  ],
+  "author:maziar": [
+   "e81"
+  ],
+  "author:paris": [
+   "e81"
+  ],
+  "author:scott": [
+   "e81"
+  ],
+  "author:shaowu": [
+   "e81"
+  ],
+  "author:sophie": [
+   "e81"
+  ],
+  "author:stephan": [
+   "e81"
+  ],
+  "author:tuomo": [
+   "e81"
+  ],
+  "author:yohai": [
+   "e81"
+  ],
+  "citation:armstrong-kuusi2025 (2025)": [
+   "e81"
+  ],
+  "citation:bar-sinai2019 (2019)": [
+   "e81"
+  ],
+  "citation:brennan-venturi2018 (2018)": [
+   "e81"
+  ],
+  "citation:coarsegraining-lean (2025)": [
+   "e81"
+  ],
+  "citation:gupta-lermusiaux2021 (2021)": [
+   "e81"
+  ],
+  "citation:lerayhopf-lean (2025)": [
+   "e81"
+  ],
+  "citation:libkind-etal2022 (2022)": [
+   "e81"
+  ],
+  "citation:martin-dorel-melquiond2016 (2016)": [
+   "e81"
+  ],
+  "citation:morris-etal2024 (2024)": [
+   "e81"
+  ],
+  "citation:pan-duraisamy2018 (2018)": [
+   "e81"
+  ],
+  "citation:raissi2019 (2019)": [
+   "e81"
+  ],
+  "citation:vandoor-macbeth2024 (2024)": [
+   "e81"
+  ],
+  "section:[2026-08-16 - six-track completion + bibliography reorganization]": [
+   "e81"
+  ],
+  "section:[2026-08-16 - commit + context preservation]": [
+   "e82"
+  ],
+  "keyword:driven non-equilibrium steady state": [
+   "e83"
+  ],
+  "section:[2026-08-16 - proposal walkthrough + agents.md wiring]": [
+   "e83"
+  ],
+  "keyword:correspondence table": [
+   "e84"
+  ],
+  "keyword:research program": [
+   "e84",
+   "e98"
+  ],
+  "section:[what exists now]": [
+   "e84"
+  ],
+  "keyword:entropy-extension problem": [
+   "e85"
+  ],
+  "section:[decisions embedded (confirm or redirect)]": [
+   "e85"
+  ],
+  "keyword:anchor papers ingested": [
+   "e86"
+  ],
+  "section:[not done (awaiting your review)]": [
+   "e86"
+  ],
+  "section:[context preservation - read after a context reset]": [
+   "e87"
+  ],
+  "keyword:apply extended thermodynamics": [
+   "e88"
+  ],
+  "keyword:brads stated inspiration": [
+   "e88"
+  ],
+  "keyword:whole research question": [
+   "e88"
+  ],
+  "section:[1. project origin (attribution)]": [
+   "e88"
+  ],
+  "keyword:scale research program document first": [
+   "e89"
+  ],
+  "section:[2. program framing decisions (confirmed with brad, in order)]": [
+   "e89"
+  ],
+  "keyword:field": [
+   "e90"
+  ],
+  "section:[3. masters thesis expos\u00e9 - format benchmarks (from web research; needed for phase 2)]": [
+   "e90"
+  ],
+  "section:[4. open next steps (from brads list; status)]": [
+   "e91"
+  ],
+  "keyword:scope note": [
+   "e92"
+  ],
+  "section:[5. status: the consolidated amendments to research-program.md]": [
+   "e92"
+  ],
+  "section:[6. open decisions awaiting brad]": [
+   "e93"
+  ],
+  "section:[6.5 pending commitments (conversation-only, not in any document)]": [
+   "e94"
+  ],
+  "section:[7. working conventions (per agents.md + session)]": [
+   "e95"
+  ],
+  "keyword:doi": [
+   "e96",
+   "e150"
+  ],
+  "section:[8. verification ledger (what was checked, so it isnt re-checked)]": [
+   "e96"
+  ],
+  "section:[9. key intellectual landmarks (theses that must survive)]": [
+   "e97"
+  ],
+  "keyword:jaynes maximum-entropy program": [
+   "e98"
+  ],
+  "keyword:value theory": [
+   "e98"
+  ],
+  "section:[finite-speed value: a walkthrough]": [
+   "e98"
+  ],
+  "author:carlo": [
+   "e99"
+  ],
+  "citation:cattaneo1948 (1948)": [
+   "e99"
+  ],
+  "keyword:market prices converge": [
+   "e99"
+  ],
+  "keyword:prices form one interdependent system evolving forward": [
+   "e99"
+  ],
+  "keyword:value formation said prices": [
+   "e99"
+  ],
+  "section:[1. the whole program in five minutes]": [
+   "e99"
+  ],
+  "keyword:heat conduction says": [
+   "e100"
+  ],
+  "keyword:heat flowing": [
+   "e100"
+  ],
+  "keyword:heat flux": [
+   "e100"
+  ],
+  "keyword:heat paradox": [
+   "e100"
+  ],
+  "section:[2.1 the heat paradox (physics)]": [
+   "e100"
+  ],
+  "keyword:knew prices visibly deviate": [
+   "e101"
+  ],
+  "keyword:prices form": [
+   "e101"
+  ],
+  "keyword:prices proportional": [
+   "e101"
+  ],
+  "section:[2.2 the transformation problem (economics)]": [
+   "e101"
+  ],
+  "keyword:dynamical timescale vanishes": [
+   "e102"
+  ],
+  "section:[2.3 what the two paradoxes share]": [
+   "e102"
+  ],
+  "section:[3. the core move: a formal correspondence]": [
+   "e103"
+  ],
+  "keyword:background makes": [
+   "e104"
+  ],
+  "keyword:deepest structural fact": [
+   "e104"
+  ],
+  "keyword:selection problem": [
+   "e104"
+  ],
+  "keyword:selection problems": [
+   "e104"
+  ],
+  "keyword:single discipline": [
+   "e104"
+  ],
+  "section:[4. the statistical compass: jaynes as the guide]": [
+   "e104"
+  ],
+  "keyword:distributions consistent": [
+   "e105"
+  ],
+  "keyword:statistical inference": [
+   "e105"
+  ],
+  "section:[4.1 jaynes maxent in one paragraph]": [
+   "e105"
+  ],
+  "section:[4.2 four statistical mirrors]": [
+   "e106"
+  ],
+  "section:[4.3 statistical equilibrium is already jaynesian]": [
+   "e107"
+  ],
+  "keyword:closure-selection structure": [
+   "e108"
+  ],
+  "keyword:economic agents maximize entropy": [
+   "e108"
+  ],
+  "keyword:economic behavior": [
+   "e108"
+  ],
+  "keyword:limit structure": [
+   "e108"
+  ],
+  "section:[4.4 what the compass does and does not claim]": [
+   "e108"
+  ],
+  "section:[5. the physics explainer]": [
+   "e109"
+  ],
+  "keyword:hyperbolic system converges": [
+   "e110"
+  ],
+  "keyword:limit system": [
+   "e110"
+  ],
+  "keyword:singular limit": [
+   "e110"
+  ],
+  "section:[6. the mathematics explainer]": [
+   "e110"
+  ],
+  "keyword:prices form one system": [
+   "e111"
+  ],
+  "keyword:prices visibly differ": [
+   "e111"
+  ],
+  "section:[7. the economics explainer]": [
+   "e111"
+  ],
+  "section:[8. the computer science explainer]": [
+   "e112"
+  ],
+  "section:[9. assembling the tracks]": [
+   "e113"
+  ],
+  "keyword:linear theory": [
+   "e114"
+  ],
+  "keyword:singular relaxation limit": [
+   "e114"
+  ],
+  "section:[10. what success looks like]": [
+   "e114"
+  ],
+  "keyword:labor values become prices": [
+   "e115"
+  ],
+  "section:[11. glossary]": [
+   "e115"
+  ],
+  "keyword:co-occurrence hypergraph": [
+   "e116",
+   "e143"
+  ],
+  "keyword:llm involved": [
+   "e116"
+  ],
+  "project:poc": [
+   "e116",
+   "e117",
+   "e118",
+   "e119",
+   "e120",
+   "e121",
+   "e122",
+   "e123",
+   "e124",
+   "e125",
+   "e126",
+   "e127",
+   "e128",
+   "e129",
+   "e130",
+   "e131",
+   "e132",
+   "e133",
+   "e134",
+   "e135",
+   "e136",
+   "e137",
+   "e138",
+   "e139",
+   "e140",
+   "e141",
+   "e142",
+   "e143",
+   "e144",
+   "e145",
+   "e146",
+   "e147",
+   "e148",
+   "e149",
+   "e150",
+   "e151",
+   "e152",
+   "e153",
+   "e154",
+   "e155",
+   "e156",
+   "e157",
+   "e158",
+   "e159",
+   "e160",
+   "e161",
+   "e162",
+   "e163",
+   "e164",
+   "e165",
+   "e166"
+  ],
+  "section:[knowledge-repository poc - phase a, step 1]": [
+   "e116"
+  ],
+  "section:[method]": [
+   "e117"
+  ],
+  "keyword:citation entities": [
+   "e118"
+  ],
+  "keyword:human notes": [
+   "e118"
+  ],
+  "section:[corpus]": [
+   "e118"
+  ],
+  "section:[results]": [
+   "e119"
+  ],
+  "section:[artifacts (`graph/`)]": [
+   "e120"
+  ],
+  "section:[rebuild]": [
+   "e121"
+  ],
+  "keyword:graph artifact": [
+   "e122"
+  ],
+  "keyword:json-lines workers": [
+   "e122"
+  ],
+  "keyword:opencode": [
+   "e122",
+   "e137",
+   "e156"
+  ],
+  "section:[next]": [
+   "e122",
+   "e127",
+   "e130",
+   "e137",
+   "e138",
+   "e139",
+   "e140",
+   "e141",
+   "e142"
+  ],
+  "section:[pipelines (`pipelines/`)]": [
+   "e123"
+  ],
+  "keyword:call": [
+   "e124"
+  ],
+  "keyword:query result": [
+   "e124"
+  ],
+  "section:[mcp wiring]": [
+   "e124"
+  ],
+  "section:[verified behavior]": [
+   "e125"
+  ],
+  "keyword:morphism": [
+   "e126"
+  ],
+  "section:[step 2 gotchas (learned)]": [
+   "e126"
+  ],
+  "section:[the demo question]": [
+   "e128"
+  ],
+  "keyword:exact-field record output": [
+   "e129"
+  ],
+  "keyword:ranked output": [
+   "e129"
+  ],
+  "section:[step 3 gotcha]": [
+   "e129"
+  ],
+  "keyword:phase": [
+   "e130",
+   "e156"
+  ],
+  "keyword:poc": [
+   "e131"
+  ],
+  "keyword:pocs": [
+   "e131"
+  ],
+  "section:[corpus manifest (`corpus.json`) - build is now manifest-driven]": [
+   "e131"
+  ],
+  "keyword:reusing": [
+   "e132"
+  ],
+  "section:[pipelines]": [
+   "e132"
+  ],
+  "section:[growth (rebuilt graph)]": [
+   "e133"
+  ],
+  "keyword:foley": [
+   "e134"
+  ],
+  "keyword:returns": [
+   "e134"
+  ],
+  "section:[new capability demonstrated]": [
+   "e134"
+  ],
+  "keyword:corpus size rebuilds": [
+   "e135"
+  ],
+  "keyword:stored summary": [
+   "e135"
+  ],
+  "keyword:unchanged corpus reuses": [
+   "e135"
+  ],
+  "section:[incremental fast path]": [
+   "e135"
+  ],
+  "section:[openalex expansion run (this build)]": [
+   "e136"
+  ],
+  "keyword:corpus run": [
+   "e138"
+  ],
+  "keyword:corpus-side evidence pointing toward embeddings": [
+   "e139"
+  ],
+  "keyword:seven exec workers": [
+   "e140"
+  ],
+  "keyword:smoke": [
+   "e141"
+  ],
+  "keyword:file-based serving proves insufficient": [
+   "e142"
+  ],
+  "keyword:llm renders": [
+   "e142"
+  ],
+  "keyword:semantic neighborhood queries": [
+   "e142"
+  ],
+  "keyword:guide assumes youre": [
+   "e143"
+  ],
+  "section:[knowledge repository - how to use]": [
+   "e143"
+  ],
+  "section:[1. one-time setup]": [
+   "e144"
+  ],
+  "keyword:bash": [
+   "e145",
+   "e160"
+  ],
+  "section:[2. minimal workflow (60 seconds)]": [
+   "e145"
+  ],
+  "keyword:ingest null": [
+   "e146"
+  ],
+  "section:[rebuild the hypergraph from the current corpus]": [
+   "e146"
+  ],
+  "section:[ground a claim: which sections co-occur with my seed concepts?]": [
+   "e147"
+  ],
+  "section:[3. what the pipelines do]": [
+   "e148"
+  ],
+  "section:[modes detail]": [
+   "e149"
+  ],
+  "keyword:doi openalex": [
+   "e150"
+  ],
+  "keyword:openalex-known doi": [
+   "e150"
+  ],
+  "section:[manually downloading a full-text pdf and converting it]": [
+   "e150"
+  ],
+  "section:[4. growing the corpus]": [
+   "e151"
+  ],
+  "keyword:corpus sections": [
+   "e152"
+  ],
+  "keyword:teaches agents": [
+   "e152"
+  ],
+  "keyword:whenever claims": [
+   "e152"
+  ],
+  "section:[5. the grounding skill]": [
+   "e152"
+  ],
+  "keyword:exact script runs": [
+   "e153"
+  ],
+  "section:[6. local verification (smoke) and ci]": [
+   "e153"
+  ],
+  "section:[7. artifacts and layout]": [
+   "e154"
+  ],
+  "keyword:plumbing": [
+   "e155"
+  ],
+  "section:[8. gotchas]": [
+   "e155"
+  ],
+  "section:[plumbing - environment setup & smoke test]": [
+   "e156"
+  ],
+  "keyword:research workflow": [
+   "e157"
+  ],
+  "section:[what plumbing provides here]": [
+   "e157"
+  ],
+  "keyword:bundled": [
+   "e158"
+  ],
+  "keyword:prebuilt wheels": [
+   "e158"
+  ],
+  "section:[installation - the path that works: nix source build]": [
+   "e158"
+  ],
+  "keyword:dune build": [
+   "e159"
+  ],
+  "section:[nix available: nix 2.34.7 on this host]": [
+   "e159"
+  ],
+  "section:[usage]": [
+   "e160"
+  ],
+  "section:[run a pipeline from a json stream on stdin]": [
+   "e161"
+  ],
+  "keyword:nix develop": [
+   "e162",
+   "e163",
+   "e164"
+  ],
+  "section:[type-check at load time]": [
+   "e162"
+  ],
+  "section:[render the architecture as a graph (dot)]": [
+   "e163"
+  ],
+  "keyword:stdout": [
+   "e164"
+  ],
+  "section:[mcp bridge (exposes pipelines as mcp tools to opencode)]": [
+   "e164"
+  ],
+  "section:[smoke-test transcript (all passed)]": [
+   "e165"
+  ],
+  "keyword:nix build": [
+   "e166"
+  ],
+  "section:[notes / gotchas]": [
+   "e166"
+  ],
+  "keyword:multi-party session types built": [
+   "e167"
+  ],
+  "keyword:plumbing precedes": [
+   "e167"
+  ],
+  "project:top": [
+   "e167",
+   "e168",
+   "e169",
+   "e170",
+   "e171",
+   "e172",
+   "e173",
+   "e174",
+   "e175",
+   "e176"
+  ],
+  "section:[an explicit knowledge repository for the opencode research assistant]": [
+   "e167"
+  ],
+  "keyword:global graph openalex already owns": [
+   "e168"
+  ],
+  "section:[1. framing: the gap this fills]": [
+   "e168"
+  ],
+  "keyword:reasoning": [
+   "e169"
+  ],
+  "section:[why hypergraphs, not a pairwise graph]": [
+   "e169"
+  ],
+  "keyword:first corpus": [
+   "e170"
+  ],
+  "keyword:openalex": [
+   "e170"
+  ],
+  "section:[2. design principles]": [
+   "e170"
+  ],
+  "section:[3. proposed architecture]": [
+   "e171"
+  ],
+  "keyword:runtime whose host language provides multi-party session types natively": [
+   "e172"
+  ],
+  "section:[4. component assessment]": [
+   "e172"
+  ],
+  "section:[5. the knowledge-engineering loop]": [
+   "e173"
+  ],
+  "section:[6. phased plan]": [
+   "e174"
+  ],
+  "section:[7. risks and open decisions]": [
+   "e175"
+  ],
+  "section:[8. why this fits the research program]": [
+   "e176"
+  ],
+  "keyword:sources": [
+   "e177"
+  ],
+  "project:island-dt": [
+   "e177",
+   "e178",
+   "e179",
+   "e180",
+   "e181",
+   "e182",
+   "e183",
+   "e184"
+  ],
+  "section:[island digital twin - literature review]": [
+   "e177"
+  ],
+  "section:[executive summary]": [
+   "e178"
+  ],
+  "keyword:island twin": [
+   "e179",
+   "e181",
+   "e182",
+   "e183"
+  ],
+  "keyword:island twin would simulate": [
+   "e179"
+  ],
+  "section:[a. island & urban metabolism - the flow layer]": [
+   "e179"
+  ],
+  "keyword:citygml energy ade": [
+   "e180"
+  ],
+  "section:[b. 3d city models & standards - the geometric + data substrate]": [
+   "e180"
+  ],
+  "keyword:european island twin": [
+   "e181"
+  ],
+  "keyword:peer-to-peer smart grid using digital twins": [
+   "e181",
+   "e467"
+  ],
+  "section:[c. digital twins - the container (urban theory, island practice, eu policy)]": [
+   "e181"
+  ],
+  "section:[d. participatory planning support & geodesign - the decision process]": [
+   "e182"
+  ],
+  "keyword:integrated island twin": [
+   "e183"
+  ],
+  "keyword:island metabolic planning": [
+   "e183"
+  ],
+  "keyword:island model": [
+   "e183"
+  ],
+  "section:[synthesis: how the pieces compose into an \"island digital twin\"]": [
+   "e183"
+  ],
+  "keyword:editorial author list unverified": [
+   "e184"
+  ],
+  "section:[caveats]": [
+   "e184"
+  ],
+  "project:fulltext": [
+   "e185",
+   "e186",
+   "e187",
+   "e188",
+   "e189",
+   "e190",
+   "e191",
+   "e192",
+   "e193",
+   "e194",
+   "e195",
+   "e196",
+   "e197",
+   "e198",
+   "e199",
+   "e200",
+   "e201",
+   "e202",
+   "e203",
+   "e204",
+   "e205",
+   "e206",
+   "e207",
+   "e208",
+   "e209",
+   "e210",
+   "e211",
+   "e212",
+   "e213",
+   "e214",
+   "e215",
+   "e216",
+   "e217",
+   "e218",
+   "e219",
+   "e220",
+   "e221",
+   "e222",
+   "e223",
+   "e224",
+   "e225",
+   "e226",
+   "e227",
+   "e228",
+   "e229",
+   "e230",
+   "e231",
+   "e232",
+   "e233",
+   "e234",
+   "e235",
+   "e236",
+   "e237",
+   "e238",
+   "e239",
+   "e240",
+   "e241",
+   "e242",
+   "e243",
+   "e244",
+   "e245",
+   "e246",
+   "e247",
+   "e248",
+   "e249",
+   "e250",
+   "e251",
+   "e252",
+   "e253",
+   "e254",
+   "e255",
+   "e256",
+   "e257",
+   "e258",
+   "e259",
+   "e260",
+   "e261",
+   "e262",
+   "e263",
+   "e264",
+   "e265",
+   "e266",
+   "e267",
+   "e268",
+   "e269",
+   "e270",
+   "e271",
+   "e272",
+   "e273",
+   "e274",
+   "e275",
+   "e276",
+   "e277",
+   "e278",
+   "e279",
+   "e280",
+   "e281",
+   "e282",
+   "e283",
+   "e284",
+   "e285",
+   "e286",
+   "e287",
+   "e288",
+   "e289",
+   "e290",
+   "e291",
+   "e292",
+   "e293",
+   "e294",
+   "e295",
+   "e296",
+   "e297",
+   "e298",
+   "e299",
+   "e300",
+   "e301",
+   "e302",
+   "e303",
+   "e304",
+   "e305",
+   "e306",
+   "e307",
+   "e308",
+   "e309",
+   "e310",
+   "e311",
+   "e312",
+   "e313",
+   "e314",
+   "e315",
+   "e316",
+   "e317",
+   "e318",
+   "e319",
+   "e320",
+   "e321",
+   "e322",
+   "e323",
+   "e324",
+   "e325",
+   "e326",
+   "e327",
+   "e328",
+   "e329",
+   "e330",
+   "e331",
+   "e332",
+   "e333",
+   "e334",
+   "e335",
+   "e336",
+   "e337",
+   "e338",
+   "e339",
+   "e340",
+   "e341",
+   "e342",
+   "e343",
+   "e344",
+   "e345",
+   "e346",
+   "e347",
+   "e348",
+   "e349",
+   "e350",
+   "e351",
+   "e352",
+   "e353",
+   "e354",
+   "e355",
+   "e356",
+   "e357",
+   "e358",
+   "e359",
+   "e360",
+   "e361",
+   "e362",
+   "e363",
+   "e364",
+   "e365",
+   "e366",
+   "e367",
+   "e368",
+   "e369",
+   "e370",
+   "e371",
+   "e372",
+   "e373",
+   "e374",
+   "e375",
+   "e376",
+   "e377",
+   "e378",
+   "e379",
+   "e380",
+   "e381",
+   "e382",
+   "e383",
+   "e384",
+   "e385",
+   "e386",
+   "e387",
+   "e388",
+   "e389",
+   "e390",
+   "e391",
+   "e392",
+   "e393",
+   "e394",
+   "e395",
+   "e396",
+   "e397",
+   "e398",
+   "e399",
+   "e400",
+   "e401",
+   "e402",
+   "e403",
+   "e404",
+   "e405",
+   "e406",
+   "e407",
+   "e408",
+   "e409",
+   "e410",
+   "e411",
+   "e412",
+   "e413",
+   "e414",
+   "e415",
+   "e416",
+   "e417",
+   "e418",
+   "e419",
+   "e420",
+   "e421",
+   "e422",
+   "e423",
+   "e424",
+   "e425",
+   "e426",
+   "e427",
+   "e428",
+   "e429",
+   "e430",
+   "e431",
+   "e432",
+   "e433",
+   "e434"
+  ],
+  "section:[head]": [
+   "e185",
+   "e248",
+   "e277",
+   "e338",
+   "e374"
+  ],
+  "keyword:http": [
+   "e186"
+  ],
+  "keyword:physics vol": [
+   "e186"
+  ],
+  "section:[from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics]": [
+   "e186",
+   "e187"
+  ],
+  "keyword:integrable quantum systems": [
+   "e187",
+   "e232",
+   "e437"
+  ],
+  "keyword:quantum systems": [
+   "e187",
+   "e188",
+   "e190",
+   "e420",
+   "e457"
+  ],
+  "keyword:generic many-body quantum systems": [
+   "e188"
+  ],
+  "keyword:isolated quantum systems": [
+   "e188"
+  ],
+  "keyword:isolated quantum systems far": [
+   "e188"
+  ],
+  "keyword:isolated quantum systems one": [
+   "e188"
+  ],
+  "keyword:several quantum lattice systems": [
+   "e188"
+  ],
+  "section:[1. introduction]": [
+   "e188"
+  ],
+  "keyword:briefly discuss chaotic dynamics": [
+   "e189"
+  ],
+  "keyword:chaotic motion": [
+   "e189"
+  ],
+  "keyword:chaotic system": [
+   "e189"
+  ],
+  "keyword:chaotic systems": [
+   "e189"
+  ],
+  "keyword:particle exhibits chaotic motion": [
+   "e189"
+  ],
+  "section:[2.1. classical chaos]": [
+   "e189"
+  ],
+  "keyword:quantum chaos": [
+   "e190",
+   "e205",
+   "e231",
+   "e437"
+  ],
+  "keyword:quantum chaos builds came": [
+   "e190"
+  ],
+  "section:[2.2. random matrix theory]": [
+   "e190"
+  ],
+  "keyword:essentially random vectors": [
+   "e191"
+  ],
+  "keyword:first random hamiltonian": [
+   "e191"
+  ],
+  "keyword:random hamiltonians": [
+   "e191"
+  ],
+  "keyword:random matrix ensemble": [
+   "e191"
+  ],
+  "keyword:random unit vectors": [
+   "e191"
+  ],
+  "keyword:two uncorrelated random vectors": [
+   "e191"
+  ],
+  "section:[2.2.1. chaotic eigenfunctions]": [
+   "e191"
+  ],
+  "keyword:diagonal matrix elements": [
+   "e192"
+  ],
+  "keyword:matrix elements": [
+   "e192"
+  ],
+  "keyword:off-diagonal matrix elements": [
+   "e192",
+   "e203"
+  ],
+  "section:[2.2.2. the structure of the matrix elements of operators]": [
+   "e192"
+  ],
+  "keyword:energy level statistics": [
+   "e193"
+  ],
+  "keyword:many quantum systems whose classical counterpart": [
+   "e193"
+  ],
+  "keyword:many-particle systems one": [
+   "e193"
+  ],
+  "keyword:one considers systems whose classical counterparts": [
+   "e193"
+  ],
+  "keyword:quantum integrable systems": [
+   "e193"
+  ],
+  "keyword:quantum systems whose corresponding classical counterpart": [
+   "e193"
+  ],
+  "section:[2.3. berry-tabor conjecture]": [
+   "e193"
+  ],
+  "keyword:momentum phase-space variables one": [
+   "e194"
+  ],
+  "keyword:slightly modified conjecture one": [
+   "e194"
+  ],
+  "section:[2.4. the semi-classical limit and berrys conjecture]": [
+   "e194"
+  ],
+  "keyword:level distribution": [
+   "e195"
+  ],
+  "keyword:level spacing distribution": [
+   "e195"
+  ],
+  "keyword:level spacing distribution obtained": [
+   "e195"
+  ],
+  "section:[3.1. examples of wigner-dyson and poisson statistics]": [
+   "e195"
+  ],
+  "keyword:average information entropy": [
+   "e196"
+  ],
+  "keyword:information entropy rapidly increases": [
+   "e196"
+  ],
+  "keyword:scaled information entropy": [
+   "e196"
+  ],
+  "section:[3.2. the structure of many-body eigenstates]": [
+   "e196"
+  ],
+  "keyword:entanglement entropy grows linearly": [
+   "e197"
+  ],
+  "keyword:second renyi entanglement entropy": [
+   "e197"
+  ],
+  "keyword:second renyi entanglement entropy shown": [
+   "e197"
+  ],
+  "keyword:von neumann entanglement entropy": [
+   "e197"
+  ],
+  "section:[3.3. quantum chaos and entanglement]": [
+   "e197"
+  ],
+  "keyword:diagonal entropy": [
+   "e198"
+  ],
+  "keyword:diagonal entropy becomes almost": [
+   "e198"
+  ],
+  "keyword:floquet diagonal entropy show strong correlations": [
+   "e198"
+  ],
+  "section:[each time t , nitial product states, let them s ( t ) for each initial state, and -2 n ln 2 -o ( mn ) 3.4. quantum chaos and delocalization in energy space]": [
+   "e198"
+  ],
+  "keyword:arbitrary quantum systems assuming": [
+   "e199"
+  ],
+  "keyword:even large systems thermalize": [
+   "e199"
+  ],
+  "keyword:many-body quantum systems": [
+   "e199"
+  ],
+  "keyword:moderately small systems": [
+   "e199"
+  ],
+  "keyword:realistic quantum systems": [
+   "e199"
+  ],
+  "section:[4.1. thermalization in quantum systems]": [
+   "e199"
+  ],
+  "keyword:energy levels": [
+   "e200"
+  ],
+  "keyword:energy window narrower": [
+   "e200"
+  ],
+  "keyword:mean energy": [
+   "e200",
+   "e229"
+  ],
+  "keyword:narrow energy window": [
+   "e200"
+  ],
+  "section:[4.2. the eigenstate thermalization hypothesis (eth)]": [
+   "e200"
+  ],
+  "keyword:energy fluctuations": [
+   "e201",
+   "e230"
+  ],
+  "keyword:equilibrium statistical fluctuations": [
+   "e201"
+  ],
+  "keyword:one uses energy fluctuations": [
+   "e201"
+  ],
+  "keyword:weakly nonintegrable quantum systems": [
+   "e201"
+  ],
+  "section:[4.2.1. eth and thermalization]": [
+   "e201"
+  ],
+  "keyword:microcanonical energy window": [
+   "e202"
+  ],
+  "keyword:microcanonical energy window defines": [
+   "e202"
+  ],
+  "keyword:von neumanns ergodic theorem": [
+   "e202"
+  ],
+  "keyword:von neumanns quantum ergodic theorem states": [
+   "e202"
+  ],
+  "section:[4.2.2. eth and the quantum ergodic theorem]": [
+   "e202"
+  ],
+  "keyword:few off-diagonal matrix elements": [
+   "e203"
+  ],
+  "keyword:off-diagonal matrix elements appear": [
+   "e203"
+  ],
+  "section:[4.3.1. eigenstate thermalization]": [
+   "e203"
+  ],
+  "keyword:diagonal ensemble": [
+   "e204"
+  ],
+  "keyword:diagonal ensemble predictions": [
+   "e204"
+  ],
+  "keyword:diagonal ensemble results": [
+   "e204"
+  ],
+  "section:[4.3.2. quantum quenches and thermalization in lattice systems]": [
+   "e204"
+  ],
+  "keyword:chaos": [
+   "e205"
+  ],
+  "keyword:isolated quantum systems taken far": [
+   "e205"
+  ],
+  "keyword:isolated systems": [
+   "e205"
+  ],
+  "keyword:quantum chaos together": [
+   "e205"
+  ],
+  "section:[5. quantum chaos and the laws of thermodynamics]": [
+   "e205"
+  ],
+  "keyword:dynamical process": [
+   "e206"
+  ],
+  "keyword:dynamical process involves changing parameters": [
+   "e206"
+  ],
+  "keyword:final equilibrium state": [
+   "e206"
+  ],
+  "keyword:initial equilibrium state": [
+   "e206"
+  ],
+  "section:[5.1. general setup and doubly stochastic evolution]": [
+   "e206"
+  ],
+  "keyword:doubly stochastic matrix": [
+   "e207",
+   "e242"
+  ],
+  "keyword:doubly stochastic transition rates": [
+   "e207"
+  ],
+  "keyword:proper doubly stochastic matrix": [
+   "e207"
+  ],
+  "keyword:single doubly stochastic matrix": [
+   "e207"
+  ],
+  "section:[5.1.1. properties of master equations and doubly stochastic evolution]": [
+   "e207"
+  ],
+  "keyword:doubly stochastic evolution": [
+   "e208",
+   "e212",
+   "e217"
+  ],
+  "keyword:doubly stochasticity": [
+   "e208"
+  ],
+  "keyword:integrable systems": [
+   "e208",
+   "e232"
+  ],
+  "keyword:physical implications": [
+   "e208"
+  ],
+  "keyword:subsection rely": [
+   "e208"
+  ],
+  "keyword:therefore valid": [
+   "e208"
+  ],
+  "section:[5.2. general implications of doubly stochastic evolution]": [
+   "e208"
+  ],
+  "keyword:infinite temperature": [
+   "e209",
+   "e424"
+  ],
+  "keyword:infinite temperature state": [
+   "e209",
+   "e212"
+  ],
+  "keyword:infinite temperature state since": [
+   "e209"
+  ],
+  "keyword:state characterized": [
+   "e209"
+  ],
+  "section:[5.2.1. the infinite temperature state as an attractor of doubly-stochastic evolution]": [
+   "e209"
+  ],
+  "keyword:diagonal entropy cannot decrease": [
+   "e210"
+  ],
+  "keyword:diagonal entropy increases": [
+   "e210"
+  ],
+  "keyword:diagonal entropy increases continuously": [
+   "e210"
+  ],
+  "keyword:initial diagonal entropy": [
+   "e210"
+  ],
+  "section:[5.2.2. increase of the diagonal entropy under doubly stochastic evolution]": [
+   "e210"
+  ],
+  "keyword:doubly stochastic cyclic evolution": [
+   "e211"
+  ],
+  "keyword:initial density matrix": [
+   "e211"
+  ],
+  "keyword:initial passive density matrix": [
+   "e211"
+  ],
+  "keyword:repeated doubly stochastic evolution": [
+   "e211",
+   "e212"
+  ],
+  "section:[5.2.3. the second law in the kelvin formulation for passive density matrices]": [
+   "e211"
+  ],
+  "keyword:cyclic doubly stochastic evolution leads": [
+   "e212"
+  ],
+  "keyword:discussed three important results": [
+   "e212"
+  ],
+  "section:[5.3. implications of doubly-stochastic evolution for chaotic systems]": [
+   "e212"
+  ],
+  "keyword:extensive thermodynamic entropy": [
+   "e213"
+  ],
+  "keyword:thermodynamic entropy": [
+   "e213"
+  ],
+  "keyword:thermodynamic entropy follows straightforwardly": [
+   "e213"
+  ],
+  "section:[5.3.1. the diagonal entropy and the fundamental thermodynamic relation]": [
+   "e213"
+  ],
+  "keyword:energy change": [
+   "e214"
+  ],
+  "keyword:energy spectrum": [
+   "e214"
+  ],
+  "keyword:exponentially many energy levels": [
+   "e214"
+  ],
+  "keyword:infinitesimal energy change": [
+   "e214"
+  ],
+  "keyword:microscopic energy levels": [
+   "e214"
+  ],
+  "section:[5.3.2. the fundamental relation vs the first law of thermodynamics]": [
+   "e214"
+  ],
+  "keyword:driven isolated systems": [
+   "e215"
+  ],
+  "keyword:fluctuation theorems": [
+   "e215"
+  ],
+  "keyword:quantum chaotic systems": [
+   "e215",
+   "e231"
+  ],
+  "keyword:recently discovered fluctuation theorems": [
+   "e215"
+  ],
+  "keyword:situations fluctuation theorems apply": [
+   "e215"
+  ],
+  "keyword:theorems effectively replace many thermodynamic inequalities": [
+   "e215"
+  ],
+  "section:[6. quantum chaos, fluctuation theorems, and linear response relations]": [
+   "e215"
+  ],
+  "keyword:jarzynski equality allows one": [
+   "e216"
+  ],
+  "keyword:jarzynski equality constraints different cumulants": [
+   "e216"
+  ],
+  "keyword:jarzynski equality reduces": [
+   "e216"
+  ],
+  "keyword:jarzynski equality turns": [
+   "e216"
+  ],
+  "section:[6.1. fluctuation theorems]": [
+   "e216"
+  ],
+  "keyword:doubly stochastic evolution describes unitary dynamics": [
+   "e217"
+  ],
+  "keyword:initial energy": [
+   "e217"
+  ],
+  "keyword:partition function associated": [
+   "e217"
+  ],
+  "section:[6.1.1. fluctuation theorems for systems starting from a gibbs state]": [
+   "e217"
+  ],
+  "keyword:forward process starting": [
+   "e218"
+  ],
+  "keyword:reverse process": [
+   "e218"
+  ],
+  "keyword:reverse process starting": [
+   "e218"
+  ],
+  "section:[6.1.2. fluctuation theorems for quantum chaotic systems]": [
+   "e218"
+  ],
+  "keyword:detailed balance condition": [
+   "e219"
+  ],
+  "keyword:familiar detailed balance condition": [
+   "e219"
+  ],
+  "keyword:global detailed balance condition": [
+   "e219"
+  ],
+  "keyword:two systems": [
+   "e219",
+   "e222",
+   "e334"
+  ],
+  "keyword:two weakly coupled systems": [
+   "e219"
+  ],
+  "section:[6.2. detailed balance for open systems]": [
+   "e219"
+  ],
+  "section:[6.3. einsteins energy drift-diffusion relations for isolated and open systems]": [
+   "e220"
+  ],
+  "keyword:energy distribution function": [
+   "e221"
+  ],
+  "keyword:finding universal energy distributions": [
+   "e221"
+  ],
+  "section:[6.4. fokker-planck equation for the heating of a driven isolated system]": [
+   "e221"
+  ],
+  "keyword:two initially separated chaotic systems": [
+   "e222"
+  ],
+  "keyword:two large macroscopic systems": [
+   "e222"
+  ],
+  "section:[6.5. fluctuation theorems for two (or more) conserved quantities]": [
+   "e222"
+  ],
+  "keyword:lhs one": [
+   "e223"
+  ],
+  "section:[6.6. linear response and onsager relations]": [
+   "e223"
+  ],
+  "keyword:cumulant expansion": [
+   "e224"
+  ],
+  "keyword:cumulant tensors": [
+   "e224"
+  ],
+  "keyword:joint cumulant tensors": [
+   "e224"
+  ],
+  "section:[6.7. nonlinear response coefficients]": [
+   "e224"
+  ],
+  "section:[6.8. eth and the fluctuation-dissipation relation for a single eigenstate]": [
+   "e225"
+  ],
+  "keyword:correlation function": [
+   "e226"
+  ],
+  "keyword:higher order correlation functions": [
+   "e226"
+  ],
+  "keyword:nonequal-time correlation function": [
+   "e226"
+  ],
+  "section:[6.9. eth and two-observable correlations functions]": [
+   "e226"
+  ],
+  "keyword:quasi-static process one usually understands": [
+   "e227"
+  ],
+  "section:[7. application of einsteins relation to continuously driven systems]": [
+   "e227"
+  ],
+  "keyword:asymptotic energy distribution": [
+   "e228",
+   "e229"
+  ],
+  "keyword:energy distribution": [
+   "e228",
+   "e229"
+  ],
+  "keyword:particle energy": [
+   "e228"
+  ],
+  "keyword:particles kinetic energy": [
+   "e228"
+  ],
+  "keyword:total energy distribution": [
+   "e228"
+  ],
+  "section:[7.1. heating a particle in a fluctuating chaotic cavity]": [
+   "e228"
+  ],
+  "keyword:given energy": [
+   "e229"
+  ],
+  "keyword:initial mean energy": [
+   "e229"
+  ],
+  "section:[7.2. driven harmonic system and a phase transition in the distribution function]": [
+   "e229"
+  ],
+  "keyword:canonical energy fluctuations": [
+   "e230"
+  ],
+  "keyword:given total energy": [
+   "e230"
+  ],
+  "keyword:significant energy transfer occurs": [
+   "e230"
+  ],
+  "keyword:total energy constraint": [
+   "e230"
+  ],
+  "section:[7.3. two equilibrating systems]": [
+   "e230"
+  ],
+  "keyword:isolated nonintegrable quantum systems": [
+   "e231"
+  ],
+  "keyword:quantum integrability": [
+   "e231"
+  ],
+  "section:[8. integrable models and the generalized gibbs ensemble (gge)]": [
+   "e231"
+  ],
+  "keyword:extensive conserved quantities": [
+   "e232"
+  ],
+  "keyword:integrable systems becomes apparent already": [
+   "e232"
+  ],
+  "section:[8.1. constrained equilibrium: the gge]": [
+   "e232"
+  ],
+  "keyword:discuss one particular noninteracting system": [
+   "e233"
+  ],
+  "keyword:gge constructed using occupation modes": [
+   "e233"
+  ],
+  "keyword:gge introduced above": [
+   "e233"
+  ],
+  "keyword:using extensive conserved quantities": [
+   "e233"
+  ],
+  "section:[8.1.1. noninteracting spinless fermions]": [
+   "e233"
+  ],
+  "keyword:grand canonical ensemble": [
+   "e234"
+  ],
+  "keyword:grand canonical ensemble results": [
+   "e234"
+  ],
+  "keyword:hard-core boson site occupations": [
+   "e234"
+  ],
+  "section:[8.1.2. hard-core bosons]": [
+   "e234"
+  ],
+  "keyword:eigenstate expectation values": [
+   "e235"
+  ],
+  "keyword:eigenstate expectation values vanishes": [
+   "e235"
+  ],
+  "keyword:transverse field ising model": [
+   "e235"
+  ],
+  "keyword:transverse field ising model eigenstate thermalization": [
+   "e235"
+  ],
+  "section:[8.2. generalized eigenstate thermalization]": [
+   "e235"
+  ],
+  "keyword:conservation laws": [
+   "e236"
+  ],
+  "keyword:imposing local conservation laws": [
+   "e236"
+  ],
+  "keyword:norm distance decays exponentially": [
+   "e236"
+  ],
+  "keyword:truncated gge obtained": [
+   "e236"
+  ],
+  "section:[8.2.1. truncated gge for the transverse field ising model]": [
+   "e236"
+  ],
+  "keyword:gge results": [
+   "e237"
+  ],
+  "keyword:integrable xxz model written": [
+   "e237"
+  ],
+  "section:[( y ) tgge ,l ) , the subsystem size ranges from l = 5 to l = 50. and sizes change gradually as a function of the size 8.3. quenches in the xxz model]": [
+   "e237"
+  ],
+  "keyword:weakly interacting disordered systems": [
+   "e238"
+  ],
+  "section:[8.4. relaxation of weakly non-integrable systems: prethermalization and quantum kinetic equations]": [
+   "e238"
+  ],
+  "section:[acknowledgments]": [
+   "e239",
+   "e336",
+   "e372"
+  ],
+  "section:[appendix a. the kicked rotor]": [
+   "e240"
+  ],
+  "keyword:partition function": [
+   "e241"
+  ],
+  "keyword:riemann zeta function": [
+   "e241"
+  ],
+  "keyword:riemanns zeta function": [
+   "e241"
+  ],
+  "keyword:zeta function": [
+   "e241"
+  ],
+  "section:[appendix b. zeros of the riemann zeta function]": [
+   "e241"
+  ],
+  "keyword:doubly stochastic matrices": [
+   "e242"
+  ],
+  "keyword:doubly stochastic matrix admits": [
+   "e242"
+  ],
+  "keyword:one eigenvalue lambda": [
+   "e242"
+  ],
+  "keyword:stochastic matrix": [
+   "e242"
+  ],
+  "section:[appendix c. the infinite temperature state as an attractor]": [
+   "e242"
+  ],
+  "keyword:doubly stochastic master equation": [
+   "e243"
+  ],
+  "keyword:general doubly stochastic matrix": [
+   "e243"
+  ],
+  "keyword:general master equation": [
+   "e243"
+  ],
+  "keyword:master equation above simply reduces": [
+   "e243"
+  ],
+  "keyword:one permutation matrix contributes": [
+   "e243"
+  ],
+  "section:[appendix d. birkhoffs theorem and doubly stochastic evolution]": [
+   "e243"
+  ],
+  "keyword:doubly stochastic condition": [
+   "e244"
+  ],
+  "section:[appendix e. proof of \u3008 w \u3009 \u2265 0 for passive density matrices and doubly-stochastic evolution]": [
+   "e244"
+  ],
+  "keyword:energy dissipation": [
+   "e245"
+  ],
+  "keyword:single many-body energy eigenstate": [
+   "e245"
+  ],
+  "section:[appendix f. derivation of the drift diffusion relation for continuous processes]": [
+   "e245"
+  ],
+  "keyword:second order": [
+   "e246"
+  ],
+  "section:[appendix g. derivation of onsager relations]": [
+   "e246"
+  ],
+  "section:[references]": [
+   "e247",
+   "e276",
+   "e337"
+  ],
+  "keyword:authors": [
+   "e249"
+  ],
+  "keyword:physa": [
+   "e249"
+  ],
+  "keyword:statistical mechanics": [
+   "e249"
+  ],
+  "section:[the social architecture of capitalism]": [
+   "e249",
+   "e250"
+  ],
+  "keyword:dynamic model": [
+   "e251"
+  ],
+  "keyword:model": [
+   "e251",
+   "e262"
+  ],
+  "keyword:model self-organises": [
+   "e251"
+  ],
+  "keyword:model unifies": [
+   "e251"
+  ],
+  "keyword:power-law distribution": [
+   "e251",
+   "e275"
+  ],
+  "section:[abstract]": [
+   "e251"
+  ],
+  "keyword:social dependence mediated": [
+   "e252"
+  ],
+  "keyword:social relations": [
+   "e252",
+   "e262"
+  ],
+  "section:[1 introduction]": [
+   "e252"
+  ],
+  "keyword:actor": [
+   "e253",
+   "e254"
+  ],
+  "keyword:actor cannot belong": [
+   "e253"
+  ],
+  "keyword:actors employer": [
+   "e253"
+  ],
+  "keyword:integer employer index": [
+   "e253"
+  ],
+  "section:[2 a dynamic model of the social relations of production]": [
+   "e253"
+  ],
+  "keyword:active actor": [
+   "e254"
+  ],
+  "keyword:given period": [
+   "e254"
+  ],
+  "keyword:perform economic actions": [
+   "e254"
+  ],
+  "section:[2.1 the active actor]": [
+   "e254"
+  ],
+  "keyword:following hiring rule": [
+   "e255"
+  ],
+  "keyword:hiring favour": [
+   "e255"
+  ],
+  "keyword:hiring rule": [
+   "e255"
+  ],
+  "keyword:wage interval according": [
+   "e255"
+  ],
+  "section:[2.2 employee hiring]": [
+   "e255"
+  ],
+  "keyword:actors total expenditure": [
+   "e256"
+  ],
+  "keyword:expenditure": [
+   "e256"
+  ],
+  "keyword:expenditure amount": [
+   "e256"
+  ],
+  "keyword:expenditure rule": [
+   "e256"
+  ],
+  "keyword:therefore capitalist expenditure according": [
+   "e256"
+  ],
+  "keyword:total expenditure": [
+   "e256"
+  ],
+  "section:[2.3 expenditure on goods and services]": [
+   "e256"
+  ],
+  "keyword:current available market value": [
+   "e257"
+  ],
+  "keyword:individual market transactions": [
+   "e257"
+  ],
+  "keyword:market sample rule abstracts": [
+   "e257"
+  ],
+  "keyword:market samples": [
+   "e257"
+  ],
+  "keyword:prevailing market conditions": [
+   "e257"
+  ],
+  "section:[2.4 interaction between firms and the market]": [
+   "e257"
+  ],
+  "keyword:ante wage bill": [
+   "e258"
+  ],
+  "keyword:firms current money holdings": [
+   "e258"
+  ],
+  "keyword:wage bill": [
+   "e258"
+  ],
+  "section:[2.5 employee firing]": [
+   "e258"
+  ],
+  "keyword:concrete model would introduce wage contracts": [
+   "e259"
+  ],
+  "keyword:employers pay wages according": [
+   "e259"
+  ],
+  "keyword:individual employees wage": [
+   "e259"
+  ],
+  "keyword:total wage bill": [
+   "e259"
+  ],
+  "keyword:wage": [
+   "e259"
+  ],
+  "section:[2.6 wage payment]": [
+   "e259"
+  ],
+  "keyword:execute expenditure rule": [
+   "e260"
+  ],
+  "keyword:execute hiring rule": [
+   "e260"
+  ],
+  "keyword:execute wage payment rule": [
+   "e260"
+  ],
+  "section:[2.7 historical time]": [
+   "e260"
+  ],
+  "keyword:execute rule": [
+   "e261"
+  ],
+  "keyword:month": [
+   "e261"
+  ],
+  "keyword:one month rule": [
+   "e261"
+  ],
+  "keyword:repeated random selection": [
+   "e261"
+  ],
+  "keyword:simulated month breaks": [
+   "e261"
+  ],
+  "section:[one month rule 1m :]": [
+   "e261"
+  ],
+  "keyword:real time": [
+   "e262"
+  ],
+  "keyword:time scale": [
+   "e262"
+  ],
+  "section:[one year rule 1y :]": [
+   "e262"
+  ],
+  "keyword:highest possible wage never exceeds": [
+   "e263"
+  ],
+  "keyword:minimum wage": [
+   "e263"
+  ],
+  "keyword:wage interval": [
+   "e263"
+  ],
+  "keyword:wage interval parameter": [
+   "e263"
+  ],
+  "keyword:wage parameter": [
+   "e263"
+  ],
+  "section:[3 results]": [
+   "e263"
+  ],
+  "keyword:class sizes": [
+   "e264"
+  ],
+  "keyword:class sizes generated": [
+   "e264"
+  ],
+  "keyword:small employing class": [
+   "e264"
+  ],
+  "section:[3.1 class distribution]": [
+   "e264"
+  ],
+  "keyword:firm size distribution": [
+   "e265",
+   "e273"
+  ],
+  "keyword:firm size distribution followed": [
+   "e265"
+  ],
+  "keyword:firm size distribution generated": [
+   "e265"
+  ],
+  "keyword:largest firm size": [
+   "e265"
+  ],
+  "section:[3.2 firm size distribution]": [
+   "e265"
+  ],
+  "keyword:growth rates": [
+   "e266"
+  ],
+  "keyword:holds true whether growth rates": [
+   "e266"
+  ],
+  "keyword:lhs graph shows growth rates": [
+   "e266"
+  ],
+  "keyword:log growth rates": [
+   "e266"
+  ],
+  "keyword:low growth rates resulting": [
+   "e266"
+  ],
+  "keyword:rhs graph shows growth rates": [
+   "e266"
+  ],
+  "section:[3.3 firm growth distributions]": [
+   "e266"
+  ],
+  "keyword:empirical laplace growth distribution suggests": [
+   "e267"
+  ],
+  "keyword:laplace growth distribution": [
+   "e267"
+  ],
+  "keyword:model generates log annual growth rates": [
+   "e267"
+  ],
+  "keyword:models assume firm growth": [
+   "e267"
+  ],
+  "section:[firm growth in the sr model is measured according to:]": [
+   "e267"
+  ],
+  "keyword:firm demise measure": [
+   "e268"
+  ],
+  "keyword:firm demise occurs": [
+   "e268"
+  ],
+  "keyword:firm demises": [
+   "e268"
+  ],
+  "keyword:firm fires": [
+   "e268"
+  ],
+  "section:[3.4 firm demise distribution]": [
+   "e268"
+  ],
+  "keyword:gdp growth rate": [
+   "e269"
+  ],
+  "keyword:gdp log growth rates": [
+   "e269"
+  ],
+  "keyword:log gdp growth rates": [
+   "e269"
+  ],
+  "section:[3.5 gdp growth]": [
+   "e269"
+  ],
+  "keyword:average duration": [
+   "e270"
+  ],
+  "keyword:average recession duration": [
+   "e270"
+  ],
+  "keyword:duration": [
+   "e270"
+  ],
+  "section:[3.6 duration of recessions]": [
+   "e270"
+  ],
+  "keyword:advanced capitalist countries publish national income accounts": [
+   "e271"
+  ],
+  "keyword:profit share fluctuates": [
+   "e271"
+  ],
+  "keyword:wage share": [
+   "e271"
+  ],
+  "keyword:wage share fluctuates": [
+   "e271"
+  ],
+  "keyword:wage share nearer": [
+   "e271"
+  ],
+  "section:[3.7 income shares]": [
+   "e271"
+  ],
+  "keyword:capitalist income distribution generated": [
+   "e272"
+  ],
+  "keyword:complete income distribution plotted": [
+   "e272"
+  ],
+  "keyword:empirical income distribution": [
+   "e272"
+  ],
+  "keyword:income distribution according": [
+   "e272"
+  ],
+  "keyword:income distribution plotted": [
+   "e272"
+  ],
+  "section:[3.8 disaggregated income distributions]": [
+   "e272"
+  ],
+  "keyword:firm-weighted rate-of-profit distribution": [
+   "e273"
+  ],
+  "keyword:industrial rate-of-profit distribution given additional assumptions": [
+   "e273"
+  ],
+  "keyword:rate-of-profit distribution": [
+   "e273"
+  ],
+  "keyword:unconditional rate-of-profit distribution": [
+   "e273"
+  ],
+  "section:[3.9 rate-of-profit distribution]": [
+   "e273"
+  ],
+  "keyword:existing economic models": [
+   "e274"
+  ],
+  "keyword:standard economic models": [
+   "e274"
+  ],
+  "section:[4 discussion]": [
+   "e274"
+  ],
+  "keyword:empirical rate-of-profit distribution": [
+   "e275"
+  ],
+  "keyword:gamma-like rate-of-profit distribution": [
+   "e275"
+  ],
+  "keyword:highly unequal income distribution characterised": [
+   "e275"
+  ],
+  "keyword:laplace distribution": [
+   "e275"
+  ],
+  "keyword:lognormal distribution": [
+   "e275"
+  ],
+  "section:[5 conclusion]": [
+   "e275"
+  ],
+  "keyword:progress": [
+   "e278"
+  ],
+  "section:[stochastic thermodynamics, fluctuation theorems and molecular machines]": [
+   "e278"
+  ],
+  "keyword:thermoelectric devices involving single electron transport": [
+   "e279",
+   "e445"
+  ],
+  "section:[udo seifert]": [
+   "e279"
+  ],
+  "section:[contents]": [
+   "e280"
+  ],
+  "keyword:entropy production": [
+   "e281",
+   "e310",
+   "e332",
+   "e353",
+   "e445"
+  ],
+  "keyword:entropy production seriously": [
+   "e281"
+  ],
+  "section:[1.1. from classical to stochastic thermodynamics]": [
+   "e281"
+  ],
+  "keyword:relevant system size": [
+   "e282"
+  ],
+  "section:[1.2. main features of stochastic thermodynamics]": [
+   "e282"
+  ],
+  "keyword:deterministic dynamics": [
+   "e283"
+  ],
+  "keyword:one keeps deterministic equations": [
+   "e283"
+  ],
+  "section:[1.3. hamiltonian, thermostatted and open quantum dynamics]": [
+   "e283"
+  ],
+  "keyword:distinguish isothermal engines like molecular motors discussed": [
+   "e284"
+  ],
+  "keyword:heat engines like thermoelectric devices treated": [
+   "e284"
+  ],
+  "section:[1.4. scope and organization of this review]": [
+   "e284"
+  ],
+  "keyword:brief reviews": [
+   "e285"
+  ],
+  "keyword:reviews dealing": [
+   "e285"
+  ],
+  "keyword:stochastic dynamics based": [
+   "e285"
+  ],
+  "keyword:stochastic thermodynamics focusses": [
+   "e285"
+  ],
+  "section:[1.5. complementary reviews]": [
+   "e285"
+  ],
+  "keyword:colloidal particle confined": [
+   "e286"
+  ],
+  "keyword:introduced using": [
+   "e286"
+  ],
+  "keyword:main concepts": [
+   "e286"
+  ],
+  "keyword:one spatial dimension": [
+   "e286"
+  ],
+  "keyword:simple model system": [
+   "e286"
+  ],
+  "keyword:stochastic thermodynamics": [
+   "e286",
+   "e317"
+  ],
+  "section:[2. colloidal particle as paradigm]": [
+   "e286"
+  ],
+  "section:[2.1. stochastic dynamics]": [
+   "e287"
+  ],
+  "keyword:corresponding stationary state": [
+   "e288"
+  ],
+  "section:[2.2. non-equilibrium steady states (nesss)]": [
+   "e288"
+  ],
+  "keyword:dissipated heat": [
+   "e289"
+  ],
+  "keyword:heat dissipated": [
+   "e289"
+  ],
+  "keyword:heat inevitably dissipated": [
+   "e289"
+  ],
+  "keyword:heat requires": [
+   "e289"
+  ],
+  "keyword:minor modifications whereas infering heat correctly indeed requires one": [
+   "e289"
+  ],
+  "section:[2.3. stochastic energetics]": [
+   "e289"
+  ],
+  "keyword:stochastic entropy": [
+   "e290",
+   "e332"
+  ],
+  "keyword:stochastic entropy depends": [
+   "e290"
+  ],
+  "keyword:system entropy": [
+   "e290"
+  ],
+  "keyword:trajectory dependent entropy": [
+   "e290"
+  ],
+  "keyword:trajectory-dependent total entropy production": [
+   "e290"
+  ],
+  "section:[2.4. stochastic entropy]": [
+   "e290"
+  ],
+  "section:[2.5. ensemble averages]": [
+   "e291"
+  ],
+  "keyword:fluctuating trajectories taken": [
+   "e292"
+  ],
+  "keyword:fluctuation theorems express universal properties": [
+   "e292"
+  ],
+  "keyword:general mathematical consequences": [
+   "e292"
+  ],
+  "keyword:mathematical appearance": [
+   "e292"
+  ],
+  "section:[3. fluctuation theorems (fts)]": [
+   "e292"
+  ],
+  "keyword:detailed fluctuation theorem corresponds": [
+   "e293"
+  ],
+  "keyword:ift implies": [
+   "e293"
+  ],
+  "keyword:ift represents one constraint": [
+   "e293"
+  ],
+  "section:[3.1. phenomenological classification]": [
+   "e293"
+  ],
+  "keyword:jarzynski relation since": [
+   "e294"
+  ],
+  "section:[3.2. non-equilibrium work theorems]": [
+   "e294"
+  ],
+  "keyword:called entropy production": [
+   "e295"
+  ],
+  "keyword:ensemble entropy change": [
+   "e295"
+  ],
+  "keyword:entropy change": [
+   "e295"
+  ],
+  "keyword:long-time limit since entropy production": [
+   "e295"
+  ],
+  "keyword:total entropy production": [
+   "e295",
+   "e310"
+  ],
+  "keyword:total entropy production obeys": [
+   "e295"
+  ],
+  "section:[3.3. fts for entropy production]": [
+   "e295"
+  ],
+  "keyword:derive fts": [
+   "e296"
+  ],
+  "keyword:fts": [
+   "e296"
+  ],
+  "keyword:prominent fts discussed above": [
+   "e296"
+  ],
+  "keyword:related mathematically rigorous approaches": [
+   "e296"
+  ],
+  "section:[4. unification of fts]": [
+   "e296"
+  ],
+  "keyword:conjugate dynamics": [
+   "e297",
+   "e298"
+  ],
+  "keyword:dual dynamics": [
+   "e297",
+   "e298"
+  ],
+  "section:[4.1. conjugate dynamics]": [
+   "e297"
+  ],
+  "keyword:conjugate dynamics according": [
+   "e298"
+  ],
+  "keyword:original dynamics": [
+   "e298"
+  ],
+  "keyword:reversed dynamics": [
+   "e298"
+  ],
+  "section:[4.2. the master ft]": [
+   "e298"
+  ],
+  "keyword:one obtains": [
+   "e299"
+  ],
+  "section:[4.3. general ifts]": [
+   "e299"
+  ],
+  "section:[4.4. fts derived from time-reversal]": [
+   "e300"
+  ],
+  "keyword:external flow": [
+   "e301"
+  ],
+  "keyword:flow unchanged": [
+   "e301"
+  ],
+  "keyword:fts hold true essentially unchanged": [
+   "e301"
+  ],
+  "keyword:shear flow first investigated": [
+   "e301"
+  ],
+  "section:[4.5. fts for variants]": [
+   "e301"
+  ],
+  "section:[4.6. fts for athermal systems]": [
+   "e302"
+  ],
+  "keyword:detailed theorems give": [
+   "e303"
+  ],
+  "keyword:fluctuation theorems given above": [
+   "e303"
+  ],
+  "keyword:theorems involve non-linear averages": [
+   "e303"
+  ],
+  "keyword:theorems provide non-trivial information": [
+   "e303"
+  ],
+  "section:[5.1. principal aspects]": [
+   "e303"
+  ],
+  "keyword:colloidal particle": [
+   "e304"
+  ],
+  "keyword:colloidal particle driven": [
+   "e304"
+  ],
+  "keyword:colloidal particle initially": [
+   "e304"
+  ],
+  "keyword:colloidal particle pushed periodically": [
+   "e304"
+  ],
+  "section:[5.2. overdamped motion: colloidal particles and other systems]": [
+   "e304"
+  ],
+  "keyword:calculated work weighted propagators": [
+   "e305"
+  ],
+  "keyword:driven torsion pendulum differs fundamentally": [
+   "e305"
+  ],
+  "keyword:found": [
+   "e305"
+  ],
+  "section:[5.3. underdamped motion]": [
+   "e305"
+  ],
+  "keyword:experimental work": [
+   "e306"
+  ],
+  "section:[5.4. other systems]": [
+   "e306"
+  ],
+  "section:[6.1. master equation dynamics]": [
+   "e307"
+  ],
+  "section:[6.2. entropy production]": [
+   "e308"
+  ],
+  "keyword:driven two-level system modelling single electron transport": [
+   "e309"
+  ],
+  "keyword:experimental case studies experimental work measuring": [
+   "e309"
+  ],
+  "keyword:involving work hold": [
+   "e309"
+  ],
+  "keyword:work distributions": [
+   "e309"
+  ],
+  "section:[6.3. fts for entropy production and work]": [
+   "e309"
+  ],
+  "keyword:entropy production associated": [
+   "e310"
+  ],
+  "section:[6.4. ft for currents]": [
+   "e310"
+  ],
+  "keyword:optimal protocol": [
+   "e311"
+  ],
+  "keyword:optimal protocol connecting arbitrary given initial": [
+   "e311"
+  ],
+  "keyword:optimal protocol involves even stronger singularities": [
+   "e311"
+  ],
+  "keyword:optimal protocol obeys": [
+   "e311"
+  ],
+  "section:[7.1. optimal protocols]": [
+   "e311"
+  ],
+  "keyword:dissipated work": [
+   "e312"
+  ],
+  "keyword:dissipated work determines": [
+   "e312"
+  ],
+  "keyword:dissipated work since relative entropy decreases": [
+   "e312"
+  ],
+  "keyword:substantial dissipated work": [
+   "e312"
+  ],
+  "section:[7.2. quantifying times arrow]": [
+   "e312"
+  ],
+  "keyword:brownian information machines obeying": [
+   "e313"
+  ],
+  "section:[7.3. measurement and feedback]": [
+   "e313"
+  ],
+  "keyword:equilibrium equilibrium systems react": [
+   "e314"
+  ],
+  "keyword:interacting systems one often finds numerically good agreement": [
+   "e314"
+  ],
+  "section:[8.1. overview]": [
+   "e314"
+  ],
+  "section:[8.2. derivation and discussion]": [
+   "e315"
+  ],
+  "keyword:shear flow": [
+   "e316"
+  ],
+  "keyword:shear flow provides": [
+   "e316"
+  ],
+  "keyword:shear rate": [
+   "e316"
+  ],
+  "keyword:time-dependent additional shear strain": [
+   "e316"
+  ],
+  "section:[8.4. sheared suspensions]": [
+   "e316"
+  ],
+  "keyword:stochastic thermodynamics carries": [
+   "e317"
+  ],
+  "section:[9.1. overview]": [
+   "e317"
+  ],
+  "section:[9.2. biopolymers with continuous degrees of freedom]": [
+   "e318"
+  ],
+  "keyword:determine free energy changes induced": [
+   "e319"
+  ],
+  "keyword:free choice": [
+   "e319"
+  ],
+  "keyword:free energy involved": [
+   "e319"
+  ],
+  "keyword:free energy landscape": [
+   "e319"
+  ],
+  "keyword:free energy landscape derived": [
+   "e319"
+  ],
+  "keyword:recovering free energy landscapes": [
+   "e319"
+  ],
+  "section:[9.3. free energy recovery from non-equilibrium data]": [
+   "e319"
+  ],
+  "section:[9.4. enzymes and molecular motors with discrete states]": [
+   "e320"
+  ],
+  "keyword:archetypical thermodynamic machines": [
+   "e321"
+  ],
+  "keyword:isothermal autonomous machines": [
+   "e321"
+  ],
+  "keyword:isothermal machines": [
+   "e321"
+  ],
+  "section:[10.1. general aspects]": [
+   "e321"
+  ],
+  "keyword:directed cycle current": [
+   "e322"
+  ],
+  "section:[10.2. general framework for autonomous machines: cycle representation and entropy production]": [
+   "e322"
+  ],
+  "section:[10.3. power and efficiency]": [
+   "e323"
+  ],
+  "keyword:formula-not-decoded": [
+   "e324",
+   "e344",
+   "e345",
+   "e347",
+   "e353",
+   "e358",
+   "e359",
+   "e360",
+   "e363"
+  ],
+  "section:[10.4. linear response: relation to phenomenological irreversible thermodynamics]": [
+   "e324"
+  ],
+  "keyword:simple unicyclic machines": [
+   "e325"
+  ],
+  "keyword:unicyclic machine": [
+   "e325"
+  ],
+  "keyword:unicyclic machines consist": [
+   "e325"
+  ],
+  "keyword:unicyclic machines using": [
+   "e325"
+  ],
+  "keyword:unicyclic motor becomes": [
+   "e325"
+  ],
+  "section:[10.5. unicyclic machines]": [
+   "e325"
+  ],
+  "keyword:output transition": [
+   "e326"
+  ],
+  "keyword:strongly coupled machines exactly": [
+   "e326"
+  ],
+  "keyword:strongly coupled machines obey": [
+   "e326"
+  ],
+  "keyword:strongly coupled multicylic machine": [
+   "e326"
+  ],
+  "section:[10.6. multicyclic machines: strong vs weak coupling]": [
+   "e326"
+  ],
+  "keyword:models combining discrete": [
+   "e327"
+  ],
+  "keyword:molecular motor": [
+   "e327"
+  ],
+  "keyword:molecular motor like": [
+   "e327"
+  ],
+  "keyword:motor become visible": [
+   "e327"
+  ],
+  "keyword:rotary motor f1-atpase": [
+   "e327"
+  ],
+  "section:[10.7. efficiency and emp of molecular motors]": [
+   "e327"
+  ],
+  "keyword:assume ordinary heat conduction": [
+   "e328"
+  ],
+  "keyword:heat flux taken": [
+   "e328"
+  ],
+  "keyword:small heat engines": [
+   "e328"
+  ],
+  "section:[11.1. carnot, curzon-ahlborn and beyond]": [
+   "e328"
+  ],
+  "keyword:different temperature": [
+   "e329"
+  ],
+  "keyword:straightforward since one needs significant temperature differences": [
+   "e329"
+  ],
+  "keyword:two different temperature requires": [
+   "e329"
+  ],
+  "keyword:two heat baths": [
+   "e329"
+  ],
+  "section:[11.2. autonomous heat engines]": [
+   "e329"
+  ],
+  "keyword:heat engine": [
+   "e330"
+  ],
+  "keyword:micron-sized heat engine based": [
+   "e330"
+  ],
+  "keyword:simple two-state engine": [
+   "e330"
+  ],
+  "keyword:stochastic heat engine based": [
+   "e330"
+  ],
+  "section:[11.3. periodically driven heat engines]": [
+   "e330"
+  ],
+  "keyword:appropriate": [
+   "e331"
+  ],
+  "keyword:basic assumption": [
+   "e331"
+  ],
+  "keyword:few open general issues": [
+   "e331"
+  ],
+  "keyword:long exposition": [
+   "e331"
+  ],
+  "keyword:main achievements": [
+   "e331"
+  ],
+  "keyword:recall": [
+   "e331"
+  ],
+  "section:[12. concluding perspective]": [
+   "e331"
+  ],
+  "keyword:two correlation functions involving entropy production": [
+   "e332"
+  ],
+  "section:[12.1. summary]": [
+   "e332"
+  ],
+  "keyword:slow one": [
+   "e333"
+  ],
+  "section:[12.2. beyond a markovian dynamics: memory effects and coarse-graining]": [
+   "e333"
+  ],
+  "keyword:equilibrium systems": [
+   "e334"
+  ],
+  "keyword:non-equilibrium chemical potential": [
+   "e334"
+  ],
+  "keyword:non-equilibrium systems brought": [
+   "e334"
+  ],
+  "keyword:simple one-dimensional model systems like zero-range processes": [
+   "e334"
+  ],
+  "section:[12.3. coupling of non-equilibrium steady states: a zeroth law?]": [
+   "e334"
+  ],
+  "keyword:classical thermodynamics albeit": [
+   "e335"
+  ],
+  "keyword:optimizing quite practical matters like": [
+   "e335"
+  ],
+  "keyword:quite different time": [
+   "e335"
+  ],
+  "section:[12.4. final remark]": [
+   "e335"
+  ],
+  "keyword:graduate students": [
+   "e336"
+  ],
+  "keyword:long-standing enjoyable collaboration": [
+   "e336"
+  ],
+  "keyword:several topics treated": [
+   "e336"
+  ],
+  "keyword:special topics discussed": [
+   "e336"
+  ],
+  "keyword:two experimental groups": [
+   "e336"
+  ],
+  "keyword:van den broeck": [
+   "e336"
+  ],
+  "section:[rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes]": [
+   "e339",
+   "e340"
+  ],
+  "keyword:rational extended thermodynamic theory": [
+   "e340",
+   "e451"
+  ],
+  "keyword:energy density gll": [
+   "e341",
+   "e343"
+  ],
+  "keyword:specific internal energy composed": [
+   "e341"
+  ],
+  "keyword:vibrational energy density": [
+   "e341"
+  ],
+  "section:[i. introduction]": [
+   "e341",
+   "e377"
+  ],
+  "keyword:equilibrium distribution function": [
+   "e342",
+   "e344",
+   "e345"
+  ],
+  "keyword:internal modes": [
+   "e342"
+  ],
+  "keyword:two internal relaxation processes": [
+   "e342"
+  ],
+  "keyword:vibrational mode": [
+   "e342"
+  ],
+  "keyword:vibrational modes separately": [
+   "e342"
+  ],
+  "section:[ii. distribution function with two energies of internal modes]": [
+   "e342"
+  ],
+  "keyword:entropy density": [
+   "e343",
+   "e344",
+   "e359"
+  ],
+  "keyword:mass density": [
+   "e343"
+  ],
+  "keyword:momentum density": [
+   "e343"
+  ],
+  "keyword:specific internal energy": [
+   "e343",
+   "e362"
+  ],
+  "section:[a. equilibrium distribution function]": [
+   "e343"
+  ],
+  "keyword:equilibrium distribution functions": [
+   "e344"
+  ],
+  "section:[statement 1]": [
+   "e344"
+  ],
+  "keyword:inverse laplace transforms": [
+   "e345"
+  ],
+  "section:[b. thermal and caloric equations of state]": [
+   "e345"
+  ],
+  "keyword:balance equations": [
+   "e346",
+   "e355"
+  ],
+  "keyword:obtain three hierarchies": [
+   "e346"
+  ],
+  "keyword:three hierarchies": [
+   "e346"
+  ],
+  "section:[iii. nonequilibrium triple hierarchy of momentequations]": [
+   "e346"
+  ],
+  "keyword:compactly expressed": [
+   "e347"
+  ],
+  "keyword:finite system": [
+   "e347"
+  ],
+  "keyword:similar way": [
+   "e347"
+  ],
+  "section:[a. truncated system of balance equations and its closure]": [
+   "e347"
+  ],
+  "section:[1. galilean invariance]": [
+   "e348"
+  ],
+  "section:[2. mep and the closure of the system]": [
+   "e349"
+  ],
+  "keyword:collision term struchtrup": [
+   "e350"
+  ],
+  "keyword:internal mode": [
+   "e350"
+  ],
+  "keyword:novel simple collision term": [
+   "e350"
+  ],
+  "keyword:relaxation": [
+   "e350"
+  ],
+  "keyword:three relaxation times": [
+   "e350"
+  ],
+  "section:[iv. generalized bgk-model]": [
+   "e350"
+  ],
+  "keyword:possible relaxation processes": [
+   "e351"
+  ],
+  "keyword:relaxation process": [
+   "e351",
+   "e364"
+  ],
+  "keyword:relaxation process occurs": [
+   "e351"
+  ],
+  "keyword:three possible relaxation processes": [
+   "e351"
+  ],
+  "keyword:three relaxation processes caused": [
+   "e351"
+  ],
+  "section:[a. three relaxation times]": [
+   "e351"
+  ],
+  "keyword:distribution function fkr": [
+   "e352"
+  ],
+  "keyword:local equilibrium distribution function given": [
+   "e352"
+  ],
+  "section:[b. generalized bgk collision term]": [
+   "e352"
+  ],
+  "keyword:distribution functions": [
+   "e353"
+  ],
+  "keyword:following relations": [
+   "e353"
+  ],
+  "keyword:h-theorem holds": [
+   "e353"
+  ],
+  "section:[c. h-theorem]": [
+   "e353"
+  ],
+  "keyword:closed system": [
+   "e354"
+  ],
+  "keyword:et7 theory focuses": [
+   "e354"
+  ],
+  "keyword:euler system": [
+   "e354"
+  ],
+  "keyword:simplest system": [
+   "e354"
+  ],
+  "keyword:system": [
+   "e354",
+   "e451"
+  ],
+  "section:[v. et theory with seven independent fields: et 7]": [
+   "e354"
+  ],
+  "keyword:easily verified": [
+   "e355"
+  ],
+  "keyword:production terms": [
+   "e355"
+  ],
+  "keyword:velocity independent": [
+   "e355"
+  ],
+  "section:[a. system of balance equations]": [
+   "e355"
+  ],
+  "keyword:first": [
+   "e356"
+  ],
+  "keyword:following statement": [
+   "e356"
+  ],
+  "keyword:start": [
+   "e356"
+  ],
+  "section:[b. nonequilibrium distribution function]": [
+   "e356"
+  ],
+  "keyword:erent temperatures": [
+   "e357"
+  ],
+  "keyword:nonequilibrium chemical potentials": [
+   "e357"
+  ],
+  "keyword:nonequilibrium distribution function": [
+   "e357"
+  ],
+  "keyword:nonequilibrium state": [
+   "e357"
+  ],
+  "keyword:nonequilibrium temperature": [
+   "e357"
+  ],
+  "keyword:nonequilibrium temperatures": [
+   "e357"
+  ],
+  "section:[statement 2]": [
+   "e357"
+  ],
+  "keyword:constitutive equations": [
+   "e358"
+  ],
+  "keyword:constitutive equations above": [
+   "e358"
+  ],
+  "section:[c. closed system of field equations]": [
+   "e358"
+  ],
+  "keyword:entropy flux": [
+   "e359"
+  ],
+  "keyword:nonequilibrium specific entropy density": [
+   "e359"
+  ],
+  "section:[d. entropy density and production]": [
+   "e359"
+  ],
+  "keyword:collision term": [
+   "e360"
+  ],
+  "keyword:process": [
+   "e360"
+  ],
+  "keyword:production term": [
+   "e360"
+  ],
+  "section:[e. production terms in the generalized bgk-model]": [
+   "e360"
+  ],
+  "keyword:et7 theory": [
+   "e361",
+   "e362"
+  ],
+  "keyword:features": [
+   "e361"
+  ],
+  "keyword:summarize": [
+   "e361"
+  ],
+  "section:[vi. characteristic features of et 7]": [
+   "e361"
+  ],
+  "keyword:internal variables": [
+   "e362"
+  ],
+  "keyword:meixner theory": [
+   "e362"
+  ],
+  "keyword:two internal variable": [
+   "e362"
+  ],
+  "section:[a. comparison with the meixner theory]": [
+   "e362"
+  ],
+  "keyword:specific heat defined": [
+   "e363"
+  ],
+  "section:[b. characteristic velocity, sub-characteristic conditions, and local exceptionality]": [
+   "e363"
+  ],
+  "keyword:et6 theory studied": [
+   "e364"
+  ],
+  "keyword:previous et6 theory": [
+   "e364"
+  ],
+  "keyword:three possible et6 theories corresponding": [
+   "e364"
+  ],
+  "section:[c. et 6 theories as the principal subsystems of the et 7 theory]": [
+   "e364"
+  ],
+  "section:[d. near equilibrium case]": [
+   "e365"
+  ],
+  "keyword:initial time": [
+   "e366"
+  ],
+  "keyword:internal molecular relaxation processes": [
+   "e366"
+  ],
+  "keyword:relaxation evolved": [
+   "e366"
+  ],
+  "keyword:relaxation time": [
+   "e366"
+  ],
+  "section:[e. homogeneous solution and relaxation of nonequilibrium temperatures]": [
+   "e366"
+  ],
+  "keyword:dispersion relation": [
+   "e367",
+   "e368"
+  ],
+  "keyword:experimental data": [
+   "e367"
+  ],
+  "keyword:general features": [
+   "e367"
+  ],
+  "keyword:plane harmonic wave": [
+   "e367"
+  ],
+  "keyword:section vii": [
+   "e367"
+  ],
+  "keyword:theoretical prediction": [
+   "e367"
+  ],
+  "section:[vii. dispersion and attenuation of ultrasonic wave: an application of et 7]": [
+   "e367"
+  ],
+  "keyword:dispersion relations": [
+   "e368"
+  ],
+  "keyword:plane harmonic wave propagating": [
+   "e368"
+  ],
+  "keyword:reference equilibrium state": [
+   "e368"
+  ],
+  "keyword:state vector": [
+   "e368"
+  ],
+  "section:[a. dispersion relation]": [
+   "e368"
+  ],
+  "keyword:characteristic temperature dependence": [
+   "e369"
+  ],
+  "keyword:typical temperature dependence": [
+   "e369"
+  ],
+  "section:[b. qualitative description of the dispersion relation]": [
+   "e369"
+  ],
+  "keyword:br2 gases": [
+   "e370"
+  ],
+  "keyword:bulk viscosity coe cients": [
+   "e370"
+  ],
+  "section:[c. comparison with experimental data]": [
+   "e370"
+  ],
+  "keyword:detailed shock wave structure": [
+   "e371"
+  ],
+  "keyword:peculiar shock wave structure": [
+   "e371"
+  ],
+  "keyword:present et7 theory": [
+   "e371"
+  ],
+  "keyword:shock wave phenomena": [
+   "e371"
+  ],
+  "keyword:theory includes three six-field theories": [
+   "e371"
+  ],
+  "section:[viii. summary and outlook]": [
+   "e371"
+  ],
+  "keyword:jsps kakenhi grant numbers jp15k21452": [
+   "e372"
+  ],
+  "keyword:mathematical physics gnfm-indam": [
+   "e372"
+  ],
+  "keyword:national group": [
+   "e372"
+  ],
+  "keyword:partially supported": [
+   "e372"
+  ],
+  "keyword:work": [
+   "e372"
+  ],
+  "section:[appendix: proof of statement 2]": [
+   "e373"
+  ],
+  "keyword:mathematical": [
+   "e375"
+  ],
+  "keyword:physics": [
+   "e375"
+  ],
+  "section:[the role of quantum information in thermodynamics-a topical review]": [
+   "e375"
+  ],
+  "keyword:quantum fluctuation relations": [
+   "e376"
+  ],
+  "keyword:quantum information theory": [
+   "e376",
+   "e377",
+   "e378",
+   "e380",
+   "e421",
+   "e432",
+   "e457"
+  ],
+  "section:[the role of quantum information in thermodynamics - a topical review]": [
+   "e376"
+  ],
+  "keyword:quantum information": [
+   "e377",
+   "e380",
+   "e410",
+   "e425",
+   "e457"
+  ],
+  "keyword:quantum information theory-which": [
+   "e377"
+  ],
+  "keyword:quantum state": [
+   "e377",
+   "e388",
+   "e392",
+   "e396",
+   "e409",
+   "e412",
+   "e413",
+   "e418",
+   "e420",
+   "e429",
+   "e430"
+  ],
+  "keyword:quantum states necessary": [
+   "e377"
+  ],
+  "keyword:see quantum theory": [
+   "e377"
+  ],
+  "keyword:quantum information community": [
+   "e378"
+  ],
+  "keyword:quantum information theorists": [
+   "e378"
+  ],
+  "keyword:quantum mechanics": [
+   "e378",
+   "e382"
+  ],
+  "section:[fig. 1: maxwells demon]": [
+   "e378"
+  ],
+  "keyword:applying different unitary transformations": [
+   "e379"
+  ],
+  "keyword:shannon entropy": [
+   "e379"
+  ],
+  "keyword:total entropy increase": [
+   "e379"
+  ],
+  "keyword:von neumann entropy": [
+   "e379"
+  ],
+  "section:[fig. 2: the thermodynamic origin of the von neumann entropy]": [
+   "e379"
+  ],
+  "keyword:fully quantum mechanical perspective": [
+   "e380"
+  ],
+  "keyword:quantum information perspective": [
+   "e380"
+  ],
+  "keyword:quantum information processing": [
+   "e380",
+   "e410"
+  ],
+  "section:[scope and other reviews]": [
+   "e380"
+  ],
+  "keyword:states": [
+   "e381"
+  ],
+  "section:[definitions and notation]": [
+   "e381"
+  ],
+  "keyword:microscopic theory": [
+   "e382"
+  ],
+  "keyword:progress made": [
+   "e382"
+  ],
+  "keyword:quantum theory": [
+   "e382"
+  ],
+  "keyword:statistical mechanics state": [
+   "e382"
+  ],
+  "section:[ii. foundations of statistical mechanics]": [
+   "e382"
+  ],
+  "keyword:physical states": [
+   "e383"
+  ],
+  "keyword:priori probabilities states": [
+   "e383"
+  ],
+  "keyword:random pure states": [
+   "e383"
+  ],
+  "keyword:typical physical states": [
+   "e383"
+  ],
+  "section:[a. equal a priori probabilities postulate as a consequence of typicality in hilbert spaces]": [
+   "e383"
+  ],
+  "keyword:certain state": [
+   "e384"
+  ],
+  "keyword:equilibrium state introduced": [
+   "e384"
+  ],
+  "keyword:initial state": [
+   "e384"
+  ],
+  "keyword:initial state dephased": [
+   "e384"
+  ],
+  "keyword:reduced state": [
+   "e384"
+  ],
+  "keyword:time averaged state": [
+   "e384"
+  ],
+  "section:[b. equilibration. maximum entropy principle from quantum dynamics]": [
+   "e384"
+  ],
+  "keyword:gibbs ensemble": [
+   "e385"
+  ],
+  "keyword:gibbs state": [
+   "e385"
+  ],
+  "keyword:gibbs state need": [
+   "e385"
+  ],
+  "keyword:global gibbs state": [
+   "e385"
+  ],
+  "keyword:local gibbs state": [
+   "e385"
+  ],
+  "section:[c. thermalization. emergence of gibbs states in local hamiltonians]": [
+   "e385"
+  ],
+  "keyword:equilibration process takes": [
+   "e386"
+  ],
+  "keyword:equilibration time": [
+   "e386"
+  ],
+  "keyword:equilibration times": [
+   "e386"
+  ],
+  "keyword:reasonable equilibration time": [
+   "e386"
+  ],
+  "keyword:short equilibration times": [
+   "e386"
+  ],
+  "keyword:whose equilibration times": [
+   "e386"
+  ],
+  "section:[d. equilibration times]": [
+   "e386"
+  ],
+  "keyword:classify quantum systems": [
+   "e387"
+  ],
+  "keyword:many body quantum systems": [
+   "e387"
+  ],
+  "keyword:quantum information theory-to find initial conditions": [
+   "e387"
+  ],
+  "keyword:satisfactory quantum notion": [
+   "e387"
+  ],
+  "section:[e. outlook]": [
+   "e387",
+   "e421",
+   "e431"
+  ],
+  "keyword:allowed state transformations": [
+   "e388"
+  ],
+  "keyword:state transformations": [
+   "e388",
+   "e395"
+  ],
+  "keyword:thermal state": [
+   "e388",
+   "e428"
+  ],
+  "section:[iii. resource theories]": [
+   "e388"
+  ],
+  "keyword:allowed operations": [
+   "e389"
+  ],
+  "keyword:different models": [
+   "e389"
+  ],
+  "keyword:good spherical cow tradition": [
+   "e389"
+  ],
+  "keyword:resource theories": [
+   "e389",
+   "e406"
+  ],
+  "keyword:reversible operations": [
+   "e389"
+  ],
+  "section:[a. models for thermodynamics]": [
+   "e389"
+  ],
+  "keyword:fully mixed state": [
+   "e390"
+  ],
+  "keyword:fully mixed states": [
+   "e390"
+  ],
+  "keyword:state": [
+   "e390"
+  ],
+  "keyword:state space": [
+   "e390",
+   "e404"
+  ],
+  "keyword:two sets-noisy operations": [
+   "e390"
+  ],
+  "section:[1. noisy and unital operations]": [
+   "e390"
+  ],
+  "keyword:equilibrium states": [
+   "e391"
+  ],
+  "keyword:gibbs states": [
+   "e391",
+   "e397"
+  ],
+  "keyword:model physical reversible transformations": [
+   "e391"
+  ],
+  "section:[2. thermal operations]": [
+   "e391"
+  ],
+  "keyword:general quantum states": [
+   "e392"
+  ],
+  "keyword:gibbs-preserving map": [
+   "e392"
+  ],
+  "keyword:maps": [
+   "e392"
+  ],
+  "keyword:so-called gibbs-preserving maps": [
+   "e392"
+  ],
+  "keyword:still use gibbs-preserving maps": [
+   "e392"
+  ],
+  "keyword:thermal operations": [
+   "e392"
+  ],
+  "section:[3. gibbs-preserving maps]": [
+   "e392"
+  ],
+  "keyword:coherence reservoir would": [
+   "e393"
+  ],
+  "keyword:coherence reservoirs": [
+   "e393"
+  ],
+  "keyword:create coherence": [
+   "e393"
+  ],
+  "keyword:draw coherence": [
+   "e393"
+  ],
+  "keyword:much coherence": [
+   "e393"
+  ],
+  "keyword:quantum coherence": [
+   "e393"
+  ],
+  "section:[4. coherence]": [
+   "e393"
+  ],
+  "keyword:quantities represent optimal conversion rates": [
+   "e394"
+  ],
+  "section:[example 1: free energy as a monotone.]": [
+   "e394"
+  ],
+  "keyword:catalytic properties stay unaffected": [
+   "e395"
+  ],
+  "keyword:desired state": [
+   "e395"
+  ],
+  "keyword:final state": [
+   "e395"
+  ],
+  "keyword:impose operational constraints": [
+   "e395"
+  ],
+  "keyword:impose reasonable energy": [
+   "e395"
+  ],
+  "section:[5. catalysts]": [
+   "e395"
+  ],
+  "keyword:hamiltonian applied": [
+   "e396"
+  ],
+  "keyword:time-dependent hamiltonian": [
+   "e396"
+  ],
+  "keyword:time-independent hamiltonian": [
+   "e396"
+  ],
+  "section:[6. clocks]": [
+   "e396"
+  ],
+  "keyword:gibbs states come": [
+   "e397"
+  ],
+  "keyword:passive states": [
+   "e397"
+  ],
+  "keyword:thermal states": [
+   "e397"
+  ],
+  "section:[7. free states and passivity]": [
+   "e397"
+  ],
+  "keyword:build heat engines": [
+   "e398"
+  ],
+  "keyword:build two-qubit heat engines": [
+   "e398"
+  ],
+  "keyword:general heat engines": [
+   "e398"
+  ],
+  "section:[example 2: heat engines]": [
+   "e398"
+  ],
+  "keyword:baths": [
+   "e399"
+  ],
+  "keyword:general conserved quantities": [
+   "e399"
+  ],
+  "keyword:model thermal momentum baths": [
+   "e399"
+  ],
+  "keyword:operators like": [
+   "e399"
+  ],
+  "keyword:results outlined above suggest": [
+   "e399"
+  ],
+  "section:[8. different baths]": [
+   "e399"
+  ],
+  "keyword:draw arbitrary thermal subsystems": [
+   "e400"
+  ],
+  "keyword:heat bath": [
+   "e400"
+  ],
+  "keyword:large bath": [
+   "e400"
+  ],
+  "keyword:large energy gap": [
+   "e400"
+  ],
+  "section:[9. finite-size effects]": [
+   "e400"
+  ],
+  "keyword:single-shot": [
+   "e401"
+  ],
+  "keyword:single-shot free energy": [
+   "e401"
+  ],
+  "keyword:single-shot regime": [
+   "e401"
+  ],
+  "keyword:studies consider exact state transformations": [
+   "e401"
+  ],
+  "section:[10. single-shot regime]": [
+   "e401"
+  ],
+  "keyword:average work": [
+   "e402"
+  ],
+  "keyword:define work": [
+   "e402"
+  ],
+  "keyword:valid work function": [
+   "e402"
+  ],
+  "keyword:work storage": [
+   "e402"
+  ],
+  "keyword:work storage system": [
+   "e402"
+  ],
+  "section:[11. definitions of work]": [
+   "e402"
+  ],
+  "keyword:abstract": [
+   "e403"
+  ],
+  "keyword:common features": [
+   "e403"
+  ],
+  "keyword:generalize": [
+   "e403"
+  ],
+  "keyword:let": [
+   "e403"
+  ],
+  "keyword:particular resource theories": [
+   "e403"
+  ],
+  "keyword:think": [
+   "e403"
+  ],
+  "section:[b. generalizing resource theories]": [
+   "e403"
+  ],
+  "keyword:abstract state space equipped": [
+   "e404"
+  ],
+  "keyword:allowed transformations": [
+   "e404"
+  ],
+  "keyword:allowed transformations imposes": [
+   "e404"
+  ],
+  "keyword:monotones become single-shot versions": [
+   "e404"
+  ],
+  "section:[1. starting from the pre-order]": [
+   "e404"
+  ],
+  "keyword:free resources": [
+   "e405"
+  ],
+  "keyword:free state": [
+   "e405"
+  ],
+  "keyword:free states": [
+   "e405"
+  ],
+  "keyword:resource": [
+   "e405"
+  ],
+  "keyword:two free states": [
+   "e405"
+  ],
+  "section:[2. starting from the set of free resources]": [
+   "e405"
+  ],
+  "keyword:authors identify quantitative theories": [
+   "e406"
+  ],
+  "keyword:many different resources": [
+   "e406"
+  ],
+  "section:[3. in category theory]": [
+   "e406"
+  ],
+  "keyword:completely unknown state": [
+   "e407"
+  ],
+  "keyword:perform logical operations": [
+   "e407"
+  ],
+  "keyword:results use quantum information processing techniques": [
+   "e407"
+  ],
+  "keyword:reversible operations followed": [
+   "e407"
+  ],
+  "section:[example 3: landauers principle]": [
+   "e407"
+  ],
+  "keyword:different agents perspectives": [
+   "e408"
+  ],
+  "keyword:embed macroscopic descriptions": [
+   "e408"
+  ],
+  "keyword:quantum resource theories like thermal operations": [
+   "e408"
+  ],
+  "keyword:traditional large-scale thermodynamics": [
+   "e408"
+  ],
+  "section:[4. resource theories of knowledge]": [
+   "e408"
+  ],
+  "keyword:coherent quantum states": [
+   "e409"
+  ],
+  "keyword:find meaningful resource theories": [
+   "e409"
+  ],
+  "keyword:find optimal coherent catalysts": [
+   "e409"
+  ],
+  "keyword:find transformations": [
+   "e409"
+  ],
+  "section:[c. outlook]": [
+   "e409"
+  ],
+  "keyword:quantum scale": [
+   "e410"
+  ],
+  "keyword:resource theory": [
+   "e410"
+  ],
+  "keyword:thermodynamic considerations cannot": [
+   "e410"
+  ],
+  "keyword:unavoidable thermodynamic considerations": [
+   "e410"
+  ],
+  "section:[iv. entanglement theory in thermodynamic settings]": [
+   "e410"
+  ],
+  "keyword:best conceivable operation creating entanglement": [
+   "e411"
+  ],
+  "keyword:entanglement theory classically correlated states come": [
+   "e411"
+  ],
+  "keyword:genuine multipartite entanglement": [
+   "e411"
+  ],
+  "keyword:maximally mixed state": [
+   "e411"
+  ],
+  "keyword:paradigmatic resource state": [
+   "e411"
+  ],
+  "section:[a. correlations and entanglement under entropic restrictions]": [
+   "e411"
+  ],
+  "keyword:always induce work cost related": [
+   "e412"
+  ],
+  "keyword:bipartite quantum states": [
+   "e412",
+   "e413"
+  ],
+  "keyword:inevitable work cost": [
+   "e412"
+  ],
+  "keyword:inevitable work cost arising": [
+   "e412"
+  ],
+  "keyword:initial quantum states however still": [
+   "e412"
+  ],
+  "keyword:quantum information processing resource": [
+   "e412"
+  ],
+  "keyword:work cost": [
+   "e412"
+  ],
+  "keyword:work cost coming purely": [
+   "e412"
+  ],
+  "section:[b. correlations and entanglement in a thermodynamic background]": [
+   "e412"
+  ],
+  "keyword:additional locality restrictions": [
+   "e413"
+  ],
+  "keyword:creating quantum information processing re- sources": [
+   "e413"
+  ],
+  "keyword:pure states": [
+   "e413"
+  ],
+  "keyword:pure states coincides": [
+   "e413"
+  ],
+  "keyword:thermodynamic operations": [
+   "e413"
+  ],
+  "section:[c. thermodynamics under locality restrictions]": [
+   "e413"
+  ],
+  "keyword:entangling unitaries enable work extraction": [
+   "e414"
+  ],
+  "keyword:extract work indicates": [
+   "e414"
+  ],
+  "keyword:extracting work": [
+   "e414"
+  ],
+  "keyword:local work extraction": [
+   "e414"
+  ],
+  "keyword:particular work extraction problem": [
+   "e414"
+  ],
+  "keyword:work extraction purposes": [
+   "e414"
+  ],
+  "section:[d. entanglement resources in thermodynamic tasks]": [
+   "e414"
+  ],
+  "keyword:directly imply entanglement": [
+   "e415"
+  ],
+  "keyword:fact often many low energy eigenstates even": [
+   "e415"
+  ],
+  "keyword:local hamiltonians feature entanglement": [
+   "e415"
+  ],
+  "keyword:low average energy directly implies": [
+   "e415"
+  ],
+  "keyword:underlying entanglement present": [
+   "e415"
+  ],
+  "section:[e. using thermodynamics to reveal quantumness]": [
+   "e415"
+  ],
+  "keyword:adaptively quantifies possible resources": [
+   "e416"
+  ],
+  "keyword:capture one specific aspect": [
+   "e416"
+  ],
+  "keyword:genuine quantum effects": [
+   "e416"
+  ],
+  "keyword:processing quantum information": [
+   "e416"
+  ],
+  "keyword:resource theories always": [
+   "e416"
+  ],
+  "section:[f. outlook]": [
+   "e416"
+  ],
+  "keyword:externally controlled work parameter lambda": [
+   "e417"
+  ],
+  "keyword:quantum work distribution": [
+   "e417",
+   "e418"
+  ],
+  "keyword:quantum work distribution therefore encodes fluctuations": [
+   "e417"
+  ],
+  "keyword:work distribution corresponding": [
+   "e417"
+  ],
+  "keyword:work parameter lambda": [
+   "e417"
+  ],
+  "section:[a. introduction]": [
+   "e417"
+  ],
+  "keyword:evolving quantum system": [
+   "e418"
+  ],
+  "keyword:quantum system": [
+   "e418"
+  ],
+  "keyword:quantum work statistics": [
+   "e418"
+  ],
+  "keyword:work quantum statistics": [
+   "e418"
+  ],
+  "section:[b. phase estimation schemes for extraction of quantum work and heat statistics]": [
+   "e418"
+  ],
+  "keyword:feedback based fluctuation theorems": [
+   "e419"
+  ],
+  "keyword:feedback controlled scenario": [
+   "e419"
+  ],
+  "keyword:feedback fluctuation theorems": [
+   "e419"
+  ],
+  "keyword:non-equilibrium feedback": [
+   "e419"
+  ],
+  "keyword:performing feedback control": [
+   "e419"
+  ],
+  "section:[c. fluctuation relations with feedback, measurement and cptp maps]": [
+   "e419"
+  ],
+  "keyword:correlated quantum systems": [
+   "e420"
+  ],
+  "keyword:general quantum correlations": [
+   "e420"
+  ],
+  "keyword:non-equilibrium quantum sys- tems": [
+   "e420"
+  ],
+  "section:[d. entropy production, relative entropy and correlations]": [
+   "e420"
+  ],
+  "keyword:quantum fluctuation theorems": [
+   "e421"
+  ],
+  "keyword:small non-equilibrium quantum system": [
+   "e421"
+  ],
+  "keyword:one thermal bath": [
+   "e422"
+  ],
+  "keyword:quantum machines": [
+   "e422"
+  ],
+  "keyword:quantum thermal machines": [
+   "e422",
+   "e428",
+   "e431"
+  ],
+  "keyword:quantum thermodynamics concerning quantum thermal machines": [
+   "e422"
+  ],
+  "keyword:small quantum thermal machines": [
+   "e422"
+  ],
+  "section:[vi. quantum thermal machines]": [
+   "e422"
+  ],
+  "keyword:absorption refrigerator": [
+   "e423"
+  ],
+  "keyword:room temperature reservoir": [
+   "e423"
+  ],
+  "keyword:three thermal baths": [
+   "e423"
+  ],
+  "keyword:three thermal reservoirs": [
+   "e423"
+  ],
+  "section:[a. absorption refrigerators]": [
+   "e423"
+  ],
+  "keyword:inverse temperature": [
+   "e424"
+  ],
+  "section:[example 5: algorithmic cooling]": [
+   "e424"
+  ],
+  "keyword:authors studied quantum discord": [
+   "e425"
+  ],
+  "keyword:quantum correlation weaker": [
+   "e425"
+  ],
+  "keyword:quantum discord": [
+   "e425"
+  ],
+  "keyword:whether quantum correlations": [
+   "e425"
+  ],
+  "section:[1. stationary behaviour]": [
+   "e425"
+  ],
+  "keyword:entanglement": [
+   "e426"
+  ],
+  "keyword:entanglement found": [
+   "e426"
+  ],
+  "keyword:entanglement generated": [
+   "e426"
+  ],
+  "keyword:even genuine multipartite entanglement": [
+   "e426"
+  ],
+  "keyword:multipartite entanglement": [
+   "e426"
+  ],
+  "section:[fig. 5: three-qubit fridge]": [
+   "e426"
+  ],
+  "keyword:rabi oscillations": [
+   "e427"
+  ],
+  "keyword:strong-interaction case rabi oscillations indeed take place": [
+   "e427"
+  ],
+  "keyword:undergo rabi oscillations": [
+   "e427"
+  ],
+  "section:[2. transient behaviour]": [
+   "e427"
+  ],
+  "keyword:fact squeezed thermal states": [
+   "e428"
+  ],
+  "keyword:squeezed thermal state": [
+   "e428"
+  ],
+  "keyword:squeezed thermal state appears hotter": [
+   "e428"
+  ],
+  "keyword:thermal reservoir": [
+   "e428"
+  ],
+  "section:[b. reservoir engineering]": [
+   "e428"
+  ],
+  "keyword:genuinely using quantum effects": [
+   "e429"
+  ],
+  "keyword:quantum behaviour": [
+   "e429"
+  ],
+  "keyword:quantum engine": [
+   "e429"
+  ],
+  "keyword:quantum thermo signatures": [
+   "e429"
+  ],
+  "keyword:separable quantum state": [
+   "e429"
+  ],
+  "section:[c. quantum thermodynamic signatures]": [
+   "e429"
+  ],
+  "keyword:experimentally accessible situations steady state entanglement": [
+   "e430"
+  ],
+  "keyword:non-equilibrium steady state": [
+   "e430"
+  ],
+  "keyword:steady state": [
+   "e430"
+  ],
+  "keyword:steady state entanglement generation": [
+   "e430"
+  ],
+  "section:[d. stationary entanglement]": [
+   "e430"
+  ],
+  "keyword:standard quantum error correction ideas": [
+   "e431"
+  ],
+  "keyword:many fields currently contributing": [
+   "e432"
+  ],
+  "keyword:plac- ing information": [
+   "e432"
+  ],
+  "keyword:quantum effects begin": [
+   "e432"
+  ],
+  "keyword:quantum thermodynamics": [
+   "e432"
+  ],
+  "section:[vii. final remarks]": [
+   "e432"
+  ],
+  "keyword:adapted": [
+   "e433"
+  ],
+  "keyword:authors contributed equally": [
+   "e433"
+  ],
+  "keyword:iii": [
+   "e433"
+  ],
+  "keyword:ldrs phd thesis": [
+   "e433"
+  ],
+  "section:[author contributions]": [
+   "e433"
+  ],
+  "section:[acknowledgements]": [
+   "e434"
+  ],
+  "author:fridolin krausmann": [
+   "e435"
+  ],
+  "author:nina eisenmenger": [
+   "e435"
+  ],
+  "author:regina richter": [
+   "e435"
+  ],
+  "keyword:comparatively low complexity provides interesting insights": [
+   "e435"
+  ],
+  "keyword:domestic material consumption": [
+   "e435"
+  ],
+  "keyword:domestic renewable electricity": [
+   "e435"
+  ],
+  "keyword:export-oriented industries lead": [
+   "e435"
+  ],
+  "keyword:large export-oriented metal processing industries": [
+   "e435"
+  ],
+  "keyword:narrow domestic resource base": [
+   "e435"
+  ],
+  "keyword:small open economies": [
+   "e435"
+  ],
+  "keyword:specific institutional arrangements drives domestic resource-use patterns": [
+   "e435"
+  ],
+  "keyword:specific resource-use patterns": [
+   "e435"
+  ],
+  "keyword:two key resources": [
+   "e435"
+  ],
+  "project:openalex": [
+   "e435",
+   "e436",
+   "e437",
+   "e438",
+   "e439",
+   "e440",
+   "e441",
+   "e442",
+   "e443",
+   "e444",
+   "e445",
+   "e446",
+   "e447",
+   "e448",
+   "e449",
+   "e450",
+   "e451",
+   "e452",
+   "e453",
+   "e454",
+   "e455",
+   "e456",
+   "e457",
+   "e458",
+   "e459",
+   "e460",
+   "e461",
+   "e462",
+   "e463",
+   "e464",
+   "e465",
+   "e466",
+   "e467"
+  ],
+  "work:resource use in small island states": [
+   "e435"
+  ],
+  "author:john stillwell": [
+   "e436"
+  ],
+  "author:joseph ferreira": [
+   "e436"
+  ],
+  "author:robert goodspeed": [
+   "e436"
+  ],
+  "author:stan geertman": [
+   "e436"
+  ],
+  "keyword:planning support systems": [
+   "e436"
+  ],
+  "keyword:smart cities": [
+   "e436"
+  ],
+  "work:planning support systems and smart cities": [
+   "e436"
+  ],
+  "author:anatoli polkovnikov": [
+   "e437"
+  ],
+  "author:luca dalessio": [
+   "e437"
+  ],
+  "author:marcos rigol": [
+   "e437"
+  ],
+  "author:yariv kafri": [
+   "e437"
+  ],
+  "keyword:continuously driven systems": [
+   "e437"
+  ],
+  "keyword:eigenstate thermalization": [
+   "e437"
+  ],
+  "keyword:isolated chaotic systems": [
+   "e437"
+  ],
+  "keyword:many-body lattice systems": [
+   "e437"
+  ],
+  "keyword:quantum chaos allows one": [
+   "e437"
+  ],
+  "keyword:quantum quenches": [
+   "e437"
+  ],
+  "keyword:taking isolated systems": [
+   "e437"
+  ],
+  "keyword:weakly interacting systems": [
+   "e437"
+  ],
+  "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics": [
+   "e437"
+  ],
+  "author:ren\u00e9e sieber": [
+   "e438"
+  ],
+  "keyword:broaden public involvement": [
+   "e438"
+  ],
+  "keyword:community-based organizations": [
+   "e438"
+  ],
+  "keyword:evaluating current ppgis activities": [
+   "e438"
+  ],
+  "keyword:four major themes found": [
+   "e438"
+  ],
+  "keyword:framework": [
+   "e438"
+  ],
+  "keyword:future ppgis research": [
+   "e438"
+  ],
+  "keyword:gis": [
+   "e438"
+  ],
+  "keyword:literature review": [
+   "e438"
+  ],
+  "keyword:ppgis": [
+   "e438"
+  ],
+  "keyword:public participation geographic information systems": [
+   "e438"
+  ],
+  "keyword:themes constitute": [
+   "e438"
+  ],
+  "work:public participation geographic information systems: a literature review and framework": [
+   "e438"
+  ],
+  "author:david jou": [
+   "e439",
+   "e461"
+  ],
+  "author:g. lebon": [
+   "e439",
+   "e461"
+  ],
+  "author:jos\u00e9 casas-v\u00e1zquez": [
+   "e439",
+   "e461"
+  ],
+  "keyword:applications": [
+   "e439",
+   "e447"
+  ],
+  "keyword:decade much effort": [
+   "e439"
+  ],
+  "keyword:extended irreversible thermodynamics revisited": [
+   "e439"
+  ],
+  "keyword:extended irreversible thermodynamics stands": [
+   "e439"
+  ],
+  "keyword:last decade": [
+   "e439"
+  ],
+  "keyword:modern thermodynamics": [
+   "e439"
+  ],
+  "keyword:much progress": [
+   "e439"
+  ],
+  "keyword:non-equilibrium thermodynamic theories": [
+   "e439"
+  ],
+  "work:extended irreversible thermodynamics revisited (1988-98)": [
+   "e439"
+  ],
+  "author:i. p. wright": [
+   "e440"
+  ],
+  "keyword:capitalism": [
+   "e440"
+  ],
+  "work:the social architecture of capitalism": [
+   "e440"
+  ],
+  "author:l. sj\u00f6gren": [
+   "e441"
+  ],
+  "author:w. g\u00f6tze": [
+   "e441"
+  ],
+  "keyword:appear two fractal time decay processes": [
+   "e441"
+  ],
+  "keyword:calorimetric glass transition temperature": [
+   "e441"
+  ],
+  "keyword:crossover temperature": [
+   "e441"
+  ],
+  "keyword:mesoscopic time region": [
+   "e441"
+  ],
+  "keyword:relaxation processes": [
+   "e441"
+  ],
+  "keyword:relaxation scale": [
+   "e441"
+  ],
+  "keyword:supercooled liquid dynamics": [
+   "e441"
+  ],
+  "keyword:supercooled liquids": [
+   "e441"
+  ],
+  "keyword:supercooled state": [
+   "e441"
+  ],
+  "keyword:two divergent time scales": [
+   "e441"
+  ],
+  "keyword:various relaxation processes": [
+   "e441"
+  ],
+  "work:relaxation processes in supercooled liquids": [
+   "e441"
+  ],
+  "author:m. a. biot": [
+   "e442"
+  ],
+  "keyword:acoustic propagation": [
+   "e442"
+  ],
+  "keyword:complex physical-chemical system": [
+   "e442"
+  ],
+  "keyword:derived": [
+   "e442"
+  ],
+  "keyword:dissipation": [
+   "e442"
+  ],
+  "keyword:general applicability": [
+   "e442"
+  ],
+  "keyword:general principles": [
+   "e442"
+  ],
+  "keyword:porous media": [
+   "e442"
+  ],
+  "keyword:porous media derived": [
+   "e442"
+  ],
+  "keyword:relaxation effects": [
+   "e442"
+  ],
+  "keyword:resultant relaxation": [
+   "e442"
+  ],
+  "keyword:theory": [
+   "e442",
+   "e451",
+   "e461"
+  ],
+  "keyword:unified treatment": [
+   "e442"
+  ],
+  "keyword:writers earlier theory": [
+   "e442"
+  ],
+  "work:mechanics of deformation and acoustic propagation in porous media": [
+   "e442"
+  ],
+  "author:duncan k. foley": [
+   "e443"
+  ],
+  "keyword:agents": [
+   "e443"
+  ],
+  "keyword:agents achieving": [
+   "e443"
+  ],
+  "keyword:agents defined": [
+   "e443"
+  ],
+  "keyword:feasible distribution": [
+   "e443"
+  ],
+  "keyword:feasible market transaction": [
+   "e443"
+  ],
+  "keyword:finite offer sets": [
+   "e443"
+  ],
+  "keyword:many agents": [
+   "e443"
+  ],
+  "keyword:offer sets": [
+   "e443"
+  ],
+  "keyword:statistical equilibrium theory": [
+   "e443"
+  ],
+  "keyword:unique statistical equilibrium exists": [
+   "e443"
+  ],
+  "work:a statistical equilibrium theory of markets": [
+   "e443"
+  ],
+  "author:greg brown": [
+   "e444"
+  ],
+  "author:marketta kytt\u00e4": [
+   "e444"
+  ],
+  "keyword:empirical research": [
+   "e444"
+  ],
+  "keyword:key issues": [
+   "e444"
+  ],
+  "keyword:research priorities": [
+   "e444"
+  ],
+  "keyword:synthesis based": [
+   "e444"
+  ],
+  "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research": [
+   "e444"
+  ],
+  "author:udo seifert": [
+   "e445"
+  ],
+  "keyword:entropy production depending": [
+   "e445"
+  ],
+  "keyword:molecular motors": [
+   "e445"
+  ],
+  "keyword:non-equilibrium conditions": [
+   "e445"
+  ],
+  "keyword:non-equilibrium process": [
+   "e445"
+  ],
+  "keyword:single colloidal particles": [
+   "e445"
+  ],
+  "keyword:well-defined non-equilibrium ensembles": [
+   "e445"
+  ],
+  "work:stochastic thermodynamics, fluctuation theorems and molecular machines": [
+   "e445"
+  ],
+  "author:christopher kennedy": [
+   "e446"
+  ],
+  "author:john cuddihy": [
+   "e446"
+  ],
+  "author:joshua engel\u2010yan": [
+   "e446"
+  ],
+  "keyword:changing metabolism": [
+   "e446"
+  ],
+  "keyword:cities": [
+   "e446"
+  ],
+  "work:the changing metabolism of cities": [
+   "e446"
+  ],
+  "author:arzu \u00e7\u00f6ltekin": [
+   "e447"
+  ],
+  "author:filip biljecki": [
+   "e447"
+  ],
+  "author:hugo ledoux": [
+   "e447"
+  ],
+  "author:jantien stoter": [
+   "e447"
+  ],
+  "author:sisi zlatanova": [
+   "e447"
+  ],
+  "keyword:city models": [
+   "e447"
+  ],
+  "keyword:city models appear": [
+   "e447"
+  ],
+  "keyword:comprehensive literature study including hundreds": [
+   "e447"
+  ],
+  "keyword:identified use cases": [
+   "e447"
+  ],
+  "keyword:study": [
+   "e447"
+  ],
+  "keyword:study demonstrates": [
+   "e447"
+  ],
+  "keyword:technical information": [
+   "e447"
+  ],
+  "work:applications of 3d city models: state of the art review": [
+   "e447"
+  ],
+  "author:antoine delignat-lavaud": [
+   "e448"
+  ],
+  "author:aseem rastogi": [
+   "e448",
+   "e449"
+  ],
+  "author:chantal keller": [
+   "e448"
+  ],
+  "author:c\u00e9dric fournet": [
+   "e448"
+  ],
+  "author:c\u0103t\u0103lin hri\u0163cu": [
+   "e448",
+   "e449",
+   "e453"
+  ],
+  "author:jean-karim zinzindohou\u00e9": [
+   "e448"
+  ],
+  "author:karthikeyan bhargavan": [
+   "e448"
+  ],
+  "author:markulf kohlweiss": [
+   "e448"
+  ],
+  "author:nikhil swamy": [
+   "e448",
+   "e449"
+  ],
+  "author:pierre-yves strub": [
+   "e448"
+  ],
+  "author:santiago zanella-b\u00e9guelin": [
+   "e448"
+  ],
+  "author:simon forest": [
+   "e448"
+  ],
+  "keyword:general-purpose programming language": [
+   "e448"
+  ],
+  "keyword:itself---these proofs make essential use": [
+   "e448"
+  ],
+  "keyword:language": [
+   "e448"
+  ],
+  "keyword:multi-monadic effects": [
+   "e448"
+  ],
+  "keyword:proof assistant": [
+   "e448"
+  ],
+  "keyword:proof terms---its consistency": [
+   "e448"
+  ],
+  "keyword:resulting proof obligations using": [
+   "e448"
+  ],
+  "keyword:simply typed lambda calculus": [
+   "e448"
+  ],
+  "keyword:specify effects": [
+   "e448"
+  ],
+  "keyword:verification-oriented language": [
+   "e448"
+  ],
+  "work:dependent types and multi-monadic effects in f*": [
+   "e448"
+  ],
+  "author:danel ahman": [
+   "e449",
+   "e453"
+  ],
+  "author:gordon plotkin": [
+   "e449"
+  ],
+  "author:guido mart\u00ednez": [
+   "e449",
+   "e453"
+  ],
+  "author:jonathan protzenko": [
+   "e449"
+  ],
+  "author:kenji maillard": [
+   "e449",
+   "e453"
+  ],
+  "keyword:dependent type theories": [
+   "e449"
+  ],
+  "keyword:dependent type theory": [
+   "e449"
+  ],
+  "keyword:dijkstra monads": [
+   "e449",
+   "e453"
+  ],
+  "keyword:emf": [
+   "e449"
+  ],
+  "keyword:user-defined effects": [
+   "e449"
+  ],
+  "keyword:verification tools like": [
+   "e449"
+  ],
+  "keyword:verifying effectful code": [
+   "e449"
+  ],
+  "work:dijkstra monads for free": [
+   "e449"
+  ],
+  "author:andrew allan": [
+   "e450"
+  ],
+  "author:chris pettit": [
+   "e450"
+  ],
+  "author:john 1952- stillwell": [
+   "e450"
+  ],
+  "author:stan 1955- geertman": [
+   "e450"
+  ],
+  "keyword:planning support science": [
+   "e450"
+  ],
+  "keyword:smarter urban futures": [
+   "e450"
+  ],
+  "work:planning support science for smarter urban futures": [
+   "e450"
+  ],
+  "author:masaru sugiyama": [
+   "e451"
+  ],
+  "author:takashi arima": [
+   "e451"
+  ],
+  "author:tommaso ruggeri": [
+   "e451"
+  ],
+  "keyword:gases": [
+   "e451"
+  ],
+  "keyword:generalized bgk-type collision term": [
+   "e451"
+  ],
+  "keyword:molecular relaxation processes": [
+   "e451"
+  ],
+  "keyword:molecular rotational": [
+   "e451"
+  ],
+  "keyword:moment system": [
+   "e451"
+  ],
+  "keyword:rarefied polyatomic gas": [
+   "e451"
+  ],
+  "keyword:rarefied polyatomic gases": [
+   "e451"
+  ],
+  "keyword:seven independent fields": [
+   "e451"
+  ],
+  "keyword:ultrasonic wave derived": [
+   "e451"
+  ],
+  "keyword:vibrational relaxation processes": [
+   "e451"
+  ],
+  "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes": [
+   "e451"
+  ],
+  "author:giorgio agugiaro": [
+   "e452"
+  ],
+  "author:joachim benner": [
+   "e452"
+  ],
+  "author:piergiorgio cipriano": [
+   "e452"
+  ],
+  "author:romain nouvel": [
+   "e452"
+  ],
+  "keyword:energy": [
+   "e452"
+  ],
+  "keyword:energy ade": [
+   "e452"
+  ],
+  "keyword:energy application domain extension": [
+   "e452"
+  ],
+  "keyword:energy consumption reduction": [
+   "e452"
+  ],
+  "keyword:energy domain": [
+   "e452"
+  ],
+  "keyword:energy planning tools": [
+   "e452"
+  ],
+  "keyword:existing data interoperability issues": [
+   "e452"
+  ],
+  "keyword:omni-comprehensive urban data model covering": [
+   "e452"
+  ],
+  "keyword:standard-based data model": [
+   "e452"
+  ],
+  "keyword:urban energy simulations": [
+   "e452"
+  ],
+  "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations": [
+   "e452"
+  ],
+  "author:exequiel rivas": [
+   "e453"
+  ],
+  "author:robert atkey": [
+   "e453"
+  ],
+  "author:\u00e9ric tanter": [
+   "e453"
+  ],
+  "keyword:applying monad transformers": [
+   "e453"
+  ],
+  "keyword:arbitrary monadic side-effects using dijkstra monads": [
+   "e453"
+  ],
+  "keyword:computational monad": [
+   "e453"
+  ],
+  "keyword:defining correct monad transformers": [
+   "e453"
+  ],
+  "keyword:dijkstra monad": [
+   "e453"
+  ],
+  "keyword:general semantic framework": [
+   "e453"
+  ],
+  "keyword:moggis monadic metalanguage": [
+   "e453"
+  ],
+  "keyword:monad morphism": [
+   "e453"
+  ],
+  "keyword:obtaining dijkstra monads tailored": [
+   "e453"
+  ],
+  "keyword:specification monad": [
+   "e453"
+  ],
+  "keyword:specification monad gives rise": [
+   "e453"
+  ],
+  "keyword:specification monads": [
+   "e453"
+  ],
+  "work:dijkstra monads for all": [
+   "e453"
+  ],
+  "author:anne ventura": [
+   "e454"
+  ],
+  "author:jean\u2010baptiste bahers": [
+   "e454",
+   "e463"
+  ],
+  "author:nicolas antheaume": [
+   "e454"
+  ],
+  "author:paula higuera": [
+   "e454"
+  ],
+  "keyword:caledonian island metabolism": [
+   "e454"
+  ],
+  "keyword:extractive island": [
+   "e454"
+  ],
+  "keyword:island corresponds": [
+   "e454"
+  ],
+  "keyword:island metabolism": [
+   "e454"
+  ],
+  "keyword:island metabolism strives": [
+   "e454"
+  ],
+  "keyword:island scale": [
+   "e454"
+  ],
+  "keyword:islands metabolism": [
+   "e454"
+  ],
+  "keyword:nexus": [
+   "e454"
+  ],
+  "keyword:nexus approach": [
+   "e454"
+  ],
+  "keyword:nexus subsystem": [
+   "e454"
+  ],
+  "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia": [
+   "e454"
+  ],
+  "author:bruno barroca": [
+   "e455"
+  ],
+  "author:h\u00e9l\u00e8ne beraud": [
+   "e455"
+  ],
+  "author:roxana cristina popescu": [
+   "e455"
+  ],
+  "keyword:hurricane irma": [
+   "e455"
+  ],
+  "keyword:hurricane waste flows": [
+   "e455"
+  ],
+  "keyword:improving post-hurricane waste planning": [
+   "e455"
+  ],
+  "keyword:islands": [
+   "e455",
+   "e458",
+   "e465"
+  ],
+  "keyword:islands total destruction tended toward": [
+   "e455"
+  ],
+  "keyword:metabolism": [
+   "e455"
+  ],
+  "keyword:saint martins metabolism": [
+   "e455"
+  ],
+  "keyword:small islands leave": [
+   "e455"
+  ],
+  "keyword:three structuring territorial metabolism dimensions": [
+   "e455"
+  ],
+  "keyword:waste flows": [
+   "e455"
+  ],
+  "keyword:waste flows changed durably": [
+   "e455"
+  ],
+  "keyword:waste management system": [
+   "e455"
+  ],
+  "work:the impact of hurricane irma on the metabolism of st. martins island": [
+   "e455"
+  ],
+  "author:enni airaksinen": [
+   "e456"
+  ],
+  "author:maxim rossknecht": [
+   "e456"
+  ],
+  "keyword:citygml energy ade-case study helsinki": [
+   "e456"
+  ],
+  "keyword:co2 emissions": [
+   "e456"
+  ],
+  "keyword:district heating network": [
+   "e456"
+  ],
+  "keyword:heating demand": [
+   "e456"
+  ],
+  "keyword:heating demand prediction based": [
+   "e456"
+  ],
+  "keyword:heating demand reduction": [
+   "e456"
+  ],
+  "keyword:helsinki energy": [
+   "e456"
+  ],
+  "keyword:helsinkis assumed heating demand reduction": [
+   "e456"
+  ],
+  "keyword:lower co2 emission factors": [
+   "e456"
+  ],
+  "keyword:provide energy-relevant information based": [
+   "e456"
+  ],
+  "keyword:resulting co2 emissions prediction based": [
+   "e456"
+  ],
+  "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki": [
+   "e456"
+  ],
+  "author:arnau riera": [
+   "e457"
+  ],
+  "author:john goold": [
+   "e457"
+  ],
+  "author:l\u00eddia del rio": [
+   "e457"
+  ],
+  "author:marcus huber": [
+   "e457"
+  ],
+  "author:paul skrzypczyk": [
+   "e457"
+  ],
+  "keyword:comprehensive review": [
+   "e457"
+  ],
+  "keyword:convenient entry point": [
+   "e457"
+  ],
+  "keyword:different interdisciplinary approaches emerging": [
+   "e457"
+  ],
+  "keyword:review": [
+   "e457"
+  ],
+  "keyword:several trending topics including": [
+   "e457"
+  ],
+  "keyword:topical review article gives": [
+   "e457"
+  ],
+  "work:the role of quantum information in thermodynamics-a topical review": [
+   "e457"
+  ],
+  "author:marian chertow": [
+   "e458"
+  ],
+  "author:marina fischer\u2010kowalski": [
+   "e458"
+  ],
+  "author:simron jit singh": [
+   "e458",
+   "e460",
+   "e463",
+   "e465"
+  ],
+  "keyword:allow island governments": [
+   "e458"
+  ],
+  "keyword:climate action": [
+   "e458"
+  ],
+  "keyword:climate change": [
+   "e458"
+  ],
+  "keyword:global environmental change": [
+   "e458"
+  ],
+  "keyword:introduce key industrial ecology concepts": [
+   "e458"
+  ],
+  "keyword:island cases": [
+   "e458"
+  ],
+  "keyword:island industrial ecology": [
+   "e458"
+  ],
+  "keyword:special issue": [
+   "e458"
+  ],
+  "keyword:sustain small islands": [
+   "e458"
+  ],
+  "work:introduction: the metabolism of islands": [
+   "e458"
+  ],
+  "author:jonathan immanuel brachth\u00e4user": [
+   "e459"
+  ],
+  "author:klaus ostermann": [
+   "e459"
+  ],
+  "author:philipp schuster": [
+   "e459"
+  ],
+  "keyword:effect encapsulation": [
+   "e459"
+  ],
+  "keyword:effect handlers": [
+   "e459"
+  ],
+  "keyword:effect parametricity": [
+   "e459"
+  ],
+  "keyword:effect polymorphism": [
+   "e459"
+  ],
+  "keyword:effect systems": [
+   "e459"
+  ],
+  "keyword:effect systems impedes reasoning": [
+   "e459"
+  ],
+  "keyword:effekt": [
+   "e459"
+  ],
+  "keyword:effekt revolves": [
+   "e459"
+  ],
+  "keyword:guarantee effect safety": [
+   "e459"
+  ],
+  "keyword:language effekt": [
+   "e459"
+  ],
+  "work:effects as capabilities: effect handlers and lightweight effect polymorphism": [
+   "e459"
+  ],
+  "author:christian lauk": [
+   "e460"
+  ],
+  "author:dominik noll": [
+   "e460"
+  ],
+  "author:dominik wiedenhofer": [
+   "e460"
+  ],
+  "author:panos petridis": [
+   "e460"
+  ],
+  "author:willi haas": [
+   "e460"
+  ],
+  "keyword:almost entirely circular biophysical economy toward one": [
+   "e460"
+  ],
+  "keyword:apply material": [
+   "e460"
+  ],
+  "keyword:circular material use": [
+   "e460"
+  ],
+  "keyword:current material stocks": [
+   "e460"
+  ],
+  "keyword:geomorphological characteristics make island systems special focal points": [
+   "e460"
+  ],
+  "keyword:greek island": [
+   "e460"
+  ],
+  "keyword:island almost half": [
+   "e460"
+  ],
+  "keyword:island community": [
+   "e460"
+  ],
+  "keyword:material circularity": [
+   "e460"
+  ],
+  "keyword:socioeconomic biophysical stocks": [
+   "e460"
+  ],
+  "keyword:sustainable material": [
+   "e460"
+  ],
+  "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019": [
+   "e460"
+  ],
+  "keyword:classical constitutive laws": [
+   "e461"
+  ],
+  "keyword:fluctuation theory": [
+   "e461"
+  ],
+  "keyword:fluxes": [
+   "e461"
+  ],
+  "keyword:kinetic theory": [
+   "e461"
+  ],
+  "keyword:macroscopic theory": [
+   "e461"
+  ],
+  "keyword:several generalisations including higher-order fluxes": [
+   "e461"
+  ],
+  "keyword:so-called rational thermodynamics": [
+   "e461"
+  ],
+  "work:extended irreversible thermodynamics": [
+   "e461"
+  ],
+  "author:alexandru nichersu": [
+   "e462"
+  ],
+  "author:avichal malhotra": [
+   "e462"
+  ],
+  "author:christoph van treeck": [
+   "e462"
+  ],
+  "author:divyanshu sood": [
+   "e462"
+  ],
+  "author:gerald schweiger": [
+   "e462"
+  ],
+  "author:james allan": [
+   "e462"
+  ],
+  "author:james odonnell": [
+   "e462"
+  ],
+  "author:johannes exenberger": [
+   "e462"
+  ],
+  "author:julian bischof": [
+   "e462"
+  ],
+  "author:j\u00e9r\u00f4me frisch": [
+   "e462"
+  ],
+  "author:karl\u2010heinz h\u00e4fele": [
+   "e462"
+  ],
+  "keyword:associated data formats": [
+   "e462"
+  ],
+  "keyword:data sources": [
+   "e462"
+  ],
+  "keyword:energy consumption": [
+   "e462"
+  ],
+  "keyword:input": [
+   "e462"
+  ],
+  "keyword:input data": [
+   "e462"
+  ],
+  "keyword:output data": [
+   "e462"
+  ],
+  "keyword:overall energy system": [
+   "e462"
+  ],
+  "keyword:simulation processes": [
+   "e462"
+  ],
+  "keyword:simulation workflows": [
+   "e462"
+  ],
+  "keyword:ubem": [
+   "e462"
+  ],
+  "work:information modelling for urban building energy simulation-a taxonomic review": [
+   "e462"
+  ],
+  "author:mathieu durand": [
+   "e463"
+  ],
+  "keyword:comoros archipelago": [
+   "e463"
+  ],
+  "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago": [
+   "e463"
+  ],
+  "author:michael batty": [
+   "e464"
+  ],
+  "keyword:digital twins": [
+   "e464",
+   "e466"
+  ],
+  "work:digital twins": [
+   "e464"
+  ],
+  "author:jasper verschuur": [
+   "e465"
+  ],
+  "author:matthew j. eckelman": [
+   "e465"
+  ],
+  "author:nidhi nagabhatla": [
+   "e465"
+  ],
+  "author:pia\u2010johanna schweizer": [
+   "e465"
+  ],
+  "author:reshma soman": [
+   "e465"
+  ],
+  "author:tailin huang": [
+   "e465"
+  ],
+  "keyword:effectively deliver societal services necessary": [
+   "e465"
+  ],
+  "keyword:governing smr": [
+   "e465"
+  ],
+  "keyword:pandemics significantly hinder sids progress": [
+   "e465"
+  ],
+  "keyword:positioning smr": [
+   "e465"
+  ],
+  "keyword:sids would mean governing socio-metabolic flows": [
+   "e465"
+  ],
+  "keyword:small islands": [
+   "e465"
+  ],
+  "keyword:small islands using insights": [
+   "e465"
+  ],
+  "keyword:societal services": [
+   "e465"
+  ],
+  "keyword:socio-metabolic risk": [
+   "e465"
+  ],
+  "keyword:systemic risk associated": [
+   "e465"
+  ],
+  "keyword:tipping points": [
+   "e465"
+  ],
+  "work:socio-metabolic risk and tipping points on islands": [
+   "e465"
+  ],
+  "author:a. stewart fotheringham": [
+   "e466"
+  ],
+  "keyword:urban analytics": [
+   "e466"
+  ],
+  "work:digital twins: the current \"krays\" of urban analytics?": [
+   "e466"
+  ],
+  "author:avril n\u00ed shearcaigh": [
+   "e467"
+  ],
+  "author:claudia bo": [
+   "e467"
+  ],
+  "author:dayanne peretti corr\u00eaa": [
+   "e467"
+  ],
+  "author:faezeh delkhah": [
+   "e467"
+  ],
+  "author:niall buckley": [
+   "e467"
+  ],
+  "author:niall byrne": [
+   "e467"
+  ],
+  "author:stephanie brennan": [
+   "e467"
+  ],
+  "keyword:current energy use": [
+   "e467"
+  ],
+  "keyword:electrifying energy systems": [
+   "e467"
+  ],
+  "keyword:optimizing local res": [
+   "e467"
+  ],
+  "keyword:p2p energy trading": [
+   "e467"
+  ],
+  "keyword:predictive digital twins": [
+   "e467"
+  ],
+  "keyword:shift energy loads": [
+   "e467"
+  ],
+  "keyword:using digital twins": [
+   "e467"
+  ],
+  "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island": [
+   "e467"
+  ]
+ }
+}

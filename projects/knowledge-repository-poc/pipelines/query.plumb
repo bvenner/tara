@@ -1,0 +1,14 @@
+(* Query the RET x TSSI co-occurrence hypergraph for a concept.
+   Type-checked boundary: {concept} in, structured QueryResult out. *)
+type NodeRef = { node_id: string, label: string, kind: string }
+type Edge = { edge_id: string, arity: int, doc: string, section: string, nodes: [string] }
+type QueryResult = { concept: string, matched_nodes: [NodeRef], total_edges: int, edges: [Edge] }
+
+let query_graph : !{ concept: string } -> !QueryResult = exec {
+  cmd: "../bin/tara-python",
+  args: ["../scripts/graph_query.py", "--max-edges", "50"]
+}
+
+let main : !{ concept: string } -> !QueryResult = plumb(input, output) {
+  spawn query_graph(input, output)
+}
