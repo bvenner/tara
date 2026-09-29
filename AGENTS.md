@@ -23,6 +23,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 
 - Semantic commit prefixes; commit only when asked; never push `main` (feature branch → PR, confirm first); ask before destructive commands / git push|checkout / edits outside this directory.
 - `archive/` is gitignored (archived material; commit to it only when explicitly asked). Historical note: `research-assistant-architecture-bcv.md` was once blocked from commit — that rule is now lifted (it is tracked).
+- **`projects/` is tracked by default** (policy change 2026-09-27): any new research project under `projects/` is committed unless explicitly ignored/arched in `.gitignore`. (Previously each project required an explicit exception.)
 - "Entropy" in program docs = convex Lyapunov structure, not thermodynamic entropy.
 - Git: after the collaborator rebase, `main` contains both histories; current work lives on `feat/fulltext-ingestion-v2` (pushed). Push only to feature branches (never `main`).
 
@@ -30,6 +31,6 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 
 - Embeddings (semantic neighborhoods) vs Phase C — corpus evidence (island-DT test) favors embeddings only if cross-pillar recall matters.
 - LLM pairing: waiting for a provider key to add a pipeline-internal `agent` binding.
-- AnyType decommission (Phase 3) — largely moot after the knowledge-repository rethink; MCP entry still wired.
+- AnyType decommission (Phase 3) — done 2026-09-28: package.json/node_modules debris removed; no anytype MCP entry remains in any opencode.jsonc. Reference history in `archive/`.
 - RET×TSSI Master's sub-problem: M1 (default) vs M2–M6.
 - Push the 9 unpushed commits (feature branch + PR) when confirmed.

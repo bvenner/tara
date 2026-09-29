@@ -29,6 +29,10 @@ archive/
 papers/processed/
 papers/incoming/*.pdf
 
+# Media + raw transcript payloads (large binaries; transcripts stay tracked)
+writing/human/*.m4a
+writing/human/*.json
+
 # Local graph database
 data/
 
@@ -45,10 +49,6 @@ orchestra-opencode-demo/
 .opencode/
 car-decision.md
 tara.md
-projects/*
-# Exception: RET×TSSI research program (tracked at owner's request, 2026-08)
-!projects/ret-tssi-value-dynamics/
-# Exception: knowledge-repository proof of concept (2026-08)
-!projects/knowledge-repository-poc/
-# Exception: island-digital-twin research question (2026-08)
-!projects/island-digital-twin/
+
+# projects/ is tracked by default (policy change 2026-09-27): new research
+# projects are included unless a dir is explicitly ignored or archived.
