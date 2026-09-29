@@ -31,6 +31,6 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 
 - Embeddings (semantic neighborhoods) vs Phase C — corpus evidence (island-DT test) favors embeddings only if cross-pillar recall matters.
 - LLM pairing: waiting for a provider key to add a pipeline-internal `agent` binding.
-- AnyType decommission (Phase 3) — largely moot after the knowledge-repository rethink; MCP entry still wired.
+- AnyType decommission (Phase 3) — done 2026-09-28: package.json/node_modules debris removed; no anytype MCP entry remains in any opencode.jsonc. Reference history in `archive/`.
 - RET×TSSI Master's sub-problem: M1 (default) vs M2–M6.
 - Push the 9 unpushed commits (feature branch + PR) when confirmed.
