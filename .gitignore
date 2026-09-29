@@ -29,6 +29,10 @@ archive/
 papers/processed/
 papers/incoming/*.pdf
 
+# Media + raw transcript payloads (large binaries; transcripts stay tracked)
+writing/human/*.m4a
+writing/human/*.json
+
 # Local graph database
 data/
 
