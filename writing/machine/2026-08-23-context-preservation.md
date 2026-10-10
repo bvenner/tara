@@ -1,3 +1,13 @@
+---
+title: Full-session workspace context preservation
+date: 2026-08-23
+kind: context-preservation
+project:
+  - ret-tssi-value-dynamics
+  - knowledge-repository-poc
+  - island-digital-twin
+---
+
 # Context Preservation — 2026-08-23
 
 Full-session state for resumption after compaction/context reset. **Read this first.** Source of truth for procedures/locations: repo-root `AGENTS.md` (auto-loaded); project `AGENTS.md` files; the documents named below.

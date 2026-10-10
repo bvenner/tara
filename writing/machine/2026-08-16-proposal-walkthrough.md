@@ -1,3 +1,10 @@
+---
+title: Finite-Speed Value walkthrough — accessible explainer of the RET × TSSI program
+date: 2026-08-16
+kind: walkthrough
+project: ret-tssi-value-dynamics
+---
+
 # Finite-Speed Value: A Walkthrough
 
 *An accessible explainer to the RET × TSSI research program — "Finite-Speed Value: A Research Program in Marxian Econophysics"*

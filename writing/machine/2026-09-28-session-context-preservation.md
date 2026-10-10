@@ -1,3 +1,10 @@
+---
+title: Recovery + cleanup session context (workspace architecture quick wins)
+date: 2026-09-28
+kind: context-preservation
+project: workspace
+---
+
 # Session Context Preservation — 2026-09-28
 
 Recovered from a crashed opencode session (`Dijkstra vs indexed vs graded

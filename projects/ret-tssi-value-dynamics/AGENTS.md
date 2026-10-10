@@ -4,7 +4,7 @@ Marxian econophysics research program: applying rational extended thermodynamics
 
 ## Resume path (read first after any session/context reset)
 
-1. `to_human/2026-08-16-context-preservation.md` — conversation-only context, open decisions, verification ledger
+1. `writing/machine/2026-08-16-context-preservation.md` (YAML `project: ret-tssi-value-dynamics`) — conversation-only context, open decisions, verification ledger
 2. `research-log.md` — chronological record
 3. `program/research-program.md` — the six-track program document (authoritative live doc; all amendments applied)
 4. `program/critiques.md` — 18 steelmanned objections + responses
@@ -17,7 +17,7 @@ Marxian econophysics research program: applying rational extended thermodynamics
 - `literature/` — per-source summaries (26 files)
 - `proposal/` — reserved for the Master's thesis exposé (phase 2)
 - `findings.md`, `research-state.yaml`, `research-log.md` — autoresearch state
-- `to_human/` — notes addressed to the human (context preservation, delivery notes)
+- Notes to the human (context preservation, delivery notes) live in the workspace-wide `writing/machine/` (moved 2026-10-10); historical mentions of `to_human/` in older docs refer there.
 
 ## Open decisions
 

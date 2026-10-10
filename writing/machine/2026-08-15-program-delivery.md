@@ -1,3 +1,10 @@
+---
+title: RET × TSSI program first delivery — note to Brad
+date: 2026-08-15
+kind: delivery-note
+project: ret-tssi-value-dynamics
+---
+
 # For Brad — RET × TSSI program, first delivery (2026-08-15)
 
 ## What exists now

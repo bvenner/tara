@@ -30,18 +30,15 @@
   "ret-tssi/program/critiques.md": "0f8d9c080208e412a9f0a83bd09dc3f40bfa3980c7b11a0c95d995f66bc3adc2",
   "ret-tssi/program/research-program.md": "41f1f84a3a8f457ca3b940e80a1739cd3a25eb7f3a1ce0f79a0c8f4fc31b164b",
   "ret-tssi/research-log.md": "325d60eda3ce65351f4c53bb90a65c4bc145130660683eeca932575a4eb1eed0",
-  "ret-tssi/to_human/2026-08-15-program-delivery.md": "cbaa4ed32d1f54f91f7afdd259d643ddb6b6817bcd9ec9ec35081fcef45fddcd",
-  "ret-tssi/to_human/2026-08-16-context-preservation.md": "9e673eeb7e636ef092a068497112980fd891e2a4fb620492f54837327e97112a",
-  "ret-tssi/to_human/2026-08-16-proposal-walkthrough.md": "3bf286d118ef8087aa5264a90674a214bc67804a10e876752f85196d8d1782b3",
   "poc/REPORT.md": "5ec26a64e6ece43460fd5618037a209470e0382405268e3dc1044fac93b4fe93",
   "poc/USAGE.md": "c2953d5a9eeee2f5c1cc9d5f5daf2ec963da78bd41c870bad534b2948cfaf360",
-  "poc/plumbing-setup.md": "8fed20fa60b28e0b6a21a0a47754f34484408df0b7671fb2f27f994f70cd76cf",
+  "poc/plumbing-setup.md": "ac970e3bf02a933d00b25794646d516b26993e5db38b9d8a2e0118203cbc7d77",
   "top/knowledge-repository-proposal.md": "4cce99f04fe167dbe0ccaeb950d706b34832626ddc1f0b226b8de9af263a3161",
   "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
   "fulltext/https_openalex.org_W1919133474.md": "88f18b799d57b11ce63148068daeee4330525ad7eb586388d1fa31c1de071379",
   "fulltext/https_openalex.org_W2017005585.md": "bc50b4f8add8ef755da6782b7352c3508300c674911f4ff910aea5d086842437",
   "fulltext/https_openalex.org_W2102277728.md": "dcbd4daf0f4109f753546612e8fa932bf6ed802ce662815a098a2f686f060e58",
-  "fulltext/https_openalex.org_W2747676085.md": "cbd58a2f286f2acb617386c96849e6ed339e553d445fa65d19dec36798ac20d3",
+  "fulltext/https_openalex.org_W2747676085.md": "2e8c97fb4dd951eeccee30f572eaf8245acc8ffdaed90debe527540b38ff8e9b",
   "fulltext/https_openalex.org_W3098165131.md": "b1b573db78c83a627655753a2319e5a943f252214810104ca824b975bd0da1c4",
   "openalex/https_openalex.org_W1630122343": "b09040cc1043d3ecc0a21ddd775f653d599316565caf767f96daa03f02ebe0a6",
   "openalex/https_openalex.org_W1689769220": "b24727af0ab1b77079a50ccc9879acefc7dc28ba81864a83b6ffcd32a7e3f046",
@@ -77,35 +74,35 @@
   "openalex/https_openalex.org_W4362472596": "e60738318a87cd1228c85278d331dea936ee6fe5885c1578f80b9fe78ff7a12c",
   "openalex/https_openalex.org_W4404111866": "e8899a126f2a702b795202fd13d8d9a747116917b7d5a5ee63728d67500fa18e"
  },
- "n_docs": 75,
+ "n_docs": 72,
  "stats": {
-  "docs": 75,
-  "sections": 468,
-  "nodes": 1964,
-  "edges": 468,
+  "docs": 72,
+  "sections": 436,
+  "nodes": 1888,
+  "edges": 436,
   "node_kinds": {
    "project": 6,
-   "section": 413,
-   "keyword": 1324,
+   "section": 381,
+   "keyword": 1282,
    "notation": 8,
    "artifact": 10,
-   "citation": 21,
-   "author": 149,
+   "citation": 20,
+   "author": 148,
    "work": 33
   },
   "arity_hist": {
-   "2": 44,
-   "3": 60,
-   "4": 43,
-   "5": 63,
-   "6": 74,
-   "7": 76,
-   "8": 39,
-   "9": 15,
-   "10": 9,
-   "11": 8,
-   "12": 4,
-   "13": 4,
+   "2": 42,
+   "3": 54,
+   "4": 41,
+   "5": 61,
+   "6": 70,
+   "7": 68,
+   "8": 37,
+   "9": 14,
+   "10": 8,
+   "11": 6,
+   "12": 3,
+   "13": 3,
    "14": 3,
    "15": 8,
    "16": 5,
@@ -117,7 +114,7 @@
    "24": 1,
    "45": 1
   },
-  "mean_degree": 1.517,
+  "mean_degree": 1.471,
   "max_degree": 250,
   "top_hubs": [
    {
@@ -130,7 +127,7 @@
     "node": "project:ret-tssi",
     "kind": "project",
     "label": "ret-tssi",
-    "degree": 116
+    "degree": 84
    },
    {
     "node": "project:poc",
@@ -139,89 +136,89 @@
     "degree": 51
    },
    {
-    "node": "notation:gravitation",
-    "kind": "notation",
-    "label": "gravitation",
-    "degree": 38
-   },
-   {
-    "node": "notation:cattaneo",
-    "kind": "notation",
-    "label": "Cattaneo",
-    "degree": 36
-   },
-   {
-    "node": "notation:sk condition",
-    "kind": "notation",
-    "label": "SK condition",
-    "degree": 34
-   },
-   {
     "node": "project:openalex",
     "kind": "project",
     "label": "openalex",
     "degree": 33
    },
    {
-    "node": "notation:simultaneism",
+    "node": "notation:gravitation",
     "kind": "notation",
-    "label": "simultaneism",
-    "degree": 32
+    "label": "gravitation",
+    "degree": 30
+   },
+   {
+    "node": "notation:sk condition",
+    "kind": "notation",
+    "label": "SK condition",
+    "degree": 27
+   },
+   {
+    "node": "notation:cattaneo",
+    "kind": "notation",
+    "label": "Cattaneo",
+    "degree": 26
    },
    {
     "node": "notation:tau_j",
     "kind": "notation",
     "label": "tau_J",
-    "degree": 28
-   },
-   {
-    "node": "artifact:t3",
-    "kind": "artifact",
-    "label": "T3",
-    "degree": 25
+    "degree": 23
    },
    {
     "node": "notation:fourier",
     "kind": "notation",
     "label": "Fourier",
-    "degree": 22
+    "degree": 20
+   },
+   {
+    "node": "notation:simultaneism",
+    "kind": "notation",
+    "label": "simultaneism",
+    "degree": 20
    },
    {
     "node": "artifact:track a",
     "kind": "artifact",
     "label": "Track A",
-    "degree": 22
+    "degree": 19
    },
    {
-    "node": "artifact:t4",
+    "node": "artifact:t3",
     "kind": "artifact",
-    "label": "T4",
-    "degree": 20
+    "label": "T3",
+    "degree": 18
    },
    {
     "node": "artifact:track b",
     "kind": "artifact",
     "label": "Track B",
-    "degree": 19
+    "degree": 16
    },
    {
     "node": "artifact:track c",
     "kind": "artifact",
     "label": "Track C",
-    "degree": 18
+    "degree": 16
+   },
+   {
+    "node": "artifact:t4",
+    "kind": "artifact",
+    "label": "T4",
+    "degree": 15
    }
   ],
   "degree_hist": {
-   "1": 1822,
-   "2": 164,
-   "3-5": 109,
-   "6-10": 74,
-   "11-20": 124,
-   "21-50": 270,
-   "51-100": 51,
-   "101-500": 366
+   "1": 1751,
+   "2": 158,
+   "3-5": 114,
+   "6-10": 71,
+   "11-20": 160,
+   "21-50": 139,
+   "51-100": 135,
+   "101-500": 250
   },
-  "hub_coverage": 0.024,
+  "hub_coverage": 0.025,
   "bib_entries": 74,
   "projects": [
    "ret-tssi",

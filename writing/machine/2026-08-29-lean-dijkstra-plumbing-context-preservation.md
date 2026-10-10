@@ -1,3 +1,10 @@
+---
+title: Context preservation — lean-Dijkstra / plumbing / MAS-foundation session
+date: 2026-08-29
+kind: context-preservation
+project: knowledge-repository-poc
+---
+
 # Context Preservation — 2026-08-29 (lean-dijkstra / plumbing / MAS-foundation session)
 
 Session-local context for resumption after compaction/reset. **Read this first

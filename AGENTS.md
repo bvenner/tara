@@ -1,6 +1,6 @@
 # TARA Research Workspace — AGENTS.md
 
-Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; each has a resume path. **After any context reset, read `to_human/2026-08-23-context-preservation.md` first** (full detail), then each thread's entry point.
+Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; each has a resume path. **After any context reset, read `writing/machine/2026-08-23-context-preservation.md` first** (full detail), then each thread's entry point.
 
 ## Threads (resume paths)
 
@@ -33,4 +33,6 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 - LLM pairing: waiting for a provider key to add a pipeline-internal `agent` binding.
 - RET×TSSI Master's sub-problem: M1 (default) vs M2–M6.
 - Repo content purpose (public research vs private) with DSA/transcript material — open (2026-09-27 review §3.1).
-- MoP proposal stays in `writing/human/` until promoted; audio-sharing steps in `to_human/2026-09-28-audio-sharing-options.md` await amon-sul setup.
+- `writing/` layout (2026-10-10): `writing/human/` for markdown composed by humans, `writing/machine/` for markdown composed by agents/machines (workspace-wide notes + per-thread notes moved there from `to_human/` dirs, 2026-10-10). Place new writes accordingly. **Metadata convention (2026-10-10):** every `writing/machine/` file starts with YAML frontmatter — `title`, `date` (YYYY-MM-DD, must match the filename prefix), `kind` (e.g. `context-preservation` | `delivery-note` | `review` | `research-plan` | `options` | `walkthrough`), and `project`: keyword = folder name under `projects/` (e.g. `ret-tssi-value-dynamics`), a list of such keywords for multi-thread notes, or `workspace` for workspace-wide material. Machine notes live centrally in `writing/machine/`, not inside project dirs; project `AGENTS.md` resume paths link there.
+- MoP proposal stays in `writing/human/` until promoted; audio-sharing steps in `writing/machine/2026-09-28-audio-sharing-options.md` await amon-sul setup.
+- Pydantic AI top layer plan (new `projects/agent-harness-poc/` thread, not yet started): `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md`.
