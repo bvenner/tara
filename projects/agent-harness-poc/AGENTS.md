@@ -15,18 +15,37 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   2. Model mode (`PlumbingModel(spec, binary=...)` in a Pydantic AI `Agent`)
      — stateful two-turn echo works (`hello` → `hello`, `world` → `world`;
      `model_name` = `plumbing:<spec path>`).
-- **M1 — Tool bridge: UNBLOCKED (2026-10-10).** Provider key obtained:
-  restricted Google AI Studio auth key in gitignored `.env`
-  (`GOOGLE_API_KEY`); live check passed — model string
-  `google:gemini-3.8-flash` (2.5 Flash retired for new users; free tier).
-  `pydantic-ai-slim[google]` added to uv.
-  Typed tools wrapping `pipeline.py` (`query/evidence/trace/trace_report/expand`),
-  schemas from `knowledge-repository-poc/scripts/schemas.py`, port
-  `hypergraph-grounding` skill instructions, `output_type` =
-  `GroundedAnswer(claims: list[Claim(source: "doc :: section")])`.
-  Acceptance: reproduce `knowledge-repository-poc/graph/grounded-answer-tau-sk.md`.
+- **M1 — Tool bridge: DONE (2026-10-10).** `grounded/tools.py` wraps
+  `pipeline.py` with canonical worker-contract validation
+  (`knowledge_trace`, `knowledge_query`, `knowledge_evidence`,
+  `knowledge_trace_report`; `expand` deliberately deferred — it mutates the
+  corpus). `run_grounded.py` = cli: grounded agent
+  (`google:gemini-3.5-flash-lite` default, `AGENT_MODEL` override),
+  `GroundedAnswer{question, synthesis, claims[{statement, source "doc ::
+  section", trace_edge_ids}]}`, transient-429/503 retry loop. **Acceptance
+  evidence:** `evals/2026-10-10-m1-tau-sk.md` (tau→0 vs SK question) with
+  tool sidecar; `evals/check_citations.py` verifies every claim against the
+  union anchor universe from the sidecar → **3/3 supported**. Note:
+  flash-lite synthesis is thinner than the opencode baseline
+  (`graph/grounded-answer-tau-sk.md`) — model-dependent quality is M2's eval
+  work (`gemini-3.8-flash` free tier = 20 req/day, resets midnight Pacific).
+  Tests: `tests/test_tools.py` (pipeline integration + exact-boundary
+  regression), `tests/test_check_citations.py` — 6 passed.
+- M1 infra notes: provider key in gitignored `.env` (`GOOGLE_API_KEY`) —
+  restricted Google AI Studio auth key; model string prefix is `google:` in
+  slim 2.55 and **`gemini-2.5-flash`/`-lite` are retired for new accounts**
+  (use `gemini-3.8-flash` [20 free req/day] or `gemini-3.5-flash-lite`
+  [larger free tier]).
 
 ## Critical finding (do not re-derive)
+
+- **plumb exec boundaries are exact-typed: an extra input key is fatal**
+  (`morphism_fatal`, no worker traceback). Example: `trace.plumb` takes
+  `{topic, concepts, min_seeds}` — sending `schemas.TraceRequest`'s
+  `max_edges: 40` default kills the pipeline. `grounded/tools.py` therefore
+  uses boundary-mirror `TraceInput`/`QueryInput` models, not the
+  shared schemas. Regression test
+  `test_exact_typed_extra_field_is_fatal` covers it.
 
 - **PyPI `persevere-plumbing` 1.1.0 wheels are broken on this machine** —
   the bundled `_bin/plumb` needs `libbsd.so.0`, `libsodium.so.23`,
