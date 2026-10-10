@@ -15,7 +15,11 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   2. Model mode (`PlumbingModel(spec, binary=...)` in a Pydantic AI `Agent`)
      — stateful two-turn echo works (`hello` → `hello`, `world` → `world`;
      `model_name` = `plumbing:<spec path>`).
-- **M1 — Tool bridge: NOT STARTED.** Needs an LLM provider key.
+- **M1 — Tool bridge: UNBLOCKED (2026-10-10).** Provider key obtained:
+  restricted Google AI Studio auth key in gitignored `.env`
+  (`GOOGLE_API_KEY`); live check passed — model string
+  `google:gemini-3.8-flash` (2.5 Flash retired for new users; free tier).
+  `pydantic-ai-slim[google]` added to uv.
   Typed tools wrapping `pipeline.py` (`query/evidence/trace/trace_report/expand`),
   schemas from `knowledge-repository-poc/scripts/schemas.py`, port
   `hypergraph-grounding` skill instructions, `output_type` =

@@ -9,6 +9,7 @@ dependencies = [
   "persevere-plumbing[pydantic]>=1.1.0",
   "pydantic==2.13.4",
   "pydantic-ai-harness[researcher]==0.55.0",
+  "pydantic-ai-slim[google]==2.55.0",
   "requests==2.34.2",
   "torch==2.13.0",           # +cpu build via [tool.uv.sources]; cu130 wheel segfaults on CPU boxes
   "torchvision==0.28.0",     # must match torch build (cpu index) else AutoProcessor import breaks

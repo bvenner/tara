@@ -21,7 +21,10 @@ free-tier-or-training endpoint.
   grounded Google Search 500 requests/day free on 2.5 Flash/Flash-Lite (the
   free-tier search quota matters — the agent's
   `WebSearch`/`WebFetch` can go native).
-- Pydantic AI: `google-gla:gemini-2.5-flash` via `pydantic-ai-slim[google]`.
+- Pydantic AI: `google:gemini-3.8-flash` via `pydantic-ai-slim[google]`
+  (prefix is `google:`, not `google-gla:`, in slim 2.55; `gemini-2.5-flash`
+  is no longer available to new users as of Oct 2026 — 3.8 Flash is the
+  current free-tier workhorse).
 - **Caveats:** free-tier prompts/data may be used for model training (fine
   for the public research corpus; the same privacy rule above applies);
   limits are unpublished (shown per project in AI Studio); since
@@ -78,6 +81,10 @@ free-tier-or-training endpoint.
 **Step 1 (now):** get a **restricted Google AI Studio key** (option 1,
 ~5 min, no card). Set `GOOGLE_API_KEY`. Unblock M1 at zero cost; add
 `pydantic-ai-slim[google]`.
+**Done 2026-10-10:** key obtained, stored in gitignored `.env`
+(`-rw-------`); live check passed with `google:gemini-3.8-flash`. Note:
+`python-dotenv` loads `.env` for the workers; a bare `uv run python -c`
+needs `set -a && . ./.env && set +a` first.
 
 **Step 2 (at M4 or earlier if convenient):** create a Logfire account
 (Personal/free), register the same key as a BYOK gateway credential, switch
