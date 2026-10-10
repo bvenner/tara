@@ -1,3 +1,10 @@
+---
+title: Workspace architecture review
+date: 2026-09-27
+kind: review
+project: workspace
+---
+
 # Workspace Architecture Review — 2026-09-27
 
 Prompted by Brad's four questions: (1) does infrastructure belong in the same

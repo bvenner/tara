@@ -1,3 +1,10 @@
+---
+title: Options for sharing Employers Union audio (Syncthing + encrypted rclone)
+date: 2026-09-28
+kind: options
+project: workspace
+---
+
 # Audio Sharing Options — 2026-09-28
 
 Context: `writing/human/*.m4a` (~240 MB across Informatics1–4, growing each

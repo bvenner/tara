@@ -1,3 +1,10 @@
+---
+title: RET × TSSI context preservation — read after a context reset
+date: 2026-08-16
+kind: context-preservation
+project: ret-tssi-value-dynamics
+---
+
 # Context Preservation — read after a context reset
 
 Everything here is material that existed only in the working conversation and is NOT yet in the research documents (or that has since changed). State as of 2026-08-16.
