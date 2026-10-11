@@ -36,6 +36,32 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   slim 2.55 and **`gemini-2.5-flash`/`-lite` are retired for new accounts**
   (use `gemini-3.8-flash` [20 free req/day] or `gemini-3.5-flash-lite`
   [larger free tier]).
+- **M2 — Eval: DONE (mechanical half) / judge-style implemented (2026-10-10).**
+  `evals/grounding_eval.py`: pydantic-evals dataset —
+  deterministic evaluators (`structure`, `citation_support`,
+  `load_bearing_coverage` vs the opencode baseline's load-bearing list) +
+  `claim_entailment` LLM judge (`AGENT_JUDGE` env, async; judge per claim
+  against the cited corpus section text resolved via
+  `grounded/corpus_sections.py` = corpus.json roots + heading match).
+  Cases: agent-tau-sk, baseline-tau-sk-static (parses the stored baseline
+  `graph/grounded-answer-tau-sk.md`), agent-physics-envy (out-of-scope
+  probe). **Mechanical M2 acceptance met:** agent CitationSupport 1.00 + LoadBearingCoverage 1.00 ≥ baseline (baseline itself scores
+  CitationSupport 0.500 post-move — 3/6 of its citations refer to
+  `ret-tssi/to_human/`, unresolvable since the writing/machine refactor;
+  real corpus-drift finding). **Judge findings (flash-lite judge,
+  partial):** agent claims 1/3 ENTAILED — judge caught genuine overreach
+  (claims attributing well-posedness to "the SK condition" where §2.2
+  credits the Ruggeri–Strumia theorem; A5-citation claim contradicted by
+  the section's singular/p diverging argument). baseline judge run
+  validates (log + report archived, `evals/2026-10-10-m2-judged-*`).
+  Quality verdict needs a stronger judge/task model: `gemini-3.8-flash`
+  free = 20 req/day (resets midnight Pacific), Anthropic $5 — **open
+  decision**. Tests: `tests/test_m2_units.py` (parser, section resolution,
+  doc-path) — 9 passed total; smoke green.
+- M2 infra notes: judge/task ratelimit — flash-lite RPD also saturates
+  quickly when running repeat evals; `report.print()` API; EvaluatorContext
+  has `name` (not `case.name`); judge must be async inside pydantic-evals
+  (run_sync → "event loop is already running").
 
 ## Critical finding (do not re-derive)
 
