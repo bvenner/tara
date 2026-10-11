@@ -75,9 +75,9 @@ class GroundedAnswer(BaseModel):
     claims: list[Claim]
 
 
-def build_agent() -> Agent[GroundedAnswer]:
+def build_agent(model: str | None = None) -> Agent[GroundedAnswer]:
     return Agent(
-        MODEL,
+        model or MODEL,
         instructions=INSTRUCTIONS + CLAIM,
         output_type=GroundedAnswer,
         retries=3,
@@ -88,6 +88,24 @@ def build_agent() -> Agent[GroundedAnswer]:
             tools.knowledge_trace_report,
         ],
     )
+
+
+async def run_with_retry_async(agent: Agent[GroundedAnswer], question: str, attempts: int = 5):
+    """Free-tier capacity hiccups (503/429 UNAVAILABLE) are transient; back off and retry."""
+    import time
+
+    last_exc = None
+    for attempt in range(1, attempts + 1):
+        try:
+            return await agent.run(question)
+        except ModelHTTPError as exc:
+            last_exc = exc
+            if exc.status_code not in (429, 500, 503):
+                raise
+            wait = min(15 * attempt, 60)
+            print(f"[retry {attempt}/{attempts}] {exc.status_code}; wait {wait}s", file=sys.stderr)
+            time.sleep(wait)
+    raise last_exc
 
 
 def run_with_retry(agent: Agent[GroundedAnswer], question: str, attempts: int = 5):
