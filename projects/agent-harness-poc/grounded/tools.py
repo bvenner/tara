@@ -9,6 +9,7 @@ No LLM is involved at this layer.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import subprocess
 import sys
@@ -20,6 +21,45 @@ from pydantic import BaseModel, Field
 THAR_DIR = Path(__file__).resolve().parents[3]
 POC = THAR_DIR / "projects" / "knowledge-repository-poc"
 PIPELINE_PY = POC / "scripts" / "pipeline.py"
+# F2 memoization: pipeline calls are content-addressed on (name, input, graph
+# build hash); the knowledge repo is deterministic in those, so a cached
+# stdout is semantically identical to a fresh nix-develop spawn. Bypass with
+# TARA_NO_PIPELINE_CACHE=1.
+PIPELINE_CACHE = THAR_DIR / "projects" / "agent-harness-poc" / ".cache" / "pipelines"
+
+
+def _graph_hash() -> str:
+    build_meta = POC / "graph" / "build_meta.json"
+    if build_meta.exists():
+        return hashlib.sha1(build_meta.read_bytes()).hexdigest()[:12]
+    return "nograph"
+
+
+def _cache_key(name: str, raw_json: str) -> str:
+    raw = f"{name}|{raw_json}|{_graph_hash()}"
+    return hashlib.sha1(raw.encode()).hexdigest()
+
+
+def _call(name: str, raw_json: str) -> str:
+    cache_dir = PIPELINE_CACHE
+    cache_file = cache_dir / f"{name}-{_cache_key(name, raw_json)}.out"
+    if os.environ.get("TARA_NO_PIPELINE_CACHE") != "1" and cache_file.exists():
+        return cache_file.read_text(encoding="utf-8")
+    proc = subprocess.run(
+        [sys.executable, str(PIPELINE_PY), name, raw_json],
+        capture_output=True,
+        text=True,
+        timeout=600,
+        cwd=str(THAR_DIR),
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(f"pipeline {name} failed:\n{proc.stderr}")
+    if not proc.stdout.strip():
+        raise RuntimeError(f"pipeline {name} returned nothing")
+    if os.environ.get("TARA_NO_PIPELINE_CACHE") != "1":
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        cache_file.write_text(proc.stdout, encoding="utf-8")
+    return proc.stdout
 
 sys.path.insert(0, str(POC / "scripts"))
 import schemas as worker  # noqa: E402  (canonical boundary contracts)

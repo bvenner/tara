@@ -26,11 +26,11 @@ Usage:
 
 from __future__ import annotations
 
+import asyncio
 import json
 import os
 import re
 import sys
-import uuid
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -46,9 +46,11 @@ from grounded.judge import build_judge, judge_claim
 from run_grounded import (
     ACCEPTANCE_QUESTION,
     GroundedAnswer,
+    GroundedRun,
     Claim,
     build_agent,
     dump_tool_outputs,
+    ground_run_async,
     run_with_retry_async,
 )
 
@@ -72,11 +74,14 @@ LOAD_BEARING = [
 ]
 
 
-class GroundedRun(BaseModel):
-    question: str
-    answer: GroundedAnswer
-    anchors: list[tuple[str, str]]
-    tools_called: list[str]
+def sec_clean(sec: str) -> str:
+    """Agents sometimes append hyperedge/node annotations to the citation
+    after the section title; strip those before matching corpus headings."""
+    return re.split(r"\s\((?:edge|nodes)[^)]*\)$", sec)[0].strip()
+
+
+def rel_section(sec: str) -> str:
+    return sec.split("(")[0][:50]
 
 
 def trace_anchors(topic: str, concepts: list[str], min_seeds: int) -> list[tuple[str, str]]:
@@ -119,18 +124,7 @@ async def run_grounding(inputs: dict) -> GroundedRun:
             anchors=anchors,
             tools_called=["knowledge_trace"],
         )
-    agent = build_agent(model=inputs.get("model"))
-    result = await run_with_retry_async(agent, question)
-    sidecar = Path(os.environ.get("TMPDIR", "/tmp")) / "m2_eval" / f"case-{uuid.uuid4().hex}.tools.json"
-    sidecar.parent.mkdir(parents=True, exist_ok=True)
-    dump_tool_outputs(result, sidecar)
-    anchors = sorted(anchors_from_sidecar(sidecar))
-    return GroundedRun(
-        question=question,
-        answer=result.output,
-        anchors=anchors,
-        tools_called=sorted({r["tool"] for r in json.loads(sidecar.read_text())}),
-    )
+    return await ground_run_async(question, model=inputs.get("model"))
 
 
 class Structure(Evaluator):
@@ -168,15 +162,21 @@ class ClaimEntailmentJudge(Evaluator):
         run: GroundedRun = ctx.output
         claims = run.answer.claims
         if not claims:
-            return None
-        verdicts: list[str] = []
+            return 0.0
+        doc_sec_texts = []
         for claim in claims:
             doc, _, sec = claim.source.partition(" :: ")
-            text = section_text(doc, sec)
-            judgement = await judge_claim(self._agent, text or "", claim.statement)
-            verdicts.append(judgement.verdict)
+            doc_sec_texts.append((doc, rel_section(sec), section_text(doc, sec_clean(sec))))
+        judgements = await asyncio.gather(
+            *[
+                judge_claim(self._agent, text or "", claim.statement)
+                for claim, (_, _, text) in zip(claims, doc_sec_texts)
+            ]
+        )
+        verdicts = [j.verdict for j in judgements]
+        for claim, (doc, sec, _), judgement in zip(claims, doc_sec_texts, judgements):
             print(
-                f"[judge] {ctx.name}: {doc.split('/')[-1]} :: {sec[:50]}\n"
+                f"[judge] {ctx.name}: {doc.split('/')[-1]} :: {rel_section(sec)}\n"
                 f"        claim: {claim.statement[:90]}\n"
                 f"        verdict: {judgement.verdict} ({judgement.reason[:120]})",
                 flush=True,
@@ -184,7 +184,8 @@ class ClaimEntailmentJudge(Evaluator):
         entailed = verdicts.count("ENTAILED")
         insufficient = verdicts.count("INSUFFICIENT")
         denom = len(verdicts) - insufficient
-        return entailed / denom if denom else None
+        # pydantic-evals evaluators cannot return None; nothing-verifiable → 0.0
+        return entailed / denom if denom else 0.0
 
 
 def build_dataset(judge: bool, task_model: str | None = None) -> Dataset:
@@ -230,7 +231,9 @@ def main() -> int:
     args = parser.parse_args()
 
     dataset = build_dataset(judge=not args.no_judge, task_model=args.model)
-    report = dataset.evaluate_sync(task=run_grounding, name="grounding-eval-m2", max_concurrency=1)
+    report = dataset.evaluate_sync(
+        task=run_grounding, name="grounding-eval-m2", max_concurrency=2
+    )
     report.print()
     if args.out:
         summary = {
@@ -238,6 +241,7 @@ def main() -> int:
             "cases": [
                 {
                     "name": c.name,
+                    "duration_s": round(getattr(c, "duration", 0.0), 1),
                     "scores": {k: v for k, v in (c.scores or {}).items()},
                 }
                 for c in report.cases

@@ -1,0 +1,16 @@
+{
+  "agent-tau-sk": {
+    "total": 12,
+    "entailed": 6,
+    "not_entailed": 4,
+    "insufficient": 2,
+    "lean_claim_score": 0.6
+  },
+  "baseline-tau-sk-static": {
+    "total": 6,
+    "entailed": 5,
+    "not_entailed": 0,
+    "insufficient": 1,
+    "lean_claim_score": 1.0
+  }
+}

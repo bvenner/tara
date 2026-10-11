@@ -52,3 +52,6 @@ tara.md
 
 # projects/ is tracked by default (policy change 2026-09-27): new research
 # projects are included unless a dir is explicitly ignored or archived.
+projects/agent-harness-poc/evals/cache/
+projects/agent-harness-poc/.cache/
+writing/human/z-ai-pwd.txt

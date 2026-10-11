@@ -45,7 +45,7 @@ def build_judge() -> Agent[Judgement]:
     )
 
 
-async def judge_claim(agent: Agent[Judgement], section_text: str, claim: str) -> Judgement:
+async def judge_claim_raw(agent: Agent[Judgement], section_text: str, claim: str) -> Judgement:
     if not section_text.strip():
         return Judgement(verdict="INSUFFICIENT", reason="section text unavailable")
     excerpt = section_text[:MAX_SECTION_CHARS]
@@ -65,3 +65,33 @@ async def judge_claim(agent: Agent[Judgement], section_text: str, claim: str) ->
             await asyncio.sleep(10.0 * (attempt + 1))
     assert last_exc is not None
     return Judgement(verdict="INSUFFICIENT", reason=f"judge rejected after retries: {last_exc}")
+
+
+# Judge-verdict cache: a (judge model, claim, section-excerpt-hash) address
+# deterministically maps to one verdict, so warm eval reruns don't re-call
+# the judge. Bypass with TARA_NO_JUDGE_CACHE=1.
+def judge_claim(agent: Agent[Judgement], section_text: str, claim: str) -> "asyncio.Future[Judgement]":
+    import hashlib
+
+    key = hashlib.sha1(
+        f"{JUDGE_MODEL}|{claim}|{section_text[:MAX_SECTION_CHARS]}".encode()
+    ).hexdigest()[:16]
+    cache_file = _judge_cache_dir() / f"{key}.json"
+    no_cache = os.environ.get("TARA_NO_JUDGE_CACHE") == "1"
+
+    async def _run() -> Judgement:
+        if not no_cache and cache_file.exists():
+            try:
+                return Judgement.model_validate_json(cache_file.read_text())
+            except Exception:
+                pass
+        verdict = await judge_claim_raw(agent, section_text, claim)
+        cache_file.parent.mkdir(parents=True, exist_ok=True)
+        cache_file.write_text(verdict.model_dump_json())
+        return verdict
+
+    return asyncio.ensure_future(_run())
+
+
+def _judge_cache_dir() -> Path:
+    return Path(__file__).resolve().parents[1] / "evals" / "cache" / "judges"

@@ -13,6 +13,7 @@ Usage:
 
 from __future__ import annotations
 
+import asyncio
 import os
 import json
 import sys
@@ -50,6 +51,9 @@ Grounding discipline (-binding):
    repository does not support a part of the answer, say so explicitly.
 5. Note: "entropy" in this program means convex Lyapunov structure, not
    thermodynamic entropy.
+6. Budget: at most 5 claims — prefer the strongest, most load-bearing
+   assertions over an exhaustive list. Every claim must still cite its
+   section exactly.
 """
 
 CLAIM = """\
@@ -73,6 +77,15 @@ class GroundedAnswer(BaseModel):
         description="the overall answer, a few paragraphs, each assertion traceable to claims"
     )
     claims: list[Claim]
+
+
+class GroundedRun(BaseModel):
+    """Full grounded-run record: answer + the anchor universe its tools returned."""
+
+    question: str
+    answer: GroundedAnswer
+    anchors: list[tuple[str, str]]
+    tools_called: list[str]
 
 
 def build_agent(model: str | None = None) -> Agent[GroundedAnswer]:
@@ -145,23 +158,91 @@ def dump_tool_outputs(result, sidecar: Path) -> None:
     sidecar.write_text(json.dumps(recs, indent=2, default=str))
 
 
+# ── F2: agent-output cache ────────────────────────────────────────
+# A (model, question, instructions, graph-build) address déterministically
+# maps to one GroundedRun; replaying it avoids re-calling the LLM and the
+# pipelines when tuning evaluators/judges. Bypass with TARA_NO_RUN_CACHE=1
+# or refresh=True; cache lives in evals/cache/ (gitignored).
+
+CACHE_DIR = THAR_DIR / "projects" / "agent-harness-poc" / "evals" / "cache"
+
+
+def _graph_hash() -> str:
+    build_meta = THAR_DIR / "projects" / "knowledge-repository-poc" / "graph" / "build_meta.json"
+    if build_meta.exists():
+        import hashlib
+
+        return hashlib.sha1(build_meta.read_bytes()).hexdigest()[:12]
+    return "nograph"
+
+
+def run_cache_key(question: str, model: str | None) -> str:
+    import hashlib
+
+    raw = f"{model or MODEL}|{question}|{len(INSTRUCTIONS)}|{_graph_hash()}"
+    return hashlib.sha1(raw.encode()).hexdigest()[:16]
+
+
+async def ground_run_async(
+    question: str, model: str | None = None, refresh: bool = False
+) -> GroundedRun:
+    """Run the grounded agent (or replay it from the cache) and return a GroundedRun."""
+    key = run_cache_key(question, model)
+    cache_file = CACHE_DIR / f"{key}.json"
+    no_cache = os.environ.get("TARA_NO_RUN_CACHE") == "1"
+    if not refresh and not no_cache and cache_file.exists():
+        data = json.loads(cache_file.read_text())
+        return GroundedRun.model_validate(data)
+    agent = build_agent(model=model)
+    timeout_s = float(os.environ.get("TARA_RUN_TIMEOUT", "480"))
+    try:
+        async with asyncio.timeout(timeout_s):
+            result = await run_with_retry_async(agent, question)
+    except TimeoutError as exc:
+        raise TimeoutError(
+            f"grounded run exceeded {timeout_s}s wall clock "
+            f"(TARA_RUN_TIMEOUT); aborted before completion"
+        ) from exc
+    sidecar_dir = CACHE_DIR
+    sidecar_dir.mkdir(parents=True, exist_ok=True)
+    sidecar = sidecar_dir / f"{key}.tools.json"
+    dump_tool_outputs(result, sidecar)
+    from evals.check_citations import anchors_from_sidecar
+
+    run = GroundedRun(
+        question=question,
+        answer=result.output,
+        anchors=sorted(anchors_from_sidecar(sidecar)),
+        tools_called=sorted({r["tool"] for r in json.loads(sidecar.read_text())}),
+    )
+    cache_file.write_text(run.model_dump_json())
+    return run
+
+
 def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("question", nargs="?", default=ACCEPTANCE_QUESTION)
     parser.add_argument("--out", type=Path, default=None)
+    parser.add_argument("--model", default=None)
+    parser.add_argument("--refresh", action="store_true", help="bypass the agent-output cache")
     args = parser.parse_args()
 
     os.environ.setdefault("PYDANTIC_AI_NO_BANNER", "1")
-    agent = build_agent()
-    result = run_with_retry(agent, args.question)
-    answer = result.output
+    run = asyncio.run(ground_run_async(args.question, model=args.model, refresh=args.refresh))
     if args.out:
-        args.out.write_text(_render(answer), encoding="utf-8")
-        dump_tool_outputs(result, args.out.with_suffix(".tools.json"))
+        args.out.write_text(_render(run.answer), encoding="utf-8")
+        # surface the cache-recorded sidecar (tool outputs in full shape)
+        src = CACHE_DIR / f"{run_cache_key(args.question, args.model)}.tools.json"
+        if src.exists():
+            (args.out.with_suffix(".tools.json")).write_text(src.read_text())
         print(f"written: {args.out}")
-    print(_render(answer))
+    print(_render(run.answer))
+
+
+def _sidecar_json(run: GroundedRun) -> str:  # placeholder kept for tests
+    return json.dumps({"anchors": [list(a) for a in run.anchors]}, indent=2)
 
 
 def _render(answer: GroundedAnswer) -> str:
