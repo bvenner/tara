@@ -1,0 +1,2794 @@
+[
+  {
+    "tool": "knowledge_trace",
+    "content": {
+      "topic": "tau relaxation limit SK condition gravitation convergence",
+      "min_seeds": 1,
+      "seeds": [
+        {
+          "concept": "tau->0 relaxation limit",
+          "matched_nodes": []
+        },
+        {
+          "concept": "SK condition",
+          "matched_nodes": [
+            "SK condition"
+          ]
+        },
+        {
+          "concept": "gravitation convergence",
+          "matched_nodes": []
+        }
+      ],
+      "hits": [
+        {
+          "edge_id": "e69",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "arity": 16,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "arity": 15,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e62",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "1. Overview",
+          "arity": 14,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "modern hyperbolic theory supply",
+            "simultaneist value theory",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[1. Overview]"
+          ]
+        },
+        {
+          "edge_id": "e68",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "3. The core correspondence",
+          "arity": 13,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "simultaneist value theory",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[3. The core correspondence]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "arity": 13,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e5",
+          "doc": "ret-tssi/findings.md",
+          "section": "5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)",
+          "arity": 12,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)]"
+          ]
+        },
+        {
+          "edge_id": "e31",
+          "doc": "ret-tssi/literature/steedman-1984.md",
+          "section": "Steedman (1984) \u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process",
+          "arity": 12,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "classical competitive process",
+            "cross-dual",
+            "cross-dual process slaves capital reallocation instantaneously",
+            "market prices adjust",
+            "naive gravitation argument",
+            "profit rates",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Steedman (1984) \u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process]"
+          ]
+        },
+        {
+          "edge_id": "e96",
+          "doc": "poc/REPORT.md",
+          "section": "The demo question",
+          "arity": 11,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[The demo question]"
+          ]
+        },
+        {
+          "edge_id": "e19",
+          "doc": "ret-tssi/literature/flaschel-semmler-1987.md",
+          "section": "Flaschel & Semmler (1987) \u2014 Classical and Neoclassical Competitive Adjustment Processes",
+          "arity": 10,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "classical",
+            "input-output models",
+            "neoclassical competitive adjustment processes",
+            "profit rates",
+            "stable cross-dual adjustment process",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Flaschel & Semmler (1987) \u2014 Classical and Neoclassical Competitive Adjustment Processes]"
+          ]
+        },
+        {
+          "edge_id": "e30",
+          "doc": "ret-tssi/literature/stability-dissipative-hyperbolic.md",
+          "section": "Stability of Dissipative Hyperbolic Systems \u2014 Hanouzet\u2013Natalini (2003), Ruggeri\u2013Serre (2004), Bianchini\u2013Hanouzet\u2013Natalini (2007)",
+          "arity": 10,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "constant equilibrium state",
+            "constant equilibrium state exist globally",
+            "dissipative balance laws system",
+            "entropy-dissipative hyperbolic balance laws",
+            "partially dissipative hyperbolic systems",
+            "systems",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Stability of Dissipative Hyperbolic Systems \u2014 Hanouzet\u2013Natalini (2003), Ruggeri\u2013Serre (2004), Bianchini\u2013Hanouzet\u2013Natalini (2007)]"
+          ]
+        },
+        {
+          "edge_id": "e4",
+          "doc": "ret-tssi/findings.md",
+          "section": "4. The correspondence table",
+          "arity": 9,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track B",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[4. The correspondence table]"
+          ]
+        },
+        {
+          "edge_id": "e14",
+          "doc": "ret-tssi/literature/cockshott-2016.md",
+          "section": "Cockshott (2016) \u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence",
+          "arity": 9,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track C",
+            "marxian reproduction prices versus prices",
+            "prices",
+            "programs sk-type coupling condition promises",
+            "third price theory implicit",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Cockshott (2016) \u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence]"
+          ]
+        },
+        {
+          "edge_id": "e17",
+          "doc": "ret-tssi/literature/dumenil-levy-1987.md",
+          "section": "Dum\u00e9nil & L\u00e9vy (1987) \u2014 The Dynamics of Competition: A Restoration of the Classical Analysis",
+          "arity": 9,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "classical equilibrium manifold",
+            "classical long-term equilibrium",
+            "established low-dimensional models",
+            "models already treat adjustment",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Dum\u00e9nil & L\u00e9vy (1987) \u2014 The Dynamics of Competition: A Restoration of the Classical Analysis]"
+          ]
+        },
+        {
+          "edge_id": "e72",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics",
+          "arity": 9,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "Track A",
+            "axiomatic theory",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e65",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "2.3 Gravitation dynamics",
+          "arity": 8,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "market prices",
+            "prices",
+            "profit-rate differentials drive capital reallocation",
+            "Cattaneo",
+            "Fourier",
+            "SK condition",
+            "ret-tssi",
+            "[2.3 Gravitation dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e101",
+          "doc": "poc/REPORT.md",
+          "section": "Growth (rebuilt graph)",
+          "arity": 8,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Growth (rebuilt graph)]"
+          ]
+        },
+        {
+          "edge_id": "e35",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A1. \"Physics envy \u2014 this is a metaphor, not a model\"",
+          "arity": 7,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[A1. \"Physics envy \u2014 this is a metaphor, not a model\"]"
+          ]
+        },
+        {
+          "edge_id": "e64",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "2.2 Rational extended thermodynamics",
+          "arity": 7,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "concave entropy density",
+            "convex entropy extension renders",
+            "entropy principle",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[2.2 Rational extended thermodynamics]"
+          ]
+        },
+        {
+          "edge_id": "e74",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "9. Track F \u2014 Mathematics \u00d7 Computer Science: certified and executable mathematics",
+          "arity": 7,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "T3",
+            "Track A",
+            "Track B",
+            "promise full formalization",
+            "SK condition",
+            "ret-tssi",
+            "[9. Track F \u2014 Mathematics \u00d7 Computer Science: certified and executable mathematics]"
+          ]
+        },
+        {
+          "edge_id": "e83",
+          "doc": "ret-tssi/research-log.md",
+          "section": "2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring",
+          "arity": 7,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "driven non-equilibrium steady state",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring]"
+          ]
+        },
+        {
+          "edge_id": "e50",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "C6. \"Proof assistants aren't ready for the real objects\" (Track F)",
+          "arity": 6,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track F",
+            "discrete recursion",
+            "discrete recursion requires rebuilding large analysis infrastructure",
+            "SK condition",
+            "ret-tssi",
+            "[C6. \"Proof assistants aren't ready for the real objects\" (Track F)]"
+          ]
+        },
+        {
+          "edge_id": "e2",
+          "doc": "ret-tssi/findings.md",
+          "section": "2. The thermodynamic pole (what we borrow)",
+          "arity": 5,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "entropy principle",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[2. The thermodynamic pole (what we borrow)]"
+          ]
+        },
+        {
+          "edge_id": "e93",
+          "doc": "poc/REPORT.md",
+          "section": "Verified behavior",
+          "arity": 5,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "Cattaneo",
+            "SK condition",
+            "poc",
+            "[Verified behavior]"
+          ]
+        },
+        {
+          "edge_id": "e115",
+          "doc": "poc/USAGE.md",
+          "section": "Ground a claim: which sections co-occur with my seed concepts?",
+          "arity": 5,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "gravitation",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Ground a claim: which sections co-occur with my seed concepts?]"
+          ]
+        },
+        {
+          "edge_id": "e105",
+          "doc": "poc/REPORT.md",
+          "section": "Next",
+          "arity": 4,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "opencode",
+            "SK condition",
+            "poc",
+            "[Next]"
+          ]
+        },
+        {
+          "edge_id": "e142",
+          "doc": "top/knowledge-repository-proposal.md",
+          "section": "6. Phased plan",
+          "arity": 4,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "Track F",
+            "SK condition",
+            "top",
+            "[6. Phased plan]"
+          ]
+        },
+        {
+          "edge_id": "e43",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "B3. \"There is no tendency to equalization at all\" (the probabilist flank)",
+          "arity": 3,
+          "seeds": [
+            "SK condition"
+          ],
+          "nodes": [
+            "SK condition",
+            "ret-tssi",
+            "[B3. \"There is no tendency to equalization at all\" (the probabilist flank)]"
+          ]
+        }
+      ],
+      "distinct_sections": 27
+    }
+  },
+  {
+    "tool": "knowledge_query",
+    "content": {
+      "concept": "tau_J",
+      "matched_nodes": [
+        {
+          "node_id": "notation:tau_j",
+          "label": "tau_J",
+          "kind": "notation"
+        }
+      ],
+      "total_edges": 23,
+      "edges": [
+        {
+          "edge_id": "e59",
+          "arity": 22,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "Consolidated amendments to `research-program.md`",
+          "nodes": [
+            "T3",
+            "Track B",
+            "Track E",
+            "Track F",
+            "ellis",
+            "gregor",
+            "miroslav",
+            "ping",
+            "roberto",
+            "shi",
+            "simon",
+            "grmela2015 (2015)",
+            "grmela2021 (2021)",
+            "jin-xin1995 (1995)",
+            "mohun-veneziani2017 (2017)",
+            "scharfenaker-semieniuk2017 (2017)",
+            "Cattaneo",
+            "gravitation",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[Consolidated amendments to `research-program.md`]"
+          ]
+        },
+        {
+          "edge_id": "e79",
+          "arity": 19,
+          "doc": "ret-tssi/research-log.md",
+          "section": "2026-08-16 \u2014 Git commit + critiques document",
+          "nodes": [
+            "Track C",
+            "ellis",
+            "gregor",
+            "miroslav",
+            "ping",
+            "roberto",
+            "shi",
+            "simon",
+            "grmela-ottinger1997a (1997)",
+            "grmela2015 (2015)",
+            "grmela2018 (2018)",
+            "grmela2021 (2021)",
+            "jin-xin1995 (1995)",
+            "mohun-veneziani2017 (2017)",
+            "scharfenaker-semieniuk2017 (2017)",
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[2026-08-16 \u2014 Git commit + critiques document]"
+          ]
+        },
+        {
+          "edge_id": "e69",
+          "arity": 16,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "arity": 15,
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e68",
+          "arity": 13,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "3. The core correspondence",
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "simultaneist value theory",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[3. The core correspondence]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "arity": 13,
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e5",
+          "arity": 12,
+          "doc": "ret-tssi/findings.md",
+          "section": "5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)",
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)]"
+          ]
+        },
+        {
+          "edge_id": "e73",
+          "arity": 11,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics",
+          "nodes": [
+            "T2",
+            "T3",
+            "Track A",
+            "Track C",
+            "numerical methods",
+            "Cattaneo",
+            "simultaneism",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e96",
+          "arity": 11,
+          "doc": "poc/REPORT.md",
+          "section": "The demo question",
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[The demo question]"
+          ]
+        },
+        {
+          "edge_id": "e42",
+          "arity": 10,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "B2. \"Your closure is one of infinitely many \u2014 why this one?\" (underdetermination returns)",
+          "nodes": [
+            "Track C",
+            "cattaneo closure",
+            "closure",
+            "closure becomes",
+            "closure identification",
+            "Cattaneo",
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[B2. \"Your closure is one of infinitely many \u2014 why this one?\" (underdetermination returns)]"
+          ]
+        },
+        {
+          "edge_id": "e58",
+          "arity": 10,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "E4. \"The computational tracks are orthogonal to value theory\"",
+          "nodes": [
+            "T2",
+            "T3",
+            "Track E",
+            "Track F",
+            "economic content",
+            "economic system",
+            "models economic content",
+            "tau_J",
+            "ret-tssi",
+            "[E4. \"The computational tracks are orthogonal to value theory\"]"
+          ]
+        },
+        {
+          "edge_id": "e4",
+          "arity": 9,
+          "doc": "ret-tssi/findings.md",
+          "section": "4. The correspondence table",
+          "nodes": [
+            "Track B",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[4. The correspondence table]"
+          ]
+        },
+        {
+          "edge_id": "e37",
+          "arity": 9,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A3. \"Unobservable parameters, unparsimonious\"",
+          "nodes": [
+            "Track C",
+            "model adds parameters",
+            "models testable content",
+            "vaonas gravitation econometrics gives adjacent estimates",
+            "gravitation",
+            "simultaneism",
+            "tau_J",
+            "ret-tssi",
+            "[A3. \"Unobservable parameters, unparsimonious\"]"
+          ]
+        },
+        {
+          "edge_id": "e0",
+          "arity": 8,
+          "doc": "ret-tssi/findings.md",
+          "section": "Findings \u2014 The Formal Correspondence",
+          "nodes": [
+            "capital stocks",
+            "direct labor vector",
+            "price vector",
+            "tau",
+            "MELT",
+            "tau_J",
+            "ret-tssi",
+            "[Findings \u2014 The Formal Correspondence]"
+          ]
+        },
+        {
+          "edge_id": "e101",
+          "arity": 8,
+          "doc": "poc/REPORT.md",
+          "section": "Growth (rebuilt graph)",
+          "nodes": [
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Growth (rebuilt graph)]"
+          ]
+        },
+        {
+          "edge_id": "e71",
+          "arity": 7,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "6. Track C \u2014 Computer Science \u00d7 Economics: simulation and empirical estimation",
+          "nodes": [
+            "T2",
+            "Track C",
+            "data",
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[6. Track C \u2014 Computer Science \u00d7 Economics: simulation and empirical estimation]"
+          ]
+        },
+        {
+          "edge_id": "e54",
+          "arity": 6,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "D4. \"Learned closures are circular or unphysical\" (Track E)",
+          "nodes": [
+            "Track E",
+            "subcharacteristic structure",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[D4. \"Learned closures are circular or unphysical\" (Track E)]"
+          ]
+        },
+        {
+          "edge_id": "e115",
+          "arity": 5,
+          "doc": "poc/USAGE.md",
+          "section": "Ground a claim: which sections co-occur with my seed concepts?",
+          "nodes": [
+            "gravitation",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Ground a claim: which sections co-occur with my seed concepts?]"
+          ]
+        },
+        {
+          "edge_id": "e7",
+          "arity": 4,
+          "doc": "ret-tssi/findings.md",
+          "section": "7. Track C synthesis (computational/empirical)",
+          "nodes": [
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[7. Track C synthesis (computational/empirical)]"
+          ]
+        },
+        {
+          "edge_id": "e82",
+          "arity": 4,
+          "doc": "ret-tssi/research-log.md",
+          "section": "2026-08-16 \u2014 Commit + context preservation",
+          "nodes": [
+            "T3",
+            "tau_J",
+            "ret-tssi",
+            "[2026-08-16 \u2014 Commit + context preservation]"
+          ]
+        },
+        {
+          "edge_id": "e275",
+          "arity": 3,
+          "doc": "fulltext/https_openalex.org_W2102277728.md",
+          "section": "6.1. Master equation dynamics",
+          "nodes": [
+            "tau_J",
+            "fulltext",
+            "[6.1. Master equation dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e276",
+          "arity": 3,
+          "doc": "fulltext/https_openalex.org_W2102277728.md",
+          "section": "6.2. Entropy production",
+          "nodes": [
+            "tau_J",
+            "fulltext",
+            "[6.2. Entropy production]"
+          ]
+        },
+        {
+          "edge_id": "e288",
+          "arity": 3,
+          "doc": "fulltext/https_openalex.org_W2102277728.md",
+          "section": "9.4. Enzymes and molecular motors with discrete states",
+          "nodes": [
+            "tau_J",
+            "fulltext",
+            "[9.4. Enzymes and molecular motors with discrete states]"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tool": "knowledge_trace",
+    "content": {
+      "topic": "tau relaxation limit SK condition gravitation convergence",
+      "min_seeds": 2,
+      "seeds": [
+        {
+          "concept": "tau_J",
+          "matched_nodes": [
+            "tau_J"
+          ]
+        },
+        {
+          "concept": "SK condition",
+          "matched_nodes": [
+            "SK condition"
+          ]
+        },
+        {
+          "concept": "gravitation",
+          "matched_nodes": [
+            "gravitation",
+            "naive gravitation argument",
+            "vaonas gravitation econometrics gives adjacent estimates",
+            "[2.3 Gravitation dynamics]"
+          ]
+        }
+      ],
+      "hits": [
+        {
+          "edge_id": "e69",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "arity": 16,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "arity": 15,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e68",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "3. The core correspondence",
+          "arity": 13,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "simultaneist value theory",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[3. The core correspondence]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "arity": 13,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e5",
+          "doc": "ret-tssi/findings.md",
+          "section": "5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)",
+          "arity": 12,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)]"
+          ]
+        },
+        {
+          "edge_id": "e96",
+          "doc": "poc/REPORT.md",
+          "section": "The demo question",
+          "arity": 11,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[The demo question]"
+          ]
+        },
+        {
+          "edge_id": "e4",
+          "doc": "ret-tssi/findings.md",
+          "section": "4. The correspondence table",
+          "arity": 9,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track B",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[4. The correspondence table]"
+          ]
+        },
+        {
+          "edge_id": "e101",
+          "doc": "poc/REPORT.md",
+          "section": "Growth (rebuilt graph)",
+          "arity": 8,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Growth (rebuilt graph)]"
+          ]
+        },
+        {
+          "edge_id": "e115",
+          "doc": "poc/USAGE.md",
+          "section": "Ground a claim: which sections co-occur with my seed concepts?",
+          "arity": 5,
+          "seeds": [
+            "tau_J",
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "gravitation",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Ground a claim: which sections co-occur with my seed concepts?]"
+          ]
+        },
+        {
+          "edge_id": "e59",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "Consolidated amendments to `research-program.md`",
+          "arity": 22,
+          "seeds": [
+            "tau_J",
+            "gravitation"
+          ],
+          "nodes": [
+            "T3",
+            "Track B",
+            "Track E",
+            "Track F",
+            "ellis",
+            "gregor",
+            "miroslav",
+            "ping",
+            "roberto",
+            "shi",
+            "simon",
+            "grmela2015 (2015)",
+            "grmela2021 (2021)",
+            "jin-xin1995 (1995)",
+            "mohun-veneziani2017 (2017)",
+            "scharfenaker-semieniuk2017 (2017)",
+            "Cattaneo",
+            "gravitation",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[Consolidated amendments to `research-program.md`]"
+          ]
+        },
+        {
+          "edge_id": "e79",
+          "doc": "ret-tssi/research-log.md",
+          "section": "2026-08-16 \u2014 Git commit + critiques document",
+          "arity": 19,
+          "seeds": [
+            "tau_J",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track C",
+            "ellis",
+            "gregor",
+            "miroslav",
+            "ping",
+            "roberto",
+            "shi",
+            "simon",
+            "grmela-ottinger1997a (1997)",
+            "grmela2015 (2015)",
+            "grmela2018 (2018)",
+            "grmela2021 (2021)",
+            "jin-xin1995 (1995)",
+            "mohun-veneziani2017 (2017)",
+            "scharfenaker-semieniuk2017 (2017)",
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[2026-08-16 \u2014 Git commit + critiques document]"
+          ]
+        },
+        {
+          "edge_id": "e62",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "1. Overview",
+          "arity": 14,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "modern hyperbolic theory supply",
+            "simultaneist value theory",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[1. Overview]"
+          ]
+        },
+        {
+          "edge_id": "e31",
+          "doc": "ret-tssi/literature/steedman-1984.md",
+          "section": "Steedman (1984) \u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process",
+          "arity": 12,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "classical competitive process",
+            "cross-dual",
+            "cross-dual process slaves capital reallocation instantaneously",
+            "market prices adjust",
+            "naive gravitation argument",
+            "profit rates",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Steedman (1984) \u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process]"
+          ]
+        },
+        {
+          "edge_id": "e42",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "B2. \"Your closure is one of infinitely many \u2014 why this one?\" (underdetermination returns)",
+          "arity": 10,
+          "seeds": [
+            "tau_J",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track C",
+            "cattaneo closure",
+            "closure",
+            "closure becomes",
+            "closure identification",
+            "Cattaneo",
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[B2. \"Your closure is one of infinitely many \u2014 why this one?\" (underdetermination returns)]"
+          ]
+        },
+        {
+          "edge_id": "e19",
+          "doc": "ret-tssi/literature/flaschel-semmler-1987.md",
+          "section": "Flaschel & Semmler (1987) \u2014 Classical and Neoclassical Competitive Adjustment Processes",
+          "arity": 10,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track A",
+            "classical",
+            "input-output models",
+            "neoclassical competitive adjustment processes",
+            "profit rates",
+            "stable cross-dual adjustment process",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Flaschel & Semmler (1987) \u2014 Classical and Neoclassical Competitive Adjustment Processes]"
+          ]
+        },
+        {
+          "edge_id": "e30",
+          "doc": "ret-tssi/literature/stability-dissipative-hyperbolic.md",
+          "section": "Stability of Dissipative Hyperbolic Systems \u2014 Hanouzet\u2013Natalini (2003), Ruggeri\u2013Serre (2004), Bianchini\u2013Hanouzet\u2013Natalini (2007)",
+          "arity": 10,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "constant equilibrium state",
+            "constant equilibrium state exist globally",
+            "dissipative balance laws system",
+            "entropy-dissipative hyperbolic balance laws",
+            "partially dissipative hyperbolic systems",
+            "systems",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Stability of Dissipative Hyperbolic Systems \u2014 Hanouzet\u2013Natalini (2003), Ruggeri\u2013Serre (2004), Bianchini\u2013Hanouzet\u2013Natalini (2007)]"
+          ]
+        },
+        {
+          "edge_id": "e37",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A3. \"Unobservable parameters, unparsimonious\"",
+          "arity": 9,
+          "seeds": [
+            "tau_J",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track C",
+            "model adds parameters",
+            "models testable content",
+            "vaonas gravitation econometrics gives adjacent estimates",
+            "gravitation",
+            "simultaneism",
+            "tau_J",
+            "ret-tssi",
+            "[A3. \"Unobservable parameters, unparsimonious\"]"
+          ]
+        },
+        {
+          "edge_id": "e14",
+          "doc": "ret-tssi/literature/cockshott-2016.md",
+          "section": "Cockshott (2016) \u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence",
+          "arity": 9,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "Track C",
+            "marxian reproduction prices versus prices",
+            "prices",
+            "programs sk-type coupling condition promises",
+            "third price theory implicit",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Cockshott (2016) \u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence]"
+          ]
+        },
+        {
+          "edge_id": "e17",
+          "doc": "ret-tssi/literature/dumenil-levy-1987.md",
+          "section": "Dum\u00e9nil & L\u00e9vy (1987) \u2014 The Dynamics of Competition: A Restoration of the Classical Analysis",
+          "arity": 9,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "classical equilibrium manifold",
+            "classical long-term equilibrium",
+            "established low-dimensional models",
+            "models already treat adjustment",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "ret-tssi",
+            "[Dum\u00e9nil & L\u00e9vy (1987) \u2014 The Dynamics of Competition: A Restoration of the Classical Analysis]"
+          ]
+        },
+        {
+          "edge_id": "e72",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics",
+          "arity": 9,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "Track A",
+            "axiomatic theory",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e65",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "2.3 Gravitation dynamics",
+          "arity": 8,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "market prices",
+            "prices",
+            "profit-rate differentials drive capital reallocation",
+            "Cattaneo",
+            "Fourier",
+            "SK condition",
+            "ret-tssi",
+            "[2.3 Gravitation dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e71",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "6. Track C \u2014 Computer Science \u00d7 Economics: simulation and empirical estimation",
+          "arity": 7,
+          "seeds": [
+            "tau_J",
+            "gravitation"
+          ],
+          "nodes": [
+            "T2",
+            "Track C",
+            "data",
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[6. Track C \u2014 Computer Science \u00d7 Economics: simulation and empirical estimation]"
+          ]
+        },
+        {
+          "edge_id": "e35",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A1. \"Physics envy \u2014 this is a metaphor, not a model\"",
+          "arity": 7,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[A1. \"Physics envy \u2014 this is a metaphor, not a model\"]"
+          ]
+        },
+        {
+          "edge_id": "e83",
+          "doc": "ret-tssi/research-log.md",
+          "section": "2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring",
+          "arity": 7,
+          "seeds": [
+            "SK condition",
+            "gravitation"
+          ],
+          "nodes": [
+            "driven non-equilibrium steady state",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring]"
+          ]
+        },
+        {
+          "edge_id": "e7",
+          "doc": "ret-tssi/findings.md",
+          "section": "7. Track C synthesis (computational/empirical)",
+          "arity": 4,
+          "seeds": [
+            "tau_J",
+            "gravitation"
+          ],
+          "nodes": [
+            "gravitation",
+            "tau_J",
+            "ret-tssi",
+            "[7. Track C synthesis (computational/empirical)]"
+          ]
+        }
+      ],
+      "distinct_sections": 25
+    }
+  },
+  {
+    "tool": "knowledge_trace_report",
+    "content": "\"# Evidence trace \\u2014 tau relaxation limit SK condition gravitation convergence\\n\\nSeed concepts (3; min seeds per edge = 3):\\n- `SK condition` -> SK condition\\n- `tau_J` -> tau_J\\n- `subcharacteristic` -> subcharacteristic, subcharacteristic structure\\n\\nIntersecting hyperedges (4; across 4 sections):\\n\\n### ret-tssi/program/research-program.md :: 4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system\\n- [16 members; seeds: SK condition, tau_J, subcharacteristic]\\n    T1, T2, T3, T4, Track C, Track D, simultaneous-closure dynamics whose rest point, Cattaneo, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, ret-tssi, [4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system]\\n\\n### poc/REPORT.md :: Results\\n- [15 members; seeds: SK condition, tau_J, subcharacteristic]\\n    T1, T3, T4, Track A, Track B, Track C, Cattaneo, Fourier, gravitation, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Results]\\n\\n### poc/REPORT.md :: Method\\n- [13 members; seeds: SK condition, tau_J, subcharacteristic]\\n    T1, T4, Track A, Cattaneo, Fourier, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Method]\\n\\n### poc/REPORT.md :: The demo question\\n- [11 members; seeds: SK condition, tau_J, subcharacteristic]\\n    T1, T3, T4, Track A, Cattaneo, gravitation, SK condition, subcharacteristic, tau_J, poc, [The demo question]\\n\"\n"
+  },
+  {
+    "tool": "knowledge_query",
+    "content": {
+      "concept": "subcharacteristic",
+      "matched_nodes": [
+        {
+          "node_id": "notation:subcharacteristic",
+          "label": "subcharacteristic",
+          "kind": "notation"
+        },
+        {
+          "node_id": "keyword:subcharacteristic structure",
+          "label": "subcharacteristic structure",
+          "kind": "keyword"
+        }
+      ],
+      "total_edges": 14,
+      "edges": [
+        {
+          "edge_id": "e59",
+          "arity": 22,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "Consolidated amendments to `research-program.md`",
+          "nodes": [
+            "T3",
+            "Track B",
+            "Track E",
+            "Track F",
+            "ellis",
+            "gregor",
+            "miroslav",
+            "ping",
+            "roberto",
+            "shi",
+            "simon",
+            "grmela2015 (2015)",
+            "grmela2021 (2021)",
+            "jin-xin1995 (1995)",
+            "mohun-veneziani2017 (2017)",
+            "scharfenaker-semieniuk2017 (2017)",
+            "Cattaneo",
+            "gravitation",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[Consolidated amendments to `research-program.md`]"
+          ]
+        },
+        {
+          "edge_id": "e69",
+          "arity": 16,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "arity": 15,
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "arity": 13,
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e73",
+          "arity": 11,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics",
+          "nodes": [
+            "T2",
+            "T3",
+            "Track A",
+            "Track C",
+            "numerical methods",
+            "Cattaneo",
+            "simultaneism",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e96",
+          "arity": 11,
+          "doc": "poc/REPORT.md",
+          "section": "The demo question",
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[The demo question]"
+          ]
+        },
+        {
+          "edge_id": "e29",
+          "arity": 10,
+          "doc": "ret-tssi/literature/ruggeri-strumia-1981.md",
+          "section": "Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density",
+          "nodes": [
+            "convex covariant density",
+            "convex entropy",
+            "convex entropy extension",
+            "convex extension",
+            "entropy density concave",
+            "first-order quasi-linear system",
+            "value-price system",
+            "subcharacteristic",
+            "ret-tssi",
+            "[Ruggeri & Strumia (1981) \u2014 Main Field and Convex Covariant Density]"
+          ]
+        },
+        {
+          "edge_id": "e13",
+          "arity": 9,
+          "doc": "ret-tssi/literature/chen-levermore-liu-1994.md",
+          "section": "Chen, Levermore & Liu (1994) \u2014 Hyperbolic Conservation Laws with Stiff Relaxation and Entropy",
+          "nodes": [
+            "full systems speeds",
+            "hyperbolic conservation laws",
+            "stiff relaxation",
+            "stiff relaxation source terms",
+            "stiff relaxation terms",
+            "simultaneism",
+            "subcharacteristic",
+            "ret-tssi",
+            "[Chen, Levermore & Liu (1994) \u2014 Hyperbolic Conservation Laws with Stiff Relaxation and Entropy]"
+          ]
+        },
+        {
+          "edge_id": "e72",
+          "arity": 9,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics",
+          "nodes": [
+            "T3",
+            "T4",
+            "Track A",
+            "axiomatic theory",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e39",
+          "arity": 7,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A5. \"The relaxation limit vindicates simultaneism\"",
+          "nodes": [
+            "T3",
+            "limit",
+            "temporal profit rates diverge systematically",
+            "simultaneism",
+            "subcharacteristic",
+            "ret-tssi",
+            "[A5. \"The relaxation limit vindicates simultaneism\"]"
+          ]
+        },
+        {
+          "edge_id": "e64",
+          "arity": 7,
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "2.2 Rational extended thermodynamics",
+          "nodes": [
+            "concave entropy density",
+            "convex entropy extension renders",
+            "entropy principle",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[2.2 Rational extended thermodynamics]"
+          ]
+        },
+        {
+          "edge_id": "e54",
+          "arity": 6,
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "D4. \"Learned closures are circular or unphysical\" (Track E)",
+          "nodes": [
+            "Track E",
+            "subcharacteristic structure",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[D4. \"Learned closures are circular or unphysical\" (Track E)]"
+          ]
+        },
+        {
+          "edge_id": "e2",
+          "arity": 5,
+          "doc": "ret-tssi/findings.md",
+          "section": "2. The thermodynamic pole (what we borrow)",
+          "nodes": [
+            "entropy principle",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[2. The thermodynamic pole (what we borrow)]"
+          ]
+        },
+        {
+          "edge_id": "e331",
+          "arity": 5,
+          "doc": "fulltext/https_openalex.org_W2747676085.md",
+          "section": "B. Characteristic velocity, sub-characteristic conditions, and local exceptionality",
+          "nodes": [
+            "formula-not-decoded",
+            "specific heat defined",
+            "subcharacteristic",
+            "fulltext",
+            "[B. Characteristic velocity, sub-characteristic conditions, and local exceptionality]"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "tool": "knowledge_trace",
+    "content": {
+      "topic": "relaxation limit simultaneism profit rates",
+      "min_seeds": 1,
+      "seeds": [
+        {
+          "concept": "limit",
+          "matched_nodes": [
+            "[A5. \"The relaxation limit vindicates simultaneism\"]",
+            "limit",
+            "[C3. The singular limit is only locally valid in time]",
+            "[2.4. The Semi-Classical Limit and Berry's Conjecture]",
+            "long-time limit since entropy production"
+          ]
+        },
+        {
+          "concept": "temporal profit rates diverge systematically",
+          "matched_nodes": [
+            "temporal profit rates diverge systematically"
+          ]
+        },
+        {
+          "concept": "simultaneism",
+          "matched_nodes": [
+            "simultaneism",
+            "[A5. \"The relaxation limit vindicates simultaneism\"]"
+          ]
+        }
+      ],
+      "hits": [
+        {
+          "edge_id": "e39",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A5. \"The relaxation limit vindicates simultaneism\"",
+          "arity": 7,
+          "seeds": [
+            "limit",
+            "temporal profit rates diverge systematically",
+            "simultaneism"
+          ],
+          "nodes": [
+            "T3",
+            "limit",
+            "temporal profit rates diverge systematically",
+            "simultaneism",
+            "subcharacteristic",
+            "ret-tssi",
+            "[A5. \"The relaxation limit vindicates simultaneism\"]"
+          ]
+        },
+        {
+          "edge_id": "e47",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "C3. The singular limit is only locally valid in time",
+          "arity": 6,
+          "seeds": [
+            "limit",
+            "simultaneism"
+          ],
+          "nodes": [
+            "T3",
+            "initial layer",
+            "initial layers",
+            "simultaneism",
+            "ret-tssi",
+            "[C3. The singular limit is only locally valid in time]"
+          ]
+        },
+        {
+          "edge_id": "e69",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "arity": 16,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "arity": 15,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e62",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "1. Overview",
+          "arity": 14,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "modern hyperbolic theory supply",
+            "simultaneist value theory",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[1. Overview]"
+          ]
+        },
+        {
+          "edge_id": "e68",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "3. The core correspondence",
+          "arity": 13,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "simultaneist value theory",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[3. The core correspondence]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "arity": 13,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e25",
+          "doc": "ret-tssi/literature/mohun-veneziani-2009.md",
+          "section": "Mohun & Veneziani (2009) \u2014 The Temporal Single-System Interpretation: Underdetermination and Inconsistency",
+          "arity": 11,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "capital fluxes",
+            "kliman",
+            "tssi",
+            "tssi equations",
+            "underdetermination",
+            "underdetermination charge",
+            "Cattaneo",
+            "MELT",
+            "simultaneism",
+            "ret-tssi",
+            "[Mohun & Veneziani (2009) \u2014 The Temporal Single-System Interpretation: Underdetermination and Inconsistency]"
+          ]
+        },
+        {
+          "edge_id": "e73",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics",
+          "arity": 11,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "T2",
+            "T3",
+            "Track A",
+            "Track C",
+            "numerical methods",
+            "Cattaneo",
+            "simultaneism",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[8. Track E \u2014 Physics \u00d7 Computer Science: computational thermodynamics of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e10",
+          "doc": "ret-tssi/literature/bortkiewicz-sraffa-dual-system.md",
+          "section": "Bortkiewicz\u2013Sraffa Tradition \u2014 The Simultaneous Dual-System Benchmark",
+          "arity": 10,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "von",
+            "bortkiewicz1907 (1907)",
+            "algebraic system",
+            "input prices equal output prices",
+            "marxs fundamental theoretical construction",
+            "simultaneous system",
+            "gravitation",
+            "simultaneism",
+            "ret-tssi",
+            "[Bortkiewicz\u2013Sraffa Tradition \u2014 The Simultaneous Dual-System Benchmark]"
+          ]
+        },
+        {
+          "edge_id": "e4",
+          "doc": "ret-tssi/findings.md",
+          "section": "4. The correspondence table",
+          "arity": 9,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "Track B",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[4. The correspondence table]"
+          ]
+        },
+        {
+          "edge_id": "e13",
+          "doc": "ret-tssi/literature/chen-levermore-liu-1994.md",
+          "section": "Chen, Levermore & Liu (1994) \u2014 Hyperbolic Conservation Laws with Stiff Relaxation and Entropy",
+          "arity": 9,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "full systems speeds",
+            "hyperbolic conservation laws",
+            "stiff relaxation",
+            "stiff relaxation source terms",
+            "stiff relaxation terms",
+            "simultaneism",
+            "subcharacteristic",
+            "ret-tssi",
+            "[Chen, Levermore & Liu (1994) \u2014 Hyperbolic Conservation Laws with Stiff Relaxation and Entropy]"
+          ]
+        },
+        {
+          "edge_id": "e37",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A3. \"Unobservable parameters, unparsimonious\"",
+          "arity": 9,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "Track C",
+            "model adds parameters",
+            "models testable content",
+            "vaonas gravitation econometrics gives adjacent estimates",
+            "gravitation",
+            "simultaneism",
+            "tau_J",
+            "ret-tssi",
+            "[A3. \"Unobservable parameters, unparsimonious\"]"
+          ]
+        },
+        {
+          "edge_id": "e263",
+          "doc": "fulltext/https_openalex.org_W2102277728.md",
+          "section": "3.3. FTs for entropy production",
+          "arity": 8,
+          "seeds": [
+            "limit"
+          ],
+          "nodes": [
+            "called entropy production",
+            "ensemble entropy change",
+            "entropy change",
+            "long-time limit since entropy production",
+            "total entropy production",
+            "total entropy production obeys",
+            "fulltext",
+            "[3.3. FTs for entropy production]"
+          ]
+        },
+        {
+          "edge_id": "e38",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A4. \"You're solving a non-problem\"",
+          "arity": 8,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "interpretive question",
+            "program defends tssi",
+            "tssi",
+            "simultaneism",
+            "ret-tssi",
+            "[A4. \"You're solving a non-problem\"]"
+          ]
+        },
+        {
+          "edge_id": "e101",
+          "doc": "poc/REPORT.md",
+          "section": "Growth (rebuilt graph)",
+          "arity": 8,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Growth (rebuilt graph)]"
+          ]
+        },
+        {
+          "edge_id": "e35",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A1. \"Physics envy \u2014 this is a metaphor, not a model\"",
+          "arity": 7,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[A1. \"Physics envy \u2014 this is a metaphor, not a model\"]"
+          ]
+        },
+        {
+          "edge_id": "e83",
+          "doc": "ret-tssi/research-log.md",
+          "section": "2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring",
+          "arity": 7,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "driven non-equilibrium steady state",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "ret-tssi",
+            "[2026-08-16 \u2014 Proposal walkthrough + AGENTS.md wiring]"
+          ]
+        },
+        {
+          "edge_id": "e3",
+          "doc": "ret-tssi/findings.md",
+          "section": "3. The economic pole (what we reformulate)",
+          "arity": 6,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "ret-tssi",
+            "[3. The economic pole (what we reformulate)]"
+          ]
+        },
+        {
+          "edge_id": "e162",
+          "doc": "fulltext/https_openalex.org_W1919133474.md",
+          "section": "2.4. The Semi-Classical Limit and Berry's Conjecture",
+          "arity": 5,
+          "seeds": [
+            "limit"
+          ],
+          "nodes": [
+            "momentum phase-space variables one",
+            "slightly modified conjecture one",
+            "Fourier",
+            "fulltext",
+            "[2.4. The Semi-Classical Limit and Berry's Conjecture]"
+          ]
+        },
+        {
+          "edge_id": "e26",
+          "doc": "ret-tssi/literature/muller-ruggeri-1998.md",
+          "section": "M\u00fcller & Ruggeri (1998) \u2014 Rational Extended Thermodynamics (2nd ed.)",
+          "arity": 5,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "rational extended thermodynamics",
+            "Fourier",
+            "simultaneism",
+            "ret-tssi",
+            "[M\u00fcller & Ruggeri (1998) \u2014 Rational Extended Thermodynamics (2nd ed.)]"
+          ]
+        },
+        {
+          "edge_id": "e40",
+          "doc": "ret-tssi/program/critiques.md",
+          "section": "A6. \"Stability theorems reintroduce equilibrium by the back door\"",
+          "arity": 5,
+          "seeds": [
+            "simultaneism"
+          ],
+          "nodes": [
+            "program",
+            "program doc",
+            "simultaneism",
+            "ret-tssi",
+            "[A6. \"Stability theorems reintroduce equilibrium by the back door\"]"
+          ]
+        }
+      ],
+      "distinct_sections": 22
+    }
+  },
+  {
+    "tool": "knowledge_trace_report",
+    "content": "\"# Evidence trace \\u2014 tau relaxation limit SK condition gravitation convergence\\n\\nSeed concepts (3; min seeds per edge = 2):\\n- `tau_J` -> tau_J\\n- `SK condition` -> SK condition\\n- `gravitation` -> gravitation, naive gravitation argument, vaonas gravitation econometrics gives adjacent estimates, [2.3 Gravitation dynamics]\\n\\nIntersecting hyperedges (25; across 25 sections):\\n\\n### ret-tssi/program/research-program.md :: 4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system\\n- [16 members; seeds: tau_J, SK condition, gravitation]\\n    T1, T2, T3, T4, Track C, Track D, simultaneous-closure dynamics whose rest point, Cattaneo, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, ret-tssi, [4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system]\\n\\n### poc/REPORT.md :: Results\\n- [15 members; seeds: tau_J, SK condition, gravitation]\\n    T1, T3, T4, Track A, Track B, Track C, Cattaneo, Fourier, gravitation, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Results]\\n\\n### ret-tssi/program/research-program.md :: 3. The core correspondence\\n- [13 members; seeds: tau_J, SK condition, gravitation]\\n    Track A, Track B, Track C, Track D, Track E, Track F, simultaneist value theory, gravitation, simultaneism, SK condition, tau_J, ret-tssi, [3. The core correspondence]\\n\\n### poc/REPORT.md :: Method\\n- [13 members; seeds: tau_J, SK condition, gravitation]\\n    T1, T4, Track A, Cattaneo, Fourier, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Method]\\n\\n### ret-tssi/findings.md :: 5. Model skeleton (Track A, Phase 1 \\u2014 candidate Master's problem)\\n- [12 members; seeds: tau_J, SK condition, gravitation]\\n    T1, T2, T3, T4, Cattaneo, Fourier, gravitation, MELT, SK condition, tau_J, ret-tssi, [5. Model skeleton (Track A, Phase 1 \\u2014 candidate Master's problem)]\\n\\n### poc/REPORT.md :: The demo question\\n- [11 members; seeds: tau_J, SK condition, gravitation]\\n    T1, T3, T4, Track A, Cattaneo, gravitation, SK condition, subcharacteristic, tau_J, poc, [The demo question]\\n\\n### ret-tssi/findings.md :: 4. The correspondence table\\n- [9 members; seeds: tau_J, SK condition, gravitation]\\n    Track B, Cattaneo, Fourier, gravitation, simultaneism, SK condition, tau_J, ret-tssi, [4. The correspondence table]\\n\\n### poc/REPORT.md :: Growth (rebuilt graph)\\n- [8 members; seeds: tau_J, SK condition, gravitation]\\n    Track A, Cattaneo, gravitation, simultaneism, SK condition, tau_J, poc, [Growth (rebuilt graph)]\\n\\n### poc/USAGE.md :: Ground a claim: which sections co-occur with my seed concepts?\\n- [5 members; seeds: tau_J, SK condition, gravitation]\\n    gravitation, SK condition, tau_J, poc, [Ground a claim: which sections co-occur with my seed concepts?]\\n\\n### ret-tssi/program/critiques.md :: Consolidated amendments to `research-program.md`\\n- [22 members; seeds: tau_J, gravitation]\\n    T3, Track B, Track E, Track F, ellis, gregor, miroslav, ping, roberto, shi, simon, grmela2015 (2015), grmela2021 (2021), jin-xin1995 (1995), mohun-veneziani2017 (2017), scharfenaker-semieniuk2017 (2017), Cattaneo, gravitation, subcharacteristic, tau_J, ret-tssi, [Consolidated amendments to `research-program.md`]\\n\\n### ret-tssi/research-log.md :: 2026-08-16 \\u2014 Git commit + critiques document\\n- [19 members; seeds: tau_J, gravitation]\\n    Track C, ellis, gregor, miroslav, ping, roberto, shi, simon, grmela-ottinger1997a (1997), grmela2015 (2015), grmela2018 (2018), grmela2021 (2021), jin-xin1995 (1995), mohun-veneziani2017 (2017), scharfenaker-semieniuk2017 (2017), gravitation, tau_J, ret-tssi, [2026-08-16 \\u2014 Git commit + critiques document]\\n\\n### ret-tssi/program/research-program.md :: 1. Overview\\n- [14 members; seeds: SK condition, gravitation]\\n    Track A, Track B, Track C, Track D, Track E, Track F, modern hyperbolic theory supply, simultaneist value theory, Cattaneo, gravitation, simultaneism, SK condition, ret-tssi, [1. Overview]\\n\\n### ret-tssi/literature/steedman-1984.md :: Steedman (1984) \\u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process\\n- [12 members; seeds: SK condition, gravitation]\\n    classical competitive process, cross-dual, cross-dual process slaves capital reallocation instantaneously, market prices adjust, naive gravitation argument, profit rates, Cattaneo, Fourier, gravitation, SK condition, ret-tssi, [Steedman (1984) \\u2014 Natural Prices, Differential Profit Rates and the Classical Competitive Process]\\n\\n### ret-tssi/program/critiques.md :: B2. \\\"Your closure is one of infinitely many \\u2014 why this one?\\\" (underdetermination returns)\\n- [10 members; seeds: tau_J, gravitation]\\n    Track C, cattaneo closure, closure, closure becomes, closure identification, Cattaneo, gravitation, tau_J, ret-tssi, [B2. \\\"Your closure is one of infinitely many \\u2014 why this one?\\\" (underdetermination returns)]\\n\\n### ret-tssi/literature/flaschel-semmler-1987.md :: Flaschel & Semmler (1987) \\u2014 Classical and Neoclassical Competitive Adjustment Processes\\n- [10 members; seeds: SK condition, gravitation]\\n    Track A, classical, input-output models, neoclassical competitive adjustment processes, profit rates, stable cross-dual adjustment process, gravitation, SK condition, ret-tssi, [Flaschel & Semmler (1987) \\u2014 Classical and Neoclassical Competitive Adjustment Processes]\\n\\n### ret-tssi/literature/stability-dissipative-hyperbolic.md :: Stability of Dissipative Hyperbolic Systems \\u2014 Hanouzet\\u2013Natalini (2003), Ruggeri\\u2013Serre (2004), Bianchini\\u2013Hanouzet\\u2013Natalini (2007)\\n- [10 members; seeds: SK condition, gravitation]\\n    constant equilibrium state, constant equilibrium state exist globally, dissipative balance laws system, entropy-dissipative hyperbolic balance laws, partially dissipative hyperbolic systems, systems, gravitation, SK condition, ret-tssi, [Stability of Dissipative Hyperbolic Systems \\u2014 Hanouzet\\u2013Natalini (2003), Ruggeri\\u2013Serre (2004), Bianchini\\u2013Hanouzet\\u2013Natalini (2007)]\\n\\n### ret-tssi/program/critiques.md :: A3. \\\"Unobservable parameters, unparsimonious\\\"\\n- [9 members; seeds: tau_J, gravitation]\\n    Track C, model adds parameters, models testable content, vaonas gravitation econometrics gives adjacent estimates, gravitation, simultaneism, tau_J, ret-tssi, [A3. \\\"Unobservable parameters, unparsimonious\\\"]\\n\\n### ret-tssi/literature/cockshott-2016.md :: Cockshott (2016) \\u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence\\n- [9 members; seeds: SK condition, gravitation]\\n    Track C, marxian reproduction prices versus prices, prices, programs sk-type coupling condition promises, third price theory implicit, gravitation, SK condition, ret-tssi, [Cockshott (2016) \\u2014 Marxian Reproduction Prices Versus Prices of Production: Probability and Convergence]\\n\\n### ret-tssi/literature/dumenil-levy-1987.md :: Dum\\u00e9nil & L\\u00e9vy (1987) \\u2014 The Dynamics of Competition: A Restoration of the Classical Analysis\\n- [9 members; seeds: SK condition, gravitation]\\n    classical equilibrium manifold, classical long-term equilibrium, established low-dimensional models, models already treat adjustment, Cattaneo, gravitation, SK condition, ret-tssi, [Dum\\u00e9nil & L\\u00e9vy (1987) \\u2014 The Dynamics of Competition: A Restoration of the Classical Analysis]\\n\\n### ret-tssi/program/research-program.md :: 7. Track D \\u2014 Mathematics \\u00d7 Economics: the formal theory of value-price dynamics\\n- [9 members; seeds: SK condition, gravitation]\\n    T3, T4, Track A, axiomatic theory, gravitation, SK condition, subcharacteristic, ret-tssi, [7. Track D \\u2014 Mathematics \\u00d7 Economics: the formal theory of value-price dynamics]\\n\\n### ret-tssi/program/research-program.md :: 2.3 Gravitation dynamics\\n- [8 members; seeds: SK condition, gravitation]\\n    market prices, prices, profit-rate differentials drive capital reallocation, Cattaneo, Fourier, SK condition, ret-tssi, [2.3 Gravitation dynamics]\\n\\n### ret-tssi/program/research-program.md :: 6. Track C \\u2014 Computer Science \\u00d7 Economics: simulation and empirical estimation\\n- [7 members; seeds: tau_J, gravitation]\\n    T2, Track C, data, gravitation, tau_J, ret-tssi, [6. Track C \\u2014 Computer Science \\u00d7 Economics: simulation and empirical estimation]\\n\\n### ret-tssi/program/critiques.md :: A1. \\\"Physics envy \\u2014 this is a metaphor, not a model\\\"\\n- [7 members; seeds: SK condition, gravitation]\\n    T3, T4, gravitation, simultaneism, SK condition, ret-tssi, [A1. \\\"Physics envy \\u2014 this is a metaphor, not a model\\\"]\\n\\n### ret-tssi/research-log.md :: 2026-08-16 \\u2014 Proposal walkthrough + AGENTS.md wiring\\n- [7 members; seeds: SK condition, gravitation]\\n    driven non-equilibrium steady state, Cattaneo, gravitation, simultaneism, SK condition, ret-tssi, [2026-08-16 \\u2014 Proposal walkthrough + AGENTS.md wiring]\\n\\n### ret-tssi/findings.md :: 7. Track C synthesis (computational/empirical)\\n- [4 members; seeds: tau_J, gravitation]\\n    gravitation, tau_J, ret-tssi, [7. Track C synthesis (computational/empirical)]\\n\"\n"
+  },
+  {
+    "tool": "knowledge_trace",
+    "content": {
+      "topic": "tau_J relaxation limit SK condition",
+      "min_seeds": 2,
+      "seeds": [
+        {
+          "concept": "tau_J",
+          "matched_nodes": [
+            "tau_J"
+          ]
+        },
+        {
+          "concept": "SK condition",
+          "matched_nodes": [
+            "SK condition"
+          ]
+        }
+      ],
+      "hits": [
+        {
+          "edge_id": "e69",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "arity": 16,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "arity": 15,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e68",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "3. The core correspondence",
+          "arity": 13,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "Track B",
+            "Track C",
+            "Track D",
+            "Track E",
+            "Track F",
+            "simultaneist value theory",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[3. The core correspondence]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "arity": 13,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e5",
+          "doc": "ret-tssi/findings.md",
+          "section": "5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)",
+          "arity": 12,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[5. Model skeleton (Track A, Phase 1 \u2014 candidate Master's problem)]"
+          ]
+        },
+        {
+          "edge_id": "e96",
+          "doc": "poc/REPORT.md",
+          "section": "The demo question",
+          "arity": 11,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[The demo question]"
+          ]
+        },
+        {
+          "edge_id": "e4",
+          "doc": "ret-tssi/findings.md",
+          "section": "4. The correspondence table",
+          "arity": 9,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "Track B",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "ret-tssi",
+            "[4. The correspondence table]"
+          ]
+        },
+        {
+          "edge_id": "e101",
+          "doc": "poc/REPORT.md",
+          "section": "Growth (rebuilt graph)",
+          "arity": 8,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Growth (rebuilt graph)]"
+          ]
+        },
+        {
+          "edge_id": "e115",
+          "doc": "poc/USAGE.md",
+          "section": "Ground a claim: which sections co-occur with my seed concepts?",
+          "arity": 5,
+          "seeds": [
+            "tau_J",
+            "SK condition"
+          ],
+          "nodes": [
+            "gravitation",
+            "SK condition",
+            "tau_J",
+            "poc",
+            "[Ground a claim: which sections co-occur with my seed concepts?]"
+          ]
+        }
+      ],
+      "distinct_sections": 9
+    }
+  },
+  {
+    "tool": "knowledge_evidence",
+    "content": "\"## Query: SK condition\\n\\nMatched concepts (1):\\n- SK condition [notation]\\n\\nHyperedges (5):\\n- [16 members] ret-tssi/program/research-program.md :: 4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system\\n    T1, T2, T3, T4, Track C, Track D, simultaneous-closure dynamics whose rest point, Cattaneo, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, ret-tssi, [4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system]\\n- [15 members] poc/REPORT.md :: Results\\n    T1, T3, T4, Track A, Track B, Track C, Cattaneo, Fourier, gravitation, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Results]\\n- [14 members] ret-tssi/program/research-program.md :: 1. Overview\\n    Track A, Track B, Track C, Track D, Track E, Track F, modern hyperbolic theory supply, simultaneist value theory, Cattaneo, gravitation, simultaneism, SK condition, ret-tssi, [1. Overview]\\n- [13 members] ret-tssi/program/research-program.md :: 3. The core correspondence\\n    Track A, Track B, Track C, Track D, Track E, Track F, simultaneist value theory, gravitation, simultaneism, SK condition, tau_J, ret-tssi, [3. The core correspondence]\\n- [13 members] poc/REPORT.md :: Method\\n    T1, T4, Track A, Cattaneo, Fourier, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Method]\"\n"
+  },
+  {
+    "tool": "knowledge_evidence",
+    "content": "\"## Query: tau_J\\n\\nMatched concepts (1):\\n- tau_J [notation]\\n\\nHyperedges (5):\\n- [22 members] ret-tssi/program/critiques.md :: Consolidated amendments to `research-program.md`\\n    T3, Track B, Track E, Track F, ellis, gregor, miroslav, ping, roberto, shi, simon, grmela2015 (2015), grmela2021 (2021), jin-xin1995 (1995), mohun-veneziani2017 (2017), scharfenaker-semieniuk2017 (2017), Cattaneo, gravitation, subcharacteristic, tau_J, ret-tssi, [Consolidated amendments to `research-program.md`]\\n- [19 members] ret-tssi/research-log.md :: 2026-08-16 \\u2014 Git commit + critiques document\\n    Track C, ellis, gregor, miroslav, ping, roberto, shi, simon, grmela-ottinger1997a (1997), grmela2015 (2015), grmela2018 (2018), grmela2021 (2021), jin-xin1995 (1995), mohun-veneziani2017 (2017), scharfenaker-semieniuk2017 (2017), gravitation, tau_J, ret-tssi, [2026-08-16 \\u2014 Git commit + critiques document]\\n- [16 members] ret-tssi/program/research-program.md :: 4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system\\n    T1, T2, T3, T4, Track C, Track D, simultaneous-closure dynamics whose rest point, Cattaneo, gravitation, MELT, simultaneism, SK condition, subcharacteristic, tau_J, ret-tssi, [4. Track A \\u2014 Physics \\u00d7 Economics: the hyperbolic value-price system]\\n- [15 members] poc/REPORT.md :: Results\\n    T1, T3, T4, Track A, Track B, Track C, Cattaneo, Fourier, gravitation, simultaneism, SK condition, subcharacteristic, tau_J, poc, [Results]\\n- [13 members] ret-tssi/program/research-program.md :: 3. The core correspondence\\n    Track A, Track B, Track C, Track D, Track E, Track F, simultaneist value theory, gravitation, simultaneism, SK condition, tau_J, ret-tssi, [3. The core correspondence]\"\n"
+  },
+  {
+    "tool": "knowledge_trace",
+    "content": {
+      "topic": "SK condition subcharacteristic relaxation limit",
+      "min_seeds": 2,
+      "seeds": [
+        {
+          "concept": "SK condition",
+          "matched_nodes": [
+            "SK condition"
+          ]
+        },
+        {
+          "concept": "subcharacteristic",
+          "matched_nodes": [
+            "subcharacteristic",
+            "subcharacteristic structure"
+          ]
+        }
+      ],
+      "hits": [
+        {
+          "edge_id": "e69",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system",
+          "arity": 16,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "T1",
+            "T2",
+            "T3",
+            "T4",
+            "Track C",
+            "Track D",
+            "simultaneous-closure dynamics whose rest point",
+            "Cattaneo",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "ret-tssi",
+            "[4. Track A \u2014 Physics \u00d7 Economics: the hyperbolic value-price system]"
+          ]
+        },
+        {
+          "edge_id": "e87",
+          "doc": "poc/REPORT.md",
+          "section": "Results",
+          "arity": 15,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Track B",
+            "Track C",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Results]"
+          ]
+        },
+        {
+          "edge_id": "e85",
+          "doc": "poc/REPORT.md",
+          "section": "Method",
+          "arity": 13,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "T1",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "Fourier",
+            "gravitation",
+            "MELT",
+            "simultaneism",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[Method]"
+          ]
+        },
+        {
+          "edge_id": "e96",
+          "doc": "poc/REPORT.md",
+          "section": "The demo question",
+          "arity": 11,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "T1",
+            "T3",
+            "T4",
+            "Track A",
+            "Cattaneo",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "tau_J",
+            "poc",
+            "[The demo question]"
+          ]
+        },
+        {
+          "edge_id": "e72",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics",
+          "arity": 9,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "T3",
+            "T4",
+            "Track A",
+            "axiomatic theory",
+            "gravitation",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[7. Track D \u2014 Mathematics \u00d7 Economics: the formal theory of value-price dynamics]"
+          ]
+        },
+        {
+          "edge_id": "e64",
+          "doc": "ret-tssi/program/research-program.md",
+          "section": "2.2 Rational extended thermodynamics",
+          "arity": 7,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "concave entropy density",
+            "convex entropy extension renders",
+            "entropy principle",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[2.2 Rational extended thermodynamics]"
+          ]
+        },
+        {
+          "edge_id": "e2",
+          "doc": "ret-tssi/findings.md",
+          "section": "2. The thermodynamic pole (what we borrow)",
+          "arity": 5,
+          "seeds": [
+            "SK condition",
+            "subcharacteristic"
+          ],
+          "nodes": [
+            "entropy principle",
+            "SK condition",
+            "subcharacteristic",
+            "ret-tssi",
+            "[2. The thermodynamic pole (what we borrow)]"
+          ]
+        }
+      ],
+      "distinct_sections": 7
+    }
+  },
+  {
+    "tool": "final_result",
+    "content": "Final result processed."
+  }
+]

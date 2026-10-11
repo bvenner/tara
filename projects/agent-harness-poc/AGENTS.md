@@ -58,10 +58,65 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   free = 20 req/day (resets midnight Pacific), Anthropic $5 — **open
   decision**. Tests: `tests/test_m2_units.py` (parser, section resolution,
   doc-path) — 9 passed total; smoke green.
-- M2 infra notes: judge/task ratelimit — flash-lite RPD also saturates
-  quickly when running repeat evals; `report.print()` API; EvaluatorContext
-  has `name` (not `case.name`); judge must be async inside pydantic-evals
-  (run_sync → "event loop is already running").
+- **M2bis — loop-cost fixes: PARTIAL (2026-10-11).** OpenRouter API key
+  stored (gitignored `.env`, `OPENROUTER_API_KEY`); live probe passed —
+  `openrouter:z-ai/glm-5.3-flash` (~$0.15/$0.50 per M list; third-party
+  routes cheaper). Z.ai signup was geo/identity-blocked for Brad; see
+  `writing/machine/2026-10-11-m2-loop-resource-plan.md` §C1 update.
+  **Built:** F1 fixture stack (`evals/fixtures/` + `evals/replay.py`;
+  evaluators run offline <5 s, no key — verified 1.0/1.0 on m1-tau-sk
+  fixture); F2 caches (pipeline-call memoization in `grounded/tools.py`
+  keyed on (name, input, graph hash); agent-output cache in
+  `run_grounded.ground_run_async` keyed on (model, question, graph hash);
+  judge fan-out via `asyncio.gather`).
+  **C1 judged run (partial, log (`evals/2026-10-11-m2bis-glm-judged-*`) + tally):**
+  GLM judge on the *GLM-run agent*: agent-tau-sk lean-claim score
+  **0.600** (6 entailed / 4 not-entailed / 2 insufficient; the judge caught
+  genuine overreach incl. SK-well-posedness confusion, CLL direction-of-
+  constraint, a REPORT demo-question claim, and a Cockshott attribution);
+  baseline **1.000** (5/5; walkthrough cite INSUFFICIENT by design — doc
+  moved). GLM judge is far more discriminating than flash-lite was.
+  **Halt reason:** the physics-envy agent case ran long (tool-loop heavy,
+  12→ claims + openrouter latency); aborted by request. Mitigations
+  recorded: the devil is in (a) no claim budget → instructions now cap
+  ≤5 claims; (b) run/eval timeout budgets — TODO `--timeout` on
+  ground_run_async and per-case wall clock cap; (c) cache — rerun of
+  agent-tau-sk is now free (cache hit).
+  **Next:** rerun C1 with the 5-claim cap (agent cases cached-where-possible,
+  seconds-cheap on OpenRouter); then M3.
+- **M2/C1 final rerun (2026-10-11): quality verdict RESOLVED + runtime plan
+  executed.**
+  - **Quality (GLM-5.3-Flash task + judge, 5-claim cap):** agent-tau-sk =
+    CitationSupport 1.00 / LoadBearing 1.00 / ClaimEntailment 0.80 (5
+    claims; synthesis correctly separates SK-convergence-certificate vs
+    subcharacteristic-limit-validity and flags the A5 contestation);
+    baseline = 0.50 / 1.00 / 1.00 (terse meta-claims); physics-envy =
+    1.00 / 1.00 (single claim judged NOT ENTAILED — it is a meta-claim
+    about the graph, so the judge is right). **Agent ≥ baseline on the
+    mechanical metrics, richer synthesis; Pydantic AI stack validated as
+    the research top layer.** Report:
+    `evals/2026-10-11-c1-glm-report.json`.
+  - **Runtime ladder (cold → warm):** 450 s (uncached, pre-cap) → 245 s
+    (first warm pass: agents cached, first-ever judge-cache misses) →
+    **3.3 s** steady-state full 3-case judged dataset — ~135× loop
+    speedup at zero marginal LLM cost. (A 44 s outlier was a fresh
+    cache segment for the default google model key, populated after.)
+  - **Bugs fixed on the way:** judge `None` return (pydantic-evals rejects
+    it) → nothing-verifiable = 0.0; agent-appended edge/node annotations
+    in claim `source` now stripped before section resolution
+    (`sec_clean`).
+  - **Direct plumb spawn (opt-in):** `TARA_PLUMB_DIRECT=1` in
+    `knowledge-repository-poc/scripts/pipeline.py` — Nix-built binary +
+    `PLUMB_PATH` (built stdlib), saves ~1.0–1.2 s per uncached pipeline
+    call (measured 1199 → 23–163 ms), auto-falls back to the canonical
+    `nix develop` path on nonzero exit. Equivalence verified end-to-end
+    through `grounded/tools.py`; repo smoke green with it off (default).
+    Adopt it as the eval default when next milestone work touches this
+    surface.
+- M2 infra notes: judge/task ratelimit — flash-lite RPD saturates quickly
+  on repeat evals; `report.print()` API; EvaluatorContext has `name` (not
+  `case.name`); judge must be async inside pydantic-evals (run_sync →
+  "event loop is already running").
 
 ## Critical finding (do not re-derive)
 
