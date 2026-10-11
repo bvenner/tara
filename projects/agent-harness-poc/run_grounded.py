@@ -88,10 +88,13 @@ class GroundedRun(BaseModel):
     tools_called: list[str]
 
 
-def build_agent(model: str | None = None) -> Agent[GroundedAnswer]:
+def build_agent(
+    model: str | None = None, instructions: str | None = None
+) -> Agent[GroundedAnswer]:
+    usable_instructions = instructions if instructions is not None else INSTRUCTIONS + CLAIM
     return Agent(
         model or MODEL,
-        instructions=INSTRUCTIONS + CLAIM,
+        instructions=usable_instructions,
         output_type=GroundedAnswer,
         retries=3,
         tools=[
@@ -176,24 +179,28 @@ def _graph_hash() -> str:
     return "nograph"
 
 
-def run_cache_key(question: str, model: str | None) -> str:
+def run_cache_key(question: str, model: str | None, instructions: str | None = None) -> str:
     import hashlib
 
-    raw = f"{model or MODEL}|{question}|{len(INSTRUCTIONS)}|{_graph_hash()}"
+    usable = instructions if instructions is not None else INSTRUCTIONS
+    raw = f"{model or MODEL}|{question}|{len(usable)}|{_graph_hash()}"
     return hashlib.sha1(raw.encode()).hexdigest()[:16]
 
 
 async def ground_run_async(
-    question: str, model: str | None = None, refresh: bool = False
+    question: str,
+    model: str | None = None,
+    refresh: bool = False,
+    instructions: str | None = None,
 ) -> GroundedRun:
     """Run the grounded agent (or replay it from the cache) and return a GroundedRun."""
-    key = run_cache_key(question, model)
+    key = run_cache_key(question, model, instructions)
     cache_file = CACHE_DIR / f"{key}.json"
     no_cache = os.environ.get("TARA_NO_RUN_CACHE") == "1"
     if not refresh and not no_cache and cache_file.exists():
         data = json.loads(cache_file.read_text())
         return GroundedRun.model_validate(data)
-    agent = build_agent(model=model)
+    agent = build_agent(model=model, instructions=instructions)
     timeout_s = float(os.environ.get("TARA_RUN_TIMEOUT", "480"))
     try:
         async with asyncio.timeout(timeout_s):

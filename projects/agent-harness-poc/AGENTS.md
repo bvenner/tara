@@ -145,6 +145,32 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   pinned `pydantic==2.13.4` / CPython 3.13 (`pydantic-ai-slim` needs ≥2.12,
   ≥3.11).
 
+- **M3 — pillar fan-out: DONE (2026-10-11).** Island-DT composition
+  question refined across the four corpus pillars with per-pillar
+  grounding + union evaluation.
+  - **Mechanical (M3a, `evals/pillars.py`):** per-pillar traces/queries at
+    the pillar's natural gate (fallback trace → per-concept queries) reach
+    **4/4 pillars** and cover **11/13** of the recorded min_seeds=1
+    bundle — versus the single composed trace at min_seeds=2 that grounded
+    only pillar B. Cross-pillar recall is solved by *decomposition*.
+  - **Agents (M3b, `evals/fanout_eval.py`):** four pillar-scoped grounded
+    researchers run concurrently on the composed question
+    (instructions-per-lane; GLM via OpenRouter). UNION of their runs:
+    **13/13 bundle sections covered, all 16 claims mechanically
+    supported, all four pillar lanes reached** — strictly better than the
+    single-process trace at the same precision. Cold wall ≈ 3.5 min for 4
+    parallel agents; warm = 5.5 s. Report:
+    `evals/2026-10-11-m3-fanout-report.json`.
+  - **Decision evidence:** fan-out at pillar granularity is the
+    principled recall mechanism when the corpus has an explicit pillar
+    taxonomy — embeddings' recall role is not forced here (the corpus
+    does have an explicit taxonomy: island-DT pillars, RET×TSSI
+    tracks/critique families). Remaining embeddings niche: *unanticipated*
+    semantic neighborhoods / unknown taxonomies — see the workspace-level
+    open decision note below.
+  -   Tests (3 new): bundle-parse (offline), mechanical 4-pillar
+    property + nonempty probes (skip-guarded on the binary). 25 passed.
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

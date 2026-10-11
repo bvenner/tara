@@ -29,7 +29,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 
 ## Open decisions
 
-- Embeddings (semantic neighborhoods) vs Phase C — corpus evidence (island-DT test) favors embeddings only if cross-pillar recall matters.
+- Embeddings (semantic neighborhoods) vs Phase C — **evidence updated M3 (2026-10-11): fan-out with an explicit pillar/track taxonomy solves cross-pillar recall mechanically (4/4 pillars, 13/13 bundle); embeddings' remaining niche is unanticipated/unknown taxonomies. Fixtures+replay caches (2026-10-11) make the agent-eval loop ~3-5 s warm.** Per `writing/machine/2026-10-11-m2-loop-resource-plan.md`.
 - LLM pairing: waiting for a provider key to add a pipeline-internal `agent` binding.
 - RET×TSSI Master's sub-problem: M1 (default) vs M2–M6.
 - Repo content purpose (public research vs private) with DSA/transcript material — open (2026-09-27 review §3.1).
