@@ -145,6 +145,26 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   pinned `pydantic==2.13.4` / CPython 3.13 (`pydantic-ai-slim` needs ≥2.12,
   ≥3.11).
 
+## Testing practice (2026-10-11)
+
+- **Layering:** (1) repo smoke (CI) now includes an *agent harness offline
+  contract* — fixture replay through the evaluator stack, no key/nix; (2)
+  `tests/` = 22 tests: pipeline integration + exact-boundary regression,
+  citation-anchor units, M2 parser/corpus units, fixture replay, judge
+  module (schema + cache layer + offline paths), run-cache key semantics
+  (incl. the model-segmentation property), `sec_clean`, direct-vs-nix
+  plumb equivalence (skips when binary absent); (3) `evals/` = the
+  behavioral suite for anything LLM-gated (judged evals, fixtures for the
+  LLM-free parts).
+- **Practice decision:** classic TDD applies to the deterministic seams
+  (caches, parsers, boundary typing, evaluators) — write the regression
+  test with the fix, and add a property test when a surprise changes a
+  *semantic* (e.g. cache-key segmentation). The LLM-gated paths use
+  evals + fixtures, not unit TDD. Test-after remains acceptable when the
+  bug defines the spec; keep red-state comments out of the suite.
+- Gaps deliberately unwritten: retry/backoff timing (network-shaped,
+  covered by live C1 runs), pydantic-eval internals, cache-file pruning.
+
 ## Conventions
 
 - Semantic commit prefixes; commit only when asked; push feature branch → PR.

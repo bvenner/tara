@@ -79,18 +79,25 @@ def judge_claim(agent: Agent[Judgement], section_text: str, claim: str) -> "asyn
     cache_file = _judge_cache_dir() / f"{key}.json"
     no_cache = os.environ.get("TARA_NO_JUDGE_CACHE") == "1"
 
-    async def _run() -> Judgement:
-        if not no_cache and cache_file.exists():
-            try:
-                return Judgement.model_validate_json(cache_file.read_text())
-            except Exception:
-                pass
+    if not no_cache and cache_file.exists():
+        try:
+            cached = Judgement.model_validate_json(cache_file.read_text())
+        except Exception:
+            cached = None
+        if cached is not None:
+
+            async def _hit() -> Judgement:
+                return cached
+
+            return _hit()
+
+    async def _miss() -> Judgement:
         verdict = await judge_claim_raw(agent, section_text, claim)
         cache_file.parent.mkdir(parents=True, exist_ok=True)
         cache_file.write_text(verdict.model_dump_json())
         return verdict
 
-    return asyncio.ensure_future(_run())
+    return _miss()
 
 
 def _judge_cache_dir() -> Path:

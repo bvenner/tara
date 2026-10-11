@@ -208,6 +208,39 @@ def determinism():
         raise RuntimeError("hypergraph.json changed across identical builds")
 
 
+def agent_harness_offline_contract():
+    """agent-harness-poc fixture replay: evaluator stack over banked artifacts.
+
+    No key, no plumb, no nix — proves the grounding discipline machinery
+    (citation-support checks, load-bearing coverage) validates known-good
+    evidence after any harness change. Graceful skip when the thread has not
+    produced fixtures yet."
+    """
+    ah = ROOT / "projects" / "agent-harness-poc"
+    fixtures = ah / "evals" / "fixtures"
+    if not (fixtures / "m1-tau-sk.tools.json").exists():
+        print("       SKIP  agent harness offline contract (no fixtures yet)")
+        return
+    sys.path.insert(0, str(ah))
+    from types import SimpleNamespace
+
+    from evals.grounding_eval import (  # noqa: E402
+        CitationSupport,
+        LoadBearingCoverage,
+        Structure,
+    )
+    from evals.replay import load_run  # noqa: E402
+
+    run = load_run("m1-tau-sk")
+    ctx = SimpleNamespace(output=run, name="smoke", metadata={})
+    if Structure().evaluate(ctx) is not True:
+        raise RuntimeError("fixture fails structure evaluator")
+    if CitationSupport().evaluate(ctx) != 1.0:
+        raise RuntimeError("fixture fails citation-support evaluator")
+    if LoadBearingCoverage().evaluate(ctx) != 1.0:
+        raise RuntimeError("fixture fails load-bearing-coverage evaluator")
+
+
 def _sha256(p: Path) -> str:
     import hashlib
     return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -229,6 +262,7 @@ def main():
         ("reject negative limit", reject_negative_limit),
         ("reject empty concepts", reject_empty_concepts),
         ("build determinism", determinism),
+        ("agent harness offline contract (fixture replay)", agent_harness_offline_contract),
     ]
     for name, fn in checks:
         check(name, fn)
