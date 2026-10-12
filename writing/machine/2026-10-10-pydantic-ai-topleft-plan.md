@@ -143,16 +143,84 @@ proposed:
   evidence for the open embeddings-vs-Phase-C decision: fan-out may be the
   principled recall-widener instead of embeddings.
 
-- **M4 — Gateway cutover (Brad's goal)**
-  Logfire account → Gateway key (`PYDANTIC_AI_GATEWAY_API_KEY`) → model
-  strings become `gateway/...`; spending limits + cost monitoring apply to
-  all research runs from here on.
+- **M4 — Gateway cutover: DEMOTED TO OPTIONAL (2026-10-12, decided post-C1/M3).**
+  Original goal: Logfire account → Gateway key (`PYDANTIC_AI_GATEWAY_API_KEY`)
+  → model strings become `gateway/...`; spending limits + cost monitoring
+  apply from here on.
+  Reassessment after the OpenRouter GLM tier proved out: **not needed**.
+  - The workhorse (GLM-5.3-Flash, task + judge of record) is *not* a gateway
+    built-in provider — it stays OpenRouter-direct regardless, so a cutover
+    only ever covers Google/Anthropic traffic we rarely send (fallback tier
+    $0; one-off Anthropic calibration ~$5).
+  - Cost control already holds at this volume: runs cost pennies, OpenRouter
+    top-ups are hard spending caps, its dashboard gives per-request costs.
+  - Failover is handled at the architecture layer (agent cache → GLM tier →
+    Gemini free tier → OpenRouter free router → Ollama local), which is more
+    robust than gateway mid-run failover for short cached runs.
+  - M5 does not depend on it: plumbing's `agent` morphism can point at *any*
+    OpenAI-compatible endpoint (resource plan §4 Phase C3: config knob, not
+    code).
+  - The observability value is separable: Pydantic AI instruments to Logfire
+    (OpenTelemetry) without `gateway/` strings, if ever wanted.
+  - Net residual loss of skipping: ~5.5% OpenRouter fee on the one-off
+    Anthropic calibration ≈ $0.28. Immaterial.
+  Revisit condition (folded into M6): multi-provider consolidation pain, or a
+  recurring Anthropic workload — then Logfire Personal (free, BYOK 0%
+  markup) + `gateway/...` strings.
 
-- **M5 — Plumbing gateway support (upstream aspiration)**
-  Plumbing's `agent` morphism routes through the Gateway's OpenAI-compatible
-  proxy, so *pipeline-internal* LLM calls also need only the Gateway key (no
-  per-provider key). Missing from upstream today; track a plumbing repo issue
-  and deliberately not implemented locally until it ships.
+- **M5 — Plumbing agent endpoint: DONE (2026-10-12).** Delivered via pure
+  config (no plumbing code change, matching the resource-plan §4 C3
+  preposition): `pipelines/agent.plumb` binds the `agent` morphism with
+  `provider: "openai"`, `model: "z-ai/glm-5.3-flash"`,
+  `api_key: "${OPENROUTER_API_KEY}"`, `endpoint: "https://openrouter.ai/api/v1"`
+  — the OpenAI-compatible proxy work already shipped upstream, so the
+  "gateway-shaped" M5 aspiration reduces to a config recipe. Plumb `check`
+  validates types *and* `${VAR}` presence (doubles as key-presence check);
+  `scripts/pipeline.py` now loads the gitignored `.env` (existing env wins)
+  so the standard runner and smoke work unchanged. **Live acceptance:**
+  typed `{topic} -> {answer, confidence}` round-trip through the fabric
+  (GLM answered a TSSI question; correctness spot-checked). Findings:
+  GLM-5.3-Flash needs `max_tokens: 4096` (thinking tokens count: a two-
+  sentence answer still cost ~1.1k tokens; 256/1024 budgets fail the
+  fabric's max_tokens contract, exit 1 — contract correctness observed);
+  the agent binary respects `PLUMB_PROVIDER`/`PLUMB_MODEL` env knobs when
+  config omits them; telemetry on stderr vs payload on stdout is unchanged.
+  Tests: `tests/test_agent_pipeline.py` (spec presence, type-check pass,
+  missing-env rejection, dotenv loader) — 29 passed. Smoke: `agent pipeline
+  contract (plumb check, key-gated)` check added.
+
+### Division of labor — corrected claim (2026-10-12, after upstream verification)
+
+The original framing ("plumbing should only *occasionally* host a bounded
+LLM") overestimated the gap. Verified against upstream plumbing source:
+agentic tool-calling **already exists** (`tools: [...]` + `max_tool_calls`,
+tools backed by agents/processes — `test/fixtures/tool_agent.plumb`), the
+fabric is **docstore-native** (builtin `doc_read/write/edit/grep/list/delete`
+tools over a sandboxed docstore, `tool_dispatch.ml:148-234`), output types
+are compiled into the agent's system prompt with retry-on-mismatch
+(`bin/agent/main.ml:955-965`), pipeline-resolved and MCP-resolved tools are
+supported, and multi-agent routing/control/telemetry primitives cover the
+M3 fan-out shape. **A `researcher.plumb` is feasible** — tool bindings
+wrapping the tara-python exec workers, instructions via `prompts:` files,
+`GroundedAnswer` as typed output, parallel lane agents.
+
+The defensible division is therefore *empirical*, not categorical. Reasons
+the Pydantic AI side currently owns the validated researcher: (1) C1/M3
+acceptance evidence lives there; (2) the evaluation infrastructure —
+citation-support scorer over tool sidecars, entailment judge, fixtures,
+pydantic-evals datasets, agent-output/replay caches (3.3 s warm evals) —
+exists only Python-side; a plumb-side researcher has no independent
+mechanical scorer other than a second plumb judge agent (circular), no
+output caching, no context-management/tool-output spill (only `max_messages`),
+and line-shaped (`amnesiac`) rather than question-scoped session semantics.
+
+Recorded as open empirical question / candidate milestone:
+
+- **M7 (candidate) — researcher-as-plumb experiment.** `pipelines/
+  researcher.plumb` with trace/query/evidence tools bound + `GroundedAnswer`
+  output, evaluated by the *same* mechanical scorer both sides must pass.
+  Resolve the division question with evidence rather than dogma. Not sized
+  or scheduled; awaiting Brad's go.
 
 - **M6 — Cutover / disposition**
   Retarget the key workflows (hypergraph-grounding Q&A, island-DT cross-pillar

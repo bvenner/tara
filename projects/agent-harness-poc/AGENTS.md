@@ -171,6 +171,53 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   -   Tests (3 new): bundle-parse (offline), mechanical 4-pillar
     property + nonempty probes (skip-guarded on the binary). 25 passed.
 
+- **M4 — Gateway cutover: DEMOTED TO OPTIONAL (2026-10-12, post-C1/M3
+  reassessment).** OpenRouter GLM tier (workhorse + judge) is not a gateway
+  built-in; cost caps live at OpenRouter top-up level; failover is resolved
+  at the architecture layer (cache → GLM → Gemini → free router → Ollama).
+  The milestone only ever covered Google/Anthropic traffic we rarely send;
+  residual loss of skipping ≈ $0.28 OpenRouter fee on the one-off Anthropic
+  calibration. Full reasoning: plan doc M4 section. Revisit within M6 if
+  multi-provider consolidation pain or a recurring Anthropic workload
+  appears. Milestone order is now effectively M5 (plumbing `agent` via any
+  OpenAI-compatible endpoint — prefer a config knob) → M6 (workload
+  retarget + opencode disposition, where the `gateway/` question is retried
+  on evidence).
+
+- **M5 — plumbing agent endpoint: DONE (2026-10-12).** Pipeline-internal
+  LLM morphism works through pure config, no plumbing code change:
+  `knowledge-repository-poc/pipelines/agent.plumb` — `agent` morphism with
+  `provider: "openai"` + `model: "z-ai/glm-5.3-flash"` +
+  `api_key: "${OPENROUTER_API_KEY}"` + literal OpenRouter base URL.
+  plumbing's OpenAI client already ships OpenAI-compatible endpoint
+  override, so the upstream "gateway" aspiration collapsed into a config
+  recipe. Live acceptance: typed `{topic} -> {answer, confidence}`
+  round-trip through the plumbing fabric (GLM TSSI answer, spot-checked;
+  SK-wellposedness probe answered "Kawashima" correctly). Findings:
+  `max_tokens: 4096` needed (GLM-5.3 thinking tokens count against it; the
+  fabric's max_tokens contract is enforced with exit 1, observed at
+  256/1024); plumb `check` validates types *and* `${VAR}` presence (used as
+  offline contract); agent binary also accepts `PLUMB_PROVIDER`/`PLUMB_MODEL`
+  env knobs; `scripts/pipeline.py` now auto-loads the gitignored `.env`
+  (existing env wins) so after `.env` sources the key, the standard runner
+  just works: `uv run python projects/knowledge-repository-poc/scripts/pipeline.py agent '{"topic": "..."}'`.
+  Tests: `tests/test_agent_pipeline.py` — 29 total passed; smoke gained the
+  key-gated `agent pipeline contract (plumb check)` check.
+
+- **Division of labor — corrected claim (2026-10-12).** Verified upstream:
+  plumb agents support tool-calling (`tools:` + `max_tool_calls`,
+  process/agent-backed tools), docstore builtins (sdoc read/grep etc.),
+  typed-output-as-prompt-compilation, pipeline/MCP tool resolution, and
+  multi-agent routing. A `researcher.plumb` is therefore *feasible* — the
+  earlier "plumbing only occasionally hosts LLMs" framing overestimated the
+  gap. Current defense of the Pydantic-AI top layer is empirical, not
+  categorical: the validated researcher (C1/M3) plus eval/judge/fixture/
+  cache infrastructure (citation-support scorer, replay caches) live
+  Python-side, and plumb-side lacks an independent mechanical scorer, agent-
+  output caching, context spill, and question-scoped sessions. **Candidate
+  M7** (Brad's go-awaited): researcher-as-plumb head-to-head on the same
+  mechanical scorer. Full write-up: plan doc, M5 section.
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

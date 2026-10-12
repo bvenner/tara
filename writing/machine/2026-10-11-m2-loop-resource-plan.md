@@ -122,11 +122,12 @@ Verified economics (2026-10-11):
   smoke + fixture validation where structured-output fidelity isn't critical.
 - OpenRouter free-router (50 req/day): tiny dev windows.
 
-**Phase C3 — plumbing-side (M5 preview)**: with a GLM key in hand, the
-pipeline-internal `agent` morphism can ALSO route through the same
-OpenAI-compatible endpoint even before M5's gateway work — the only change
-is plumbing's model endpoint config. Record: prefer a config knob, not a
-code change.
+**Phase C3 — plumbing-side (M5; DONE 2026-10-12)**: the pipeline-internal
+`agent` morphism routes through the same OpenAI-compatible endpoint. Delivered
+purely as config (`pipelines/agent.plumb`: provider openai, model, api_key
+`${OPENROUTER_API_KEY}`, endpoint literal) — no plumbing code change, exactly
+as preposed. `scripts/pipeline.py` auto-loads the gitignored `.env`. See the
+plan doc M5 section for the acceptance evidence and the max_tokens finding.
 
 **Gateway interplay (M4)**: unchanged for Google/Anthropic (gateway BYOK,
 0% markup on Personal). GLM is not a gateway built-in provider; it runs

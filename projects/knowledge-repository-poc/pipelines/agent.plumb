@@ -1,0 +1,24 @@
+(* Pipeline-internal LLM morphism (M5): an `agent` bound through the
+   OpenAI-compatible OpenRouter endpoint — config knob only, no plumbing
+   code change. Key comes from the environment (`${OPENROUTER_API_KEY}`);
+   the local runner (scripts/pipeline.py) loads the gitignored .env.
+
+   Type-checked boundary: {topic} in, grounded one-line answer out. *)
+type Topic = { topic: string }
+type Answer = { answer: string, confidence: number }
+
+let researcher : !Topic -> !Answer = agent {
+  provider: "openai"
+  model: "z-ai/glm-5.3-flash"
+  api_key: "${OPENROUTER_API_KEY}"
+  endpoint: "https://openrouter.ai/api/v1"
+  prompt: "Answer the research topic in one or two dense sentences. Be factual; if you are unsure, lower confidence."
+  amnesiac: true
+  max_retries: 2
+  api_max_retries: 2
+  max_tokens: 4096
+}
+
+let main : !Topic -> !Answer = plumb(input, output) {
+  spawn researcher(input, output)
+}

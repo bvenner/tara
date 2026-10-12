@@ -129,10 +129,13 @@ revisit is:
    `feat/agent-harness-m3` (+ old `feat/agent-harness-c1-glm` branch too —
    currently still on origin from PR #8... verify: it was deleted? It was
    NOT deleted; remove after confirming `main` has everything).
-2. **M4 — Gateway cutover:** create the Logfire Personal org, Gateway key
-   (`PYDANTIC_AI_GATEWAY_API_KEY`), BYOK-zero-markup routing for
-   Google/Anthropic; switch agent model strings to `gateway/...`;
-   GLM continues direct via OpenRouter (not a gateway built-in).
+2. **M4 — Gateway cutover: DEMOTED TO OPTIONAL (2026-10-12 decision, see
+   plan doc M4 section).** Rationale: workhorse GLM is not a gateway
+   provider (stays OpenRouter-direct); cost capped by OpenRouter top-ups;
+   failover lives at the architecture layer; M5 can route plumbing's
+   `agent` through any OpenAI-compatible endpoint (config knob). Revisit
+   inside M6 if multi-provider pain or recurring Anthropic work appears.
+   Milestone order now: M5 → M6.
 3. **M5 — Plumbing gateway support** (upstream `agent` morphism through
    the gateway proxy) — issue to track upstream plumbing repo now that a
    cheap OpenAI-compatible key exists for pipeline-internal agent work.
