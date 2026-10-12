@@ -236,6 +236,22 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   possible third comparator arm (opencode + plumb-MCP); opencode stays live
   for coding regardless; agent layer stays read-only-research until then.**
 
+- **M7 — slice 1 (head-to-head): DONE (2026-10-12).** Three-arm comparison
+  (opencode / pydantic / plumb) on the same manifests + scorer.
+  `pipelines/researcher.plumb` (prefetch architecture — upstream blocks
+  exec-in-tool dispatch) + `scripts/research_gate.py` worker +
+  section-content prefetch; `normalize_claim_source` shim; opencode arm
+  artifact `grounded-answer-island-dt.md`; judged scoring wired via
+  `run_workload.py --judge`. **Result: plumb competitive (judge 1.00
+  tau-sk single, 0.89 island fan-out vs pydantic 0.00/1.00 and 0.55) —
+  the categorical division-of-labor claim is refuted; one scorer, three
+  arms. Caveats: single samples not benchmark-grade (repeat-protocol slice
+  2); plumb claim-budget leak; opencode 13/13 bundle is a lower-gate
+  artifact.** Full note: `writing/machine/2026-10-12-m7-slice1-comparison.md`.
+  Working division: opencode = interactive researcher + coding; plumb =
+  scripted deterministic backbone + bounded synthesis; pydantic = in-loop
+  tool orchestration (seed autonomy, docstore browsing).
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

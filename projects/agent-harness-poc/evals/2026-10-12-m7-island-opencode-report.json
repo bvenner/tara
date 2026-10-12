@@ -1,0 +1,39 @@
+{
+  "workload": "island-dt-crosspillar",
+  "adapter": "opencode-artifact",
+  "wall_s": 1.4,
+  "metrics": {
+    "per_lane": {
+      "run0": {
+        "claims": 7,
+        "anchors": 13,
+        "citation_support": 1.0
+      }
+    },
+    "prior_bundle_sections": 13,
+    "bundle_covered_by_union": 13,
+    "union_sections": 13,
+    "pillars_reached": {
+      "A-metabolism": true,
+      "B-3d-standards": true,
+      "C-digital-twins": true,
+      "D-geodesign": true
+    },
+    "pillars_reached_count": 4,
+    "judged": {
+      "run0": {
+        "claims": 7,
+        "judge_score": 1.0,
+        "verdicts": [
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "INSUFFICIENT",
+          "INSUFFICIENT"
+        ]
+      }
+    }
+  }
+}

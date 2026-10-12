@@ -5,18 +5,39 @@
   "question": "How does the tau->0 relaxation limit relate to the SK condition for gravitation convergence?",
   "instructions_file": "workloads/instructions/grounding.md",
   "adapters": [
-    "static-baseline",
+    "opencode-artifact",
     "pydantic-agent",
     "plumb-agent"
   ],
   "expected": {
-    "trace_seeds": ["tau_J", "sk condition", "subcharacteristic", "gravitation", "T3"],
+    "trace_seeds": [
+      "tau_J",
+      "sk condition",
+      "subcharacteristic",
+      "gravitation",
+      "T3"
+    ],
     "load_bearing": [
-      { "doc": "ret-tssi/program/research-program.md", "section": "4. Track A" },
-      { "doc": "ret-tssi/findings.md", "section": "5. Model skeleton" },
-      { "doc": "ret-tssi/program/research-program.md", "section": "3. The core correspondence" },
-      { "doc": "ret-tssi/program/research-program.md", "section": "7. Track D" },
-      { "doc": "ret-tssi/program/critiques.md", "section": "A1. \"Physics envy" }
+      {
+        "doc": "ret-tssi/program/research-program.md",
+        "section": "4. Track A"
+      },
+      {
+        "doc": "ret-tssi/findings.md",
+        "section": "5. Model skeleton"
+      },
+      {
+        "doc": "ret-tssi/program/research-program.md",
+        "section": "3. The core correspondence"
+      },
+      {
+        "doc": "ret-tssi/program/research-program.md",
+        "section": "7. Track D"
+      },
+      {
+        "doc": "ret-tssi/program/critiques.md",
+        "section": "A1. \"Physics envy"
+      }
     ],
     "static_output": "knowledge-repository-poc/graph/grounded-answer-tau-sk.md"
   }

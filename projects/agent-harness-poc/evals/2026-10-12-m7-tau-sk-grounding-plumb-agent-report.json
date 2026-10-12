@@ -1,0 +1,35 @@
+{
+  "workload": "tau-sk-grounding",
+  "adapter": "plumb-agent",
+  "wall_s": 114.3,
+  "metrics": {
+    "runs": [
+      {
+        "claims": 13,
+        "anchors": 13,
+        "citation_support": 1.0,
+        "load_bearing_coverage": 1.0
+      }
+    ],
+    "judged": {
+      "run0": {
+        "claims": 12,
+        "judge_score": 1.0,
+        "verdicts": [
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED",
+          "ENTAILED"
+        ]
+      }
+    }
+  }
+}

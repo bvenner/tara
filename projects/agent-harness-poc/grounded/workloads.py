@@ -60,6 +60,8 @@ class Expected(BaseModel):
     bundle_doc: str | None = None          # workspace-relative path
     static_output: str | None = None       # workspace-relative path
     trace_seeds: list[str] = Field(default_factory=list)
+    trace_topic: str | None = None         # defaults to the manifest question
+    trace_min_seeds: int = 3               # gate for the static arm's anchor rebuild
 
 
 class WorkloadManifest(BaseModel):
@@ -119,7 +121,11 @@ async def static_baseline(m: WorkloadManifest, refresh: bool = False) -> list[Gr
     ]
     anchors: list = []
     if m.expected.trace_seeds:
-        anchors = trace_anchors("tau->0 vs SK", m.expected.trace_seeds, min_seeds=3)
+        anchors = trace_anchors(
+            m.expected.trace_topic or m.question,
+            m.expected.trace_seeds,
+            min_seeds=m.expected.trace_min_seeds,
+        )
     return [
         GroundedRun(
             question=m.question,
@@ -186,22 +192,140 @@ async def mechanical_probe(m: WorkloadManifest, refresh: bool = False) -> list[G
     return runs
 
 
-def plumb_agent(m: WorkloadManifest, refresh: bool = False) -> list[GroundedRun]:
-    raise NotImplementedError(
-        "plumb adapters arrive with M7 (researcher-as-plumb head-to-head); "
-        "the manifest defines the contract, execution deferred"
+# ── plumb-side adapters (M7 slice 1: prefetch architecture) ──────
+# Upstream note: exec lowering via agent tool dispatch is not implemented
+# (tool_not_supported), so the plumb researcher consumes a deterministically
+# prefetched trace (pipelines/researcher.plumb); seeds come from the manifest.
+
+PLUMB_ROOT = Path("/home/brad/tools/plumbing")
+PLUMB_BIN = PLUMB_ROOT / "_build/default/bin/plumb/main.exe"
+PIPES_DIR = THAR_DIR / "projects" / "knowledge-repository-poc" / "pipelines"
+SIDECAR_ROOT = THREAD_ROOT / "evals" / "cache" / "plumb-sidecars"
+
+
+def normalize_claim_source(src: str) -> str:
+    """Shim harness-specific citation formats into the canonical
+    `doc :: section` contract (same class as sec_clean): handles
+    `doc — [section]`, `doc :: [section]`, and bracket residue."""
+    import re
+
+    s = src.strip()
+    m = re.match(r"^(.+?)\s+—\s*\[(.+)\]$", s)
+    if m:
+        return f"{m.group(1).strip()} :: {m.group(2).strip()}"
+    m = re.match(r"^(.+?)\s*::\s*\[(.+)\]$", s)
+    if m:
+        return f"{m.group(1).strip()} :: {m.group(2).strip()}"
+    return s
+
+
+def parse_plumb_payload(payload: dict, question: str, sidecar_dir: Path) -> GroundedRun:
+    """Convert the researcher.plumb output + tee'd trace sidecars into a
+    GroundedRun (harness-agnostic scorer contract)."""
+    from evals.check_citations import anchors_from_sidecar
+
+    claims = [
+        Claim(
+            statement=c["statement"],
+            source=normalize_claim_source(c["source"]),
+            trace_edge_ids=c.get("trace_edge_ids", []),
+        )
+        for c in payload.get("claims", [])
+    ]
+    recs = []
+    for f in sorted(sidecar_dir.glob("*.jsonl")):
+        tool = f.stem
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line:
+                recs.append({"tool": f"knowledge_{tool}", "content": json.loads(line)})
+    sidecar = sidecar_dir / "composite.tools.json"
+    sidecar.write_text(json.dumps(recs))
+    anchors = sorted(anchors_from_sidecar(sidecar)) if recs else []
+    return GroundedRun(
+        question=question,
+        answer=GroundedAnswer(
+            question=question,
+            synthesis=payload.get("synthesis", ""),
+            claims=claims,
+        ),
+        anchors=anchors,
+        tools_called=["knowledge_trace"] if recs else [],
     )
+
+
+def _run_researcher_plumb(topic: str, concepts: list[str], min_seeds: int, lane: str) -> dict:
+    """Run pipelines/researcher.plumb once (direct binary, nix fallback)."""
+    import os
+    import subprocess as sp
+
+    sidecar_dir = SIDECAR_ROOT / lane
+    sidecar_dir.mkdir(parents=True, exist_ok=True)
+    for f in sidecar_dir.glob("*.jsonl"):
+        f.unlink()
+    env = os.environ.copy()
+    env.setdefault("PLUMB_PATH", str(PLUMB_ROOT / "_build/default/stdlib"))
+    env["TARA_PLUMB_SIDECAR"] = str(sidecar_dir / "trace.jsonl")
+    payload = None
+    stdin_text = json.dumps({"topic": topic, "concepts": concepts, "min_seeds": min_seeds}) + "\n"
+    proc = None
+    if PLUMB_BIN.exists():
+        proc = sp.run(
+            [str(PLUMB_BIN), "researcher.plumb"],
+            input=stdin_text, capture_output=True, text=True, timeout=900, env=env,
+            cwd=PIPES_DIR,
+        )
+    if proc is None or proc.returncode != 0:
+        proc = sp.run(
+            ["nix", "develop", str(PLUMB_ROOT), "-c", str(PLUMB_BIN), "researcher.plumb"],
+            input=stdin_text, capture_output=True, text=True, timeout=900, cwd=PIPES_DIR,
+        )
+    if proc.returncode != 0:
+        raise RuntimeError(f"researcher.plumb failed: {proc.stderr.strip()[-400:]}")
+    for line in proc.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            cand = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(cand, dict) and "claims" in cand:
+            payload = cand
+            break
+    if payload is None:
+        raise RuntimeError("researcher.plumb produced no answer payload")
+    return payload
+
+
+def plumb_agent(m: WorkloadManifest, refresh: bool = False) -> list[GroundedRun]:
+    if m.kind == "cross-pillar-assembly" and m.lanes:
+        raise NotImplementedError("use plumb-agent-fanout for lane workloads")
+    seeds = m.expected.trace_seeds or [c for lane in m.lanes.values() for c in lane.seed_concepts]
+    if not seeds:
+        raise ValueError(f"manifest {m.id} provides no seeds for the plumb arm")
+    payload = _run_researcher_plumb(m.question, seeds, 3, lane=m.id)
+    return [parse_plumb_payload(payload, m.question, SIDECAR_ROOT / m.id)]
 
 
 def plumb_agent_fanout(m: WorkloadManifest, refresh: bool = False) -> list[GroundedRun]:
-    raise NotImplementedError(
-        "plumb adapters arrive with M7 (researcher-as-plumb head-to-head); "
-        "the manifest defines the contract, execution deferred"
-    )
+    if not m.lanes:
+        raise NotImplementedError("no lanes in this manifest")
+    import concurrent.futures
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=len(m.lanes)) as ex:
+        futs = {
+            name: ex.submit(_run_researcher_plumb, m.question, lane.seed_concepts, 2, f"{m.id}-{name}")
+            for name, lane in m.lanes.items()
+        }
+        payloads = {name: f.result() for name, f in futs.items()}
+    return [parse_plumb_payload(payloads[name], m.question, SIDECAR_ROOT / f"{m.id}-{name}")
+            for name in m.lanes]
 
 
 ADAPTERS = {
     "static-baseline": static_baseline,
+    "opencode-artifact": static_baseline,   # opencode arm: committed grounded artifact
     "pydantic-agent": pydantic_agent,
     "pydantic-agent-fanout": pydantic_agent_fanout,
     "mechanical-probe": mechanical_probe,
@@ -219,6 +343,15 @@ async def run_workload(m: WorkloadManifest, adapter: str, refresh: bool = False)
     runs = await fn(m, refresh=refresh) if fn_async else fn(m, refresh=refresh)
     metrics = evaluate(m, runs)
     return {"workload": m.id, "adapter": adapter, "wall_s": round(time.monotonic() - t0, 1), "metrics": metrics}
+
+
+async def run_workload_full(m: WorkloadManifest, adapter: str, refresh: bool = False, judge: bool = False) -> dict:
+    report = await run_workload(m, adapter, refresh=refresh)
+    if judge:
+        fn = ADAPTERS[adapter]
+        runs = await fn(m, refresh=refresh) if asyncio.iscoroutinefunction(fn) else fn(m, refresh=refresh)
+        report["metrics"]["judged"] = await evaluate_judged(m, runs)
+    return report
 
 
 # ── evaluation (GroundedRun shape only — harness-agnostic) ───────
@@ -253,8 +386,9 @@ def evaluate(m: WorkloadManifest, runs: list[GroundedRun]) -> dict:
     union: set[tuple[str, str]] = set()
     per_lane: dict[str, dict] = {}
     lane_names = list(m.lanes)
+    aligned = len(runs) == len(lane_names)
     for i, run in enumerate(runs):
-        lane_name = lane_names[i] if i < len(lane_names) else f"run{i}"
+        lane_name = lane_names[i] if aligned else f"run{i}"
         anchors = {(d, s) for d, s in run.anchors}
         union |= anchors
         claims = run.answer.claims
@@ -277,6 +411,35 @@ def evaluate(m: WorkloadManifest, runs: list[GroundedRun]) -> dict:
         "pillars_reached": pillar_reached,
         "pillars_reached_count": sum(pillar_reached.values()),
     }
+
+
+async def evaluate_judged(m: WorkloadManifest, runs: list[GroundedRun]) -> dict:
+    """Claim-entailment judging on any arm's claims (LLM judge, cached; keyed
+    by claim content so arms share verdicts)."""
+    import sys
+
+    from grounded.corpus_sections import section_text
+    from grounded.judge import build_judge, judge_claim
+    from evals.grounding_eval import sec_clean
+
+    agent = build_judge()
+    out: dict = {}
+    for idx, run in enumerate(runs):
+        verdicts = []
+        for claim in run.answer.claims:
+            doc, _, sec = claim.source.partition(" :: ")
+            text = section_text(doc, sec_clean(sec)) or ""
+            j = await judge_claim(agent, text, claim.statement)
+            verdicts.append(j.verdict)
+        entailed = verdicts.count("ENTAILED")
+        insufficient = verdicts.count("INSUFFICIENT")
+        denom = len(verdicts) - insufficient
+        out[f"run{idx}" if not m.lanes else (list(m.lanes)[idx] if idx < len(m.lanes) and len(runs) == len(m.lanes) else f"run{idx}")] = {
+            "claims": len(claims := run.answer.claims),
+            "judge_score": round(entailed / denom, 3) if denom else 0.0,
+            "verdicts": verdicts,
+        }
+    return out
 
 
 def main() -> int:
