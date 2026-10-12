@@ -11,6 +11,7 @@ heavier manual/Job-2 territory). Run from anywhere:
 Exit 0 iff every check passes; each failure names the broken contract.
 """
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -241,6 +242,35 @@ def agent_harness_offline_contract():
         raise RuntimeError("fixture fails load-bearing-coverage evaluator")
 
 
+def agent_pipeline_contract():
+    """M5: pipeline-internal `agent` morphism type-checks (plumbing `check`).
+
+    Offline (no LLM): the config interpreter validates the agent binding's
+    types and its ${VAR} interpolations — OPENROUTER_API_KEY must be present
+    (env or gitignored .env). Skips when the plumbing binaries or the key
+    are not available (mirrors the fulltext-local skip pattern)."""
+    plumb_check = Path("/home/brad/tools/plumbing/_build/default/bin/check/main.exe")
+    if not plumb_check.exists():
+        print("       SKIP  agent pipeline contract (plumbing not built)")
+        return
+    for var in ("OPENROUTER_API_KEY",):
+        if os.environ.get(var):
+            break
+        env_file = ROOT / ".env"
+        if env_file.is_file() and any(
+            line.strip().startswith(f"{var}=") for line in env_file.read_text().splitlines()
+        ):
+            break
+    else:
+        print("       SKIP  agent pipeline contract (no OPENROUTER_API_KEY)")
+        return
+    spec = POC / "pipelines" / "agent.plumb"
+    p = subprocess.run([str(plumb_check), str(spec)],
+                       capture_output=True, text=True, timeout=60)
+    if p.returncode != 0:
+        raise RuntimeError(f"plumb check failed on agent.plumb: {p.stderr.strip()[-200:]}")
+
+
 def _sha256(p: Path) -> str:
     import hashlib
     return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -263,6 +293,7 @@ def main():
         ("reject empty concepts", reject_empty_concepts),
         ("build determinism", determinism),
         ("agent harness offline contract (fixture replay)", agent_harness_offline_contract),
+        ("agent pipeline contract (plumb check, key-gated)", agent_pipeline_contract),
     ]
     for name, fn in checks:
         check(name, fn)

@@ -184,6 +184,26 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   retarget + opencode disposition, where the `gateway/` question is retried
   on evidence).
 
+- **M5 — plumbing agent endpoint: DONE (2026-10-12).** Pipeline-internal
+  LLM morphism works through pure config, no plumbing code change:
+  `knowledge-repository-poc/pipelines/agent.plumb` — `agent` morphism with
+  `provider: "openai"` + `model: "z-ai/glm-5.3-flash"` +
+  `api_key: "${OPENROUTER_API_KEY}"` + literal OpenRouter base URL.
+  plumbing's OpenAI client already ships OpenAI-compatible endpoint
+  override, so the upstream "gateway" aspiration collapsed into a config
+  recipe. Live acceptance: typed `{topic} -> {answer, confidence}`
+  round-trip through the plumbing fabric (GLM TSSI answer, spot-checked;
+  SK-wellposedness probe answered "Kawashima" correctly). Findings:
+  `max_tokens: 4096` needed (GLM-5.3 thinking tokens count against it; the
+  fabric's max_tokens contract is enforced with exit 1, observed at
+  256/1024); plumb `check` validates types *and* `${VAR}` presence (used as
+  offline contract); agent binary also accepts `PLUMB_PROVIDER`/`PLUMB_MODEL`
+  env knobs; `scripts/pipeline.py` now auto-loads the gitignored `.env`
+  (existing env wins) so after `.env` sources the key, the standard runner
+  just works: `uv run python projects/knowledge-repository-poc/scripts/pipeline.py agent '{"topic": "..."}'`.
+  Tests: `tests/test_agent_pipeline.py` — 29 total passed; smoke gained the
+  key-gated `agent pipeline contract (plumb check)` check.
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

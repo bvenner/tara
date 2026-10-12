@@ -18,10 +18,30 @@ import sys
 from pathlib import Path
 
 POC = Path(__file__).resolve().parents[1]
+ROOT = POC.parents[1]
 PLUMB = "/home/brad/tools/plumbing"
 
 
+def load_env_keys():
+    """Load KEY=VALUE lines from the gitignored ROOT/.env into os.environ
+    (existing env wins). Needed by pipelines whose config interpolates
+    env vars (e.g. agent.plumb's ${OPENROUTER_API_KEY}); harmless for
+    exec-worker pipelines."""
+    env_file = ROOT / ".env"
+    if not env_file.is_file():
+        return
+    for line in env_file.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        key, value = key.strip(), value.strip().strip("'\"")
+        if key and value:
+            os.environ.setdefault(key, value)
+
+
 def main():
+    load_env_keys()
     if len(sys.argv) < 3:
         print("usage: pipeline.py <name> '<json-input>'", file=sys.stderr)
         sys.exit(2)

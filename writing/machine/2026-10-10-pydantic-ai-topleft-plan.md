@@ -168,11 +168,26 @@ proposed:
   recurring Anthropic workload — then Logfire Personal (free, BYOK 0%
   markup) + `gateway/...` strings.
 
-- **M5 — Plumbing gateway support (upstream aspiration)**
-  Plumbing's `agent` morphism routes through the Gateway's OpenAI-compatible
-  proxy, so *pipeline-internal* LLM calls also need only the Gateway key (no
-  per-provider key). Missing from upstream today; track a plumbing repo issue
-  and deliberately not implemented locally until it ships.
+- **M5 — Plumbing agent endpoint: DONE (2026-10-12).** Delivered via pure
+  config (no plumbing code change, matching the resource-plan §4 C3
+  preposition): `pipelines/agent.plumb` binds the `agent` morphism with
+  `provider: "openai"`, `model: "z-ai/glm-5.3-flash"`,
+  `api_key: "${OPENROUTER_API_KEY}"`, `endpoint: "https://openrouter.ai/api/v1"`
+  — the OpenAI-compatible proxy work already shipped upstream, so the
+  "gateway-shaped" M5 aspiration reduces to a config recipe. Plumb `check`
+  validates types *and* `${VAR}` presence (doubles as key-presence check);
+  `scripts/pipeline.py` now loads the gitignored `.env` (existing env wins)
+  so the standard runner and smoke work unchanged. **Live acceptance:**
+  typed `{topic} -> {answer, confidence}` round-trip through the fabric
+  (GLM answered a TSSI question; correctness spot-checked). Findings:
+  GLM-5.3-Flash needs `max_tokens: 4096` (thinking tokens count: a two-
+  sentence answer still cost ~1.1k tokens; 256/1024 budgets fail the
+  fabric's max_tokens contract, exit 1 — contract correctness observed);
+  the agent binary respects `PLUMB_PROVIDER`/`PLUMB_MODEL` env knobs when
+  config omits them; telemetry on stderr vs payload on stdout is unchanged.
+  Tests: `tests/test_agent_pipeline.py` (spec presence, type-check pass,
+  missing-env rejection, dotenv loader) — 29 passed. Smoke: `agent pipeline
+  contract (plumb check, key-gated)` check added.
 
 - **M6 — Cutover / disposition**
   Retarget the key workflows (hypergraph-grounding Q&A, island-DT cross-pillar
