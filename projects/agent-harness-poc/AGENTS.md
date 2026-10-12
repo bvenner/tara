@@ -171,6 +171,19 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   -   Tests (3 new): bundle-parse (offline), mechanical 4-pillar
     property + nonempty probes (skip-guarded on the binary). 25 passed.
 
+- **M4 — Gateway cutover: DEMOTED TO OPTIONAL (2026-10-12, post-C1/M3
+  reassessment).** OpenRouter GLM tier (workhorse + judge) is not a gateway
+  built-in; cost caps live at OpenRouter top-up level; failover is resolved
+  at the architecture layer (cache → GLM → Gemini → free router → Ollama).
+  The milestone only ever covered Google/Anthropic traffic we rarely send;
+  residual loss of skipping ≈ $0.28 OpenRouter fee on the one-off Anthropic
+  calibration. Full reasoning: plan doc M4 section. Revisit within M6 if
+  multi-provider consolidation pain or a recurring Anthropic workload
+  appears. Milestone order is now effectively M5 (plumbing `agent` via any
+  OpenAI-compatible endpoint — prefer a config knob) → M6 (workload
+  retarget + opencode disposition, where the `gateway/` question is retried
+  on evidence).
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

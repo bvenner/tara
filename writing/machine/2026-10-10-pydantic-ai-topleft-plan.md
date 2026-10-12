@@ -143,10 +143,30 @@ proposed:
   evidence for the open embeddings-vs-Phase-C decision: fan-out may be the
   principled recall-widener instead of embeddings.
 
-- **M4 — Gateway cutover (Brad's goal)**
-  Logfire account → Gateway key (`PYDANTIC_AI_GATEWAY_API_KEY`) → model
-  strings become `gateway/...`; spending limits + cost monitoring apply to
-  all research runs from here on.
+- **M4 — Gateway cutover: DEMOTED TO OPTIONAL (2026-10-12, decided post-C1/M3).**
+  Original goal: Logfire account → Gateway key (`PYDANTIC_AI_GATEWAY_API_KEY`)
+  → model strings become `gateway/...`; spending limits + cost monitoring
+  apply from here on.
+  Reassessment after the OpenRouter GLM tier proved out: **not needed**.
+  - The workhorse (GLM-5.3-Flash, task + judge of record) is *not* a gateway
+    built-in provider — it stays OpenRouter-direct regardless, so a cutover
+    only ever covers Google/Anthropic traffic we rarely send (fallback tier
+    $0; one-off Anthropic calibration ~$5).
+  - Cost control already holds at this volume: runs cost pennies, OpenRouter
+    top-ups are hard spending caps, its dashboard gives per-request costs.
+  - Failover is handled at the architecture layer (agent cache → GLM tier →
+    Gemini free tier → OpenRouter free router → Ollama local), which is more
+    robust than gateway mid-run failover for short cached runs.
+  - M5 does not depend on it: plumbing's `agent` morphism can point at *any*
+    OpenAI-compatible endpoint (resource plan §4 Phase C3: config knob, not
+    code).
+  - The observability value is separable: Pydantic AI instruments to Logfire
+    (OpenTelemetry) without `gateway/` strings, if ever wanted.
+  - Net residual loss of skipping: ~5.5% OpenRouter fee on the one-off
+    Anthropic calibration ≈ $0.28. Immaterial.
+  Revisit condition (folded into M6): multi-provider consolidation pain, or a
+  recurring Anthropic workload — then Logfire Personal (free, BYOK 0%
+  markup) + `gateway/...` strings.
 
 - **M5 — Plumbing gateway support (upstream aspiration)**
   Plumbing's `agent` morphism routes through the Gateway's OpenAI-compatible
