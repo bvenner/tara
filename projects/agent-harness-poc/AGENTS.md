@@ -218,6 +218,24 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   M7** (Brad's go-awaited): researcher-as-plumb head-to-head on the same
   mechanical scorer. Full write-up: plan doc, M5 section.
 
+- **M6 — slice 1 (workloads as data): DONE (2026-10-12).** The two flagship
+  workflows are committed JSON manifests in `workloads/`
+  (`tau-sk-grounding.json`, `island-dt-crosspillar.json`: question, shared
+  instruction file, lanes+seeds, expected regions). Runner
+  `grounded/workloads.py` + CLI `evals/run_workload.py`; adapter registry:
+  `static-baseline`, `mechanical-probe`, `pydantic-agent`,
+  `pydantic-agent-fanout`, and **`plumb-agent`/`plumb-agent-fanout` as M7
+  stubs (NotImplementedError → CLI exit 3)**. Live retarget evidence
+  through manifests: static 0.5/1.0 (M2 corpus-drift reproduced),
+  mechanical 4/4 pillars + 11/13 bundle (M3a reproduced), agent 1.0/1.0,
+  fanout 14/14 claims supported + 4/4 pillars (cold 200 s → warm ~0 s).
+  Reports: `evals/2026-10-12-m6-*-report.json`. **Instructions file is
+  byte-aligned to the `run_grounded` constants — regenerate, don't
+  hand-edit one side.** Tests: `tests/test_workloads.py` (8; 37 total).
+  **Disposition (opencode fate): DEFERRED to post-M7 (Brad) — M7 carries a
+  possible third comparator arm (opencode + plumb-MCP); opencode stays live
+  for coding regardless; agent layer stays read-only-research until then.**
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

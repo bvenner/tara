@@ -1,0 +1,15 @@
+{
+  "workload": "tau-sk-grounding",
+  "adapter": "pydantic-agent",
+  "wall_s": 30.9,
+  "metrics": {
+    "runs": [
+      {
+        "claims": 3,
+        "anchors": 45,
+        "citation_support": 1.0,
+        "load_bearing_coverage": 1.0
+      }
+    ]
+  }
+}

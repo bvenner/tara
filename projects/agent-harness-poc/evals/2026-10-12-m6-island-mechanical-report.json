@@ -1,0 +1,39 @@
+{
+  "workload": "island-dt-crosspillar",
+  "adapter": "mechanical-probe",
+  "wall_s": 7.5,
+  "metrics": {
+    "per_lane": {
+      "A-metabolism": {
+        "claims": 2,
+        "anchors": 2,
+        "citation_support": 1.0
+      },
+      "B-3d-standards": {
+        "claims": 2,
+        "anchors": 2,
+        "citation_support": 1.0
+      },
+      "C-digital-twins": {
+        "claims": 6,
+        "anchors": 6,
+        "citation_support": 1.0
+      },
+      "D-geodesign": {
+        "claims": 1,
+        "anchors": 1,
+        "citation_support": 1.0
+      }
+    },
+    "prior_bundle_sections": 13,
+    "bundle_covered_by_union": 11,
+    "union_sections": 11,
+    "pillars_reached": {
+      "A-metabolism": true,
+      "B-3d-standards": true,
+      "C-digital-twins": true,
+      "D-geodesign": true
+    },
+    "pillars_reached_count": 4
+  }
+}

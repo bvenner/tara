@@ -1,0 +1,15 @@
+{
+  "workload": "tau-sk-grounding",
+  "adapter": "static-baseline",
+  "wall_s": 1.5,
+  "metrics": {
+    "runs": [
+      {
+        "claims": 6,
+        "anchors": 13,
+        "citation_support": 0.5,
+        "load_bearing_coverage": 1.0
+      }
+    ]
+  }
+}

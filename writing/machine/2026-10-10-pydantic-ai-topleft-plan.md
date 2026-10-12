@@ -229,6 +229,37 @@ Recorded as open empirical question / candidate milestone:
   (keep for coding sessions / full replacement) on evidence, per the recorded
   "undecided" decision.
 
+### M6 status (2026-10-12)
+
+- **Slice 1 — workloads as data: DONE.** The two flagship workflows are
+  committed JSON manifests (`projects/agent-harness-poc/workloads/`):
+  `tau-sk-grounding.json` and `island-dt-crosspillar.json` (question,
+  shared instruction file, lanes + seeds, expected regions: load-bearing
+  sections / recorded bundle doc / pillar markers). Runner
+  `grounded/workloads.py` + CLI `evals/run_workload.py --workload <id>
+  --adapter <name>`; adapters registered for BOTH stacks (plumb adapters
+  are M7 stubs, CLI exits 3). This is the harness-agnostic input contract
+  the M7 head-to-head consumes — a plumb adapter implementing the same
+  `manifest -> GroundedRun(s)` shape plugs into the identical scorer.
+- **Live retarget evidence (all through manifests):**
+  static-baseline reproduces the M2 finding (citation_support 0.5 /
+  load_bearing 1.0); mechanical probe reproduces M3a (4/4 pillars, 11/13
+  bundle); pydantic-agent = citation_support 1.0 / load_bearing 1.0;
+  pydantic-agent-fanout = 14 claims all supported, union 13 sections,
+  4/4 pillars (cold 200 s → warm ≈0 s on replay). Reports:
+  `evals/2026-10-12-m6-{tau-sk-static,tau-sk-agent,island-mechanical,island-fanout}-report.json`.
+- **Instructions file alignment note:** `workloads/instructions/grounding.md`
+  is regenerated from the `run_grounded` INSTRUCTIONS+CLAIM constants
+  (byte-equal; verified). Drift risk: editing one side only changes the
+  cache key and behavior silently — regenerate, don't hand-edit.
+- **Disposition (opencode fate): DEFERRED to post-M7 (2026-10-12, Brad).**
+  Rationale: M7's head-to-head is more informative with opencode in the
+  comparison set — as a third arm (opencode + plumb-MCP) if it stays, and
+  its exit criteria only become meaningful once both scripted harnesses
+  have scores on the same mechanical scorer. opencode remains live
+  throughout M7 for coding work regardless. The agent layer's
+  read-only-research constraint holds until the decision.
+
 ---
 
 ## 4. Challenges (ranked)
