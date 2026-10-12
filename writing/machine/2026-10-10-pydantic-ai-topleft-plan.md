@@ -189,6 +189,39 @@ proposed:
   missing-env rejection, dotenv loader) — 29 passed. Smoke: `agent pipeline
   contract (plumb check, key-gated)` check added.
 
+### Division of labor — corrected claim (2026-10-12, after upstream verification)
+
+The original framing ("plumbing should only *occasionally* host a bounded
+LLM") overestimated the gap. Verified against upstream plumbing source:
+agentic tool-calling **already exists** (`tools: [...]` + `max_tool_calls`,
+tools backed by agents/processes — `test/fixtures/tool_agent.plumb`), the
+fabric is **docstore-native** (builtin `doc_read/write/edit/grep/list/delete`
+tools over a sandboxed docstore, `tool_dispatch.ml:148-234`), output types
+are compiled into the agent's system prompt with retry-on-mismatch
+(`bin/agent/main.ml:955-965`), pipeline-resolved and MCP-resolved tools are
+supported, and multi-agent routing/control/telemetry primitives cover the
+M3 fan-out shape. **A `researcher.plumb` is feasible** — tool bindings
+wrapping the tara-python exec workers, instructions via `prompts:` files,
+`GroundedAnswer` as typed output, parallel lane agents.
+
+The defensible division is therefore *empirical*, not categorical. Reasons
+the Pydantic AI side currently owns the validated researcher: (1) C1/M3
+acceptance evidence lives there; (2) the evaluation infrastructure —
+citation-support scorer over tool sidecars, entailment judge, fixtures,
+pydantic-evals datasets, agent-output/replay caches (3.3 s warm evals) —
+exists only Python-side; a plumb-side researcher has no independent
+mechanical scorer other than a second plumb judge agent (circular), no
+output caching, no context-management/tool-output spill (only `max_messages`),
+and line-shaped (`amnesiac`) rather than question-scoped session semantics.
+
+Recorded as open empirical question / candidate milestone:
+
+- **M7 (candidate) — researcher-as-plumb experiment.** `pipelines/
+  researcher.plumb` with trace/query/evidence tools bound + `GroundedAnswer`
+  output, evaluated by the *same* mechanical scorer both sides must pass.
+  Resolve the division question with evidence rather than dogma. Not sized
+  or scheduled; awaiting Brad's go.
+
 - **M6 — Cutover / disposition**
   Retarget the key workflows (hypergraph-grounding Q&A, island-DT cross-pillar
   assembly) from opencode chat to scripted agent sessions

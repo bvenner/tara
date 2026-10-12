@@ -204,6 +204,20 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   Tests: `tests/test_agent_pipeline.py` — 29 total passed; smoke gained the
   key-gated `agent pipeline contract (plumb check)` check.
 
+- **Division of labor — corrected claim (2026-10-12).** Verified upstream:
+  plumb agents support tool-calling (`tools:` + `max_tool_calls`,
+  process/agent-backed tools), docstore builtins (sdoc read/grep etc.),
+  typed-output-as-prompt-compilation, pipeline/MCP tool resolution, and
+  multi-agent routing. A `researcher.plumb` is therefore *feasible* — the
+  earlier "plumbing only occasionally hosts LLMs" framing overestimated the
+  gap. Current defense of the Pydantic-AI top layer is empirical, not
+  categorical: the validated researcher (C1/M3) plus eval/judge/fixture/
+  cache infrastructure (citation-support scorer, replay caches) live
+  Python-side, and plumb-side lacks an independent mechanical scorer, agent-
+  output caching, context spill, and question-scoped sessions. **Candidate
+  M7** (Brad's go-awaited): researcher-as-plumb head-to-head on the same
+  mechanical scorer. Full write-up: plan doc, M5 section.
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline
