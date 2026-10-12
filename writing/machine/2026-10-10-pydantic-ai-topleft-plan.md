@@ -252,12 +252,13 @@ Recorded as open empirical question / candidate milestone:
   is regenerated from the `run_grounded` INSTRUCTIONS+CLAIM constants
   (byte-equal; verified). Drift risk: editing one side only changes the
   cache key and behavior silently — regenerate, don't hand-edit.
-- **Disposition (opencode fate): still open — Brad's decision.** Evidence
-  so far: the agent stack now runs both flagship workflows scripted,
-  cache-warm, evaluated; opencode remains the only interface with
-  coding tools and per-AGENTS.md guardrails (the agent layer stays
-  read-only-research by construction). M7 could run as the third arm
-  (opencode + plumb-MCP) if opencode stays.
+- **Disposition (opencode fate): DEFERRED to post-M7 (2026-10-12, Brad).**
+  Rationale: M7's head-to-head is more informative with opencode in the
+  comparison set — as a third arm (opencode + plumb-MCP) if it stays, and
+  its exit criteria only become meaningful once both scripted harnesses
+  have scores on the same mechanical scorer. opencode remains live
+  throughout M7 for coding work regardless. The agent layer's
+  read-only-research constraint holds until the decision.
 
 ---
 

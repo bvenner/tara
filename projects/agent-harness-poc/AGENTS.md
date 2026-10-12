@@ -232,7 +232,9 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   Reports: `evals/2026-10-12-m6-*-report.json`. **Instructions file is
   byte-aligned to the `run_grounded` constants — regenerate, don't
   hand-edit one side.** Tests: `tests/test_workloads.py` (8; 37 total).
-  **Disposition (opencode fate): still open — Brad's decision.**
+  **Disposition (opencode fate): DEFERRED to post-M7 (Brad) — M7 carries a
+  possible third comparator arm (opencode + plumb-MCP); opencode stays live
+  for coding regardless; agent layer stays read-only-research until then.**
 
 ## Testing practice (2026-10-11)
 
