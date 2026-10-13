@@ -259,6 +259,34 @@ def _run_researcher_plumb(topic: str, concepts: list[str], min_seeds: int, lane:
     import os
     import subprocess as sp
 
+    sub_timeout = int(os.environ.get("TARA_PLUMB_SUBPROC_TIMEOUT", "900"))
+
+    def run_guarded(cmd: list[str]):
+        """subprocess.run with a process-group kill on timeout.
+
+        Rationale (slice-2 hang): plumb spawns agent children that inherit
+        the capture pipes; killing only plumb leaves them holding the fds,
+        and communicate() blocks past `timeout` for as long as the agent's
+        LLM connection stalls. start_new_session + killpg is the fix.
+        """
+        import signal
+        from subprocess import Popen, PIPE, TimeoutExpired as TokExpired
+
+        proc = Popen(
+            cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE, text=True, env=env,
+            cwd=PIPES_DIR, start_new_session=True,
+        )
+        try:
+            out, err = proc.communicate(input=stdin_text, timeout=sub_timeout)
+        except TokExpired:
+            try:
+                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+            out, err = proc.communicate()
+            raise TimeoutExpired(cmd, sub_timeout, out, err)
+        return out, err, proc.returncode
+
     sidecar_dir = SIDECAR_ROOT / lane
     sidecar_dir.mkdir(parents=True, exist_ok=True)
     for f in sidecar_dir.glob("*.jsonl"):
@@ -268,21 +296,16 @@ def _run_researcher_plumb(topic: str, concepts: list[str], min_seeds: int, lane:
     env["TARA_PLUMB_SIDECAR"] = str(sidecar_dir / "trace.jsonl")
     payload = None
     stdin_text = json.dumps({"topic": topic, "concepts": concepts, "min_seeds": min_seeds}) + "\n"
-    proc = None
     if PLUMB_BIN.exists():
-        proc = sp.run(
-            [str(PLUMB_BIN), "researcher.plumb"],
-            input=stdin_text, capture_output=True, text=True, timeout=900, env=env,
-            cwd=PIPES_DIR,
-        )
-    if proc is None or proc.returncode != 0:
-        proc = sp.run(
-            ["nix", "develop", str(PLUMB_ROOT), "-c", str(PLUMB_BIN), "researcher.plumb"],
-            input=stdin_text, capture_output=True, text=True, timeout=900, cwd=PIPES_DIR,
-        )
-    if proc.returncode != 0:
-        raise RuntimeError(f"researcher.plumb failed: {proc.stderr.strip()[-400:]}")
-    for line in proc.stdout.splitlines():
+        out, err, rc = run_guarded([str(PLUMB_BIN), "researcher.plumb"])
+    else:
+        rc = 1
+    if rc != 0:
+        out, err, rc = run_guarded(
+            ["nix", "develop", str(PLUMB_ROOT), "-c", str(PLUMB_BIN), "researcher.plumb"])
+    if rc != 0:
+        raise RuntimeError(f"researcher.plumb failed: {err.strip()[-400:]}")
+    for line in out.splitlines():
         line = line.strip()
         if not line:
             continue
@@ -345,13 +368,68 @@ async def run_workload(m: WorkloadManifest, adapter: str, refresh: bool = False)
     return {"workload": m.id, "adapter": adapter, "wall_s": round(time.monotonic() - t0, 1), "metrics": metrics}
 
 
-async def run_workload_full(m: WorkloadManifest, adapter: str, refresh: bool = False, judge: bool = False) -> dict:
-    report = await run_workload(m, adapter, refresh=refresh)
-    if judge:
-        fn = ADAPTERS[adapter]
-        runs = await fn(m, refresh=refresh) if asyncio.iscoroutinefunction(fn) else fn(m, refresh=refresh)
-        report["metrics"]["judged"] = await evaluate_judged(m, runs)
-    return report
+async def run_workload_full(m: WorkloadManifest, adapter: str, refresh: bool = False, judge: bool = False,
+                            n: int = 1) -> dict:
+    """One workload cell. With n>1: the repeat protocol — n fresh runs
+    (cache bypassed), each scored + judged; summary over repeats included."""
+    fn = ADAPTERS.get(adapter)
+    if fn is None:
+        raise ValueError(f"unknown adapter: {adapter}")
+    t0 = time.monotonic()
+    fn_async = asyncio.iscoroutinefunction(fn)
+    repeats = []
+    for i in range(n):
+        t_i = time.monotonic()
+        runs = await fn(m, refresh=refresh or n > 1) if fn_async else fn(m, refresh=refresh or n > 1)
+        metrics = evaluate(m, runs)
+        if judge:
+            runs_judged = await evaluate_judged(m, runs)
+        repeat = {"repeat": i, "wall_s": round(time.monotonic() - t_i, 1), "metrics": {**metrics}}
+        if judge:
+            repeat["metrics"]["judged"] = runs_judged
+        repeats.append(repeat)
+    summary = summarize_repeats(repeats)
+    return {"workload": m.id, "adapter": adapter, "n": n, "wall_s": round(time.monotonic() - t0, 1),
+            "metrics": repeats[0]["metrics"], "repeats": repeats, "summary": summary}
+
+
+def summarize_repeats(repeats: list[dict]) -> dict:
+    """Mean/min/max over repeats for the mechanical metrics + judge-avg."""
+    import statistics as stats
+
+    def _per_repeat_scores(rep):
+        m = rep["metrics"]
+        if "per_lane" in m:
+            css = [c["citation_support"] for c in m["per_lane"].values() if c["citation_support"] is not None]
+            jds = [m["judged"][k]["judge_score"] for k in m["per_lane"] if k in m.get("judged", {})]
+            budgets = [c["claim_budget"][0] for c in m["per_lane"].values() if c.get("claim_budget")]
+            return {
+                "citation_support_min": min(css) if css else None,
+                "judge_avg": sum(jds) / len(jds) if jds else 0.0,
+                "bundle_covered": m.get("bundle_covered_by_union"),
+                "pillars": m.get("pillars_reached_count"),
+                "budget_ok": all(budgets) if budgets else None,
+            }
+        run = m["runs"][0]
+        js = m["judged"]["run0"]["judge_score"] if "judged" in m else None
+        return {
+            "citation_support_min": run["citation_support"],
+            "judge_avg": js,
+            "bundle_covered": None,
+            "pillars": None,
+            "budget_ok": run["claim_budget"][0],
+        }
+
+    rows = [_per_repeat_scores(r) for r in repeats]
+    def agg(key):
+        vals = [r[key] for r in rows if r[key] is not None]
+        if not vals:
+            return None
+        if all(isinstance(v, bool) for v in vals):
+            return sum(bool(v) for v in vals) / len(vals)
+        return {"mean": round(stats.fmean(vals), 3), "min": min(vals), "max": max(vals)}
+
+    return {k: agg(k) for k in ("citation_support_min", "judge_avg", "bundle_covered", "pillars", "budget_ok")}
 
 
 # ── evaluation (GroundedRun shape only — harness-agnostic) ───────
@@ -377,6 +455,7 @@ def evaluate(m: WorkloadManifest, runs: list[GroundedRun]) -> dict:
                     "anchors": len(run.anchors),
                     "citation_support": round(cs, 3),
                     "load_bearing_coverage": round(lb_cov, 3) if lb_cov is not None else None,
+                    "claim_budget": (True, len(claims)) if len(claims) <= 5 else (False, len(claims)),
                 }
             )
         return out
@@ -397,6 +476,7 @@ def evaluate(m: WorkloadManifest, runs: list[GroundedRun]) -> dict:
             "claims": len(claims),
             "anchors": len(run.anchors),
             "citation_support": round(supported_n / len(claims), 3) if claims else None,
+            "claim_budget": (True, len(claims)) if len(claims) <= 5 else (False, len(claims)),
         }
     island_sections = {s for d, s in union if d.startswith("island-dt")}
     pillar_reached = {
@@ -425,17 +505,24 @@ async def evaluate_judged(m: WorkloadManifest, runs: list[GroundedRun]) -> dict:
     agent = build_judge()
     out: dict = {}
     for idx, run in enumerate(runs):
-        verdicts = []
-        for claim in run.answer.claims:
+        claims = run.answer.claims
+        sections = []
+        for claim in claims:
             doc, _, sec = claim.source.partition(" :: ")
-            text = section_text(doc, sec_clean(sec)) or ""
-            j = await judge_claim(agent, text, claim.statement)
-            verdicts.append(j.verdict)
+            sections.append(section_text(doc, sec_clean(sec)) or "")
+        # fan out like the M2 judge evaluator — sequential awaiting made the
+        # repeat protocol unusably slow (one GLM call per claim, per lane)
+        judgements = await asyncio.gather(
+            *[judge_claim(agent, text, claim.statement)
+              for claim, text in zip(claims, sections)]
+        )
+        verdicts = [j.verdict for j in judgements]
         entailed = verdicts.count("ENTAILED")
         insufficient = verdicts.count("INSUFFICIENT")
         denom = len(verdicts) - insufficient
-        out[f"run{idx}" if not m.lanes else (list(m.lanes)[idx] if idx < len(m.lanes) and len(runs) == len(m.lanes) else f"run{idx}")] = {
-            "claims": len(claims := run.answer.claims),
+        label = (list(m.lanes)[idx] if m.lanes and len(runs) == len(m.lanes) else f"run{idx}")
+        out[label] = {
+            "claims": len(claims),
             "judge_score": round(entailed / denom, 3) if denom else 0.0,
             "verdicts": verdicts,
         }

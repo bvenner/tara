@@ -28,13 +28,15 @@ def main() -> int:
     parser.add_argument("--adapter", required=True)
     parser.add_argument("--refresh", action="store_true", help="bypass agent-output cache")
     parser.add_argument("--judge", action="store_true", help="add claim-entailment judging (LLM, cached)")
+    parser.add_argument("--n", type=int, default=1, help="repeat protocol: n fresh runs (slice 2)")
     parser.add_argument("--out", type=Path, default=None)
     args = parser.parse_args()
 
     m = load_manifest(args.workload)
     os.environ.setdefault("PYDANTIC_AI_NO_BANNER", "1")
     try:
-        report = asyncio.run(run_workload_full(m, args.adapter, refresh=args.refresh, judge=args.judge))
+        report = asyncio.run(run_workload_full(
+            m, args.adapter, refresh=args.refresh, judge=args.judge, n=args.n))
     except NotImplementedError as exc:
         print(f"SKIP   {args.workload}/{args.adapter}: {exc}", file=sys.stderr)
         return 3

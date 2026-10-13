@@ -245,9 +245,17 @@ Recorded as open empirical question / candidate milestone:
   discipline (cs 1.0, judge 1.0). The strict scorer caught a real plumb
   citation-format deviation (`doc — [section]`), shimmied by
   `normalize_claim_source` + prompt fix.
-- **M7 slice 2 (next, unscheduled): repeat protocol (n≥3 per cell) for firm
-  rankings; plumb claim-budget enforcement; tool-calling researcher variant
-  as an upstream plumbing feature request (exec-in-tool dispatch).
+- **M7 slice 2 — repeat protocol: DONE (2026-10-12).** n=3 per scripted
+  cell; results + infra fixes in
+  `writing/machine/2026-10-12-m7-slice2-repeat-protocol.md`: cs 1.0
+  zero-variance everywhere; judge tau-sk plumb 1.00 stable vs pydantic
+  0.28 (reproduces the slice-1 sample as real, not a one-off); island
+  0.80 vs 0.73 (tie, overlapping); budget compliance pydantic 100% vs
+  plumb 0%. Infra: judge must be pinned via AGENT_JUDGE in judged sweeps
+  (silent fallback to the exhausted Gemini tier); process-group kill
+  (`run_guarded`) fixes the plumb-agent orphan-pipe hang; judge fan-out
+  in the runner. Remaining open: plumb claim-budget enforcement or
+  upstream cap; tool-calling researcher as an upstream feature request.
 
 - **M6 — Cutover / disposition**
   Retarget the key workflows (hypergraph-grounding Q&A, island-DT cross-pillar
