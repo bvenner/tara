@@ -236,6 +236,38 @@ M0–M6: `writing/machine/2026-10-10-pydantic-ai-topleft-plan.md` (frontmatter
   possible third comparator arm (opencode + plumb-MCP); opencode stays live
   for coding regardless; agent layer stays read-only-research until then.**
 
+- **M7 — slice 1 (head-to-head): DONE (2026-10-12).** Three-arm comparison
+  (opencode / pydantic / plumb) on the same manifests + scorer.
+  `pipelines/researcher.plumb` (prefetch architecture — upstream blocks
+  exec-in-tool dispatch) + `scripts/research_gate.py` worker +
+  section-content prefetch; `normalize_claim_source` shim; opencode arm
+  artifact `grounded-answer-island-dt.md`; judged scoring wired via
+  `run_workload.py --judge`. **Result: plumb competitive (judge 1.00
+  tau-sk single, 0.89 island fan-out vs pydantic 0.00/1.00 and 0.55) —
+  the categorical division-of-labor claim is refuted; one scorer, three
+  arms. Caveats: single samples not benchmark-grade (repeat-protocol slice
+  2); plumb claim-budget leak; opencode 13/13 bundle is a lower-gate
+  artifact.** Full note: `writing/machine/2026-10-12-m7-slice1-comparison.md`.
+  Working division: opencode = interactive researcher + coding; plumb =
+  scripted deterministic backbone + bounded synthesis; pydantic = in-loop
+  tool orchestration (seed autonomy, docstore browsing).
+
+- **M7 — slice 2 (repeat protocol): DONE (2026-10-12).** n=3 per scripted
+  cell (`--judge --n 3`; per-repeat cache bypass; GLM judge; budget-compliance
+  scored). **cs 1.0 zero-variance everywhere; judge: tau-sk plumb 1.00
+  stable vs pydantic 0.28 (reproduces the slice-1 pydantic regression, so
+  it is real); island 0.80 vs 0.73 (tie, overlapping); budget: pydantic
+  100% vs plumb 0%** (no enforcement mechanism in-fabric). Infra fixes
+  during the sweep: AGENT_JUDGE must always be pinned in judged sweeps
+  (the judge silently fell back to the exhausted Gemini tier — two cells
+  were scored by a broken judge); `run_guarded` process-group kill
+  (start_new_session + killpg) fixes the n3 plumb hang (agent grandchildren
+  hold capture pipes past the subprocess timeout); judge fan-out in the
+  workload runner. Reports: `2026-10-12-m7s2-*.json`; full note:
+  `writing/machine/2026-10-12-m7-slice2-repeat-protocol.md`. Working
+  division updated: plumb stronger scripted single-shot; tie on assembly;
+  pydantic for budget-sensitive/needs-in-loop-tools.
+
 ## Testing practice (2026-10-11)
 
 - **Layering:** (1) repo smoke (CI) now includes an *agent harness offline

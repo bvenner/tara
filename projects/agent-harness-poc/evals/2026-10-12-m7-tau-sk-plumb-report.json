@@ -1,0 +1,15 @@
+{
+  "workload": "tau-sk-grounding",
+  "adapter": "plumb-agent",
+  "wall_s": 124.6,
+  "metrics": {
+    "runs": [
+      {
+        "claims": 11,
+        "anchors": 13,
+        "citation_support": 1.0,
+        "load_bearing_coverage": 1.0
+      }
+    ]
+  }
+}

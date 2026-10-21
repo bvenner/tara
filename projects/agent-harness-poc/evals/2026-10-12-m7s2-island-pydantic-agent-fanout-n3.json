@@ -1,0 +1,427 @@
+{
+  "workload": "island-dt-crosspillar",
+  "adapter": "pydantic-agent-fanout",
+  "n": 3,
+  "wall_s": 1087.3,
+  "metrics": {
+    "per_lane": {
+      "A-metabolism": {
+        "claims": 5,
+        "anchors": 15,
+        "citation_support": 1.0,
+        "claim_budget": [
+          true,
+          5
+        ]
+      },
+      "B-3d-standards": {
+        "claims": 5,
+        "anchors": 9,
+        "citation_support": 1.0,
+        "claim_budget": [
+          true,
+          5
+        ]
+      },
+      "C-digital-twins": {
+        "claims": 5,
+        "anchors": 13,
+        "citation_support": 1.0,
+        "claim_budget": [
+          true,
+          5
+        ]
+      },
+      "D-geodesign": {
+        "claims": 5,
+        "anchors": 8,
+        "citation_support": 1.0,
+        "claim_budget": [
+          true,
+          5
+        ]
+      }
+    },
+    "prior_bundle_sections": 13,
+    "bundle_covered_by_union": 13,
+    "union_sections": 16,
+    "pillars_reached": {
+      "A-metabolism": true,
+      "B-3d-standards": true,
+      "C-digital-twins": true,
+      "D-geodesign": true
+    },
+    "pillars_reached_count": 4,
+    "judged": {
+      "A-metabolism": {
+        "claims": 5,
+        "judge_score": 1.0,
+        "verdicts": [
+          "ENTAILED",
+          "INSUFFICIENT",
+          "ENTAILED",
+          "INSUFFICIENT",
+          "ENTAILED"
+        ]
+      },
+      "B-3d-standards": {
+        "claims": 5,
+        "judge_score": 0.667,
+        "verdicts": [
+          "INSUFFICIENT",
+          "INSUFFICIENT",
+          "NOT ENTAILED",
+          "ENTAILED",
+          "ENTAILED"
+        ]
+      },
+      "C-digital-twins": {
+        "claims": 5,
+        "judge_score": 0.5,
+        "verdicts": [
+          "NOT ENTAILED",
+          "NOT ENTAILED",
+          "ENTAILED",
+          "INSUFFICIENT",
+          "ENTAILED"
+        ]
+      },
+      "D-geodesign": {
+        "claims": 5,
+        "judge_score": 0.6,
+        "verdicts": [
+          "ENTAILED",
+          "NOT ENTAILED",
+          "ENTAILED",
+          "NOT ENTAILED",
+          "ENTAILED"
+        ]
+      }
+    }
+  },
+  "repeats": [
+    {
+      "repeat": 0,
+      "wall_s": 267.1,
+      "metrics": {
+        "per_lane": {
+          "A-metabolism": {
+            "claims": 5,
+            "anchors": 15,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "B-3d-standards": {
+            "claims": 5,
+            "anchors": 9,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "C-digital-twins": {
+            "claims": 5,
+            "anchors": 13,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "D-geodesign": {
+            "claims": 5,
+            "anchors": 8,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          }
+        },
+        "prior_bundle_sections": 13,
+        "bundle_covered_by_union": 13,
+        "union_sections": 16,
+        "pillars_reached": {
+          "A-metabolism": true,
+          "B-3d-standards": true,
+          "C-digital-twins": true,
+          "D-geodesign": true
+        },
+        "pillars_reached_count": 4,
+        "judged": {
+          "A-metabolism": {
+            "claims": 5,
+            "judge_score": 1.0,
+            "verdicts": [
+              "ENTAILED",
+              "INSUFFICIENT",
+              "ENTAILED",
+              "INSUFFICIENT",
+              "ENTAILED"
+            ]
+          },
+          "B-3d-standards": {
+            "claims": 5,
+            "judge_score": 0.667,
+            "verdicts": [
+              "INSUFFICIENT",
+              "INSUFFICIENT",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "ENTAILED"
+            ]
+          },
+          "C-digital-twins": {
+            "claims": 5,
+            "judge_score": 0.5,
+            "verdicts": [
+              "NOT ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "INSUFFICIENT",
+              "ENTAILED"
+            ]
+          },
+          "D-geodesign": {
+            "claims": 5,
+            "judge_score": 0.6,
+            "verdicts": [
+              "ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "wall_s": 428.5,
+      "metrics": {
+        "per_lane": {
+          "A-metabolism": {
+            "claims": 5,
+            "anchors": 12,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "B-3d-standards": {
+            "claims": 5,
+            "anchors": 12,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "C-digital-twins": {
+            "claims": 5,
+            "anchors": 11,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "D-geodesign": {
+            "claims": 5,
+            "anchors": 9,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          }
+        },
+        "prior_bundle_sections": 13,
+        "bundle_covered_by_union": 13,
+        "union_sections": 16,
+        "pillars_reached": {
+          "A-metabolism": true,
+          "B-3d-standards": true,
+          "C-digital-twins": true,
+          "D-geodesign": true
+        },
+        "pillars_reached_count": 4,
+        "judged": {
+          "A-metabolism": {
+            "claims": 5,
+            "judge_score": 0.75,
+            "verdicts": [
+              "ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "ENTAILED",
+              "INSUFFICIENT"
+            ]
+          },
+          "B-3d-standards": {
+            "claims": 5,
+            "judge_score": 1.0,
+            "verdicts": [
+              "ENTAILED",
+              "ENTAILED",
+              "ENTAILED",
+              "ENTAILED",
+              "ENTAILED"
+            ]
+          },
+          "C-digital-twins": {
+            "claims": 5,
+            "judge_score": 0.75,
+            "verdicts": [
+              "ENTAILED",
+              "INSUFFICIENT",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "ENTAILED"
+            ]
+          },
+          "D-geodesign": {
+            "claims": 5,
+            "judge_score": 0.6,
+            "verdicts": [
+              "ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "wall_s": 391.7,
+      "metrics": {
+        "per_lane": {
+          "A-metabolism": {
+            "claims": 5,
+            "anchors": 13,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "B-3d-standards": {
+            "claims": 5,
+            "anchors": 12,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "C-digital-twins": {
+            "claims": 5,
+            "anchors": 11,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          },
+          "D-geodesign": {
+            "claims": 5,
+            "anchors": 9,
+            "citation_support": 1.0,
+            "claim_budget": [
+              true,
+              5
+            ]
+          }
+        },
+        "prior_bundle_sections": 13,
+        "bundle_covered_by_union": 13,
+        "union_sections": 14,
+        "pillars_reached": {
+          "A-metabolism": true,
+          "B-3d-standards": true,
+          "C-digital-twins": true,
+          "D-geodesign": true
+        },
+        "pillars_reached_count": 4,
+        "judged": {
+          "A-metabolism": {
+            "claims": 5,
+            "judge_score": 0.333,
+            "verdicts": [
+              "ENTAILED",
+              "NOT ENTAILED",
+              "INSUFFICIENT",
+              "NOT ENTAILED",
+              "INSUFFICIENT"
+            ]
+          },
+          "B-3d-standards": {
+            "claims": 5,
+            "judge_score": 1.0,
+            "verdicts": [
+              "INSUFFICIENT",
+              "INSUFFICIENT",
+              "ENTAILED",
+              "ENTAILED",
+              "ENTAILED"
+            ]
+          },
+          "C-digital-twins": {
+            "claims": 5,
+            "judge_score": 0.6,
+            "verdicts": [
+              "ENTAILED",
+              "NOT ENTAILED",
+              "ENTAILED",
+              "ENTAILED",
+              "NOT ENTAILED"
+            ]
+          },
+          "D-geodesign": {
+            "claims": 5,
+            "judge_score": 1.0,
+            "verdicts": [
+              "INSUFFICIENT",
+              "ENTAILED",
+              "ENTAILED",
+              "ENTAILED",
+              "ENTAILED"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "citation_support_min": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "judge_avg": {
+      "mean": 0.733,
+      "min": 0.69175,
+      "max": 0.775
+    },
+    "bundle_covered": {
+      "mean": 13.0,
+      "min": 13,
+      "max": 13
+    },
+    "pillars": {
+      "mean": 4.0,
+      "min": 4,
+      "max": 4
+    },
+    "budget_ok": 1.0
+  }
+}

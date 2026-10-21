@@ -5,6 +5,7 @@ are deliberately NOT exercised here; the behavioral evidence lives in the
 run-workload CLI reports.
 """
 import asyncio
+import json
 from pathlib import Path
 
 import sys
@@ -45,8 +46,9 @@ def test_load_manifest_missing():
 
 def test_registry_adapters_complete():
     expected = {
-        "static-baseline", "pydantic-agent", "pydantic-agent-fanout",
-        "mechanical-probe", "plumb-agent", "plumb-agent-fanout",
+        "static-baseline", "opencode-artifact", "pydantic-agent",
+        "pydantic-agent-fanout", "mechanical-probe", "plumb-agent",
+        "plumb-agent-fanout",
     }
     assert set(ADAPTERS) == expected
 
@@ -65,11 +67,83 @@ def test_static_baseline_adapter_offline():
     assert run_metrics["load_bearing_coverage"] == 1.0
 
 
-def test_plumb_adapters_are_m7_stubs():
-    m = load_manifest("tau-sk-grounding")
-    for adapter in ("plumb-agent", "plumb-agent-fanout"):
-        with pytest.raises(NotImplementedError):
-            ADAPTERS[adapter](m)
+def test_plumb_adapters_require_seeds():
+    """The plumb arm refuses to run when neither trace seeds nor lanes
+    provide concepts (manifest contract)."""
+    from pydantic import ValidationError
+    from grounded.workloads import WorkloadManifest
+
+    m = WorkloadManifest.model_validate(
+        {"id": "x", "title": "t", "kind": "grounding-qa", "question": "q"}
+    )
+    with pytest.raises(ValueError, match="no seeds"):
+        ADAPTERS["plumb-agent"](m)
+
+
+def test_plumb_payload_parse_offline(tmp_path):
+    from run_grounded import GroundedRun  # noqa: F401
+    from grounded.workloads import parse_plumb_payload
+
+    sidecar = tmp_path / "trace.jsonl"
+    sidecar.write_text(
+        '{"topic": "q", "min_seeds": 3, "tags": [], "seeds": [],'
+        ' "hits": [{"edge_id": "e1", "doc": "d.md", "section": "S",'
+        ' "arity": 2, "seeds": [], "nodes": []}], "distinct_sections": 1}\n'
+    )
+    payload = {
+        "synthesis": "grounded synthesis text",
+        "claims": [
+            {"statement": "c1", "source": "d.md :: S", "trace_edge_ids": ["e1"]},
+            {"statement": "c2", "source": "d.md :: S2"},
+        ],
+    }
+    run = parse_plumb_payload(payload, "q", tmp_path)
+    assert isinstance(run, GroundedRun)
+    assert run.answer.synthesis == "grounded synthesis text"
+    assert len(run.answer.claims) == 2
+    assert run.answer.claims[1].trace_edge_ids == []
+    assert run.anchors == [("d.md", "S")]
+
+
+# Cross-arm scorer contract: the SAME support check scores plumb claims.
+def test_plumb_claim_scoring_parity():
+    from evals.check_citations import supported
+
+    anchors = {("d.md", "S")}
+    assert supported("d.md :: S", anchors)
+    assert not supported("other.md :: S", anchors)
+
+
+def test_normalize_claim_source():
+    from grounded.workloads import normalize_claim_source
+
+    assert normalize_claim_source("d.md — [Some section]") == "d.md :: Some section"
+    assert normalize_claim_source("d.md :: [Some section]") == "d.md :: Some section"
+    # section text may itself contain an em-dash — bracket form keeps it whole
+    assert normalize_claim_source("d.md — [A. Flow layer — the flow layer]") == \
+        "d.md :: A. Flow layer — the flow layer"
+    # canonical form passes through untouched
+    assert normalize_claim_source("d.md :: S") == "d.md :: S"
+
+
+def test_research_gate_fallback_offline():
+    """The deterministic gate worker: trace miss → per-concept query union,
+    with section-content evidence when the resolver is importable. Uses the
+    real (committed) graph artifacts; no nix/LLM/key."""
+    import subprocess as sp
+    import sys as _sys
+
+    script = Path(__file__).resolve().parents[2] / "knowledge-repository-poc" / "scripts" / "research_gate.py"
+    if not script.exists():
+        pytest.skip("research_gate.py not present")
+    p = sp.run([_sys.executable, str(script)],
+               input=json.dumps({"topic": "probe", "concepts": ["digital twin"], "min_seeds": 3}) + "\n",
+               capture_output=True, text=True, timeout=120)
+    assert p.returncode == 0, p.stderr[-300:]
+    tr = json.loads(p.stdout.strip().splitlines()[-1])
+    assert tr["min_seeds"] in (3, 1)
+    assert len(tr["hits"]) > 0            # fallback fire or direct hit
+    assert "evidence" in tr               # content prefetch field present
 
 
 def test_bundle_from_doc():

@@ -22,6 +22,13 @@ Grounding discipline (-binding):
 6. Budget: at most 5 claims — prefer the strongest, most load-bearing
    assertions over an exhaustive list. Every claim must still cite its
    section exactly.
+
+Retrieval surfaces vary by harness surface (opencode session, Pydantic-AI
+agent, plumbing pipeline file): when knowledge_trace/knowledge_query tools
+are available in your context, use them to fetch evidence; when an evidence
+trace is instead supplied in the conversation (deterministic prefetch
+stage), ground strictly in that supplied trace and treat its citations as
+your anchor universe. Either way the discipline above is binding.
 # Claim format
 
 - `statement`: one atomic assertion.

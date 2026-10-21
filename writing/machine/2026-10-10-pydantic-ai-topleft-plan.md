@@ -219,8 +219,43 @@ Recorded as open empirical question / candidate milestone:
 - **M7 (candidate) — researcher-as-plumb experiment.** `pipelines/
   researcher.plumb` with trace/query/evidence tools bound + `GroundedAnswer`
   output, evaluated by the *same* mechanical scorer both sides must pass.
-  Resolve the division question with evidence rather than dogma. Not sized
-  or scheduled; awaiting Brad's go.
+  Resolve the division question with evidence rather than dogma.
+
+### M7 status (2026-10-12)
+
+- **M7 slice 1 — head-to-head: DONE.** Upstream constraint discovered and
+  worked around: exec lowering via agent tool dispatch is not implemented
+  (`tool_not_supported`), so the plumb researcher adopted the **prefetch
+  architecture** (`knowledge-repository-poc/pipelines/researcher.plumb`):
+  new deterministic worker `scripts/research_gate.py` (trace at manifest
+  gate → per-concept-query fallback — the M3a move as a repository
+  service) + **section-content prefetch** (evidence texts, 1200-char
+  budget) feeds the in-fabric agent morphism; synthesis only. Same
+  manifests, same shared instruction file, same mechanical scorer +
+  claim-entailment judge (cache-shared across arms).
+  **Headline: the plumb arm is competitive — judge 1.00 (tau-sk single),
+  0.89 (island fan-out) vs pydantic 0.00/1.00 and 0.55; cs 1.0 both;
+  4/4 pillars, 11-13 bundle. The categorical division-of-labor claim is
+  refuted empirically; all three arms are scorable under one contract.**
+  Full tables + findings in `writing/machine/2026-10-12-m7-slice1-comparison.md`
+  (single-sample caveat: not benchmark-grade until a repeat protocol;
+  plumb claim-budget leaks; opencode arm's 13/13 bundle is a
+  lower-gate artifact, recorded openly). The opencode third arm authored
+  `knowledge-repository-poc/graph/grounded-answer-island-dt.md` through the
+  discipline (cs 1.0, judge 1.0). The strict scorer caught a real plumb
+  citation-format deviation (`doc — [section]`), shimmied by
+  `normalize_claim_source` + prompt fix.
+- **M7 slice 2 — repeat protocol: DONE (2026-10-12).** n=3 per scripted
+  cell; results + infra fixes in
+  `writing/machine/2026-10-12-m7-slice2-repeat-protocol.md`: cs 1.0
+  zero-variance everywhere; judge tau-sk plumb 1.00 stable vs pydantic
+  0.28 (reproduces the slice-1 sample as real, not a one-off); island
+  0.80 vs 0.73 (tie, overlapping); budget compliance pydantic 100% vs
+  plumb 0%. Infra: judge must be pinned via AGENT_JUDGE in judged sweeps
+  (silent fallback to the exhausted Gemini tier); process-group kill
+  (`run_guarded`) fixes the plumb-agent orphan-pipe hang; judge fan-out
+  in the runner. Remaining open: plumb claim-budget enforcement or
+  upstream cap; tool-calling researcher as an upstream feature request.
 
 - **M6 — Cutover / disposition**
   Retarget the key workflows (hypergraph-grounding Q&A, island-DT cross-pillar

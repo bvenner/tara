@@ -1,0 +1,43 @@
+(* M7 researcher-as-plumb (slice 1, prefetch architecture).
+   Deterministic grounding stage: the research gate (trace at the manifest
+   gate; on zero hits, the researcher's per-concept-query fallback — the
+   same move evals/pillars.py uses) renders the evidence context; the
+   in-fabric agent morphism produces the grounded answer under the shared
+   discipline instructions.
+
+   Upstream note: exec lowering via agent tool dispatch is not implemented
+   (tool_dispatch.ml: tool_not_supported), so the tool-calling variant is
+   deferred; this file is the bounded-LLM culmination of the M5 config knob.
+
+   Sidecar: the exec stage tees its structured payload so the harness-agnostic
+   scorer can rebuild the anchor universe (same contract as run_grounded.py
+   tool sidecars). The tee target is parameterized via ${TARA_PLUMB_SIDECAR}
+   (exec args are env-interpolated; the adapter sets it per run/lane — export
+   it manually for ad-hoc runs). *)
+type Question = { topic: string, concepts: [string], min_seeds: number }
+type Seed = { concept: string, matched_nodes: [string] }
+type Hit = { edge_id: string, doc: string, section: string, arity: int, seeds: [string], nodes: [string] }
+type Trace = { topic: string, min_seeds: int, seeds: [Seed], hits: [Hit], distinct_sections: int, evidence: [Evidence] }
+type Evidence = { doc: string, section: string, text: string }
+type Claim = { statement: string, source: string, trace_edge_ids: [string] }
+type GroundedAnswer = { synthesis: string, claims: [Claim] }
+
+let trace_stage : !Question -> !Trace = exec {
+  cmd: "/bin/sh",
+  args: ["-c", "../bin/tara-python ../scripts/research_gate.py | tee -a \"${TARA_PLUMB_SIDECAR}\""]
+}
+
+let researcher : !Trace -> !GroundedAnswer = agent {
+  provider: "openai"
+  model: "z-ai/glm-5.3-flash"
+  api_key: "${OPENROUTER_API_KEY}"
+  endpoint: "https://openrouter.ai/api/v1"
+  prompt: "The user message is the evidence trace JSON produced by this repository's deterministic grounding stage: the 'topic' field holds the research question, 'hits' is the hyperedge evidence universe (doc, section, seeds, nodes), and 'evidence' carries each matched section's source text (cite what the text actually says). Ground your answer strictly in this trace — it is your anchor universe. External works (openalex docs) may have no evidence text: cite them only as bibliographic anchors, never assert their content. Every claim's 'source' field MUST be exactly `<doc> :: <section>` (two colon separators, no brackets, no dashes). Then follow the grounding discipline in your system prompt."
+  amnesiac: true
+  max_retries: 3
+  max_tokens: 16384
+}
+
+let main : !Question -> !GroundedAnswer = plumb(input, output) {
+  input ; trace_stage ; researcher ; output
+}

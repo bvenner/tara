@@ -5,6 +5,7 @@
   "question": "Develop an island digital twin: metabolic flow models on a realistic 3D model of an island, for participatory sustainability planning",
   "instructions_file": "workloads/instructions/grounding.md",
   "adapters": [
+    "opencode-artifact",
     "mechanical-probe",
     "pydantic-agent-fanout",
     "plumb-agent-fanout"
@@ -29,6 +30,10 @@
   },
   "expected": {
     "bundle_doc": "knowledge-repository-poc/graph/evidence-trace-island-dt.md",
+    "static_output": "knowledge-repository-poc/graph/grounded-answer-island-dt.md",
+    "trace_topic": "Develop an island digital twin: metabolic flow models on a realistic 3D model of an island, for participatory sustainability planning",
+    "trace_min_seeds": 1,
+    "trace_seeds": ["island metabolism", "urban metabolism", "city model", "energy ade", "digital twin", "participatory"],
     "pillar_markers": {
       "A-metabolism": "A. Island & urban metabolism",
       "B-3d-standards": "B. 3D city models",
