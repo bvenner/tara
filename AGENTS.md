@@ -8,6 +8,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 2. **Knowledge repository** (active infrastructure: hypergraph + plumbing) — `knowledge-repository-proposal.md` (3 recorded decisions at top), authoritative status: `projects/knowledge-repository-poc/REPORT.md`. Everything is committed & reproducible.
 3. **Island Digital Twin** (active new research question) — `projects/island-digital-twin/literature-review.md`; corpus ingested into the repository; grounding tested (`graph/evidence-trace-island-dt.md`).
 4. **AnyType elimination** (superseded by #2; keep as-is) — `archive/projects/anytype-based-tara/eliminate-anytype-plan.md` (Phase 0 export done to `data/tara_graph.db` + dumps).
+5. **moaiwi-network-poc** (new 2026-10-21: business plan POC for a corporation that is a federation of worker cooperatives; pitch deck + site with live demos for impact investors) — `projects/moaiwi-network-poc/AGENTS.md` → meta-plan in `writing/machine/2026-10-21-moaiwi-network-poc-meta-plan.md`. 30-day sprint to a workshop/panel pitch for R&B DEN-2026 contacts (~2026-11-20, date TBD); feedback stage, then investor-facing materials. Nic presents and gates each phase; Brad builds.
 
 ## Tooling facts (do not re-derive)
 
