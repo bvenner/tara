@@ -101,3 +101,4 @@ Event date, slot length, attendee mix, hybrid platform/AV, site visibility, and 
 - **B3** (capital allocation & business process): §2 economics and objection 5. Supplies the dashboard's structure.
 - **C** (plan content): builds from this memo plus B memos; must not contradict §6.
 - **E** (assembly & rehearsal): uses §7–8 for facilitation; applies §6 disclaimers to every artifact.
+- **All three B memos:** downloaded reference materials are integrated into the hypergraph knowledge repository; claims are grounded and cited `doc :: section`.

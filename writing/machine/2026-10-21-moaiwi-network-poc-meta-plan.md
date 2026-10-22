@@ -30,7 +30,7 @@ project: moaiwi-network-poc
 | Demos | Impact accounting calculator; federation network simulator; financial model dashboard. Shared synthetic illustrative federation dataset. |
 | Deliverable stack | Slidev (live deck) + Marp (PDF handout) + static site with JS demos. |
 | Financial realism | Illustrative unit economics and IRR sketch with explicit assumptions; disclaimers on every artifact. |
-| Knowledge repository | Standalone this sprint; no corpus ingestion. |
+| Knowledge repository | **Reversed 2026-10-21 (Brad):** B1–B3 reference materials are integrated into the hypergraph knowledge repository; memo claims cite `doc :: section`. (Original posture: standalone, no ingestion.) |
 | Naming/branding | Structurally abstract pitch; naming is a key investor input and buy-in mechanism. "moaiwi" is internal only. Harvest naming input at the workshop. |
 | Roles | Nic: main presenter, reviews all outputs before any next phase proceeds. Brad: builds the plan and artifacts, available for questions, not presenting. |
 
@@ -69,7 +69,7 @@ project: moaiwi-network-poc
 - **Output:** `projects/moaiwi-network-poc/framing-memo.md`. Dependent: C, E. Independent: B, D scaffolding.
 
 ### Phase B — Research sprints (Days 5–14, Oct 26–Nov 4) → Gate 2 (staggered)
-Three parallel tracks, each producing an **options memo** (≤3 pp) + **research-proposals list** for the plan's R&D agenda:
+Three parallel tracks, each producing an **options memo** (≤3 pp) + **research-proposals list** for the plan's R&D agenda. **All three tracks integrate their downloaded reference materials into the hypergraph knowledge repository** (OpenAlex works via `pipeline.py expand`; manually-downloaded PDFs staged in `papers/incoming/<key>.pdf` with fulltext `mode:"local"`; rebuild with `build_hypergraph.py --force`) **and ground memo claims as `doc :: section`** per the `hypergraph-grounding` skill. Each track runs from its research plan in `projects/moaiwi-network-poc/research-plans/` (work packages + keyword/search strategy), reviewed before any reference downloads — the pre-download gate:
 - **B1 Architecture & governance:** comparative scan (Mondragon Corporation; Evergreen/Cleveland; union co-op model; steward ownership; platform co-ops; Colorado co-op + benefit-corporation statutes). Governance innovation requirements for the adversarial US context (investor capital vs democratic control; candidate instruments: non-voting capped preferred, steward-ownership/golden share, reserved-matters classes, patient debt/community shares, layered classes). Candidate architectures with trade-offs; **no final recommendation** — the choice is positioned as the audience's and investors' to shape.
 - **B2 Impact accounting:** the aggregation question as the core open research output. Survey: impact-weighted accounts, multi-capital/IRIS+ frameworks, SROI, donut-economics accounting, Ostrom-informed commons accounting; candidate formalisms for "aggregation without prior commitment to scale" (multi-scale with explicit aggregation maps; vector/set-valued impacts; sheaf-theoretic local-to-global composition). Deliver 2–3 candidate formalisms the demos can instantiate.
 - **B3 Capital allocation & business process:** OR/control framing of top-down capital direction; network science + cooperative game theory (Shapley/Owen values, coalition structure, network formation) for surplus and solidarity-fund design; business process model of the co-op lifecycle (formation → funding → scaling → replication/exit). Feeds the financial dashboard's structure.
@@ -104,7 +104,9 @@ Assemble from A+B into the plan the pitch presents:
 ## 5. Deliverables checklist
 
 - [x] Framing memo (A) — `projects/moaiwi-network-poc/framing-memo.md`
+- [x] B1–B3 research plans (work packages + keyword/search strategy; pre-download gate)
 - [ ] Three options memos + research-proposals lists (B1–B3)
+- [ ] B1–B3 reference corpus integrated into the knowledge repository (hypergraph rebuilt)
 - [ ] Business plan content document (C)
 - [ ] Synthetic federation dataset + schema doc (D)
 - [ ] Three browser demos (D1–D3)
@@ -119,7 +121,7 @@ Assemble from A+B into the plan the pitch presents:
 | Risk | Mitigation |
 |---|---|
 | Nic's review bandwidth is the critical path | Compact review packages (≤30 min), staggered gates, defaults-if-silent policy agreed at Gate 0. |
-| 30-day compression | Scope discipline: synthetic data, options-not-decisions, no corpus ingestion; demo scope frozen at Gate 4. |
+| 30-day compression | Scope discipline: synthetic data, options-not-decisions, corpus ingestion limited to B1–B3 reference needs; demo scope frozen at Gate 4. |
 | Audience mis-register (movement wariness of capital) | Framing phase centers economic democracy; capital subordinated; co-optation risk named in the plan, not hidden. |
 | Illustrative numbers read as projections | "Illustrative — synthetic federation data" disclaimer on every artifact, slide, and demo. |
 | Hybrid tech failure | Static hosting, screenshot fallbacks, PDF handout, offline-capable demo builds. |
@@ -128,11 +130,11 @@ Assemble from A+B into the plan the pitch presents:
 
 ## 7. Workspace integration (during implementation)
 
-- `projects/moaiwi-network-poc/` — project dir + `AGENTS.md` resume path linking `writing/machine/` notes; standalone thread (no knowledge-repository ingestion this sprint).
+- `projects/moaiwi-network-poc/` — project dir + `AGENTS.md` resume path linking `writing/machine/` notes; B1–B3 references integrated into the hypergraph knowledge repository (`projects/knowledge-repository-poc/`).
 - `writing/machine/` notes with YAML frontmatter (`title`, `date`, `kind`, `project: moaiwi-network-poc`).
 - Thread entry in workspace `AGENTS.md`.
 - Git: semantic prefixes; commit only when asked; feature branch only; confirm before any push.
 
 ## 8. Out of scope this sprint
 
-Final legal architecture; final governance or investor-instrument decision; real financial projections; name/brand selection; knowledge-repository ingestion; diligence-grade investor materials (that is the next phase, fed by Gate 6 output).
+Final legal architecture; final governance or investor-instrument decision; real financial projections; name/brand selection; corpus ingestion beyond B1–B3 reference needs; diligence-grade investor materials (that is the next phase, fed by Gate 6 output).
