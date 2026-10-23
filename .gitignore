@@ -33,6 +33,12 @@ papers/incoming/*.pdf
 writing/human/*.m4a
 writing/human/*.json
 
+# Audio workspace: recordings, chunk intermediates, and derived transcripts
+# (MOAIWI material; shareability undecided — see 2026-09-28-audio-sharing-options.md)
+Audio/recordings
+Audio/chunks
+Audio/transcripts
+
 # Local graph database
 data/
 
