@@ -1,0 +1,238 @@
+[1.4s–3.6s] Speaker 0: Okay. Beginning recording.
+[3.6s–4.6s] Speaker 0: It is
+[5.4s–6.8s] Speaker 0: 06:36
+[6.8s–10.1s] Speaker 0: thirty on October 23. I'm talking with Nick.
+[11.0s–22.1s] Speaker 1: I feel like one of the So one sec. What is your name? My name is Brad. My name is Nick. There we go. Okay. Well, I think we need to start saying that at the beginning of every single transcript from here on out, unfortunately. Right. So
+[24.7s–27.7s] Speaker 0: I'm working on on developing a new plan
+[27.7s–28.1s] Speaker 0: for
+[30.3s–33.8s] Speaker 0: a a series of products that, Nick and I are sketching out.
+[35.0s–41.5s] Speaker 0: I I believe I have kind of... Because the other products are so much further out, I think they they can be way more speculative.
+[42.0s–46.6s] Speaker 0: But I feel like that this near term project is the one that I probably have the least grasp on,
+[46.8s–51.7s] Speaker 0: and Nick has the most, grasp on. So I think we need to get some of this down,
+[53.5s–54.3s] Speaker 0: to the machine.
+[57.0s–59.7s] Speaker 0: And so I... I've I've
+[59.9s–62.6s] Speaker 0: I've called kind of the the three steps now
+[65.0s–66.1s] Speaker 0: Moabee,
+[66.3s–67.1s] Speaker 0: Haifei,
+[67.1s–67.6s] Speaker 0: and
+[68.2s–69.0s] Speaker 0: Coaptopia.
+[71.5s–81.4s] Speaker 1: Those names those names need some work. I would also say that, like, as as a secondary thing... So here's my approach with names is that every single project needs collaborators.
+[82.0s–89.3s] Speaker 1: No. No. No. Would Well, no. No. Don't say I wanna get this rant up so they don't have extra No. We have we have this role. I have this project has...
+[89.6s–91.3s] Speaker 1: Every single project has...
+[92.3s–94.3s] Speaker 1: Every every single project needs collaborators.
+[94.3s–99.1s] Speaker 1: And in order for collaborators to contribute well, they need to feel some degree of investment in the project.
+[99.7s–100.2s] Speaker 1: And
+[100.9s–105.3s] Speaker 1: it's... This is why it's good to let collaborators name the project because
+[106.0s–119.4s] Speaker 1: it essentially gives you complete control of the technical investment while giving them a large stake in the project, but over a thing that is ultimately meaningless for the broad success of the project. So it's kind of a, like, easy way you give up nothing and they feel very involved in the project type thing.
+[119.8s–123.8s] Speaker 0: Yes. We have that in the audio archive already. Oh, we do? Okay. Never mind.
+[125.6s–126.2s] Speaker 0: So,
+[127.0s–135.3s] Speaker 0: so, yeah, the the names are are are just, you know, meaning meaningless collections of syllables that are just to help the, LLM,
+[135.3s–137.9s] Speaker 0: you know, have a clear reference to to something.
+[138.3s–143.7s] Speaker 0: So so... But I think that the... I guess, the the first stage project is
+[143.7s–144.3s] Speaker 0: to
+[144.7s–147.9s] Speaker 0: develop this tool for impact investors.
+[148.6s–151.7s] Speaker 1: And Well, what is... So what is this tool in a sentence?
+[152.3s–159.6s] Speaker 0: What is this tool in a sentence? Yeah. I... That's why I'm talking to you. Okay. I'm not sure I'm not sure I really have a clear picture
+[159.9s–161.6s] Speaker 0: for how this initial...
+[162.3s–167.8s] Speaker 0: What this initial tool does or looks like. I know I, you know, I put some revenue targets in the prompt,
+[168.3s–171.8s] Speaker 0: you know, and thinking about scaling the the size of the market.
+[172.4s–180.1s] Speaker 0: But I Okay. For for impact investors That's very good. But I don't think that... Well, it's just based on things you said. Like, you would like to be able to make $50,000
+[180.1s–184.9s] Speaker 0: a year in order to support yourself. Yeah. So, you know, we have to think about a tool
+[185.3s–188.9s] Speaker 0: that is... Can scale to produce that sort of revenue.
+[189.5s–190.9s] Speaker 0: And that the tool
+[191.3s–194.7s] Speaker 0: has to either replace existing software perk... Purchases
+[194.9s–195.3s] Speaker 0: or,
+[195.9s–202.3s] Speaker 0: you know, enable impact investors to to bring in more money, which is Or is it... Or alternatively,
+[202.3s–207.8s] Speaker 1: like, it's just a thing that they want done. Like, I think that there there is a secondary part to this, which is that as a researcher
+[208.0s–211.9s] Speaker 1: want done that they're willing to pay for. They want done that they're willing to pay for. But importantly,
+[212.0s–214.9s] Speaker 1: there is an argument that this kind of like research across multiple
+[215.7s–219.0s] Speaker 1: multiple impact investing funds is a thing they would be willing to pay for.
+[220.1s–236.7s] Speaker 1: Like this is not a speculative need. Like one of the things that they were talking about for this like, oh, this would be a great thing to do. We should probably go ahead and think about allocating budget for a person to work on this whole time. Okay. After I brought it up, that's what they immediately said. So that... That's promising. Right. So in though... But those are the sort of conversations I think that are not clearly...
+[237.3s–250.2s] Speaker 0: That have not been transferred to the repository yet. They're still in your head. So I I need to sort of pick at your head in terms of your... I... What they said and what your ideas are. We have some of them, so some of this will be repetitive. But,
+[251.7s–255.0s] Speaker 0: you know, to the extent that you have a you have a sense for
+[258.2s–260.6s] Speaker 0: for what this initial tool is gonna do.
+[261.1s–263.3s] Speaker 0: Because the initial tool is not
+[263.6s–264.9s] Speaker 0: pitched at all towards
+[265.8s–272.6s] Speaker 0: cooperative network sides of it. Right? Right? The initial tool is really pitched towards impact investors as currently...
+[273.4s–275.3s] Speaker 0: As they currently exist in the
+[276.7s–284.3s] Speaker 1: kind of the cooperative landscape. Yeah. Well, I mean... And I think that there's, like, a secondary part of this where it's like, in the medium term, we might be... Might get...
+[285.2s–288.9s] Speaker 1: We... It it might be nice to have some kind of, like, volunteer users
+[289.3s–299.4s] Speaker 1: in the form of cooperatives and cooperative networks or even have a cooperative network using us. One of the things that I am very confident about though is that this product is not going to be providing sufficient value
+[299.7s–304.8s] Speaker 1: to cooperative networks for them to dedicate money to it. So they might be in
+[304.9s–307.7s] Speaker 1: the broad scheme of things, free users, but not paid users.
+[308.6s–316.5s] Speaker 1: Yeah. I think I think I think that's And and and I think that's gonna be the case for a long time. Yeah. I think the second project, which is geared towards unifying
+[316.5s–318.5s] Speaker 0: the cooperative network and the impact investor,
+[319.9s–323.3s] Speaker 0: which was a... Which is is quite different than how
+[323.9s–327.5s] Speaker 0: MundraGaan did it where they started with impact... With an investment.
+[327.7s–329.6s] Speaker 0: We're we're kinda bringing in investing,
+[330.1s–331.0s] Speaker 0: you know, later on.
+[332.2s–339.7s] Speaker 0: But I I think that that that idea of... You know, I think that we've articulated fairly well about how impact investors could
+[339.9s–344.3s] Speaker 0: could use a cooperative network to produce greater returns by,
+[344.3s–346.3s] Speaker 0: you know, producing things more cooperatively.
+[346.5s–351.3s] Speaker 0: I think that's all kind of the second project stuff. So I've lumped that under Haifa,
+[351.4s–356.4s] Speaker 0: but the... It's the first... This first project in terms of... This is something that an impact investor
+[356.4s–361.0s] Speaker 0: would use that wouldn't necessarily provide any value to a cooperative network.
+[362.7s–364.4s] Speaker 0: Or if that's incorrect,
+[364.7s–369.1s] Speaker 0: then let's let's clarify it because that's... That was kind of my understanding. Yeah.
+[371.3s–372.0s] Speaker 1: Okay.
+[373.5s–389.3s] Speaker 0: Cool. So is that incorrect? Or No. That... That's all correct. That is correct. Okay. So can you say a little bit more about the feedback you got from the impact investing community about what they wanted to see in this tool? So I think that there's a couple of things, which is that the the main demand is obviously for, like, a fully done networking stack.
+[389.8s–393.6s] Speaker 1: Okay. Like, there is clearly demand for that,
+[394.4s–403.6s] Speaker 1: and having demand for that would be very good. Okay. And can you say a little bit more about what that stack would include? Oh, that that stack... Well, I think the honest answer is that, like, it didn't...
+[404.5s–434.9s] Speaker 1: The the meeting, the entire thing was brought up for around, like, a minute and then dropped. Got it. Okay. And... But part of the part of the rationale for that is that, like, everyone seems like, oh, having a shared back office or having, like, a shared unified way for, like, getting a software stack back office would be definitely, like, a thing that we could do that would save us all a bunch of money. So, importantly, they're all spending a bunch of money on this. So if they just unified behind one approach and had, like, and had, like, one one kind of unified department handling this for, like, all of the, like... All... I think of all, like, the, like, 10 to 20 investment funds at the table,
+[435.3s–447.0s] Speaker 1: that would be good. That's the thing that they would be interested in. What that stack would entail, I did not get the information at that meeting to detail the stack. So one of the things I'm going to have to do is actually reach out to Rachel soon and
+[447.6s–453.1s] Speaker 1: potentially get them involved with, like, actually go ahead and do reach outs to all of the individual fund groups. Okay.
+[453.4s–454.1s] Speaker 1: Okay.
+[454.5s–462.4s] Speaker 0: So so there's sort of exist... Things that Impact Funds are doing already that they're using software for. Did they mention any particular tools
+[463.1s–467.7s] Speaker 0: that they're using that are expensive, or is this just generic? This is... I assume they exist.
+[467.9s–485.6s] Speaker 1: The... Based on the based on the context of the conversation, I assume that it's a thing that they exist. Okay. And this was also originally Rachel's suggestion too. Okay. So even though I was gonna make it, we were kinda just going around in a circle on the table. But Okay. And and this being the unified back office? The unified back office stack. And the thing that I suggested was specifically,
+[485.9s–489.4s] Speaker 1: hey. All of you are funds. All of you guys should be having some form of research,
+[489.9s–531.9s] Speaker 1: Some for... Some form of, like, research or analytics that a larger fund might have just so that you can actually, like, make sure... Just so that you can go ahead and, like, not waste money on hobby. Like, if if there's, like, one clear and obvious pattern where it's like every time you give money in this investment vehicle to this kind of specific group of people, it always goes south all of the time and ends up having very poor outcomes for everyone involved. Uh-huh. That might be data that's very hard to tease apart inside individual firms who might make, like, two of those investments. But overall, if the entire group has made, like, 30 of those investments, it's very easy to just pull that out from the data. Okay. And that's the thing that they said, yes. That's the thing we would a 100% do. In order for us to do that, we would have to find the money for a staff member to work that full time, and that's the thing that we should potentially do as soon as we have, like, a better vision for how that works out Okay. Is where they left out with that.
+[532.7s–539.5s] Speaker 1: But, importantly, like, I think that there's there... The the whole point of the conversation is that, like, unlike every other group, I got the impression that there's gold in them hills. So
+[541.8s–561.4s] Speaker 1: Right. As opposed to, like, any other group where it's like... Any other group would be like, oh, let's go ahead and try to attract volunteer labor to do this for free. And they're immediately like, okay. Then this is a service that we need. How would we allocate money to this to make sure this person can get paid? Right. And this is the thing that all of them were immediately on immediately. So I'm like, okay. First off, we have, like... This is a good... This is a sign that these people are going to be not shit ass customers.
+[561.8s–563.7s] Speaker 1: Uh-huh. And it's it's important,
+[564.2s–568.8s] Speaker 1: and I may have some trauma about this. It's important to target customers that are, like, actually willing to give you money.
+[569.5s–573.1s] Speaker 1: So first off, like, very good signs on average. Right? Okay.
+[573.5s–588.0s] Speaker 1: And the main thing I need to do for, like, the first, like, combined back office deck is really just have a lot of conversation with Rachel. You might wanna join in on those. Maybe, maybe not. So Okay. So one of the things I put in my write up was that you're... There's probably some sort of common core
+[588.4s–590.9s] Speaker 0: between Fortress and Moai that
+[592.1s–603.4s] Speaker 1: you would you would pull out, and then you would try to develop the con... Business to consumer features on one end. Is it is it... I personally see this as just like a... Like, maybe a closed... Maybe like a...
+[603.9s–615.2s] Speaker 1: I mean, I don't even know if it needs to be a closed source extension. I think that it's... I think that we can say that it's, like, it's technically offered as a... It's technically offered under a GPL v three or under a BSL or something similar. Uh-huh.
+[616.0s–618.5s] Speaker 1: Yeah. Or a BSL or something similar. And...
+[619.1s–621.3s] Speaker 1: But if you're wanting to run your own instance of it,
+[621.7s–628.7s] Speaker 1: you can go ahead and... But, yeah, it's like like, it's essentially on there, and then we're essentially charging for that addition on top of the Fortress stack
+[629.4s–632.5s] Speaker 1: is the way that I would probably go ahead and run it. Okay.
+[632.9s–635.1s] Speaker 0: And is it You would give them the
+[635.6s–636.6s] Speaker 0: the video
+[637.5s–658.9s] Speaker 1: and audio? Well, I would I would give them... I would... Well, so the thing is that, like, the... First off, like, every single Fortress stack is, an enabled thing, so there's a dashboard on there. Right. And then you can enable or disable the dashboards. And the parts of it that are enabled or disabled, if it isn't enabled, it doesn't actually show up in your source tree at all. Okay. It only... The Dereviate, it's it's it's kinda like on next pack... If on a next packages machine,
+[659.2s–665.4s] Speaker 1: there are hypothetically, like, every single Linux package installed could be on your machine, but it's not because it's not in your config.
+[665.9s–672.2s] Speaker 1: And that... That's how it works for all of the services. Okay. So you can literally just add services ad infinitum, and they're all declarative.
+[672.6s–687.2s] Speaker 1: So the the system will be the exact same if you add a service or delete a service. Okay. But, fundamentally, there's a bit of a lazy value. But, like, the way that NixOS does this is that technically every single package is, like, on your package on your system. Like, you can run a command on any package.
+[688.6s–691.6s] Speaker 1: But, again, it's the fact that it's kind of lazily evaluated.
+[692.2s–698.0s] Speaker 1: So the fact that it's lazily evaluated means that the program is kind of under the impression that every single package is in the store at all times.
+[698.9s–718.3s] Speaker 1: But the lazy evaluation makes it that only those packages your system needs are actually installed. Okay. So that's that's kinda how that works for that. And, like, under that mention, don't necessarily need to be worried about, oh, are we introducing a bunch of tech debt? Like, I mean, the service declarations exist on every single thing. So, like, all the services that are defined... Like, if somebody... There's, meditate about, here's what all the services could potentially be if they were invoked.
+[718.7s–724.6s] Speaker 1: And, like, here's what the names of them are. But, like, that's kind of the only... That's, like, the only overhead in that system. Okay. But...
+[725.2s–731.7s] Speaker 1: Fuck. I hate talking. But Okay. I'll get some water. No. I I need to get water. But... And I also need... Actually,
+[733.4s–734.4s] Speaker 1: there was a...
+[734.7s–736.5s] Speaker 1: I I left a
+[737.8s–738.7s] Speaker 1: pseudoephedrine
+[739.9s–741.2s] Speaker 1: sheet in here somewhere.
+[742.8s–745.9s] Speaker 0: I did ask you to clean up your desk, so it's probably my fault.
+[746.2s–748.7s] Speaker 0: So I'm gonna pause this. No. Keep going. So
+[749.3s–758.5s] Speaker 0: It's down. It's down. So I'm I'm obviously most interested in the medium and long term projects, and I'm probably least able to help on the short term project.
+[759.8s–767.0s] Speaker 1: But That's probably true. The short term project is more likely to be me... A me and Rachel thing. For sure. But I but I could, you know, I can research,
+[767.1s–774.2s] Speaker 0: you know you know, if we are thinking about... I mean, one of the things we talked about was a a tool for measuring impact
+[774.6s–776.7s] Speaker 0: that would be a little bit different than
+[777.0s–777.8s] Speaker 0: the, you know,
+[779.0s–788.1s] Speaker 0: generating impact with the... On the Cooperative Network side. But would you would you wanna just do something like, here's how we document and assess the impact that our,
+[788.5s–805.0s] Speaker 1: you know, investments have produced? I I think that for the beginning, I think that for the initial tool, that is a thing we should experiment with, but it's not a service we should provide. Okay. We should we should explicitly tell them that it's like like, if we're talking about the Impact Fund Investor, we should be like, this is a feature we are currently working on.
+[806.5s–818.4s] Speaker 1: It is and is a thing we're currently even maybe going so far as to do user interviews for it. But I think, ultimately, in terms of, like, what we're providing them first, it's good to... It's better to provide them something that is well spec ed and suited to their... Suiting their expectations first.
+[818.6s–823.4s] Speaker 1: It's it's better to provide them something that is well scoped first and is meeting their expectations
+[823.5s–836.3s] Speaker 1: as opposed to delivering them something that is weird that might not meet their expectations, even if we manage to implement it very well. So it kind of... There... There's an argument to this where, like, it kind of, at some level, would need to...
+[836.7s–838.7s] Speaker 1: At at at some level, it would kind of
+[839.6s–842.9s] Speaker 1: need to do the stuff that a regular thing would be doing.
+[843.2s–850.9s] Speaker 1: Kind of. It needs to be kind of like a lot. It needs it needs to, at some point in time, be somewhat lossless where, like, it is kind of capable of replicating existing structures.
+[851.4s–852.0s] Speaker 1: Okay.
+[853.3s–872.8s] Speaker 1: I think that just kind of a... That's a that's a requirement... That's a... Both a user requirement because they are going to expect thing... They're going to... There's a good chance that they will be expecting financial software that looks and behaves, at least on the surface, like other financial software they interact with. But also, this is kinda getting into the broader things that, like, even if you have a much more mathematically rich
+[873.1s–874.0s] Speaker 1: interior
+[874.0s–874.7s] Speaker 1: system,
+[874.9s–879.0s] Speaker 1: that interior still has to... Still has a boundary with a
+[879.6s–881.8s] Speaker 1: system that is much smaller in dimension.
+[882.2s–891.0s] Speaker 1: So you have a... You you you have, like, a discontinuity there going from a very complex, like, internal modeling space of, like, all of the production networks of a cooperative to a
+[891.2s–893.8s] Speaker 1: to a very simple, like, one dimensional linear space.
+[894.3s–899.3s] Speaker 0: Well, I I... Let let me just clarify. I don't think that the modeling, the cooperative stuff
+[899.5s–900.5s] Speaker 0: is what
+[901.4s–919.6s] Speaker 0: the impact assessment tool would do. Because I don't think I don't think many of... I bet if you look at the stories that they're telling about impact, probably very few of them are relating to a cooperative network. I don't think any of them do, but you know what I think most of them do have in common? Most of them have in common
+[920.1s–935.4s] Speaker 1: how the investments that they make impact the material needs of people in their community. Right. So that... That's kinda like my big thing where it's like, well, what exactly is the benefit of more education inside a group? What exactly is the benefit of having fewer houses with lead paint?
+[935.6s–939.7s] Speaker 1: Like, I mean, you could you could do the EPA thing where, like, what, life equals $8,600,000,000,
+[939.7s–942.6s] Speaker 1: or maybe it's higher now. I... Maybe they updated it for inflation or something.
+[943.0s–943.5s] Speaker 1: But...
+[944.0s–962.9s] Speaker 1: And then you could go ahead and figure out, oh, well, what is the financial impact of this? But, fundamentally, like, that's kind of like that that is in and of itself the the reduction of finances there for good outcomes is part of the problem, potentially. Okay. Right. So I I think I think one one research project related to the first stage then is really
+[963.4s–964.5s] Speaker 0: is doing...
+[966.9s–968.6s] Speaker 0: Researching impact investing,
+[969.3s–970.6s] Speaker 0: you know, as a sector.
+[971.3s–977.6s] Speaker 0: Right? I think we should have a pretty good sense for for what funds are out there, what people are doing,
+[978.5s–979.9s] Speaker 0: which funds are growing,
+[981.0s–982.9s] Speaker 0: you know, where is the whole field.
+[983.5s–984.1s] Speaker 0: So
+[984.9s–993.0s] Speaker 0: I I... Because I think that is... Ultimately, I think, you know, one way to grow your your business to where you can sustain yourself is to
+[993.7s–997.2s] Speaker 0: appeal to other impact investing funds that aren't necessarily
+[997.4s–1008.8s] Speaker 1: in this cooperative space. I think that's true. I think that in general, if we are... How do I say this? If we can provide a service that works to these 20 funds, that meets the $50,000 threshold criteria.
+[1008.8s–1022.4s] Speaker 1: The big issue is providing the customers that we have something valuable, which is always a hard thing to do for any customer, especially customers as demanding as these people. Yeah. I would I would be shocked if those those companies are spending $2,500
+[1022.4s–1023.9s] Speaker 0: a year on software.
+[1024.4s–1026.3s] Speaker 1: Is that right? I don't think so.
+[1028.1s–1030.1s] Speaker 1: Yeah. 2,500 a year...
+[1030.4s–1036.0s] Speaker 1: Like, let's think about this. 2,500 a year is around 400 a month, which I think is very reasonable
+[1036.5s–1041.7s] Speaker 1: for a business who is probably like... For... Especially like a financial engineering business.
+[1042.1s–1043.7s] Speaker 1: Uh-huh. Like, for sure.
+[1044.1s–1048.1s] Speaker 0: Well, it... That would be because they're they're using a tool that would be
+[1049.3s–1050.6s] Speaker 0: somewhat custom.
+[1051.4s–1055.6s] Speaker 1: You know? Well, not even that. I'm saying that, like, for just, like, very standard
+[1056.0s–1059.6s] Speaker 1: accounting tools that hedge funds would use, that is a very low rate.
+[1061.2s–1081.4s] Speaker 0: Well, that's still a somewhat custom piece of software. Right? That that's not not something you're gonna get up on Google Docs. Oh, yeah. Oh, for sure. Or in the Google Workspace. Right? So you're looking at... So I think I think one of the so one of the big It's custom for the industry is the thing that I should say. So, obviously, you know, one of the big r r and d targets for this first phase is figuring out what they spend,
+[1081.8s–1083.2s] Speaker 0: what they spend it on,
+[1083.6s–1089.2s] Speaker 0: and, you know, what the names of those tools are. For sure. Yeah. So that's... And that's something you indicated that you and Rachel
+[1089.7s–1095.8s] Speaker 1: will potentially be doing. Yeah. I need to talk I need to talk her into it first, but I think I can I can probably manage?
+[1096.2s–1096.9s] Speaker 1: Okay.
+[1100.4s–1103.4s] Speaker 0: No. It's My my guess is you my guess is you will need a larger
+[1103.9s–1106.0s] Speaker 0: selection of funds to get the will.
+[1106.2s–1107.9s] Speaker 1: But the thing is is that, ultimately...
+[1108.9s–1109.4s] Speaker 1: Like,
+[1109.7s–1113.5s] Speaker 1: my marketing strategy for this group of people, they said you can call it a marketing strategy,
+[1113.6s–1115.1s] Speaker 1: is it's not b to c marketing.
+[1116.1s–1122.0s] Speaker 1: You can't go in there and say, like, oh, well, we would want to go ahead and, like, do this thing really well.
+[1122.4s–1132.6s] Speaker 1: Right. Like, the only the only way that we would... So how do I say this? Like, the biggest problem with any b to b business is having an in. And we don't just have an in. We have 20 ins. Mhmm.
+[1133.8s–1141.6s] Speaker 1: And they're already kind of interested in doing a thing like this anyway. Right. So the the way that you would traditionally... Once you have, like, 20 or so customers
+[1142.2s–1167.6s] Speaker 1: is you go ahead and go to every single customer and then you beat them. And then you you take them to a base, but then you beat them until they give you the list of all their contacts, then you go ahead and get those contacts. Yeah. Or you spend a year making them really happy so that they Yeah. Is it like... Well, but the thing is they'll only they'll only agree to give you contacts for other people if it's a thing that they really like and it's a thing that's worth doing. Right. And most of that, they will voluntarily share that information as well. So, like, I think that importantly, like, we're at a point in time right now where,
+[1168.6s–1173.1s] Speaker 1: like, how do I say this? Like, one of the... It's important that we don't just have one customer. We have 20.
+[1174.1s–1191.2s] Speaker 1: But it's also important that these customers, like, relatively big. Like, there might only be 200 impact investors, which means that right now we have warm intros to 10% of our... All of our potential customers. Right. But but Which is which is a problem if you're... If we're trying to be very big. But, again, like, how do I say this? Like, I don't think there is, like...
+[1191.6s–1199.3s] Speaker 1: This is maybe wrong. I don't necessarily know if there's a lot of value in trying to get more customers until we provide something of value to the customers we already have.
+[1200.1s–1201.2s] Speaker 1: Are you being keen?
+[1204.9s–1209.7s] Speaker 0: I agree. So to me, this looks like a probably a year long project. Yes.
+[1210.1s–1212.6s] Speaker 0: You know, I think before you would think about a phase two.
+[1213.8s–1228.5s] Speaker 1: Yeah. Well, I mean, but but importantly, like, I think that there is a... What we are trying to do here... It's important to have a vision. It's very important to have a vision for what you're doing Yeah. So that you actually can make good decisions in the year long term. Right. I agree. So I agree. And I'm
+[1228.5s–1240.5s] Speaker 0: I'm more than happy to work on on, you know, on doing, you know But also like research on some of the longer term things. It's it's it's... But the thing is, like, at some point in time, like, how do I say this? I
+[1241.1s–1242.0s] Speaker 1: don't
+[1242.0s–1242.7s] Speaker 1: think
+[1242.8s–1250.9s] Speaker 1: most pure find... This is this is going to come back to bite me so hard. I do not think that most of the software
+[1251.2s–1254.6s] Speaker 1: that these hedge funds are using internally for their dashboards
+[1254.6s–1256.6s] Speaker 1: is that complicated.
+[1256.8s–1257.4s] Speaker 1: Right.
+[1257.5s–1259.4s] Speaker 1: Like... And this is...
+[1260.0s–1264.6s] Speaker 1: This could be a bunch of things. This could just be, like, my relatively dim view of economists and finance people.
+[1266.1s–1267.0s] Speaker 1: Like,
+[1267.0s–1268.1s] Speaker 1: fundamentally,
+[1268.1s–1279.2s] Speaker 1: like, fundamentally, the services that they are looking for are not, like... It... It's like... I mean, I'm I'm kinda thinking about this where it's like... There there are kinda like two guys sold out there. There's, like, the Apple interface
+[1279.2s–1283.2s] Speaker 1: for an iPhone is isn't really doing anything complicated.
+[1283.7s–1303.6s] Speaker 1: Like, if you wanted to do a shitty clone of it, you could probably, like, mock one up in maybe, like, a couple months, like the entire Apple settings menu. But part of what makes that complicated is that it's had literal billions of dollars put into UI and polish. Right. And you might be able to copy some of that, but, fundamentally, like, a lot of that stuff is interactive stuff that is not immediately copyable.
+[1304.2s–1314.8s] Speaker 1: So you're gonna find yourself in a lot of trouble if you try to do something like that. So, like, that that has a lot of complexity, but a lot the complexity is hidden in how it interacts something. And then there's also, like, another tool like GAP, which is, like, a...
+[1315.9s–1318.9s] Speaker 1: The general computational library for all group theory.
+[1319.4s–1331.1s] Speaker 1: So, like, essentially, it's it's a CLI where you can, like, put it in there. You can, like, name specific groups and then solve specific problems in group The UI for that is so simple that, like, you you could, again, replicate the UI in, like, a couple days. You could replicate the commands.
+[1331.5s–1341.0s] Speaker 1: Like, if you just wanted the command line interface, like, on the way that you would interact with Gap, you could probably replicate that out in, like, a couple days. But building the functionality in Gap would take multiple year... Would take...
+[1341.7s–1346.0s] Speaker 1: Has taken mathematicians literally around twenty years to develop all that software. Right.
+[1346.8s–1351.5s] Speaker 1: Now the thing about, like, financial engineering firms is they aren't doing anything anywhere near as complicated
+[1351.8s–1355.6s] Speaker 1: as gap or even, like, something as complicated as, like, a CAD program,
+[1356.0s–1360.9s] Speaker 1: which is very complicated, but it's also still kind of a thing you can build a prototype of relatively quickly.
+[1362.0s–1369.3s] Speaker 1: And, also, because it's a very small group of people selected, like, a very... It's kind of a small piece of software targeted to select group of people.
+[1369.8s–1390.9s] Speaker 1: It's also not really going to have the same, like, UI polish that a product like Apple would have. And this is true for, like, a lot of enterprise software. So I'm, like, thinking that it's like... And and, like, fundamentally, a lot of, like, really good software in this space really comes from, like, understanding, like, what exactly are the specific use cases of your clients and then implementing those features, even if those features on the broad scale of things are not super technically complicated.
+[1391.0s–1392.9s] Speaker 1: Okay. So I think that that's...
+[1393.0s–1397.4s] Speaker 1: Like, I think that there is there is a part of it that is feasible in that regard, but we're also trying to give them something more.
+[1399.8s–1419.8s] Speaker 0: Right. Right. So... But we... But right now, we're Yeah. How we give them something more is, unfortunately, gonna be very technically complex. And we and we don't know what we don't know what that something more is. I I have a idea of what that something more is. Okay. But I'm not sure you know enough about it right now to think about mocking something up for the... This initial presentation.
+[1420.2s–1441.6s] Speaker 1: For this initial presentation, no. Think... Initial presentation should be basically a fortress demo. I think I think for... Well, I think it should be a fortress demo. And I think that, like... And I think that as... So first off, like, if we're doing user interviews to figure out what the back office needs are Yeah. We could also go ahead and figure out, like, oh, well, it's like if you were going to have this research... Go ahead and figure out, like, well, what are the existing tools for this retail software kind of lured up on what they are for existing hedge funds?
+[1442.2s–1474.9s] Speaker 1: And then kind of ask them, like, oh, well, if you were going to use something like this, like, what would be your use cases for it? And then, like, listen to them complain about, like, what they think their current use cases for a thing like this could be. And a lot of this is really just simple that it's like when you're making an investment decision, and a lot of this can... You can just glean from them in the way that it's like, when you're making an investment decision, what part of the... When you're making an uncertain investment decision, what part of that process is really painful, and what do you wish you had more info on? And just kind of, like, listen and ramble on that. That might essentially... That might lead to a problem that's ultimately unsolvable, but there's a lot of nuggets. You can kind of get by that, like, very open ended user interview type process.
+[1475.0s–1475.6s] Speaker 0: Okay.
+[1477.0s–1479.7s] Speaker 1: Doing that's hard, but, like, again, most of the stuff we're doing here is hard.
+[1481.0s–1481.6s] Speaker 1: But...
+[1482.3s–1488.1s] Speaker 1: So I think it should be a Why are you being so mean? I think it should be a demo of this,
+[1488.6s–1490.7s] Speaker 1: a proposal for the research thing.
+[1491.1s–1499.4s] Speaker 1: And so it it should be a demo of, like, the fortress with kind of, like, the b two... Like, the b two b client stuff. Okay. It should be a
+[1499.9s–1500.8s] Speaker 1: proposal
+[1500.8s–1509.3s] Speaker 1: for, like, the research stack on kind of, like, a very... Like, it's just imitating... Like, it's it's kind of just, at this point in time, trying to just be an expandable subs
+[1509.0s–1511.8s] Speaker 1: an expandable subset of what already currently exists.
+[1512.2s–1524.9s] Speaker 1: It is it is expandable and inflatable subset of what already exists. So you can inflate it up to these, like, higher mathematical attractions that we're wanting to do, but it can also kind of grow... It can get it started as, like, a small feature set of, like, current functionality that people would actually want.
+[1525.4s–1526.0s] Speaker 1: Mhmm.
+[1526.3s–1533.3s] Speaker 1: And then it can kind of grow from there. We can go and say, hey. This is what we were proposing. And then for longer term business, we can make vague promises.
+[1533.7s–1538.1s] Speaker 1: And making vague promises is fine. Making vague promises... No one ever went to jail for making vague promises.
+[1538.5s–1538.8s] Speaker 1: So
+[1539.7s–1541.8s] Speaker 0: Yeah. Yeah. Okay.
+[1542.2s–1561.3s] Speaker 1: So that... That's kind of... That... That's kind of my thing if I had to, like, ramble about it a lot. Alright. I I think this has been helpful. I think this will give the machine a little bit more to crunch on. But I do want it I do want it to focus on near term stuff. Well... But but importantly, I also think we should... I also think maybe you wanna pause this conversation then resume another long term conversation so that the short and long term things are kind of separated in different files potentially.
+[1561.8s–1567.0s] Speaker 0: Do you wanna talk about the long term stuff? I do. Okay. So let's... I'm gonna pause this and
+[1567.5s–1569.7s] Speaker 0: save this recording, then we'll start a long term conversation.
