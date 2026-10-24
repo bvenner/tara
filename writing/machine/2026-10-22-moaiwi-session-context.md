@@ -34,7 +34,7 @@ Both applied to `writing/machine/2026-10-22-moaiwi-transcripts-review.md` on bra
 
 - **Public repo for now:** MOAIWI material (transcripts included) develops in the public repo — the `.gitignore` "shareability undecided" comment is superseded for now (decision 2026-10-22).
 - **v2 scheme:** v1 docs stay authoritative; the `-v2` copies are drafts with *(v2)* markers + changelogs for Nic's diff-style review; folding approved comments into v1 (or making v3) happens after the gate.
-- **Gate 0 logistics** remain deferred (in meta-plan §2); **§5 of the review still holds two unresolved decisions for Nic**: (a) scope collision (his 1-month prototype vs conference sprint), (b) pitch register (quant-shiny vs movement language) — plus the resilience debate and debt-posture inconsistency.
+- **Superseded 2026-10-22 / 2026-10-24:** all seven §5 items are now decided (scope collision resolved as one combined sprint; horizon-dependent register; resilience out of the pitch; validation track; equity-only; research-question tax framing; Rachel on the roster), and the v3 rewrite directive in `writing/human/moaiwi-revision-proposal.md` supersedes the v2 document set. Gate 0 logistics remain deferred (meta-plan §2).
 - Sequencing preference: create feature branches **before** committing (never commit to main); merge-commit style for PRs (preserves SHAs so local main stays consistent).
 
 ## 5. Resume checklist (post-compaction)

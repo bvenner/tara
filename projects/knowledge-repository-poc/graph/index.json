@@ -1,5 +1,5 @@
 {
- "hypergraph_sha": "595a4ee9506f50de679311d0dcf77b609245f972d1eace10835bd9fb326ca5da",
+ "hypergraph_sha": "f98c70cf256c9756d00b4dbb7112db367613e69526c94b356d18f831145da99a",
  "index": {
   "keyword:capital stocks": [
    "e0"
@@ -248,7 +248,7 @@
    "e209",
    "e282",
    "e309",
-   "e386"
+   "e399"
   ],
   "notation:gravitation": [
    "e3",
@@ -682,8 +682,8 @@
   "keyword:thermodynamics": [
    "e21",
    "e28",
-   "e425",
-   "e429"
+   "e481",
+   "e487"
   ],
   "section:[grmela & \u00f6ttinger - generic and multiscale thermodynamics]": [
    "e21"
@@ -696,8 +696,8 @@
   ],
   "keyword:extended irreversible thermodynamics": [
    "e22",
-   "e407",
-   "e429"
+   "e444",
+   "e487"
   ],
   "keyword:extended thermodynamics": [
    "e22"
@@ -707,7 +707,7 @@
    "e26",
    "e61",
    "e308",
-   "e419"
+   "e467"
   ],
   "section:[jou, casas-v\u00e1zquez & lebon - extended irreversible thermodynamics; ruggeri & sugiyama (2015)]": [
    "e22"
@@ -895,7 +895,7 @@
   "keyword:social architecture": [
    "e33",
    "e220",
-   "e408"
+   "e445"
   ],
   "section:[wright (2005) - the social architecture of capitalism]": [
    "e33"
@@ -1875,7 +1875,7 @@
   ],
   "keyword:peer-to-peer smart grid using digital twins": [
    "e149",
-   "e435"
+   "e502"
   ],
   "section:[c. digital twins - the container (urban theory, island practice, eu policy)]": [
    "e149"
@@ -2151,14 +2151,50 @@
    "e399",
    "e400",
    "e401",
-   "e402"
+   "e402",
+   "e403",
+   "e404",
+   "e405",
+   "e406",
+   "e407",
+   "e408",
+   "e409",
+   "e410",
+   "e411",
+   "e412",
+   "e413",
+   "e414",
+   "e415",
+   "e416",
+   "e417",
+   "e418",
+   "e419",
+   "e420",
+   "e421",
+   "e422",
+   "e423",
+   "e424",
+   "e425",
+   "e426",
+   "e427",
+   "e428",
+   "e429",
+   "e430",
+   "e431",
+   "e432",
+   "e433",
+   "e434",
+   "e435",
+   "e436"
   ],
   "section:[head]": [
    "e153",
    "e216",
    "e245",
    "e306",
-   "e342"
+   "e342",
+   "e355",
+   "e416"
   ],
   "keyword:http": [
    "e154"
@@ -2173,14 +2209,14 @@
   "keyword:integrable quantum systems": [
    "e155",
    "e200",
-   "e405"
+   "e442"
   ],
   "keyword:quantum systems": [
    "e155",
    "e156",
    "e158",
-   "e388",
-   "e425"
+   "e401",
+   "e481"
   ],
   "keyword:generic many-body quantum systems": [
    "e156"
@@ -2198,7 +2234,8 @@
    "e156"
   ],
   "section:[1. introduction]": [
-   "e156"
+   "e156",
+   "e346"
   ],
   "keyword:briefly discuss chaotic dynamics": [
    "e157"
@@ -2222,7 +2259,7 @@
    "e158",
    "e173",
    "e199",
-   "e405"
+   "e442"
   ],
   "keyword:quantum chaos builds came": [
    "e158"
@@ -2503,7 +2540,7 @@
   ],
   "keyword:infinite temperature": [
    "e177",
-   "e392"
+   "e405"
   ],
   "keyword:infinite temperature state": [
    "e177",
@@ -2943,7 +2980,8 @@
   "section:[references]": [
    "e215",
    "e244",
-   "e305"
+   "e305",
+   "e436"
   ],
   "keyword:authors": [
    "e217"
@@ -2976,7 +3014,8 @@
    "e243"
   ],
   "section:[abstract]": [
-   "e219"
+   "e219",
+   "e345"
   ],
   "keyword:social dependence mediated": [
    "e220"
@@ -3346,7 +3385,7 @@
   ],
   "keyword:thermoelectric devices involving single electron transport": [
    "e247",
-   "e413"
+   "e450"
   ],
   "section:[udo seifert]": [
    "e247"
@@ -3359,7 +3398,7 @@
    "e278",
    "e300",
    "e321",
-   "e413"
+   "e450"
   ],
   "keyword:entropy production seriously": [
    "e249"
@@ -3980,7 +4019,7 @@
   ],
   "keyword:rational extended thermodynamic theory": [
    "e308",
-   "e419"
+   "e467"
   ],
   "keyword:energy density gll": [
    "e309",
@@ -3994,7 +4033,7 @@
   ],
   "section:[i. introduction]": [
    "e309",
-   "e345"
+   "e358"
   ],
   "keyword:equilibrium distribution function": [
    "e310",
@@ -4149,7 +4188,7 @@
   ],
   "keyword:system": [
    "e322",
-   "e419"
+   "e467"
   ],
   "section:[v. et theory with seven independent fields: et 7]": [
    "e322"
@@ -4381,2179 +4420,3842 @@
   "section:[appendix: proof of statement 2]": [
    "e341"
   ],
-  "keyword:mathematical": [
+  "section:[are cooperative societies transforming into cooperative companies?: reflections on the finnish cooperatives act]": [
    "e343"
+  ],
+  "section:[are cooperative societies transforming into cooperative companies? : reflections on the finnish cooperatives act: ovatko osuuskuntayhteis\u00f6t muuttumassa osuuskuntayhti\u00f6iksi : vertailua suomen osuuskuntalakiin]": [
+   "e344"
+  ],
+  "keyword:cooperative law": [
+   "e345",
+   "e348",
+   "e470"
+  ],
+  "keyword:cooperative law using": [
+   "e345",
+   "e470"
+  ],
+  "keyword:national cooperative laws adopting elements": [
+   "e345",
+   "e470"
+  ],
+  "keyword:finnish cooperative law": [
+   "e346",
+   "e347",
+   "e354"
+  ],
+  "keyword:international cooperative law research": [
+   "e346",
+   "e352"
+  ],
+  "keyword:situation regarding cooperative law research seems": [
+   "e346"
+  ],
+  "keyword:second finnish cooperative law": [
+   "e347"
+  ],
+  "keyword:third finnish cooperative law": [
+   "e347"
+  ],
+  "section:[2. a brief introduction to finnish cooperative law]": [
+   "e347"
+  ],
+  "keyword:drafting cooperative law": [
+   "e348"
+  ],
+  "keyword:explain cooperative law": [
+   "e348"
+  ],
+  "section:[3. the objectives of cooperatives and the general principles of cooperative law - reflections on the fca]": [
+   "e348"
+  ],
+  "keyword:cooperative membership": [
+   "e349"
+  ],
+  "keyword:nkner calls cooperative shares classical shares": [
+   "e349"
+  ],
+  "keyword:term cooperative shares compulsory capital contributions": [
+   "e349"
+  ],
+  "keyword:traditional cooperative shares": [
+   "e349"
+  ],
+  "section:[3.1. voluntary and open membership]": [
+   "e349"
+  ],
+  "section:[3.2. democratic member control]": [
+   "e350"
+  ],
+  "keyword:cooperative capital": [
+   "e351"
+  ],
+  "keyword:cooperative law theory membership": [
+   "e351"
+  ],
+  "keyword:member control makes cooperative shares rather unattractive": [
+   "e351"
+  ],
+  "keyword:subscribed cooperative capital shall": [
+   "e351"
+  ],
+  "section:[3.3. members economic participation]": [
+   "e351"
+  ],
+  "keyword:cooperative law theory": [
+   "e352"
+  ],
+  "keyword:cooperative members": [
+   "e352",
+   "e509"
+  ],
+  "keyword:fourth cooperative principle": [
+   "e352"
+  ],
+  "section:[3.4. autonomy and independence]": [
+   "e352"
+  ],
+  "keyword:cooperative principles": [
+   "e353"
+  ],
+  "keyword:last three cooperative principles": [
+   "e353"
+  ],
+  "keyword:seventh cooperative principles read": [
+   "e353"
+  ],
+  "section:[3.5. other cooperative principles]": [
+   "e353"
+  ],
+  "keyword:international cooperative law theory": [
+   "e354"
+  ],
+  "section:[4. conclusions]": [
+   "e354"
+  ],
+  "keyword:mathematical": [
+   "e356"
   ],
   "keyword:physics": [
-   "e343"
+   "e356"
   ],
   "section:[the role of quantum information in thermodynamics-a topical review]": [
-   "e343"
+   "e356"
   ],
   "keyword:quantum fluctuation relations": [
-   "e344"
+   "e357"
   ],
   "keyword:quantum information theory": [
-   "e344",
-   "e345",
-   "e346",
-   "e348",
-   "e389",
-   "e400",
-   "e425"
+   "e357",
+   "e358",
+   "e359",
+   "e361",
+   "e402",
+   "e413",
+   "e481"
   ],
   "section:[the role of quantum information in thermodynamics - a topical review]": [
-   "e344"
+   "e357"
   ],
   "keyword:quantum information": [
-   "e345",
-   "e348",
-   "e378",
-   "e393",
-   "e425"
+   "e358",
+   "e361",
+   "e391",
+   "e406",
+   "e481"
   ],
   "keyword:quantum information theory-which": [
-   "e345"
+   "e358"
   ],
   "keyword:quantum state": [
-   "e345",
-   "e356",
-   "e360",
-   "e364",
+   "e358",
+   "e369",
+   "e373",
    "e377",
-   "e380",
-   "e381",
-   "e386",
-   "e388",
-   "e397",
-   "e398"
+   "e390",
+   "e393",
+   "e394",
+   "e399",
+   "e401",
+   "e410",
+   "e411"
   ],
   "keyword:quantum states necessary": [
-   "e345"
+   "e358"
   ],
   "keyword:see quantum theory": [
-   "e345"
+   "e358"
   ],
   "keyword:quantum information community": [
-   "e346"
+   "e359"
   ],
   "keyword:quantum information theorists": [
-   "e346"
+   "e359"
   ],
   "keyword:quantum mechanics": [
-   "e346",
-   "e350"
+   "e359",
+   "e363"
   ],
   "section:[fig. 1: maxwells demon]": [
-   "e346"
+   "e359"
   ],
   "keyword:applying different unitary transformations": [
-   "e347"
+   "e360"
   ],
   "keyword:shannon entropy": [
-   "e347"
+   "e360"
   ],
   "keyword:total entropy increase": [
-   "e347"
+   "e360"
   ],
   "keyword:von neumann entropy": [
-   "e347"
+   "e360"
   ],
   "section:[fig. 2: the thermodynamic origin of the von neumann entropy]": [
-   "e347"
+   "e360"
   ],
   "keyword:fully quantum mechanical perspective": [
-   "e348"
+   "e361"
   ],
   "keyword:quantum information perspective": [
-   "e348"
+   "e361"
   ],
   "keyword:quantum information processing": [
-   "e348",
-   "e378"
+   "e361",
+   "e391"
   ],
   "section:[scope and other reviews]": [
-   "e348"
+   "e361"
   ],
   "keyword:states": [
-   "e349"
+   "e362"
   ],
   "section:[definitions and notation]": [
-   "e349"
+   "e362"
   ],
   "keyword:microscopic theory": [
-   "e350"
+   "e363"
   ],
   "keyword:progress made": [
-   "e350"
+   "e363"
   ],
   "keyword:quantum theory": [
-   "e350"
+   "e363"
   ],
   "keyword:statistical mechanics state": [
-   "e350"
+   "e363"
   ],
   "section:[ii. foundations of statistical mechanics]": [
-   "e350"
+   "e363"
   ],
   "keyword:physical states": [
-   "e351"
+   "e364"
   ],
   "keyword:priori probabilities states": [
-   "e351"
+   "e364"
   ],
   "keyword:random pure states": [
-   "e351"
+   "e364"
   ],
   "keyword:typical physical states": [
-   "e351"
+   "e364"
   ],
   "section:[a. equal a priori probabilities postulate as a consequence of typicality in hilbert spaces]": [
-   "e351"
+   "e364"
   ],
   "keyword:certain state": [
-   "e352"
+   "e365"
   ],
   "keyword:equilibrium state introduced": [
-   "e352"
+   "e365"
   ],
   "keyword:initial state": [
-   "e352"
+   "e365"
   ],
   "keyword:initial state dephased": [
-   "e352"
+   "e365"
   ],
   "keyword:reduced state": [
-   "e352"
+   "e365"
   ],
   "keyword:time averaged state": [
-   "e352"
+   "e365"
   ],
   "section:[b. equilibration. maximum entropy principle from quantum dynamics]": [
-   "e352"
+   "e365"
   ],
   "keyword:gibbs ensemble": [
-   "e353"
+   "e366"
   ],
   "keyword:gibbs state": [
-   "e353"
+   "e366"
   ],
   "keyword:gibbs state need": [
-   "e353"
+   "e366"
   ],
   "keyword:global gibbs state": [
-   "e353"
+   "e366"
   ],
   "keyword:local gibbs state": [
-   "e353"
+   "e366"
   ],
   "section:[c. thermalization. emergence of gibbs states in local hamiltonians]": [
-   "e353"
+   "e366"
   ],
   "keyword:equilibration process takes": [
-   "e354"
+   "e367"
   ],
   "keyword:equilibration time": [
-   "e354"
+   "e367"
   ],
   "keyword:equilibration times": [
-   "e354"
+   "e367"
   ],
   "keyword:reasonable equilibration time": [
-   "e354"
+   "e367"
   ],
   "keyword:short equilibration times": [
-   "e354"
+   "e367"
   ],
   "keyword:whose equilibration times": [
-   "e354"
+   "e367"
   ],
   "section:[d. equilibration times]": [
-   "e354"
+   "e367"
   ],
   "keyword:classify quantum systems": [
-   "e355"
+   "e368"
   ],
   "keyword:many body quantum systems": [
-   "e355"
+   "e368"
   ],
   "keyword:quantum information theory-to find initial conditions": [
-   "e355"
+   "e368"
   ],
   "keyword:satisfactory quantum notion": [
-   "e355"
+   "e368"
   ],
   "section:[e. outlook]": [
-   "e355",
-   "e389",
-   "e399"
+   "e368",
+   "e402",
+   "e412"
   ],
   "keyword:allowed state transformations": [
-   "e356"
+   "e369"
   ],
   "keyword:state transformations": [
-   "e356",
-   "e363"
+   "e369",
+   "e376"
   ],
   "keyword:thermal state": [
-   "e356",
-   "e396"
+   "e369",
+   "e409"
   ],
   "section:[iii. resource theories]": [
-   "e356"
+   "e369"
   ],
   "keyword:allowed operations": [
-   "e357"
+   "e370"
   ],
   "keyword:different models": [
-   "e357"
+   "e370"
   ],
   "keyword:good spherical cow tradition": [
-   "e357"
+   "e370"
   ],
   "keyword:resource theories": [
-   "e357",
-   "e374"
+   "e370",
+   "e387"
   ],
   "keyword:reversible operations": [
-   "e357"
+   "e370"
   ],
   "section:[a. models for thermodynamics]": [
-   "e357"
+   "e370"
   ],
   "keyword:fully mixed state": [
-   "e358"
+   "e371"
   ],
   "keyword:fully mixed states": [
-   "e358"
+   "e371"
   ],
   "keyword:state": [
-   "e358"
+   "e371"
   ],
   "keyword:state space": [
-   "e358",
-   "e372"
+   "e371",
+   "e385"
   ],
   "keyword:two sets-noisy operations": [
-   "e358"
+   "e371"
   ],
   "section:[1. noisy and unital operations]": [
-   "e358"
+   "e371"
   ],
   "keyword:equilibrium states": [
-   "e359"
+   "e372"
   ],
   "keyword:gibbs states": [
-   "e359",
-   "e365"
+   "e372",
+   "e378"
   ],
   "keyword:model physical reversible transformations": [
-   "e359"
+   "e372"
   ],
   "section:[2. thermal operations]": [
-   "e359"
+   "e372"
   ],
   "keyword:general quantum states": [
-   "e360"
+   "e373"
   ],
   "keyword:gibbs-preserving map": [
-   "e360"
+   "e373"
   ],
   "keyword:maps": [
-   "e360"
+   "e373"
   ],
   "keyword:so-called gibbs-preserving maps": [
-   "e360"
+   "e373"
   ],
   "keyword:still use gibbs-preserving maps": [
-   "e360"
+   "e373"
   ],
   "keyword:thermal operations": [
-   "e360"
+   "e373"
   ],
   "section:[3. gibbs-preserving maps]": [
-   "e360"
+   "e373"
   ],
   "keyword:coherence reservoir would": [
-   "e361"
+   "e374"
   ],
   "keyword:coherence reservoirs": [
-   "e361"
+   "e374"
   ],
   "keyword:create coherence": [
-   "e361"
+   "e374"
   ],
   "keyword:draw coherence": [
-   "e361"
+   "e374"
   ],
   "keyword:much coherence": [
-   "e361"
+   "e374"
   ],
   "keyword:quantum coherence": [
-   "e361"
+   "e374"
   ],
   "section:[4. coherence]": [
-   "e361"
+   "e374"
   ],
   "keyword:quantities represent optimal conversion rates": [
-   "e362"
+   "e375"
   ],
   "section:[example 1: free energy as a monotone.]": [
-   "e362"
+   "e375"
   ],
   "keyword:catalytic properties stay unaffected": [
-   "e363"
+   "e376"
   ],
   "keyword:desired state": [
-   "e363"
+   "e376"
   ],
   "keyword:final state": [
-   "e363"
+   "e376"
   ],
   "keyword:impose operational constraints": [
-   "e363"
+   "e376"
   ],
   "keyword:impose reasonable energy": [
-   "e363"
+   "e376"
   ],
   "section:[5. catalysts]": [
-   "e363"
+   "e376"
   ],
   "keyword:hamiltonian applied": [
-   "e364"
+   "e377"
   ],
   "keyword:time-dependent hamiltonian": [
-   "e364"
+   "e377"
   ],
   "keyword:time-independent hamiltonian": [
-   "e364"
+   "e377"
   ],
   "section:[6. clocks]": [
-   "e364"
+   "e377"
   ],
   "keyword:gibbs states come": [
-   "e365"
+   "e378"
   ],
   "keyword:passive states": [
-   "e365"
+   "e378"
   ],
   "keyword:thermal states": [
-   "e365"
+   "e378"
   ],
   "section:[7. free states and passivity]": [
-   "e365"
+   "e378"
   ],
   "keyword:build heat engines": [
-   "e366"
+   "e379"
   ],
   "keyword:build two-qubit heat engines": [
-   "e366"
+   "e379"
   ],
   "keyword:general heat engines": [
-   "e366"
+   "e379"
   ],
   "section:[example 2: heat engines]": [
-   "e366"
+   "e379"
   ],
   "keyword:baths": [
-   "e367"
+   "e380"
   ],
   "keyword:general conserved quantities": [
-   "e367"
+   "e380"
   ],
   "keyword:model thermal momentum baths": [
-   "e367"
+   "e380"
   ],
   "keyword:operators like": [
-   "e367"
+   "e380"
   ],
   "keyword:results outlined above suggest": [
-   "e367"
+   "e380"
   ],
   "section:[8. different baths]": [
-   "e367"
+   "e380"
   ],
   "keyword:draw arbitrary thermal subsystems": [
-   "e368"
+   "e381"
   ],
   "keyword:heat bath": [
-   "e368"
+   "e381"
   ],
   "keyword:large bath": [
-   "e368"
+   "e381"
   ],
   "keyword:large energy gap": [
-   "e368"
+   "e381"
   ],
   "section:[9. finite-size effects]": [
-   "e368"
+   "e381"
   ],
   "keyword:single-shot": [
-   "e369"
+   "e382"
   ],
   "keyword:single-shot free energy": [
-   "e369"
+   "e382"
   ],
   "keyword:single-shot regime": [
-   "e369"
+   "e382"
   ],
   "keyword:studies consider exact state transformations": [
-   "e369"
+   "e382"
   ],
   "section:[10. single-shot regime]": [
-   "e369"
+   "e382"
   ],
   "keyword:average work": [
-   "e370"
+   "e383"
   ],
   "keyword:define work": [
-   "e370"
+   "e383"
   ],
   "keyword:valid work function": [
-   "e370"
+   "e383"
   ],
   "keyword:work storage": [
-   "e370"
+   "e383"
   ],
   "keyword:work storage system": [
-   "e370"
+   "e383"
   ],
   "section:[11. definitions of work]": [
-   "e370"
+   "e383"
   ],
   "keyword:abstract": [
-   "e371"
+   "e384"
   ],
   "keyword:common features": [
-   "e371"
+   "e384"
   ],
   "keyword:generalize": [
-   "e371"
+   "e384"
   ],
   "keyword:let": [
-   "e371"
+   "e384"
   ],
   "keyword:particular resource theories": [
-   "e371"
+   "e384"
   ],
   "keyword:think": [
-   "e371"
+   "e384"
   ],
   "section:[b. generalizing resource theories]": [
-   "e371"
+   "e384"
   ],
   "keyword:abstract state space equipped": [
-   "e372"
+   "e385"
   ],
   "keyword:allowed transformations": [
-   "e372"
+   "e385"
   ],
   "keyword:allowed transformations imposes": [
-   "e372"
+   "e385"
   ],
   "keyword:monotones become single-shot versions": [
-   "e372"
+   "e385"
   ],
   "section:[1. starting from the pre-order]": [
-   "e372"
+   "e385"
   ],
   "keyword:free resources": [
-   "e373"
+   "e386"
   ],
   "keyword:free state": [
-   "e373"
+   "e386"
   ],
   "keyword:free states": [
-   "e373"
+   "e386"
   ],
   "keyword:resource": [
-   "e373"
+   "e386"
   ],
   "keyword:two free states": [
-   "e373"
+   "e386"
   ],
   "section:[2. starting from the set of free resources]": [
-   "e373"
+   "e386"
   ],
   "keyword:authors identify quantitative theories": [
-   "e374"
+   "e387"
   ],
   "keyword:many different resources": [
-   "e374"
+   "e387"
   ],
   "section:[3. in category theory]": [
-   "e374"
+   "e387"
   ],
   "keyword:completely unknown state": [
-   "e375"
+   "e388"
   ],
   "keyword:perform logical operations": [
-   "e375"
+   "e388"
   ],
   "keyword:results use quantum information processing techniques": [
-   "e375"
+   "e388"
   ],
   "keyword:reversible operations followed": [
-   "e375"
+   "e388"
   ],
   "section:[example 3: landauers principle]": [
-   "e375"
+   "e388"
   ],
   "keyword:different agents perspectives": [
-   "e376"
+   "e389"
   ],
   "keyword:embed macroscopic descriptions": [
-   "e376"
+   "e389"
   ],
   "keyword:quantum resource theories like thermal operations": [
-   "e376"
+   "e389"
   ],
   "keyword:traditional large-scale thermodynamics": [
-   "e376"
+   "e389"
   ],
   "section:[4. resource theories of knowledge]": [
-   "e376"
+   "e389"
   ],
   "keyword:coherent quantum states": [
-   "e377"
+   "e390"
   ],
   "keyword:find meaningful resource theories": [
-   "e377"
+   "e390"
   ],
   "keyword:find optimal coherent catalysts": [
-   "e377"
+   "e390"
   ],
   "keyword:find transformations": [
-   "e377"
+   "e390"
   ],
   "section:[c. outlook]": [
-   "e377"
+   "e390"
   ],
   "keyword:quantum scale": [
-   "e378"
+   "e391"
   ],
   "keyword:resource theory": [
-   "e378"
+   "e391"
   ],
   "keyword:thermodynamic considerations cannot": [
-   "e378"
+   "e391"
   ],
   "keyword:unavoidable thermodynamic considerations": [
-   "e378"
+   "e391"
   ],
   "section:[iv. entanglement theory in thermodynamic settings]": [
-   "e378"
+   "e391"
   ],
   "keyword:best conceivable operation creating entanglement": [
-   "e379"
+   "e392"
   ],
   "keyword:entanglement theory classically correlated states come": [
-   "e379"
+   "e392"
   ],
   "keyword:genuine multipartite entanglement": [
-   "e379"
+   "e392"
   ],
   "keyword:maximally mixed state": [
-   "e379"
+   "e392"
   ],
   "keyword:paradigmatic resource state": [
-   "e379"
+   "e392"
   ],
   "section:[a. correlations and entanglement under entropic restrictions]": [
-   "e379"
+   "e392"
   ],
   "keyword:always induce work cost related": [
-   "e380"
+   "e393"
   ],
   "keyword:bipartite quantum states": [
-   "e380",
-   "e381"
+   "e393",
+   "e394"
   ],
   "keyword:inevitable work cost": [
-   "e380"
+   "e393"
   ],
   "keyword:inevitable work cost arising": [
-   "e380"
+   "e393"
   ],
   "keyword:initial quantum states however still": [
-   "e380"
+   "e393"
   ],
   "keyword:quantum information processing resource": [
-   "e380"
+   "e393"
   ],
   "keyword:work cost": [
-   "e380"
+   "e393"
   ],
   "keyword:work cost coming purely": [
-   "e380"
+   "e393"
   ],
   "section:[b. correlations and entanglement in a thermodynamic background]": [
-   "e380"
+   "e393"
   ],
   "keyword:additional locality restrictions": [
-   "e381"
+   "e394"
   ],
   "keyword:creating quantum information processing re- sources": [
-   "e381"
+   "e394"
   ],
   "keyword:pure states": [
-   "e381"
+   "e394"
   ],
   "keyword:pure states coincides": [
-   "e381"
+   "e394"
   ],
   "keyword:thermodynamic operations": [
-   "e381"
+   "e394"
   ],
   "section:[c. thermodynamics under locality restrictions]": [
-   "e381"
+   "e394"
   ],
   "keyword:entangling unitaries enable work extraction": [
-   "e382"
+   "e395"
   ],
   "keyword:extract work indicates": [
-   "e382"
+   "e395"
   ],
   "keyword:extracting work": [
-   "e382"
+   "e395"
   ],
   "keyword:local work extraction": [
-   "e382"
+   "e395"
   ],
   "keyword:particular work extraction problem": [
-   "e382"
+   "e395"
   ],
   "keyword:work extraction purposes": [
-   "e382"
+   "e395"
   ],
   "section:[d. entanglement resources in thermodynamic tasks]": [
-   "e382"
+   "e395"
   ],
   "keyword:directly imply entanglement": [
-   "e383"
+   "e396"
   ],
   "keyword:fact often many low energy eigenstates even": [
-   "e383"
+   "e396"
   ],
   "keyword:local hamiltonians feature entanglement": [
-   "e383"
+   "e396"
   ],
   "keyword:low average energy directly implies": [
-   "e383"
+   "e396"
   ],
   "keyword:underlying entanglement present": [
-   "e383"
+   "e396"
   ],
   "section:[e. using thermodynamics to reveal quantumness]": [
-   "e383"
+   "e396"
   ],
   "keyword:adaptively quantifies possible resources": [
-   "e384"
+   "e397"
   ],
   "keyword:capture one specific aspect": [
-   "e384"
+   "e397"
   ],
   "keyword:genuine quantum effects": [
-   "e384"
+   "e397"
   ],
   "keyword:processing quantum information": [
-   "e384"
+   "e397"
   ],
   "keyword:resource theories always": [
-   "e384"
+   "e397"
   ],
   "section:[f. outlook]": [
-   "e384"
+   "e397"
   ],
   "keyword:externally controlled work parameter lambda": [
-   "e385"
+   "e398"
   ],
   "keyword:quantum work distribution": [
-   "e385",
-   "e386"
+   "e398",
+   "e399"
   ],
   "keyword:quantum work distribution therefore encodes fluctuations": [
-   "e385"
+   "e398"
   ],
   "keyword:work distribution corresponding": [
-   "e385"
+   "e398"
   ],
   "keyword:work parameter lambda": [
-   "e385"
+   "e398"
   ],
   "section:[a. introduction]": [
-   "e385"
+   "e398"
   ],
   "keyword:evolving quantum system": [
-   "e386"
+   "e399"
   ],
   "keyword:quantum system": [
-   "e386"
+   "e399"
   ],
   "keyword:quantum work statistics": [
-   "e386"
+   "e399"
   ],
   "keyword:work quantum statistics": [
-   "e386"
+   "e399"
   ],
   "section:[b. phase estimation schemes for extraction of quantum work and heat statistics]": [
-   "e386"
+   "e399"
   ],
   "keyword:feedback based fluctuation theorems": [
-   "e387"
+   "e400"
   ],
   "keyword:feedback controlled scenario": [
-   "e387"
+   "e400"
   ],
   "keyword:feedback fluctuation theorems": [
-   "e387"
+   "e400"
   ],
   "keyword:non-equilibrium feedback": [
-   "e387"
+   "e400"
   ],
   "keyword:performing feedback control": [
-   "e387"
+   "e400"
   ],
   "section:[c. fluctuation relations with feedback, measurement and cptp maps]": [
-   "e387"
+   "e400"
   ],
   "keyword:correlated quantum systems": [
-   "e388"
+   "e401"
   ],
   "keyword:general quantum correlations": [
-   "e388"
+   "e401"
   ],
   "keyword:non-equilibrium quantum sys- tems": [
-   "e388"
+   "e401"
   ],
   "section:[d. entropy production, relative entropy and correlations]": [
-   "e388"
+   "e401"
   ],
   "keyword:quantum fluctuation theorems": [
-   "e389"
-  ],
-  "keyword:small non-equilibrium quantum system": [
-   "e389"
-  ],
-  "keyword:one thermal bath": [
-   "e390"
-  ],
-  "keyword:quantum machines": [
-   "e390"
-  ],
-  "keyword:quantum thermal machines": [
-   "e390",
-   "e396",
-   "e399"
-  ],
-  "keyword:quantum thermodynamics concerning quantum thermal machines": [
-   "e390"
-  ],
-  "keyword:small quantum thermal machines": [
-   "e390"
-  ],
-  "section:[vi. quantum thermal machines]": [
-   "e390"
-  ],
-  "keyword:absorption refrigerator": [
-   "e391"
-  ],
-  "keyword:room temperature reservoir": [
-   "e391"
-  ],
-  "keyword:three thermal baths": [
-   "e391"
-  ],
-  "keyword:three thermal reservoirs": [
-   "e391"
-  ],
-  "section:[a. absorption refrigerators]": [
-   "e391"
-  ],
-  "keyword:inverse temperature": [
-   "e392"
-  ],
-  "section:[example 5: algorithmic cooling]": [
-   "e392"
-  ],
-  "keyword:authors studied quantum discord": [
-   "e393"
-  ],
-  "keyword:quantum correlation weaker": [
-   "e393"
-  ],
-  "keyword:quantum discord": [
-   "e393"
-  ],
-  "keyword:whether quantum correlations": [
-   "e393"
-  ],
-  "section:[1. stationary behaviour]": [
-   "e393"
-  ],
-  "keyword:entanglement": [
-   "e394"
-  ],
-  "keyword:entanglement found": [
-   "e394"
-  ],
-  "keyword:entanglement generated": [
-   "e394"
-  ],
-  "keyword:even genuine multipartite entanglement": [
-   "e394"
-  ],
-  "keyword:multipartite entanglement": [
-   "e394"
-  ],
-  "section:[fig. 5: three-qubit fridge]": [
-   "e394"
-  ],
-  "keyword:rabi oscillations": [
-   "e395"
-  ],
-  "keyword:strong-interaction case rabi oscillations indeed take place": [
-   "e395"
-  ],
-  "keyword:undergo rabi oscillations": [
-   "e395"
-  ],
-  "section:[2. transient behaviour]": [
-   "e395"
-  ],
-  "keyword:fact squeezed thermal states": [
-   "e396"
-  ],
-  "keyword:squeezed thermal state": [
-   "e396"
-  ],
-  "keyword:squeezed thermal state appears hotter": [
-   "e396"
-  ],
-  "keyword:thermal reservoir": [
-   "e396"
-  ],
-  "section:[b. reservoir engineering]": [
-   "e396"
-  ],
-  "keyword:genuinely using quantum effects": [
-   "e397"
-  ],
-  "keyword:quantum behaviour": [
-   "e397"
-  ],
-  "keyword:quantum engine": [
-   "e397"
-  ],
-  "keyword:quantum thermo signatures": [
-   "e397"
-  ],
-  "keyword:separable quantum state": [
-   "e397"
-  ],
-  "section:[c. quantum thermodynamic signatures]": [
-   "e397"
-  ],
-  "keyword:experimentally accessible situations steady state entanglement": [
-   "e398"
-  ],
-  "keyword:non-equilibrium steady state": [
-   "e398"
-  ],
-  "keyword:steady state": [
-   "e398"
-  ],
-  "keyword:steady state entanglement generation": [
-   "e398"
-  ],
-  "section:[d. stationary entanglement]": [
-   "e398"
-  ],
-  "keyword:standard quantum error correction ideas": [
-   "e399"
-  ],
-  "keyword:many fields currently contributing": [
-   "e400"
-  ],
-  "keyword:plac- ing information": [
-   "e400"
-  ],
-  "keyword:quantum effects begin": [
-   "e400"
-  ],
-  "keyword:quantum thermodynamics": [
-   "e400"
-  ],
-  "section:[vii. final remarks]": [
-   "e400"
-  ],
-  "keyword:adapted": [
-   "e401"
-  ],
-  "keyword:authors contributed equally": [
-   "e401"
-  ],
-  "keyword:iii": [
-   "e401"
-  ],
-  "keyword:ldrs phd thesis": [
-   "e401"
-  ],
-  "section:[author contributions]": [
-   "e401"
-  ],
-  "section:[acknowledgements]": [
    "e402"
   ],
-  "author:fridolin krausmann": [
+  "keyword:small non-equilibrium quantum system": [
+   "e402"
+  ],
+  "keyword:one thermal bath": [
    "e403"
   ],
-  "author:nina eisenmenger": [
+  "keyword:quantum machines": [
    "e403"
   ],
-  "author:regina richter": [
+  "keyword:quantum thermal machines": [
+   "e403",
+   "e409",
+   "e412"
+  ],
+  "keyword:quantum thermodynamics concerning quantum thermal machines": [
    "e403"
   ],
-  "keyword:comparatively low complexity provides interesting insights": [
+  "keyword:small quantum thermal machines": [
    "e403"
   ],
-  "keyword:domestic material consumption": [
+  "section:[vi. quantum thermal machines]": [
    "e403"
   ],
-  "keyword:domestic renewable electricity": [
-   "e403"
+  "keyword:absorption refrigerator": [
+   "e404"
   ],
-  "keyword:export-oriented industries lead": [
-   "e403"
+  "keyword:room temperature reservoir": [
+   "e404"
   ],
-  "keyword:large export-oriented metal processing industries": [
-   "e403"
+  "keyword:three thermal baths": [
+   "e404"
   ],
-  "keyword:narrow domestic resource base": [
-   "e403"
+  "keyword:three thermal reservoirs": [
+   "e404"
   ],
-  "keyword:small open economies": [
-   "e403"
+  "section:[a. absorption refrigerators]": [
+   "e404"
   ],
-  "keyword:specific institutional arrangements drives domestic resource-use patterns": [
-   "e403"
+  "keyword:inverse temperature": [
+   "e405"
   ],
-  "keyword:specific resource-use patterns": [
-   "e403"
+  "section:[example 5: algorithmic cooling]": [
+   "e405"
   ],
-  "keyword:two key resources": [
-   "e403"
+  "keyword:authors studied quantum discord": [
+   "e406"
+  ],
+  "keyword:quantum correlation weaker": [
+   "e406"
+  ],
+  "keyword:quantum discord": [
+   "e406"
+  ],
+  "keyword:whether quantum correlations": [
+   "e406"
+  ],
+  "section:[1. stationary behaviour]": [
+   "e406"
+  ],
+  "keyword:entanglement": [
+   "e407"
+  ],
+  "keyword:entanglement found": [
+   "e407"
+  ],
+  "keyword:entanglement generated": [
+   "e407"
+  ],
+  "keyword:even genuine multipartite entanglement": [
+   "e407"
+  ],
+  "keyword:multipartite entanglement": [
+   "e407"
+  ],
+  "section:[fig. 5: three-qubit fridge]": [
+   "e407"
+  ],
+  "keyword:rabi oscillations": [
+   "e408"
+  ],
+  "keyword:strong-interaction case rabi oscillations indeed take place": [
+   "e408"
+  ],
+  "keyword:undergo rabi oscillations": [
+   "e408"
+  ],
+  "section:[2. transient behaviour]": [
+   "e408"
+  ],
+  "keyword:fact squeezed thermal states": [
+   "e409"
+  ],
+  "keyword:squeezed thermal state": [
+   "e409"
+  ],
+  "keyword:squeezed thermal state appears hotter": [
+   "e409"
+  ],
+  "keyword:thermal reservoir": [
+   "e409"
+  ],
+  "section:[b. reservoir engineering]": [
+   "e409"
+  ],
+  "keyword:genuinely using quantum effects": [
+   "e410"
+  ],
+  "keyword:quantum behaviour": [
+   "e410"
+  ],
+  "keyword:quantum engine": [
+   "e410"
+  ],
+  "keyword:quantum thermo signatures": [
+   "e410"
+  ],
+  "keyword:separable quantum state": [
+   "e410"
+  ],
+  "section:[c. quantum thermodynamic signatures]": [
+   "e410"
+  ],
+  "keyword:experimentally accessible situations steady state entanglement": [
+   "e411"
+  ],
+  "keyword:non-equilibrium steady state": [
+   "e411"
+  ],
+  "keyword:steady state": [
+   "e411"
+  ],
+  "keyword:steady state entanglement generation": [
+   "e411"
+  ],
+  "section:[d. stationary entanglement]": [
+   "e411"
+  ],
+  "keyword:standard quantum error correction ideas": [
+   "e412"
+  ],
+  "keyword:many fields currently contributing": [
+   "e413"
+  ],
+  "keyword:plac- ing information": [
+   "e413"
+  ],
+  "keyword:quantum effects begin": [
+   "e413"
+  ],
+  "keyword:quantum thermodynamics": [
+   "e413"
+  ],
+  "section:[vii. final remarks]": [
+   "e413"
+  ],
+  "keyword:adapted": [
+   "e414"
+  ],
+  "keyword:authors contributed equally": [
+   "e414"
+  ],
+  "keyword:iii": [
+   "e414"
+  ],
+  "keyword:ldrs phd thesis": [
+   "e414"
+  ],
+  "section:[author contributions]": [
+   "e414"
+  ],
+  "section:[acknowledgements]": [
+   "e415"
+  ],
+  "section:[the governance of multistakeholder cooperatives in mondragon: the evolving relationship among purpose, structure and process]": [
+   "e417"
+  ],
+  "section:[the  governance  of  multistakeholder cooperatives  in  mondragon:  the  evolving relationship  among  purpose,  structure and  process]": [
+   "e418"
+  ],
+  "keyword:cooperative governance": [
+   "e419",
+   "e436",
+   "e459",
+   "e493",
+   "e509"
+  ],
+  "section:[10.1 introduction]": [
+   "e419"
+  ],
+  "keyword:mondragon cooperative group": [
+   "e420"
+  ],
+  "keyword:mondragon corporation": [
+   "e420",
+   "e475"
+  ],
+  "keyword:mondragon today consists": [
+   "e420"
+  ],
+  "section:[10.2 the  research  context-the  mondragon cooperative  experience  (mce)]": [
+   "e420"
+  ],
+  "keyword:arizmendiarrieta viewed conventional capitalist business": [
+   "e421"
+  ],
+  "section:[10.2.1 the  roots  of  the  mondragon  cooperative experience]": [
+   "e421"
+  ],
+  "keyword:mondragon cooperative congress": [
+   "e422"
+  ],
+  "section:[10.2.2 the  consolidation  and  expansion of  the  model:  inter-cooperation]": [
+   "e422"
+  ],
+  "section:[10.2.3 multistakeholder  governance(s) in  the  mondragon  cooperative  experience]": [
+   "e423"
+  ],
+  "keyword:individual multistakeholder cooperatives": [
+   "e424"
+  ],
+  "keyword:multistakeholder cooperative experience": [
+   "e424"
+  ],
+  "keyword:multistakeholder cooperative initiatives emerged": [
+   "e424"
+  ],
+  "section:[10.2.4 the  missing  link:  individual  multistakeholder cooperatives  in  the  mondragon  cooperative experience]": [
+   "e424"
+  ],
+  "section:[10.3 multistakeholder  cooperatives in  mondragon  cooperative  experience: a  case  study]": [
+   "e425"
+  ],
+  "keyword:mondragon headquarters department": [
+   "e426"
+  ],
+  "section:[10.3.1 methods]": [
+   "e426"
+  ],
+  "keyword:mscs": [
+   "e427"
+  ],
+  "keyword:structure": [
+   "e427"
+  ],
+  "section:[10.3.2 results]": [
+   "e427"
+  ],
+  "section:[basic  data:  incidence,  evolution,  distribution,  size and  purpose]": [
+   "e428"
+  ],
+  "keyword:term structure refers": [
+   "e429"
+  ],
+  "section:[structure]": [
+   "e429"
+  ],
+  "section:[legal  form]": [
+   "e430"
+  ],
+  "section:[ownership  structure]": [
+   "e431"
+  ],
+  "section:[governing  councils  and  general  assemblies]": [
+   "e432"
+  ],
+  "keyword:social council": [
+   "e433"
+  ],
+  "section:[other  decision-making  bodies]": [
+   "e433"
+  ],
+  "section:[10.4 discussion:  processes  and  dynamics of  governance  in  mondragon  mscs]": [
+   "e434"
+  ],
+  "keyword:mondragon mscs": [
+   "e435"
+  ],
+  "section:[10.5 conclusions]": [
+   "e435"
+  ],
+  "author:carman, james m.": [
+   "e437"
+  ],
+  "author:james m. carman": [
+   "e437"
+  ],
+  "keyword:century ahead": [
+   "e437"
+  ],
+  "keyword:co-op-iof hybrid models": [
+   "e437"
+  ],
+  "keyword:comparative institutional economics approach": [
+   "e437"
+  ],
+  "keyword:cooperative growth": [
+   "e437"
+  ],
+  "keyword:cooperatives": [
+   "e437",
+   "e451",
+   "e489",
+   "e499",
+   "e501",
+   "e503",
+   "e509"
+  ],
+  "keyword:federated cooperatives": [
+   "e437"
+  ],
+  "keyword:federated structures": [
+   "e437"
+  ],
+  "keyword:four settings": [
+   "e437"
+  ],
+  "keyword:governance structure": [
+   "e437"
+  ],
+  "keyword:ideal economic organization form": [
+   "e437"
+  ],
+  "keyword:ineffective organization form": [
+   "e437"
+  ],
+  "keyword:political-social-economic environment": [
+   "e437"
+  ],
+  "keyword:studied intensively": [
+   "e437"
+  ],
+  "keyword:would make": [
+   "e437"
   ],
   "project:openalex": [
-   "e403",
-   "e404",
-   "e405",
-   "e406",
-   "e407",
-   "e408",
-   "e409",
-   "e410",
-   "e411",
-   "e412",
-   "e413",
-   "e414",
-   "e415",
-   "e416",
-   "e417",
-   "e418",
-   "e419",
-   "e420",
-   "e421",
-   "e422",
-   "e423",
-   "e424",
-   "e425",
-   "e426",
-   "e427",
-   "e428",
-   "e429",
-   "e430",
-   "e431",
-   "e432",
-   "e433",
-   "e434",
-   "e435"
+   "e437",
+   "e438",
+   "e439",
+   "e440",
+   "e441",
+   "e442",
+   "e443",
+   "e444",
+   "e445",
+   "e446",
+   "e447",
+   "e448",
+   "e449",
+   "e450",
+   "e451",
+   "e452",
+   "e453",
+   "e454",
+   "e455",
+   "e456",
+   "e457",
+   "e458",
+   "e459",
+   "e460",
+   "e461",
+   "e462",
+   "e463",
+   "e464",
+   "e465",
+   "e466",
+   "e467",
+   "e468",
+   "e469",
+   "e470",
+   "e471",
+   "e472",
+   "e473",
+   "e474",
+   "e475",
+   "e476",
+   "e477",
+   "e478",
+   "e479",
+   "e480",
+   "e481",
+   "e482",
+   "e483",
+   "e484",
+   "e485",
+   "e486",
+   "e487",
+   "e488",
+   "e489",
+   "e490",
+   "e491",
+   "e492",
+   "e493",
+   "e494",
+   "e495",
+   "e496",
+   "e497",
+   "e498",
+   "e499",
+   "e500",
+   "e501",
+   "e502",
+   "e503",
+   "e504",
+   "e505",
+   "e506",
+   "e507",
+   "e508",
+   "e509"
+  ],
+  "work:federated structures for cooperative growth": [
+   "e437"
+  ],
+  "author:david ciplet": [
+   "e438"
+  ],
+  "keyword:based worker cooperative movement": [
+   "e438"
+  ],
+  "keyword:democratic movement": [
+   "e438"
+  ],
+  "keyword:effective united states-based worker cooperative movement": [
+   "e438"
+  ],
+  "keyword:embrace cooperative principles": [
+   "e438"
+  ],
+  "keyword:movement": [
+   "e438"
+  ],
+  "keyword:movement discussion": [
+   "e438"
+  ],
+  "keyword:movement would": [
+   "e438"
+  ],
+  "keyword:support movement activists efforts": [
+   "e438"
+  ],
+  "keyword:worker cooperative activists": [
+   "e438"
+  ],
+  "keyword:worker cooperative movement": [
+   "e438"
+  ],
+  "keyword:worker cooperative movement activists": [
+   "e438"
+  ],
+  "work:building the u.s. worker cooperative movement in the context of global capitalism": [
+   "e438"
+  ],
+  "author:fridolin krausmann": [
+   "e439"
+  ],
+  "author:nina eisenmenger": [
+   "e439"
+  ],
+  "author:regina richter": [
+   "e439"
+  ],
+  "keyword:comparatively low complexity provides interesting insights": [
+   "e439"
+  ],
+  "keyword:domestic material consumption": [
+   "e439"
+  ],
+  "keyword:domestic renewable electricity": [
+   "e439"
+  ],
+  "keyword:export-oriented industries lead": [
+   "e439"
+  ],
+  "keyword:large export-oriented metal processing industries": [
+   "e439"
+  ],
+  "keyword:narrow domestic resource base": [
+   "e439"
+  ],
+  "keyword:small open economies": [
+   "e439"
+  ],
+  "keyword:specific institutional arrangements drives domestic resource-use patterns": [
+   "e439"
+  ],
+  "keyword:specific resource-use patterns": [
+   "e439"
+  ],
+  "keyword:two key resources": [
+   "e439"
   ],
   "work:resource use in small island states": [
-   "e403"
+   "e439"
   ],
   "author:john stillwell": [
-   "e404"
+   "e440"
   ],
   "author:joseph ferreira": [
-   "e404"
+   "e440"
   ],
   "author:robert goodspeed": [
-   "e404"
+   "e440"
   ],
   "author:stan geertman": [
-   "e404"
+   "e440"
   ],
   "keyword:planning support systems": [
-   "e404"
+   "e440"
   ],
   "keyword:smart cities": [
-   "e404"
+   "e440"
   ],
   "work:planning support systems and smart cities": [
-   "e404"
+   "e440"
+  ],
+  "author:spencer paul thompson": [
+   "e441"
+  ],
+  "keyword:achieving cooperation": [
+   "e441"
+  ],
+  "keyword:achieving cooperation based": [
+   "e441"
+  ],
+  "keyword:chapter": [
+   "e441"
+  ],
+  "keyword:competence-based theories failing": [
+   "e441"
+  ],
+  "keyword:contract-based theories clinging": [
+   "e441"
+  ],
+  "keyword:firm fulfils": [
+   "e441"
+  ],
+  "keyword:firm renders": [
+   "e441"
+  ],
+  "keyword:mondragon cooperative model": [
+   "e441"
+  ],
+  "keyword:predominant theories": [
+   "e441"
+  ],
+  "keyword:predominant theories incomplete": [
+   "e441"
+  ],
+  "keyword:second chapter constructs": [
+   "e441"
+  ],
+  "work:bringing society back into the theory of the firm: the adaptation of the mondragon cooperative model in valencia and beyond": [
+   "e441"
   ],
   "author:anatoli polkovnikov": [
-   "e405"
+   "e442"
   ],
   "author:luca dalessio": [
-   "e405"
+   "e442"
   ],
   "author:marcos rigol": [
-   "e405"
+   "e442"
   ],
   "author:yariv kafri": [
-   "e405"
+   "e442"
   ],
   "keyword:continuously driven systems": [
-   "e405"
+   "e442"
   ],
   "keyword:eigenstate thermalization": [
-   "e405"
+   "e442"
   ],
   "keyword:isolated chaotic systems": [
-   "e405"
+   "e442"
   ],
   "keyword:many-body lattice systems": [
-   "e405"
+   "e442"
   ],
   "keyword:quantum chaos allows one": [
-   "e405"
+   "e442"
   ],
   "keyword:quantum quenches": [
-   "e405"
+   "e442"
   ],
   "keyword:taking isolated systems": [
-   "e405"
+   "e442"
   ],
   "keyword:weakly interacting systems": [
-   "e405"
+   "e442"
   ],
   "work:from quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics": [
-   "e405"
+   "e442"
   ],
   "author:ren\u00e9e sieber": [
-   "e406"
+   "e443"
   ],
   "keyword:broaden public involvement": [
-   "e406"
+   "e443"
   ],
   "keyword:community-based organizations": [
-   "e406"
+   "e443"
   ],
   "keyword:evaluating current ppgis activities": [
-   "e406"
+   "e443"
   ],
   "keyword:four major themes found": [
-   "e406"
+   "e443"
   ],
   "keyword:framework": [
-   "e406"
+   "e443"
   ],
   "keyword:future ppgis research": [
-   "e406"
+   "e443"
   ],
   "keyword:gis": [
-   "e406"
+   "e443"
   ],
   "keyword:literature review": [
-   "e406"
+   "e443"
   ],
   "keyword:ppgis": [
-   "e406"
+   "e443"
   ],
   "keyword:public participation geographic information systems": [
-   "e406"
+   "e443"
   ],
   "keyword:themes constitute": [
-   "e406"
+   "e443"
   ],
   "work:public participation geographic information systems: a literature review and framework": [
-   "e406"
+   "e443"
   ],
   "author:david jou": [
-   "e407",
-   "e429"
+   "e444",
+   "e487"
   ],
   "author:g. lebon": [
-   "e407",
-   "e429"
+   "e444",
+   "e487"
   ],
   "author:jos\u00e9 casas-v\u00e1zquez": [
-   "e407",
-   "e429"
+   "e444",
+   "e487"
   ],
   "keyword:applications": [
-   "e407",
-   "e415"
+   "e444",
+   "e456"
   ],
   "keyword:decade much effort": [
-   "e407"
+   "e444"
   ],
   "keyword:extended irreversible thermodynamics revisited": [
-   "e407"
+   "e444"
   ],
   "keyword:extended irreversible thermodynamics stands": [
-   "e407"
+   "e444"
   ],
   "keyword:last decade": [
-   "e407"
+   "e444",
+   "e451"
   ],
   "keyword:modern thermodynamics": [
-   "e407"
+   "e444"
   ],
   "keyword:much progress": [
-   "e407"
+   "e444"
   ],
   "keyword:non-equilibrium thermodynamic theories": [
-   "e407"
+   "e444"
   ],
   "work:extended irreversible thermodynamics revisited (1988-98)": [
-   "e407"
+   "e444"
   ],
   "author:i. p. wright": [
-   "e408"
+   "e445"
   ],
   "keyword:capitalism": [
-   "e408"
+   "e445"
   ],
   "work:the social architecture of capitalism": [
-   "e408"
+   "e445"
   ],
   "author:l. sj\u00f6gren": [
-   "e409"
+   "e446"
   ],
   "author:w. g\u00f6tze": [
-   "e409"
+   "e446"
   ],
   "keyword:appear two fractal time decay processes": [
-   "e409"
+   "e446"
   ],
   "keyword:calorimetric glass transition temperature": [
-   "e409"
+   "e446"
   ],
   "keyword:crossover temperature": [
-   "e409"
+   "e446"
   ],
   "keyword:mesoscopic time region": [
-   "e409"
+   "e446"
   ],
   "keyword:relaxation processes": [
-   "e409"
+   "e446"
   ],
   "keyword:relaxation scale": [
-   "e409"
+   "e446"
   ],
   "keyword:supercooled liquid dynamics": [
-   "e409"
+   "e446"
   ],
   "keyword:supercooled liquids": [
-   "e409"
+   "e446"
   ],
   "keyword:supercooled state": [
-   "e409"
+   "e446"
   ],
   "keyword:two divergent time scales": [
-   "e409"
+   "e446"
   ],
   "keyword:various relaxation processes": [
-   "e409"
+   "e446"
   ],
   "work:relaxation processes in supercooled liquids": [
-   "e409"
+   "e446"
   ],
   "author:m. a. biot": [
-   "e410"
+   "e447"
   ],
   "keyword:acoustic propagation": [
-   "e410"
+   "e447"
   ],
   "keyword:complex physical-chemical system": [
-   "e410"
+   "e447"
   ],
   "keyword:derived": [
-   "e410"
+   "e447"
   ],
   "keyword:dissipation": [
-   "e410"
+   "e447"
   ],
   "keyword:general applicability": [
-   "e410"
+   "e447"
   ],
   "keyword:general principles": [
-   "e410"
+   "e447"
   ],
   "keyword:porous media": [
-   "e410"
+   "e447"
   ],
   "keyword:porous media derived": [
-   "e410"
+   "e447"
   ],
   "keyword:relaxation effects": [
-   "e410"
+   "e447"
   ],
   "keyword:resultant relaxation": [
-   "e410"
+   "e447"
   ],
   "keyword:theory": [
-   "e410",
-   "e419",
-   "e429"
+   "e447",
+   "e467",
+   "e487"
   ],
   "keyword:unified treatment": [
-   "e410"
+   "e447"
   ],
   "keyword:writers earlier theory": [
-   "e410"
+   "e447"
   ],
   "work:mechanics of deformation and acoustic propagation in porous media": [
-   "e410"
+   "e447"
   ],
   "author:duncan k. foley": [
-   "e411"
+   "e448"
   ],
   "keyword:agents": [
-   "e411"
+   "e448"
   ],
   "keyword:agents achieving": [
-   "e411"
+   "e448"
   ],
   "keyword:agents defined": [
-   "e411"
+   "e448"
   ],
   "keyword:feasible distribution": [
-   "e411"
+   "e448"
   ],
   "keyword:feasible market transaction": [
-   "e411"
+   "e448"
   ],
   "keyword:finite offer sets": [
-   "e411"
+   "e448"
   ],
   "keyword:many agents": [
-   "e411"
+   "e448"
   ],
   "keyword:offer sets": [
-   "e411"
+   "e448"
   ],
   "keyword:statistical equilibrium theory": [
-   "e411"
+   "e448"
   ],
   "keyword:unique statistical equilibrium exists": [
-   "e411"
+   "e448"
   ],
   "work:a statistical equilibrium theory of markets": [
-   "e411"
+   "e448"
   ],
   "author:greg brown": [
-   "e412"
+   "e449"
   ],
   "author:marketta kytt\u00e4": [
-   "e412"
+   "e449"
   ],
   "keyword:empirical research": [
-   "e412"
+   "e449"
   ],
   "keyword:key issues": [
-   "e412"
+   "e449"
   ],
   "keyword:research priorities": [
-   "e412"
+   "e449"
   ],
   "keyword:synthesis based": [
-   "e412"
+   "e449"
   ],
   "work:key issues and research priorities for public participation gis (ppgis): a synthesis based on empirical research": [
-   "e412"
+   "e449"
   ],
   "author:udo seifert": [
-   "e413"
+   "e450"
   ],
   "keyword:entropy production depending": [
-   "e413"
+   "e450"
   ],
   "keyword:molecular motors": [
-   "e413"
+   "e450"
   ],
   "keyword:non-equilibrium conditions": [
-   "e413"
+   "e450"
   ],
   "keyword:non-equilibrium process": [
-   "e413"
+   "e450"
   ],
   "keyword:single colloidal particles": [
-   "e413"
+   "e450"
   ],
   "keyword:well-defined non-equilibrium ensembles": [
-   "e413"
+   "e450"
   ],
   "work:stochastic thermodynamics, fluctuation theorems and molecular machines": [
-   "e413"
+   "e450"
+  ],
+  "author:greig de peuter": [
+   "e451"
+  ],
+  "author:nick dyer\u2010witheford": [
+   "e451"
+  ],
+  "keyword:commons": [
+   "e451"
+  ],
+  "keyword:commons struggles": [
+   "e451"
+  ],
+  "keyword:decentralized control": [
+   "e451"
+  ],
+  "keyword:labour commons": [
+   "e451"
+  ],
+  "keyword:one example": [
+   "e451"
+  ],
+  "keyword:potential linkages": [
+   "e451"
+  ],
+  "keyword:preliminary exploration": [
+   "e451"
+  ],
+  "keyword:prevalent theme": [
+   "e451"
+  ],
+  "keyword:radical potential": [
+   "e451"
+  ],
+  "keyword:worker coop": [
+   "e451"
+  ],
+  "keyword:worker cooperative": [
+   "e451"
+  ],
+  "keyword:worker cooperatives": [
+   "e451",
+   "e454",
+   "e493",
+   "e500",
+   "e501"
+  ],
+  "work:commons and cooperatives": [
+   "e451"
+  ],
+  "author:george w. j. hendrikse": [
+   "e452"
+  ],
+  "author:jos bijman": [
+   "e452"
+  ],
+  "keyword:agrifood chains": [
+   "e452"
+  ],
+  "keyword:agrifood markets shift": [
+   "e452"
+  ],
+  "keyword:chain optimum": [
+   "e452"
+  ],
+  "keyword:consumer concerns press farmers": [
+   "e452"
+  ],
+  "keyword:different chain partners": [
+   "e452"
+  ],
+  "keyword:efficient production": [
+   "e452"
+  ],
+  "keyword:enhance product innovation": [
+   "e452"
+  ],
+  "keyword:food producers": [
+   "e452"
+  ],
+  "keyword:marketing cooperative": [
+   "e452"
+  ],
+  "keyword:ownership": [
+   "e452"
+  ],
+  "keyword:ownership structure": [
+   "e452"
+  ],
+  "work:ownership structure in agrifood chains: the marketing cooperative": [
+   "e452"
   ],
   "author:christopher kennedy": [
-   "e414"
+   "e453"
   ],
   "author:john cuddihy": [
-   "e414"
+   "e453"
   ],
   "author:joshua engel\u2010yan": [
-   "e414"
+   "e453"
   ],
   "keyword:changing metabolism": [
-   "e414"
+   "e453"
   ],
   "keyword:cities": [
-   "e414"
+   "e453"
   ],
   "work:the changing metabolism of cities": [
-   "e414"
+   "e453"
+  ],
+  "author:john pencavel": [
+   "e454"
+  ],
+  "keyword:co-ops": [
+   "e454"
+  ],
+  "keyword:co-ops compared": [
+   "e454"
+  ],
+  "keyword:conventional capitalist firms": [
+   "e454"
+  ],
+  "keyword:democratic governance": [
+   "e454"
+  ],
+  "keyword:large numbers": [
+   "e454"
+  ],
+  "keyword:long-term viability": [
+   "e454"
+  ],
+  "keyword:paper provides": [
+   "e454"
+  ],
+  "keyword:relative productive efficiency": [
+   "e454"
+  ],
+  "keyword:research": [
+   "e454"
+  ],
+  "keyword:selective review": [
+   "e454"
+  ],
+  "keyword:worker co-operative": [
+   "e454"
+  ],
+  "keyword:worker co-ops": [
+   "e454"
+  ],
+  "work:worker cooperatives and democratic governance": [
+   "e454"
+  ],
+  "author:helfman, neil a.": [
+   "e455"
+  ],
+  "author:neil a. helfman": [
+   "e455"
+  ],
+  "keyword:application": [
+   "e455"
+  ],
+  "keyword:labor law": [
+   "e455"
+  ],
+  "keyword:workers cooperatives": [
+   "e455"
+  ],
+  "work:the application of labor law to workers cooperatives": [
+   "e455"
   ],
   "author:arzu \u00e7\u00f6ltekin": [
-   "e415"
+   "e456"
   ],
   "author:filip biljecki": [
-   "e415"
+   "e456"
   ],
   "author:hugo ledoux": [
-   "e415"
+   "e456"
   ],
   "author:jantien stoter": [
-   "e415"
+   "e456"
   ],
   "author:sisi zlatanova": [
-   "e415"
+   "e456"
   ],
   "keyword:city models": [
-   "e415"
+   "e456"
   ],
   "keyword:city models appear": [
-   "e415"
+   "e456"
   ],
   "keyword:comprehensive literature study including hundreds": [
-   "e415"
+   "e456"
   ],
   "keyword:identified use cases": [
-   "e415"
+   "e456"
   ],
   "keyword:study": [
-   "e415"
+   "e456"
   ],
   "keyword:study demonstrates": [
-   "e415"
+   "e456"
   ],
   "keyword:technical information": [
-   "e415"
+   "e456"
   ],
   "work:applications of 3d city models: state of the art review": [
-   "e415"
+   "e456"
+  ],
+  "author:gandhe, rutwik": [
+   "e457"
+  ],
+  "author:nair, tara s.": [
+   "e457"
+  ],
+  "author:rutwik j. gandhe": [
+   "e457"
+  ],
+  "author:tara s. nair": [
+   "e457"
+  ],
+  "keyword:appropriate systems": [
+   "e457"
+  ],
+  "keyword:case study looks": [
+   "e457"
+  ],
+  "keyword:cooperative federation": [
+   "e457"
+  ],
+  "keyword:cooperative structure": [
+   "e457"
+  ],
+  "keyword:cooperatives historically": [
+   "e457"
+  ],
+  "keyword:less government-dependent": [
+   "e457"
+  ],
+  "keyword:liberal cooperative": [
+   "e457"
+  ],
+  "keyword:liberal cooperatives": [
+   "e457"
+  ],
+  "keyword:special legislation": [
+   "e457"
+  ],
+  "keyword:user friendly systems": [
+   "e457"
+  ],
+  "keyword:yield desired results": [
+   "e457"
+  ],
+  "work:liberal cooperatives and microfinance in india: diagnostic study of a cooperative federation": [
+   "e457"
   ],
   "author:antoine delignat-lavaud": [
-   "e416"
+   "e458"
   ],
   "author:aseem rastogi": [
-   "e416",
-   "e417"
+   "e458",
+   "e462"
   ],
   "author:chantal keller": [
-   "e416"
+   "e458"
   ],
   "author:c\u00e9dric fournet": [
-   "e416"
+   "e458"
   ],
   "author:c\u0103t\u0103lin hri\u0163cu": [
-   "e416",
-   "e417",
-   "e421"
+   "e458",
+   "e462",
+   "e471"
   ],
   "author:jean-karim zinzindohou\u00e9": [
-   "e416"
+   "e458"
   ],
   "author:karthikeyan bhargavan": [
-   "e416"
+   "e458"
   ],
   "author:markulf kohlweiss": [
-   "e416"
+   "e458"
   ],
   "author:nikhil swamy": [
-   "e416",
-   "e417"
+   "e458",
+   "e462"
   ],
   "author:pierre-yves strub": [
-   "e416"
+   "e458"
   ],
   "author:santiago zanella-b\u00e9guelin": [
-   "e416"
+   "e458"
   ],
   "author:simon forest": [
-   "e416"
+   "e458"
   ],
   "keyword:general-purpose programming language": [
-   "e416"
+   "e458"
   ],
   "keyword:itself---these proofs make essential use": [
-   "e416"
+   "e458"
   ],
   "keyword:language": [
-   "e416"
+   "e458"
   ],
   "keyword:multi-monadic effects": [
-   "e416"
+   "e458"
   ],
   "keyword:proof assistant": [
-   "e416"
+   "e458"
   ],
   "keyword:proof terms---its consistency": [
-   "e416"
+   "e458"
   ],
   "keyword:resulting proof obligations using": [
-   "e416"
+   "e458"
   ],
   "keyword:simply typed lambda calculus": [
-   "e416"
+   "e458"
   ],
   "keyword:specify effects": [
-   "e416"
+   "e458"
   ],
   "keyword:verification-oriented language": [
-   "e416"
+   "e458"
   ],
   "work:dependent types and multi-monadic effects in f*": [
-   "e416"
+   "e458"
+  ],
+  "author:zhu qiang xiao": [
+   "e459"
+  ],
+  "keyword:community services": [
+   "e459"
+  ],
+  "keyword:family service center": [
+   "e459"
+  ],
+  "keyword:family service center shows": [
+   "e459"
+  ],
+  "keyword:initiatively seek development space": [
+   "e459"
+  ],
+  "keyword:key social organizations": [
+   "e459"
+  ],
+  "keyword:key social organizations effective participation": [
+   "e459"
+  ],
+  "keyword:promote social collaborative governance": [
+   "e459"
+  ],
+  "keyword:social governance": [
+   "e459"
+  ],
+  "keyword:social organizations": [
+   "e459"
+  ],
+  "keyword:social resources": [
+   "e459"
+  ],
+  "keyword:womens federation key social organization": [
+   "e459"
+  ],
+  "keyword:womens federation key social organizations participation": [
+   "e459"
+  ],
+  "work:research on womens federation key social organizations participation in community services in the paradigm of cooperative governance: a case study": [
+   "e459"
+  ],
+  "author:ainara udaondo": [
+   "e460"
+  ],
+  "author:george e. cheney": [
+   "e460"
+  ],
+  "author:joseba azkarraga etxagibel": [
+   "e460"
+  ],
+  "keyword:basque country": [
+   "e460"
+  ],
+  "keyword:basque language": [
+   "e460"
+  ],
+  "keyword:cooperative group": [
+   "e460"
+  ],
+  "keyword:cooperative movement": [
+   "e460"
+  ],
+  "keyword:largest private firm": [
+   "e460"
+  ],
+  "keyword:mondragon": [
+   "e460",
+   "e505"
+  ],
+  "keyword:mondragon cooperatives": [
+   "e460",
+   "e466",
+   "e503"
+  ],
+  "keyword:seventh largest private firm": [
+   "e460"
+  ],
+  "work:workers participation in a globalized market: reflections on and from mondragon": [
+   "e460"
+  ],
+  "author:j. m. mehl": [
+   "e461"
+  ],
+  "author:oscar b. jesness": [
+   "e461"
+  ],
+  "keyword:cooperative grain elevator companies": [
+   "e461"
+  ],
+  "keyword:cooperative organization": [
+   "e461"
+  ],
+  "keyword:cooperative plan": [
+   "e461"
+  ],
+  "keyword:farmers elevators desiring": [
+   "e461"
+  ],
+  "keyword:grain states": [
+   "e461"
+  ],
+  "keyword:laws governing corporations": [
+   "e461"
+  ],
+  "keyword:ordinary private corporation types": [
+   "e461"
+  ],
+  "keyword:organization": [
+   "e461"
+  ],
+  "keyword:persons interested": [
+   "e461"
+  ],
+  "keyword:persons required": [
+   "e461"
+  ],
+  "keyword:producers contemplating organization": [
+   "e461"
+  ],
+  "keyword:several states": [
+   "e461"
+  ],
+  "keyword:special cooperative laws": [
+   "e461"
+  ],
+  "keyword:special reference": [
+   "e461"
+  ],
+  "work:the organization of cooperative grain elevator companies /": [
+   "e461"
   ],
   "author:danel ahman": [
-   "e417",
-   "e421"
+   "e462",
+   "e471"
   ],
   "author:gordon plotkin": [
-   "e417"
+   "e462"
   ],
   "author:guido mart\u00ednez": [
-   "e417",
-   "e421"
+   "e462",
+   "e471"
   ],
   "author:jonathan protzenko": [
-   "e417"
+   "e462"
   ],
   "author:kenji maillard": [
-   "e417",
-   "e421"
+   "e462",
+   "e471"
   ],
   "keyword:dependent type theories": [
-   "e417"
+   "e462"
   ],
   "keyword:dependent type theory": [
-   "e417"
+   "e462"
   ],
   "keyword:dijkstra monads": [
-   "e417",
-   "e421"
+   "e462",
+   "e471"
   ],
   "keyword:emf": [
-   "e417"
+   "e462"
   ],
   "keyword:user-defined effects": [
-   "e417"
+   "e462"
   ],
   "keyword:verification tools like": [
-   "e417"
+   "e462"
   ],
   "keyword:verifying effectful code": [
-   "e417"
+   "e462"
   ],
   "work:dijkstra monads for free": [
-   "e417"
+   "e462"
+  ],
+  "author:spencer thompson": [
+   "e463"
+  ],
+  "keyword:social theory": [
+   "e463"
+  ],
+  "work:towards a social theory of the firm: worker cooperatives reconsidered": [
+   "e463"
+  ],
+  "author:kiringai kamau": [
+   "e464"
+  ],
+  "keyword:farmers": [
+   "e464"
+  ],
+  "keyword:githunguri dairy cooperative society ltd": [
+   "e464"
+  ],
+  "keyword:githunguri dairy farmers cooperative society": [
+   "e464"
+  ],
+  "keyword:npromote increased income generation": [
+   "e464"
+  ],
+  "keyword:smallholder farmers": [
+   "e464"
+  ],
+  "keyword:study amenable": [
+   "e464"
+  ],
+  "keyword:value chain": [
+   "e464"
+  ],
+  "work:assessing the role of information and communication technologies and knowledge in increasing incomes and improving governance in smallholder organizations: the case of githunguri dairy cooperative society ltd and kikama federation": [
+   "e464"
   ],
   "author:andrew allan": [
-   "e418"
+   "e465"
   ],
   "author:chris pettit": [
-   "e418"
+   "e465"
   ],
   "author:john 1952- stillwell": [
-   "e418"
+   "e465"
   ],
   "author:stan 1955- geertman": [
-   "e418"
+   "e465"
   ],
   "keyword:planning support science": [
-   "e418"
+   "e465"
   ],
   "keyword:smarter urban futures": [
-   "e418"
+   "e465"
   ],
   "work:planning support science for smarter urban futures": [
-   "e418"
+   "e465"
+  ],
+  "author:kenneth w. stikkers": [
+   "e466"
+  ],
+  "keyword:current economic problems": [
+   "e466"
+  ],
+  "keyword:deweyan economy": [
+   "e466"
+  ],
+  "keyword:distinct features": [
+   "e466"
+  ],
+  "keyword:economic democracy": [
+   "e466"
+  ],
+  "keyword:economic growth": [
+   "e466"
+  ],
+  "keyword:economic model": [
+   "e466"
+  ],
+  "keyword:first identifies three central features": [
+   "e466"
+  ],
+  "keyword:mondragon cooperatives manifest": [
+   "e466"
+  ],
+  "keyword:three central features": [
+   "e466"
+  ],
+  "work:dewey, economic democracy, and the mondragon cooperatives": [
+   "e466"
   ],
   "author:masaru sugiyama": [
-   "e419"
+   "e467"
   ],
   "author:takashi arima": [
-   "e419"
+   "e467"
   ],
   "author:tommaso ruggeri": [
-   "e419"
+   "e467"
   ],
   "keyword:gases": [
-   "e419"
+   "e467"
   ],
   "keyword:generalized bgk-type collision term": [
-   "e419"
+   "e467"
   ],
   "keyword:molecular relaxation processes": [
-   "e419"
+   "e467"
   ],
   "keyword:molecular rotational": [
-   "e419"
+   "e467"
   ],
   "keyword:moment system": [
-   "e419"
+   "e467"
   ],
   "keyword:rarefied polyatomic gas": [
-   "e419"
+   "e467"
   ],
   "keyword:rarefied polyatomic gases": [
-   "e419"
+   "e467"
   ],
   "keyword:seven independent fields": [
-   "e419"
+   "e467"
   ],
   "keyword:ultrasonic wave derived": [
-   "e419"
+   "e467"
   ],
   "keyword:vibrational relaxation processes": [
-   "e419"
+   "e467"
   ],
   "work:rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes": [
-   "e419"
+   "e467"
+  ],
+  "author:dror y. kenett": [
+   "e468"
+  ],
+  "author:jonathan k. simon": [
+   "e468"
+  ],
+  "author:mark d. flood": [
+   "e468"
+  ],
+  "author:robin l. lumsdaine": [
+   "e468"
+  ],
+  "keyword:bank holding companies": [
+   "e468"
+  ],
+  "keyword:complexity": [
+   "e468"
+  ],
+  "keyword:topological approach": [
+   "e468"
+  ],
+  "work:the complexity of bank holding companies: a topological approach": [
+   "e468"
   ],
   "author:giorgio agugiaro": [
-   "e420"
+   "e469"
   ],
   "author:joachim benner": [
-   "e420"
+   "e469"
   ],
   "author:piergiorgio cipriano": [
-   "e420"
+   "e469"
   ],
   "author:romain nouvel": [
-   "e420"
+   "e469"
   ],
   "keyword:energy": [
-   "e420"
+   "e469"
   ],
   "keyword:energy ade": [
-   "e420"
+   "e469"
   ],
   "keyword:energy application domain extension": [
-   "e420"
+   "e469"
   ],
   "keyword:energy consumption reduction": [
-   "e420"
+   "e469"
   ],
   "keyword:energy domain": [
-   "e420"
+   "e469"
   ],
   "keyword:energy planning tools": [
-   "e420"
+   "e469"
   ],
   "keyword:existing data interoperability issues": [
-   "e420"
+   "e469"
   ],
   "keyword:omni-comprehensive urban data model covering": [
-   "e420"
+   "e469"
   ],
   "keyword:standard-based data model": [
-   "e420"
+   "e469"
   ],
   "keyword:urban energy simulations": [
-   "e420"
+   "e469"
   ],
   "work:the energy application domain extension for citygml: enhancing interoperability for urban energy simulations": [
-   "e420"
+   "e469"
+  ],
+  "author:ilkka hannu ville p\u00f6nk\u00e4": [
+   "e470"
+  ],
+  "keyword:companization means": [
+   "e470"
+  ],
+  "keyword:cooperative societies seem": [
+   "e470"
+  ],
+  "keyword:cooperative societies transforming": [
+   "e470"
+  ],
+  "keyword:icas cooperative principles": [
+   "e470"
+  ],
+  "keyword:since companization": [
+   "e470"
+  ],
+  "keyword:so-called companization": [
+   "e470"
+  ],
+  "work:are cooperative societies transforming into cooperative companies?: reflections on the finnish cooperatives act": [
+   "e470"
   ],
   "author:exequiel rivas": [
-   "e421"
+   "e471"
   ],
   "author:robert atkey": [
-   "e421"
+   "e471"
   ],
   "author:\u00e9ric tanter": [
-   "e421"
+   "e471"
   ],
   "keyword:applying monad transformers": [
-   "e421"
+   "e471"
   ],
   "keyword:arbitrary monadic side-effects using dijkstra monads": [
-   "e421"
+   "e471"
   ],
   "keyword:computational monad": [
-   "e421"
+   "e471"
   ],
   "keyword:defining correct monad transformers": [
-   "e421"
+   "e471"
   ],
   "keyword:dijkstra monad": [
-   "e421"
+   "e471"
   ],
   "keyword:general semantic framework": [
-   "e421"
+   "e471"
   ],
   "keyword:moggis monadic metalanguage": [
-   "e421"
+   "e471"
   ],
   "keyword:monad morphism": [
-   "e421"
+   "e471"
   ],
   "keyword:obtaining dijkstra monads tailored": [
-   "e421"
+   "e471"
   ],
   "keyword:specification monad": [
-   "e421"
+   "e471"
   ],
   "keyword:specification monad gives rise": [
-   "e421"
+   "e471"
   ],
   "keyword:specification monads": [
-   "e421"
+   "e471"
   ],
   "work:dijkstra monads for all": [
-   "e421"
+   "e471"
+  ],
+  "author:karl mason": [
+   "e472"
+  ],
+  "author:tony evans": [
+   "e472"
+  ],
+  "keyword:adult social care": [
+   "e472"
+  ],
+  "keyword:eleven social workers": [
+   "e472"
+  ],
+  "keyword:four key logics used": [
+   "e472"
+  ],
+  "keyword:self-neglect casework": [
+   "e472"
+  ],
+  "keyword:social care": [
+   "e472"
+  ],
+  "keyword:social work": [
+   "e472"
+  ],
+  "keyword:social workers engage cooperatively": [
+   "e472"
+  ],
+  "keyword:social workers moved": [
+   "e472"
+  ],
+  "keyword:social workers talked": [
+   "e472"
+  ],
+  "work:social work, inter-disciplinary cooperation and self-neglect: exploring logics of appropriateness": [
+   "e472"
+  ],
+  "author:markian m. w. melnyk": [
+   "e473"
+  ],
+  "author:william s. lamb": [
+   "e473"
+  ],
+  "keyword:coming months utility regulators": [
+   "e473"
+  ],
+  "keyword:discourages electric utility combinations": [
+   "e473"
+  ],
+  "keyword:gas utility companies": [
+   "e473"
+  ],
+  "keyword:gas utility industry": [
+   "e473"
+  ],
+  "keyword:gas utility infrastructure": [
+   "e473"
+  ],
+  "keyword:protect public utility company subsidiaries": [
+   "e473"
+  ],
+  "keyword:public utility holding company act": [
+   "e473"
+  ],
+  "keyword:state public utility commissions": [
+   "e473"
+  ],
+  "keyword:utility ownership": [
+   "e473"
+  ],
+  "keyword:utility subsidiaries": [
+   "e473"
+  ],
+  "work:puhcas gone: what is next for holding companies?": [
+   "e473"
+  ],
+  "author:imanol basterretxea": [
+   "e474"
+  ],
+  "author:jon charterina abando": [
+   "e474"
+  ],
+  "author:jon landeta rodr\u00edguez": [
+   "e474"
+  ],
+  "keyword:coopetitive arrangements analyzed": [
+   "e474"
+  ],
+  "keyword:paper aims": [
+   "e474"
+  ],
+  "keyword:paper shows": [
+   "e474"
+  ],
+  "keyword:paper uses": [
+   "e474"
+  ],
+  "keyword:processes foster innovation": [
+   "e474"
+  ],
+  "keyword:spanish machine-tool cooperatives helps": [
+   "e474"
+  ],
+  "work:coopetition and innovation. lessons from worker cooperatives in the spanish machine tool industry": [
+   "e474"
+  ],
+  "author:kerri carisse": [
+   "e475"
+  ],
+  "keyword:cooperative practices": [
+   "e475"
+  ],
+  "keyword:emancipatory potential": [
+   "e475"
+  ],
+  "keyword:mondragon offers inspiration": [
+   "e475"
+  ],
+  "keyword:offering subversive potential": [
+   "e475"
+  ],
+  "keyword:post-capitalism": [
+   "e475"
+  ],
+  "keyword:post-capitalist futures": [
+   "e475"
+  ],
+  "keyword:potential": [
+   "e475"
+  ],
+  "keyword:practices": [
+   "e475"
+  ],
+  "keyword:workplace cooperative practices": [
+   "e475"
+  ],
+  "work:towards more ethical futures: workplace cooperative practices contributions as demonstrated by the mondragon corporation": [
+   "e475"
   ],
   "author:anne ventura": [
-   "e422"
+   "e476"
   ],
   "author:jean\u2010baptiste bahers": [
-   "e422",
-   "e431"
+   "e476",
+   "e490"
   ],
   "author:nicolas antheaume": [
-   "e422"
+   "e476"
   ],
   "author:paula higuera": [
-   "e422"
+   "e476"
   ],
   "keyword:caledonian island metabolism": [
-   "e422"
+   "e476"
   ],
   "keyword:extractive island": [
-   "e422"
+   "e476"
   ],
   "keyword:island corresponds": [
-   "e422"
+   "e476"
   ],
   "keyword:island metabolism": [
-   "e422"
+   "e476"
   ],
   "keyword:island metabolism strives": [
-   "e422"
+   "e476"
   ],
   "keyword:island scale": [
-   "e422"
+   "e476"
   ],
   "keyword:islands metabolism": [
-   "e422"
+   "e476"
   ],
   "keyword:nexus": [
-   "e422"
+   "e476"
   ],
   "keyword:nexus approach": [
-   "e422"
+   "e476"
   ],
   "keyword:nexus subsystem": [
-   "e422"
+   "e476"
   ],
   "work:the \"metal-energy-construction mineral\" nexus in the island metabolism: the case of the extractive economy of new caledonia": [
-   "e422"
+   "e476"
+  ],
+  "author:roxana maria chirieac": [
+   "e477"
+  ],
+  "keyword:administer various companies": [
+   "e477"
+  ],
+  "keyword:allows one": [
+   "e477"
+  ],
+  "keyword:companies": [
+   "e477"
+  ],
+  "keyword:european companies": [
+   "e477"
+  ],
+  "keyword:european company": [
+   "e477"
+  ],
+  "keyword:european union": [
+   "e477"
+  ],
+  "keyword:lot longer ago": [
+   "e477"
+  ],
+  "keyword:moral persons using": [
+   "e477"
+  ],
+  "keyword:one": [
+   "e477",
+   "e493"
+  ],
+  "keyword:one doesnt": [
+   "e477"
+  ],
+  "keyword:transnational companies": [
+   "e477"
+  ],
+  "work:considerations on the european companies and holdings": [
+   "e477"
   ],
   "author:bruno barroca": [
-   "e423"
+   "e478"
   ],
   "author:h\u00e9l\u00e8ne beraud": [
-   "e423"
+   "e478"
   ],
   "author:roxana cristina popescu": [
-   "e423"
+   "e478"
   ],
   "keyword:hurricane irma": [
-   "e423"
+   "e478"
   ],
   "keyword:hurricane waste flows": [
-   "e423"
+   "e478"
   ],
   "keyword:improving post-hurricane waste planning": [
-   "e423"
+   "e478"
   ],
   "keyword:islands": [
-   "e423",
-   "e426",
-   "e433"
+   "e478",
+   "e482",
+   "e492"
   ],
   "keyword:islands total destruction tended toward": [
-   "e423"
+   "e478"
   ],
   "keyword:metabolism": [
-   "e423"
+   "e478"
   ],
   "keyword:saint martins metabolism": [
-   "e423"
+   "e478"
   ],
   "keyword:small islands leave": [
-   "e423"
+   "e478"
   ],
   "keyword:three structuring territorial metabolism dimensions": [
-   "e423"
+   "e478"
   ],
   "keyword:waste flows": [
-   "e423"
+   "e478"
   ],
   "keyword:waste flows changed durably": [
-   "e423"
+   "e478"
   ],
   "keyword:waste management system": [
-   "e423"
+   "e478"
   ],
   "work:the impact of hurricane irma on the metabolism of st. martins island": [
-   "e423"
+   "e478"
+  ],
+  "author:alla andreevna neznamova": [
+   "e479"
+  ],
+  "author:lubov borisovna sitdikova": [
+   "e479"
+  ],
+  "author:mar\u00eda alexandrovna volkova": [
+   "e479"
+  ],
+  "author:svetlana jurievna starodumova": [
+   "e479"
+  ],
+  "keyword:cooperative": [
+   "e479",
+   "e497"
+  ],
+  "keyword:corporate governance": [
+   "e479",
+   "e509"
+  ],
+  "keyword:subjects": [
+   "e479"
+  ],
+  "work:the subjects of corporate governance in a cooperative": [
+   "e479"
   ],
   "author:enni airaksinen": [
-   "e424"
+   "e480"
   ],
   "author:maxim rossknecht": [
-   "e424"
+   "e480"
   ],
   "keyword:citygml energy ade-case study helsinki": [
-   "e424"
+   "e480"
   ],
   "keyword:co2 emissions": [
-   "e424"
+   "e480"
   ],
   "keyword:district heating network": [
-   "e424"
+   "e480"
   ],
   "keyword:heating demand": [
-   "e424"
+   "e480"
   ],
   "keyword:heating demand prediction based": [
-   "e424"
+   "e480"
   ],
   "keyword:heating demand reduction": [
-   "e424"
+   "e480"
   ],
   "keyword:helsinki energy": [
-   "e424"
+   "e480"
   ],
   "keyword:helsinkis assumed heating demand reduction": [
-   "e424"
+   "e480"
   ],
   "keyword:lower co2 emission factors": [
-   "e424"
+   "e480"
   ],
   "keyword:provide energy-relevant information based": [
-   "e424"
+   "e480"
   ],
   "keyword:resulting co2 emissions prediction based": [
-   "e424"
+   "e480"
   ],
   "work:concept and evaluation of heating demand prediction based on 3d city models and the citygml energy ade-case study helsinki": [
-   "e424"
+   "e480"
   ],
   "author:arnau riera": [
-   "e425"
+   "e481"
   ],
   "author:john goold": [
-   "e425"
+   "e481"
   ],
   "author:l\u00eddia del rio": [
-   "e425"
+   "e481"
   ],
   "author:marcus huber": [
-   "e425"
+   "e481"
   ],
   "author:paul skrzypczyk": [
-   "e425"
+   "e481"
   ],
   "keyword:comprehensive review": [
-   "e425"
+   "e481"
   ],
   "keyword:convenient entry point": [
-   "e425"
+   "e481"
   ],
   "keyword:different interdisciplinary approaches emerging": [
-   "e425"
+   "e481"
   ],
   "keyword:review": [
-   "e425"
+   "e481"
   ],
   "keyword:several trending topics including": [
-   "e425"
+   "e481"
   ],
   "keyword:topical review article gives": [
-   "e425"
+   "e481"
   ],
   "work:the role of quantum information in thermodynamics-a topical review": [
-   "e425"
+   "e481"
   ],
   "author:marian chertow": [
-   "e426"
+   "e482"
   ],
   "author:marina fischer\u2010kowalski": [
-   "e426"
+   "e482"
   ],
   "author:simron jit singh": [
-   "e426",
-   "e428",
-   "e431",
-   "e433"
+   "e482",
+   "e486",
+   "e490",
+   "e492"
   ],
   "keyword:allow island governments": [
-   "e426"
+   "e482"
   ],
   "keyword:climate action": [
-   "e426"
+   "e482"
   ],
   "keyword:climate change": [
-   "e426"
+   "e482"
   ],
   "keyword:global environmental change": [
-   "e426"
+   "e482"
   ],
   "keyword:introduce key industrial ecology concepts": [
-   "e426"
+   "e482"
   ],
   "keyword:island cases": [
-   "e426"
+   "e482"
   ],
   "keyword:island industrial ecology": [
-   "e426"
+   "e482"
   ],
   "keyword:special issue": [
-   "e426"
+   "e482"
   ],
   "keyword:sustain small islands": [
-   "e426"
+   "e482"
   ],
   "work:introduction: the metabolism of islands": [
-   "e426"
+   "e482"
   ],
   "author:jonathan immanuel brachth\u00e4user": [
-   "e427"
+   "e483"
   ],
   "author:klaus ostermann": [
-   "e427"
+   "e483"
   ],
   "author:philipp schuster": [
-   "e427"
+   "e483"
   ],
   "keyword:effect encapsulation": [
-   "e427"
+   "e483"
   ],
   "keyword:effect handlers": [
-   "e427"
+   "e483"
   ],
   "keyword:effect parametricity": [
-   "e427"
+   "e483"
   ],
   "keyword:effect polymorphism": [
-   "e427"
+   "e483"
   ],
   "keyword:effect systems": [
-   "e427"
+   "e483"
   ],
   "keyword:effect systems impedes reasoning": [
-   "e427"
+   "e483"
   ],
   "keyword:effekt": [
-   "e427"
+   "e483"
   ],
   "keyword:effekt revolves": [
-   "e427"
+   "e483"
   ],
   "keyword:guarantee effect safety": [
-   "e427"
+   "e483"
   ],
   "keyword:language effekt": [
-   "e427"
+   "e483"
   ],
   "work:effects as capabilities: effect handlers and lightweight effect polymorphism": [
-   "e427"
+   "e483"
+  ],
+  "author:lorenzo edd, virgil": [
+   "e484"
+  ],
+  "keyword:arizmendiarrietas educational aim": [
+   "e484"
+  ],
+  "keyword:cooperative ethics": [
+   "e484"
+  ],
+  "keyword:educational aim": [
+   "e484"
+  ],
+  "keyword:ethical aim": [
+   "e484"
+  ],
+  "keyword:ethics": [
+   "e484"
+  ],
+  "keyword:jose maria arizmendiarrieta": [
+   "e484"
+  ],
+  "keyword:jose maria arizmendiarrieta founder": [
+   "e484"
+  ],
+  "keyword:similarities provide impetus toward": [
+   "e484"
+  ],
+  "keyword:toward cooperative ethics": [
+   "e484"
+  ],
+  "work:toward cooperative ethics: a ricoeurian reading of the educational aim of jose maria arizmendiarrieta founder of the mondragon cooperatives": [
+   "e484"
+  ],
+  "author:balasubramanian iyer": [
+   "e485"
+  ],
+  "author:ganesh gopal": [
+   "e485"
+  ],
+  "author:mohit dave": [
+   "e485"
+  ],
+  "author:shaurya k. singh": [
+   "e485"
+  ],
+  "keyword:asia-pacific cooperative apexes": [
+   "e485"
+  ],
+  "keyword:centering cooperatives": [
+   "e485"
+  ],
+  "keyword:cooperative identity": [
+   "e485",
+   "e489"
+  ],
+  "keyword:federations": [
+   "e485"
+  ],
+  "keyword:social": [
+   "e485"
+  ],
+  "work:centering cooperatives and cooperative identity within the social and solidarity economy: views from the asia-pacific cooperative apexes and federations": [
+   "e485"
   ],
   "author:christian lauk": [
-   "e428"
+   "e486"
   ],
   "author:dominik noll": [
-   "e428"
+   "e486"
   ],
   "author:dominik wiedenhofer": [
-   "e428"
+   "e486"
   ],
   "author:panos petridis": [
-   "e428"
+   "e486"
   ],
   "author:willi haas": [
-   "e428"
+   "e486"
   ],
   "keyword:almost entirely circular biophysical economy toward one": [
-   "e428"
+   "e486"
   ],
   "keyword:apply material": [
-   "e428"
+   "e486"
   ],
   "keyword:circular material use": [
-   "e428"
+   "e486"
   ],
   "keyword:current material stocks": [
-   "e428"
+   "e486"
   ],
   "keyword:geomorphological characteristics make island systems special focal points": [
-   "e428"
+   "e486"
   ],
   "keyword:greek island": [
-   "e428"
+   "e486"
   ],
   "keyword:island almost half": [
-   "e428"
+   "e486"
   ],
   "keyword:island community": [
-   "e428"
+   "e486"
   ],
   "keyword:material circularity": [
-   "e428"
+   "e486"
   ],
   "keyword:socioeconomic biophysical stocks": [
-   "e428"
+   "e486"
   ],
   "keyword:sustainable material": [
-   "e428"
+   "e486"
   ],
   "work:the sociometabolic transition of a small greek island: assessing stock dynamics, resource flows, and material circularity from 1929 to 2019": [
-   "e428"
+   "e486"
   ],
   "keyword:classical constitutive laws": [
-   "e429"
+   "e487"
   ],
   "keyword:fluctuation theory": [
-   "e429"
+   "e487"
   ],
   "keyword:fluxes": [
-   "e429"
+   "e487"
   ],
   "keyword:kinetic theory": [
-   "e429"
+   "e487"
   ],
   "keyword:macroscopic theory": [
-   "e429"
+   "e487"
   ],
   "keyword:several generalisations including higher-order fluxes": [
-   "e429"
+   "e487"
   ],
   "keyword:so-called rational thermodynamics": [
-   "e429"
+   "e487"
   ],
   "work:extended irreversible thermodynamics": [
-   "e429"
+   "e487"
   ],
   "author:alexandru nichersu": [
-   "e430"
+   "e488"
   ],
   "author:avichal malhotra": [
-   "e430"
+   "e488"
   ],
   "author:christoph van treeck": [
-   "e430"
+   "e488"
   ],
   "author:divyanshu sood": [
-   "e430"
+   "e488"
   ],
   "author:gerald schweiger": [
-   "e430"
+   "e488"
   ],
   "author:james allan": [
-   "e430"
+   "e488"
   ],
   "author:james odonnell": [
-   "e430"
+   "e488"
   ],
   "author:johannes exenberger": [
-   "e430"
+   "e488"
   ],
   "author:julian bischof": [
-   "e430"
+   "e488"
   ],
   "author:j\u00e9r\u00f4me frisch": [
-   "e430"
+   "e488"
   ],
   "author:karl\u2010heinz h\u00e4fele": [
-   "e430"
+   "e488"
   ],
   "keyword:associated data formats": [
-   "e430"
+   "e488"
   ],
   "keyword:data sources": [
-   "e430"
+   "e488"
   ],
   "keyword:energy consumption": [
-   "e430"
+   "e488"
   ],
   "keyword:input": [
-   "e430"
+   "e488"
   ],
   "keyword:input data": [
-   "e430"
+   "e488"
   ],
   "keyword:output data": [
-   "e430"
+   "e488"
   ],
   "keyword:overall energy system": [
-   "e430"
+   "e488"
   ],
   "keyword:simulation processes": [
-   "e430"
+   "e488"
   ],
   "keyword:simulation workflows": [
-   "e430"
+   "e488"
   ],
   "keyword:ubem": [
-   "e430"
+   "e488"
   ],
   "work:information modelling for urban building energy simulation-a taxonomic review": [
-   "e430"
+   "e488"
+  ],
+  "author:melissa k. scanlan": [
+   "e489"
+  ],
+  "keyword:chapter assesses": [
+   "e489"
+  ],
+  "keyword:chapter focuses": [
+   "e489"
+  ],
+  "keyword:cooperative federations": [
+   "e489",
+   "e498",
+   "e504",
+   "e509"
+  ],
+  "keyword:cooperative private governance": [
+   "e489"
+  ],
+  "keyword:incorporating identity": [
+   "e489"
+  ],
+  "keyword:investor-owned corporations": [
+   "e489"
+  ],
+  "keyword:maximizes shareholder value": [
+   "e489"
+  ],
+  "keyword:maximizing cooperatives potential": [
+   "e489"
+  ],
+  "keyword:outlines critical factors": [
+   "e489"
+  ],
+  "keyword:principles": [
+   "e489"
+  ],
+  "keyword:principles shape legal design": [
+   "e489"
+  ],
+  "keyword:private governance based": [
+   "e489"
+  ],
+  "work:the cooperative difference, private governance, and the law": [
+   "e489"
   ],
   "author:mathieu durand": [
-   "e431"
+   "e490"
   ],
   "keyword:comoros archipelago": [
-   "e431"
+   "e490"
   ],
   "work:analyzing socio-metabolic vulnerability: evidence from the comoros archipelago": [
-   "e431"
+   "e490"
   ],
   "author:michael batty": [
-   "e432"
+   "e491"
   ],
   "keyword:digital twins": [
-   "e432",
-   "e434"
+   "e491",
+   "e494"
   ],
   "work:digital twins": [
-   "e432"
+   "e491"
   ],
   "author:jasper verschuur": [
-   "e433"
+   "e492"
   ],
   "author:matthew j. eckelman": [
-   "e433"
+   "e492"
   ],
   "author:nidhi nagabhatla": [
-   "e433"
+   "e492"
   ],
   "author:pia\u2010johanna schweizer": [
-   "e433"
+   "e492"
   ],
   "author:reshma soman": [
-   "e433"
+   "e492"
   ],
   "author:tailin huang": [
-   "e433"
+   "e492"
   ],
   "keyword:effectively deliver societal services necessary": [
-   "e433"
+   "e492"
   ],
   "keyword:governing smr": [
-   "e433"
+   "e492"
   ],
   "keyword:pandemics significantly hinder sids progress": [
-   "e433"
+   "e492"
   ],
   "keyword:positioning smr": [
-   "e433"
+   "e492"
   ],
   "keyword:sids would mean governing socio-metabolic flows": [
-   "e433"
+   "e492"
   ],
   "keyword:small islands": [
-   "e433"
+   "e492"
   ],
   "keyword:small islands using insights": [
-   "e433"
+   "e492"
   ],
   "keyword:societal services": [
-   "e433"
+   "e492"
   ],
   "keyword:socio-metabolic risk": [
-   "e433"
+   "e492"
   ],
   "keyword:systemic risk associated": [
-   "e433"
+   "e492"
   ],
   "keyword:tipping points": [
-   "e433"
+   "e492"
   ],
   "work:socio-metabolic risk and tipping points on islands": [
-   "e433"
+   "e492"
+  ],
+  "author:aritz kanpandegi berrotaran": [
+   "e493"
+  ],
+  "author:fred freundlich": [
+   "e493",
+   "e505"
+  ],
+  "author:oier imaz alias": [
+   "e493",
+   "e503"
+  ],
+  "keyword:conventional firms": [
+   "e493",
+   "e500"
+  ],
+  "keyword:cooperative universe": [
+   "e493"
+  ],
+  "keyword:cooperatives face somewhat different versions": [
+   "e493"
+  ],
+  "keyword:multistakeholder cooperatives": [
+   "e493"
+  ],
+  "work:the governance of multistakeholder cooperatives in mondragon: the evolving relationship among purpose, structure and process": [
+   "e493"
   ],
   "author:a. stewart fotheringham": [
-   "e434"
+   "e494"
   ],
   "keyword:urban analytics": [
-   "e434"
+   "e494"
   ],
   "work:digital twins: the current \"krays\" of urban analytics?": [
-   "e434"
+   "e494"
+  ],
+  "author:derek c. jones": [
+   "e495"
+  ],
+  "keyword:appropriate research agenda": [
+   "e495"
+  ],
+  "keyword:cooperative success": [
+   "e495"
+  ],
+  "keyword:individual": [
+   "e495"
+  ],
+  "keyword:individual pcs": [
+   "e495"
+  ],
+  "keyword:individual pcs typically benefit": [
+   "e495"
+  ],
+  "keyword:institutional design": [
+   "e495"
+  ],
+  "keyword:internal organizational design": [
+   "e495"
+  ],
+  "keyword:producer cooperatives": [
+   "e495"
+  ],
+  "keyword:success include strong participation": [
+   "e495"
+  ],
+  "keyword:traditional pcs": [
+   "e495"
+  ],
+  "work:institutional design and cooperative success: the case of producer cooperatives": [
+   "e495"
+  ],
+  "author:aingeru ruiz mart\u00ednez": [
+   "e496"
+  ],
+  "author:ignacio bretos": [
+   "e496"
+  ],
+  "keyword:complejo que": [
+   "e496"
+  ],
+  "keyword:cooperativas": [
+   "e496"
+  ],
+  "keyword:cooperativas peque": [
+   "e496"
+  ],
+  "keyword:estudio muestra los desaf": [
+   "e496"
+  ],
+  "keyword:las cooperativas": [
+   "e496"
+  ],
+  "keyword:las cooperativas ante": [
+   "e496"
+  ],
+  "keyword:los grupos cooperativos": [
+   "e496"
+  ],
+  "keyword:medianas que operan exclusivamente": [
+   "e496"
+  ],
+  "keyword:organizaciones cooperativas": [
+   "e496"
+  ],
+  "keyword:que": [
+   "e496"
+  ],
+  "keyword:que cabe esperar": [
+   "e496"
+  ],
+  "keyword:que compiten": [
+   "e496"
+  ],
+  "work:desaf\u00edos en la regeneraci\u00f3n de grandes grupos cooperativos: un estudio de caso de mondragon": [
+   "e496"
+  ],
+  "author:hans van den hurk": [
+   "e497"
+  ],
+  "author:john nillesen": [
+   "e497"
+  ],
+  "keyword:article": [
+   "e497"
+  ],
+  "keyword:authors focus": [
+   "e497"
+  ],
+  "keyword:intermediate holding companies": [
+   "e497"
+  ],
+  "keyword:intermediate holding company": [
+   "e497"
+  ],
+  "keyword:international investment structures": [
+   "e497"
+  ],
+  "keyword:netherlands cooperative": [
+   "e497"
+  ],
+  "keyword:netherlands cooperatives": [
+   "e497"
+  ],
+  "keyword:particular": [
+   "e497"
+  ],
+  "keyword:use": [
+   "e497"
+  ],
+  "keyword:withhold dividend tax": [
+   "e497"
+  ],
+  "work:netherlands cooperatives as intermediate holding companies in international investment structures": [
+   "e497"
+  ],
+  "author:carole maurel": [
+   "e498"
+  ],
+  "author:foued cheriet": [
+   "e498"
+  ],
+  "author:herv\u00e9 hannin": [
+   "e498"
+  ],
+  "author:paul amadieu": [
+   "e498"
+  ],
+  "keyword:export": [
+   "e498"
+  ],
+  "keyword:export positioning": [
+   "e498"
+  ],
+  "keyword:export strategies": [
+   "e498"
+  ],
+  "keyword:french wine cooperative sector": [
+   "e498"
+  ],
+  "keyword:french wine cooperatives": [
+   "e498"
+  ],
+  "keyword:french wine industry": [
+   "e498"
+  ],
+  "keyword:leading position": [
+   "e498"
+  ],
+  "keyword:leading wine exporter": [
+   "e498"
+  ],
+  "keyword:wine cooperatives": [
+   "e498"
+  ],
+  "work:governance and strategy of french wine cooperatives and cooperative federations for export": [
+   "e498"
+  ],
+  "author:anderson catapan": [
+   "e499"
+  ],
+  "author:bernardo de almeida villanueva": [
+   "e499"
+  ],
+  "author:s\u00e9rgio lousada": [
+   "e499"
+  ],
+  "keyword:achieving sustainable development goals": [
+   "e499"
+  ],
+  "keyword:brazilian energy cooperatives": [
+   "e499"
+  ],
+  "keyword:democratic energy landscape": [
+   "e499"
+  ],
+  "keyword:energy cooperative federation": [
+   "e499"
+  ],
+  "keyword:global energy transition": [
+   "e499"
+  ],
+  "keyword:position cooperatives": [
+   "e499"
+  ],
+  "keyword:sustainable": [
+   "e499"
+  ],
+  "keyword:sustainable urban development": [
+   "e499"
+  ],
+  "work:empowering brazils energy cooperatives: creating a federation and fostering sdgs": [
+   "e499"
+  ],
+  "author:carmen guzm\u00e1n": [
+   "e500"
+  ],
+  "author:francisco j. santos": [
+   "e500"
+  ],
+  "author:lidia valiente palma": [
+   "e500"
+  ],
+  "keyword:cfs located": [
+   "e500"
+  ],
+  "keyword:collective firms": [
+   "e500"
+  ],
+  "keyword:cooperation": [
+   "e500"
+  ],
+  "keyword:external cooperation": [
+   "e500"
+  ],
+  "keyword:innovation": [
+   "e500"
+  ],
+  "keyword:innovation compared": [
+   "e500"
+  ],
+  "keyword:innovation performance": [
+   "e500"
+  ],
+  "keyword:two spanish regions": [
+   "e500"
+  ],
+  "keyword:wcs": [
+   "e500"
+  ],
+  "work:entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation": [
+   "e500"
+  ],
+  "author:neal harris": [
+   "e501"
+  ],
+  "author:robin jervis": [
+   "e501"
+  ],
+  "keyword:article sheds light": [
+   "e501"
+  ],
+  "keyword:article stresses": [
+   "e501"
+  ],
+  "keyword:cooperative literature": [
+   "e501"
+  ],
+  "keyword:degeneration thesis": [
+   "e501"
+  ],
+  "keyword:degeneration thesis suggests cooperatives": [
+   "e501"
+  ],
+  "keyword:democratic control furthers social change": [
+   "e501"
+  ],
+  "keyword:early frankfurt school placed": [
+   "e501"
+  ],
+  "keyword:importance placed": [
+   "e501"
+  ],
+  "keyword:spillover thesis": [
+   "e501"
+  ],
+  "work:worker cooperatives for a democratic economy": [
+   "e501"
   ],
   "author:avril n\u00ed shearcaigh": [
-   "e435"
+   "e502"
   ],
   "author:claudia bo": [
-   "e435"
+   "e502"
   ],
   "author:dayanne peretti corr\u00eaa": [
-   "e435"
+   "e502"
   ],
   "author:faezeh delkhah": [
-   "e435"
+   "e502"
   ],
   "author:niall buckley": [
-   "e435"
+   "e502"
   ],
   "author:niall byrne": [
-   "e435"
+   "e502"
   ],
   "author:stephanie brennan": [
-   "e435"
+   "e502"
   ],
   "keyword:current energy use": [
-   "e435"
+   "e502"
   ],
   "keyword:electrifying energy systems": [
-   "e435"
+   "e502"
   ],
   "keyword:optimizing local res": [
-   "e435"
+   "e502"
   ],
   "keyword:p2p energy trading": [
-   "e435"
+   "e502"
   ],
   "keyword:predictive digital twins": [
-   "e435"
+   "e502"
   ],
   "keyword:shift energy loads": [
-   "e435"
+   "e502"
   ],
   "keyword:using digital twins": [
-   "e435"
+   "e502"
   ],
   "work:evaluation of a peer-to-peer smart grid using digital twins: a case study of a remote european island": [
-   "e435"
+   "e502"
+  ],
+  "author:jokin bergara eguren": [
+   "e503"
+  ],
+  "keyword:better understanding": [
+   "e503"
+  ],
+  "keyword:crucial role": [
+   "e503"
+  ],
+  "keyword:focus groups conducted": [
+   "e503"
+  ],
+  "keyword:implementation": [
+   "e503"
+  ],
+  "keyword:implementation process": [
+   "e503"
+  ],
+  "keyword:in-depth interviews": [
+   "e503"
+  ],
+  "keyword:mondragon corporation deal": [
+   "e503"
+  ],
+  "keyword:private sector": [
+   "e503"
+  ],
+  "keyword:role": [
+   "e503"
+  ],
+  "keyword:solidarity economy": [
+   "e503"
+  ],
+  "keyword:sustainable development agenda": [
+   "e503"
+  ],
+  "work:sustainability in mondragon worker cooperatives": [
+   "e503"
+  ],
+  "author:julien cadot": [
+   "e504",
+   "e509"
+  ],
+  "author:michael lee cook": [
+   "e504"
+  ],
+  "author:philippe jeanneaux": [
+   "e504",
+   "e509"
+  ],
+  "keyword:governance": [
+   "e504"
+  ],
+  "work:the governance of cooperative federations, a first insight": [
+   "e504"
+  ],
+  "author:igor ortega sunsundegi": [
+   "e505"
+  ],
+  "author:marixe ruiz de austri arexolaleiba": [
+   "e505"
+  ],
+  "author:miren zuberogoitia-kaltzakorta": [
+   "e505"
+  ],
+  "keyword:central ideological element": [
+   "e505"
+  ],
+  "keyword:chapter addresses": [
+   "e505"
+  ],
+  "keyword:cooperative movement generally": [
+   "e505"
+  ],
+  "keyword:cooperative thought": [
+   "e505"
+  ],
+  "keyword:emphasized different notions": [
+   "e505"
+  ],
+  "keyword:emphasized rights": [
+   "e505"
+  ],
+  "keyword:generally viewed": [
+   "e505"
+  ],
+  "keyword:many cooperative thinkers": [
+   "e505"
+  ],
+  "keyword:mondragon cooperative experience": [
+   "e505"
+  ],
+  "keyword:organizational form": [
+   "e505"
+  ],
+  "keyword:paper recounts one": [
+   "e505"
+  ],
+  "work:responsibility as emancipation in cooperative thought and in mondragon": [
+   "e505"
+  ],
+  "author:unknown author": [
+   "e506"
+  ],
+  "keyword:cooperative organizational structure": [
+   "e506"
+  ],
+  "keyword:legal aspects": [
+   "e506"
+  ],
+  "work:legal aspects of cooperative organizational structure": [
+   "e506"
+  ],
+  "author:\uc11c\uc11d\ud765": [
+   "e507"
+  ],
+  "keyword:chinese rural community": [
+   "e507"
+  ],
+  "keyword:chinese rural share-holding cooperative enterprises": [
+   "e507"
+  ],
+  "keyword:collective enterprises": [
+   "e507"
+  ],
+  "keyword:enforcing share-holding cooperative system": [
+   "e507"
+  ],
+  "keyword:introducing share-holding cooperative system": [
+   "e507"
+  ],
+  "keyword:medium-sized state-owned enterprises": [
+   "e507"
+  ],
+  "keyword:million rural enterprises": [
+   "e507"
+  ],
+  "keyword:rural enterprises": [
+   "e507"
+  ],
+  "keyword:rural share-holding cooperative economy": [
+   "e507"
+  ],
+  "keyword:rural share-holding cooperative enterprises": [
+   "e507"
+  ],
+  "keyword:share-holding cooperative enterprises": [
+   "e507"
+  ],
+  "keyword:state-owned enterprises": [
+   "e507"
+  ],
+  "keyword:urban state-owned enterprises": [
+   "e507"
+  ],
+  "work:a study on the chinese rural share-holding cooperative enterprises": [
+   "e507"
+  ],
+  "author:tej gonza": [
+   "e508"
+  ],
+  "keyword:employee ownership": [
+   "e508"
+  ],
+  "keyword:employee ownership organizations": [
+   "e508"
+  ],
+  "keyword:institutional analysis identifies five interdependent mechanisms": [
+   "e508"
+  ],
+  "keyword:institutional response rather": [
+   "e508"
+  ],
+  "keyword:novel institutional design": [
+   "e508"
+  ],
+  "keyword:novel legislative framework": [
+   "e508"
+  ],
+  "work:between esops, eots and mondragon cooperatives": [
+   "e508"
+  ],
+  "author:francis declerck": [
+   "e509"
+  ],
+  "author:michael l. cook": [
+   "e509"
+  ],
+  "keyword:agricultural cooperatives": [
+   "e509"
+  ],
+  "keyword:centralised cooperatives": [
+   "e509"
+  ],
+  "keyword:governance advantages": [
+   "e509"
+  ],
+  "keyword:local cooperatives": [
+   "e509"
+  ],
+  "keyword:sustain federation stability": [
+   "e509"
+  ],
+  "work:structural change of cooperative federations: the role of economic justification and asset specificity": [
+   "e509"
   ]
  }
 }
