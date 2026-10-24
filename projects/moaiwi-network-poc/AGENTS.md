@@ -10,7 +10,7 @@ Thread goal: a business plan POC for a corporation that is a federation of worke
 4. `2026-10-21-moaiwi-network-poc-meta-plan.md` — the v2 meta-plan (moved here from `writing/machine/` 2026-10-24; single combined 30-day sprint, phases, gates; revised 2026-10-22); **superseded**, reviewable input only
 4. `writing/machine/2026-10-22-moaiwi-transcripts-review.md` — review of MOAIWI-1–3 against the docs; its **2026-10-22 decisions govern** the v2 documents
 5. `framing-memo.md` — Phase A output (v1): thesis, productive tension, audience register, abstraction policy + glossary; `framing-memo-v2.md` is the draft with the 2026-10-22 decisions folded in
-6. `research-plans/` — B1–B4 research plans (work packages, keyword/search strategy) — pre-download gate; **B4 (higher-order networks) is the operative structural framing**; their fate under v3 is **undecided**
+6. `research-plans/` — B1–B4 v1/v2 plans and Phase B outputs — **retained as history** (B1 v3 supersedes B1; salvage maps in `../moaiwi-research-program/research-topics-v3.md` Appendices A–C); ultimate fate undecided. **New research plans live in `../moaiwi-research-program/`, one directory per research question** (2026-10-24)
 7. `writing/human/MOAIWI-{1,2,3,4}.md`, `writing/human/Informatics1Readable.md` — the primary sources for the v3 documents, so run `grep -rn "Nic"` against them rather than relying on summaries
 8. (next) `options/` — B1–B4 options memos and research-proposals lists
 

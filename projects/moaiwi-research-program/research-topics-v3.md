@@ -2,7 +2,7 @@
 title: "Research topics v3 — Reflect pass over the meta-plan and transcripts"
 date: 2026-10-24
 kind: options
-project: moaiwi-network-poc
+project: moaiwi-research-program
 ---
 
 # Research topics v3 — a clean-sheet agenda
@@ -143,12 +143,12 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 | T14 process infrastructure | all | §4.1 | 2 |
 | T15 higher-order networks lens | all (cross-cutting) | §6 + all modeling topics | 1 |
 
-## Open questions for Brad
+## Resolved sequencing and policy (Brad, 2026-10-24)
 
-1. **Tier 0 cut?** My proposal starts research plans with T1–T4 (fieldwork-window topics plus the thesis inventory). If only two can start now, I would take **T1 and T3** — one fieldwork, one desk, jointly covering the revenue math and the thesis.
-2. **T3's placement:** it is meta-plan-adjacent (the thesis) but I have it as a normal research plan — do you want it treated as foundational (answer before the M1 demo content is fixed)?
-3. **Salvage policy (partially answered 2026-10-24):** clean-sheet means the T-plans are written from the questions up; B1 continues in progress and is being aligned to T3 (Appendix A); B2's salvageable parts move into T5 (Appendix B). B3/B4 partials will get the same treatment when T6/T15 are planned. Confirm, and confirm the old files stay untouched.
-4. **T13/T14** are the Reflect/infrastructure pair you named; want them sequenced after the fieldwork topics, or in parallel?
+1. **Who runs what.** Brad proceeds with **T3** without Nic; **Nic (and maybe Rachel) coordinates T1**. Other research questions that require only desk work may be pursued while T1 is still open.
+2. **T3 lives inside B1.** B1 is revised per Appendices A and C, producing **`cooperatives-governance-scaling/B1-architecture-governance-plan-v3.md`** (2026-10-24: research work promoted to its own project, `projects/moaiwi-research-program/`, one directory per research question, named with a slug of the question) — the next step and top priority.
+3. **File policy.** Outside of B1, plans are **clean-sheet developments of new markdown files keyed to the research question** — *not developed now*, B1 v3 first.
+4. **T13/T14 are process, not project, questions.** Pursued **in parallel** (they can impact every project stage), but less urgent for M1, which proceeds with the existing Research and Develop processes and will inform Deploy.
 
 ---
 
@@ -178,3 +178,28 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - The aggregation-stance core — aggregation-without-scale-commitment, formalisms A–D (incl. sheaf/cosheaf routes), rigs/semimodules, HoTT quality types, overconstrained reconstruction. These are the *anti-scalarization program*, a different question from investor-acceptable measurability; the formal candidates route to **T10** (the economy/network model's formalism) or stay in B2 as history.
 - D1 calculator requirements, the three-horizon mapping, the Gate 2 schedule — v2 artifacts, retired.
 - Standing exclusions still apply: thermodynamics/stat-mech out; category theory long-term only — so the sheaf/categorical formalisms cannot enter T5's near-term outputs.
+
+## Appendix C — The B3 → T6 relationship (split map)
+
+*For Brad's review (2026-10-24). Unlike B2→T5 (near 1:1), T6 is only the **finance-mechanics core** of `B3-capital-allocation-plan-v2.md`; the rest of B3 fans out into T3, T10, and T15. The map below keeps whoever writes each T-plan from re-running B3's searches — or missing their share of them.*
+
+**Nature of the relationship.** B3 was scoped to produce a capital-allocation options memo *for the pitch* (v2); T6 is scoped to decide which of the transcripts' finance mechanics are formalizable enough to become **Hyphae features** and computations in **Moaiwi's shared accounting/management tools**. Same transcript material, different question: B3 asks what the federation's allocation posture should be; T6 asks what is real enough to build.
+
+**Salvage for T6:**
+1. **WP1 (finance-mechanism inventory)** — internal capital accounts, indivisible reserves, solidarity/revolving funds, Caja Laboral → Laboral Kutxa, Desjardins, Evergreen; the **internal vs. external returns terminology** (M3 L327).
+2. **WP7 (fund construction & liquidity)** — the barbell/bundle construction (treasuries + 0% loans blended to a target rate), grants-as-revenue vs. 0% bonds, fund-as-bank mechanics (withdrawal gating ≈10%/month, suspension with illiquid assets, bank-run risk), market-rate timing, choose-your-capital doctrine.
+3. **WP2's finance half** — equity-vs-bond behavior analysis, bankruptcy tolerance, failed-founder retention as design requirements. *(The degeneration canon half goes to T3 — see below.)*
+4. **RQ1's hypothesis and RQ6 (the flagship)** — "internal IRR must exceed external IRR so external capital can be bought out" (M3 L415–419) as a hypothesis to test; "returns out of the circulatory system — and how much can be withdrawn without killing the organism" (M3 L403, 435).
+5. **Open question 5 of B3 — the debt-posture inconsistency** (debt proposed M1 L275, condemned M3 L331, used in the barbell M2 L403). This is precisely a transcripts-unsettled item; **T6 owns it as an explicit open question**, resolved into a coherent option set rather than a silent pick.
+6. **Search material** — Block A and Block E query strings (incl. the *(v2)* additions: patient/catalytic capital, PRI, grant recycling, barbell, liquidity gating, bank-run), the Ellerman seed, MONDRAGON/Laboral Kutxa/Desjardins gray-lit targets.
+
+**Split map — where the rest of B3 belongs:**
+- **WP2 degeneration canon** (Ward/Domar/Vanek/Meade + empirical persistence evidence) → **T3**. Degeneration is a candidate failure mode in T3's inventory; B3's "standing-objection answer set" is inventory material, and Block B's queries (labor-managed firm theory, degeneration thesis, worker cooperative persistence) travel with it.
+- **WP3 (allocation as decision process) + WP4 (surplus/fund design via cooperative game theory — core, Shapley/Owen, cost-sharing, claims/bankruptcy; + exit/secession transfers)** → **T10** (the economy/network model's decision machinery) with a secondary feed to Moaiwi's capital-allocation features.
+- **WP5 (network dynamics & resilience; panarchy)** → **T15/T10**. Note the v2 decision that "resilience" stays out of the pitch was a register decision for v2 artifacts; under v3 the material is simply research content and the register question is open again (T9 territory).
+- **WP6 (BPMN lifecycle process model)** → not a research topic: it is tooling spec for the shared accounting/management tools (and its supply-chain/ERP tooling precedents are Develop-side references).
+- **RQ5 (network effects on allocation calculus)** → split: the empirical half to T10, the industrial-symbiosis/replacement half to T11.
+
+**Scope nuance (record so it is not lost):** the 2026-10-22 **equity-only** decision was a *pitch posture* for v2 artifacts. T6's research scope should cover the full mechanics the transcripts entertain — including debt, 0%-loans, and the barbell — because Hyphae must model whatever the design space contains. Equity-only governs what is said to investors; it does not narrow what is studied.
+
+**v2-era items retired with B3:** Gate 2 schedule, three-horizon mapping, and the D2/D3 demo handoffs (the v3 near-term demo is the Fortress demo of M1; D-numbered demos are v2 layout).

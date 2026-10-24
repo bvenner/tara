@@ -138,7 +138,7 @@ The higher-order character of the network is here: a network of cooperatives dev
 
 ## 7. Use of this document
 
-This meta-plan informs the development of more specific plans; it is a plan for planning. Plans developed under it are products of the **Research** meta-process (called "Explore" in other elaborations; §4.1), and this document is itself part of the present realization of Research's explicit specification.
+This meta-plan informs the development of more specific plans; it is a plan for planning. Plans developed under it are products of the **Research** meta-process (called "Explore" in other elaborations; §4.1), and this document is itself part of the present realization of Research's explicit specification. *(Update 2026-10-24: research plans are developed in `projects/moaiwi-research-program/` — clean-sheet files keyed to the research question, one directory per question; the existing `research-plans/` (B1–B4) are retained as history.)*
 
 **Requirements on plans developed under this meta-plan.** Each such plan must state: the question it will answer or the decision it will inform; what it expects to produce; what resources and access it needs; what would count as an answer or closure; and where its results are recorded. *Scope note:* gates and failure-mode machinery are properly the business of plans under the **Develop** and **Deploy** meta-processes — their meta-plans do not yet exist (§4.1) — and are deliberately not imported here.
 
