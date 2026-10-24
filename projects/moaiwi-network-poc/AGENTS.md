@@ -1,6 +1,6 @@
 # moaiwi-network-poc — business plan POC for a corporation that is a federation of worker cooperatives
 
-Thread goal: a business plan presented as a **5–10 minute brief overview with a brief live demo** to an invite-only hybrid gathering of Resist & Build DEN-2026 contacts, aiming to attract impact investors while generating social, environmental, and financial impacts without a prior commitment to an aggregation scale. The **pitch deck and website are the primary artifacts** — built to show-ready quality for interested parties; the talk points to them. The event is **feedback stage**; investor-facing materials are the next phase. The sprint is **one combined workstream**: prototype stack + impact-fund interviews + conference pitch. Working name "moaiwi" is internal only — naming is deliberately delegated to the audience (see framing memo §7).
+Thread goal: a business plan POC for a corporation that is a federation of worker cooperatives, developed under the **v3 meta-plan** (`meta-plan-v3.md`, baseline approved 2026-10-24). The v3 structure: projects **Moaiwi / Hyphae / Cooptopia** × meta-processes **Research ("Explore") / Develop / Deploy / Reflect** (meta-plan §2). Near-term public milestone: a **5–10 minute overview with a brief live demo** at the initial meeting of the Resist and Build Network's **"Finance and Community Capital" action circle** (~2026-11-20 — a deadline within Phase M1, not a gate and not the end of the phase). All working names (including "moaiwi") are throwaways — **naming is delegated to collaborators and the audience** (meta-plan §2, naming policy).
 
 ## Resume path (read first after any session/context reset)
 
@@ -31,14 +31,13 @@ Thread goal: a business plan presented as a **5–10 minute brief overview with 
 **Roles and naming.** The developer is the workplace cooperative **proletariat.tech (PT)**; **Nic Venner is its lead developer, pronouns they/them**. PT's alpha-stage B2C product is **Fortress** (source: `/home/brad/Projects/fortress`, `codeberg.org/proletariat/fortress`), which is **the basis for Moaiwi**: the goal is to make Fortress sufficiently configurable that one codebase specifies either a home-network server or a business server. Earlier framing had Fortress as an idea source with a common core extracted — the 2026-10-24 revision supersedes it (the span-in-a-category picture may still describe the eventual architecture, but the operative plan is one configurable codebase).
 
 
-## Roles and gates
+## Roles and process (v3)
 
-- **Nic** — main presenter; reviews all outputs before any next phase proceeds (gate protocol in meta-plan §3). Pronoun: **they/them**. They are the lead developer at **proletariat.tech** (PT), which builds on **Fortress**, PT's alpha-stage B2C product, so the prototype stack grows out of their existing infrastructure.
-- **Brad** — builds the plan and artifacts; available for questions; not presenting.
+- **Nic** — lead developer at the workplace cooperative **proletariat.tech (PT)**, pronouns **they/them**; main presenter; reviews outputs before phases proceed.
+- **Brad** — builds the plan and artifacts through the Research meta-process (TARA); available for questions; not presenting.
 - **Rachel** — impact-fund discovery interviews, with Nic.
-- Phase 0 done 2026-10-21 (scaffold). Phase A done 2026-10-21 (framing memo) → **Gate 1 awaiting Nic's review**, scope revised 2026-10-22 for the three-horizon structure.
-- Gates: Gate 2 (B1–B3 options memos + B4 alongside, staggered Oct 29–Nov 4), **Gate 2b (fieldwork checkpoint: interview synthesis + prototype status, Nov 4)**, Gate 3/4 (plan content + demos incl. D0, Nov 11), Gate 5 (rehearsal of the timed overview, Nov 17).
-- Gate 0 items (event date, attendee mix, hybrid platform/AV, site visibility, review turnaround) are **deferred by Brad** — they bind at Phase E, not Phase A. **Slot length is settled:** 5–10 minutes including a brief live demo. Calendar recalibrates when the date is known.
+- **Process (v3):** plans developed under the meta-plan fall under the **Research** meta-process ("Explore"); gates and failure-mode machinery belong to Develop/Deploy meta-plans **that do not yet exist** (meta-plan §4.1, §7). Slot length is settled: 5–10 minutes including a brief live demo. **The v2 gate schedule (Gates 0–5, the 30-day sprint) is superseded** — history in `2026-10-21-moaiwi-network-poc-meta-plan.md`.
+- **Current step:** meta-plan revisions in progress on branch `moaiwi-v3-rewrite`; `framing-memo-v3.md` comes after revisions are complete; the PR opens when revisions are complete.
 
 ## Planned layout
 
