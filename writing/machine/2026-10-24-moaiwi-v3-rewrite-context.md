@@ -28,7 +28,8 @@ Primary sources are `writing/human/MOAIWI-{1,2,3}.md` (MOAIWI-4 for the near-ter
 
 ## 3. Loose ends flagged, no decision
 
-- `writing/human/mycor-development-proposal.md` is tracked but **0 bytes** (Brad committed it alongside the revision proposal). Placeholder or a file that failed to save? Flagged twice, unanswered.
+- ~~`writing/human/mycor-development-proposal.md` is tracked but **0 bytes**~~ — **resolved 2026-10-24:** Brad deleted the placeholder.
+- **Primary sources expanded (Brad, 2026-10-24):** the revision proposal now names **four** transcripts (`MOAIWI-{1,2,3,4}.md`) **plus `writing/human/Informatics1Readable.md`**, and requires that conflicts be **noted**, not just resolved by fiat. It also records Fortress's source locations (`/home/brad/Projects/fortress`, `codeberg.org/proletariat/fortress`) and reframes Fortress as **the basis for Moaiwi** — one configurable codebase for a home-network server or a business server — rather than merely an idea source with a shared core. Watch for a truncated sentence in the current draft: "the Develop process will be based on the repository at We intend to develop…".
 - **mycor.io ↔ proletariat.tech relationship unconfirmed.** Brad said on 2026-10-22 that Nic is lead developer at Mycorrhiza Cooperative (mycor.io); the revision proposal (2026-10-24) names the developer as **proletariat.tech (PT)** with Nic as lead developer. Both statements are recorded; the review doc's §8 entry now says the relationship must be confirmed rather than assumed. Do not silently pick one.
 - Nic's pronouns are **they/them** (per the revision proposal). All *our* prose was updated; the transcripts remain verbatim and say "Nick" in the M4 raw.
 - No PR is open. `feat/workspace-cleanup-2026-09-28` is still unmerged and untouched this session.
