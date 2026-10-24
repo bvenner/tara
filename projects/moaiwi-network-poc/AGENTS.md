@@ -6,7 +6,7 @@ Thread goal: a business plan presented as a **5–10 minute brief overview with 
 
 1. `writing/human/moaiwi-revision-proposal.md` — **authoritative source for the v3 rewrite (2026-10-24)**; where it conflicts with any other document, it wins
 2. `writing/machine/2026-10-22-moaiwi-session-context.md` — session state (comment-phase workflow, git state)
-3. `meta-plan-v3.md` — **the v3 meta-plan** (drafted 2026-10-24 from scratch on branch `moaiwi-v3-rewrite`; awaiting Brad's review, which gates `framing-memo-v3.md`)
+3. `meta-plan-v3.md` — **the v3 meta-plan** (drafted 2026-10-24 from scratch on branch `moaiwi-v3-rewrite`; **Brad reviewed 2026-10-24: sufficient to serve as the baseline moving forward**, revisions to follow; `framing-memo-v3.md` comes after revisions are complete)
 4. `2026-10-21-moaiwi-network-poc-meta-plan.md` — the v2 meta-plan (moved here from `writing/machine/` 2026-10-24; single combined 30-day sprint, phases, gates; revised 2026-10-22); **superseded**, reviewable input only
 4. `writing/machine/2026-10-22-moaiwi-transcripts-review.md` — review of MOAIWI-1–3 against the docs; its **2026-10-22 decisions govern** the v2 documents
 5. `framing-memo.md` — Phase A output (v1): thesis, productive tension, audience register, abstraction policy + glossary; `framing-memo-v2.md` is the draft with the 2026-10-22 decisions folded in
@@ -19,7 +19,7 @@ Thread goal: a business plan presented as a **5–10 minute brief overview with 
 `writing/human/moaiwi-revision-proposal.md` is **authoritative** where it conflicts with any existing document. Directive in brief:
 
 - The main artifacts need a major revision. Keep the repository name. Create **v3 documents written from scratch** that do not track the previous documents.
-- **Move** `writing/machine/2026-10-21-moaiwi-network-poc-meta-plan.md` into this directory (done 2026-10-24) and write a **v3 meta-plan** there (**`meta-plan-v3.md` drafted 2026-10-24, awaiting review**). After the meta-plan is revised and reviewed, write **`framing-memo-v3.md`**.
+- **Move** `writing/machine/2026-10-21-moaiwi-network-poc-meta-plan.md` into this directory (done 2026-10-24) and write a **v3 meta-plan** there (**`meta-plan-v3.md` drafted 2026-10-24; Brad's review 2026-10-24: good enough to serve as the baseline, revisions to follow**). After the meta-plan is revised and reviewed, write **`framing-memo-v3.md`**.
 - Primary sources: the transcripts in `writing/human/MOAIWI-{1,2,3,4}.md` **and `writing/human/Informatics1Readable.md`**. *Conflicts with the previous plans are settled by the revision proposal — and must be **noted**, not silently resolved.*
 - The fate of `research-plans/` (B1–B4) is **undecided**; do not assume it carries into v3.
 
