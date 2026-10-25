@@ -41,6 +41,9 @@ Primary sources are `writing/human/MOAIWI-{1,2,3}.md` (MOAIWI-4 for the near-ter
 - `graph_query.py` matches **single concepts, not phrases**: `"cooperative federation governance"` → nothing; `"federation"` → nodes. Worth a note in the grounding skill eventually.
 - OpenAlex full-text retrieval: institutional repositories with DSpace REST APIs are scriptable (Helsinki worked via `/server/api/core/...`), while Springer / ScienceDirect / AgEcon / SSRN are JS/Cloudflare bot walls — assume manual browser download then `fulltext mode:"local"`.
 - OpenAlex `topic` mode is plain full-text search; query phrasing determines precision. Validated Block A queries: `Mondragon secondary cooperative`, `cooperative federation governance`, `inter-cooperation worker cooperative`, `cooperative federation structural change`. Noisy, avoid: `worker cooperative federation`, `cooperative holding company structure`.
+- *(2026-10-25)* `file` misreports PDF page counts (a "6 page" report on a 28-page PDF — the extraction was complete both times); use `pdfinfo` or trust the viewer before re-converting.
+- *(2026-10-25)* One `fetch_fulltext.py` invocation processes **multiple JSON lines** on stdin and loads the expensive docling converter once — batch conversions in a single run. `strict:0` accepts any `is_oa` location with a `pdf_url`.
+- *(2026-10-25)* Bot-wall list grew: bepress `viewcontent.cgi` (Scholars Commons) and OJS article-download endpoints serve Cloudflare/HTML challenges to scripts, alongside Springer / ScienceDirect / AgEcon / SSRN / Wiley. The no-DOI ingest path is now a committed utility: `scripts/convert_no_doi.py`.
 
 ## 5. Workflow conventions in effect
 
