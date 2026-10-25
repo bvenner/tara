@@ -238,7 +238,7 @@ def _to_record(raw: dict, fallback_title: str = "") -> dict:
         "doi": raw.get("doi", ""),
         "title": raw.get("display_name", fallback_title),
         "year": raw.get("publication_year"),
-        "venue": (raw.get("primary_location") or {}).get("source", {}).get("display_name", ""),
+        "venue": ((raw.get("primary_location") or {}).get("source") or {}).get("display_name", ""),
         "authors": [a["author"]["display_name"]
                     for a in raw.get("authorships", []) if a.get("author", {}).get("display_name")],
     }

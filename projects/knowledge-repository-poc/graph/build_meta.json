@@ -35,13 +35,24 @@
   "poc/plumbing-setup.md": "ac970e3bf02a933d00b25794646d516b26993e5db38b9d8a2e0118203cbc7d77",
   "top/knowledge-repository-proposal.md": "4cce99f04fe167dbe0ccaeb950d706b34832626ddc1f0b226b8de9af263a3161",
   "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
+  "fulltext/castoriadis_1997_democracy_procedure_regime.md": "066ba0a0d8cefcdc793b9b3e58346d4693499320ba20e065aeca085c458531dc",
+  "fulltext/https_openalex.org_W1539711243.md": "f68e89c6d26d74d5653a7b63ef6252701e28f83cd6f46b6affd3add1165ef8f5",
   "fulltext/https_openalex.org_W1919133474.md": "88f18b799d57b11ce63148068daeee4330525ad7eb586388d1fa31c1de071379",
   "fulltext/https_openalex.org_W2017005585.md": "bc50b4f8add8ef755da6782b7352c3508300c674911f4ff910aea5d086842437",
   "fulltext/https_openalex.org_W2102277728.md": "dcbd4daf0f4109f753546612e8fa932bf6ed802ce662815a098a2f686f060e58",
+  "fulltext/https_openalex.org_W2111485456.md": "0e1c5c1d971f8878e93c4674d2c2c31cbeab75d9f879dde3fbff5a54f7156abf",
+  "fulltext/https_openalex.org_W2154482800.md": "b6b45342a970d173af5bb897df0a6326481568079920e8e0c5eb4bfe7a7acde8",
   "fulltext/https_openalex.org_W2747676085.md": "4245c8dfc85bf4a3e0f3c3c0f441b4d9707c5f0057e7db9da11685676065246d",
   "fulltext/https_openalex.org_W2914339720.md": "8b7e1ff2fccd55312e2e5d3f3a3dad1a6791f058769fed86f2243923a94790cf",
+  "fulltext/https_openalex.org_W2948895307.md": "5c4fea8c3a59429856b94f292c6380e46a6da7c4a3b6573ba3697ffbdbd7187f",
   "fulltext/https_openalex.org_W3098165131.md": "b1b573db78c83a627655753a2319e5a943f252214810104ca824b975bd0da1c4",
+  "fulltext/https_openalex.org_W4296129757.md": "06cdff7242c3e25e2287af6d7080ccb71b1e22c9ed08a4f8f0fd2ec43f74867d",
   "fulltext/https_openalex.org_W4319014659.md": "ecd8a2634280e54b89cb7efc0dedb47f4326795079fd81d20b00f0911f6fcfa7",
+  "fulltext/https_openalex.org_W4389092776.md": "624cb227abe85b0affc746e1e743566262d7cc7e9afeecb277bbc3a14149f437",
+  "fulltext/https_openalex.org_W4389195852.md": "92969688cd3341467d979ba66920b1e374643f7e6d09f52e42c8468be7c8245b",
+  "fulltext/https_openalex.org_W4400896471.md": "e113095fb20d537abbe5796240408b7b76c52179cbbd8201a9c3c019eda4bc35",
+  "fulltext/https_openalex.org_W4400976761.md": "1525d194bfb24dfb60cb646533bf275ad70c16d1bf5591b9994dd5dc1ed6d027",
+  "fulltext/https_openalex.org_W7210828298.md": "92b0777685eaca2aa7b0eb5e8e5616bbdab4b180a4f4a991025481e5fcb6e657",
   "openalex/https_openalex.org_W1539711243": "7cf0b8553126240b1af0fd69e6b4f20ba1c18761d8a17f201402be949381ea6f",
   "openalex/https_openalex.org_W1548102935": "dc6cadd9cfb8b5cd9d225f9feae212d96c9e3c599b7b36ca975292dda94a4f2a",
   "openalex/https_openalex.org_W1630122343": "b09040cc1043d3ecc0a21ddd775f653d599316565caf767f96daa03f02ebe0a6",
@@ -84,6 +95,7 @@
   "openalex/https_openalex.org_W3012074597": "7612140b61118d5374ab6df80f15796d52ee239460528ac9e6c3c34851b5df46",
   "openalex/https_openalex.org_W3054594743": "027d303024fb7e873c0c07403e1e2142779463317ab92cc70c90ce0fa9bbf1f8",
   "openalex/https_openalex.org_W3054626598": "f37981f35f26bfd1d07f93ded1805293ff88fbc2a81514c2f45367f4b5ba067d",
+  "openalex/https_openalex.org_W3084816230": "b7bb43c37da6fe3ea6107b80fe009a14f76e6b621c29c6fab9b13ae9a2cb1fe8",
   "openalex/https_openalex.org_W3088004447": "29e96cd66ccd410330ad26c5e542e93eb07e9027f0e2f349ea2e91a873de9ef9",
   "openalex/https_openalex.org_W3092573715": "f557b3f29c690dffb566c72a632da8ceba5fee3eb7fda5334b95308edce23251",
   "openalex/https_openalex.org_W3098165131": "df3f21f03e18c374762d68f199a61156ab7eecee7aa3fb562168535b34f16fe4",
@@ -98,6 +110,7 @@
   "openalex/https_openalex.org_W4220846098": "6126f8c6af2538381f23c5dda298efd42385abcde2f2674b8da65b0ca10f4479",
   "openalex/https_openalex.org_W4250399327": "bdfe82bbb6dd5b499819c7796513552994c43adba3a12e18cb3a9a69bbbad02f",
   "openalex/https_openalex.org_W4280559094": "bc50665d95b6b48b63b6ac5781a9f17305d0c0bcfcb47ea4c4b8a56f6bb9c9eb",
+  "openalex/https_openalex.org_W4296129757": "e46bebbab5feeab63681516aae45835579fc9bbfa74db209ab69bc7cb9b28b86",
   "openalex/https_openalex.org_W4319014659": "bde8d9f6eff37c3a54fa8b375d4ba5e4b281ea68947ce00c136e0ee8242c9c5a",
   "openalex/https_openalex.org_W4362472596": "e60738318a87cd1228c85278d331dea936ee6fe5885c1578f80b9fe78ff7a12c",
   "openalex/https_openalex.org_W4389092776": "4d5eec1e4a1c7f9d923e9604e4897f8439e67afa57d300094080eafc244a4c6e",
@@ -116,34 +129,34 @@
   "openalex/https_openalex.org_W7210828298": "38658d5dea02605014dc837cde79965100e165b19063915b95f21396b64a094a",
   "openalex/https_openalex.org_W7213299274": "3e5276e7de63cb2ef7bcadb7aff37847d53421286fbb7472aa513e7258ea97d5"
  },
- "n_docs": 114,
+ "n_docs": 127,
  "stats": {
-  "docs": 114,
-  "sections": 510,
-  "nodes": 2416,
-  "edges": 510,
+  "docs": 127,
+  "sections": 707,
+  "nodes": 2919,
+  "edges": 707,
   "node_kinds": {
    "project": 6,
-   "section": 410,
-   "keyword": 1661,
+   "section": 562,
+   "keyword": 2003,
    "notation": 8,
    "artifact": 10,
    "citation": 20,
-   "author": 228,
-   "work": 73
+   "author": 235,
+   "work": 75
   },
   "arity_hist": {
-   "2": 56,
-   "3": 62,
-   "4": 44,
-   "5": 69,
-   "6": 73,
-   "7": 70,
-   "8": 37,
+   "2": 101,
+   "3": 102,
+   "4": 81,
+   "5": 98,
+   "6": 99,
+   "7": 84,
+   "8": 41,
    "9": 17,
    "10": 9,
    "11": 8,
-   "12": 6,
+   "12": 8,
    "13": 8,
    "14": 8,
    "15": 11,
@@ -157,14 +170,14 @@
    "24": 1,
    "45": 1
   },
-  "mean_degree": 1.417,
-  "max_degree": 284,
+  "mean_degree": 1.452,
+  "max_degree": 479,
   "top_hubs": [
    {
     "node": "project:fulltext",
     "kind": "project",
     "label": "fulltext",
-    "degree": 284
+    "degree": 479
    },
    {
     "node": "project:ret-tssi",
@@ -176,7 +189,7 @@
     "node": "project:openalex",
     "kind": "project",
     "label": "openalex",
-    "degree": 73
+    "degree": 75
    },
    {
     "node": "project:poc",
@@ -233,6 +246,12 @@
     "degree": 18
    },
    {
+    "node": "section:[head]",
+    "kind": "section",
+    "label": "[HEAD]",
+    "degree": 18
+   },
+   {
     "node": "artifact:track b",
     "kind": "artifact",
     "label": "Track B",
@@ -243,25 +262,19 @@
     "kind": "artifact",
     "label": "Track C",
     "degree": 16
-   },
-   {
-    "node": "artifact:t4",
-    "kind": "artifact",
-    "label": "T4",
-    "degree": 15
    }
   ],
   "degree_hist": {
-   "1": 2254,
-   "2": 194,
-   "3-5": 133,
-   "6-10": 85,
-   "11-20": 160,
+   "1": 2703,
+   "2": 260,
+   "3-5": 195,
+   "6-10": 93,
+   "11-20": 191,
    "21-50": 106,
-   "51-100": 208,
-   "101-500": 284
+   "51-100": 210,
+   "101-500": 479
   },
-  "hub_coverage": 0.022,
+  "hub_coverage": 0.016,
   "bib_entries": 74,
   "projects": [
    "ret-tssi",
@@ -270,7 +283,7 @@
    "island-dt",
    "fulltext"
   ],
-  "external_works": 73,
+  "external_works": 75,
   "node_rule": "co-occurrence v2 (project/root + headers + RAKE keywords + citations+ authors + artifacts + notations + external OpenAlex works)"
  }
 }
