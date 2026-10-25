@@ -5,14 +5,16 @@ Thread goal: a business plan POC for a corporation that is a federation of worke
 ## Resume path (read first after any session/context reset)
 
 1. `writing/human/moaiwi-revision-proposal.md` — **authoritative source for the v3 rewrite (2026-10-24)**; where it conflicts with any other document, it wins
-2. `writing/machine/2026-10-22-moaiwi-session-context.md` — session state (comment-phase workflow, git state)
-3. `meta-plan-v3.md` — **the v3 meta-plan** (drafted 2026-10-24 from scratch on branch `moaiwi-v3-rewrite`; **Brad reviewed 2026-10-24: sufficient to serve as the baseline moving forward**, revisions to follow; `framing-memo-v3.md` comes after revisions are complete)
-4. `2026-10-21-moaiwi-network-poc-meta-plan.md` — the v2 meta-plan (moved here from `writing/machine/` 2026-10-24; single combined 30-day sprint, phases, gates; revised 2026-10-22); **superseded**, reviewable input only
-4. `writing/machine/2026-10-22-moaiwi-transcripts-review.md` — review of MOAIWI-1–3 against the docs; its **2026-10-22 decisions govern** the v2 documents
-5. `framing-memo.md` — Phase A output (v1): thesis, productive tension, audience register, abstraction policy + glossary; `framing-memo-v2.md` is the draft with the 2026-10-22 decisions folded in
-6. `research-plans/` — B1–B4 v1/v2 plans and Phase B outputs — **retained as history** (B1 v3 supersedes B1; salvage maps in `../moaiwi-research-program/research-topics-v3.md` Appendices A–C); ultimate fate undecided. **New research plans live in `../moaiwi-research-program/`, one directory per research question** (2026-10-24)
-7. `writing/human/MOAIWI-{1,2,3,4}.md`, `writing/human/Informatics1Readable.md` — the primary sources for the v3 documents, so run `grep -rn "Nic"` against them rather than relying on summaries
-8. (next) `options/` — B1–B4 options memos and research-proposals lists
+2. **`autonomy-meta-plan.md`** — the **autonomy terminal-object meta-plan (draft 2026-10-25)**, subsuming `meta-plan-v3` (subsumption, not succession); from Reflect QA session 1; `meta-plan-v3-proposed-changes-2026-10-25.md` holds the deferred changes to meta-plan-v3
+3. `../moaiwi-research-program/democracy-as-regime/` — the Reflect process record: `castoriadis-1997-summary.md` (**Castor**), `reflect-terminal-object-sketch-2026-10-25.md` (**Paideia**), `qa-2026-10-25-terminal-object.md` (QA session 1 + deferred-changes ledger)
+4. `writing/machine/2026-10-22-moaiwi-session-context.md` — session state (comment-phase workflow, git state)
+5. `meta-plan-v3.md` — **the v3 meta-plan** (drafted 2026-10-24 from scratch on branch `moaiwi-v3-rewrite`; **Brad reviewed 2026-10-24: sufficient to serve as the baseline moving forward**, revisions to follow; `framing-memo-v3.md` comes after revisions are complete)
+6. `2026-10-21-moaiwi-network-poc-meta-plan.md` — the v2 meta-plan (moved here from `writing/machine/` 2026-10-24; single combined 30-day sprint, phases, gates; revised 2026-10-22); **superseded**, reviewable input only
+7. `writing/machine/2026-10-22-moaiwi-transcripts-review.md` — review of MOAIWI-1–3 against the docs; its **2026-10-22 decisions govern** the v2 documents
+8. `framing-memo.md` — Phase A output (v1): thesis, productive tension, audience register, abstraction policy + glossary; `framing-memo-v2.md` is the draft with the 2026-10-22 decisions folded in
+9. `research-plans/` — B1–B4 v1/v2 plans and Phase B outputs — **retained as history** (B1 v3 supersedes B1; salvage maps in `../moaiwi-research-program/research-topics-v3.md` Appendices A–C); ultimate fate undecided. **New research plans live in `../moaiwi-research-program/`, one directory per research question** (2026-10-24)
+10. `writing/human/MOAIWI-{1,2,3,4}.md`, `writing/human/Informatics1Readable.md` — the primary sources for the v3 documents, so run `grep -rn "Nic"` against them rather than relying on summaries
+11. (next) `options/` — B1–B4 options memos and research-proposals lists
 
 ## v3 rewrite (2026-10-24) — current phase
 
@@ -63,7 +65,7 @@ Decision reversed 2026-10-21 (Brad): this thread integrates reference materials 
 - Semantic commit prefixes; commit only when asked; push only to a feature branch with explicit confirmation.
 - Structurally abstract: role labels only (glossary in framing memo §6); no entity or cooperative names; options, never decisions, on architecture/governance/instrument/aggregation.
 - Standing disclaimer on every artifact with numbers: *"Illustrative — synthetic federation data. Assumptions documented with the dataset."*
-- Research lenses (locked): network science + cooperative game theory; **higher-order networks (B4) as the operative structural lens** — projection loss, multi-scale aggregation, community structure; resilience + panarchy (internal/B3 only — the word stays out of the pitch); Ostrom + solidarity economy; control/operations research; cost accounting as a business-process discipline grounded in existing practice. **Category theory / sheaves: long-term only** — categorical semantics is not needed to resolve any short- or medium-term question (Brad, 2026-10-22). Thermodynamics/stat-mech is **deliberately excluded** from the pitch agenda (planetary models lean industrial-ecology/LCA-style accounting).
+- Research lenses (locked): network science + cooperative game theory; **higher-order networks (B4) as the operative structural lens** — projection loss, multi-scale aggregation, community structure; resilience + panarchy (internal/B3 only — the word stays out of the pitch); Ostrom + solidarity economy; control/operations research; cost accounting as a business-process discipline grounded in existing practice. **Category theory / sheaves: long-term only** — categorical semantics is not needed to resolve any short- or medium-term question (Brad, 2026-10-22). *Exception (2026-10-25, QA session 1): category theory is admitted **in the Reflect process and its documents** (objects, morphisms, composition, what lies outside the category); it stays out of investor-facing material.* Thermodynamics/stat-mech is **deliberately excluded** from the pitch agenda (planetary models lean industrial-ecology/LCA-style accounting).
 
 ## Locked decisions (2026-10-22 review batch)
 

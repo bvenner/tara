@@ -111,10 +111,17 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Priority rationale.** Explicitly premature by the meta-plan (§3.3); listed so it is not forgotten, not so it is started.
 
 ### T13. The four meta-processes, from systems literature
-- **Question.** Where does Reflect belong in the cycle (beginning or end)? What are the named variants (Explore, etc.)? What systems literatures articulate four-stage processes (action research, PDCA/OODA, second-order cybernetics…), and what do they say about dynamically generating realizations?
-- **Informs.** meta-plan §4's doctrine; the meta-plans for Develop/Deploy/Reflect; how Reflect is realized beyond this drafting process.
-- **Source.** Brad, 2026-10-24 (potential research project).
-- **Priority rationale.** Low urgency, high leverage on the plan's own coherence; good candidate for an LLM-assisted literature pass.
+- **Question.** Where does Reflect belong in the cycle (beginning or end)? What are the named variants (Explore, etc.)? What systems literatures articulate four-stage processes (action research, PDCA/OODA, second-order cybernetics…), and what do they say about dynamically generating realizations? *(Extended 2026-10-25, QA session 1:)* a work package mapping **Castoriadis' vocabulary ↔ the meta-systems literature** (instituting/instituted vs. single/double-loop learning; paideia vs. the near-absence of subject-formation in the cycle literature — absence would itself be a finding), plus the **coupling question**: which coupling patterns let a non-party collective (the "affected public" — see T16 and the democracy-as-regime QA session) be heard in the Reflect loop and force a loop-back **without becoming a veto over Develop/Deploy**? Double-loop learning is the candidate mechanism; the public's claim is a double-loop event.
+- **Informs.** meta-plan §4's doctrine; the meta-plans for Develop/Deploy/Reflect; how Reflect is realized beyond the drafting process; the containment rule of T16 (public in Reflect + interrupt-on-trigger).
+- **Source.** Brad, 2026-10-24 (potential research project); QA session 1 (2026-10-25) additions. **Codependent with T17.**
+- **Priority rationale.** Low urgency, high leverage on the plan's own coherence; good candidate for an LLM-assisted literature pass. Promoted in importance by T16 (the Reflect process is now load-bearing).
+
+### T17. Categorical systems theory & systemology (formalization of systems theories)
+- **Question.** How do **categorical systems theory** (open systems, structured/decorated cospans, operads, coalgebra) and the **language-based systemology** tradition (general systems theory as conceptual vocabulary — Boulding's hierarchy, the viable-system line) relate, and what does formalization buy and cost relative to structured language for the *realizations* of the meta-processes?
+- **Informs.** The Develop and Deploy meta-plans (**near-term, Brad 2026-10-25**): specification language for the vericoding harness (Develop), deployment/digital-twin modeling (Deploy), and meta-plan §4's "interacting agents exchanging resources over channels" — already systems vocabulary, deserving formalization or conscious informality. **Codependent with T13** (meaning without formalization stays at slogans; formalization without meaning formalizes the wrong objects).
+- **Doctrine.** *Incompleteness stated up front:* every formalization is a procedural realization and therefore necessarily incomplete (converges with Castoriadis §I's fourth factor — the future excludes exhaustive codification). Formalization cannot close the regime; it can make Develop/Deploy realizations more precise where precision is possible.
+- **Test cases (not greenfield).** The Plumbing language's formalized multi-agent processes; T15's categorical landscape; the corpus/graph machinery. Brad's codata work (github.com/bvenner/codata-agda) is **one lead among several, not a gate** (QA session 1, #9 amendment).
+- **Source.** Brad, 2026-10-25 (QA session 1, Q8). **Tier 1** (promoted 2026-10-25: the Develop/Deploy meta-plans are near).
 
 ### T14. Research-process infrastructure (TARA architecture and sibling repositories)
 - **Question.** How must TARA's architecture change to realize Research ("Explore") cleanly, and what would repositories for Develop, Deploy, and Reflect look like so the four meta-processes have aligned homes?
@@ -142,10 +149,15 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 | T13 meta-process theory | all | §4 | 2 |
 | T14 process infrastructure | all | §4.1 | 2 |
 | T15 higher-order networks lens | all (cross-cutting) | §6 + all modeling topics | 1 |
+| T17 categorical systems theory & systemology | Develop/Deploy meta-plans | §4 + T13 (codependent) | 1 |
+
+## T16 — the terminal-object reframing (Reflect process, opened 2026-10-25)
+
+**Status: active Reflect process — supersedes the ranking of other topics until settled (Brad, 2026-10-25).** The program's terminal object ("grow cooperative networks") is procedural, not substantive; adopting Castoriadis' **"democracy as regime"** (explicit and lucid self-institution; individual + collective autonomy; the common good conceived by the collectivity) as the terminal object is being worked out in `democracy-as-regime/` — `castoriadis-1997-summary.md` (the 1997 essay, converted + summarized) and `reflect-terminal-object-sketch-2026-10-25.md` (the reformulation and its open questions). Consequence for other topics: T3's findings stand as evidence about the *sub-goal*; T5's metrics are instruments, not the substance; T12's 5% ceiling may be political-institutional as much as technological. The inherited framing (solidarity economy; dual power; the politics/economics division of anarchist socialism) is now an explicit object of review.
 
 ## Deferred leads (kept, not pursued)
 
-- **Federalism vs. confederalism (political science).** A future research question should review the political-science literature on federal vs. confederal organization (Brad, 2026-10-24) — directly relevant to the Corporation-as-federation question (T3 / B1 WP1) and to Hyphae's "confederation of workplace cooperatives" (meta-plan §3.2). Entry point: Glover 2016, *Structural Cooperative Federalism* (OpenAlex W2942953341) — PDF reviewed and deleted 2026-10-24 as political theory, out of scope for B1; the lead is kept here.
+- **Federalism vs. confederalism (political science).** A future research question should review the political-science literature on federal vs. confederal organization (Brad, 2026-10-24) — directly relevant to the Corporation-as-federation question (T3 / B1 WP1) and to Hyphae's "confederation of workplace cooperatives" (meta-plan §3.2). Entry point: Glover 2016, *Structural Cooperative Federalism* (OpenAlex W2942953341) — PDF reviewed and deleted 2026-10-24 as political theory, out of scope for B1; the lead is kept here. *(Note 2026-10-25: this lead gains priority under T16 — federalism vs. confederalism is a political-design question, and the reframing admits politics.)*
 
 ## Resolved sequencing and policy (Brad, 2026-10-24)
 

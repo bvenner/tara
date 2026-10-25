@@ -1,12 +1,12 @@
 {
- "docs": 126,
- "sections": 699,
- "nodes": 2897,
- "edges": 699,
+ "docs": 127,
+ "sections": 707,
+ "nodes": 2919,
+ "edges": 707,
  "node_kinds": {
   "project": 6,
-  "section": 556,
-  "keyword": 1987,
+  "section": 562,
+  "keyword": 2003,
   "notation": 8,
   "artifact": 10,
   "citation": 20,
@@ -14,12 +14,12 @@
   "work": 75
  },
  "arity_hist": {
-  "2": 99,
-  "3": 101,
-  "4": 80,
-  "5": 96,
-  "6": 98,
-  "7": 83,
+  "2": 101,
+  "3": 102,
+  "4": 81,
+  "5": 98,
+  "6": 99,
+  "7": 84,
   "8": 41,
   "9": 17,
   "10": 9,
@@ -38,14 +38,14 @@
   "24": 1,
   "45": 1
  },
- "mean_degree": 1.451,
- "max_degree": 471,
+ "mean_degree": 1.452,
+ "max_degree": 479,
  "top_hubs": [
   {
    "node": "project:fulltext",
    "kind": "project",
    "label": "fulltext",
-   "degree": 471
+   "degree": 479
   },
   {
    "node": "project:ret-tssi",
@@ -117,7 +117,7 @@
    "node": "section:[head]",
    "kind": "section",
    "label": "[HEAD]",
-   "degree": 17
+   "degree": 18
   },
   {
    "node": "artifact:track b",
@@ -133,14 +133,14 @@
   }
  ],
  "degree_hist": {
-  "1": 2682,
+  "1": 2703,
   "2": 260,
-  "3-5": 191,
+  "3-5": 195,
   "6-10": 93,
-  "11-20": 190,
+  "11-20": 191,
   "21-50": 106,
   "51-100": 210,
-  "101-500": 471
+  "101-500": 479
  },
  "hub_coverage": 0.016,
  "bib_entries": 74,

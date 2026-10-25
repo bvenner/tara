@@ -5,9 +5,10 @@ The research workstream of the moaiwi meta-plan (`../moaiwi-network-poc/meta-pla
 ## Resume path (read first after any session/context reset)
 
 1. `../moaiwi-network-poc/meta-plan-v3.md` — the governing meta-plan (baseline 2026-10-24); its §7 defines what a research plan must state
-2. `research-topics-v3.md` — the Reflect-pass agenda: topics T1–T15, prioritization, **Resolved sequencing and policy** (who runs what), and Appendices A–C (B1/B2/B3 salvage maps; B4 → T15)
-3. `cooperatives-governance-scaling/B1-architecture-governance-plan-v3.md` — the **top-priority plan** (carries T3, the thesis's failure-mode inventory); v1/v2 of B1 and the other B-plans remain in `../moaiwi-network-poc/research-plans/` as **history**
-4. `../moaiwi-network-poc/research-plans/B1-screening-2026-10-22.md` + `B1-p0-readings-2026-10-22.md` — Phase B corpus screening and P0 readings (salvageable input)
+2. **`democracy-as-regime/`** — the active **Reflect process (T16, opened 2026-10-25)**: Castoriadis 1997 summary + the terminal-object reframing sketch + **QA session 1 record** (`qa-2026-10-25-terminal-object.md`, with the session conventions and the deferred-changes ledger); **supersedes the ranking of other topics until settled**. *Naming convention (session 1, persists): **Castor** = `castoriadis-1997-summary.md`; **Paideia** = `reflect-terminal-object-sketch-2026-10-25.md`.*
+3. `research-topics-v3.md` — the Reflect-pass agenda: topics T1–T16, prioritization, **Resolved sequencing and policy** (who runs what), and Appendices A–C (B1/B2/B3 salvage maps; B4 → T15)
+4. `cooperatives-governance-scaling/B1-architecture-governance-plan-v3.md` — the top-priority *research* plan (carries T3, the thesis's failure-mode inventory) + `T3-preliminary-findings-2026-10-24.md`; v1/v2 of B1 and the other B-plans remain in `../moaiwi-network-poc/research-plans/` as **history**
+5. `../moaiwi-network-poc/research-plans/B1-screening-2026-10-22.md` + `B1-p0-readings-2026-10-22.md` — Phase B corpus screening and P0 readings (salvageable input)
 
 ## Layout and plan policy (Brad, 2026-10-24)
 

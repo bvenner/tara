@@ -7,7 +7,9 @@ project: moaiwi-research-program
 
 # T3 preliminary findings — what defeated previous attempts to scale cooperative networks?
 
-*Preliminary write-up requested 2026-10-24 (~6 pp). Evidence base: the B1 corpus as ingested tonight (12 full texts + 2 record-only works — see `B1-architecture-governance-plan-v3.md` §4.5). Findings are grounded in those documents; citations are `doc key :: locator`. **Status: preliminary** — targeted extraction, not close readings; three paywall-stranded P0 works and the degeneration canon are absent; and the corpus skews to Mondragon, agricultural co-ops, and European cases. Claims below are marked by evidence strength where it matters.*
+*Preliminary write-up requested 2026-10-24 (~6 pp). **Scope note (2026-10-25):** the question itself has been challenged — "why didn't cooperative networks scale" inherits a procedural terminal object; see `../democracy-as-regime/` (T16). The findings below stand as failure-mode evidence about the *sub-goal*; their ranking changes under the reframing.*
+
+*Evidence base: the B1 corpus as ingested tonight (12 full texts + 2 record-only works — see `B1-architecture-governance-plan-v3.md` §4.5). Findings are grounded in those documents; citations are `doc key :: locator`. **Status: preliminary** — targeted extraction, not close readings; three paywall-stranded P0 works and the degeneration canon are absent; and the corpus skews to Mondragon, agricultural co-ops, and European cases. Claims below are marked by evidence strength where it matters.*
 
 ## 1. The question and why it is the right first question
 
