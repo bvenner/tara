@@ -118,6 +118,18 @@ USFWC · Democracy at Work Institute · NCBA CLUSA · USDA Rural Business-Cooper
 3. Citation chasing: backward/forward from the P0 seeds per block.
 4. **Budget: ~35 works total** (P0 ≈ 10, P1 ≈ 15, P2 rest). Hard cap.
 
+### 4.5 Retrieval queue (2026-10-24)
+
+**P0 status.** ✅ In corpus full text: **#1** Carman W1539711243 (AgEcon, manual) · **#4** Imaz W4319014659 (Springer, manual) · **#6** Basterretxea W2948895307 (Emerald, manual) · **#7** Pönkä W2914339720 (manual). ⛔ Stranded: **#2** W4407091201 (HAL record is closed source — checked by Brad 2026-10-24), **#3** W7213299274 (ScienceDirect paywall), **#5** W4390292511 (IBFD paywall). *Consequence: WP2/WP4 evidence leans on gray lit and case literature, not the federation-specific journal literature (see §8 transfer risks).*
+
+**P1 status.** ✅ In corpus: **#9** de Peuter & Dyer-Witheford W2111485456 (manual) · **#10** W4389092776 (JEOD, auto) · **#12** W4389195852 (CIRIEC, manual) · **#14** W7210828298 (Ljubljana, manual) · **#16** W4400976761 (Berghahn, manual) · **#19** W4400896471 (Springer, manual) · **#8** W2154482800 (Elgar/SSRN, manual) · plus companion **W4296129757** Corbo et al. 2022 *Technovation* review (manual). 🌐 Still to download: none. ⛔ Paywalled (2026-10-24): #13 W4399878453 (Wiley — confirmed paywalled, Brad), #11 W3196906759, #15 W4205378368, #17 W2476926852, #18 W1548102935. *Stage downloads at `papers/incoming/<key>.pdf` (key = `https_openalex.org_W<id>`); works without a DOI bypass `mode:"local"` and need the direct `convert_local_pdf(rec, key, get_converter)` call (converter **factory**).*
+
+**Read-in-browser.** Guttmann 2020, "Commons and cooperatives: A new governance of collective action" (W3084816230, *Annals of Public and Cooperative Economics*, DOI `10.1111/apce.12291`, 56 citations) — free to read at Wiley, closed to download; record added to `corpus/external/` for citation; cite from reading notes (WP3/WP4 candidate, Ostrom-lineage governance).
+
+**Title collisions — always cite with authors.** "Commons and Cooperatives": Guttmann 2020 ↔ de Peuter & Dyer-Witheford 2010 (P1 #9). "Coopetition and innovation": Corbo et al. 2022 (W4296129757, review) ↔ Basterretxea et al. 2019 (P0 #6, worker co-ops). The pairs are distinct works, not versions.
+
+**Query note.** The four validated Block A queries return only their top 10 each; Guttmann 2020 was never surfaced (rank truncation, and "commons and cooperatives" was not a query phrasing). When Block A re-runs for WP2/WP3, widen phrasing (e.g. `commons and cooperatives governance`, `collective action governance commons`) and raise `limit` to 25.
+
 ## 5. Synthesis method
 
 Options memo skeleton: (1) architecture comparison matrix — dimensions: capital access (speed/scale), control retention, liability, tax (incl. inter-co-op flows), formation ergonomics, investor legibility, co-optation resilience, US legal availability, precedent maturity, **+ scale achieved/growth ceiling, + failure modes attributed**; (2) **failure-mode inventory (T3)** with per-case evidence; (3) **failure mode → addressed by? table** (Moaiwi/Hyphae/Cooptopia: claimed / not claimed / speculative) — the meta-plan's falsifier and framing-memo-v3's argument spine; (4) governance mechanism catalog with failure modes; (5) instrument shortlist with governance consequences; (6) 4–6 research proposals. Every substantive claim cites `doc :: section`. *(The v2 three-horizon mapping is retired; horizon/register questions belong to T9.)*

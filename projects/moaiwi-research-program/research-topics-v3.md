@@ -143,6 +143,10 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 | T14 process infrastructure | all | §4.1 | 2 |
 | T15 higher-order networks lens | all (cross-cutting) | §6 + all modeling topics | 1 |
 
+## Deferred leads (kept, not pursued)
+
+- **Federalism vs. confederalism (political science).** A future research question should review the political-science literature on federal vs. confederal organization (Brad, 2026-10-24) — directly relevant to the Corporation-as-federation question (T3 / B1 WP1) and to Hyphae's "confederation of workplace cooperatives" (meta-plan §3.2). Entry point: Glover 2016, *Structural Cooperative Federalism* (OpenAlex W2942953341) — PDF reviewed and deleted 2026-10-24 as political theory, out of scope for B1; the lead is kept here.
+
 ## Resolved sequencing and policy (Brad, 2026-10-24)
 
 1. **Who runs what.** Brad proceeds with **T3** without Nic; **Nic (and maybe Rachel) coordinates T1**. Other research questions that require only desk work may be pursued while T1 is still open.
