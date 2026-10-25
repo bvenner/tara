@@ -39,7 +39,7 @@ Thread goal: a business plan POC for a corporation that is a federation of worke
 - **Brad** — builds the plan and artifacts through the Research meta-process (TARA); available for questions; not presenting.
 - **Rachel** — impact-fund discovery interviews, with Nic.
 - **Process (v3):** plans developed under the meta-plan fall under the **Research** meta-process ("Explore"); gates and failure-mode machinery belong to Develop/Deploy meta-plans **that do not yet exist** (meta-plan §4.1, §7). Slot length is settled: 5–10 minutes including a brief live demo. **The v2 gate schedule (Gates 0–5, the 30-day sprint) is superseded** — history in `2026-10-21-moaiwi-network-poc-meta-plan.md`.
-- **Current step:** meta-plan revisions in progress on branch `moaiwi-v3-rewrite`; `framing-memo-v3.md` comes after revisions are complete; the PR opens when revisions are complete.
+- **Current step:** the **democracy-as-regime Reflect process** — `autonomy-meta-plan.md` draft awaits Brad's review; dependency-ordered next steps in `../moaiwi-research-program/democracy-as-regime/next-steps-2026-10-25.md`. PRs #16/#17 merged 2026-10-25; `framing-memo-v3.md` comes after the meta-plan revisions are complete.
 
 ## Planned layout
 
