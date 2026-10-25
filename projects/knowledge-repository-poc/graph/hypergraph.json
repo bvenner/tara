@@ -2376,6 +2376,121 @@
    "kind": "section"
   },
   {
+   "id": "section:[democracy as procedure and democracy as regime]",
+   "label": "[Democracy as Procedure and Democracy as Regime]",
+   "kind": "section"
+  },
+  {
+   "id": "section:[cornelius castoriadis]",
+   "label": "[Cornelius Castoriadis]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:political institution",
+   "label": "political institution",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:political form",
+   "label": "political form",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:rather ridiculously called contemporary individualism",
+   "label": "rather ridiculously called contemporary individualism",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[i]",
+   "label": "[I]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:democratic society",
+   "label": "democratic society",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:society covers almost",
+   "label": "society covers almost",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:society takes place",
+   "label": "society takes place",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[ii]",
+   "label": "[II]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:effective freedom",
+   "label": "effective freedom",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:participation achieves freedom",
+   "label": "participation achieves freedom",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[iii]",
+   "label": "[III]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:least bad thing possible obviously obliges one",
+   "label": "least bad thing possible obviously obliges one",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:one part",
+   "label": "one part",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:procedural one",
+   "label": "procedural one",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:one grants equal value",
+   "label": "one grants equal value",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[iv]",
+   "label": "[IV]",
+   "kind": "section"
+  },
+  {
+   "id": "keyword:one would lapse",
+   "label": "one would lapse",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:rights comprises one component",
+   "label": "rights comprises one component",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:common good belongs",
+   "label": "common good belongs",
+   "kind": "keyword"
+  },
+  {
+   "id": "keyword:common good",
+   "label": "common good",
+   "kind": "keyword"
+  },
+  {
+   "id": "section:[notes]",
+   "label": "[NOTES]",
+   "kind": "section"
+  },
+  {
    "id": "section:[federated structures for cooperative growth]",
    "label": "[Federated Structures for Cooperative Growth]",
    "kind": "section"
@@ -2744,11 +2859,6 @@
    "id": "keyword:best economic organizational form",
    "label": "best economic organizational form",
    "kind": "keyword"
-  },
-  {
-   "id": "section:[notes]",
-   "label": "[Notes]",
-   "kind": "section"
   },
   {
    "id": "keyword:allocative efficiency reasons",
@@ -16201,13 +16311,87 @@
   {
    "id": "e154",
    "members": [
+    "project:fulltext",
+    "section:[democracy as procedure and democracy as regime]"
+   ]
+  },
+  {
+   "id": "e155",
+   "members": [
+    "keyword:political form",
+    "keyword:political institution",
+    "keyword:rather ridiculously called contemporary individualism",
+    "project:fulltext",
+    "section:[cornelius castoriadis]"
+   ]
+  },
+  {
+   "id": "e156",
+   "members": [
+    "keyword:democratic society",
+    "keyword:society covers almost",
+    "keyword:society takes place",
+    "project:fulltext",
+    "section:[i]"
+   ]
+  },
+  {
+   "id": "e157",
+   "members": [
+    "keyword:effective freedom",
+    "keyword:participation achieves freedom",
+    "project:fulltext",
+    "section:[ii]"
+   ]
+  },
+  {
+   "id": "e158",
+   "members": [
+    "keyword:democratic society",
+    "keyword:least bad thing possible obviously obliges one",
+    "keyword:one grants equal value",
+    "keyword:one part",
+    "keyword:procedural one",
+    "project:fulltext",
+    "section:[iii]"
+   ]
+  },
+  {
+   "id": "e159",
+   "members": [
+    "keyword:common good",
+    "keyword:common good belongs",
+    "keyword:one would lapse",
+    "keyword:rights comprises one component",
+    "project:fulltext",
+    "section:[iv]"
+   ]
+  },
+  {
+   "id": "e160",
+   "members": [
+    "keyword:democratic society",
+    "project:fulltext",
+    "section:[notes]"
+   ]
+  },
+  {
+   "id": "e161",
+   "members": [
+    "project:fulltext",
+    "section:[head]"
+   ]
+  },
+  {
+   "id": "e162",
+   "members": [
     "keyword:research purposes",
     "project:fulltext",
     "section:[federated structures for cooperative growth]"
    ]
   },
   {
-   "id": "e155",
+   "id": "e163",
    "members": [
     "keyword:cooperative form",
     "keyword:cooperative governance model",
@@ -16219,7 +16403,7 @@
    ]
   },
   {
-   "id": "e156",
+   "id": "e164",
    "members": [
     "keyword:cooperatives appears",
     "project:fulltext",
@@ -16227,7 +16411,7 @@
    ]
   },
   {
-   "id": "e157",
+   "id": "e165",
    "members": [
     "keyword:cooperative form",
     "keyword:transaction efficiency",
@@ -16236,7 +16420,7 @@
    ]
   },
   {
-   "id": "e158",
+   "id": "e166",
    "members": [
     "keyword:cooperative form",
     "keyword:dairy cooperatives got",
@@ -16248,7 +16432,7 @@
    ]
   },
   {
-   "id": "e159",
+   "id": "e167",
    "members": [
     "keyword:cooperatives market share",
     "keyword:few cooperatives lost money",
@@ -16260,7 +16444,7 @@
    ]
   },
   {
-   "id": "e160",
+   "id": "e168",
    "members": [
     "keyword:rural health care",
     "keyword:rural strategic alliances",
@@ -16270,7 +16454,7 @@
    ]
   },
   {
-   "id": "e161",
+   "id": "e169",
    "members": [
     "keyword:cooperative organization structure",
     "keyword:cooperative organizational form",
@@ -16283,7 +16467,7 @@
    ]
   },
   {
-   "id": "e162",
+   "id": "e170",
    "members": [
     "keyword:comparison",
     "keyword:findings",
@@ -16295,7 +16479,7 @@
    ]
   },
   {
-   "id": "e163",
+   "id": "e171",
    "members": [
     "keyword:cooperatives",
     "keyword:irish dairy cooperatives enjoyed economic performance",
@@ -16307,7 +16491,7 @@
    ]
   },
   {
-   "id": "e164",
+   "id": "e172",
    "members": [
     "keyword:cooperative managers",
     "keyword:iof managers",
@@ -16317,7 +16501,7 @@
    ]
   },
   {
-   "id": "e165",
+   "id": "e173",
    "members": [
     "keyword:communication costs",
     "keyword:costs",
@@ -16326,7 +16510,7 @@
    ]
   },
   {
-   "id": "e166",
+   "id": "e174",
    "members": [
     "keyword:cooperative",
     "keyword:cooperative governance represents",
@@ -16338,7 +16522,7 @@
    ]
   },
   {
-   "id": "e167",
+   "id": "e175",
    "members": [
     "keyword:cause cooperative board members",
     "keyword:cooperative society",
@@ -16349,7 +16533,7 @@
    ]
   },
   {
-   "id": "e168",
+   "id": "e176",
    "members": [
     "keyword:cooperative become intertwined",
     "keyword:specific asset property rights intertwined",
@@ -16358,7 +16542,7 @@
    ]
   },
   {
-   "id": "e169",
+   "id": "e177",
    "members": [
     "keyword:federated cooperative",
     "keyword:federated cooperative serves",
@@ -16369,7 +16553,7 @@
    ]
   },
   {
-   "id": "e170",
+   "id": "e178",
    "members": [
     "keyword:local cooperative",
     "project:fulltext",
@@ -16377,7 +16561,7 @@
    ]
   },
   {
-   "id": "e171",
+   "id": "e179",
    "members": [
     "keyword:best economic organizational form",
     "keyword:cooperative form",
@@ -16387,7 +16571,7 @@
    ]
   },
   {
-   "id": "e172",
+   "id": "e180",
    "members": [
     "keyword:allocative efficiency reasons",
     "keyword:market performs",
@@ -16396,21 +16580,21 @@
    ]
   },
   {
-   "id": "e173",
+   "id": "e181",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e174",
+   "id": "e182",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e175",
+   "id": "e183",
    "members": [
     "keyword:http",
     "keyword:physics vol",
@@ -16419,7 +16603,7 @@
    ]
   },
   {
-   "id": "e176",
+   "id": "e184",
    "members": [
     "keyword:integrable quantum systems",
     "keyword:quantum systems",
@@ -16428,7 +16612,7 @@
    ]
   },
   {
-   "id": "e177",
+   "id": "e185",
    "members": [
     "keyword:generic many-body quantum systems",
     "keyword:isolated quantum systems",
@@ -16441,7 +16625,7 @@
    ]
   },
   {
-   "id": "e178",
+   "id": "e186",
    "members": [
     "keyword:briefly discuss chaotic dynamics",
     "keyword:chaotic motion",
@@ -16453,7 +16637,7 @@
    ]
   },
   {
-   "id": "e179",
+   "id": "e187",
    "members": [
     "keyword:quantum chaos",
     "keyword:quantum chaos builds came",
@@ -16463,7 +16647,7 @@
    ]
   },
   {
-   "id": "e180",
+   "id": "e188",
    "members": [
     "keyword:essentially random vectors",
     "keyword:first random hamiltonian",
@@ -16476,7 +16660,7 @@
    ]
   },
   {
-   "id": "e181",
+   "id": "e189",
    "members": [
     "keyword:diagonal matrix elements",
     "keyword:matrix elements",
@@ -16486,7 +16670,7 @@
    ]
   },
   {
-   "id": "e182",
+   "id": "e190",
    "members": [
     "keyword:energy level statistics",
     "keyword:many quantum systems whose classical counterpart",
@@ -16499,7 +16683,7 @@
    ]
   },
   {
-   "id": "e183",
+   "id": "e191",
    "members": [
     "keyword:momentum phase-space variables one",
     "keyword:slightly modified conjecture one",
@@ -16509,7 +16693,7 @@
    ]
   },
   {
-   "id": "e184",
+   "id": "e192",
    "members": [
     "keyword:level distribution",
     "keyword:level spacing distribution",
@@ -16519,7 +16703,7 @@
    ]
   },
   {
-   "id": "e185",
+   "id": "e193",
    "members": [
     "keyword:average information entropy",
     "keyword:information entropy rapidly increases",
@@ -16529,7 +16713,7 @@
    ]
   },
   {
-   "id": "e186",
+   "id": "e194",
    "members": [
     "keyword:entanglement entropy grows linearly",
     "keyword:second renyi entanglement entropy",
@@ -16540,7 +16724,7 @@
    ]
   },
   {
-   "id": "e187",
+   "id": "e195",
    "members": [
     "keyword:diagonal entropy",
     "keyword:diagonal entropy becomes almost",
@@ -16550,7 +16734,7 @@
    ]
   },
   {
-   "id": "e188",
+   "id": "e196",
    "members": [
     "keyword:arbitrary quantum systems assuming",
     "keyword:even large systems thermalize",
@@ -16562,7 +16746,7 @@
    ]
   },
   {
-   "id": "e189",
+   "id": "e197",
    "members": [
     "keyword:energy levels",
     "keyword:energy window narrower",
@@ -16573,7 +16757,7 @@
    ]
   },
   {
-   "id": "e190",
+   "id": "e198",
    "members": [
     "keyword:energy fluctuations",
     "keyword:equilibrium statistical fluctuations",
@@ -16584,7 +16768,7 @@
    ]
   },
   {
-   "id": "e191",
+   "id": "e199",
    "members": [
     "keyword:microcanonical energy window",
     "keyword:microcanonical energy window defines",
@@ -16595,7 +16779,7 @@
    ]
   },
   {
-   "id": "e192",
+   "id": "e200",
    "members": [
     "keyword:few off-diagonal matrix elements",
     "keyword:off-diagonal matrix elements",
@@ -16605,7 +16789,7 @@
    ]
   },
   {
-   "id": "e193",
+   "id": "e201",
    "members": [
     "keyword:diagonal ensemble",
     "keyword:diagonal ensemble predictions",
@@ -16615,7 +16799,7 @@
    ]
   },
   {
-   "id": "e194",
+   "id": "e202",
    "members": [
     "keyword:chaos",
     "keyword:isolated quantum systems taken far",
@@ -16627,7 +16811,7 @@
    ]
   },
   {
-   "id": "e195",
+   "id": "e203",
    "members": [
     "keyword:dynamical process",
     "keyword:dynamical process involves changing parameters",
@@ -16638,7 +16822,7 @@
    ]
   },
   {
-   "id": "e196",
+   "id": "e204",
    "members": [
     "keyword:doubly stochastic matrix",
     "keyword:doubly stochastic transition rates",
@@ -16649,7 +16833,7 @@
    ]
   },
   {
-   "id": "e197",
+   "id": "e205",
    "members": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochasticity",
@@ -16662,7 +16846,7 @@
    ]
   },
   {
-   "id": "e198",
+   "id": "e206",
    "members": [
     "keyword:infinite temperature",
     "keyword:infinite temperature state",
@@ -16673,7 +16857,7 @@
    ]
   },
   {
-   "id": "e199",
+   "id": "e207",
    "members": [
     "keyword:diagonal entropy cannot decrease",
     "keyword:diagonal entropy increases",
@@ -16684,7 +16868,7 @@
    ]
   },
   {
-   "id": "e200",
+   "id": "e208",
    "members": [
     "keyword:doubly stochastic cyclic evolution",
     "keyword:initial density matrix",
@@ -16695,7 +16879,7 @@
    ]
   },
   {
-   "id": "e201",
+   "id": "e209",
    "members": [
     "keyword:cyclic doubly stochastic evolution leads",
     "keyword:discussed three important results",
@@ -16707,7 +16891,7 @@
    ]
   },
   {
-   "id": "e202",
+   "id": "e210",
    "members": [
     "keyword:extensive thermodynamic entropy",
     "keyword:thermodynamic entropy",
@@ -16717,7 +16901,7 @@
    ]
   },
   {
-   "id": "e203",
+   "id": "e211",
    "members": [
     "keyword:energy change",
     "keyword:energy spectrum",
@@ -16729,7 +16913,7 @@
    ]
   },
   {
-   "id": "e204",
+   "id": "e212",
    "members": [
     "keyword:driven isolated systems",
     "keyword:fluctuation theorems",
@@ -16742,7 +16926,7 @@
    ]
   },
   {
-   "id": "e205",
+   "id": "e213",
    "members": [
     "keyword:jarzynski equality allows one",
     "keyword:jarzynski equality constraints different cumulants",
@@ -16753,7 +16937,7 @@
    ]
   },
   {
-   "id": "e206",
+   "id": "e214",
    "members": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochastic evolution describes unitary dynamics",
@@ -16764,7 +16948,7 @@
    ]
   },
   {
-   "id": "e207",
+   "id": "e215",
    "members": [
     "keyword:forward process starting",
     "keyword:reverse process",
@@ -16774,7 +16958,7 @@
    ]
   },
   {
-   "id": "e208",
+   "id": "e216",
    "members": [
     "keyword:detailed balance condition",
     "keyword:familiar detailed balance condition",
@@ -16786,14 +16970,14 @@
    ]
   },
   {
-   "id": "e209",
+   "id": "e217",
    "members": [
     "project:fulltext",
     "section:[6.3. einsteins energy drift-diffusion relations for isolated and open systems]"
    ]
   },
   {
-   "id": "e210",
+   "id": "e218",
    "members": [
     "keyword:energy distribution function",
     "keyword:finding universal energy distributions",
@@ -16802,7 +16986,7 @@
    ]
   },
   {
-   "id": "e211",
+   "id": "e219",
    "members": [
     "keyword:two initially separated chaotic systems",
     "keyword:two large macroscopic systems",
@@ -16812,7 +16996,7 @@
    ]
   },
   {
-   "id": "e212",
+   "id": "e220",
    "members": [
     "keyword:lhs one",
     "project:fulltext",
@@ -16820,7 +17004,7 @@
    ]
   },
   {
-   "id": "e213",
+   "id": "e221",
    "members": [
     "keyword:cumulant expansion",
     "keyword:cumulant tensors",
@@ -16830,7 +17014,7 @@
    ]
   },
   {
-   "id": "e214",
+   "id": "e222",
    "members": [
     "notation:fourier",
     "project:fulltext",
@@ -16838,7 +17022,7 @@
    ]
   },
   {
-   "id": "e215",
+   "id": "e223",
    "members": [
     "keyword:correlation function",
     "keyword:higher order correlation functions",
@@ -16849,7 +17033,7 @@
    ]
   },
   {
-   "id": "e216",
+   "id": "e224",
    "members": [
     "keyword:quasi-static process one usually understands",
     "project:fulltext",
@@ -16857,7 +17041,7 @@
    ]
   },
   {
-   "id": "e217",
+   "id": "e225",
    "members": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -16869,7 +17053,7 @@
    ]
   },
   {
-   "id": "e218",
+   "id": "e226",
    "members": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -16881,7 +17065,7 @@
    ]
   },
   {
-   "id": "e219",
+   "id": "e227",
    "members": [
     "keyword:canonical energy fluctuations",
     "keyword:energy fluctuations",
@@ -16893,7 +17077,7 @@
    ]
   },
   {
-   "id": "e220",
+   "id": "e228",
    "members": [
     "keyword:isolated nonintegrable quantum systems",
     "keyword:quantum chaos",
@@ -16904,7 +17088,7 @@
    ]
   },
   {
-   "id": "e221",
+   "id": "e229",
    "members": [
     "keyword:extensive conserved quantities",
     "keyword:integrable quantum systems",
@@ -16915,7 +17099,7 @@
    ]
   },
   {
-   "id": "e222",
+   "id": "e230",
    "members": [
     "keyword:discuss one particular noninteracting system",
     "keyword:gge constructed using occupation modes",
@@ -16926,7 +17110,7 @@
    ]
   },
   {
-   "id": "e223",
+   "id": "e231",
    "members": [
     "keyword:grand canonical ensemble",
     "keyword:grand canonical ensemble results",
@@ -16937,7 +17121,7 @@
    ]
   },
   {
-   "id": "e224",
+   "id": "e232",
    "members": [
     "keyword:eigenstate expectation values",
     "keyword:eigenstate expectation values vanishes",
@@ -16948,7 +17132,7 @@
    ]
   },
   {
-   "id": "e225",
+   "id": "e233",
    "members": [
     "keyword:conservation laws",
     "keyword:imposing local conservation laws",
@@ -16959,7 +17143,7 @@
    ]
   },
   {
-   "id": "e226",
+   "id": "e234",
    "members": [
     "keyword:gge results",
     "keyword:integrable xxz model written",
@@ -16968,7 +17152,7 @@
    ]
   },
   {
-   "id": "e227",
+   "id": "e235",
    "members": [
     "keyword:weakly interacting disordered systems",
     "project:fulltext",
@@ -16976,14 +17160,14 @@
    ]
   },
   {
-   "id": "e228",
+   "id": "e236",
    "members": [
     "project:fulltext",
     "section:[acknowledgments]"
    ]
   },
   {
-   "id": "e229",
+   "id": "e237",
    "members": [
     "notation:fourier",
     "project:fulltext",
@@ -16991,7 +17175,7 @@
    ]
   },
   {
-   "id": "e230",
+   "id": "e238",
    "members": [
     "keyword:partition function",
     "keyword:riemann zeta function",
@@ -17003,7 +17187,7 @@
    ]
   },
   {
-   "id": "e231",
+   "id": "e239",
    "members": [
     "keyword:doubly stochastic matrices",
     "keyword:doubly stochastic matrix",
@@ -17015,7 +17199,7 @@
    ]
   },
   {
-   "id": "e232",
+   "id": "e240",
    "members": [
     "keyword:doubly stochastic master equation",
     "keyword:general doubly stochastic matrix",
@@ -17027,7 +17211,7 @@
    ]
   },
   {
-   "id": "e233",
+   "id": "e241",
    "members": [
     "keyword:doubly stochastic condition",
     "project:fulltext",
@@ -17035,7 +17219,7 @@
    ]
   },
   {
-   "id": "e234",
+   "id": "e242",
    "members": [
     "keyword:energy dissipation",
     "keyword:single many-body energy eigenstate",
@@ -17044,7 +17228,7 @@
    ]
   },
   {
-   "id": "e235",
+   "id": "e243",
    "members": [
     "keyword:second order",
     "project:fulltext",
@@ -17052,21 +17236,21 @@
    ]
   },
   {
-   "id": "e236",
+   "id": "e244",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e237",
+   "id": "e245",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e238",
+   "id": "e246",
    "members": [
     "keyword:authors",
     "keyword:physa",
@@ -17076,14 +17260,14 @@
    ]
   },
   {
-   "id": "e239",
+   "id": "e247",
    "members": [
     "project:fulltext",
     "section:[the social architecture of capitalism]"
    ]
   },
   {
-   "id": "e240",
+   "id": "e248",
    "members": [
     "keyword:dynamic model",
     "keyword:model",
@@ -17095,7 +17279,7 @@
    ]
   },
   {
-   "id": "e241",
+   "id": "e249",
    "members": [
     "keyword:social architecture",
     "keyword:social dependence mediated",
@@ -17105,7 +17289,7 @@
    ]
   },
   {
-   "id": "e242",
+   "id": "e250",
    "members": [
     "keyword:actor",
     "keyword:actor cannot belong",
@@ -17116,7 +17300,7 @@
    ]
   },
   {
-   "id": "e243",
+   "id": "e251",
    "members": [
     "keyword:active actor",
     "keyword:actor",
@@ -17127,7 +17311,7 @@
    ]
   },
   {
-   "id": "e244",
+   "id": "e252",
    "members": [
     "keyword:following hiring rule",
     "keyword:hiring favour",
@@ -17138,7 +17322,7 @@
    ]
   },
   {
-   "id": "e245",
+   "id": "e253",
    "members": [
     "keyword:actors total expenditure",
     "keyword:expenditure",
@@ -17151,7 +17335,7 @@
    ]
   },
   {
-   "id": "e246",
+   "id": "e254",
    "members": [
     "keyword:current available market value",
     "keyword:individual market transactions",
@@ -17163,7 +17347,7 @@
    ]
   },
   {
-   "id": "e247",
+   "id": "e255",
    "members": [
     "keyword:ante wage bill",
     "keyword:firms current money holdings",
@@ -17173,7 +17357,7 @@
    ]
   },
   {
-   "id": "e248",
+   "id": "e256",
    "members": [
     "keyword:concrete model would introduce wage contracts",
     "keyword:employers pay wages according",
@@ -17185,7 +17369,7 @@
    ]
   },
   {
-   "id": "e249",
+   "id": "e257",
    "members": [
     "keyword:execute expenditure rule",
     "keyword:execute hiring rule",
@@ -17195,7 +17379,7 @@
    ]
   },
   {
-   "id": "e250",
+   "id": "e258",
    "members": [
     "keyword:execute rule",
     "keyword:month",
@@ -17207,7 +17391,7 @@
    ]
   },
   {
-   "id": "e251",
+   "id": "e259",
    "members": [
     "keyword:model",
     "keyword:real time",
@@ -17218,7 +17402,7 @@
    ]
   },
   {
-   "id": "e252",
+   "id": "e260",
    "members": [
     "keyword:highest possible wage never exceeds",
     "keyword:minimum wage",
@@ -17230,7 +17414,7 @@
    ]
   },
   {
-   "id": "e253",
+   "id": "e261",
    "members": [
     "keyword:class sizes",
     "keyword:class sizes generated",
@@ -17240,7 +17424,7 @@
    ]
   },
   {
-   "id": "e254",
+   "id": "e262",
    "members": [
     "keyword:firm size distribution",
     "keyword:firm size distribution followed",
@@ -17251,7 +17435,7 @@
    ]
   },
   {
-   "id": "e255",
+   "id": "e263",
    "members": [
     "keyword:growth rates",
     "keyword:holds true whether growth rates",
@@ -17264,7 +17448,7 @@
    ]
   },
   {
-   "id": "e256",
+   "id": "e264",
    "members": [
     "keyword:empirical laplace growth distribution suggests",
     "keyword:laplace growth distribution",
@@ -17275,7 +17459,7 @@
    ]
   },
   {
-   "id": "e257",
+   "id": "e265",
    "members": [
     "keyword:firm demise measure",
     "keyword:firm demise occurs",
@@ -17286,7 +17470,7 @@
    ]
   },
   {
-   "id": "e258",
+   "id": "e266",
    "members": [
     "keyword:gdp growth rate",
     "keyword:gdp log growth rates",
@@ -17296,7 +17480,7 @@
    ]
   },
   {
-   "id": "e259",
+   "id": "e267",
    "members": [
     "keyword:average duration",
     "keyword:average recession duration",
@@ -17306,7 +17490,7 @@
    ]
   },
   {
-   "id": "e260",
+   "id": "e268",
    "members": [
     "keyword:advanced capitalist countries publish national income accounts",
     "keyword:profit share fluctuates",
@@ -17318,7 +17502,7 @@
    ]
   },
   {
-   "id": "e261",
+   "id": "e269",
    "members": [
     "keyword:capitalist income distribution generated",
     "keyword:complete income distribution plotted",
@@ -17330,7 +17514,7 @@
    ]
   },
   {
-   "id": "e262",
+   "id": "e270",
    "members": [
     "keyword:firm size distribution",
     "keyword:firm-weighted rate-of-profit distribution",
@@ -17342,7 +17526,7 @@
    ]
   },
   {
-   "id": "e263",
+   "id": "e271",
    "members": [
     "keyword:existing economic models",
     "keyword:standard economic models",
@@ -17351,7 +17535,7 @@
    ]
   },
   {
-   "id": "e264",
+   "id": "e272",
    "members": [
     "keyword:empirical rate-of-profit distribution",
     "keyword:gamma-like rate-of-profit distribution",
@@ -17364,21 +17548,21 @@
    ]
   },
   {
-   "id": "e265",
+   "id": "e273",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e266",
+   "id": "e274",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e267",
+   "id": "e275",
    "members": [
     "keyword:progress",
     "project:fulltext",
@@ -17386,7 +17570,7 @@
    ]
   },
   {
-   "id": "e268",
+   "id": "e276",
    "members": [
     "keyword:thermoelectric devices involving single electron transport",
     "project:fulltext",
@@ -17394,14 +17578,14 @@
    ]
   },
   {
-   "id": "e269",
+   "id": "e277",
    "members": [
     "project:fulltext",
     "section:[contents]"
    ]
   },
   {
-   "id": "e270",
+   "id": "e278",
    "members": [
     "keyword:entropy production",
     "keyword:entropy production seriously",
@@ -17410,7 +17594,7 @@
    ]
   },
   {
-   "id": "e271",
+   "id": "e279",
    "members": [
     "keyword:relevant system size",
     "project:fulltext",
@@ -17418,7 +17602,7 @@
    ]
   },
   {
-   "id": "e272",
+   "id": "e280",
    "members": [
     "keyword:deterministic dynamics",
     "keyword:one keeps deterministic equations",
@@ -17427,7 +17611,7 @@
    ]
   },
   {
-   "id": "e273",
+   "id": "e281",
    "members": [
     "keyword:distinguish isothermal engines like molecular motors discussed",
     "keyword:heat engines like thermoelectric devices treated",
@@ -17436,7 +17620,7 @@
    ]
   },
   {
-   "id": "e274",
+   "id": "e282",
    "members": [
     "keyword:brief reviews",
     "keyword:reviews dealing",
@@ -17447,7 +17631,7 @@
    ]
   },
   {
-   "id": "e275",
+   "id": "e283",
    "members": [
     "keyword:colloidal particle confined",
     "keyword:introduced using",
@@ -17460,14 +17644,14 @@
    ]
   },
   {
-   "id": "e276",
+   "id": "e284",
    "members": [
     "project:fulltext",
     "section:[2.1. stochastic dynamics]"
    ]
   },
   {
-   "id": "e277",
+   "id": "e285",
    "members": [
     "keyword:corresponding stationary state",
     "project:fulltext",
@@ -17475,7 +17659,7 @@
    ]
   },
   {
-   "id": "e278",
+   "id": "e286",
    "members": [
     "keyword:dissipated heat",
     "keyword:heat dissipated",
@@ -17487,7 +17671,7 @@
    ]
   },
   {
-   "id": "e279",
+   "id": "e287",
    "members": [
     "keyword:stochastic entropy",
     "keyword:stochastic entropy depends",
@@ -17499,14 +17683,14 @@
    ]
   },
   {
-   "id": "e280",
+   "id": "e288",
    "members": [
     "project:fulltext",
     "section:[2.5. ensemble averages]"
    ]
   },
   {
-   "id": "e281",
+   "id": "e289",
    "members": [
     "keyword:fluctuating trajectories taken",
     "keyword:fluctuation theorems express universal properties",
@@ -17517,7 +17701,7 @@
    ]
   },
   {
-   "id": "e282",
+   "id": "e290",
    "members": [
     "keyword:detailed fluctuation theorem corresponds",
     "keyword:ift implies",
@@ -17527,7 +17711,7 @@
    ]
   },
   {
-   "id": "e283",
+   "id": "e291",
    "members": [
     "keyword:jarzynski relation since",
     "project:fulltext",
@@ -17535,7 +17719,7 @@
    ]
   },
   {
-   "id": "e284",
+   "id": "e292",
    "members": [
     "keyword:called entropy production",
     "keyword:ensemble entropy change",
@@ -17548,7 +17732,7 @@
    ]
   },
   {
-   "id": "e285",
+   "id": "e293",
    "members": [
     "keyword:derive fts",
     "keyword:fts",
@@ -17559,7 +17743,7 @@
    ]
   },
   {
-   "id": "e286",
+   "id": "e294",
    "members": [
     "keyword:conjugate dynamics",
     "keyword:dual dynamics",
@@ -17568,7 +17752,7 @@
    ]
   },
   {
-   "id": "e287",
+   "id": "e295",
    "members": [
     "keyword:conjugate dynamics",
     "keyword:conjugate dynamics according",
@@ -17580,7 +17764,7 @@
    ]
   },
   {
-   "id": "e288",
+   "id": "e296",
    "members": [
     "keyword:one obtains",
     "project:fulltext",
@@ -17588,14 +17772,14 @@
    ]
   },
   {
-   "id": "e289",
+   "id": "e297",
    "members": [
     "project:fulltext",
     "section:[4.4. fts derived from time-reversal]"
    ]
   },
   {
-   "id": "e290",
+   "id": "e298",
    "members": [
     "keyword:external flow",
     "keyword:flow unchanged",
@@ -17606,14 +17790,14 @@
    ]
   },
   {
-   "id": "e291",
+   "id": "e299",
    "members": [
     "project:fulltext",
     "section:[4.6. fts for athermal systems]"
    ]
   },
   {
-   "id": "e292",
+   "id": "e300",
    "members": [
     "keyword:detailed theorems give",
     "keyword:fluctuation theorems given above",
@@ -17624,7 +17808,7 @@
    ]
   },
   {
-   "id": "e293",
+   "id": "e301",
    "members": [
     "keyword:colloidal particle",
     "keyword:colloidal particle driven",
@@ -17635,7 +17819,7 @@
    ]
   },
   {
-   "id": "e294",
+   "id": "e302",
    "members": [
     "keyword:calculated work weighted propagators",
     "keyword:driven torsion pendulum differs fundamentally",
@@ -17645,7 +17829,7 @@
    ]
   },
   {
-   "id": "e295",
+   "id": "e303",
    "members": [
     "keyword:experimental work",
     "project:fulltext",
@@ -17653,7 +17837,7 @@
    ]
   },
   {
-   "id": "e296",
+   "id": "e304",
    "members": [
     "notation:tau_j",
     "project:fulltext",
@@ -17661,7 +17845,7 @@
    ]
   },
   {
-   "id": "e297",
+   "id": "e305",
    "members": [
     "notation:tau_j",
     "project:fulltext",
@@ -17669,7 +17853,7 @@
    ]
   },
   {
-   "id": "e298",
+   "id": "e306",
    "members": [
     "keyword:driven two-level system modelling single electron transport",
     "keyword:experimental case studies experimental work measuring",
@@ -17680,7 +17864,7 @@
    ]
   },
   {
-   "id": "e299",
+   "id": "e307",
    "members": [
     "keyword:entropy production",
     "keyword:entropy production associated",
@@ -17690,7 +17874,7 @@
    ]
   },
   {
-   "id": "e300",
+   "id": "e308",
    "members": [
     "keyword:optimal protocol",
     "keyword:optimal protocol connecting arbitrary given initial",
@@ -17701,7 +17885,7 @@
    ]
   },
   {
-   "id": "e301",
+   "id": "e309",
    "members": [
     "keyword:dissipated work",
     "keyword:dissipated work determines",
@@ -17712,7 +17896,7 @@
    ]
   },
   {
-   "id": "e302",
+   "id": "e310",
    "members": [
     "keyword:brownian information machines obeying",
     "project:fulltext",
@@ -17720,7 +17904,7 @@
    ]
   },
   {
-   "id": "e303",
+   "id": "e311",
    "members": [
     "keyword:equilibrium equilibrium systems react",
     "keyword:interacting systems one often finds numerically good agreement",
@@ -17730,14 +17914,14 @@
    ]
   },
   {
-   "id": "e304",
+   "id": "e312",
    "members": [
     "project:fulltext",
     "section:[8.2. derivation and discussion]"
    ]
   },
   {
-   "id": "e305",
+   "id": "e313",
    "members": [
     "keyword:shear flow",
     "keyword:shear flow provides",
@@ -17748,7 +17932,7 @@
    ]
   },
   {
-   "id": "e306",
+   "id": "e314",
    "members": [
     "keyword:stochastic thermodynamics",
     "keyword:stochastic thermodynamics carries",
@@ -17757,14 +17941,14 @@
    ]
   },
   {
-   "id": "e307",
+   "id": "e315",
    "members": [
     "project:fulltext",
     "section:[9.2. biopolymers with continuous degrees of freedom]"
    ]
   },
   {
-   "id": "e308",
+   "id": "e316",
    "members": [
     "keyword:determine free energy changes induced",
     "keyword:free choice",
@@ -17777,7 +17961,7 @@
    ]
   },
   {
-   "id": "e309",
+   "id": "e317",
    "members": [
     "notation:tau_j",
     "project:fulltext",
@@ -17785,7 +17969,7 @@
    ]
   },
   {
-   "id": "e310",
+   "id": "e318",
    "members": [
     "keyword:archetypical thermodynamic machines",
     "keyword:isothermal autonomous machines",
@@ -17795,7 +17979,7 @@
    ]
   },
   {
-   "id": "e311",
+   "id": "e319",
    "members": [
     "keyword:directed cycle current",
     "project:fulltext",
@@ -17803,14 +17987,14 @@
    ]
   },
   {
-   "id": "e312",
+   "id": "e320",
    "members": [
     "project:fulltext",
     "section:[10.3. power and efficiency]"
    ]
   },
   {
-   "id": "e313",
+   "id": "e321",
    "members": [
     "keyword:formula-not-decoded",
     "project:fulltext",
@@ -17818,7 +18002,7 @@
    ]
   },
   {
-   "id": "e314",
+   "id": "e322",
    "members": [
     "keyword:simple unicyclic machines",
     "keyword:unicyclic machine",
@@ -17830,7 +18014,7 @@
    ]
   },
   {
-   "id": "e315",
+   "id": "e323",
    "members": [
     "keyword:output transition",
     "keyword:strongly coupled machines exactly",
@@ -17841,7 +18025,7 @@
    ]
   },
   {
-   "id": "e316",
+   "id": "e324",
    "members": [
     "keyword:models combining discrete",
     "keyword:molecular motor",
@@ -17853,7 +18037,7 @@
    ]
   },
   {
-   "id": "e317",
+   "id": "e325",
    "members": [
     "keyword:assume ordinary heat conduction",
     "keyword:heat flux taken",
@@ -17863,7 +18047,7 @@
    ]
   },
   {
-   "id": "e318",
+   "id": "e326",
    "members": [
     "keyword:different temperature",
     "keyword:straightforward since one needs significant temperature differences",
@@ -17874,7 +18058,7 @@
    ]
   },
   {
-   "id": "e319",
+   "id": "e327",
    "members": [
     "keyword:heat engine",
     "keyword:micron-sized heat engine based",
@@ -17885,7 +18069,7 @@
    ]
   },
   {
-   "id": "e320",
+   "id": "e328",
    "members": [
     "keyword:appropriate",
     "keyword:basic assumption",
@@ -17898,7 +18082,7 @@
    ]
   },
   {
-   "id": "e321",
+   "id": "e329",
    "members": [
     "keyword:entropy production",
     "keyword:stochastic entropy",
@@ -17908,7 +18092,7 @@
    ]
   },
   {
-   "id": "e322",
+   "id": "e330",
    "members": [
     "keyword:slow one",
     "project:fulltext",
@@ -17916,7 +18100,7 @@
    ]
   },
   {
-   "id": "e323",
+   "id": "e331",
    "members": [
     "keyword:equilibrium systems",
     "keyword:non-equilibrium chemical potential",
@@ -17928,7 +18112,7 @@
    ]
   },
   {
-   "id": "e324",
+   "id": "e332",
    "members": [
     "keyword:classical thermodynamics albeit",
     "keyword:optimizing quite practical matters like",
@@ -17938,7 +18122,7 @@
    ]
   },
   {
-   "id": "e325",
+   "id": "e333",
    "members": [
     "keyword:graduate students",
     "keyword:long-standing enjoyable collaboration",
@@ -17951,35 +18135,35 @@
    ]
   },
   {
-   "id": "e326",
+   "id": "e334",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e327",
+   "id": "e335",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e328",
+   "id": "e336",
    "members": [
     "project:fulltext",
     "section:[commons and cooperatives]"
    ]
   },
   {
-   "id": "e329",
+   "id": "e337",
    "members": [
     "project:fulltext",
     "section:[[scholars commons @ laurier](https://scholars.wlu.ca/)]"
    ]
   },
   {
-   "id": "e330",
+   "id": "e338",
    "members": [
     "keyword:additional works",
     "keyword:nick dyer-witheford university",
@@ -17988,7 +18172,7 @@
    ]
   },
   {
-   "id": "e331",
+   "id": "e339",
    "members": [
     "keyword:communication studies faculty publications",
     "project:fulltext",
@@ -17996,7 +18180,7 @@
    ]
   },
   {
-   "id": "e332",
+   "id": "e340",
    "members": [
     "keyword:commons struggles",
     "keyword:labour commons",
@@ -18008,7 +18192,7 @@
    ]
   },
   {
-   "id": "e333",
+   "id": "e341",
    "members": [
     "keyword:labour commons",
     "project:fulltext",
@@ -18016,7 +18200,7 @@
    ]
   },
   {
-   "id": "e334",
+   "id": "e342",
    "members": [
     "keyword:associated labour plying",
     "keyword:worker coop capital",
@@ -18025,7 +18209,7 @@
    ]
   },
   {
-   "id": "e335",
+   "id": "e343",
    "members": [
     "keyword:canadian worker coop federation",
     "keyword:worker coop",
@@ -18035,7 +18219,7 @@
    ]
   },
   {
-   "id": "e336",
+   "id": "e344",
    "members": [
     "keyword:individual worker-owners",
     "keyword:worker-owned coops whose core activities range",
@@ -18044,7 +18228,7 @@
    ]
   },
   {
-   "id": "e337",
+   "id": "e345",
    "members": [
     "keyword:coops relation",
     "keyword:offers mcc coops extensive research assistance",
@@ -18055,14 +18239,14 @@
    ]
   },
   {
-   "id": "e338",
+   "id": "e346",
    "members": [
     "project:fulltext",
     "section:[state support]"
    ]
   },
   {
-   "id": "e339",
+   "id": "e347",
    "members": [
     "keyword:labour commons",
     "keyword:networked commons",
@@ -18072,42 +18256,42 @@
    ]
   },
   {
-   "id": "e340",
+   "id": "e348",
    "members": [
     "project:fulltext",
     "section:[endnotes]"
    ]
   },
   {
-   "id": "e341",
+   "id": "e349",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e342",
+   "id": "e350",
    "members": [
     "project:fulltext",
     "section:[commons and cooperatives]"
    ]
   },
   {
-   "id": "e343",
+   "id": "e351",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e344",
+   "id": "e352",
    "members": [
     "project:fulltext",
     "section:[worker cooperatives and democratic governance]"
    ]
   },
   {
-   "id": "e345",
+   "id": "e353",
    "members": [
     "keyword:labor",
     "keyword:study",
@@ -18116,7 +18300,7 @@
    ]
   },
   {
-   "id": "e346",
+   "id": "e354",
    "members": [
     "keyword:iza",
     "project:fulltext",
@@ -18124,7 +18308,7 @@
    ]
   },
   {
-   "id": "e347",
+   "id": "e355",
    "members": [
     "keyword:iza guiding principles",
     "keyword:iza research network",
@@ -18133,7 +18317,7 @@
    ]
   },
   {
-   "id": "e348",
+   "id": "e356",
    "members": [
     "keyword:co-ops",
     "keyword:worker co-operative",
@@ -18143,7 +18327,7 @@
    ]
   },
   {
-   "id": "e349",
+   "id": "e357",
    "members": [
     "keyword:john pencavel",
     "project:fulltext",
@@ -18151,7 +18335,7 @@
    ]
   },
   {
-   "id": "e350",
+   "id": "e358",
    "members": [
     "keyword:uruguayan worker co-ops",
     "keyword:worker co-op combines worker ownership",
@@ -18162,7 +18346,7 @@
    ]
   },
   {
-   "id": "e351",
+   "id": "e359",
    "members": [
     "keyword:firms production functions",
     "keyword:others worker co-ops",
@@ -18174,7 +18358,7 @@
    ]
   },
   {
-   "id": "e352",
+   "id": "e360",
    "members": [
     "keyword:democratic capitalist sympathies",
     "keyword:develop democratic workplaces often run",
@@ -18185,7 +18369,7 @@
    ]
   },
   {
-   "id": "e353",
+   "id": "e361",
    "members": [
     "keyword:describe worker co-ops",
     "keyword:worker co-op",
@@ -18196,28 +18380,28 @@
    ]
   },
   {
-   "id": "e354",
+   "id": "e362",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e355",
+   "id": "e363",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e356",
+   "id": "e364",
    "members": [
     "project:fulltext",
     "section:[rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes]"
    ]
   },
   {
-   "id": "e357",
+   "id": "e365",
    "members": [
     "keyword:rational extended thermodynamic theory",
     "keyword:rational extended thermodynamics",
@@ -18226,7 +18410,7 @@
    ]
   },
   {
-   "id": "e358",
+   "id": "e366",
    "members": [
     "keyword:energy density gll",
     "keyword:specific internal energy composed",
@@ -18237,7 +18421,7 @@
    ]
   },
   {
-   "id": "e359",
+   "id": "e367",
    "members": [
     "keyword:equilibrium distribution function",
     "keyword:internal modes",
@@ -18249,7 +18433,7 @@
    ]
   },
   {
-   "id": "e360",
+   "id": "e368",
    "members": [
     "keyword:energy density gll",
     "keyword:entropy density",
@@ -18261,7 +18445,7 @@
    ]
   },
   {
-   "id": "e361",
+   "id": "e369",
    "members": [
     "keyword:entropy density",
     "keyword:equilibrium distribution function",
@@ -18272,7 +18456,7 @@
    ]
   },
   {
-   "id": "e362",
+   "id": "e370",
    "members": [
     "keyword:equilibrium distribution function",
     "keyword:formula-not-decoded",
@@ -18282,7 +18466,7 @@
    ]
   },
   {
-   "id": "e363",
+   "id": "e371",
    "members": [
     "keyword:balance equations",
     "keyword:obtain three hierarchies",
@@ -18292,7 +18476,7 @@
    ]
   },
   {
-   "id": "e364",
+   "id": "e372",
    "members": [
     "keyword:compactly expressed",
     "keyword:finite system",
@@ -18303,21 +18487,21 @@
    ]
   },
   {
-   "id": "e365",
+   "id": "e373",
    "members": [
     "project:fulltext",
     "section:[1. galilean invariance]"
    ]
   },
   {
-   "id": "e366",
+   "id": "e374",
    "members": [
     "project:fulltext",
     "section:[2. mep and the closure of the system]"
    ]
   },
   {
-   "id": "e367",
+   "id": "e375",
    "members": [
     "keyword:collision term struchtrup",
     "keyword:internal mode",
@@ -18329,7 +18513,7 @@
    ]
   },
   {
-   "id": "e368",
+   "id": "e376",
    "members": [
     "keyword:possible relaxation processes",
     "keyword:relaxation process",
@@ -18341,7 +18525,7 @@
    ]
   },
   {
-   "id": "e369",
+   "id": "e377",
    "members": [
     "keyword:distribution function fkr",
     "keyword:local equilibrium distribution function given",
@@ -18350,7 +18534,7 @@
    ]
   },
   {
-   "id": "e370",
+   "id": "e378",
    "members": [
     "keyword:distribution functions",
     "keyword:entropy production",
@@ -18362,7 +18546,7 @@
    ]
   },
   {
-   "id": "e371",
+   "id": "e379",
    "members": [
     "keyword:closed system",
     "keyword:et7 theory focuses",
@@ -18374,7 +18558,7 @@
    ]
   },
   {
-   "id": "e372",
+   "id": "e380",
    "members": [
     "keyword:balance equations",
     "keyword:easily verified",
@@ -18385,7 +18569,7 @@
    ]
   },
   {
-   "id": "e373",
+   "id": "e381",
    "members": [
     "keyword:first",
     "keyword:following statement",
@@ -18395,7 +18579,7 @@
    ]
   },
   {
-   "id": "e374",
+   "id": "e382",
    "members": [
     "keyword:erent temperatures",
     "keyword:nonequilibrium chemical potentials",
@@ -18408,7 +18592,7 @@
    ]
   },
   {
-   "id": "e375",
+   "id": "e383",
    "members": [
     "keyword:constitutive equations",
     "keyword:constitutive equations above",
@@ -18418,7 +18602,7 @@
    ]
   },
   {
-   "id": "e376",
+   "id": "e384",
    "members": [
     "keyword:entropy density",
     "keyword:entropy flux",
@@ -18429,7 +18613,7 @@
    ]
   },
   {
-   "id": "e377",
+   "id": "e385",
    "members": [
     "keyword:collision term",
     "keyword:formula-not-decoded",
@@ -18440,7 +18624,7 @@
    ]
   },
   {
-   "id": "e378",
+   "id": "e386",
    "members": [
     "keyword:et7 theory",
     "keyword:features",
@@ -18450,7 +18634,7 @@
    ]
   },
   {
-   "id": "e379",
+   "id": "e387",
    "members": [
     "keyword:et7 theory",
     "keyword:internal variables",
@@ -18462,7 +18646,7 @@
    ]
   },
   {
-   "id": "e380",
+   "id": "e388",
    "members": [
     "keyword:formula-not-decoded",
     "keyword:specific heat defined",
@@ -18472,7 +18656,7 @@
    ]
   },
   {
-   "id": "e381",
+   "id": "e389",
    "members": [
     "keyword:et6 theory studied",
     "keyword:previous et6 theory",
@@ -18483,14 +18667,14 @@
    ]
   },
   {
-   "id": "e382",
+   "id": "e390",
    "members": [
     "project:fulltext",
     "section:[d. near equilibrium case]"
    ]
   },
   {
-   "id": "e383",
+   "id": "e391",
    "members": [
     "keyword:initial time",
     "keyword:internal molecular relaxation processes",
@@ -18501,7 +18685,7 @@
    ]
   },
   {
-   "id": "e384",
+   "id": "e392",
    "members": [
     "keyword:dispersion relation",
     "keyword:experimental data",
@@ -18514,7 +18698,7 @@
    ]
   },
   {
-   "id": "e385",
+   "id": "e393",
    "members": [
     "keyword:dispersion relation",
     "keyword:dispersion relations",
@@ -18526,7 +18710,7 @@
    ]
   },
   {
-   "id": "e386",
+   "id": "e394",
    "members": [
     "keyword:characteristic temperature dependence",
     "keyword:typical temperature dependence",
@@ -18535,7 +18719,7 @@
    ]
   },
   {
-   "id": "e387",
+   "id": "e395",
    "members": [
     "keyword:br2 gases",
     "keyword:bulk viscosity coe cients",
@@ -18544,7 +18728,7 @@
    ]
   },
   {
-   "id": "e388",
+   "id": "e396",
    "members": [
     "keyword:detailed shock wave structure",
     "keyword:peculiar shock wave structure",
@@ -18556,7 +18740,7 @@
    ]
   },
   {
-   "id": "e389",
+   "id": "e397",
    "members": [
     "keyword:jsps kakenhi grant numbers jp15k21452",
     "keyword:mathematical physics gnfm-indam",
@@ -18568,35 +18752,35 @@
    ]
   },
   {
-   "id": "e390",
+   "id": "e398",
    "members": [
     "project:fulltext",
     "section:[appendix: proof of statement 2]"
    ]
   },
   {
-   "id": "e391",
+   "id": "e399",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e392",
+   "id": "e400",
    "members": [
     "project:fulltext",
     "section:[are cooperative societies transforming into cooperative companies?: reflections on the finnish cooperatives act]"
    ]
   },
   {
-   "id": "e393",
+   "id": "e401",
    "members": [
     "project:fulltext",
     "section:[are cooperative societies transforming into cooperative companies? : reflections on the finnish cooperatives act: ovatko osuuskuntayhteis\u00f6t muuttumassa osuuskuntayhti\u00f6iksi : vertailua suomen osuuskuntalakiin]"
    ]
   },
   {
-   "id": "e394",
+   "id": "e402",
    "members": [
     "keyword:cooperative law",
     "keyword:cooperative law using",
@@ -18606,7 +18790,7 @@
    ]
   },
   {
-   "id": "e395",
+   "id": "e403",
    "members": [
     "keyword:finnish cooperative law",
     "keyword:international cooperative law research",
@@ -18616,7 +18800,7 @@
    ]
   },
   {
-   "id": "e396",
+   "id": "e404",
    "members": [
     "keyword:finnish cooperative law",
     "keyword:second finnish cooperative law",
@@ -18626,7 +18810,7 @@
    ]
   },
   {
-   "id": "e397",
+   "id": "e405",
    "members": [
     "keyword:cooperative law",
     "keyword:drafting cooperative law",
@@ -18636,7 +18820,7 @@
    ]
   },
   {
-   "id": "e398",
+   "id": "e406",
    "members": [
     "keyword:cooperative membership",
     "keyword:nkner calls cooperative shares classical shares",
@@ -18647,14 +18831,14 @@
    ]
   },
   {
-   "id": "e399",
+   "id": "e407",
    "members": [
     "project:fulltext",
     "section:[3.2. democratic member control]"
    ]
   },
   {
-   "id": "e400",
+   "id": "e408",
    "members": [
     "keyword:cooperative capital",
     "keyword:cooperative law theory membership",
@@ -18665,7 +18849,7 @@
    ]
   },
   {
-   "id": "e401",
+   "id": "e409",
    "members": [
     "keyword:cooperative law theory",
     "keyword:cooperative members",
@@ -18676,7 +18860,7 @@
    ]
   },
   {
-   "id": "e402",
+   "id": "e410",
    "members": [
     "keyword:cooperative principles",
     "keyword:last three cooperative principles",
@@ -18686,7 +18870,7 @@
    ]
   },
   {
-   "id": "e403",
+   "id": "e411",
    "members": [
     "keyword:finnish cooperative law",
     "keyword:international cooperative law theory",
@@ -18695,14 +18879,14 @@
    ]
   },
   {
-   "id": "e404",
+   "id": "e412",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e405",
+   "id": "e413",
    "members": [
     "keyword:business",
     "project:fulltext",
@@ -18710,7 +18894,7 @@
    ]
   },
   {
-   "id": "e406",
+   "id": "e414",
    "members": [
     "keyword:department",
     "project:fulltext",
@@ -18718,7 +18902,7 @@
    ]
   },
   {
-   "id": "e407",
+   "id": "e415",
    "members": [
     "keyword:department",
     "project:fulltext",
@@ -18726,14 +18910,14 @@
    ]
   },
   {
-   "id": "e408",
+   "id": "e416",
    "members": [
     "project:fulltext",
     "section:[jon landeta]"
    ]
   },
   {
-   "id": "e409",
+   "id": "e417",
    "members": [
     "keyword:department",
     "project:fulltext",
@@ -18741,7 +18925,7 @@
    ]
   },
   {
-   "id": "e410",
+   "id": "e418",
    "members": [
     "keyword:department",
     "project:fulltext",
@@ -18749,7 +18933,7 @@
    ]
   },
   {
-   "id": "e411",
+   "id": "e419",
    "members": [
     "keyword:institute",
     "project:fulltext",
@@ -18757,7 +18941,7 @@
    ]
   },
   {
-   "id": "e412",
+   "id": "e420",
    "members": [
     "keyword:internationalization processes",
     "keyword:spanish machine-tool cooperatives helps",
@@ -18766,7 +18950,7 @@
    ]
   },
   {
-   "id": "e413",
+   "id": "e421",
    "members": [
     "keyword:coopetitive innovation",
     "keyword:knowledge leakage inhibit many firms",
@@ -18775,7 +18959,7 @@
    ]
   },
   {
-   "id": "e414",
+   "id": "e422",
    "members": [
     "keyword:past research recognizes",
     "keyword:raza-ullah",
@@ -18784,7 +18968,7 @@
    ]
   },
   {
-   "id": "e415",
+   "id": "e423",
    "members": [
     "keyword:factors playing against knowledge sharing",
     "keyword:knowledge against imitation obtain greater innovation outcomes",
@@ -18795,7 +18979,7 @@
    ]
   },
   {
-   "id": "e416",
+   "id": "e424",
    "members": [
     "keyword:after-sale processes often require direct",
     "keyword:european smes",
@@ -18806,7 +18990,7 @@
    ]
   },
   {
-   "id": "e417",
+   "id": "e425",
    "members": [
     "keyword:mondragon cooperatives",
     "keyword:mondragon corporation",
@@ -18815,14 +18999,14 @@
    ]
   },
   {
-   "id": "e418",
+   "id": "e426",
    "members": [
     "project:fulltext",
     "section:[3.- methodology]"
    ]
   },
   {
-   "id": "e419",
+   "id": "e427",
    "members": [
     "keyword:collaborative efforts",
     "keyword:four sections",
@@ -18832,7 +19016,7 @@
    ]
   },
   {
-   "id": "e420",
+   "id": "e428",
    "members": [
     "keyword:externally produced knowledge restrains firms",
     "project:fulltext",
@@ -18840,7 +19024,7 @@
    ]
   },
   {
-   "id": "e421",
+   "id": "e429",
    "members": [
     "keyword:after-sale services",
     "keyword:after-sale services allow",
@@ -18851,14 +19035,14 @@
    ]
   },
   {
-   "id": "e422",
+   "id": "e430",
    "members": [
     "project:fulltext",
     "section:[4.3 coopetition on behalf of common customers or with investor-owned firms]"
    ]
   },
   {
-   "id": "e423",
+   "id": "e431",
    "members": [
     "keyword:externally produced knowledge restrains firms",
     "project:fulltext",
@@ -18866,14 +19050,14 @@
    ]
   },
   {
-   "id": "e424",
+   "id": "e432",
    "members": [
     "project:fulltext",
     "section:[5.- conclusions]"
    ]
   },
   {
-   "id": "e425",
+   "id": "e433",
    "members": [
     "keyword:research project direcci",
     "project:fulltext",
@@ -18881,7 +19065,7 @@
    ]
   },
   {
-   "id": "e426",
+   "id": "e434",
    "members": [
     "keyword:coopetition research",
     "project:fulltext",
@@ -18889,14 +19073,14 @@
    ]
   },
   {
-   "id": "e427",
+   "id": "e435",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e428",
+   "id": "e436",
    "members": [
     "keyword:mathematical",
     "keyword:physics",
@@ -18905,7 +19089,7 @@
    ]
   },
   {
-   "id": "e429",
+   "id": "e437",
    "members": [
     "keyword:quantum fluctuation relations",
     "keyword:quantum information theory",
@@ -18914,7 +19098,7 @@
    ]
   },
   {
-   "id": "e430",
+   "id": "e438",
    "members": [
     "keyword:quantum information",
     "keyword:quantum information theory",
@@ -18927,7 +19111,7 @@
    ]
   },
   {
-   "id": "e431",
+   "id": "e439",
    "members": [
     "keyword:quantum information community",
     "keyword:quantum information theorists",
@@ -18938,7 +19122,7 @@
    ]
   },
   {
-   "id": "e432",
+   "id": "e440",
    "members": [
     "keyword:applying different unitary transformations",
     "keyword:shannon entropy",
@@ -18949,7 +19133,7 @@
    ]
   },
   {
-   "id": "e433",
+   "id": "e441",
    "members": [
     "keyword:fully quantum mechanical perspective",
     "keyword:quantum information",
@@ -18961,7 +19145,7 @@
    ]
   },
   {
-   "id": "e434",
+   "id": "e442",
    "members": [
     "keyword:states",
     "project:fulltext",
@@ -18969,7 +19153,7 @@
    ]
   },
   {
-   "id": "e435",
+   "id": "e443",
    "members": [
     "keyword:microscopic theory",
     "keyword:progress made",
@@ -18981,7 +19165,7 @@
    ]
   },
   {
-   "id": "e436",
+   "id": "e444",
    "members": [
     "keyword:physical states",
     "keyword:priori probabilities states",
@@ -18992,7 +19176,7 @@
    ]
   },
   {
-   "id": "e437",
+   "id": "e445",
    "members": [
     "keyword:certain state",
     "keyword:equilibrium state introduced",
@@ -19005,7 +19189,7 @@
    ]
   },
   {
-   "id": "e438",
+   "id": "e446",
    "members": [
     "keyword:gibbs ensemble",
     "keyword:gibbs state",
@@ -19017,7 +19201,7 @@
    ]
   },
   {
-   "id": "e439",
+   "id": "e447",
    "members": [
     "keyword:equilibration process takes",
     "keyword:equilibration time",
@@ -19030,7 +19214,7 @@
    ]
   },
   {
-   "id": "e440",
+   "id": "e448",
    "members": [
     "keyword:classify quantum systems",
     "keyword:many body quantum systems",
@@ -19041,7 +19225,7 @@
    ]
   },
   {
-   "id": "e441",
+   "id": "e449",
    "members": [
     "keyword:allowed state transformations",
     "keyword:quantum state",
@@ -19052,7 +19236,7 @@
    ]
   },
   {
-   "id": "e442",
+   "id": "e450",
    "members": [
     "keyword:allowed operations",
     "keyword:different models",
@@ -19064,7 +19248,7 @@
    ]
   },
   {
-   "id": "e443",
+   "id": "e451",
    "members": [
     "keyword:fully mixed state",
     "keyword:fully mixed states",
@@ -19076,7 +19260,7 @@
    ]
   },
   {
-   "id": "e444",
+   "id": "e452",
    "members": [
     "keyword:equilibrium states",
     "keyword:gibbs states",
@@ -19086,7 +19270,7 @@
    ]
   },
   {
-   "id": "e445",
+   "id": "e453",
    "members": [
     "keyword:general quantum states",
     "keyword:gibbs-preserving map",
@@ -19100,7 +19284,7 @@
    ]
   },
   {
-   "id": "e446",
+   "id": "e454",
    "members": [
     "keyword:coherence reservoir would",
     "keyword:coherence reservoirs",
@@ -19113,7 +19297,7 @@
    ]
   },
   {
-   "id": "e447",
+   "id": "e455",
    "members": [
     "keyword:quantities represent optimal conversion rates",
     "project:fulltext",
@@ -19121,7 +19305,7 @@
    ]
   },
   {
-   "id": "e448",
+   "id": "e456",
    "members": [
     "keyword:catalytic properties stay unaffected",
     "keyword:desired state",
@@ -19134,7 +19318,7 @@
    ]
   },
   {
-   "id": "e449",
+   "id": "e457",
    "members": [
     "keyword:hamiltonian applied",
     "keyword:quantum state",
@@ -19145,7 +19329,7 @@
    ]
   },
   {
-   "id": "e450",
+   "id": "e458",
    "members": [
     "keyword:gibbs states",
     "keyword:gibbs states come",
@@ -19156,7 +19340,7 @@
    ]
   },
   {
-   "id": "e451",
+   "id": "e459",
    "members": [
     "keyword:build heat engines",
     "keyword:build two-qubit heat engines",
@@ -19166,7 +19350,7 @@
    ]
   },
   {
-   "id": "e452",
+   "id": "e460",
    "members": [
     "keyword:baths",
     "keyword:general conserved quantities",
@@ -19178,7 +19362,7 @@
    ]
   },
   {
-   "id": "e453",
+   "id": "e461",
    "members": [
     "keyword:draw arbitrary thermal subsystems",
     "keyword:heat bath",
@@ -19189,7 +19373,7 @@
    ]
   },
   {
-   "id": "e454",
+   "id": "e462",
    "members": [
     "keyword:single-shot",
     "keyword:single-shot free energy",
@@ -19200,7 +19384,7 @@
    ]
   },
   {
-   "id": "e455",
+   "id": "e463",
    "members": [
     "keyword:average work",
     "keyword:define work",
@@ -19212,7 +19396,7 @@
    ]
   },
   {
-   "id": "e456",
+   "id": "e464",
    "members": [
     "keyword:abstract",
     "keyword:common features",
@@ -19225,7 +19409,7 @@
    ]
   },
   {
-   "id": "e457",
+   "id": "e465",
    "members": [
     "keyword:abstract state space equipped",
     "keyword:allowed transformations",
@@ -19237,7 +19421,7 @@
    ]
   },
   {
-   "id": "e458",
+   "id": "e466",
    "members": [
     "keyword:free resources",
     "keyword:free state",
@@ -19249,7 +19433,7 @@
    ]
   },
   {
-   "id": "e459",
+   "id": "e467",
    "members": [
     "keyword:authors identify quantitative theories",
     "keyword:many different resources",
@@ -19259,7 +19443,7 @@
    ]
   },
   {
-   "id": "e460",
+   "id": "e468",
    "members": [
     "keyword:completely unknown state",
     "keyword:perform logical operations",
@@ -19270,7 +19454,7 @@
    ]
   },
   {
-   "id": "e461",
+   "id": "e469",
    "members": [
     "keyword:different agents perspectives",
     "keyword:embed macroscopic descriptions",
@@ -19281,7 +19465,7 @@
    ]
   },
   {
-   "id": "e462",
+   "id": "e470",
    "members": [
     "keyword:coherent quantum states",
     "keyword:find meaningful resource theories",
@@ -19293,7 +19477,7 @@
    ]
   },
   {
-   "id": "e463",
+   "id": "e471",
    "members": [
     "keyword:quantum information",
     "keyword:quantum information processing",
@@ -19306,7 +19490,7 @@
    ]
   },
   {
-   "id": "e464",
+   "id": "e472",
    "members": [
     "keyword:best conceivable operation creating entanglement",
     "keyword:entanglement theory classically correlated states come",
@@ -19318,7 +19502,7 @@
    ]
   },
   {
-   "id": "e465",
+   "id": "e473",
    "members": [
     "keyword:always induce work cost related",
     "keyword:bipartite quantum states",
@@ -19334,7 +19518,7 @@
    ]
   },
   {
-   "id": "e466",
+   "id": "e474",
    "members": [
     "keyword:additional locality restrictions",
     "keyword:bipartite quantum states",
@@ -19348,7 +19532,7 @@
    ]
   },
   {
-   "id": "e467",
+   "id": "e475",
    "members": [
     "keyword:entangling unitaries enable work extraction",
     "keyword:extract work indicates",
@@ -19361,7 +19545,7 @@
    ]
   },
   {
-   "id": "e468",
+   "id": "e476",
    "members": [
     "keyword:directly imply entanglement",
     "keyword:fact often many low energy eigenstates even",
@@ -19373,7 +19557,7 @@
    ]
   },
   {
-   "id": "e469",
+   "id": "e477",
    "members": [
     "keyword:adaptively quantifies possible resources",
     "keyword:capture one specific aspect",
@@ -19385,7 +19569,7 @@
    ]
   },
   {
-   "id": "e470",
+   "id": "e478",
    "members": [
     "keyword:externally controlled work parameter lambda",
     "keyword:quantum work distribution",
@@ -19397,7 +19581,7 @@
    ]
   },
   {
-   "id": "e471",
+   "id": "e479",
    "members": [
     "keyword:evolving quantum system",
     "keyword:quantum state",
@@ -19411,7 +19595,7 @@
    ]
   },
   {
-   "id": "e472",
+   "id": "e480",
    "members": [
     "keyword:feedback based fluctuation theorems",
     "keyword:feedback controlled scenario",
@@ -19423,7 +19607,7 @@
    ]
   },
   {
-   "id": "e473",
+   "id": "e481",
    "members": [
     "keyword:correlated quantum systems",
     "keyword:general quantum correlations",
@@ -19435,7 +19619,7 @@
    ]
   },
   {
-   "id": "e474",
+   "id": "e482",
    "members": [
     "keyword:quantum fluctuation theorems",
     "keyword:quantum information theory",
@@ -19445,7 +19629,7 @@
    ]
   },
   {
-   "id": "e475",
+   "id": "e483",
    "members": [
     "keyword:one thermal bath",
     "keyword:quantum machines",
@@ -19457,7 +19641,7 @@
    ]
   },
   {
-   "id": "e476",
+   "id": "e484",
    "members": [
     "keyword:absorption refrigerator",
     "keyword:room temperature reservoir",
@@ -19468,7 +19652,7 @@
    ]
   },
   {
-   "id": "e477",
+   "id": "e485",
    "members": [
     "keyword:infinite temperature",
     "keyword:inverse temperature",
@@ -19477,7 +19661,7 @@
    ]
   },
   {
-   "id": "e478",
+   "id": "e486",
    "members": [
     "keyword:authors studied quantum discord",
     "keyword:quantum correlation weaker",
@@ -19489,7 +19673,7 @@
    ]
   },
   {
-   "id": "e479",
+   "id": "e487",
    "members": [
     "keyword:entanglement",
     "keyword:entanglement found",
@@ -19501,7 +19685,7 @@
    ]
   },
   {
-   "id": "e480",
+   "id": "e488",
    "members": [
     "keyword:rabi oscillations",
     "keyword:strong-interaction case rabi oscillations indeed take place",
@@ -19511,7 +19695,7 @@
    ]
   },
   {
-   "id": "e481",
+   "id": "e489",
    "members": [
     "keyword:fact squeezed thermal states",
     "keyword:quantum thermal machines",
@@ -19524,7 +19708,7 @@
    ]
   },
   {
-   "id": "e482",
+   "id": "e490",
    "members": [
     "keyword:genuinely using quantum effects",
     "keyword:quantum behaviour",
@@ -19537,7 +19721,7 @@
    ]
   },
   {
-   "id": "e483",
+   "id": "e491",
    "members": [
     "keyword:experimentally accessible situations steady state entanglement",
     "keyword:non-equilibrium steady state",
@@ -19549,7 +19733,7 @@
    ]
   },
   {
-   "id": "e484",
+   "id": "e492",
    "members": [
     "keyword:quantum thermal machines",
     "keyword:standard quantum error correction ideas",
@@ -19558,7 +19742,7 @@
    ]
   },
   {
-   "id": "e485",
+   "id": "e493",
    "members": [
     "keyword:many fields currently contributing",
     "keyword:plac- ing information",
@@ -19570,7 +19754,7 @@
    ]
   },
   {
-   "id": "e486",
+   "id": "e494",
    "members": [
     "keyword:adapted",
     "keyword:authors contributed equally",
@@ -19581,21 +19765,21 @@
    ]
   },
   {
-   "id": "e487",
+   "id": "e495",
    "members": [
     "project:fulltext",
     "section:[acknowledgements]"
    ]
   },
   {
-   "id": "e488",
+   "id": "e496",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e489",
+   "id": "e497",
    "members": [
     "keyword:idar vla",
     "project:fulltext",
@@ -19603,7 +19787,7 @@
    ]
   },
   {
-   "id": "e490",
+   "id": "e498",
    "members": [
     "keyword:coopetition",
     "keyword:following publication",
@@ -19615,7 +19799,7 @@
    ]
   },
   {
-   "id": "e491",
+   "id": "e499",
    "members": [
     "keyword:corbo",
     "keyword:dabic",
@@ -19627,7 +19811,7 @@
    ]
   },
   {
-   "id": "e492",
+   "id": "e500",
    "members": [
     "keyword:available",
     "keyword:technovation",
@@ -19637,7 +19821,7 @@
    ]
   },
   {
-   "id": "e493",
+   "id": "e501",
    "members": [
     "keyword:final published version",
     "keyword:published version",
@@ -19646,7 +19830,7 @@
    ]
   },
   {
-   "id": "e494",
+   "id": "e502",
    "members": [
     "keyword:conditions",
     "keyword:information see",
@@ -19659,7 +19843,7 @@
    ]
   },
   {
-   "id": "e495",
+   "id": "e503",
    "members": [
     "keyword:coopetition",
     "keyword:innovation research hinges",
@@ -19669,7 +19853,7 @@
    ]
   },
   {
-   "id": "e496",
+   "id": "e504",
    "members": [
     "keyword:outlining emerging themes",
     "keyword:promising future research avenues",
@@ -19680,14 +19864,14 @@
    ]
   },
   {
-   "id": "e497",
+   "id": "e505",
    "members": [
     "project:fulltext",
     "section:[1. introduction]"
    ]
   },
   {
-   "id": "e498",
+   "id": "e506",
    "members": [
     "keyword:data",
     "keyword:data collection",
@@ -19698,7 +19882,7 @@
    ]
   },
   {
-   "id": "e499",
+   "id": "e507",
    "members": [
     "keyword:key codes",
     "project:fulltext",
@@ -19706,7 +19890,7 @@
    ]
   },
   {
-   "id": "e500",
+   "id": "e508",
    "members": [
     "keyword:mca analysis",
     "keyword:merge different inter-related descriptors",
@@ -19715,14 +19899,14 @@
    ]
   },
   {
-   "id": "e501",
+   "id": "e509",
    "members": [
     "project:fulltext",
     "section:[3. findings]"
    ]
   },
   {
-   "id": "e502",
+   "id": "e510",
    "members": [
     "keyword:coopetition triggers radical innovation",
     "keyword:global network coopetition improves innovation",
@@ -19731,7 +19915,7 @@
    ]
   },
   {
-   "id": "e503",
+   "id": "e511",
    "members": [
     "keyword:main themes",
     "keyword:provide",
@@ -19741,14 +19925,14 @@
    ]
   },
   {
-   "id": "e504",
+   "id": "e512",
    "members": [
     "project:fulltext",
     "section:[strategy]"
    ]
   },
   {
-   "id": "e505",
+   "id": "e513",
    "members": [
     "keyword:value creation",
     "project:fulltext",
@@ -19756,7 +19940,7 @@
    ]
   },
   {
-   "id": "e506",
+   "id": "e514",
    "members": [
     "keyword:hierarchy culture",
     "keyword:organizational culture",
@@ -19765,7 +19949,7 @@
    ]
   },
   {
-   "id": "e507",
+   "id": "e515",
    "members": [
     "keyword:appropriability mechanisms",
     "keyword:knowledge protection mechanisms",
@@ -19774,7 +19958,7 @@
    ]
   },
   {
-   "id": "e508",
+   "id": "e516",
    "members": [
     "keyword:coopetition related",
     "project:fulltext",
@@ -19782,7 +19966,7 @@
    ]
   },
   {
-   "id": "e509",
+   "id": "e517",
    "members": [
     "keyword:coopetitive strategies",
     "keyword:even though companies increasingly employ coopetitive strategies",
@@ -19793,7 +19977,7 @@
    ]
   },
   {
-   "id": "e510",
+   "id": "e518",
    "members": [
     "keyword:bottom left quadrant concerns emerging topics",
     "keyword:future research",
@@ -19803,7 +19987,7 @@
    ]
   },
   {
-   "id": "e511",
+   "id": "e519",
    "members": [
     "keyword:coopetitive innovation",
     "keyword:innovation research",
@@ -19813,7 +19997,7 @@
    ]
   },
   {
-   "id": "e512",
+   "id": "e520",
    "members": [
     "keyword:examine coopetition research",
     "keyword:family firm research",
@@ -19823,42 +20007,42 @@
    ]
   },
   {
-   "id": "e513",
+   "id": "e521",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e514",
+   "id": "e522",
    "members": [
     "project:fulltext",
     "section:[figure 1 : methodology protocol]"
    ]
   },
   {
-   "id": "e515",
+   "id": "e523",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e516",
+   "id": "e524",
    "members": [
     "project:fulltext",
     "section:[the governance of multistakeholder cooperatives in mondragon: the evolving relationship among purpose, structure and process]"
    ]
   },
   {
-   "id": "e517",
+   "id": "e525",
    "members": [
     "project:fulltext",
     "section:[the  governance  of  multistakeholder cooperatives  in  mondragon:  the  evolving relationship  among  purpose,  structure and  process]"
    ]
   },
   {
-   "id": "e518",
+   "id": "e526",
    "members": [
     "keyword:cooperative governance",
     "project:fulltext",
@@ -19866,7 +20050,7 @@
    ]
   },
   {
-   "id": "e519",
+   "id": "e527",
    "members": [
     "keyword:mondragon cooperative group",
     "keyword:mondragon corporation",
@@ -19876,7 +20060,7 @@
    ]
   },
   {
-   "id": "e520",
+   "id": "e528",
    "members": [
     "keyword:arizmendiarrieta viewed conventional capitalist business",
     "project:fulltext",
@@ -19884,7 +20068,7 @@
    ]
   },
   {
-   "id": "e521",
+   "id": "e529",
    "members": [
     "keyword:mondragon cooperative congress",
     "project:fulltext",
@@ -19892,14 +20076,14 @@
    ]
   },
   {
-   "id": "e522",
+   "id": "e530",
    "members": [
     "project:fulltext",
     "section:[10.2.3 multistakeholder  governance(s) in  the  mondragon  cooperative  experience]"
    ]
   },
   {
-   "id": "e523",
+   "id": "e531",
    "members": [
     "keyword:individual multistakeholder cooperatives",
     "keyword:multistakeholder cooperative experience",
@@ -19909,14 +20093,14 @@
    ]
   },
   {
-   "id": "e524",
+   "id": "e532",
    "members": [
     "project:fulltext",
     "section:[10.3 multistakeholder  cooperatives in  mondragon  cooperative  experience: a  case  study]"
    ]
   },
   {
-   "id": "e525",
+   "id": "e533",
    "members": [
     "keyword:mondragon headquarters department",
     "project:fulltext",
@@ -19924,7 +20108,7 @@
    ]
   },
   {
-   "id": "e526",
+   "id": "e534",
    "members": [
     "keyword:mscs",
     "keyword:structure",
@@ -19933,14 +20117,14 @@
    ]
   },
   {
-   "id": "e527",
+   "id": "e535",
    "members": [
     "project:fulltext",
     "section:[basic  data:  incidence,  evolution,  distribution,  size and  purpose]"
    ]
   },
   {
-   "id": "e528",
+   "id": "e536",
    "members": [
     "keyword:term structure refers",
     "project:fulltext",
@@ -19948,28 +20132,28 @@
    ]
   },
   {
-   "id": "e529",
+   "id": "e537",
    "members": [
     "project:fulltext",
     "section:[legal  form]"
    ]
   },
   {
-   "id": "e530",
+   "id": "e538",
    "members": [
     "project:fulltext",
     "section:[ownership  structure]"
    ]
   },
   {
-   "id": "e531",
+   "id": "e539",
    "members": [
     "project:fulltext",
     "section:[governing  councils  and  general  assemblies]"
    ]
   },
   {
-   "id": "e532",
+   "id": "e540",
    "members": [
     "keyword:social council",
     "project:fulltext",
@@ -19977,14 +20161,14 @@
    ]
   },
   {
-   "id": "e533",
+   "id": "e541",
    "members": [
     "project:fulltext",
     "section:[10.4 discussion:  processes  and  dynamics of  governance  in  mondragon  mscs]"
    ]
   },
   {
-   "id": "e534",
+   "id": "e542",
    "members": [
     "keyword:mondragon mscs",
     "project:fulltext",
@@ -19992,7 +20176,7 @@
    ]
   },
   {
-   "id": "e535",
+   "id": "e543",
    "members": [
     "keyword:cooperative governance",
     "project:fulltext",
@@ -20000,14 +20184,14 @@
    ]
   },
   {
-   "id": "e536",
+   "id": "e544",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e537",
+   "id": "e545",
    "members": [
     "keyword:entrpreneurial",
     "project:fulltext",
@@ -20015,7 +20199,7 @@
    ]
   },
   {
-   "id": "e538",
+   "id": "e546",
    "members": [
     "keyword:individual pcs",
     "keyword:individual pcs typically benefit",
@@ -20026,7 +20210,7 @@
    ]
   },
   {
-   "id": "e539",
+   "id": "e547",
    "members": [
     "keyword:returns",
     "project:fulltext",
@@ -20034,7 +20218,7 @@
    ]
   },
   {
-   "id": "e540",
+   "id": "e548",
    "members": [
     "keyword:earlier draft",
     "keyword:subsequently communicated",
@@ -20043,7 +20227,7 @@
    ]
   },
   {
-   "id": "e541",
+   "id": "e549",
    "members": [
     "keyword:individual pcs",
     "keyword:individual pcs-actual real world pcs",
@@ -20054,7 +20238,7 @@
    ]
   },
   {
-   "id": "e542",
+   "id": "e550",
    "members": [
     "keyword:help individual pcs",
     "keyword:help individual pcs operating",
@@ -20064,7 +20248,7 @@
    ]
   },
   {
-   "id": "e543",
+   "id": "e551",
    "members": [
     "keyword:individual pcs",
     "keyword:pcs requiring employee participation",
@@ -20073,14 +20257,14 @@
    ]
   },
   {
-   "id": "e544",
+   "id": "e552",
    "members": [
     "project:fulltext",
     "section:[3. evidence on the nature and effects of shelter organizations]"
    ]
   },
   {
-   "id": "e545",
+   "id": "e553",
    "members": [
     "keyword:many pcs",
     "project:fulltext",
@@ -20088,7 +20272,7 @@
    ]
   },
   {
-   "id": "e546",
+   "id": "e554",
    "members": [
     "keyword:individual pcs alongside",
     "keyword:individual pcs requires active networking",
@@ -20099,21 +20283,21 @@
    ]
   },
   {
-   "id": "e547",
+   "id": "e555",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e548",
+   "id": "e556",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e549",
+   "id": "e557",
    "members": [
     "keyword:blica social",
     "keyword:econom",
@@ -20123,7 +20307,7 @@
    ]
   },
   {
-   "id": "e550",
+   "id": "e558",
    "members": [
     "keyword:cooperative degeneration",
     "keyword:large cooperatives competing",
@@ -20132,7 +20316,7 @@
    ]
   },
   {
-   "id": "e551",
+   "id": "e559",
    "members": [
     "keyword:article empirically examines issues",
     "keyword:cooperative regeneration",
@@ -20143,7 +20327,7 @@
    ]
   },
   {
-   "id": "e552",
+   "id": "e560",
    "members": [
     "keyword:collected archival data",
     "keyword:large cooperative groups",
@@ -20154,7 +20338,7 @@
    ]
   },
   {
-   "id": "e553",
+   "id": "e561",
    "members": [
     "keyword:barely twenty cooperatives participate",
     "keyword:cooperatives sent",
@@ -20165,7 +20349,7 @@
    ]
   },
   {
-   "id": "e554",
+   "id": "e562",
    "members": [
     "keyword:cooperatives",
     "keyword:exclusive consideration",
@@ -20177,7 +20361,7 @@
    ]
   },
   {
-   "id": "e555",
+   "id": "e563",
    "members": [
     "keyword:cooperatives analyzed make",
     "keyword:geographically dispersed cooperatives",
@@ -20187,7 +20371,7 @@
    ]
   },
   {
-   "id": "e556",
+   "id": "e564",
    "members": [
     "keyword:las estrategias que las cooperativas ponen",
     "keyword:que enfrentan las grandes cooperativas",
@@ -20197,7 +20381,7 @@
    ]
   },
   {
-   "id": "e557",
+   "id": "e565",
    "members": [
     "keyword:las que est",
     "keyword:que las cooperativas",
@@ -20208,7 +20392,7 @@
    ]
   },
   {
-   "id": "e558",
+   "id": "e566",
    "members": [
     "keyword:cadas las cooperativas crecer",
     "keyword:las exigentes reglas del mercado global",
@@ -20219,7 +20403,7 @@
    ]
   },
   {
-   "id": "e559",
+   "id": "e567",
    "members": [
     "keyword:los servicios centrales del grupo",
     "keyword:los servicios centrales del grupo mondragon",
@@ -20228,7 +20412,7 @@
    ]
   },
   {
-   "id": "e560",
+   "id": "e568",
    "members": [
     "keyword:como las dimensiones identificadas para llevar",
     "keyword:desarrollo del proceso",
@@ -20241,7 +20425,7 @@
    ]
   },
   {
-   "id": "e561",
+   "id": "e569",
    "members": [
     "keyword:del enorme crecimiento que",
     "keyword:sintetizar todas las aportaciones que",
@@ -20250,7 +20434,7 @@
    ]
   },
   {
-   "id": "e562",
+   "id": "e570",
    "members": [
     "keyword:las cooperativas",
     "keyword:las cooperativas del grupo respecto",
@@ -20260,7 +20444,7 @@
    ]
   },
   {
-   "id": "e563",
+   "id": "e571",
    "members": [
     "keyword:debate fue abordada desde las dos siguientes preguntas",
     "project:fulltext",
@@ -20268,7 +20452,7 @@
    ]
   },
   {
-   "id": "e564",
+   "id": "e572",
    "members": [
     "keyword:lugar entre los",
     "keyword:pertenencia entre los miembros respecto",
@@ -20278,7 +20462,7 @@
    ]
   },
   {
-   "id": "e565",
+   "id": "e573",
    "members": [
     "keyword:entonces una cooperativa muy grande para que una persona",
     "keyword:las relaciones personales del que habla",
@@ -20290,7 +20474,7 @@
    ]
   },
   {
-   "id": "e566",
+   "id": "e574",
    "members": [
     "keyword:del grupo mondragon fue",
     "keyword:relevantes del tama",
@@ -20299,7 +20483,7 @@
    ]
   },
   {
-   "id": "e567",
+   "id": "e575",
    "members": [
     "keyword:los socios",
     "keyword:sica para los miembros",
@@ -20308,7 +20492,7 @@
    ]
   },
   {
-   "id": "e568",
+   "id": "e576",
    "members": [
     "keyword:comarca del alto deba",
     "keyword:cooperativas por habitante del",
@@ -20319,7 +20503,7 @@
    ]
   },
   {
-   "id": "e569",
+   "id": "e577",
    "members": [
     "keyword:del prse que planteaba involucrar",
     "keyword:las piezas fundamentales que",
@@ -20330,7 +20514,7 @@
    ]
   },
   {
-   "id": "e570",
+   "id": "e578",
    "members": [
     "keyword:las filiales capitalistas",
     "keyword:que las cooperativizaciones tan solo",
@@ -20339,7 +20523,7 @@
    ]
   },
   {
-   "id": "e571",
+   "id": "e579",
    "members": [
     "keyword:que las cooperativas que",
     "project:fulltext",
@@ -20347,28 +20531,28 @@
    ]
   },
   {
-   "id": "e572",
+   "id": "e580",
    "members": [
     "project:fulltext",
     "section:[bibliograf\u00eda]"
    ]
   },
   {
-   "id": "e573",
+   "id": "e581",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e574",
+   "id": "e582",
    "members": [
     "project:fulltext",
     "section:[entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation]"
    ]
   },
   {
-   "id": "e575",
+   "id": "e583",
    "members": [
     "keyword:innovation",
     "keyword:innovation compared",
@@ -20377,14 +20561,14 @@
    ]
   },
   {
-   "id": "e576",
+   "id": "e584",
    "members": [
     "project:fulltext",
     "section:[1  introduction]"
    ]
   },
   {
-   "id": "e577",
+   "id": "e585",
    "members": [
     "keyword:firms innovation performance",
     "keyword:firms performance",
@@ -20393,7 +20577,7 @@
    ]
   },
   {
-   "id": "e578",
+   "id": "e586",
    "members": [
     "keyword:firms innovation performance",
     "keyword:innovation performance",
@@ -20402,7 +20586,7 @@
    ]
   },
   {
-   "id": "e579",
+   "id": "e587",
    "members": [
     "keyword:additional hypotheses comparing wcs",
     "keyword:wcs regarding cfs",
@@ -20411,7 +20595,7 @@
    ]
   },
   {
-   "id": "e580",
+   "id": "e588",
    "members": [
     "keyword:economic development according",
     "project:fulltext",
@@ -20419,7 +20603,7 @@
    ]
   },
   {
-   "id": "e581",
+   "id": "e589",
    "members": [
     "keyword:various formative indicators since",
     "project:fulltext",
@@ -20427,7 +20611,7 @@
    ]
   },
   {
-   "id": "e582",
+   "id": "e590",
    "members": [
     "keyword:pls-sem analysis",
     "project:fulltext",
@@ -20435,7 +20619,7 @@
    ]
   },
   {
-   "id": "e583",
+   "id": "e591",
    "members": [
     "keyword:estimated model",
     "keyword:model fit",
@@ -20446,7 +20630,7 @@
    ]
   },
   {
-   "id": "e584",
+   "id": "e592",
    "members": [
     "keyword:measurement model",
     "keyword:subsample model",
@@ -20455,21 +20639,21 @@
    ]
   },
   {
-   "id": "e585",
+   "id": "e593",
    "members": [
     "project:fulltext",
     "section:[4.3    assessment of the structural model]"
    ]
   },
   {
-   "id": "e586",
+   "id": "e594",
    "members": [
     "project:fulltext",
     "section:[4.4    multigroup analysis]"
    ]
   },
   {
-   "id": "e587",
+   "id": "e595",
    "members": [
     "keyword:improve innovation performance",
     "keyword:innovation performance",
@@ -20479,14 +20663,14 @@
    ]
   },
   {
-   "id": "e588",
+   "id": "e596",
    "members": [
     "project:fulltext",
     "section:[6    implications]"
    ]
   },
   {
-   "id": "e589",
+   "id": "e597",
    "members": [
     "keyword:cooperation",
     "keyword:determines innovation performance",
@@ -20496,7 +20680,7 @@
    ]
   },
   {
-   "id": "e590",
+   "id": "e598",
    "members": [
     "keyword:creative commons licence",
     "project:fulltext",
@@ -20504,28 +20688,28 @@
    ]
   },
   {
-   "id": "e591",
+   "id": "e599",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e592",
+   "id": "e600",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e593",
+   "id": "e601",
    "members": [
     "project:fulltext",
     "section:[worker cooperatives for a democratic economy]"
    ]
   },
   {
-   "id": "e594",
+   "id": "e602",
    "members": [
     "keyword:degeneration thesis suggests cooperatives",
     "project:fulltext",
@@ -20533,7 +20717,7 @@
    ]
   },
   {
-   "id": "e595",
+   "id": "e603",
    "members": [
     "keyword:cooperative degeneration",
     "keyword:cooperative remains capitalist",
@@ -20543,7 +20727,7 @@
    ]
   },
   {
-   "id": "e596",
+   "id": "e604",
    "members": [
     "keyword:democratic participation",
     "keyword:political participation",
@@ -20553,7 +20737,7 @@
    ]
   },
   {
-   "id": "e597",
+   "id": "e605",
    "members": [
     "keyword:frankfurt school critical theory",
     "keyword:frankfurt school critical theory approach",
@@ -20564,7 +20748,7 @@
    ]
   },
   {
-   "id": "e598",
+   "id": "e606",
    "members": [
     "keyword:critical theory",
     "keyword:research links critical political theory",
@@ -20573,7 +20757,7 @@
    ]
   },
   {
-   "id": "e599",
+   "id": "e607",
    "members": [
     "keyword:define cooperatives",
     "keyword:identifying former cooperatives",
@@ -20583,21 +20767,21 @@
    ]
   },
   {
-   "id": "e600",
+   "id": "e608",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e601",
+   "id": "e609",
    "members": [
     "project:fulltext",
     "section:[head]"
    ]
   },
   {
-   "id": "e602",
+   "id": "e610",
    "members": [
     "keyword:ljubljana",
     "keyword:university",
@@ -20606,7 +20790,7 @@
    ]
   },
   {
-   "id": "e603",
+   "id": "e611",
    "members": [
     "keyword:faculty",
     "project:fulltext",
@@ -20614,7 +20798,7 @@
    ]
   },
   {
-   "id": "e604",
+   "id": "e612",
    "members": [
     "keyword:novel institutional design",
     "project:fulltext",
@@ -20622,7 +20806,7 @@
    ]
   },
   {
-   "id": "e605",
+   "id": "e613",
    "members": [
     "keyword:employee ownership models",
     "keyword:employee ownership models like esops",
@@ -20631,7 +20815,7 @@
    ]
   },
   {
-   "id": "e606",
+   "id": "e614",
    "members": [
     "keyword:broad-based employee ownership",
     "keyword:employee ownership",
@@ -20642,7 +20826,7 @@
    ]
   },
   {
-   "id": "e607",
+   "id": "e615",
    "members": [
     "keyword:employee buyout mechanisms",
     "keyword:employee ownership",
@@ -20652,7 +20836,7 @@
    ]
   },
   {
-   "id": "e608",
+   "id": "e616",
    "members": [
     "keyword:rollover",
     "project:fulltext",
@@ -20660,7 +20844,7 @@
    ]
   },
   {
-   "id": "e609",
+   "id": "e617",
    "members": [
     "keyword:acquisition debt",
     "keyword:amortizing acquisition debt incurred",
@@ -20672,7 +20856,7 @@
    ]
   },
   {
-   "id": "e610",
+   "id": "e618",
    "members": [
     "keyword:total capital value creation",
     "project:fulltext",
@@ -20680,7 +20864,7 @@
    ]
   },
   {
-   "id": "e611",
+   "id": "e619",
    "members": [
     "keyword:capital value growth",
     "keyword:receive capital value growth",
@@ -20690,14 +20874,14 @@
    ]
   },
   {
-   "id": "e612",
+   "id": "e620",
    "members": [
     "project:fulltext",
     "section:[3.4 rollover system]"
    ]
   },
   {
-   "id": "e613",
+   "id": "e621",
    "members": [
     "keyword:slovenian esop models dual-level governance architecture",
     "project:fulltext",
@@ -20705,7 +20889,7 @@
    ]
   },
   {
-   "id": "e614",
+   "id": "e622",
    "members": [
     "keyword:preserving democratic control",
     "project:fulltext",
@@ -20713,14 +20897,14 @@
    ]
   },
   {
-   "id": "e615",
+   "id": "e623",
    "members": [
     "project:fulltext",
     "section:[4. tax incentives and regulatory framework]"
    ]
   },
   {
-   "id": "e616",
+   "id": "e624",
    "members": [
     "keyword:employee ownership stock appraisal",
     "project:fulltext",
@@ -20728,7 +20912,7 @@
    ]
   },
   {
-   "id": "e617",
+   "id": "e625",
    "members": [
     "keyword:durable institutional form",
     "keyword:employee ownership vehicle becomes",
@@ -20741,7 +20925,7 @@
    ]
   },
   {
-   "id": "e618",
+   "id": "e626",
    "members": [
     "keyword:democratic employee ownership",
     "keyword:efficient employee ownership",
@@ -20751,7 +20935,7 @@
    ]
   },
   {
-   "id": "e619",
+   "id": "e627",
    "members": [
     "keyword:model",
     "project:fulltext",
@@ -20759,7 +20943,7 @@
    ]
   },
   {
-   "id": "e620",
+   "id": "e628",
    "members": [
     "keyword:slovenian esop",
     "keyword:slovenian esop model",
@@ -20768,21 +20952,21 @@
    ]
   },
   {
-   "id": "e621",
+   "id": "e629",
    "members": [
     "project:fulltext",
     "section:[102]"
    ]
   },
   {
-   "id": "e622",
+   "id": "e630",
    "members": [
     "project:fulltext",
     "section:[references]"
    ]
   },
   {
-   "id": "e623",
+   "id": "e631",
    "members": [
     "keyword:contacted",
     "keyword:tej gonza",
@@ -20791,7 +20975,7 @@
    ]
   },
   {
-   "id": "e624",
+   "id": "e632",
    "members": [
     "author:carman, james m.",
     "author:james m. carman",
@@ -20814,7 +20998,7 @@
    ]
   },
   {
-   "id": "e625",
+   "id": "e633",
    "members": [
     "author:david ciplet",
     "keyword:based worker cooperative movement",
@@ -20833,7 +21017,7 @@
    ]
   },
   {
-   "id": "e626",
+   "id": "e634",
    "members": [
     "author:fridolin krausmann",
     "author:nina eisenmenger",
@@ -20853,7 +21037,7 @@
    ]
   },
   {
-   "id": "e627",
+   "id": "e635",
    "members": [
     "author:john stillwell",
     "author:joseph ferreira",
@@ -20866,7 +21050,7 @@
    ]
   },
   {
-   "id": "e628",
+   "id": "e636",
    "members": [
     "author:spencer paul thompson",
     "keyword:achieving cooperation",
@@ -20885,7 +21069,7 @@
    ]
   },
   {
-   "id": "e629",
+   "id": "e637",
    "members": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -20906,7 +21090,7 @@
    ]
   },
   {
-   "id": "e630",
+   "id": "e638",
    "members": [
     "author:ren\u00e9e sieber",
     "keyword:broaden public involvement",
@@ -20925,7 +21109,7 @@
    ]
   },
   {
-   "id": "e631",
+   "id": "e639",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -20944,7 +21128,7 @@
    ]
   },
   {
-   "id": "e632",
+   "id": "e640",
    "members": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -20954,7 +21138,7 @@
    ]
   },
   {
-   "id": "e633",
+   "id": "e641",
    "members": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -20974,7 +21158,7 @@
    ]
   },
   {
-   "id": "e634",
+   "id": "e642",
    "members": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -20995,7 +21179,7 @@
    ]
   },
   {
-   "id": "e635",
+   "id": "e643",
    "members": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -21013,7 +21197,7 @@
    ]
   },
   {
-   "id": "e636",
+   "id": "e644",
    "members": [
     "author:greg brown",
     "author:marketta kytt\u00e4",
@@ -21026,7 +21210,7 @@
    ]
   },
   {
-   "id": "e637",
+   "id": "e645",
    "members": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -21042,7 +21226,7 @@
    ]
   },
   {
-   "id": "e638",
+   "id": "e646",
    "members": [
     "author:greig de peuter",
     "author:nick dyer\u2010witheford",
@@ -21065,7 +21249,7 @@
    ]
   },
   {
-   "id": "e639",
+   "id": "e647",
    "members": [
     "author:george w. j. hendrikse",
     "author:jos bijman",
@@ -21085,7 +21269,7 @@
    ]
   },
   {
-   "id": "e640",
+   "id": "e648",
    "members": [
     "author:christopher kennedy",
     "author:john cuddihy",
@@ -21097,7 +21281,7 @@
    ]
   },
   {
-   "id": "e641",
+   "id": "e649",
    "members": [
     "author:john pencavel",
     "keyword:co-ops",
@@ -21118,7 +21302,7 @@
    ]
   },
   {
-   "id": "e642",
+   "id": "e650",
    "members": [
     "author:helfman, neil a.",
     "author:neil a. helfman",
@@ -21130,7 +21314,7 @@
    ]
   },
   {
-   "id": "e643",
+   "id": "e651",
    "members": [
     "author:arzu \u00e7\u00f6ltekin",
     "author:filip biljecki",
@@ -21150,7 +21334,7 @@
    ]
   },
   {
-   "id": "e644",
+   "id": "e652",
    "members": [
     "author:gandhe, rutwik",
     "author:nair, tara s.",
@@ -21172,7 +21356,7 @@
    ]
   },
   {
-   "id": "e645",
+   "id": "e653",
    "members": [
     "author:antoine delignat-lavaud",
     "author:aseem rastogi",
@@ -21201,7 +21385,7 @@
    ]
   },
   {
-   "id": "e646",
+   "id": "e654",
    "members": [
     "author:zhu qiang xiao",
     "keyword:community services",
@@ -21222,7 +21406,7 @@
    ]
   },
   {
-   "id": "e647",
+   "id": "e655",
    "members": [
     "author:ainara udaondo",
     "author:george e. cheney",
@@ -21240,7 +21424,7 @@
    ]
   },
   {
-   "id": "e648",
+   "id": "e656",
    "members": [
     "author:j. m. mehl",
     "author:oscar b. jesness",
@@ -21263,7 +21447,7 @@
    ]
   },
   {
-   "id": "e649",
+   "id": "e657",
    "members": [
     "author:aseem rastogi",
     "author:c\u0103t\u0103lin hri\u0163cu",
@@ -21285,7 +21469,7 @@
    ]
   },
   {
-   "id": "e650",
+   "id": "e658",
    "members": [
     "author:spencer thompson",
     "keyword:social theory",
@@ -21294,7 +21478,7 @@
    ]
   },
   {
-   "id": "e651",
+   "id": "e659",
    "members": [
     "author:kiringai kamau",
     "keyword:farmers",
@@ -21309,7 +21493,7 @@
    ]
   },
   {
-   "id": "e652",
+   "id": "e660",
    "members": [
     "author:andrew allan",
     "author:chris pettit",
@@ -21322,7 +21506,7 @@
    ]
   },
   {
-   "id": "e653",
+   "id": "e661",
    "members": [
     "author:kenneth w. stikkers",
     "keyword:current economic problems",
@@ -21340,7 +21524,7 @@
    ]
   },
   {
-   "id": "e654",
+   "id": "e662",
    "members": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -21364,7 +21548,7 @@
    ]
   },
   {
-   "id": "e655",
+   "id": "e663",
    "members": [
     "author:dror y. kenett",
     "author:jonathan k. simon",
@@ -21378,7 +21562,7 @@
    ]
   },
   {
-   "id": "e656",
+   "id": "e664",
    "members": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -21399,7 +21583,7 @@
    ]
   },
   {
-   "id": "e657",
+   "id": "e665",
    "members": [
     "author:ilkka hannu ville p\u00f6nk\u00e4",
     "keyword:companization means",
@@ -21416,7 +21600,7 @@
    ]
   },
   {
-   "id": "e658",
+   "id": "e666",
    "members": [
     "author:c\u0103t\u0103lin hri\u0163cu",
     "author:danel ahman",
@@ -21443,7 +21627,7 @@
    ]
   },
   {
-   "id": "e659",
+   "id": "e667",
    "members": [
     "author:karl mason",
     "author:tony evans",
@@ -21461,7 +21645,7 @@
    ]
   },
   {
-   "id": "e660",
+   "id": "e668",
    "members": [
     "author:markian m. w. melnyk",
     "author:william s. lamb",
@@ -21480,7 +21664,7 @@
    ]
   },
   {
-   "id": "e661",
+   "id": "e669",
    "members": [
     "author:imanol basterretxea",
     "author:jon charterina abando",
@@ -21496,7 +21680,7 @@
    ]
   },
   {
-   "id": "e662",
+   "id": "e670",
    "members": [
     "author:kerri carisse",
     "keyword:cooperative practices",
@@ -21514,7 +21698,7 @@
    ]
   },
   {
-   "id": "e663",
+   "id": "e671",
    "members": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -21535,7 +21719,7 @@
    ]
   },
   {
-   "id": "e664",
+   "id": "e672",
    "members": [
     "author:roxana maria chirieac",
     "keyword:administer various companies",
@@ -21554,7 +21738,7 @@
    ]
   },
   {
-   "id": "e665",
+   "id": "e673",
    "members": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -21576,7 +21760,7 @@
    ]
   },
   {
-   "id": "e666",
+   "id": "e674",
    "members": [
     "author:alexandre guttmann",
     "keyword:capitalist market economy",
@@ -21593,7 +21777,7 @@
    ]
   },
   {
-   "id": "e667",
+   "id": "e675",
    "members": [
     "author:alla andreevna neznamova",
     "author:lubov borisovna sitdikova",
@@ -21607,7 +21791,7 @@
    ]
   },
   {
-   "id": "e668",
+   "id": "e676",
    "members": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -21627,7 +21811,7 @@
    ]
   },
   {
-   "id": "e669",
+   "id": "e677",
    "members": [
     "author:arnau riera",
     "author:john goold",
@@ -21649,7 +21833,7 @@
    ]
   },
   {
-   "id": "e670",
+   "id": "e678",
    "members": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -21669,7 +21853,7 @@
    ]
   },
   {
-   "id": "e671",
+   "id": "e679",
    "members": [
     "author:jonathan immanuel brachth\u00e4user",
     "author:klaus ostermann",
@@ -21689,7 +21873,7 @@
    ]
   },
   {
-   "id": "e672",
+   "id": "e680",
    "members": [
     "author:lorenzo edd, virgil",
     "keyword:arizmendiarrietas educational aim",
@@ -21706,7 +21890,7 @@
    ]
   },
   {
-   "id": "e673",
+   "id": "e681",
    "members": [
     "author:balasubramanian iyer",
     "author:ganesh gopal",
@@ -21722,7 +21906,7 @@
    ]
   },
   {
-   "id": "e674",
+   "id": "e682",
    "members": [
     "author:christian lauk",
     "author:dominik noll",
@@ -21746,7 +21930,7 @@
    ]
   },
   {
-   "id": "e675",
+   "id": "e683",
    "members": [
     "author:david jou",
     "author:g. lebon",
@@ -21766,7 +21950,7 @@
    ]
   },
   {
-   "id": "e676",
+   "id": "e684",
    "members": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -21794,7 +21978,7 @@
    ]
   },
   {
-   "id": "e677",
+   "id": "e685",
    "members": [
     "author:melissa k. scanlan",
     "keyword:chapter assesses",
@@ -21816,7 +22000,7 @@
    ]
   },
   {
-   "id": "e678",
+   "id": "e686",
    "members": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -21827,7 +22011,7 @@
    ]
   },
   {
-   "id": "e679",
+   "id": "e687",
    "members": [
     "author:michael batty",
     "keyword:digital twins",
@@ -21836,7 +22020,7 @@
    ]
   },
   {
-   "id": "e680",
+   "id": "e688",
    "members": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -21862,7 +22046,7 @@
    ]
   },
   {
-   "id": "e681",
+   "id": "e689",
    "members": [
     "author:andrea caputo",
     "author:bo\u017eidar vla\u010di\u0107",
@@ -21879,7 +22063,7 @@
    ]
   },
   {
-   "id": "e682",
+   "id": "e690",
    "members": [
     "author:aritz kanpandegi berrotaran",
     "author:fred freundlich",
@@ -21896,7 +22080,7 @@
    ]
   },
   {
-   "id": "e683",
+   "id": "e691",
    "members": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -21906,7 +22090,7 @@
    ]
   },
   {
-   "id": "e684",
+   "id": "e692",
    "members": [
     "author:derek c. jones",
     "keyword:appropriate research agenda",
@@ -21924,7 +22108,7 @@
    ]
   },
   {
-   "id": "e685",
+   "id": "e693",
    "members": [
     "author:aingeru ruiz mart\u00ednez",
     "author:ignacio bretos",
@@ -21945,7 +22129,7 @@
    ]
   },
   {
-   "id": "e686",
+   "id": "e694",
    "members": [
     "author:hans van den hurk",
     "author:john nillesen",
@@ -21965,7 +22149,7 @@
    ]
   },
   {
-   "id": "e687",
+   "id": "e695",
    "members": [
     "author:carole maurel",
     "author:foued cheriet",
@@ -21986,7 +22170,7 @@
    ]
   },
   {
-   "id": "e688",
+   "id": "e696",
    "members": [
     "author:anderson catapan",
     "author:bernardo de almeida villanueva",
@@ -22005,7 +22189,7 @@
    ]
   },
   {
-   "id": "e689",
+   "id": "e697",
    "members": [
     "author:carmen guzm\u00e1n",
     "author:francisco j. santos",
@@ -22026,7 +22210,7 @@
    ]
   },
   {
-   "id": "e690",
+   "id": "e698",
    "members": [
     "author:neal harris",
     "author:robin jervis",
@@ -22046,7 +22230,7 @@
    ]
   },
   {
-   "id": "e691",
+   "id": "e699",
    "members": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",
@@ -22068,7 +22252,7 @@
    ]
   },
   {
-   "id": "e692",
+   "id": "e700",
    "members": [
     "author:jokin bergara eguren",
     "author:oier imaz alias",
@@ -22090,7 +22274,7 @@
    ]
   },
   {
-   "id": "e693",
+   "id": "e701",
    "members": [
     "author:julien cadot",
     "author:michael lee cook",
@@ -22102,7 +22286,7 @@
    ]
   },
   {
-   "id": "e694",
+   "id": "e702",
    "members": [
     "author:fred freundlich",
     "author:igor ortega sunsundegi",
@@ -22125,7 +22309,7 @@
    ]
   },
   {
-   "id": "e695",
+   "id": "e703",
    "members": [
     "author:unknown author",
     "keyword:cooperative organizational structure",
@@ -22135,7 +22319,7 @@
    ]
   },
   {
-   "id": "e696",
+   "id": "e704",
    "members": [
     "author:\uc11c\uc11d\ud765",
     "keyword:chinese rural community",
@@ -22156,7 +22340,7 @@
    ]
   },
   {
-   "id": "e697",
+   "id": "e705",
    "members": [
     "author:tej gonza",
     "keyword:employee ownership",
@@ -22170,7 +22354,7 @@
    ]
   },
   {
-   "id": "e698",
+   "id": "e706",
    "members": [
     "author:francis declerck",
     "author:julien cadot",
@@ -24562,6 +24746,121 @@
    "label": "[HEAD]",
    "kind": "section"
   },
+  "section:[democracy as procedure and democracy as regime]": {
+   "id": "section:[democracy as procedure and democracy as regime]",
+   "label": "[Democracy as Procedure and Democracy as Regime]",
+   "kind": "section"
+  },
+  "section:[cornelius castoriadis]": {
+   "id": "section:[cornelius castoriadis]",
+   "label": "[Cornelius Castoriadis]",
+   "kind": "section"
+  },
+  "keyword:political institution": {
+   "id": "keyword:political institution",
+   "label": "political institution",
+   "kind": "keyword"
+  },
+  "keyword:political form": {
+   "id": "keyword:political form",
+   "label": "political form",
+   "kind": "keyword"
+  },
+  "keyword:rather ridiculously called contemporary individualism": {
+   "id": "keyword:rather ridiculously called contemporary individualism",
+   "label": "rather ridiculously called contemporary individualism",
+   "kind": "keyword"
+  },
+  "section:[i]": {
+   "id": "section:[i]",
+   "label": "[I]",
+   "kind": "section"
+  },
+  "keyword:democratic society": {
+   "id": "keyword:democratic society",
+   "label": "democratic society",
+   "kind": "keyword"
+  },
+  "keyword:society covers almost": {
+   "id": "keyword:society covers almost",
+   "label": "society covers almost",
+   "kind": "keyword"
+  },
+  "keyword:society takes place": {
+   "id": "keyword:society takes place",
+   "label": "society takes place",
+   "kind": "keyword"
+  },
+  "section:[ii]": {
+   "id": "section:[ii]",
+   "label": "[II]",
+   "kind": "section"
+  },
+  "keyword:effective freedom": {
+   "id": "keyword:effective freedom",
+   "label": "effective freedom",
+   "kind": "keyword"
+  },
+  "keyword:participation achieves freedom": {
+   "id": "keyword:participation achieves freedom",
+   "label": "participation achieves freedom",
+   "kind": "keyword"
+  },
+  "section:[iii]": {
+   "id": "section:[iii]",
+   "label": "[III]",
+   "kind": "section"
+  },
+  "keyword:least bad thing possible obviously obliges one": {
+   "id": "keyword:least bad thing possible obviously obliges one",
+   "label": "least bad thing possible obviously obliges one",
+   "kind": "keyword"
+  },
+  "keyword:one part": {
+   "id": "keyword:one part",
+   "label": "one part",
+   "kind": "keyword"
+  },
+  "keyword:procedural one": {
+   "id": "keyword:procedural one",
+   "label": "procedural one",
+   "kind": "keyword"
+  },
+  "keyword:one grants equal value": {
+   "id": "keyword:one grants equal value",
+   "label": "one grants equal value",
+   "kind": "keyword"
+  },
+  "section:[iv]": {
+   "id": "section:[iv]",
+   "label": "[IV]",
+   "kind": "section"
+  },
+  "keyword:one would lapse": {
+   "id": "keyword:one would lapse",
+   "label": "one would lapse",
+   "kind": "keyword"
+  },
+  "keyword:rights comprises one component": {
+   "id": "keyword:rights comprises one component",
+   "label": "rights comprises one component",
+   "kind": "keyword"
+  },
+  "keyword:common good belongs": {
+   "id": "keyword:common good belongs",
+   "label": "common good belongs",
+   "kind": "keyword"
+  },
+  "keyword:common good": {
+   "id": "keyword:common good",
+   "label": "common good",
+   "kind": "keyword"
+  },
+  "section:[notes]": {
+   "id": "section:[notes]",
+   "label": "[NOTES]",
+   "kind": "section"
+  },
   "section:[federated structures for cooperative growth]": {
    "id": "section:[federated structures for cooperative growth]",
    "label": "[Federated Structures for Cooperative Growth]",
@@ -24931,11 +25230,6 @@
    "id": "keyword:best economic organizational form",
    "label": "best economic organizational form",
    "kind": "keyword"
-  },
-  "section:[notes]": {
-   "id": "section:[notes]",
-   "label": "[Notes]",
-   "kind": "section"
   },
   "keyword:allocative efficiency reasons": {
    "id": "keyword:allocative efficiency reasons",
@@ -38843,12 +39137,110 @@
     "project:fulltext",
     "section:[head]"
    ],
-   "doc": "fulltext/https_openalex.org_W1539711243.md",
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
    "section": "HEAD",
    "arity": 2
   },
   {
    "id": "e154",
+   "nodes": [
+    "project:fulltext",
+    "section:[democracy as procedure and democracy as regime]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "Democracy as Procedure and Democracy as Regime",
+   "arity": 2
+  },
+  {
+   "id": "e155",
+   "nodes": [
+    "keyword:political form",
+    "keyword:political institution",
+    "keyword:rather ridiculously called contemporary individualism",
+    "project:fulltext",
+    "section:[cornelius castoriadis]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "Cornelius Castoriadis",
+   "arity": 5
+  },
+  {
+   "id": "e156",
+   "nodes": [
+    "keyword:democratic society",
+    "keyword:society covers almost",
+    "keyword:society takes place",
+    "project:fulltext",
+    "section:[i]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "I",
+   "arity": 5
+  },
+  {
+   "id": "e157",
+   "nodes": [
+    "keyword:effective freedom",
+    "keyword:participation achieves freedom",
+    "project:fulltext",
+    "section:[ii]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "II",
+   "arity": 4
+  },
+  {
+   "id": "e158",
+   "nodes": [
+    "keyword:democratic society",
+    "keyword:least bad thing possible obviously obliges one",
+    "keyword:one grants equal value",
+    "keyword:one part",
+    "keyword:procedural one",
+    "project:fulltext",
+    "section:[iii]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "III",
+   "arity": 7
+  },
+  {
+   "id": "e159",
+   "nodes": [
+    "keyword:common good",
+    "keyword:common good belongs",
+    "keyword:one would lapse",
+    "keyword:rights comprises one component",
+    "project:fulltext",
+    "section:[iv]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "IV",
+   "arity": 6
+  },
+  {
+   "id": "e160",
+   "nodes": [
+    "keyword:democratic society",
+    "project:fulltext",
+    "section:[notes]"
+   ],
+   "doc": "fulltext/castoriadis_1997_democracy_procedure_regime.md",
+   "section": "NOTES",
+   "arity": 3
+  },
+  {
+   "id": "e161",
+   "nodes": [
+    "project:fulltext",
+    "section:[head]"
+   ],
+   "doc": "fulltext/https_openalex.org_W1539711243.md",
+   "section": "HEAD",
+   "arity": 2
+  },
+  {
+   "id": "e162",
    "nodes": [
     "keyword:research purposes",
     "project:fulltext",
@@ -38859,7 +39251,7 @@
    "arity": 3
   },
   {
-   "id": "e155",
+   "id": "e163",
    "nodes": [
     "keyword:cooperative form",
     "keyword:cooperative governance model",
@@ -38874,7 +39266,7 @@
    "arity": 7
   },
   {
-   "id": "e156",
+   "id": "e164",
    "nodes": [
     "keyword:cooperatives appears",
     "project:fulltext",
@@ -38885,7 +39277,7 @@
    "arity": 3
   },
   {
-   "id": "e157",
+   "id": "e165",
    "nodes": [
     "keyword:cooperative form",
     "keyword:transaction efficiency",
@@ -38897,7 +39289,7 @@
    "arity": 4
   },
   {
-   "id": "e158",
+   "id": "e166",
    "nodes": [
     "keyword:cooperative form",
     "keyword:dairy cooperatives got",
@@ -38912,7 +39304,7 @@
    "arity": 7
   },
   {
-   "id": "e159",
+   "id": "e167",
    "nodes": [
     "keyword:cooperatives market share",
     "keyword:few cooperatives lost money",
@@ -38927,7 +39319,7 @@
    "arity": 7
   },
   {
-   "id": "e160",
+   "id": "e168",
    "nodes": [
     "keyword:rural health care",
     "keyword:rural strategic alliances",
@@ -38940,7 +39332,7 @@
    "arity": 5
   },
   {
-   "id": "e161",
+   "id": "e169",
    "nodes": [
     "keyword:cooperative organization structure",
     "keyword:cooperative organizational form",
@@ -38956,7 +39348,7 @@
    "arity": 8
   },
   {
-   "id": "e162",
+   "id": "e170",
    "nodes": [
     "keyword:comparison",
     "keyword:findings",
@@ -38971,7 +39363,7 @@
    "arity": 7
   },
   {
-   "id": "e163",
+   "id": "e171",
    "nodes": [
     "keyword:cooperatives",
     "keyword:irish dairy cooperatives enjoyed economic performance",
@@ -38986,7 +39378,7 @@
    "arity": 7
   },
   {
-   "id": "e164",
+   "id": "e172",
    "nodes": [
     "keyword:cooperative managers",
     "keyword:iof managers",
@@ -38999,7 +39391,7 @@
    "arity": 5
   },
   {
-   "id": "e165",
+   "id": "e173",
    "nodes": [
     "keyword:communication costs",
     "keyword:costs",
@@ -39011,7 +39403,7 @@
    "arity": 4
   },
   {
-   "id": "e166",
+   "id": "e174",
    "nodes": [
     "keyword:cooperative",
     "keyword:cooperative governance represents",
@@ -39026,7 +39418,7 @@
    "arity": 7
   },
   {
-   "id": "e167",
+   "id": "e175",
    "nodes": [
     "keyword:cause cooperative board members",
     "keyword:cooperative society",
@@ -39040,7 +39432,7 @@
    "arity": 6
   },
   {
-   "id": "e168",
+   "id": "e176",
    "nodes": [
     "keyword:cooperative become intertwined",
     "keyword:specific asset property rights intertwined",
@@ -39052,7 +39444,7 @@
    "arity": 4
   },
   {
-   "id": "e169",
+   "id": "e177",
    "nodes": [
     "keyword:federated cooperative",
     "keyword:federated cooperative serves",
@@ -39066,7 +39458,7 @@
    "arity": 6
   },
   {
-   "id": "e170",
+   "id": "e178",
    "nodes": [
     "keyword:local cooperative",
     "project:fulltext",
@@ -39077,7 +39469,7 @@
    "arity": 3
   },
   {
-   "id": "e171",
+   "id": "e179",
    "nodes": [
     "keyword:best economic organizational form",
     "keyword:cooperative form",
@@ -39090,7 +39482,7 @@
    "arity": 5
   },
   {
-   "id": "e172",
+   "id": "e180",
    "nodes": [
     "keyword:allocative efficiency reasons",
     "keyword:market performs",
@@ -39102,7 +39494,7 @@
    "arity": 4
   },
   {
-   "id": "e173",
+   "id": "e181",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -39112,7 +39504,7 @@
    "arity": 2
   },
   {
-   "id": "e174",
+   "id": "e182",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -39122,7 +39514,7 @@
    "arity": 2
   },
   {
-   "id": "e175",
+   "id": "e183",
    "nodes": [
     "keyword:http",
     "keyword:physics vol",
@@ -39134,7 +39526,7 @@
    "arity": 4
   },
   {
-   "id": "e176",
+   "id": "e184",
    "nodes": [
     "keyword:integrable quantum systems",
     "keyword:quantum systems",
@@ -39146,7 +39538,7 @@
    "arity": 4
   },
   {
-   "id": "e177",
+   "id": "e185",
    "nodes": [
     "keyword:generic many-body quantum systems",
     "keyword:isolated quantum systems",
@@ -39162,7 +39554,7 @@
    "arity": 8
   },
   {
-   "id": "e178",
+   "id": "e186",
    "nodes": [
     "keyword:briefly discuss chaotic dynamics",
     "keyword:chaotic motion",
@@ -39177,7 +39569,7 @@
    "arity": 7
   },
   {
-   "id": "e179",
+   "id": "e187",
    "nodes": [
     "keyword:quantum chaos",
     "keyword:quantum chaos builds came",
@@ -39190,7 +39582,7 @@
    "arity": 5
   },
   {
-   "id": "e180",
+   "id": "e188",
    "nodes": [
     "keyword:essentially random vectors",
     "keyword:first random hamiltonian",
@@ -39206,7 +39598,7 @@
    "arity": 8
   },
   {
-   "id": "e181",
+   "id": "e189",
    "nodes": [
     "keyword:diagonal matrix elements",
     "keyword:matrix elements",
@@ -39219,7 +39611,7 @@
    "arity": 5
   },
   {
-   "id": "e182",
+   "id": "e190",
    "nodes": [
     "keyword:energy level statistics",
     "keyword:many quantum systems whose classical counterpart",
@@ -39235,7 +39627,7 @@
    "arity": 8
   },
   {
-   "id": "e183",
+   "id": "e191",
    "nodes": [
     "keyword:momentum phase-space variables one",
     "keyword:slightly modified conjecture one",
@@ -39248,7 +39640,7 @@
    "arity": 5
   },
   {
-   "id": "e184",
+   "id": "e192",
    "nodes": [
     "keyword:level distribution",
     "keyword:level spacing distribution",
@@ -39261,7 +39653,7 @@
    "arity": 5
   },
   {
-   "id": "e185",
+   "id": "e193",
    "nodes": [
     "keyword:average information entropy",
     "keyword:information entropy rapidly increases",
@@ -39274,7 +39666,7 @@
    "arity": 5
   },
   {
-   "id": "e186",
+   "id": "e194",
    "nodes": [
     "keyword:entanglement entropy grows linearly",
     "keyword:second renyi entanglement entropy",
@@ -39288,7 +39680,7 @@
    "arity": 6
   },
   {
-   "id": "e187",
+   "id": "e195",
    "nodes": [
     "keyword:diagonal entropy",
     "keyword:diagonal entropy becomes almost",
@@ -39301,7 +39693,7 @@
    "arity": 5
   },
   {
-   "id": "e188",
+   "id": "e196",
    "nodes": [
     "keyword:arbitrary quantum systems assuming",
     "keyword:even large systems thermalize",
@@ -39316,7 +39708,7 @@
    "arity": 7
   },
   {
-   "id": "e189",
+   "id": "e197",
    "nodes": [
     "keyword:energy levels",
     "keyword:energy window narrower",
@@ -39330,7 +39722,7 @@
    "arity": 6
   },
   {
-   "id": "e190",
+   "id": "e198",
    "nodes": [
     "keyword:energy fluctuations",
     "keyword:equilibrium statistical fluctuations",
@@ -39344,7 +39736,7 @@
    "arity": 6
   },
   {
-   "id": "e191",
+   "id": "e199",
    "nodes": [
     "keyword:microcanonical energy window",
     "keyword:microcanonical energy window defines",
@@ -39358,7 +39750,7 @@
    "arity": 6
   },
   {
-   "id": "e192",
+   "id": "e200",
    "nodes": [
     "keyword:few off-diagonal matrix elements",
     "keyword:off-diagonal matrix elements",
@@ -39371,7 +39763,7 @@
    "arity": 5
   },
   {
-   "id": "e193",
+   "id": "e201",
    "nodes": [
     "keyword:diagonal ensemble",
     "keyword:diagonal ensemble predictions",
@@ -39384,7 +39776,7 @@
    "arity": 5
   },
   {
-   "id": "e194",
+   "id": "e202",
    "nodes": [
     "keyword:chaos",
     "keyword:isolated quantum systems taken far",
@@ -39399,7 +39791,7 @@
    "arity": 7
   },
   {
-   "id": "e195",
+   "id": "e203",
    "nodes": [
     "keyword:dynamical process",
     "keyword:dynamical process involves changing parameters",
@@ -39413,7 +39805,7 @@
    "arity": 6
   },
   {
-   "id": "e196",
+   "id": "e204",
    "nodes": [
     "keyword:doubly stochastic matrix",
     "keyword:doubly stochastic transition rates",
@@ -39427,7 +39819,7 @@
    "arity": 6
   },
   {
-   "id": "e197",
+   "id": "e205",
    "nodes": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochasticity",
@@ -39443,7 +39835,7 @@
    "arity": 8
   },
   {
-   "id": "e198",
+   "id": "e206",
    "nodes": [
     "keyword:infinite temperature",
     "keyword:infinite temperature state",
@@ -39457,7 +39849,7 @@
    "arity": 6
   },
   {
-   "id": "e199",
+   "id": "e207",
    "nodes": [
     "keyword:diagonal entropy cannot decrease",
     "keyword:diagonal entropy increases",
@@ -39471,7 +39863,7 @@
    "arity": 6
   },
   {
-   "id": "e200",
+   "id": "e208",
    "nodes": [
     "keyword:doubly stochastic cyclic evolution",
     "keyword:initial density matrix",
@@ -39485,7 +39877,7 @@
    "arity": 6
   },
   {
-   "id": "e201",
+   "id": "e209",
    "nodes": [
     "keyword:cyclic doubly stochastic evolution leads",
     "keyword:discussed three important results",
@@ -39500,7 +39892,7 @@
    "arity": 7
   },
   {
-   "id": "e202",
+   "id": "e210",
    "nodes": [
     "keyword:extensive thermodynamic entropy",
     "keyword:thermodynamic entropy",
@@ -39513,7 +39905,7 @@
    "arity": 5
   },
   {
-   "id": "e203",
+   "id": "e211",
    "nodes": [
     "keyword:energy change",
     "keyword:energy spectrum",
@@ -39528,7 +39920,7 @@
    "arity": 7
   },
   {
-   "id": "e204",
+   "id": "e212",
    "nodes": [
     "keyword:driven isolated systems",
     "keyword:fluctuation theorems",
@@ -39544,7 +39936,7 @@
    "arity": 8
   },
   {
-   "id": "e205",
+   "id": "e213",
    "nodes": [
     "keyword:jarzynski equality allows one",
     "keyword:jarzynski equality constraints different cumulants",
@@ -39558,7 +39950,7 @@
    "arity": 6
   },
   {
-   "id": "e206",
+   "id": "e214",
    "nodes": [
     "keyword:doubly stochastic evolution",
     "keyword:doubly stochastic evolution describes unitary dynamics",
@@ -39572,7 +39964,7 @@
    "arity": 6
   },
   {
-   "id": "e207",
+   "id": "e215",
    "nodes": [
     "keyword:forward process starting",
     "keyword:reverse process",
@@ -39585,7 +39977,7 @@
    "arity": 5
   },
   {
-   "id": "e208",
+   "id": "e216",
    "nodes": [
     "keyword:detailed balance condition",
     "keyword:familiar detailed balance condition",
@@ -39600,7 +39992,7 @@
    "arity": 7
   },
   {
-   "id": "e209",
+   "id": "e217",
    "nodes": [
     "project:fulltext",
     "section:[6.3. einsteins energy drift-diffusion relations for isolated and open systems]"
@@ -39610,7 +40002,7 @@
    "arity": 2
   },
   {
-   "id": "e210",
+   "id": "e218",
    "nodes": [
     "keyword:energy distribution function",
     "keyword:finding universal energy distributions",
@@ -39622,7 +40014,7 @@
    "arity": 4
   },
   {
-   "id": "e211",
+   "id": "e219",
    "nodes": [
     "keyword:two initially separated chaotic systems",
     "keyword:two large macroscopic systems",
@@ -39635,7 +40027,7 @@
    "arity": 5
   },
   {
-   "id": "e212",
+   "id": "e220",
    "nodes": [
     "keyword:lhs one",
     "project:fulltext",
@@ -39646,7 +40038,7 @@
    "arity": 3
   },
   {
-   "id": "e213",
+   "id": "e221",
    "nodes": [
     "keyword:cumulant expansion",
     "keyword:cumulant tensors",
@@ -39659,7 +40051,7 @@
    "arity": 5
   },
   {
-   "id": "e214",
+   "id": "e222",
    "nodes": [
     "notation:fourier",
     "project:fulltext",
@@ -39670,7 +40062,7 @@
    "arity": 3
   },
   {
-   "id": "e215",
+   "id": "e223",
    "nodes": [
     "keyword:correlation function",
     "keyword:higher order correlation functions",
@@ -39684,7 +40076,7 @@
    "arity": 6
   },
   {
-   "id": "e216",
+   "id": "e224",
    "nodes": [
     "keyword:quasi-static process one usually understands",
     "project:fulltext",
@@ -39695,7 +40087,7 @@
    "arity": 3
   },
   {
-   "id": "e217",
+   "id": "e225",
    "nodes": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -39710,7 +40102,7 @@
    "arity": 7
   },
   {
-   "id": "e218",
+   "id": "e226",
    "nodes": [
     "keyword:asymptotic energy distribution",
     "keyword:energy distribution",
@@ -39725,7 +40117,7 @@
    "arity": 7
   },
   {
-   "id": "e219",
+   "id": "e227",
    "nodes": [
     "keyword:canonical energy fluctuations",
     "keyword:energy fluctuations",
@@ -39740,7 +40132,7 @@
    "arity": 7
   },
   {
-   "id": "e220",
+   "id": "e228",
    "nodes": [
     "keyword:isolated nonintegrable quantum systems",
     "keyword:quantum chaos",
@@ -39754,7 +40146,7 @@
    "arity": 6
   },
   {
-   "id": "e221",
+   "id": "e229",
    "nodes": [
     "keyword:extensive conserved quantities",
     "keyword:integrable quantum systems",
@@ -39768,7 +40160,7 @@
    "arity": 6
   },
   {
-   "id": "e222",
+   "id": "e230",
    "nodes": [
     "keyword:discuss one particular noninteracting system",
     "keyword:gge constructed using occupation modes",
@@ -39782,7 +40174,7 @@
    "arity": 6
   },
   {
-   "id": "e223",
+   "id": "e231",
    "nodes": [
     "keyword:grand canonical ensemble",
     "keyword:grand canonical ensemble results",
@@ -39796,7 +40188,7 @@
    "arity": 6
   },
   {
-   "id": "e224",
+   "id": "e232",
    "nodes": [
     "keyword:eigenstate expectation values",
     "keyword:eigenstate expectation values vanishes",
@@ -39810,7 +40202,7 @@
    "arity": 6
   },
   {
-   "id": "e225",
+   "id": "e233",
    "nodes": [
     "keyword:conservation laws",
     "keyword:imposing local conservation laws",
@@ -39824,7 +40216,7 @@
    "arity": 6
   },
   {
-   "id": "e226",
+   "id": "e234",
    "nodes": [
     "keyword:gge results",
     "keyword:integrable xxz model written",
@@ -39836,7 +40228,7 @@
    "arity": 4
   },
   {
-   "id": "e227",
+   "id": "e235",
    "nodes": [
     "keyword:weakly interacting disordered systems",
     "project:fulltext",
@@ -39847,7 +40239,7 @@
    "arity": 3
   },
   {
-   "id": "e228",
+   "id": "e236",
    "nodes": [
     "project:fulltext",
     "section:[acknowledgments]"
@@ -39857,7 +40249,7 @@
    "arity": 2
   },
   {
-   "id": "e229",
+   "id": "e237",
    "nodes": [
     "notation:fourier",
     "project:fulltext",
@@ -39868,7 +40260,7 @@
    "arity": 3
   },
   {
-   "id": "e230",
+   "id": "e238",
    "nodes": [
     "keyword:partition function",
     "keyword:riemann zeta function",
@@ -39883,7 +40275,7 @@
    "arity": 7
   },
   {
-   "id": "e231",
+   "id": "e239",
    "nodes": [
     "keyword:doubly stochastic matrices",
     "keyword:doubly stochastic matrix",
@@ -39898,7 +40290,7 @@
    "arity": 7
   },
   {
-   "id": "e232",
+   "id": "e240",
    "nodes": [
     "keyword:doubly stochastic master equation",
     "keyword:general doubly stochastic matrix",
@@ -39913,7 +40305,7 @@
    "arity": 7
   },
   {
-   "id": "e233",
+   "id": "e241",
    "nodes": [
     "keyword:doubly stochastic condition",
     "project:fulltext",
@@ -39924,7 +40316,7 @@
    "arity": 3
   },
   {
-   "id": "e234",
+   "id": "e242",
    "nodes": [
     "keyword:energy dissipation",
     "keyword:single many-body energy eigenstate",
@@ -39936,7 +40328,7 @@
    "arity": 4
   },
   {
-   "id": "e235",
+   "id": "e243",
    "nodes": [
     "keyword:second order",
     "project:fulltext",
@@ -39947,7 +40339,7 @@
    "arity": 3
   },
   {
-   "id": "e236",
+   "id": "e244",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -39957,7 +40349,7 @@
    "arity": 2
   },
   {
-   "id": "e237",
+   "id": "e245",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -39967,7 +40359,7 @@
    "arity": 2
   },
   {
-   "id": "e238",
+   "id": "e246",
    "nodes": [
     "keyword:authors",
     "keyword:physa",
@@ -39980,7 +40372,7 @@
    "arity": 5
   },
   {
-   "id": "e239",
+   "id": "e247",
    "nodes": [
     "project:fulltext",
     "section:[the social architecture of capitalism]"
@@ -39990,7 +40382,7 @@
    "arity": 2
   },
   {
-   "id": "e240",
+   "id": "e248",
    "nodes": [
     "keyword:dynamic model",
     "keyword:model",
@@ -40005,7 +40397,7 @@
    "arity": 7
   },
   {
-   "id": "e241",
+   "id": "e249",
    "nodes": [
     "keyword:social architecture",
     "keyword:social dependence mediated",
@@ -40018,7 +40410,7 @@
    "arity": 5
   },
   {
-   "id": "e242",
+   "id": "e250",
    "nodes": [
     "keyword:actor",
     "keyword:actor cannot belong",
@@ -40032,7 +40424,7 @@
    "arity": 6
   },
   {
-   "id": "e243",
+   "id": "e251",
    "nodes": [
     "keyword:active actor",
     "keyword:actor",
@@ -40046,7 +40438,7 @@
    "arity": 6
   },
   {
-   "id": "e244",
+   "id": "e252",
    "nodes": [
     "keyword:following hiring rule",
     "keyword:hiring favour",
@@ -40060,7 +40452,7 @@
    "arity": 6
   },
   {
-   "id": "e245",
+   "id": "e253",
    "nodes": [
     "keyword:actors total expenditure",
     "keyword:expenditure",
@@ -40076,7 +40468,7 @@
    "arity": 8
   },
   {
-   "id": "e246",
+   "id": "e254",
    "nodes": [
     "keyword:current available market value",
     "keyword:individual market transactions",
@@ -40091,7 +40483,7 @@
    "arity": 7
   },
   {
-   "id": "e247",
+   "id": "e255",
    "nodes": [
     "keyword:ante wage bill",
     "keyword:firms current money holdings",
@@ -40104,7 +40496,7 @@
    "arity": 5
   },
   {
-   "id": "e248",
+   "id": "e256",
    "nodes": [
     "keyword:concrete model would introduce wage contracts",
     "keyword:employers pay wages according",
@@ -40119,7 +40511,7 @@
    "arity": 7
   },
   {
-   "id": "e249",
+   "id": "e257",
    "nodes": [
     "keyword:execute expenditure rule",
     "keyword:execute hiring rule",
@@ -40132,7 +40524,7 @@
    "arity": 5
   },
   {
-   "id": "e250",
+   "id": "e258",
    "nodes": [
     "keyword:execute rule",
     "keyword:month",
@@ -40147,7 +40539,7 @@
    "arity": 7
   },
   {
-   "id": "e251",
+   "id": "e259",
    "nodes": [
     "keyword:model",
     "keyword:real time",
@@ -40161,7 +40553,7 @@
    "arity": 6
   },
   {
-   "id": "e252",
+   "id": "e260",
    "nodes": [
     "keyword:highest possible wage never exceeds",
     "keyword:minimum wage",
@@ -40176,7 +40568,7 @@
    "arity": 7
   },
   {
-   "id": "e253",
+   "id": "e261",
    "nodes": [
     "keyword:class sizes",
     "keyword:class sizes generated",
@@ -40189,7 +40581,7 @@
    "arity": 5
   },
   {
-   "id": "e254",
+   "id": "e262",
    "nodes": [
     "keyword:firm size distribution",
     "keyword:firm size distribution followed",
@@ -40203,7 +40595,7 @@
    "arity": 6
   },
   {
-   "id": "e255",
+   "id": "e263",
    "nodes": [
     "keyword:growth rates",
     "keyword:holds true whether growth rates",
@@ -40219,7 +40611,7 @@
    "arity": 8
   },
   {
-   "id": "e256",
+   "id": "e264",
    "nodes": [
     "keyword:empirical laplace growth distribution suggests",
     "keyword:laplace growth distribution",
@@ -40233,7 +40625,7 @@
    "arity": 6
   },
   {
-   "id": "e257",
+   "id": "e265",
    "nodes": [
     "keyword:firm demise measure",
     "keyword:firm demise occurs",
@@ -40247,7 +40639,7 @@
    "arity": 6
   },
   {
-   "id": "e258",
+   "id": "e266",
    "nodes": [
     "keyword:gdp growth rate",
     "keyword:gdp log growth rates",
@@ -40260,7 +40652,7 @@
    "arity": 5
   },
   {
-   "id": "e259",
+   "id": "e267",
    "nodes": [
     "keyword:average duration",
     "keyword:average recession duration",
@@ -40273,7 +40665,7 @@
    "arity": 5
   },
   {
-   "id": "e260",
+   "id": "e268",
    "nodes": [
     "keyword:advanced capitalist countries publish national income accounts",
     "keyword:profit share fluctuates",
@@ -40288,7 +40680,7 @@
    "arity": 7
   },
   {
-   "id": "e261",
+   "id": "e269",
    "nodes": [
     "keyword:capitalist income distribution generated",
     "keyword:complete income distribution plotted",
@@ -40303,7 +40695,7 @@
    "arity": 7
   },
   {
-   "id": "e262",
+   "id": "e270",
    "nodes": [
     "keyword:firm size distribution",
     "keyword:firm-weighted rate-of-profit distribution",
@@ -40318,7 +40710,7 @@
    "arity": 7
   },
   {
-   "id": "e263",
+   "id": "e271",
    "nodes": [
     "keyword:existing economic models",
     "keyword:standard economic models",
@@ -40330,7 +40722,7 @@
    "arity": 4
   },
   {
-   "id": "e264",
+   "id": "e272",
    "nodes": [
     "keyword:empirical rate-of-profit distribution",
     "keyword:gamma-like rate-of-profit distribution",
@@ -40346,7 +40738,7 @@
    "arity": 8
   },
   {
-   "id": "e265",
+   "id": "e273",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -40356,7 +40748,7 @@
    "arity": 2
   },
   {
-   "id": "e266",
+   "id": "e274",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -40366,7 +40758,7 @@
    "arity": 2
   },
   {
-   "id": "e267",
+   "id": "e275",
    "nodes": [
     "keyword:progress",
     "project:fulltext",
@@ -40377,7 +40769,7 @@
    "arity": 3
   },
   {
-   "id": "e268",
+   "id": "e276",
    "nodes": [
     "keyword:thermoelectric devices involving single electron transport",
     "project:fulltext",
@@ -40388,7 +40780,7 @@
    "arity": 3
   },
   {
-   "id": "e269",
+   "id": "e277",
    "nodes": [
     "project:fulltext",
     "section:[contents]"
@@ -40398,7 +40790,7 @@
    "arity": 2
   },
   {
-   "id": "e270",
+   "id": "e278",
    "nodes": [
     "keyword:entropy production",
     "keyword:entropy production seriously",
@@ -40410,7 +40802,7 @@
    "arity": 4
   },
   {
-   "id": "e271",
+   "id": "e279",
    "nodes": [
     "keyword:relevant system size",
     "project:fulltext",
@@ -40421,7 +40813,7 @@
    "arity": 3
   },
   {
-   "id": "e272",
+   "id": "e280",
    "nodes": [
     "keyword:deterministic dynamics",
     "keyword:one keeps deterministic equations",
@@ -40433,7 +40825,7 @@
    "arity": 4
   },
   {
-   "id": "e273",
+   "id": "e281",
    "nodes": [
     "keyword:distinguish isothermal engines like molecular motors discussed",
     "keyword:heat engines like thermoelectric devices treated",
@@ -40445,7 +40837,7 @@
    "arity": 4
   },
   {
-   "id": "e274",
+   "id": "e282",
    "nodes": [
     "keyword:brief reviews",
     "keyword:reviews dealing",
@@ -40459,7 +40851,7 @@
    "arity": 6
   },
   {
-   "id": "e275",
+   "id": "e283",
    "nodes": [
     "keyword:colloidal particle confined",
     "keyword:introduced using",
@@ -40475,7 +40867,7 @@
    "arity": 8
   },
   {
-   "id": "e276",
+   "id": "e284",
    "nodes": [
     "project:fulltext",
     "section:[2.1. stochastic dynamics]"
@@ -40485,7 +40877,7 @@
    "arity": 2
   },
   {
-   "id": "e277",
+   "id": "e285",
    "nodes": [
     "keyword:corresponding stationary state",
     "project:fulltext",
@@ -40496,7 +40888,7 @@
    "arity": 3
   },
   {
-   "id": "e278",
+   "id": "e286",
    "nodes": [
     "keyword:dissipated heat",
     "keyword:heat dissipated",
@@ -40511,7 +40903,7 @@
    "arity": 7
   },
   {
-   "id": "e279",
+   "id": "e287",
    "nodes": [
     "keyword:stochastic entropy",
     "keyword:stochastic entropy depends",
@@ -40526,7 +40918,7 @@
    "arity": 7
   },
   {
-   "id": "e280",
+   "id": "e288",
    "nodes": [
     "project:fulltext",
     "section:[2.5. ensemble averages]"
@@ -40536,7 +40928,7 @@
    "arity": 2
   },
   {
-   "id": "e281",
+   "id": "e289",
    "nodes": [
     "keyword:fluctuating trajectories taken",
     "keyword:fluctuation theorems express universal properties",
@@ -40550,7 +40942,7 @@
    "arity": 6
   },
   {
-   "id": "e282",
+   "id": "e290",
    "nodes": [
     "keyword:detailed fluctuation theorem corresponds",
     "keyword:ift implies",
@@ -40563,7 +40955,7 @@
    "arity": 5
   },
   {
-   "id": "e283",
+   "id": "e291",
    "nodes": [
     "keyword:jarzynski relation since",
     "project:fulltext",
@@ -40574,7 +40966,7 @@
    "arity": 3
   },
   {
-   "id": "e284",
+   "id": "e292",
    "nodes": [
     "keyword:called entropy production",
     "keyword:ensemble entropy change",
@@ -40590,7 +40982,7 @@
    "arity": 8
   },
   {
-   "id": "e285",
+   "id": "e293",
    "nodes": [
     "keyword:derive fts",
     "keyword:fts",
@@ -40604,7 +40996,7 @@
    "arity": 6
   },
   {
-   "id": "e286",
+   "id": "e294",
    "nodes": [
     "keyword:conjugate dynamics",
     "keyword:dual dynamics",
@@ -40616,7 +41008,7 @@
    "arity": 4
   },
   {
-   "id": "e287",
+   "id": "e295",
    "nodes": [
     "keyword:conjugate dynamics",
     "keyword:conjugate dynamics according",
@@ -40631,7 +41023,7 @@
    "arity": 7
   },
   {
-   "id": "e288",
+   "id": "e296",
    "nodes": [
     "keyword:one obtains",
     "project:fulltext",
@@ -40642,7 +41034,7 @@
    "arity": 3
   },
   {
-   "id": "e289",
+   "id": "e297",
    "nodes": [
     "project:fulltext",
     "section:[4.4. fts derived from time-reversal]"
@@ -40652,7 +41044,7 @@
    "arity": 2
   },
   {
-   "id": "e290",
+   "id": "e298",
    "nodes": [
     "keyword:external flow",
     "keyword:flow unchanged",
@@ -40666,7 +41058,7 @@
    "arity": 6
   },
   {
-   "id": "e291",
+   "id": "e299",
    "nodes": [
     "project:fulltext",
     "section:[4.6. fts for athermal systems]"
@@ -40676,7 +41068,7 @@
    "arity": 2
   },
   {
-   "id": "e292",
+   "id": "e300",
    "nodes": [
     "keyword:detailed theorems give",
     "keyword:fluctuation theorems given above",
@@ -40690,7 +41082,7 @@
    "arity": 6
   },
   {
-   "id": "e293",
+   "id": "e301",
    "nodes": [
     "keyword:colloidal particle",
     "keyword:colloidal particle driven",
@@ -40704,7 +41096,7 @@
    "arity": 6
   },
   {
-   "id": "e294",
+   "id": "e302",
    "nodes": [
     "keyword:calculated work weighted propagators",
     "keyword:driven torsion pendulum differs fundamentally",
@@ -40717,7 +41109,7 @@
    "arity": 5
   },
   {
-   "id": "e295",
+   "id": "e303",
    "nodes": [
     "keyword:experimental work",
     "project:fulltext",
@@ -40728,7 +41120,7 @@
    "arity": 3
   },
   {
-   "id": "e296",
+   "id": "e304",
    "nodes": [
     "notation:tau_j",
     "project:fulltext",
@@ -40739,7 +41131,7 @@
    "arity": 3
   },
   {
-   "id": "e297",
+   "id": "e305",
    "nodes": [
     "notation:tau_j",
     "project:fulltext",
@@ -40750,7 +41142,7 @@
    "arity": 3
   },
   {
-   "id": "e298",
+   "id": "e306",
    "nodes": [
     "keyword:driven two-level system modelling single electron transport",
     "keyword:experimental case studies experimental work measuring",
@@ -40764,7 +41156,7 @@
    "arity": 6
   },
   {
-   "id": "e299",
+   "id": "e307",
    "nodes": [
     "keyword:entropy production",
     "keyword:entropy production associated",
@@ -40777,7 +41169,7 @@
    "arity": 5
   },
   {
-   "id": "e300",
+   "id": "e308",
    "nodes": [
     "keyword:optimal protocol",
     "keyword:optimal protocol connecting arbitrary given initial",
@@ -40791,7 +41183,7 @@
    "arity": 6
   },
   {
-   "id": "e301",
+   "id": "e309",
    "nodes": [
     "keyword:dissipated work",
     "keyword:dissipated work determines",
@@ -40805,7 +41197,7 @@
    "arity": 6
   },
   {
-   "id": "e302",
+   "id": "e310",
    "nodes": [
     "keyword:brownian information machines obeying",
     "project:fulltext",
@@ -40816,7 +41208,7 @@
    "arity": 3
   },
   {
-   "id": "e303",
+   "id": "e311",
    "nodes": [
     "keyword:equilibrium equilibrium systems react",
     "keyword:interacting systems one often finds numerically good agreement",
@@ -40829,7 +41221,7 @@
    "arity": 5
   },
   {
-   "id": "e304",
+   "id": "e312",
    "nodes": [
     "project:fulltext",
     "section:[8.2. derivation and discussion]"
@@ -40839,7 +41231,7 @@
    "arity": 2
   },
   {
-   "id": "e305",
+   "id": "e313",
    "nodes": [
     "keyword:shear flow",
     "keyword:shear flow provides",
@@ -40853,7 +41245,7 @@
    "arity": 6
   },
   {
-   "id": "e306",
+   "id": "e314",
    "nodes": [
     "keyword:stochastic thermodynamics",
     "keyword:stochastic thermodynamics carries",
@@ -40865,7 +41257,7 @@
    "arity": 4
   },
   {
-   "id": "e307",
+   "id": "e315",
    "nodes": [
     "project:fulltext",
     "section:[9.2. biopolymers with continuous degrees of freedom]"
@@ -40875,7 +41267,7 @@
    "arity": 2
   },
   {
-   "id": "e308",
+   "id": "e316",
    "nodes": [
     "keyword:determine free energy changes induced",
     "keyword:free choice",
@@ -40891,7 +41283,7 @@
    "arity": 8
   },
   {
-   "id": "e309",
+   "id": "e317",
    "nodes": [
     "notation:tau_j",
     "project:fulltext",
@@ -40902,7 +41294,7 @@
    "arity": 3
   },
   {
-   "id": "e310",
+   "id": "e318",
    "nodes": [
     "keyword:archetypical thermodynamic machines",
     "keyword:isothermal autonomous machines",
@@ -40915,7 +41307,7 @@
    "arity": 5
   },
   {
-   "id": "e311",
+   "id": "e319",
    "nodes": [
     "keyword:directed cycle current",
     "project:fulltext",
@@ -40926,7 +41318,7 @@
    "arity": 3
   },
   {
-   "id": "e312",
+   "id": "e320",
    "nodes": [
     "project:fulltext",
     "section:[10.3. power and efficiency]"
@@ -40936,7 +41328,7 @@
    "arity": 2
   },
   {
-   "id": "e313",
+   "id": "e321",
    "nodes": [
     "keyword:formula-not-decoded",
     "project:fulltext",
@@ -40947,7 +41339,7 @@
    "arity": 3
   },
   {
-   "id": "e314",
+   "id": "e322",
    "nodes": [
     "keyword:simple unicyclic machines",
     "keyword:unicyclic machine",
@@ -40962,7 +41354,7 @@
    "arity": 7
   },
   {
-   "id": "e315",
+   "id": "e323",
    "nodes": [
     "keyword:output transition",
     "keyword:strongly coupled machines exactly",
@@ -40976,7 +41368,7 @@
    "arity": 6
   },
   {
-   "id": "e316",
+   "id": "e324",
    "nodes": [
     "keyword:models combining discrete",
     "keyword:molecular motor",
@@ -40991,7 +41383,7 @@
    "arity": 7
   },
   {
-   "id": "e317",
+   "id": "e325",
    "nodes": [
     "keyword:assume ordinary heat conduction",
     "keyword:heat flux taken",
@@ -41004,7 +41396,7 @@
    "arity": 5
   },
   {
-   "id": "e318",
+   "id": "e326",
    "nodes": [
     "keyword:different temperature",
     "keyword:straightforward since one needs significant temperature differences",
@@ -41018,7 +41410,7 @@
    "arity": 6
   },
   {
-   "id": "e319",
+   "id": "e327",
    "nodes": [
     "keyword:heat engine",
     "keyword:micron-sized heat engine based",
@@ -41032,7 +41424,7 @@
    "arity": 6
   },
   {
-   "id": "e320",
+   "id": "e328",
    "nodes": [
     "keyword:appropriate",
     "keyword:basic assumption",
@@ -41048,7 +41440,7 @@
    "arity": 8
   },
   {
-   "id": "e321",
+   "id": "e329",
    "nodes": [
     "keyword:entropy production",
     "keyword:stochastic entropy",
@@ -41061,7 +41453,7 @@
    "arity": 5
   },
   {
-   "id": "e322",
+   "id": "e330",
    "nodes": [
     "keyword:slow one",
     "project:fulltext",
@@ -41072,7 +41464,7 @@
    "arity": 3
   },
   {
-   "id": "e323",
+   "id": "e331",
    "nodes": [
     "keyword:equilibrium systems",
     "keyword:non-equilibrium chemical potential",
@@ -41087,7 +41479,7 @@
    "arity": 7
   },
   {
-   "id": "e324",
+   "id": "e332",
    "nodes": [
     "keyword:classical thermodynamics albeit",
     "keyword:optimizing quite practical matters like",
@@ -41100,7 +41492,7 @@
    "arity": 5
   },
   {
-   "id": "e325",
+   "id": "e333",
    "nodes": [
     "keyword:graduate students",
     "keyword:long-standing enjoyable collaboration",
@@ -41116,7 +41508,7 @@
    "arity": 8
   },
   {
-   "id": "e326",
+   "id": "e334",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -41126,7 +41518,7 @@
    "arity": 2
   },
   {
-   "id": "e327",
+   "id": "e335",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -41136,7 +41528,7 @@
    "arity": 2
   },
   {
-   "id": "e328",
+   "id": "e336",
    "nodes": [
     "project:fulltext",
     "section:[commons and cooperatives]"
@@ -41146,7 +41538,7 @@
    "arity": 2
   },
   {
-   "id": "e329",
+   "id": "e337",
    "nodes": [
     "project:fulltext",
     "section:[[scholars commons @ laurier](https://scholars.wlu.ca/)]"
@@ -41156,7 +41548,7 @@
    "arity": 2
   },
   {
-   "id": "e330",
+   "id": "e338",
    "nodes": [
     "keyword:additional works",
     "keyword:nick dyer-witheford university",
@@ -41168,7 +41560,7 @@
    "arity": 4
   },
   {
-   "id": "e331",
+   "id": "e339",
    "nodes": [
     "keyword:communication studies faculty publications",
     "project:fulltext",
@@ -41179,7 +41571,7 @@
    "arity": 3
   },
   {
-   "id": "e332",
+   "id": "e340",
    "nodes": [
     "keyword:commons struggles",
     "keyword:labour commons",
@@ -41194,7 +41586,7 @@
    "arity": 7
   },
   {
-   "id": "e333",
+   "id": "e341",
    "nodes": [
     "keyword:labour commons",
     "project:fulltext",
@@ -41205,7 +41597,7 @@
    "arity": 3
   },
   {
-   "id": "e334",
+   "id": "e342",
    "nodes": [
     "keyword:associated labour plying",
     "keyword:worker coop capital",
@@ -41217,7 +41609,7 @@
    "arity": 4
   },
   {
-   "id": "e335",
+   "id": "e343",
    "nodes": [
     "keyword:canadian worker coop federation",
     "keyword:worker coop",
@@ -41230,7 +41622,7 @@
    "arity": 5
   },
   {
-   "id": "e336",
+   "id": "e344",
    "nodes": [
     "keyword:individual worker-owners",
     "keyword:worker-owned coops whose core activities range",
@@ -41242,7 +41634,7 @@
    "arity": 4
   },
   {
-   "id": "e337",
+   "id": "e345",
    "nodes": [
     "keyword:coops relation",
     "keyword:offers mcc coops extensive research assistance",
@@ -41256,7 +41648,7 @@
    "arity": 6
   },
   {
-   "id": "e338",
+   "id": "e346",
    "nodes": [
     "project:fulltext",
     "section:[state support]"
@@ -41266,7 +41658,7 @@
    "arity": 2
   },
   {
-   "id": "e339",
+   "id": "e347",
    "nodes": [
     "keyword:labour commons",
     "keyword:networked commons",
@@ -41279,7 +41671,7 @@
    "arity": 5
   },
   {
-   "id": "e340",
+   "id": "e348",
    "nodes": [
     "project:fulltext",
     "section:[endnotes]"
@@ -41289,7 +41681,7 @@
    "arity": 2
   },
   {
-   "id": "e341",
+   "id": "e349",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -41299,7 +41691,7 @@
    "arity": 2
   },
   {
-   "id": "e342",
+   "id": "e350",
    "nodes": [
     "project:fulltext",
     "section:[commons and cooperatives]"
@@ -41309,7 +41701,7 @@
    "arity": 2
   },
   {
-   "id": "e343",
+   "id": "e351",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -41319,7 +41711,7 @@
    "arity": 2
   },
   {
-   "id": "e344",
+   "id": "e352",
    "nodes": [
     "project:fulltext",
     "section:[worker cooperatives and democratic governance]"
@@ -41329,7 +41721,7 @@
    "arity": 2
   },
   {
-   "id": "e345",
+   "id": "e353",
    "nodes": [
     "keyword:labor",
     "keyword:study",
@@ -41341,7 +41733,7 @@
    "arity": 4
   },
   {
-   "id": "e346",
+   "id": "e354",
    "nodes": [
     "keyword:iza",
     "project:fulltext",
@@ -41352,7 +41744,7 @@
    "arity": 3
   },
   {
-   "id": "e347",
+   "id": "e355",
    "nodes": [
     "keyword:iza guiding principles",
     "keyword:iza research network",
@@ -41364,7 +41756,7 @@
    "arity": 4
   },
   {
-   "id": "e348",
+   "id": "e356",
    "nodes": [
     "keyword:co-ops",
     "keyword:worker co-operative",
@@ -41377,7 +41769,7 @@
    "arity": 5
   },
   {
-   "id": "e349",
+   "id": "e357",
    "nodes": [
     "keyword:john pencavel",
     "project:fulltext",
@@ -41388,7 +41780,7 @@
    "arity": 3
   },
   {
-   "id": "e350",
+   "id": "e358",
    "nodes": [
     "keyword:uruguayan worker co-ops",
     "keyword:worker co-op combines worker ownership",
@@ -41402,7 +41794,7 @@
    "arity": 6
   },
   {
-   "id": "e351",
+   "id": "e359",
    "nodes": [
     "keyword:firms production functions",
     "keyword:others worker co-ops",
@@ -41417,7 +41809,7 @@
    "arity": 7
   },
   {
-   "id": "e352",
+   "id": "e360",
    "nodes": [
     "keyword:democratic capitalist sympathies",
     "keyword:develop democratic workplaces often run",
@@ -41431,7 +41823,7 @@
    "arity": 6
   },
   {
-   "id": "e353",
+   "id": "e361",
    "nodes": [
     "keyword:describe worker co-ops",
     "keyword:worker co-op",
@@ -41445,7 +41837,7 @@
    "arity": 6
   },
   {
-   "id": "e354",
+   "id": "e362",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -41455,7 +41847,7 @@
    "arity": 2
   },
   {
-   "id": "e355",
+   "id": "e363",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -41465,7 +41857,7 @@
    "arity": 2
   },
   {
-   "id": "e356",
+   "id": "e364",
    "nodes": [
     "project:fulltext",
     "section:[rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes]"
@@ -41475,7 +41867,7 @@
    "arity": 2
   },
   {
-   "id": "e357",
+   "id": "e365",
    "nodes": [
     "keyword:rational extended thermodynamic theory",
     "keyword:rational extended thermodynamics",
@@ -41487,7 +41879,7 @@
    "arity": 4
   },
   {
-   "id": "e358",
+   "id": "e366",
    "nodes": [
     "keyword:energy density gll",
     "keyword:specific internal energy composed",
@@ -41501,7 +41893,7 @@
    "arity": 6
   },
   {
-   "id": "e359",
+   "id": "e367",
    "nodes": [
     "keyword:equilibrium distribution function",
     "keyword:internal modes",
@@ -41516,7 +41908,7 @@
    "arity": 7
   },
   {
-   "id": "e360",
+   "id": "e368",
    "nodes": [
     "keyword:energy density gll",
     "keyword:entropy density",
@@ -41531,7 +41923,7 @@
    "arity": 7
   },
   {
-   "id": "e361",
+   "id": "e369",
    "nodes": [
     "keyword:entropy density",
     "keyword:equilibrium distribution function",
@@ -41545,7 +41937,7 @@
    "arity": 6
   },
   {
-   "id": "e362",
+   "id": "e370",
    "nodes": [
     "keyword:equilibrium distribution function",
     "keyword:formula-not-decoded",
@@ -41558,7 +41950,7 @@
    "arity": 5
   },
   {
-   "id": "e363",
+   "id": "e371",
    "nodes": [
     "keyword:balance equations",
     "keyword:obtain three hierarchies",
@@ -41571,7 +41963,7 @@
    "arity": 5
   },
   {
-   "id": "e364",
+   "id": "e372",
    "nodes": [
     "keyword:compactly expressed",
     "keyword:finite system",
@@ -41585,7 +41977,7 @@
    "arity": 6
   },
   {
-   "id": "e365",
+   "id": "e373",
    "nodes": [
     "project:fulltext",
     "section:[1. galilean invariance]"
@@ -41595,7 +41987,7 @@
    "arity": 2
   },
   {
-   "id": "e366",
+   "id": "e374",
    "nodes": [
     "project:fulltext",
     "section:[2. mep and the closure of the system]"
@@ -41605,7 +41997,7 @@
    "arity": 2
   },
   {
-   "id": "e367",
+   "id": "e375",
    "nodes": [
     "keyword:collision term struchtrup",
     "keyword:internal mode",
@@ -41620,7 +42012,7 @@
    "arity": 7
   },
   {
-   "id": "e368",
+   "id": "e376",
    "nodes": [
     "keyword:possible relaxation processes",
     "keyword:relaxation process",
@@ -41635,7 +42027,7 @@
    "arity": 7
   },
   {
-   "id": "e369",
+   "id": "e377",
    "nodes": [
     "keyword:distribution function fkr",
     "keyword:local equilibrium distribution function given",
@@ -41647,7 +42039,7 @@
    "arity": 4
   },
   {
-   "id": "e370",
+   "id": "e378",
    "nodes": [
     "keyword:distribution functions",
     "keyword:entropy production",
@@ -41662,7 +42054,7 @@
    "arity": 7
   },
   {
-   "id": "e371",
+   "id": "e379",
    "nodes": [
     "keyword:closed system",
     "keyword:et7 theory focuses",
@@ -41677,7 +42069,7 @@
    "arity": 7
   },
   {
-   "id": "e372",
+   "id": "e380",
    "nodes": [
     "keyword:balance equations",
     "keyword:easily verified",
@@ -41691,7 +42083,7 @@
    "arity": 6
   },
   {
-   "id": "e373",
+   "id": "e381",
    "nodes": [
     "keyword:first",
     "keyword:following statement",
@@ -41704,7 +42096,7 @@
    "arity": 5
   },
   {
-   "id": "e374",
+   "id": "e382",
    "nodes": [
     "keyword:erent temperatures",
     "keyword:nonequilibrium chemical potentials",
@@ -41720,7 +42112,7 @@
    "arity": 8
   },
   {
-   "id": "e375",
+   "id": "e383",
    "nodes": [
     "keyword:constitutive equations",
     "keyword:constitutive equations above",
@@ -41733,7 +42125,7 @@
    "arity": 5
   },
   {
-   "id": "e376",
+   "id": "e384",
    "nodes": [
     "keyword:entropy density",
     "keyword:entropy flux",
@@ -41747,7 +42139,7 @@
    "arity": 6
   },
   {
-   "id": "e377",
+   "id": "e385",
    "nodes": [
     "keyword:collision term",
     "keyword:formula-not-decoded",
@@ -41761,7 +42153,7 @@
    "arity": 6
   },
   {
-   "id": "e378",
+   "id": "e386",
    "nodes": [
     "keyword:et7 theory",
     "keyword:features",
@@ -41774,7 +42166,7 @@
    "arity": 5
   },
   {
-   "id": "e379",
+   "id": "e387",
    "nodes": [
     "keyword:et7 theory",
     "keyword:internal variables",
@@ -41789,7 +42181,7 @@
    "arity": 7
   },
   {
-   "id": "e380",
+   "id": "e388",
    "nodes": [
     "keyword:formula-not-decoded",
     "keyword:specific heat defined",
@@ -41802,7 +42194,7 @@
    "arity": 5
   },
   {
-   "id": "e381",
+   "id": "e389",
    "nodes": [
     "keyword:et6 theory studied",
     "keyword:previous et6 theory",
@@ -41816,7 +42208,7 @@
    "arity": 6
   },
   {
-   "id": "e382",
+   "id": "e390",
    "nodes": [
     "project:fulltext",
     "section:[d. near equilibrium case]"
@@ -41826,7 +42218,7 @@
    "arity": 2
   },
   {
-   "id": "e383",
+   "id": "e391",
    "nodes": [
     "keyword:initial time",
     "keyword:internal molecular relaxation processes",
@@ -41840,7 +42232,7 @@
    "arity": 6
   },
   {
-   "id": "e384",
+   "id": "e392",
    "nodes": [
     "keyword:dispersion relation",
     "keyword:experimental data",
@@ -41856,7 +42248,7 @@
    "arity": 8
   },
   {
-   "id": "e385",
+   "id": "e393",
    "nodes": [
     "keyword:dispersion relation",
     "keyword:dispersion relations",
@@ -41871,7 +42263,7 @@
    "arity": 7
   },
   {
-   "id": "e386",
+   "id": "e394",
    "nodes": [
     "keyword:characteristic temperature dependence",
     "keyword:typical temperature dependence",
@@ -41883,7 +42275,7 @@
    "arity": 4
   },
   {
-   "id": "e387",
+   "id": "e395",
    "nodes": [
     "keyword:br2 gases",
     "keyword:bulk viscosity coe cients",
@@ -41895,7 +42287,7 @@
    "arity": 4
   },
   {
-   "id": "e388",
+   "id": "e396",
    "nodes": [
     "keyword:detailed shock wave structure",
     "keyword:peculiar shock wave structure",
@@ -41910,7 +42302,7 @@
    "arity": 7
   },
   {
-   "id": "e389",
+   "id": "e397",
    "nodes": [
     "keyword:jsps kakenhi grant numbers jp15k21452",
     "keyword:mathematical physics gnfm-indam",
@@ -41925,7 +42317,7 @@
    "arity": 7
   },
   {
-   "id": "e390",
+   "id": "e398",
    "nodes": [
     "project:fulltext",
     "section:[appendix: proof of statement 2]"
@@ -41935,7 +42327,7 @@
    "arity": 2
   },
   {
-   "id": "e391",
+   "id": "e399",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -41945,7 +42337,7 @@
    "arity": 2
   },
   {
-   "id": "e392",
+   "id": "e400",
    "nodes": [
     "project:fulltext",
     "section:[are cooperative societies transforming into cooperative companies?: reflections on the finnish cooperatives act]"
@@ -41955,7 +42347,7 @@
    "arity": 2
   },
   {
-   "id": "e393",
+   "id": "e401",
    "nodes": [
     "project:fulltext",
     "section:[are cooperative societies transforming into cooperative companies? : reflections on the finnish cooperatives act: ovatko osuuskuntayhteis\u00f6t muuttumassa osuuskuntayhti\u00f6iksi : vertailua suomen osuuskuntalakiin]"
@@ -41965,7 +42357,7 @@
    "arity": 2
   },
   {
-   "id": "e394",
+   "id": "e402",
    "nodes": [
     "keyword:cooperative law",
     "keyword:cooperative law using",
@@ -41978,7 +42370,7 @@
    "arity": 5
   },
   {
-   "id": "e395",
+   "id": "e403",
    "nodes": [
     "keyword:finnish cooperative law",
     "keyword:international cooperative law research",
@@ -41991,7 +42383,7 @@
    "arity": 5
   },
   {
-   "id": "e396",
+   "id": "e404",
    "nodes": [
     "keyword:finnish cooperative law",
     "keyword:second finnish cooperative law",
@@ -42004,7 +42396,7 @@
    "arity": 5
   },
   {
-   "id": "e397",
+   "id": "e405",
    "nodes": [
     "keyword:cooperative law",
     "keyword:drafting cooperative law",
@@ -42017,7 +42409,7 @@
    "arity": 5
   },
   {
-   "id": "e398",
+   "id": "e406",
    "nodes": [
     "keyword:cooperative membership",
     "keyword:nkner calls cooperative shares classical shares",
@@ -42031,7 +42423,7 @@
    "arity": 6
   },
   {
-   "id": "e399",
+   "id": "e407",
    "nodes": [
     "project:fulltext",
     "section:[3.2. democratic member control]"
@@ -42041,7 +42433,7 @@
    "arity": 2
   },
   {
-   "id": "e400",
+   "id": "e408",
    "nodes": [
     "keyword:cooperative capital",
     "keyword:cooperative law theory membership",
@@ -42055,7 +42447,7 @@
    "arity": 6
   },
   {
-   "id": "e401",
+   "id": "e409",
    "nodes": [
     "keyword:cooperative law theory",
     "keyword:cooperative members",
@@ -42069,7 +42461,7 @@
    "arity": 6
   },
   {
-   "id": "e402",
+   "id": "e410",
    "nodes": [
     "keyword:cooperative principles",
     "keyword:last three cooperative principles",
@@ -42082,7 +42474,7 @@
    "arity": 5
   },
   {
-   "id": "e403",
+   "id": "e411",
    "nodes": [
     "keyword:finnish cooperative law",
     "keyword:international cooperative law theory",
@@ -42094,7 +42486,7 @@
    "arity": 4
   },
   {
-   "id": "e404",
+   "id": "e412",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -42104,7 +42496,7 @@
    "arity": 2
   },
   {
-   "id": "e405",
+   "id": "e413",
    "nodes": [
     "keyword:business",
     "project:fulltext",
@@ -42115,7 +42507,7 @@
    "arity": 3
   },
   {
-   "id": "e406",
+   "id": "e414",
    "nodes": [
     "keyword:department",
     "project:fulltext",
@@ -42126,7 +42518,7 @@
    "arity": 3
   },
   {
-   "id": "e407",
+   "id": "e415",
    "nodes": [
     "keyword:department",
     "project:fulltext",
@@ -42137,7 +42529,7 @@
    "arity": 3
   },
   {
-   "id": "e408",
+   "id": "e416",
    "nodes": [
     "project:fulltext",
     "section:[jon landeta]"
@@ -42147,7 +42539,7 @@
    "arity": 2
   },
   {
-   "id": "e409",
+   "id": "e417",
    "nodes": [
     "keyword:department",
     "project:fulltext",
@@ -42158,7 +42550,7 @@
    "arity": 3
   },
   {
-   "id": "e410",
+   "id": "e418",
    "nodes": [
     "keyword:department",
     "project:fulltext",
@@ -42169,7 +42561,7 @@
    "arity": 3
   },
   {
-   "id": "e411",
+   "id": "e419",
    "nodes": [
     "keyword:institute",
     "project:fulltext",
@@ -42180,7 +42572,7 @@
    "arity": 3
   },
   {
-   "id": "e412",
+   "id": "e420",
    "nodes": [
     "keyword:internationalization processes",
     "keyword:spanish machine-tool cooperatives helps",
@@ -42192,7 +42584,7 @@
    "arity": 4
   },
   {
-   "id": "e413",
+   "id": "e421",
    "nodes": [
     "keyword:coopetitive innovation",
     "keyword:knowledge leakage inhibit many firms",
@@ -42204,7 +42596,7 @@
    "arity": 4
   },
   {
-   "id": "e414",
+   "id": "e422",
    "nodes": [
     "keyword:past research recognizes",
     "keyword:raza-ullah",
@@ -42216,7 +42608,7 @@
    "arity": 4
   },
   {
-   "id": "e415",
+   "id": "e423",
    "nodes": [
     "keyword:factors playing against knowledge sharing",
     "keyword:knowledge against imitation obtain greater innovation outcomes",
@@ -42230,7 +42622,7 @@
    "arity": 6
   },
   {
-   "id": "e416",
+   "id": "e424",
    "nodes": [
     "keyword:after-sale processes often require direct",
     "keyword:european smes",
@@ -42244,7 +42636,7 @@
    "arity": 6
   },
   {
-   "id": "e417",
+   "id": "e425",
    "nodes": [
     "keyword:mondragon cooperatives",
     "keyword:mondragon corporation",
@@ -42256,7 +42648,7 @@
    "arity": 4
   },
   {
-   "id": "e418",
+   "id": "e426",
    "nodes": [
     "project:fulltext",
     "section:[3.- methodology]"
@@ -42266,7 +42658,7 @@
    "arity": 2
   },
   {
-   "id": "e419",
+   "id": "e427",
    "nodes": [
     "keyword:collaborative efforts",
     "keyword:four sections",
@@ -42279,7 +42671,7 @@
    "arity": 5
   },
   {
-   "id": "e420",
+   "id": "e428",
    "nodes": [
     "keyword:externally produced knowledge restrains firms",
     "project:fulltext",
@@ -42290,7 +42682,7 @@
    "arity": 3
   },
   {
-   "id": "e421",
+   "id": "e429",
    "nodes": [
     "keyword:after-sale services",
     "keyword:after-sale services allow",
@@ -42304,7 +42696,7 @@
    "arity": 6
   },
   {
-   "id": "e422",
+   "id": "e430",
    "nodes": [
     "project:fulltext",
     "section:[4.3 coopetition on behalf of common customers or with investor-owned firms]"
@@ -42314,7 +42706,7 @@
    "arity": 2
   },
   {
-   "id": "e423",
+   "id": "e431",
    "nodes": [
     "keyword:externally produced knowledge restrains firms",
     "project:fulltext",
@@ -42325,7 +42717,7 @@
    "arity": 3
   },
   {
-   "id": "e424",
+   "id": "e432",
    "nodes": [
     "project:fulltext",
     "section:[5.- conclusions]"
@@ -42335,7 +42727,7 @@
    "arity": 2
   },
   {
-   "id": "e425",
+   "id": "e433",
    "nodes": [
     "keyword:research project direcci",
     "project:fulltext",
@@ -42346,7 +42738,7 @@
    "arity": 3
   },
   {
-   "id": "e426",
+   "id": "e434",
    "nodes": [
     "keyword:coopetition research",
     "project:fulltext",
@@ -42357,7 +42749,7 @@
    "arity": 3
   },
   {
-   "id": "e427",
+   "id": "e435",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -42367,7 +42759,7 @@
    "arity": 2
   },
   {
-   "id": "e428",
+   "id": "e436",
    "nodes": [
     "keyword:mathematical",
     "keyword:physics",
@@ -42379,7 +42771,7 @@
    "arity": 4
   },
   {
-   "id": "e429",
+   "id": "e437",
    "nodes": [
     "keyword:quantum fluctuation relations",
     "keyword:quantum information theory",
@@ -42391,7 +42783,7 @@
    "arity": 4
   },
   {
-   "id": "e430",
+   "id": "e438",
    "nodes": [
     "keyword:quantum information",
     "keyword:quantum information theory",
@@ -42407,7 +42799,7 @@
    "arity": 8
   },
   {
-   "id": "e431",
+   "id": "e439",
    "nodes": [
     "keyword:quantum information community",
     "keyword:quantum information theorists",
@@ -42421,7 +42813,7 @@
    "arity": 6
   },
   {
-   "id": "e432",
+   "id": "e440",
    "nodes": [
     "keyword:applying different unitary transformations",
     "keyword:shannon entropy",
@@ -42435,7 +42827,7 @@
    "arity": 6
   },
   {
-   "id": "e433",
+   "id": "e441",
    "nodes": [
     "keyword:fully quantum mechanical perspective",
     "keyword:quantum information",
@@ -42450,7 +42842,7 @@
    "arity": 7
   },
   {
-   "id": "e434",
+   "id": "e442",
    "nodes": [
     "keyword:states",
     "project:fulltext",
@@ -42461,7 +42853,7 @@
    "arity": 3
   },
   {
-   "id": "e435",
+   "id": "e443",
    "nodes": [
     "keyword:microscopic theory",
     "keyword:progress made",
@@ -42476,7 +42868,7 @@
    "arity": 7
   },
   {
-   "id": "e436",
+   "id": "e444",
    "nodes": [
     "keyword:physical states",
     "keyword:priori probabilities states",
@@ -42490,7 +42882,7 @@
    "arity": 6
   },
   {
-   "id": "e437",
+   "id": "e445",
    "nodes": [
     "keyword:certain state",
     "keyword:equilibrium state introduced",
@@ -42506,7 +42898,7 @@
    "arity": 8
   },
   {
-   "id": "e438",
+   "id": "e446",
    "nodes": [
     "keyword:gibbs ensemble",
     "keyword:gibbs state",
@@ -42521,7 +42913,7 @@
    "arity": 7
   },
   {
-   "id": "e439",
+   "id": "e447",
    "nodes": [
     "keyword:equilibration process takes",
     "keyword:equilibration time",
@@ -42537,7 +42929,7 @@
    "arity": 8
   },
   {
-   "id": "e440",
+   "id": "e448",
    "nodes": [
     "keyword:classify quantum systems",
     "keyword:many body quantum systems",
@@ -42551,7 +42943,7 @@
    "arity": 6
   },
   {
-   "id": "e441",
+   "id": "e449",
    "nodes": [
     "keyword:allowed state transformations",
     "keyword:quantum state",
@@ -42565,7 +42957,7 @@
    "arity": 6
   },
   {
-   "id": "e442",
+   "id": "e450",
    "nodes": [
     "keyword:allowed operations",
     "keyword:different models",
@@ -42580,7 +42972,7 @@
    "arity": 7
   },
   {
-   "id": "e443",
+   "id": "e451",
    "nodes": [
     "keyword:fully mixed state",
     "keyword:fully mixed states",
@@ -42595,7 +42987,7 @@
    "arity": 7
   },
   {
-   "id": "e444",
+   "id": "e452",
    "nodes": [
     "keyword:equilibrium states",
     "keyword:gibbs states",
@@ -42608,7 +43000,7 @@
    "arity": 5
   },
   {
-   "id": "e445",
+   "id": "e453",
    "nodes": [
     "keyword:general quantum states",
     "keyword:gibbs-preserving map",
@@ -42625,7 +43017,7 @@
    "arity": 9
   },
   {
-   "id": "e446",
+   "id": "e454",
    "nodes": [
     "keyword:coherence reservoir would",
     "keyword:coherence reservoirs",
@@ -42641,7 +43033,7 @@
    "arity": 8
   },
   {
-   "id": "e447",
+   "id": "e455",
    "nodes": [
     "keyword:quantities represent optimal conversion rates",
     "project:fulltext",
@@ -42652,7 +43044,7 @@
    "arity": 3
   },
   {
-   "id": "e448",
+   "id": "e456",
    "nodes": [
     "keyword:catalytic properties stay unaffected",
     "keyword:desired state",
@@ -42668,7 +43060,7 @@
    "arity": 8
   },
   {
-   "id": "e449",
+   "id": "e457",
    "nodes": [
     "keyword:hamiltonian applied",
     "keyword:quantum state",
@@ -42682,7 +43074,7 @@
    "arity": 6
   },
   {
-   "id": "e450",
+   "id": "e458",
    "nodes": [
     "keyword:gibbs states",
     "keyword:gibbs states come",
@@ -42696,7 +43088,7 @@
    "arity": 6
   },
   {
-   "id": "e451",
+   "id": "e459",
    "nodes": [
     "keyword:build heat engines",
     "keyword:build two-qubit heat engines",
@@ -42709,7 +43101,7 @@
    "arity": 5
   },
   {
-   "id": "e452",
+   "id": "e460",
    "nodes": [
     "keyword:baths",
     "keyword:general conserved quantities",
@@ -42724,7 +43116,7 @@
    "arity": 7
   },
   {
-   "id": "e453",
+   "id": "e461",
    "nodes": [
     "keyword:draw arbitrary thermal subsystems",
     "keyword:heat bath",
@@ -42738,7 +43130,7 @@
    "arity": 6
   },
   {
-   "id": "e454",
+   "id": "e462",
    "nodes": [
     "keyword:single-shot",
     "keyword:single-shot free energy",
@@ -42752,7 +43144,7 @@
    "arity": 6
   },
   {
-   "id": "e455",
+   "id": "e463",
    "nodes": [
     "keyword:average work",
     "keyword:define work",
@@ -42767,7 +43159,7 @@
    "arity": 7
   },
   {
-   "id": "e456",
+   "id": "e464",
    "nodes": [
     "keyword:abstract",
     "keyword:common features",
@@ -42783,7 +43175,7 @@
    "arity": 8
   },
   {
-   "id": "e457",
+   "id": "e465",
    "nodes": [
     "keyword:abstract state space equipped",
     "keyword:allowed transformations",
@@ -42798,7 +43190,7 @@
    "arity": 7
   },
   {
-   "id": "e458",
+   "id": "e466",
    "nodes": [
     "keyword:free resources",
     "keyword:free state",
@@ -42813,7 +43205,7 @@
    "arity": 7
   },
   {
-   "id": "e459",
+   "id": "e467",
    "nodes": [
     "keyword:authors identify quantitative theories",
     "keyword:many different resources",
@@ -42826,7 +43218,7 @@
    "arity": 5
   },
   {
-   "id": "e460",
+   "id": "e468",
    "nodes": [
     "keyword:completely unknown state",
     "keyword:perform logical operations",
@@ -42840,7 +43232,7 @@
    "arity": 6
   },
   {
-   "id": "e461",
+   "id": "e469",
    "nodes": [
     "keyword:different agents perspectives",
     "keyword:embed macroscopic descriptions",
@@ -42854,7 +43246,7 @@
    "arity": 6
   },
   {
-   "id": "e462",
+   "id": "e470",
    "nodes": [
     "keyword:coherent quantum states",
     "keyword:find meaningful resource theories",
@@ -42869,7 +43261,7 @@
    "arity": 7
   },
   {
-   "id": "e463",
+   "id": "e471",
    "nodes": [
     "keyword:quantum information",
     "keyword:quantum information processing",
@@ -42885,7 +43277,7 @@
    "arity": 8
   },
   {
-   "id": "e464",
+   "id": "e472",
    "nodes": [
     "keyword:best conceivable operation creating entanglement",
     "keyword:entanglement theory classically correlated states come",
@@ -42900,7 +43292,7 @@
    "arity": 7
   },
   {
-   "id": "e465",
+   "id": "e473",
    "nodes": [
     "keyword:always induce work cost related",
     "keyword:bipartite quantum states",
@@ -42919,7 +43311,7 @@
    "arity": 11
   },
   {
-   "id": "e466",
+   "id": "e474",
    "nodes": [
     "keyword:additional locality restrictions",
     "keyword:bipartite quantum states",
@@ -42936,7 +43328,7 @@
    "arity": 9
   },
   {
-   "id": "e467",
+   "id": "e475",
    "nodes": [
     "keyword:entangling unitaries enable work extraction",
     "keyword:extract work indicates",
@@ -42952,7 +43344,7 @@
    "arity": 8
   },
   {
-   "id": "e468",
+   "id": "e476",
    "nodes": [
     "keyword:directly imply entanglement",
     "keyword:fact often many low energy eigenstates even",
@@ -42967,7 +43359,7 @@
    "arity": 7
   },
   {
-   "id": "e469",
+   "id": "e477",
    "nodes": [
     "keyword:adaptively quantifies possible resources",
     "keyword:capture one specific aspect",
@@ -42982,7 +43374,7 @@
    "arity": 7
   },
   {
-   "id": "e470",
+   "id": "e478",
    "nodes": [
     "keyword:externally controlled work parameter lambda",
     "keyword:quantum work distribution",
@@ -42997,7 +43389,7 @@
    "arity": 7
   },
   {
-   "id": "e471",
+   "id": "e479",
    "nodes": [
     "keyword:evolving quantum system",
     "keyword:quantum state",
@@ -43014,7 +43406,7 @@
    "arity": 9
   },
   {
-   "id": "e472",
+   "id": "e480",
    "nodes": [
     "keyword:feedback based fluctuation theorems",
     "keyword:feedback controlled scenario",
@@ -43029,7 +43421,7 @@
    "arity": 7
   },
   {
-   "id": "e473",
+   "id": "e481",
    "nodes": [
     "keyword:correlated quantum systems",
     "keyword:general quantum correlations",
@@ -43044,7 +43436,7 @@
    "arity": 7
   },
   {
-   "id": "e474",
+   "id": "e482",
    "nodes": [
     "keyword:quantum fluctuation theorems",
     "keyword:quantum information theory",
@@ -43057,7 +43449,7 @@
    "arity": 5
   },
   {
-   "id": "e475",
+   "id": "e483",
    "nodes": [
     "keyword:one thermal bath",
     "keyword:quantum machines",
@@ -43072,7 +43464,7 @@
    "arity": 7
   },
   {
-   "id": "e476",
+   "id": "e484",
    "nodes": [
     "keyword:absorption refrigerator",
     "keyword:room temperature reservoir",
@@ -43086,7 +43478,7 @@
    "arity": 6
   },
   {
-   "id": "e477",
+   "id": "e485",
    "nodes": [
     "keyword:infinite temperature",
     "keyword:inverse temperature",
@@ -43098,7 +43490,7 @@
    "arity": 4
   },
   {
-   "id": "e478",
+   "id": "e486",
    "nodes": [
     "keyword:authors studied quantum discord",
     "keyword:quantum correlation weaker",
@@ -43113,7 +43505,7 @@
    "arity": 7
   },
   {
-   "id": "e479",
+   "id": "e487",
    "nodes": [
     "keyword:entanglement",
     "keyword:entanglement found",
@@ -43128,7 +43520,7 @@
    "arity": 7
   },
   {
-   "id": "e480",
+   "id": "e488",
    "nodes": [
     "keyword:rabi oscillations",
     "keyword:strong-interaction case rabi oscillations indeed take place",
@@ -43141,7 +43533,7 @@
    "arity": 5
   },
   {
-   "id": "e481",
+   "id": "e489",
    "nodes": [
     "keyword:fact squeezed thermal states",
     "keyword:quantum thermal machines",
@@ -43157,7 +43549,7 @@
    "arity": 8
   },
   {
-   "id": "e482",
+   "id": "e490",
    "nodes": [
     "keyword:genuinely using quantum effects",
     "keyword:quantum behaviour",
@@ -43173,7 +43565,7 @@
    "arity": 8
   },
   {
-   "id": "e483",
+   "id": "e491",
    "nodes": [
     "keyword:experimentally accessible situations steady state entanglement",
     "keyword:non-equilibrium steady state",
@@ -43188,7 +43580,7 @@
    "arity": 7
   },
   {
-   "id": "e484",
+   "id": "e492",
    "nodes": [
     "keyword:quantum thermal machines",
     "keyword:standard quantum error correction ideas",
@@ -43200,7 +43592,7 @@
    "arity": 4
   },
   {
-   "id": "e485",
+   "id": "e493",
    "nodes": [
     "keyword:many fields currently contributing",
     "keyword:plac- ing information",
@@ -43215,7 +43607,7 @@
    "arity": 7
   },
   {
-   "id": "e486",
+   "id": "e494",
    "nodes": [
     "keyword:adapted",
     "keyword:authors contributed equally",
@@ -43229,7 +43621,7 @@
    "arity": 6
   },
   {
-   "id": "e487",
+   "id": "e495",
    "nodes": [
     "project:fulltext",
     "section:[acknowledgements]"
@@ -43239,7 +43631,7 @@
    "arity": 2
   },
   {
-   "id": "e488",
+   "id": "e496",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -43249,7 +43641,7 @@
    "arity": 2
   },
   {
-   "id": "e489",
+   "id": "e497",
    "nodes": [
     "keyword:idar vla",
     "project:fulltext",
@@ -43260,7 +43652,7 @@
    "arity": 3
   },
   {
-   "id": "e490",
+   "id": "e498",
    "nodes": [
     "keyword:coopetition",
     "keyword:following publication",
@@ -43275,7 +43667,7 @@
    "arity": 7
   },
   {
-   "id": "e491",
+   "id": "e499",
    "nodes": [
     "keyword:corbo",
     "keyword:dabic",
@@ -43290,7 +43682,7 @@
    "arity": 7
   },
   {
-   "id": "e492",
+   "id": "e500",
    "nodes": [
     "keyword:available",
     "keyword:technovation",
@@ -43303,7 +43695,7 @@
    "arity": 5
   },
   {
-   "id": "e493",
+   "id": "e501",
    "nodes": [
     "keyword:final published version",
     "keyword:published version",
@@ -43315,7 +43707,7 @@
    "arity": 4
   },
   {
-   "id": "e494",
+   "id": "e502",
    "nodes": [
     "keyword:conditions",
     "keyword:information see",
@@ -43331,7 +43723,7 @@
    "arity": 8
   },
   {
-   "id": "e495",
+   "id": "e503",
    "nodes": [
     "keyword:coopetition",
     "keyword:innovation research hinges",
@@ -43344,7 +43736,7 @@
    "arity": 5
   },
   {
-   "id": "e496",
+   "id": "e504",
    "nodes": [
     "keyword:outlining emerging themes",
     "keyword:promising future research avenues",
@@ -43358,7 +43750,7 @@
    "arity": 6
   },
   {
-   "id": "e497",
+   "id": "e505",
    "nodes": [
     "project:fulltext",
     "section:[1. introduction]"
@@ -43368,7 +43760,7 @@
    "arity": 2
   },
   {
-   "id": "e498",
+   "id": "e506",
    "nodes": [
     "keyword:data",
     "keyword:data collection",
@@ -43382,7 +43774,7 @@
    "arity": 6
   },
   {
-   "id": "e499",
+   "id": "e507",
    "nodes": [
     "keyword:key codes",
     "project:fulltext",
@@ -43393,7 +43785,7 @@
    "arity": 3
   },
   {
-   "id": "e500",
+   "id": "e508",
    "nodes": [
     "keyword:mca analysis",
     "keyword:merge different inter-related descriptors",
@@ -43405,7 +43797,7 @@
    "arity": 4
   },
   {
-   "id": "e501",
+   "id": "e509",
    "nodes": [
     "project:fulltext",
     "section:[3. findings]"
@@ -43415,7 +43807,7 @@
    "arity": 2
   },
   {
-   "id": "e502",
+   "id": "e510",
    "nodes": [
     "keyword:coopetition triggers radical innovation",
     "keyword:global network coopetition improves innovation",
@@ -43427,7 +43819,7 @@
    "arity": 4
   },
   {
-   "id": "e503",
+   "id": "e511",
    "nodes": [
     "keyword:main themes",
     "keyword:provide",
@@ -43440,7 +43832,7 @@
    "arity": 5
   },
   {
-   "id": "e504",
+   "id": "e512",
    "nodes": [
     "project:fulltext",
     "section:[strategy]"
@@ -43450,7 +43842,7 @@
    "arity": 2
   },
   {
-   "id": "e505",
+   "id": "e513",
    "nodes": [
     "keyword:value creation",
     "project:fulltext",
@@ -43461,7 +43853,7 @@
    "arity": 3
   },
   {
-   "id": "e506",
+   "id": "e514",
    "nodes": [
     "keyword:hierarchy culture",
     "keyword:organizational culture",
@@ -43473,7 +43865,7 @@
    "arity": 4
   },
   {
-   "id": "e507",
+   "id": "e515",
    "nodes": [
     "keyword:appropriability mechanisms",
     "keyword:knowledge protection mechanisms",
@@ -43485,7 +43877,7 @@
    "arity": 4
   },
   {
-   "id": "e508",
+   "id": "e516",
    "nodes": [
     "keyword:coopetition related",
     "project:fulltext",
@@ -43496,7 +43888,7 @@
    "arity": 3
   },
   {
-   "id": "e509",
+   "id": "e517",
    "nodes": [
     "keyword:coopetitive strategies",
     "keyword:even though companies increasingly employ coopetitive strategies",
@@ -43510,7 +43902,7 @@
    "arity": 6
   },
   {
-   "id": "e510",
+   "id": "e518",
    "nodes": [
     "keyword:bottom left quadrant concerns emerging topics",
     "keyword:future research",
@@ -43523,7 +43915,7 @@
    "arity": 5
   },
   {
-   "id": "e511",
+   "id": "e519",
    "nodes": [
     "keyword:coopetitive innovation",
     "keyword:innovation research",
@@ -43536,7 +43928,7 @@
    "arity": 5
   },
   {
-   "id": "e512",
+   "id": "e520",
    "nodes": [
     "keyword:examine coopetition research",
     "keyword:family firm research",
@@ -43549,7 +43941,7 @@
    "arity": 5
   },
   {
-   "id": "e513",
+   "id": "e521",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -43559,7 +43951,7 @@
    "arity": 2
   },
   {
-   "id": "e514",
+   "id": "e522",
    "nodes": [
     "project:fulltext",
     "section:[figure 1 : methodology protocol]"
@@ -43569,7 +43961,7 @@
    "arity": 2
   },
   {
-   "id": "e515",
+   "id": "e523",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -43579,7 +43971,7 @@
    "arity": 2
   },
   {
-   "id": "e516",
+   "id": "e524",
    "nodes": [
     "project:fulltext",
     "section:[the governance of multistakeholder cooperatives in mondragon: the evolving relationship among purpose, structure and process]"
@@ -43589,7 +43981,7 @@
    "arity": 2
   },
   {
-   "id": "e517",
+   "id": "e525",
    "nodes": [
     "project:fulltext",
     "section:[the  governance  of  multistakeholder cooperatives  in  mondragon:  the  evolving relationship  among  purpose,  structure and  process]"
@@ -43599,7 +43991,7 @@
    "arity": 2
   },
   {
-   "id": "e518",
+   "id": "e526",
    "nodes": [
     "keyword:cooperative governance",
     "project:fulltext",
@@ -43610,7 +44002,7 @@
    "arity": 3
   },
   {
-   "id": "e519",
+   "id": "e527",
    "nodes": [
     "keyword:mondragon cooperative group",
     "keyword:mondragon corporation",
@@ -43623,7 +44015,7 @@
    "arity": 5
   },
   {
-   "id": "e520",
+   "id": "e528",
    "nodes": [
     "keyword:arizmendiarrieta viewed conventional capitalist business",
     "project:fulltext",
@@ -43634,7 +44026,7 @@
    "arity": 3
   },
   {
-   "id": "e521",
+   "id": "e529",
    "nodes": [
     "keyword:mondragon cooperative congress",
     "project:fulltext",
@@ -43645,7 +44037,7 @@
    "arity": 3
   },
   {
-   "id": "e522",
+   "id": "e530",
    "nodes": [
     "project:fulltext",
     "section:[10.2.3 multistakeholder  governance(s) in  the  mondragon  cooperative  experience]"
@@ -43655,7 +44047,7 @@
    "arity": 2
   },
   {
-   "id": "e523",
+   "id": "e531",
    "nodes": [
     "keyword:individual multistakeholder cooperatives",
     "keyword:multistakeholder cooperative experience",
@@ -43668,7 +44060,7 @@
    "arity": 5
   },
   {
-   "id": "e524",
+   "id": "e532",
    "nodes": [
     "project:fulltext",
     "section:[10.3 multistakeholder  cooperatives in  mondragon  cooperative  experience: a  case  study]"
@@ -43678,7 +44070,7 @@
    "arity": 2
   },
   {
-   "id": "e525",
+   "id": "e533",
    "nodes": [
     "keyword:mondragon headquarters department",
     "project:fulltext",
@@ -43689,7 +44081,7 @@
    "arity": 3
   },
   {
-   "id": "e526",
+   "id": "e534",
    "nodes": [
     "keyword:mscs",
     "keyword:structure",
@@ -43701,7 +44093,7 @@
    "arity": 4
   },
   {
-   "id": "e527",
+   "id": "e535",
    "nodes": [
     "project:fulltext",
     "section:[basic  data:  incidence,  evolution,  distribution,  size and  purpose]"
@@ -43711,7 +44103,7 @@
    "arity": 2
   },
   {
-   "id": "e528",
+   "id": "e536",
    "nodes": [
     "keyword:term structure refers",
     "project:fulltext",
@@ -43722,7 +44114,7 @@
    "arity": 3
   },
   {
-   "id": "e529",
+   "id": "e537",
    "nodes": [
     "project:fulltext",
     "section:[legal  form]"
@@ -43732,7 +44124,7 @@
    "arity": 2
   },
   {
-   "id": "e530",
+   "id": "e538",
    "nodes": [
     "project:fulltext",
     "section:[ownership  structure]"
@@ -43742,7 +44134,7 @@
    "arity": 2
   },
   {
-   "id": "e531",
+   "id": "e539",
    "nodes": [
     "project:fulltext",
     "section:[governing  councils  and  general  assemblies]"
@@ -43752,7 +44144,7 @@
    "arity": 2
   },
   {
-   "id": "e532",
+   "id": "e540",
    "nodes": [
     "keyword:social council",
     "project:fulltext",
@@ -43763,7 +44155,7 @@
    "arity": 3
   },
   {
-   "id": "e533",
+   "id": "e541",
    "nodes": [
     "project:fulltext",
     "section:[10.4 discussion:  processes  and  dynamics of  governance  in  mondragon  mscs]"
@@ -43773,7 +44165,7 @@
    "arity": 2
   },
   {
-   "id": "e534",
+   "id": "e542",
    "nodes": [
     "keyword:mondragon mscs",
     "project:fulltext",
@@ -43784,7 +44176,7 @@
    "arity": 3
   },
   {
-   "id": "e535",
+   "id": "e543",
    "nodes": [
     "keyword:cooperative governance",
     "project:fulltext",
@@ -43795,7 +44187,7 @@
    "arity": 3
   },
   {
-   "id": "e536",
+   "id": "e544",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -43805,7 +44197,7 @@
    "arity": 2
   },
   {
-   "id": "e537",
+   "id": "e545",
    "nodes": [
     "keyword:entrpreneurial",
     "project:fulltext",
@@ -43816,7 +44208,7 @@
    "arity": 3
   },
   {
-   "id": "e538",
+   "id": "e546",
    "nodes": [
     "keyword:individual pcs",
     "keyword:individual pcs typically benefit",
@@ -43830,7 +44222,7 @@
    "arity": 6
   },
   {
-   "id": "e539",
+   "id": "e547",
    "nodes": [
     "keyword:returns",
     "project:fulltext",
@@ -43841,7 +44233,7 @@
    "arity": 3
   },
   {
-   "id": "e540",
+   "id": "e548",
    "nodes": [
     "keyword:earlier draft",
     "keyword:subsequently communicated",
@@ -43853,7 +44245,7 @@
    "arity": 4
   },
   {
-   "id": "e541",
+   "id": "e549",
    "nodes": [
     "keyword:individual pcs",
     "keyword:individual pcs-actual real world pcs",
@@ -43867,7 +44259,7 @@
    "arity": 6
   },
   {
-   "id": "e542",
+   "id": "e550",
    "nodes": [
     "keyword:help individual pcs",
     "keyword:help individual pcs operating",
@@ -43880,7 +44272,7 @@
    "arity": 5
   },
   {
-   "id": "e543",
+   "id": "e551",
    "nodes": [
     "keyword:individual pcs",
     "keyword:pcs requiring employee participation",
@@ -43892,7 +44284,7 @@
    "arity": 4
   },
   {
-   "id": "e544",
+   "id": "e552",
    "nodes": [
     "project:fulltext",
     "section:[3. evidence on the nature and effects of shelter organizations]"
@@ -43902,7 +44294,7 @@
    "arity": 2
   },
   {
-   "id": "e545",
+   "id": "e553",
    "nodes": [
     "keyword:many pcs",
     "project:fulltext",
@@ -43913,7 +44305,7 @@
    "arity": 3
   },
   {
-   "id": "e546",
+   "id": "e554",
    "nodes": [
     "keyword:individual pcs alongside",
     "keyword:individual pcs requires active networking",
@@ -43927,7 +44319,7 @@
    "arity": 6
   },
   {
-   "id": "e547",
+   "id": "e555",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -43937,7 +44329,7 @@
    "arity": 2
   },
   {
-   "id": "e548",
+   "id": "e556",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -43947,7 +44339,7 @@
    "arity": 2
   },
   {
-   "id": "e549",
+   "id": "e557",
    "nodes": [
     "keyword:blica social",
     "keyword:econom",
@@ -43960,7 +44352,7 @@
    "arity": 5
   },
   {
-   "id": "e550",
+   "id": "e558",
    "nodes": [
     "keyword:cooperative degeneration",
     "keyword:large cooperatives competing",
@@ -43972,7 +44364,7 @@
    "arity": 4
   },
   {
-   "id": "e551",
+   "id": "e559",
    "nodes": [
     "keyword:article empirically examines issues",
     "keyword:cooperative regeneration",
@@ -43986,7 +44378,7 @@
    "arity": 6
   },
   {
-   "id": "e552",
+   "id": "e560",
    "nodes": [
     "keyword:collected archival data",
     "keyword:large cooperative groups",
@@ -44000,7 +44392,7 @@
    "arity": 6
   },
   {
-   "id": "e553",
+   "id": "e561",
    "nodes": [
     "keyword:barely twenty cooperatives participate",
     "keyword:cooperatives sent",
@@ -44014,7 +44406,7 @@
    "arity": 6
   },
   {
-   "id": "e554",
+   "id": "e562",
    "nodes": [
     "keyword:cooperatives",
     "keyword:exclusive consideration",
@@ -44029,7 +44421,7 @@
    "arity": 7
   },
   {
-   "id": "e555",
+   "id": "e563",
    "nodes": [
     "keyword:cooperatives analyzed make",
     "keyword:geographically dispersed cooperatives",
@@ -44042,7 +44434,7 @@
    "arity": 5
   },
   {
-   "id": "e556",
+   "id": "e564",
    "nodes": [
     "keyword:las estrategias que las cooperativas ponen",
     "keyword:que enfrentan las grandes cooperativas",
@@ -44055,7 +44447,7 @@
    "arity": 5
   },
   {
-   "id": "e557",
+   "id": "e565",
    "nodes": [
     "keyword:las que est",
     "keyword:que las cooperativas",
@@ -44069,7 +44461,7 @@
    "arity": 6
   },
   {
-   "id": "e558",
+   "id": "e566",
    "nodes": [
     "keyword:cadas las cooperativas crecer",
     "keyword:las exigentes reglas del mercado global",
@@ -44083,7 +44475,7 @@
    "arity": 6
   },
   {
-   "id": "e559",
+   "id": "e567",
    "nodes": [
     "keyword:los servicios centrales del grupo",
     "keyword:los servicios centrales del grupo mondragon",
@@ -44095,7 +44487,7 @@
    "arity": 4
   },
   {
-   "id": "e560",
+   "id": "e568",
    "nodes": [
     "keyword:como las dimensiones identificadas para llevar",
     "keyword:desarrollo del proceso",
@@ -44111,7 +44503,7 @@
    "arity": 8
   },
   {
-   "id": "e561",
+   "id": "e569",
    "nodes": [
     "keyword:del enorme crecimiento que",
     "keyword:sintetizar todas las aportaciones que",
@@ -44123,7 +44515,7 @@
    "arity": 4
   },
   {
-   "id": "e562",
+   "id": "e570",
    "nodes": [
     "keyword:las cooperativas",
     "keyword:las cooperativas del grupo respecto",
@@ -44136,7 +44528,7 @@
    "arity": 5
   },
   {
-   "id": "e563",
+   "id": "e571",
    "nodes": [
     "keyword:debate fue abordada desde las dos siguientes preguntas",
     "project:fulltext",
@@ -44147,7 +44539,7 @@
    "arity": 3
   },
   {
-   "id": "e564",
+   "id": "e572",
    "nodes": [
     "keyword:lugar entre los",
     "keyword:pertenencia entre los miembros respecto",
@@ -44160,7 +44552,7 @@
    "arity": 5
   },
   {
-   "id": "e565",
+   "id": "e573",
    "nodes": [
     "keyword:entonces una cooperativa muy grande para que una persona",
     "keyword:las relaciones personales del que habla",
@@ -44175,7 +44567,7 @@
    "arity": 7
   },
   {
-   "id": "e566",
+   "id": "e574",
    "nodes": [
     "keyword:del grupo mondragon fue",
     "keyword:relevantes del tama",
@@ -44187,7 +44579,7 @@
    "arity": 4
   },
   {
-   "id": "e567",
+   "id": "e575",
    "nodes": [
     "keyword:los socios",
     "keyword:sica para los miembros",
@@ -44199,7 +44591,7 @@
    "arity": 4
   },
   {
-   "id": "e568",
+   "id": "e576",
    "nodes": [
     "keyword:comarca del alto deba",
     "keyword:cooperativas por habitante del",
@@ -44213,7 +44605,7 @@
    "arity": 6
   },
   {
-   "id": "e569",
+   "id": "e577",
    "nodes": [
     "keyword:del prse que planteaba involucrar",
     "keyword:las piezas fundamentales que",
@@ -44227,7 +44619,7 @@
    "arity": 6
   },
   {
-   "id": "e570",
+   "id": "e578",
    "nodes": [
     "keyword:las filiales capitalistas",
     "keyword:que las cooperativizaciones tan solo",
@@ -44239,7 +44631,7 @@
    "arity": 4
   },
   {
-   "id": "e571",
+   "id": "e579",
    "nodes": [
     "keyword:que las cooperativas que",
     "project:fulltext",
@@ -44250,7 +44642,7 @@
    "arity": 3
   },
   {
-   "id": "e572",
+   "id": "e580",
    "nodes": [
     "project:fulltext",
     "section:[bibliograf\u00eda]"
@@ -44260,7 +44652,7 @@
    "arity": 2
   },
   {
-   "id": "e573",
+   "id": "e581",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -44270,7 +44662,7 @@
    "arity": 2
   },
   {
-   "id": "e574",
+   "id": "e582",
    "nodes": [
     "project:fulltext",
     "section:[entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation]"
@@ -44280,7 +44672,7 @@
    "arity": 2
   },
   {
-   "id": "e575",
+   "id": "e583",
    "nodes": [
     "keyword:innovation",
     "keyword:innovation compared",
@@ -44292,7 +44684,7 @@
    "arity": 4
   },
   {
-   "id": "e576",
+   "id": "e584",
    "nodes": [
     "project:fulltext",
     "section:[1  introduction]"
@@ -44302,7 +44694,7 @@
    "arity": 2
   },
   {
-   "id": "e577",
+   "id": "e585",
    "nodes": [
     "keyword:firms innovation performance",
     "keyword:firms performance",
@@ -44314,7 +44706,7 @@
    "arity": 4
   },
   {
-   "id": "e578",
+   "id": "e586",
    "nodes": [
     "keyword:firms innovation performance",
     "keyword:innovation performance",
@@ -44326,7 +44718,7 @@
    "arity": 4
   },
   {
-   "id": "e579",
+   "id": "e587",
    "nodes": [
     "keyword:additional hypotheses comparing wcs",
     "keyword:wcs regarding cfs",
@@ -44338,7 +44730,7 @@
    "arity": 4
   },
   {
-   "id": "e580",
+   "id": "e588",
    "nodes": [
     "keyword:economic development according",
     "project:fulltext",
@@ -44349,7 +44741,7 @@
    "arity": 3
   },
   {
-   "id": "e581",
+   "id": "e589",
    "nodes": [
     "keyword:various formative indicators since",
     "project:fulltext",
@@ -44360,7 +44752,7 @@
    "arity": 3
   },
   {
-   "id": "e582",
+   "id": "e590",
    "nodes": [
     "keyword:pls-sem analysis",
     "project:fulltext",
@@ -44371,7 +44763,7 @@
    "arity": 3
   },
   {
-   "id": "e583",
+   "id": "e591",
    "nodes": [
     "keyword:estimated model",
     "keyword:model fit",
@@ -44385,7 +44777,7 @@
    "arity": 6
   },
   {
-   "id": "e584",
+   "id": "e592",
    "nodes": [
     "keyword:measurement model",
     "keyword:subsample model",
@@ -44397,7 +44789,7 @@
    "arity": 4
   },
   {
-   "id": "e585",
+   "id": "e593",
    "nodes": [
     "project:fulltext",
     "section:[4.3    assessment of the structural model]"
@@ -44407,7 +44799,7 @@
    "arity": 2
   },
   {
-   "id": "e586",
+   "id": "e594",
    "nodes": [
     "project:fulltext",
     "section:[4.4    multigroup analysis]"
@@ -44417,7 +44809,7 @@
    "arity": 2
   },
   {
-   "id": "e587",
+   "id": "e595",
    "nodes": [
     "keyword:improve innovation performance",
     "keyword:innovation performance",
@@ -44430,7 +44822,7 @@
    "arity": 5
   },
   {
-   "id": "e588",
+   "id": "e596",
    "nodes": [
     "project:fulltext",
     "section:[6    implications]"
@@ -44440,7 +44832,7 @@
    "arity": 2
   },
   {
-   "id": "e589",
+   "id": "e597",
    "nodes": [
     "keyword:cooperation",
     "keyword:determines innovation performance",
@@ -44453,7 +44845,7 @@
    "arity": 5
   },
   {
-   "id": "e590",
+   "id": "e598",
    "nodes": [
     "keyword:creative commons licence",
     "project:fulltext",
@@ -44464,7 +44856,7 @@
    "arity": 3
   },
   {
-   "id": "e591",
+   "id": "e599",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -44474,7 +44866,7 @@
    "arity": 2
   },
   {
-   "id": "e592",
+   "id": "e600",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -44484,7 +44876,7 @@
    "arity": 2
   },
   {
-   "id": "e593",
+   "id": "e601",
    "nodes": [
     "project:fulltext",
     "section:[worker cooperatives for a democratic economy]"
@@ -44494,7 +44886,7 @@
    "arity": 2
   },
   {
-   "id": "e594",
+   "id": "e602",
    "nodes": [
     "keyword:degeneration thesis suggests cooperatives",
     "project:fulltext",
@@ -44505,7 +44897,7 @@
    "arity": 3
   },
   {
-   "id": "e595",
+   "id": "e603",
    "nodes": [
     "keyword:cooperative degeneration",
     "keyword:cooperative remains capitalist",
@@ -44518,7 +44910,7 @@
    "arity": 5
   },
   {
-   "id": "e596",
+   "id": "e604",
    "nodes": [
     "keyword:democratic participation",
     "keyword:political participation",
@@ -44531,7 +44923,7 @@
    "arity": 5
   },
   {
-   "id": "e597",
+   "id": "e605",
    "nodes": [
     "keyword:frankfurt school critical theory",
     "keyword:frankfurt school critical theory approach",
@@ -44545,7 +44937,7 @@
    "arity": 6
   },
   {
-   "id": "e598",
+   "id": "e606",
    "nodes": [
     "keyword:critical theory",
     "keyword:research links critical political theory",
@@ -44557,7 +44949,7 @@
    "arity": 4
   },
   {
-   "id": "e599",
+   "id": "e607",
    "nodes": [
     "keyword:define cooperatives",
     "keyword:identifying former cooperatives",
@@ -44570,7 +44962,7 @@
    "arity": 5
   },
   {
-   "id": "e600",
+   "id": "e608",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -44580,7 +44972,7 @@
    "arity": 2
   },
   {
-   "id": "e601",
+   "id": "e609",
    "nodes": [
     "project:fulltext",
     "section:[head]"
@@ -44590,7 +44982,7 @@
    "arity": 2
   },
   {
-   "id": "e602",
+   "id": "e610",
    "nodes": [
     "keyword:ljubljana",
     "keyword:university",
@@ -44602,7 +44994,7 @@
    "arity": 4
   },
   {
-   "id": "e603",
+   "id": "e611",
    "nodes": [
     "keyword:faculty",
     "project:fulltext",
@@ -44613,7 +45005,7 @@
    "arity": 3
   },
   {
-   "id": "e604",
+   "id": "e612",
    "nodes": [
     "keyword:novel institutional design",
     "project:fulltext",
@@ -44624,7 +45016,7 @@
    "arity": 3
   },
   {
-   "id": "e605",
+   "id": "e613",
    "nodes": [
     "keyword:employee ownership models",
     "keyword:employee ownership models like esops",
@@ -44636,7 +45028,7 @@
    "arity": 4
   },
   {
-   "id": "e606",
+   "id": "e614",
    "nodes": [
     "keyword:broad-based employee ownership",
     "keyword:employee ownership",
@@ -44650,7 +45042,7 @@
    "arity": 6
   },
   {
-   "id": "e607",
+   "id": "e615",
    "nodes": [
     "keyword:employee buyout mechanisms",
     "keyword:employee ownership",
@@ -44663,7 +45055,7 @@
    "arity": 5
   },
   {
-   "id": "e608",
+   "id": "e616",
    "nodes": [
     "keyword:rollover",
     "project:fulltext",
@@ -44674,7 +45066,7 @@
    "arity": 3
   },
   {
-   "id": "e609",
+   "id": "e617",
    "nodes": [
     "keyword:acquisition debt",
     "keyword:amortizing acquisition debt incurred",
@@ -44689,7 +45081,7 @@
    "arity": 7
   },
   {
-   "id": "e610",
+   "id": "e618",
    "nodes": [
     "keyword:total capital value creation",
     "project:fulltext",
@@ -44700,7 +45092,7 @@
    "arity": 3
   },
   {
-   "id": "e611",
+   "id": "e619",
    "nodes": [
     "keyword:capital value growth",
     "keyword:receive capital value growth",
@@ -44713,7 +45105,7 @@
    "arity": 5
   },
   {
-   "id": "e612",
+   "id": "e620",
    "nodes": [
     "project:fulltext",
     "section:[3.4 rollover system]"
@@ -44723,7 +45115,7 @@
    "arity": 2
   },
   {
-   "id": "e613",
+   "id": "e621",
    "nodes": [
     "keyword:slovenian esop models dual-level governance architecture",
     "project:fulltext",
@@ -44734,7 +45126,7 @@
    "arity": 3
   },
   {
-   "id": "e614",
+   "id": "e622",
    "nodes": [
     "keyword:preserving democratic control",
     "project:fulltext",
@@ -44745,7 +45137,7 @@
    "arity": 3
   },
   {
-   "id": "e615",
+   "id": "e623",
    "nodes": [
     "project:fulltext",
     "section:[4. tax incentives and regulatory framework]"
@@ -44755,7 +45147,7 @@
    "arity": 2
   },
   {
-   "id": "e616",
+   "id": "e624",
    "nodes": [
     "keyword:employee ownership stock appraisal",
     "project:fulltext",
@@ -44766,7 +45158,7 @@
    "arity": 3
   },
   {
-   "id": "e617",
+   "id": "e625",
    "nodes": [
     "keyword:durable institutional form",
     "keyword:employee ownership vehicle becomes",
@@ -44782,7 +45174,7 @@
    "arity": 8
   },
   {
-   "id": "e618",
+   "id": "e626",
    "nodes": [
     "keyword:democratic employee ownership",
     "keyword:efficient employee ownership",
@@ -44795,7 +45187,7 @@
    "arity": 5
   },
   {
-   "id": "e619",
+   "id": "e627",
    "nodes": [
     "keyword:model",
     "project:fulltext",
@@ -44806,7 +45198,7 @@
    "arity": 3
   },
   {
-   "id": "e620",
+   "id": "e628",
    "nodes": [
     "keyword:slovenian esop",
     "keyword:slovenian esop model",
@@ -44818,7 +45210,7 @@
    "arity": 4
   },
   {
-   "id": "e621",
+   "id": "e629",
    "nodes": [
     "project:fulltext",
     "section:[102]"
@@ -44828,7 +45220,7 @@
    "arity": 2
   },
   {
-   "id": "e622",
+   "id": "e630",
    "nodes": [
     "project:fulltext",
     "section:[references]"
@@ -44838,7 +45230,7 @@
    "arity": 2
   },
   {
-   "id": "e623",
+   "id": "e631",
    "nodes": [
     "keyword:contacted",
     "keyword:tej gonza",
@@ -44850,7 +45242,7 @@
    "arity": 4
   },
   {
-   "id": "e624",
+   "id": "e632",
    "nodes": [
     "author:carman, james m.",
     "author:james m. carman",
@@ -44876,7 +45268,7 @@
    "arity": 18
   },
   {
-   "id": "e625",
+   "id": "e633",
    "nodes": [
     "author:david ciplet",
     "keyword:based worker cooperative movement",
@@ -44898,7 +45290,7 @@
    "arity": 14
   },
   {
-   "id": "e626",
+   "id": "e634",
    "nodes": [
     "author:fridolin krausmann",
     "author:nina eisenmenger",
@@ -44921,7 +45313,7 @@
    "arity": 15
   },
   {
-   "id": "e627",
+   "id": "e635",
    "nodes": [
     "author:john stillwell",
     "author:joseph ferreira",
@@ -44937,7 +45329,7 @@
    "arity": 8
   },
   {
-   "id": "e628",
+   "id": "e636",
    "nodes": [
     "author:spencer paul thompson",
     "keyword:achieving cooperation",
@@ -44959,7 +45351,7 @@
    "arity": 14
   },
   {
-   "id": "e629",
+   "id": "e637",
    "nodes": [
     "author:anatoli polkovnikov",
     "author:luca dalessio",
@@ -44983,7 +45375,7 @@
    "arity": 16
   },
   {
-   "id": "e630",
+   "id": "e638",
    "nodes": [
     "author:ren\u00e9e sieber",
     "keyword:broaden public involvement",
@@ -45005,7 +45397,7 @@
    "arity": 14
   },
   {
-   "id": "e631",
+   "id": "e639",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -45027,7 +45419,7 @@
    "arity": 14
   },
   {
-   "id": "e632",
+   "id": "e640",
    "nodes": [
     "author:i. p. wright",
     "keyword:capitalism",
@@ -45040,7 +45432,7 @@
    "arity": 5
   },
   {
-   "id": "e633",
+   "id": "e641",
    "nodes": [
     "author:l. sj\u00f6gren",
     "author:w. g\u00f6tze",
@@ -45063,7 +45455,7 @@
    "arity": 15
   },
   {
-   "id": "e634",
+   "id": "e642",
    "nodes": [
     "author:m. a. biot",
     "keyword:acoustic propagation",
@@ -45087,7 +45479,7 @@
    "arity": 16
   },
   {
-   "id": "e635",
+   "id": "e643",
    "nodes": [
     "author:duncan k. foley",
     "keyword:agents",
@@ -45108,7 +45500,7 @@
    "arity": 13
   },
   {
-   "id": "e636",
+   "id": "e644",
    "nodes": [
     "author:greg brown",
     "author:marketta kytt\u00e4",
@@ -45124,7 +45516,7 @@
    "arity": 8
   },
   {
-   "id": "e637",
+   "id": "e645",
    "nodes": [
     "author:udo seifert",
     "keyword:entropy production",
@@ -45143,7 +45535,7 @@
    "arity": 11
   },
   {
-   "id": "e638",
+   "id": "e646",
    "nodes": [
     "author:greig de peuter",
     "author:nick dyer\u2010witheford",
@@ -45169,7 +45561,7 @@
    "arity": 18
   },
   {
-   "id": "e639",
+   "id": "e647",
    "nodes": [
     "author:george w. j. hendrikse",
     "author:jos bijman",
@@ -45192,7 +45584,7 @@
    "arity": 15
   },
   {
-   "id": "e640",
+   "id": "e648",
    "nodes": [
     "author:christopher kennedy",
     "author:john cuddihy",
@@ -45207,7 +45599,7 @@
    "arity": 7
   },
   {
-   "id": "e641",
+   "id": "e649",
    "nodes": [
     "author:john pencavel",
     "keyword:co-ops",
@@ -45231,7 +45623,7 @@
    "arity": 16
   },
   {
-   "id": "e642",
+   "id": "e650",
    "nodes": [
     "author:helfman, neil a.",
     "author:neil a. helfman",
@@ -45246,7 +45638,7 @@
    "arity": 7
   },
   {
-   "id": "e643",
+   "id": "e651",
    "nodes": [
     "author:arzu \u00e7\u00f6ltekin",
     "author:filip biljecki",
@@ -45269,7 +45661,7 @@
    "arity": 15
   },
   {
-   "id": "e644",
+   "id": "e652",
    "nodes": [
     "author:gandhe, rutwik",
     "author:nair, tara s.",
@@ -45294,7 +45686,7 @@
    "arity": 17
   },
   {
-   "id": "e645",
+   "id": "e653",
    "nodes": [
     "author:antoine delignat-lavaud",
     "author:aseem rastogi",
@@ -45326,7 +45718,7 @@
    "arity": 24
   },
   {
-   "id": "e646",
+   "id": "e654",
    "nodes": [
     "author:zhu qiang xiao",
     "keyword:community services",
@@ -45350,7 +45742,7 @@
    "arity": 16
   },
   {
-   "id": "e647",
+   "id": "e655",
    "nodes": [
     "author:ainara udaondo",
     "author:george e. cheney",
@@ -45371,7 +45763,7 @@
    "arity": 13
   },
   {
-   "id": "e648",
+   "id": "e656",
    "nodes": [
     "author:j. m. mehl",
     "author:oscar b. jesness",
@@ -45397,7 +45789,7 @@
    "arity": 18
   },
   {
-   "id": "e649",
+   "id": "e657",
    "nodes": [
     "author:aseem rastogi",
     "author:c\u0103t\u0103lin hri\u0163cu",
@@ -45422,7 +45814,7 @@
    "arity": 17
   },
   {
-   "id": "e650",
+   "id": "e658",
    "nodes": [
     "author:spencer thompson",
     "keyword:social theory",
@@ -45434,7 +45826,7 @@
    "arity": 4
   },
   {
-   "id": "e651",
+   "id": "e659",
    "nodes": [
     "author:kiringai kamau",
     "keyword:farmers",
@@ -45452,7 +45844,7 @@
    "arity": 10
   },
   {
-   "id": "e652",
+   "id": "e660",
    "nodes": [
     "author:andrew allan",
     "author:chris pettit",
@@ -45468,7 +45860,7 @@
    "arity": 8
   },
   {
-   "id": "e653",
+   "id": "e661",
    "nodes": [
     "author:kenneth w. stikkers",
     "keyword:current economic problems",
@@ -45489,7 +45881,7 @@
    "arity": 13
   },
   {
-   "id": "e654",
+   "id": "e662",
    "nodes": [
     "author:masaru sugiyama",
     "author:takashi arima",
@@ -45516,7 +45908,7 @@
    "arity": 19
   },
   {
-   "id": "e655",
+   "id": "e663",
    "nodes": [
     "author:dror y. kenett",
     "author:jonathan k. simon",
@@ -45533,7 +45925,7 @@
    "arity": 9
   },
   {
-   "id": "e656",
+   "id": "e664",
    "nodes": [
     "author:giorgio agugiaro",
     "author:joachim benner",
@@ -45557,7 +45949,7 @@
    "arity": 16
   },
   {
-   "id": "e657",
+   "id": "e665",
    "nodes": [
     "author:ilkka hannu ville p\u00f6nk\u00e4",
     "keyword:companization means",
@@ -45577,7 +45969,7 @@
    "arity": 12
   },
   {
-   "id": "e658",
+   "id": "e666",
    "nodes": [
     "author:c\u0103t\u0103lin hri\u0163cu",
     "author:danel ahman",
@@ -45607,7 +45999,7 @@
    "arity": 22
   },
   {
-   "id": "e659",
+   "id": "e667",
    "nodes": [
     "author:karl mason",
     "author:tony evans",
@@ -45628,7 +46020,7 @@
    "arity": 13
   },
   {
-   "id": "e660",
+   "id": "e668",
    "nodes": [
     "author:markian m. w. melnyk",
     "author:william s. lamb",
@@ -45650,7 +46042,7 @@
    "arity": 14
   },
   {
-   "id": "e661",
+   "id": "e669",
    "nodes": [
     "author:imanol basterretxea",
     "author:jon charterina abando",
@@ -45669,7 +46061,7 @@
    "arity": 11
   },
   {
-   "id": "e662",
+   "id": "e670",
    "nodes": [
     "author:kerri carisse",
     "keyword:cooperative practices",
@@ -45690,7 +46082,7 @@
    "arity": 13
   },
   {
-   "id": "e663",
+   "id": "e671",
    "nodes": [
     "author:anne ventura",
     "author:jean\u2010baptiste bahers",
@@ -45714,7 +46106,7 @@
    "arity": 16
   },
   {
-   "id": "e664",
+   "id": "e672",
    "nodes": [
     "author:roxana maria chirieac",
     "keyword:administer various companies",
@@ -45736,7 +46128,7 @@
    "arity": 14
   },
   {
-   "id": "e665",
+   "id": "e673",
    "nodes": [
     "author:bruno barroca",
     "author:h\u00e9l\u00e8ne beraud",
@@ -45761,7 +46153,7 @@
    "arity": 17
   },
   {
-   "id": "e666",
+   "id": "e674",
    "nodes": [
     "author:alexandre guttmann",
     "keyword:capitalist market economy",
@@ -45781,7 +46173,7 @@
    "arity": 12
   },
   {
-   "id": "e667",
+   "id": "e675",
    "nodes": [
     "author:alla andreevna neznamova",
     "author:lubov borisovna sitdikova",
@@ -45798,7 +46190,7 @@
    "arity": 9
   },
   {
-   "id": "e668",
+   "id": "e676",
    "nodes": [
     "author:enni airaksinen",
     "author:maxim rossknecht",
@@ -45821,7 +46213,7 @@
    "arity": 15
   },
   {
-   "id": "e669",
+   "id": "e677",
    "nodes": [
     "author:arnau riera",
     "author:john goold",
@@ -45846,7 +46238,7 @@
    "arity": 17
   },
   {
-   "id": "e670",
+   "id": "e678",
    "nodes": [
     "author:marian chertow",
     "author:marina fischer\u2010kowalski",
@@ -45869,7 +46261,7 @@
    "arity": 15
   },
   {
-   "id": "e671",
+   "id": "e679",
    "nodes": [
     "author:jonathan immanuel brachth\u00e4user",
     "author:klaus ostermann",
@@ -45892,7 +46284,7 @@
    "arity": 15
   },
   {
-   "id": "e672",
+   "id": "e680",
    "nodes": [
     "author:lorenzo edd, virgil",
     "keyword:arizmendiarrietas educational aim",
@@ -45912,7 +46304,7 @@
    "arity": 12
   },
   {
-   "id": "e673",
+   "id": "e681",
    "nodes": [
     "author:balasubramanian iyer",
     "author:ganesh gopal",
@@ -45931,7 +46323,7 @@
    "arity": 11
   },
   {
-   "id": "e674",
+   "id": "e682",
    "nodes": [
     "author:christian lauk",
     "author:dominik noll",
@@ -45958,7 +46350,7 @@
    "arity": 19
   },
   {
-   "id": "e675",
+   "id": "e683",
    "nodes": [
     "author:david jou",
     "author:g. lebon",
@@ -45981,7 +46373,7 @@
    "arity": 15
   },
   {
-   "id": "e676",
+   "id": "e684",
    "nodes": [
     "author:alexandru nichersu",
     "author:avichal malhotra",
@@ -46012,7 +46404,7 @@
    "arity": 23
   },
   {
-   "id": "e677",
+   "id": "e685",
    "nodes": [
     "author:melissa k. scanlan",
     "keyword:chapter assesses",
@@ -46037,7 +46429,7 @@
    "arity": 17
   },
   {
-   "id": "e678",
+   "id": "e686",
    "nodes": [
     "author:jean\u2010baptiste bahers",
     "author:mathieu durand",
@@ -46051,7 +46443,7 @@
    "arity": 6
   },
   {
-   "id": "e679",
+   "id": "e687",
    "nodes": [
     "author:michael batty",
     "keyword:digital twins",
@@ -46063,7 +46455,7 @@
    "arity": 4
   },
   {
-   "id": "e680",
+   "id": "e688",
    "nodes": [
     "author:jasper verschuur",
     "author:matthew j. eckelman",
@@ -46092,7 +46484,7 @@
    "arity": 21
   },
   {
-   "id": "e681",
+   "id": "e689",
    "nodes": [
     "author:andrea caputo",
     "author:bo\u017eidar vla\u010di\u0107",
@@ -46112,7 +46504,7 @@
    "arity": 12
   },
   {
-   "id": "e682",
+   "id": "e690",
    "nodes": [
     "author:aritz kanpandegi berrotaran",
     "author:fred freundlich",
@@ -46132,7 +46524,7 @@
    "arity": 12
   },
   {
-   "id": "e683",
+   "id": "e691",
    "nodes": [
     "author:a. stewart fotheringham",
     "keyword:digital twins",
@@ -46145,7 +46537,7 @@
    "arity": 5
   },
   {
-   "id": "e684",
+   "id": "e692",
    "nodes": [
     "author:derek c. jones",
     "keyword:appropriate research agenda",
@@ -46166,7 +46558,7 @@
    "arity": 13
   },
   {
-   "id": "e685",
+   "id": "e693",
    "nodes": [
     "author:aingeru ruiz mart\u00ednez",
     "author:ignacio bretos",
@@ -46190,7 +46582,7 @@
    "arity": 16
   },
   {
-   "id": "e686",
+   "id": "e694",
    "nodes": [
     "author:hans van den hurk",
     "author:john nillesen",
@@ -46213,7 +46605,7 @@
    "arity": 15
   },
   {
-   "id": "e687",
+   "id": "e695",
    "nodes": [
     "author:carole maurel",
     "author:foued cheriet",
@@ -46237,7 +46629,7 @@
    "arity": 16
   },
   {
-   "id": "e688",
+   "id": "e696",
    "nodes": [
     "author:anderson catapan",
     "author:bernardo de almeida villanueva",
@@ -46259,7 +46651,7 @@
    "arity": 14
   },
   {
-   "id": "e689",
+   "id": "e697",
    "nodes": [
     "author:carmen guzm\u00e1n",
     "author:francisco j. santos",
@@ -46283,7 +46675,7 @@
    "arity": 16
   },
   {
-   "id": "e690",
+   "id": "e698",
    "nodes": [
     "author:neal harris",
     "author:robin jervis",
@@ -46306,7 +46698,7 @@
    "arity": 15
   },
   {
-   "id": "e691",
+   "id": "e699",
    "nodes": [
     "author:avril n\u00ed shearcaigh",
     "author:claudia bo",
@@ -46331,7 +46723,7 @@
    "arity": 17
   },
   {
-   "id": "e692",
+   "id": "e700",
    "nodes": [
     "author:jokin bergara eguren",
     "author:oier imaz alias",
@@ -46356,7 +46748,7 @@
    "arity": 17
   },
   {
-   "id": "e693",
+   "id": "e701",
    "nodes": [
     "author:julien cadot",
     "author:michael lee cook",
@@ -46371,7 +46763,7 @@
    "arity": 7
   },
   {
-   "id": "e694",
+   "id": "e702",
    "nodes": [
     "author:fred freundlich",
     "author:igor ortega sunsundegi",
@@ -46397,7 +46789,7 @@
    "arity": 18
   },
   {
-   "id": "e695",
+   "id": "e703",
    "nodes": [
     "author:unknown author",
     "keyword:cooperative organizational structure",
@@ -46410,7 +46802,7 @@
    "arity": 5
   },
   {
-   "id": "e696",
+   "id": "e704",
    "nodes": [
     "author:\uc11c\uc11d\ud765",
     "keyword:chinese rural community",
@@ -46434,7 +46826,7 @@
    "arity": 16
   },
   {
-   "id": "e697",
+   "id": "e705",
    "nodes": [
     "author:tej gonza",
     "keyword:employee ownership",
@@ -46451,7 +46843,7 @@
    "arity": 9
   },
   {
-   "id": "e698",
+   "id": "e706",
    "nodes": [
     "author:francis declerck",
     "author:julien cadot",

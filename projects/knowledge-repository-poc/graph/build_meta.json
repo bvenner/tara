@@ -35,6 +35,7 @@
   "poc/plumbing-setup.md": "ac970e3bf02a933d00b25794646d516b26993e5db38b9d8a2e0118203cbc7d77",
   "top/knowledge-repository-proposal.md": "4cce99f04fe167dbe0ccaeb950d706b34832626ddc1f0b226b8de9af263a3161",
   "island-dt/literature-review.md": "4adec11045a6bb68799c50f4ce7ba60cdd33fb173669b4a9d50c7734bf3cbe16",
+  "fulltext/castoriadis_1997_democracy_procedure_regime.md": "066ba0a0d8cefcdc793b9b3e58346d4693499320ba20e065aeca085c458531dc",
   "fulltext/https_openalex.org_W1539711243.md": "f68e89c6d26d74d5653a7b63ef6252701e28f83cd6f46b6affd3add1165ef8f5",
   "fulltext/https_openalex.org_W1919133474.md": "88f18b799d57b11ce63148068daeee4330525ad7eb586388d1fa31c1de071379",
   "fulltext/https_openalex.org_W2017005585.md": "bc50b4f8add8ef755da6782b7352c3508300c674911f4ff910aea5d086842437",
@@ -128,16 +129,16 @@
   "openalex/https_openalex.org_W7210828298": "38658d5dea02605014dc837cde79965100e165b19063915b95f21396b64a094a",
   "openalex/https_openalex.org_W7213299274": "3e5276e7de63cb2ef7bcadb7aff37847d53421286fbb7472aa513e7258ea97d5"
  },
- "n_docs": 126,
+ "n_docs": 127,
  "stats": {
-  "docs": 126,
-  "sections": 699,
-  "nodes": 2897,
-  "edges": 699,
+  "docs": 127,
+  "sections": 707,
+  "nodes": 2919,
+  "edges": 707,
   "node_kinds": {
    "project": 6,
-   "section": 556,
-   "keyword": 1987,
+   "section": 562,
+   "keyword": 2003,
    "notation": 8,
    "artifact": 10,
    "citation": 20,
@@ -145,12 +146,12 @@
    "work": 75
   },
   "arity_hist": {
-   "2": 99,
-   "3": 101,
-   "4": 80,
-   "5": 96,
-   "6": 98,
-   "7": 83,
+   "2": 101,
+   "3": 102,
+   "4": 81,
+   "5": 98,
+   "6": 99,
+   "7": 84,
    "8": 41,
    "9": 17,
    "10": 9,
@@ -169,14 +170,14 @@
    "24": 1,
    "45": 1
   },
-  "mean_degree": 1.451,
-  "max_degree": 471,
+  "mean_degree": 1.452,
+  "max_degree": 479,
   "top_hubs": [
    {
     "node": "project:fulltext",
     "kind": "project",
     "label": "fulltext",
-    "degree": 471
+    "degree": 479
    },
    {
     "node": "project:ret-tssi",
@@ -248,7 +249,7 @@
     "node": "section:[head]",
     "kind": "section",
     "label": "[HEAD]",
-    "degree": 17
+    "degree": 18
    },
    {
     "node": "artifact:track b",
@@ -264,14 +265,14 @@
    }
   ],
   "degree_hist": {
-   "1": 2682,
+   "1": 2703,
    "2": 260,
-   "3-5": 191,
+   "3-5": 195,
    "6-10": 93,
-   "11-20": 190,
+   "11-20": 191,
    "21-50": 106,
    "51-100": 210,
-   "101-500": 471
+   "101-500": 479
   },
   "hub_coverage": 0.016,
   "bib_entries": 74,

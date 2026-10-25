@@ -152,549 +152,557 @@ e149	island-dt/literature-review.md	C. Digital twins — the container (urban th
 e150	island-dt/literature-review.md	D. Participatory planning support & geodesign — the decision process	3
 e151	island-dt/literature-review.md	Synthesis: how the pieces compose into an "island digital twin"	6
 e152	island-dt/literature-review.md	Caveats	3
-e153	fulltext/https_openalex.org_W1539711243.md	HEAD	2
-e154	fulltext/https_openalex.org_W1539711243.md	Federated Structures for Cooperative Growth	3
-e155	fulltext/https_openalex.org_W1539711243.md	Federated Structures for Cooperative Growth	7
-e156	fulltext/https_openalex.org_W1539711243.md	Method	3
-e157	fulltext/https_openalex.org_W1539711243.md	Theory	4
-e158	fulltext/https_openalex.org_W1539711243.md	Transition of the Irish Dairy Cooperatives	7
-e159	fulltext/https_openalex.org_W1539711243.md	Cooperative Grain Marketing in the United Kingdom	7
-e160	fulltext/https_openalex.org_W1539711243.md	Rural Hospital Cooperatives in the United States	5
-e161	fulltext/https_openalex.org_W1539711243.md	Cooperatives in Transition Economies: Hungarian Wholesale Cooperatives	8
-e162	fulltext/https_openalex.org_W1539711243.md	Findings Across Settings	7
-e163	fulltext/https_openalex.org_W1539711243.md	Sources of Capital	7
-e164	fulltext/https_openalex.org_W1539711243.md	Incentives for Management	5
-e165	fulltext/https_openalex.org_W1539711243.md	Governance	4
-e166	fulltext/https_openalex.org_W1539711243.md	Opportunism	7
-e167	fulltext/https_openalex.org_W1539711243.md	Engines of Change	6
-e168	fulltext/https_openalex.org_W1539711243.md	Ideological Glue	4
-e169	fulltext/https_openalex.org_W1539711243.md	Federated Cooperatives	6
-e170	fulltext/https_openalex.org_W1539711243.md	The Holding Company-IOF Design	3
-e171	fulltext/https_openalex.org_W1539711243.md	Conclusions	5
-e172	fulltext/https_openalex.org_W1539711243.md	Notes	4
-e173	fulltext/https_openalex.org_W1539711243.md	References	2
-e174	fulltext/https_openalex.org_W1919133474.md	HEAD	2
-e175	fulltext/https_openalex.org_W1919133474.md	From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics	4
-e176	fulltext/https_openalex.org_W1919133474.md	From Quantum Chaos and Eigenstate Thermalization to Statistical Mechanics and Thermodynamics	4
-e177	fulltext/https_openalex.org_W1919133474.md	1. Introduction	8
-e178	fulltext/https_openalex.org_W1919133474.md	2.1. Classical Chaos	7
-e179	fulltext/https_openalex.org_W1919133474.md	2.2. Random Matrix Theory	5
-e180	fulltext/https_openalex.org_W1919133474.md	2.2.1. Chaotic Eigenfunctions	8
-e181	fulltext/https_openalex.org_W1919133474.md	2.2.2. The Structure of the Matrix Elements of Operators	5
-e182	fulltext/https_openalex.org_W1919133474.md	2.3. Berry-Tabor Conjecture	8
-e183	fulltext/https_openalex.org_W1919133474.md	2.4. The Semi-Classical Limit and Berry's Conjecture	5
-e184	fulltext/https_openalex.org_W1919133474.md	3.1. Examples of Wigner-Dyson and Poisson Statistics	5
-e185	fulltext/https_openalex.org_W1919133474.md	3.2. The Structure of Many-Body Eigenstates	5
-e186	fulltext/https_openalex.org_W1919133474.md	3.3. Quantum Chaos and Entanglement	6
-e187	fulltext/https_openalex.org_W1919133474.md	each time t , nitial product states, let them S ( t ) for each initial state, and -2 n ln 2 -O ( mn ) 3.4. Quantum Chaos and Delocalization in Energy Space	5
-e188	fulltext/https_openalex.org_W1919133474.md	4.1. Thermalization in Quantum Systems	7
-e189	fulltext/https_openalex.org_W1919133474.md	4.2. The Eigenstate Thermalization Hypothesis (ETH)	6
-e190	fulltext/https_openalex.org_W1919133474.md	4.2.1. ETH and Thermalization	6
-e191	fulltext/https_openalex.org_W1919133474.md	4.2.2. ETH and the Quantum Ergodic Theorem	6
-e192	fulltext/https_openalex.org_W1919133474.md	4.3.1. Eigenstate Thermalization	5
-e193	fulltext/https_openalex.org_W1919133474.md	4.3.2. Quantum Quenches and Thermalization in Lattice Systems	5
-e194	fulltext/https_openalex.org_W1919133474.md	5. Quantum Chaos and the Laws of Thermodynamics	7
-e195	fulltext/https_openalex.org_W1919133474.md	5.1. General Setup and Doubly Stochastic Evolution	6
-e196	fulltext/https_openalex.org_W1919133474.md	5.1.1. Properties of Master Equations and Doubly Stochastic Evolution	6
-e197	fulltext/https_openalex.org_W1919133474.md	5.2. General Implications of Doubly Stochastic Evolution	8
-e198	fulltext/https_openalex.org_W1919133474.md	5.2.1. The Infinite Temperature State as an Attractor of Doubly-Stochastic Evolution	6
-e199	fulltext/https_openalex.org_W1919133474.md	5.2.2. Increase of the Diagonal Entropy Under Doubly Stochastic Evolution	6
-e200	fulltext/https_openalex.org_W1919133474.md	5.2.3. The Second Law in the Kelvin Formulation for Passive Density Matrices	6
-e201	fulltext/https_openalex.org_W1919133474.md	5.3. Implications of Doubly-Stochastic Evolution for Chaotic Systems	7
-e202	fulltext/https_openalex.org_W1919133474.md	5.3.1. The Diagonal Entropy and the Fundamental Thermodynamic Relation	5
-e203	fulltext/https_openalex.org_W1919133474.md	5.3.2. The Fundamental Relation vs the First Law of Thermodynamics	7
-e204	fulltext/https_openalex.org_W1919133474.md	6. Quantum Chaos, Fluctuation Theorems, and Linear Response Relations	8
-e205	fulltext/https_openalex.org_W1919133474.md	6.1. Fluctuation Theorems	6
-e206	fulltext/https_openalex.org_W1919133474.md	6.1.1. Fluctuation Theorems for Systems Starting from a Gibbs State	6
-e207	fulltext/https_openalex.org_W1919133474.md	6.1.2. Fluctuation Theorems for Quantum Chaotic Systems	5
-e208	fulltext/https_openalex.org_W1919133474.md	6.2. Detailed Balance for Open Systems	7
-e209	fulltext/https_openalex.org_W1919133474.md	6.3. Einstein's Energy Drift-Diffusion Relations for Isolated and Open Systems	2
-e210	fulltext/https_openalex.org_W1919133474.md	6.4. Fokker-Planck Equation for the Heating of a Driven Isolated System	4
-e211	fulltext/https_openalex.org_W1919133474.md	6.5. Fluctuation Theorems for Two (or More) Conserved Quantities	5
-e212	fulltext/https_openalex.org_W1919133474.md	6.6. Linear Response and Onsager Relations	3
-e213	fulltext/https_openalex.org_W1919133474.md	6.7. Nonlinear Response Coefficients	5
-e214	fulltext/https_openalex.org_W1919133474.md	6.8. ETH and the Fluctuation-Dissipation Relation for a Single Eigenstate	3
-e215	fulltext/https_openalex.org_W1919133474.md	6.9. ETH and Two-Observable Correlations Functions	6
-e216	fulltext/https_openalex.org_W1919133474.md	7. Application of Einstein's Relation to Continuously Driven Systems	3
-e217	fulltext/https_openalex.org_W1919133474.md	7.1. Heating a Particle in a Fluctuating Chaotic Cavity	7
-e218	fulltext/https_openalex.org_W1919133474.md	7.2. Driven Harmonic System and a Phase Transition in the Distribution Function	7
-e219	fulltext/https_openalex.org_W1919133474.md	7.3. Two Equilibrating Systems	7
-e220	fulltext/https_openalex.org_W1919133474.md	8. Integrable Models and the Generalized Gibbs Ensemble (GGE)	6
-e221	fulltext/https_openalex.org_W1919133474.md	8.1. Constrained Equilibrium: the GGE	6
-e222	fulltext/https_openalex.org_W1919133474.md	8.1.1. Noninteracting Spinless Fermions	6
-e223	fulltext/https_openalex.org_W1919133474.md	8.1.2. Hard-Core Bosons	6
-e224	fulltext/https_openalex.org_W1919133474.md	8.2. Generalized Eigenstate Thermalization	6
-e225	fulltext/https_openalex.org_W1919133474.md	8.2.1. Truncated GGE for the Transverse Field Ising Model	6
-e226	fulltext/https_openalex.org_W1919133474.md	( y ) tGGE ,ℓ ) , the subsystem size ranges from ℓ = 5 to ℓ = 50. and sizes change gradually as a function of the size 8.3. Quenches in the XXZ model	4
-e227	fulltext/https_openalex.org_W1919133474.md	8.4. Relaxation of Weakly Non-Integrable Systems: Prethermalization and Quantum Kinetic Equations	3
-e228	fulltext/https_openalex.org_W1919133474.md	Acknowledgments	2
-e229	fulltext/https_openalex.org_W1919133474.md	Appendix A. The Kicked Rotor	3
-e230	fulltext/https_openalex.org_W1919133474.md	Appendix B. Zeros of the Riemann Zeta Function	7
-e231	fulltext/https_openalex.org_W1919133474.md	Appendix C. The Infinite Temperature State as an Attractor	7
-e232	fulltext/https_openalex.org_W1919133474.md	Appendix D. Birkhoff's Theorem and Doubly Stochastic Evolution	7
-e233	fulltext/https_openalex.org_W1919133474.md	Appendix E. Proof of 〈 W 〉 ≥ 0 for Passive Density Matrices and Doubly-Stochastic Evolution	3
-e234	fulltext/https_openalex.org_W1919133474.md	Appendix F. Derivation of the Drift Diffusion Relation for Continuous Processes	4
-e235	fulltext/https_openalex.org_W1919133474.md	Appendix G. Derivation of Onsager Relations	3
-e236	fulltext/https_openalex.org_W1919133474.md	References	2
-e237	fulltext/https_openalex.org_W2017005585.md	HEAD	2
-e238	fulltext/https_openalex.org_W2017005585.md	The social architecture of capitalism	5
-e239	fulltext/https_openalex.org_W2017005585.md	The Social Architecture of Capitalism	2
-e240	fulltext/https_openalex.org_W2017005585.md	Abstract	7
-e241	fulltext/https_openalex.org_W2017005585.md	1 Introduction	5
-e242	fulltext/https_openalex.org_W2017005585.md	2 A dynamic model of the social relations of production	6
-e243	fulltext/https_openalex.org_W2017005585.md	2.1 The active actor	6
-e244	fulltext/https_openalex.org_W2017005585.md	2.2 Employee hiring	6
-e245	fulltext/https_openalex.org_W2017005585.md	2.3 Expenditure on goods and services	8
-e246	fulltext/https_openalex.org_W2017005585.md	2.4 Interaction between firms and the market	7
-e247	fulltext/https_openalex.org_W2017005585.md	2.5 Employee firing	5
-e248	fulltext/https_openalex.org_W2017005585.md	2.6 Wage payment	7
-e249	fulltext/https_openalex.org_W2017005585.md	2.7 Historical time	5
-e250	fulltext/https_openalex.org_W2017005585.md	One month rule 1M :	7
-e251	fulltext/https_openalex.org_W2017005585.md	One year rule 1Y :	6
-e252	fulltext/https_openalex.org_W2017005585.md	3 Results	7
-e253	fulltext/https_openalex.org_W2017005585.md	3.1 Class distribution	5
-e254	fulltext/https_openalex.org_W2017005585.md	3.2 Firm size distribution	6
-e255	fulltext/https_openalex.org_W2017005585.md	3.3 Firm growth distributions	8
-e256	fulltext/https_openalex.org_W2017005585.md	Firm growth in the SR model is measured according to:	6
-e257	fulltext/https_openalex.org_W2017005585.md	3.4 Firm demise distribution	6
-e258	fulltext/https_openalex.org_W2017005585.md	3.5 GDP growth	5
-e259	fulltext/https_openalex.org_W2017005585.md	3.6 Duration of recessions	5
-e260	fulltext/https_openalex.org_W2017005585.md	3.7 Income shares	7
-e261	fulltext/https_openalex.org_W2017005585.md	3.8 Disaggregated income distributions	7
-e262	fulltext/https_openalex.org_W2017005585.md	3.9 Rate-of-profit distribution	7
-e263	fulltext/https_openalex.org_W2017005585.md	4 Discussion	4
-e264	fulltext/https_openalex.org_W2017005585.md	5 Conclusion	8
-e265	fulltext/https_openalex.org_W2017005585.md	References	2
-e266	fulltext/https_openalex.org_W2102277728.md	HEAD	2
-e267	fulltext/https_openalex.org_W2102277728.md	Stochastic thermodynamics, fluctuation theorems and molecular machines	3
-e268	fulltext/https_openalex.org_W2102277728.md	Udo Seifert	3
-e269	fulltext/https_openalex.org_W2102277728.md	CONTENTS	2
-e270	fulltext/https_openalex.org_W2102277728.md	1.1. From classical to stochastic thermodynamics	4
-e271	fulltext/https_openalex.org_W2102277728.md	1.2. Main features of stochastic thermodynamics	3
-e272	fulltext/https_openalex.org_W2102277728.md	1.3. Hamiltonian, thermostatted and open quantum dynamics	4
-e273	fulltext/https_openalex.org_W2102277728.md	1.4. Scope and organization of this review	4
-e274	fulltext/https_openalex.org_W2102277728.md	1.5. Complementary reviews	6
-e275	fulltext/https_openalex.org_W2102277728.md	2. Colloidal particle as paradigm	8
-e276	fulltext/https_openalex.org_W2102277728.md	2.1. Stochastic dynamics	2
-e277	fulltext/https_openalex.org_W2102277728.md	2.2. Non-equilibrium steady states (NESSs)	3
-e278	fulltext/https_openalex.org_W2102277728.md	2.3. Stochastic energetics	7
-e279	fulltext/https_openalex.org_W2102277728.md	2.4. Stochastic entropy	7
-e280	fulltext/https_openalex.org_W2102277728.md	2.5. Ensemble averages	2
-e281	fulltext/https_openalex.org_W2102277728.md	3. Fluctuation theorems (FTs)	6
-e282	fulltext/https_openalex.org_W2102277728.md	3.1. Phenomenological classification	5
-e283	fulltext/https_openalex.org_W2102277728.md	3.2. Non-equilibrium work theorems	3
-e284	fulltext/https_openalex.org_W2102277728.md	3.3. FTs for entropy production	8
-e285	fulltext/https_openalex.org_W2102277728.md	4. Unification of FTs	6
-e286	fulltext/https_openalex.org_W2102277728.md	4.1. Conjugate dynamics	4
-e287	fulltext/https_openalex.org_W2102277728.md	4.2. The master FT	7
-e288	fulltext/https_openalex.org_W2102277728.md	4.3. General IFTs	3
-e289	fulltext/https_openalex.org_W2102277728.md	4.4. FTs derived from time-reversal	2
-e290	fulltext/https_openalex.org_W2102277728.md	4.5. FTs for variants	6
-e291	fulltext/https_openalex.org_W2102277728.md	4.6. FTs for athermal systems	2
-e292	fulltext/https_openalex.org_W2102277728.md	5.1. Principal aspects	6
-e293	fulltext/https_openalex.org_W2102277728.md	5.2. Overdamped motion: Colloidal particles and other systems	6
-e294	fulltext/https_openalex.org_W2102277728.md	5.3. Underdamped motion	5
-e295	fulltext/https_openalex.org_W2102277728.md	5.4. Other systems	3
-e296	fulltext/https_openalex.org_W2102277728.md	6.1. Master equation dynamics	3
-e297	fulltext/https_openalex.org_W2102277728.md	6.2. Entropy production	3
-e298	fulltext/https_openalex.org_W2102277728.md	6.3. FTs for entropy production and 'work'	6
-e299	fulltext/https_openalex.org_W2102277728.md	6.4. FT for currents	5
-e300	fulltext/https_openalex.org_W2102277728.md	7.1. Optimal protocols	6
-e301	fulltext/https_openalex.org_W2102277728.md	7.2. Quantifying time's arrow	6
-e302	fulltext/https_openalex.org_W2102277728.md	7.3. Measurement and feedback	3
-e303	fulltext/https_openalex.org_W2102277728.md	8.1. Overview	5
-e304	fulltext/https_openalex.org_W2102277728.md	8.2. Derivation and discussion	2
-e305	fulltext/https_openalex.org_W2102277728.md	8.4. Sheared suspensions	6
-e306	fulltext/https_openalex.org_W2102277728.md	9.1. Overview	4
-e307	fulltext/https_openalex.org_W2102277728.md	9.2. Biopolymers with continuous degrees of freedom	2
-e308	fulltext/https_openalex.org_W2102277728.md	9.3. Free energy recovery from non-equilibrium data	8
-e309	fulltext/https_openalex.org_W2102277728.md	9.4. Enzymes and molecular motors with discrete states	3
-e310	fulltext/https_openalex.org_W2102277728.md	10.1. General aspects	5
-e311	fulltext/https_openalex.org_W2102277728.md	10.2. General framework for autonomous machines: Cycle representation and entropy production	3
-e312	fulltext/https_openalex.org_W2102277728.md	10.3. Power and efficiency	2
-e313	fulltext/https_openalex.org_W2102277728.md	10.4. Linear response: Relation to phenomenological irreversible thermodynamics	3
-e314	fulltext/https_openalex.org_W2102277728.md	10.5. Unicyclic machines	7
-e315	fulltext/https_openalex.org_W2102277728.md	10.6. Multicyclic machines: Strong vs weak coupling	6
-e316	fulltext/https_openalex.org_W2102277728.md	10.7. Efficiency and EMP of molecular motors	7
-e317	fulltext/https_openalex.org_W2102277728.md	11.1. Carnot, Curzon-Ahlborn and beyond	5
-e318	fulltext/https_openalex.org_W2102277728.md	11.2. Autonomous heat engines	6
-e319	fulltext/https_openalex.org_W2102277728.md	11.3. Periodically driven heat engines	6
-e320	fulltext/https_openalex.org_W2102277728.md	12. Concluding perspective	8
-e321	fulltext/https_openalex.org_W2102277728.md	12.1. Summary	5
-e322	fulltext/https_openalex.org_W2102277728.md	12.2. Beyond a Markovian dynamics: Memory effects and coarse-graining	3
-e323	fulltext/https_openalex.org_W2102277728.md	12.3. Coupling of non-equilibrium steady states: A zeroth law?	7
-e324	fulltext/https_openalex.org_W2102277728.md	12.4. Final remark	5
-e325	fulltext/https_openalex.org_W2102277728.md	Acknowledgments	8
-e326	fulltext/https_openalex.org_W2102277728.md	References	2
-e327	fulltext/https_openalex.org_W2111485456.md	HEAD	2
-e328	fulltext/https_openalex.org_W2111485456.md	Commons and Cooperatives	2
-e329	fulltext/https_openalex.org_W2111485456.md	[Scholars Commons @ Laurier](https://scholars.wlu.ca/)	2
-e330	fulltext/https_openalex.org_W2111485456.md	Commons and Cooperatives	4
-e331	fulltext/https_openalex.org_W2111485456.md	Recommended Citation	3
-e332	fulltext/https_openalex.org_W2111485456.md	Abstract	7
-e333	fulltext/https_openalex.org_W2111485456.md	Commoners and workers	3
-e334	fulltext/https_openalex.org_W2111485456.md	Associated labour	4
-e335	fulltext/https_openalex.org_W2111485456.md	Workplace democracy	5
-e336	fulltext/https_openalex.org_W2111485456.md	Surplus distribution	4
-e337	fulltext/https_openalex.org_W2111485456.md	Cooperation among cooperatives	6
-e338	fulltext/https_openalex.org_W2111485456.md	State support	2
-e339	fulltext/https_openalex.org_W2111485456.md	Capitalist co-option or circulating common?	5
-e340	fulltext/https_openalex.org_W2111485456.md	Endnotes	2
-e341	fulltext/https_openalex.org_W2111485456.md	References	2
-e342	fulltext/https_openalex.org_W2111485456.md	Commons and Cooperatives	2
-e343	fulltext/https_openalex.org_W2154482800.md	HEAD	2
-e344	fulltext/https_openalex.org_W2154482800.md	Worker Cooperatives and Democratic Governance	2
-e345	fulltext/https_openalex.org_W2154482800.md	Worker Cooperatives and Democratic Governance	4
-e346	fulltext/https_openalex.org_W2154482800.md	John Pencavel	3
-e347	fulltext/https_openalex.org_W2154482800.md	Discussion Paper No. 6932 October 2012	4
-e348	fulltext/https_openalex.org_W2154482800.md	Worker Cooperatives and Democratic Governance *	5
-e349	fulltext/https_openalex.org_W2154482800.md	WORKER COOPERATIVES AND DEMOCRATIC GOVERNANCE	3
-e350	fulltext/https_openalex.org_W2154482800.md	I. Introduction	6
-e351	fulltext/https_openalex.org_W2154482800.md	IV. Comparative Production Efficiency of Worker Co-ops	7
-e352	fulltext/https_openalex.org_W2154482800.md	V. Democratic Governance	6
-e353	fulltext/https_openalex.org_W2154482800.md	VI. Conclusion	6
-e354	fulltext/https_openalex.org_W2154482800.md	REFERENCES	2
-e355	fulltext/https_openalex.org_W2747676085.md	HEAD	2
-e356	fulltext/https_openalex.org_W2747676085.md	Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes	2
-e357	fulltext/https_openalex.org_W2747676085.md	Rational Extended Thermodynamics of a Rarefied Polyatomic Gas with Molecular Relaxation Processes	4
-e358	fulltext/https_openalex.org_W2747676085.md	I. INTRODUCTION	6
-e359	fulltext/https_openalex.org_W2747676085.md	II. DISTRIBUTION FUNCTION WITH TWO ENERGIES OF INTERNAL MODES	7
-e360	fulltext/https_openalex.org_W2747676085.md	A. Equilibrium distribution function	7
-e361	fulltext/https_openalex.org_W2747676085.md	Statement 1	6
-e362	fulltext/https_openalex.org_W2747676085.md	B. Thermal and caloric equations of state	5
-e363	fulltext/https_openalex.org_W2747676085.md	III. NONEQUILIBRIUM TRIPLE HIERARCHY OF MOMENTEQUATIONS	5
-e364	fulltext/https_openalex.org_W2747676085.md	A. Truncated system of balance equations and its closure	6
-e365	fulltext/https_openalex.org_W2747676085.md	1. Galilean invariance	2
-e366	fulltext/https_openalex.org_W2747676085.md	2. MEP and the closure of the system	2
-e367	fulltext/https_openalex.org_W2747676085.md	IV. GENERALIZED BGK-MODEL	7
-e368	fulltext/https_openalex.org_W2747676085.md	A. Three relaxation times	7
-e369	fulltext/https_openalex.org_W2747676085.md	B. Generalized BGK collision term	4
-e370	fulltext/https_openalex.org_W2747676085.md	C. H-theorem	7
-e371	fulltext/https_openalex.org_W2747676085.md	V. ET THEORY WITH SEVEN INDEPENDENT FIELDS: ET 7	7
-e372	fulltext/https_openalex.org_W2747676085.md	A. System of balance equations	6
-e373	fulltext/https_openalex.org_W2747676085.md	B. Nonequilibrium distribution function	5
-e374	fulltext/https_openalex.org_W2747676085.md	Statement 2	8
-e375	fulltext/https_openalex.org_W2747676085.md	C. Closed system of field equations	5
-e376	fulltext/https_openalex.org_W2747676085.md	D. Entropy density and production	6
-e377	fulltext/https_openalex.org_W2747676085.md	E. Production terms in the generalized BGK-model	6
-e378	fulltext/https_openalex.org_W2747676085.md	VI. CHARACTERISTIC FEATURES OF ET 7	5
-e379	fulltext/https_openalex.org_W2747676085.md	A. Comparison with the Meixner theory	7
-e380	fulltext/https_openalex.org_W2747676085.md	B. Characteristic velocity, sub-characteristic conditions, and local exceptionality	5
-e381	fulltext/https_openalex.org_W2747676085.md	C. ET 6 theories as the principal subsystems of the ET 7 theory	6
-e382	fulltext/https_openalex.org_W2747676085.md	D. Near equilibrium case	2
-e383	fulltext/https_openalex.org_W2747676085.md	E. Homogeneous solution and relaxation of nonequilibrium temperatures	6
-e384	fulltext/https_openalex.org_W2747676085.md	VII. DISPERSION AND ATTENUATION OF ULTRASONIC WAVE: AN APPLICATION OF ET 7	8
-e385	fulltext/https_openalex.org_W2747676085.md	A. Dispersion relation	7
-e386	fulltext/https_openalex.org_W2747676085.md	B. Qualitative description of the dispersion relation	4
-e387	fulltext/https_openalex.org_W2747676085.md	C. Comparison with experimental data	4
-e388	fulltext/https_openalex.org_W2747676085.md	VIII. SUMMARY AND OUTLOOK	7
-e389	fulltext/https_openalex.org_W2747676085.md	ACKNOWLEDGMENTS	7
-e390	fulltext/https_openalex.org_W2747676085.md	Appendix: Proof of Statement 2	2
-e391	fulltext/https_openalex.org_W2914339720.md	HEAD	2
-e392	fulltext/https_openalex.org_W2914339720.md	Are Cooperative Societies Transforming into Cooperative Companies?: Reflections on the Finnish Cooperatives Act	2
-e393	fulltext/https_openalex.org_W2914339720.md	Are Cooperative Societies Transforming into Cooperative Companies? : Reflections on the Finnish Cooperatives Act: Ovatko osuuskuntayhteisöt muuttumassa osuuskuntayhtiöiksi : Vertailua Suomen osuuskuntalakiin	2
-e394	fulltext/https_openalex.org_W2914339720.md	Abstract	5
-e395	fulltext/https_openalex.org_W2914339720.md	1. Introduction	5
-e396	fulltext/https_openalex.org_W2914339720.md	2. A Brief Introduction to Finnish Cooperative Law	5
-e397	fulltext/https_openalex.org_W2914339720.md	3. The Objectives of Cooperatives and the General Principles of Cooperative Law - Reflections on the FCA	5
-e398	fulltext/https_openalex.org_W2914339720.md	3.1. Voluntary and Open Membership	6
-e399	fulltext/https_openalex.org_W2914339720.md	3.2. Democratic Member Control	2
-e400	fulltext/https_openalex.org_W2914339720.md	3.3. Members' Economic Participation	6
-e401	fulltext/https_openalex.org_W2914339720.md	3.4. Autonomy and Independence	6
-e402	fulltext/https_openalex.org_W2914339720.md	3.5. Other Cooperative Principles	5
-e403	fulltext/https_openalex.org_W2914339720.md	4. Conclusions	4
-e404	fulltext/https_openalex.org_W2948895307.md	HEAD	2
-e405	fulltext/https_openalex.org_W2948895307.md	Coopetition and innovation. Lessons from worker cooperatives in the Spanish machine tool industry	3
-e406	fulltext/https_openalex.org_W2948895307.md	Imanol Basterretxea	3
-e407	fulltext/https_openalex.org_W2948895307.md	Jon Charterina	3
-e408	fulltext/https_openalex.org_W2948895307.md	Jon Landeta	2
-e409	fulltext/https_openalex.org_W2948895307.md	Imanol Basterretxea	3
-e410	fulltext/https_openalex.org_W2948895307.md	Jon Charterina	3
-e411	fulltext/https_openalex.org_W2948895307.md	Jon Landeta	3
-e412	fulltext/https_openalex.org_W2948895307.md	Purpose -	4
-e413	fulltext/https_openalex.org_W2948895307.md	1.- Introduction	4
-e414	fulltext/https_openalex.org_W2948895307.md	2.- Coopetition, inter-cooperation and innovation	4
-e415	fulltext/https_openalex.org_W2948895307.md	2.1.- Internal drivers pushing towards or against coopetition	6
-e416	fulltext/https_openalex.org_W2948895307.md	2.2.- External drivers pushing towards coopetition in the MT industry	6
-e417	fulltext/https_openalex.org_W2948895307.md	2.3.-  Relational  drivers  among  competing  firms  in  the  case  of  Mondragon's  MT  cooperative firms	4
-e418	fulltext/https_openalex.org_W2948895307.md	3.- Methodology	2
-e419	fulltext/https_openalex.org_W2948895307.md	4.- Results	5
-e420	fulltext/https_openalex.org_W2948895307.md	4.1.- Benefits from shared R&amp;D units	3
-e421	fulltext/https_openalex.org_W2948895307.md	4.2.- Benefits of coopetitive sales and after-sale services in new markets	6
-e422	fulltext/https_openalex.org_W2948895307.md	4.3 Coopetition on behalf of common customers or with investor-owned firms	2
-e423	fulltext/https_openalex.org_W2948895307.md	4.4.- Mergers and other organizational changes generated from coopetition	3
-e424	fulltext/https_openalex.org_W2948895307.md	5.- Conclusions	2
-e425	fulltext/https_openalex.org_W2948895307.md	Acknowledgements	3
-e426	fulltext/https_openalex.org_W2948895307.md	References	3
-e427	fulltext/https_openalex.org_W3098165131.md	HEAD	2
-e428	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics—a topical review	4
-e429	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics - a topical review	4
-e430	fulltext/https_openalex.org_W3098165131.md	I. INTRODUCTION	8
-e431	fulltext/https_openalex.org_W3098165131.md	FIG. 1: Maxwell's demon	6
-e432	fulltext/https_openalex.org_W3098165131.md	FIG. 2: The thermodynamic origin of the von Neumann entropy	6
-e433	fulltext/https_openalex.org_W3098165131.md	SCOPE AND OTHER REVIEWS	7
-e434	fulltext/https_openalex.org_W3098165131.md	Definitions and notation	3
-e435	fulltext/https_openalex.org_W3098165131.md	II. FOUNDATIONS OF STATISTICAL MECHANICS	7
-e436	fulltext/https_openalex.org_W3098165131.md	A. Equal a priori probabilities postulate as a consequence of typicality in Hilbert spaces	6
-e437	fulltext/https_openalex.org_W3098165131.md	B. Equilibration. Maximum entropy principle from quantum dynamics	8
-e438	fulltext/https_openalex.org_W3098165131.md	C. Thermalization. Emergence of Gibbs states in local Hamiltonians	7
-e439	fulltext/https_openalex.org_W3098165131.md	D. Equilibration times	8
-e440	fulltext/https_openalex.org_W3098165131.md	E. Outlook	6
-e441	fulltext/https_openalex.org_W3098165131.md	III. RESOURCE THEORIES	6
-e442	fulltext/https_openalex.org_W3098165131.md	A. Models for thermodynamics	7
-e443	fulltext/https_openalex.org_W3098165131.md	1. Noisy and unital operations	7
-e444	fulltext/https_openalex.org_W3098165131.md	2. Thermal operations	5
-e445	fulltext/https_openalex.org_W3098165131.md	3. Gibbs-preserving maps	9
-e446	fulltext/https_openalex.org_W3098165131.md	4. Coherence	8
-e447	fulltext/https_openalex.org_W3098165131.md	Example 1: Free energy as a monotone.	3
-e448	fulltext/https_openalex.org_W3098165131.md	5. Catalysts	8
-e449	fulltext/https_openalex.org_W3098165131.md	6. Clocks	6
-e450	fulltext/https_openalex.org_W3098165131.md	7. Free states and passivity	6
-e451	fulltext/https_openalex.org_W3098165131.md	Example 2: Heat engines	5
-e452	fulltext/https_openalex.org_W3098165131.md	8. Different baths	7
-e453	fulltext/https_openalex.org_W3098165131.md	9. Finite-size effects	6
-e454	fulltext/https_openalex.org_W3098165131.md	10. Single-shot regime	6
-e455	fulltext/https_openalex.org_W3098165131.md	11. Definitions of work	7
-e456	fulltext/https_openalex.org_W3098165131.md	B. Generalizing resource theories	8
-e457	fulltext/https_openalex.org_W3098165131.md	1. Starting from the pre-order	7
-e458	fulltext/https_openalex.org_W3098165131.md	2. Starting from the set of free resources	7
-e459	fulltext/https_openalex.org_W3098165131.md	3. In category theory	5
-e460	fulltext/https_openalex.org_W3098165131.md	Example 3: Landauer's principle	6
-e461	fulltext/https_openalex.org_W3098165131.md	4. Resource theories of knowledge	6
-e462	fulltext/https_openalex.org_W3098165131.md	C. Outlook	7
-e463	fulltext/https_openalex.org_W3098165131.md	IV. ENTANGLEMENT THEORY IN THERMODYNAMIC SETTINGS	8
-e464	fulltext/https_openalex.org_W3098165131.md	A. Correlations and entanglement under entropic restrictions	7
-e465	fulltext/https_openalex.org_W3098165131.md	B. Correlations and entanglement in a thermodynamic background	11
-e466	fulltext/https_openalex.org_W3098165131.md	C. Thermodynamics under locality restrictions	9
-e467	fulltext/https_openalex.org_W3098165131.md	D. Entanglement resources in thermodynamic tasks	8
-e468	fulltext/https_openalex.org_W3098165131.md	E. Using thermodynamics to reveal quantumness	7
-e469	fulltext/https_openalex.org_W3098165131.md	F. Outlook	7
-e470	fulltext/https_openalex.org_W3098165131.md	A. Introduction	7
-e471	fulltext/https_openalex.org_W3098165131.md	B. Phase estimation schemes for extraction of quantum work and heat statistics	9
-e472	fulltext/https_openalex.org_W3098165131.md	C. Fluctuation relations with feedback, measurement and CPTP maps	7
-e473	fulltext/https_openalex.org_W3098165131.md	D. Entropy production, relative entropy and correlations	7
-e474	fulltext/https_openalex.org_W3098165131.md	E. Outlook	5
-e475	fulltext/https_openalex.org_W3098165131.md	VI. QUANTUM THERMAL MACHINES	7
-e476	fulltext/https_openalex.org_W3098165131.md	A. Absorption refrigerators	6
-e477	fulltext/https_openalex.org_W3098165131.md	Example 5: Algorithmic cooling	4
-e478	fulltext/https_openalex.org_W3098165131.md	1. Stationary behaviour	7
-e479	fulltext/https_openalex.org_W3098165131.md	FIG. 5: Three-qubit fridge	7
-e480	fulltext/https_openalex.org_W3098165131.md	2. Transient behaviour	5
-e481	fulltext/https_openalex.org_W3098165131.md	B. Reservoir engineering	8
-e482	fulltext/https_openalex.org_W3098165131.md	C. Quantum thermodynamic signatures	8
-e483	fulltext/https_openalex.org_W3098165131.md	D. Stationary entanglement	7
-e484	fulltext/https_openalex.org_W3098165131.md	E. Outlook	4
-e485	fulltext/https_openalex.org_W3098165131.md	VII. FINAL REMARKS	7
-e486	fulltext/https_openalex.org_W3098165131.md	AUTHOR CONTRIBUTIONS	6
-e487	fulltext/https_openalex.org_W3098165131.md	ACKNOWLEDGEMENTS	2
-e488	fulltext/https_openalex.org_W4296129757.md	HEAD	2
-e489	fulltext/https_openalex.org_W4296129757.md	Coopetition and innovation: A review and research agenda	3
-e490	fulltext/https_openalex.org_W4296129757.md	Alma Mater Studiorum Università di Bologna Archivio istituzionale della ricerca	7
-e491	fulltext/https_openalex.org_W4296129757.md	Published Version:	7
-e492	fulltext/https_openalex.org_W4296129757.md	Availability:	5
-e493	fulltext/https_openalex.org_W4296129757.md	Terms of use:	4
-e494	fulltext/https_openalex.org_W4296129757.md	Terms of use:	8
-e495	fulltext/https_openalex.org_W4296129757.md	Abstract	5
-e496	fulltext/https_openalex.org_W4296129757.md	HIGHLIGHTS	6
-e497	fulltext/https_openalex.org_W4296129757.md	1. Introduction	2
-e498	fulltext/https_openalex.org_W4296129757.md	2.1. Sampling and data	6
-e499	fulltext/https_openalex.org_W4296129757.md	2.2. The building of the codebook	3
-e500	fulltext/https_openalex.org_W4296129757.md	2.3. Multiple Correspondence Analysis	4
-e501	fulltext/https_openalex.org_W4296129757.md	3. Findings	2
-e502	fulltext/https_openalex.org_W4296129757.md	3.1. Theoretical foundations	4
-e503	fulltext/https_openalex.org_W4296129757.md	3.2. Themes	5
-e504	fulltext/https_openalex.org_W4296129757.md	Strategy	2
-e505	fulltext/https_openalex.org_W4296129757.md	Value creation, appropriation, and performance	3
-e506	fulltext/https_openalex.org_W4296129757.md	Human Resources and Organization Culture	4
-e507	fulltext/https_openalex.org_W4296129757.md	Appropriability and Protection	4
-e508	fulltext/https_openalex.org_W4296129757.md	3.3. Methodology and levels of analysis	3
-e509	fulltext/https_openalex.org_W4296129757.md	3.4. Context &amp; Industry	6
-e510	fulltext/https_openalex.org_W4296129757.md	4. Future research avenues	5
-e511	fulltext/https_openalex.org_W4296129757.md	[Insert Figure 3 about here]	5
-e512	fulltext/https_openalex.org_W4296129757.md	5. Conclusion	5
-e513	fulltext/https_openalex.org_W4296129757.md	References	2
-e514	fulltext/https_openalex.org_W4296129757.md	Figure 1 : Methodology protocol	2
-e515	fulltext/https_openalex.org_W4319014659.md	HEAD	2
-e516	fulltext/https_openalex.org_W4319014659.md	The Governance of Multistakeholder Cooperatives in Mondragon: The Evolving Relationship among Purpose, Structure and Process	2
-e517	fulltext/https_openalex.org_W4319014659.md	The  Governance  of  Multistakeholder Cooperatives  in  Mondragon:  The  Evolving Relationship  among  Purpose,  Structure and  Process	2
-e518	fulltext/https_openalex.org_W4319014659.md	10.1 Introduction	3
-e519	fulltext/https_openalex.org_W4319014659.md	10.2 The  Research  Context-The  Mondragon Cooperative  Experience  (MCE)	5
-e520	fulltext/https_openalex.org_W4319014659.md	10.2.1 The  Roots  of  the  Mondragon  Cooperative Experience	3
-e521	fulltext/https_openalex.org_W4319014659.md	10.2.2 The  Consolidation  and  Expansion of  the  Model:  Inter-Cooperation	3
-e522	fulltext/https_openalex.org_W4319014659.md	10.2.3 Multistakeholder  Governance(s) in  the  Mondragon  Cooperative  Experience	2
-e523	fulltext/https_openalex.org_W4319014659.md	10.2.4 The  Missing  Link:  Individual  Multistakeholder Cooperatives  in  the  Mondragon  Cooperative Experience	5
-e524	fulltext/https_openalex.org_W4319014659.md	10.3 Multistakeholder  Cooperatives in  Mondragon  Cooperative  Experience: A  Case  Study	2
-e525	fulltext/https_openalex.org_W4319014659.md	10.3.1 Methods	3
-e526	fulltext/https_openalex.org_W4319014659.md	10.3.2 Results	4
-e527	fulltext/https_openalex.org_W4319014659.md	Basic  Data:  Incidence,  Evolution,  Distribution,  Size and  Purpose	2
-e528	fulltext/https_openalex.org_W4319014659.md	Structure	3
-e529	fulltext/https_openalex.org_W4319014659.md	Legal  Form	2
-e530	fulltext/https_openalex.org_W4319014659.md	Ownership  Structure	2
-e531	fulltext/https_openalex.org_W4319014659.md	Governing  Councils  and  General  Assemblies	2
-e532	fulltext/https_openalex.org_W4319014659.md	Other  Decision-Making  Bodies	3
-e533	fulltext/https_openalex.org_W4319014659.md	10.4 Discussion:  Processes  and  Dynamics of  Governance  in  Mondragon  MSCs	2
-e534	fulltext/https_openalex.org_W4319014659.md	10.5 Conclusions	3
-e535	fulltext/https_openalex.org_W4319014659.md	References	3
-e536	fulltext/https_openalex.org_W4389092776.md	HEAD	2
-e537	fulltext/https_openalex.org_W4389092776.md	Institutional Design and Cooperative Success: The Case of Producer Cooperatives	3
-e538	fulltext/https_openalex.org_W4389092776.md	ABSTRACT	6
-e539	fulltext/https_openalex.org_W4389092776.md	KEY-WORDS	3
-e540	fulltext/https_openalex.org_W4389092776.md	Acknowledgments	4
-e541	fulltext/https_openalex.org_W4389092776.md	1. Introduction 1	6
-e542	fulltext/https_openalex.org_W4389092776.md	2. Issues and competing conceptual frameworks	5
-e543	fulltext/https_openalex.org_W4389092776.md	Notes:	4
-e544	fulltext/https_openalex.org_W4389092776.md	3. Evidence on the nature and effects of shelter organizations	2
-e545	fulltext/https_openalex.org_W4389092776.md	4. Evidence on the nature and effects of institutional design for individual PCs	3
-e546	fulltext/https_openalex.org_W4389092776.md	5. Conclusions and policy implications	6
-e547	fulltext/https_openalex.org_W4389092776.md	References	2
-e548	fulltext/https_openalex.org_W4389195852.md	HEAD	2
-e549	fulltext/https_openalex.org_W4389195852.md	Desafíos en la regeneración de grandes grupos cooperativos: un estudio de caso de Mondragon	5
-e550	fulltext/https_openalex.org_W4389195852.md	Aingeru Ruiz, Ignacio Bretos	4
-e551	fulltext/https_openalex.org_W4389195852.md	Objectives	6
-e552	fulltext/https_openalex.org_W4389195852.md	Methodology	6
-e553	fulltext/https_openalex.org_W4389195852.md	Findings	6
-e554	fulltext/https_openalex.org_W4389195852.md	Limitations	7
-e555	fulltext/https_openalex.org_W4389195852.md	Practical implications and original value	5
-e556	fulltext/https_openalex.org_W4389195852.md	1. Introducción	5
-e557	fulltext/https_openalex.org_W4389195852.md	2. Revisión de la literatura	6
-e558	fulltext/https_openalex.org_W4389195852.md	3. Contexto empírico: Tensiones y transformación en la Experiencia Cooperativa de Mondragon	6
-e559	fulltext/https_openalex.org_W4389195852.md	4. Metodología y datos	4
-e560	fulltext/https_openalex.org_W4389195852.md	5. Resultados	8
-e561	fulltext/https_openalex.org_W4389195852.md	5.1. Proceso de Reflexión sobre el Sentido de la Experiencia Cooperativa de Mondragon	4
-e562	fulltext/https_openalex.org_W4389195852.md	5.1.1. Metodología, primeras etapas y dimensiones identificadas para la regeneración cooperativa	5
-e563	fulltext/https_openalex.org_W4389195852.md	5.1.2. Últimas etapas y diagnóstico del PRSE	3
-e564	fulltext/https_openalex.org_W4389195852.md	Líneas de acción propuestas	5
-e565	fulltext/https_openalex.org_W4389195852.md	5.2.1. Proceso de elaboración del PRSE	7
-e566	fulltext/https_openalex.org_W4389195852.md	5.2.2. Puesta en marcha de las líneas de acción aprobadas en el PRSE	4
-e567	fulltext/https_openalex.org_W4389195852.md	Regeneración vía educación cooperativa	4
-e568	fulltext/https_openalex.org_W4389195852.md	Regeneración vía implementación de la transformación social	6
-e569	fulltext/https_openalex.org_W4389195852.md	Regeneración vía participación en el puesto de trabajo	6
-e570	fulltext/https_openalex.org_W4389195852.md	Regeneración vía fomento de fórmulas de participación en las filiales	4
-e571	fulltext/https_openalex.org_W4389195852.md	6. Discusión y conclusiones	3
-e572	fulltext/https_openalex.org_W4389195852.md	Bibliografía	2
-e573	fulltext/https_openalex.org_W4400896471.md	HEAD	2
-e574	fulltext/https_openalex.org_W4400896471.md	Entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation	2
-e575	fulltext/https_openalex.org_W4400896471.md	Entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation	4
-e576	fulltext/https_openalex.org_W4400896471.md	1  Introduction	2
-e577	fulltext/https_openalex.org_W4400896471.md	2.1    Entrepreneurship, innovation, and the role of external cooperation	4
-e578	fulltext/https_openalex.org_W4400896471.md	2.2    Hypothesis development step 1: links between cooperation, entrepreneurship, and innovation	4
-e579	fulltext/https_openalex.org_W4400896471.md	2.3    Hypothesis development step 2: comparison between working cooperatives and conventional firms	4
-e580	fulltext/https_openalex.org_W4400896471.md	3.1    Data	3
-e581	fulltext/https_openalex.org_W4400896471.md	3.2    Measurements	3
-e582	fulltext/https_openalex.org_W4400896471.md	3.3    Data analysis	3
-e583	fulltext/https_openalex.org_W4400896471.md	4.1    Assessment of global model fit	6
-e584	fulltext/https_openalex.org_W4400896471.md	4.2    Assessment of the measurement model	4
-e585	fulltext/https_openalex.org_W4400896471.md	4.3    Assessment of the structural model	2
-e586	fulltext/https_openalex.org_W4400896471.md	4.4    Multigroup analysis	2
-e587	fulltext/https_openalex.org_W4400896471.md	5    Discussion and contribution	5
-e588	fulltext/https_openalex.org_W4400896471.md	6    Implications	2
-e589	fulltext/https_openalex.org_W4400896471.md	7    Conclusion and limitations	5
-e590	fulltext/https_openalex.org_W4400896471.md	Declarations	3
-e591	fulltext/https_openalex.org_W4400896471.md	References	2
-e592	fulltext/https_openalex.org_W4400976761.md	HEAD	2
-e593	fulltext/https_openalex.org_W4400976761.md	Worker Cooperatives for a Democratic Economy	2
-e594	fulltext/https_openalex.org_W4400976761.md	Democratic Economy	3
-e595	fulltext/https_openalex.org_W4400976761.md	The Degeneration Thesis	5
-e596	fulltext/https_openalex.org_W4400976761.md	The Spillover Thesis	5
-e597	fulltext/https_openalex.org_W4400976761.md	Enter Critical Theory	6
-e598	fulltext/https_openalex.org_W4400976761.md	Conclusion	4
-e599	fulltext/https_openalex.org_W4400976761.md	NoTEs	5
-e600	fulltext/https_openalex.org_W4400976761.md	REfERENCEs	2
-e601	fulltext/https_openalex.org_W7210828298.md	HEAD	2
-e602	fulltext/https_openalex.org_W7210828298.md	Between ESOPs, EOTs and Mondragon cooperatives	4
-e603	fulltext/https_openalex.org_W7210828298.md	Tej Gonza	3
-e604	fulltext/https_openalex.org_W7210828298.md	Abstract	3
-e605	fulltext/https_openalex.org_W7210828298.md	1. Introduction	4
-e606	fulltext/https_openalex.org_W7210828298.md	2. Recognizing the challenges of employee ownership	6
-e607	fulltext/https_openalex.org_W7210828298.md	3. Structural design of the Slovenian ESOP	5
-e608	fulltext/https_openalex.org_W7210828298.md	JPEO 9,2	3
-e609	fulltext/https_openalex.org_W7210828298.md	3.1 Leverage buyout through employee ownership cooperative	7
-e610	fulltext/https_openalex.org_W7210828298.md	3.2 Individual capital accounts	3
-e611	fulltext/https_openalex.org_W7210828298.md	3.3 Innovative valuation rules	5
-e612	fulltext/https_openalex.org_W7210828298.md	3.4 Rollover system	2
-e613	fulltext/https_openalex.org_W7210828298.md	3.5 Governance structure	3
-e614	fulltext/https_openalex.org_W7210828298.md	3.6 Concluding synthesis	3
-e615	fulltext/https_openalex.org_W7210828298.md	4. Tax incentives and regulatory framework	2
-e616	fulltext/https_openalex.org_W7210828298.md	4.1 Three pillars of Slovenian tax incentives	3
-e617	fulltext/https_openalex.org_W7210828298.md	100	8
-e618	fulltext/https_openalex.org_W7210828298.md	5. Concluding remarks	5
-e619	fulltext/https_openalex.org_W7210828298.md	AI generative	3
-e620	fulltext/https_openalex.org_W7210828298.md	Notes	4
-e621	fulltext/https_openalex.org_W7210828298.md	102	2
-e622	fulltext/https_openalex.org_W7210828298.md	References	2
-e623	fulltext/https_openalex.org_W7210828298.md	Corresponding author	4
-e624	openalex/https_openalex.org_W1539711243	openalex/https_openalex.org_W1539711243	18
-e625	openalex/https_openalex.org_W1548102935	openalex/https_openalex.org_W1548102935	14
-e626	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
-e627	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
-e628	openalex/https_openalex.org_W1722094751	openalex/https_openalex.org_W1722094751	14
-e629	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
-e630	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
-e631	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
-e632	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
-e633	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
-e634	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
-e635	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
-e636	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
-e637	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
-e638	openalex/https_openalex.org_W2111485456	openalex/https_openalex.org_W2111485456	18
-e639	openalex/https_openalex.org_W2146931873	openalex/https_openalex.org_W2146931873	15
-e640	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
-e641	openalex/https_openalex.org_W2154482800	openalex/https_openalex.org_W2154482800	16
-e642	openalex/https_openalex.org_W2200482579	openalex/https_openalex.org_W2200482579	7
-e643	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
-e644	openalex/https_openalex.org_W2265959764	openalex/https_openalex.org_W2265959764	17
-e645	openalex/https_openalex.org_W2267469130	openalex/https_openalex.org_W2267469130	24
-e646	openalex/https_openalex.org_W2358983431	openalex/https_openalex.org_W2358983431	16
-e647	openalex/https_openalex.org_W2476926852	openalex/https_openalex.org_W2476926852	13
-e648	openalex/https_openalex.org_W2487130774	openalex/https_openalex.org_W2487130774	18
-e649	openalex/https_openalex.org_W2507710874	openalex/https_openalex.org_W2507710874	17
-e650	openalex/https_openalex.org_W260652942	openalex/https_openalex.org_W260652942	4
-e651	openalex/https_openalex.org_W2610240389	openalex/https_openalex.org_W2610240389	10
-e652	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
-e653	openalex/https_openalex.org_W2737527045	openalex/https_openalex.org_W2737527045	13
-e654	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
-e655	openalex/https_openalex.org_W2753118395	openalex/https_openalex.org_W2753118395	9
-e656	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
-e657	openalex/https_openalex.org_W2914339720	openalex/https_openalex.org_W2914339720	12
-e658	openalex/https_openalex.org_W2919561213	openalex/https_openalex.org_W2919561213	22
-e659	openalex/https_openalex.org_W2923170200	openalex/https_openalex.org_W2923170200	13
-e660	openalex/https_openalex.org_W292370510	openalex/https_openalex.org_W292370510	14
-e661	openalex/https_openalex.org_W2948895307	openalex/https_openalex.org_W2948895307	11
-e662	openalex/https_openalex.org_W2956035282	openalex/https_openalex.org_W2956035282	13
-e663	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
-e664	openalex/https_openalex.org_W3054594743	openalex/https_openalex.org_W3054594743	14
-e665	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
-e666	openalex/https_openalex.org_W3084816230	openalex/https_openalex.org_W3084816230	12
-e667	openalex/https_openalex.org_W3088004447	openalex/https_openalex.org_W3088004447	9
-e668	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
-e669	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
-e670	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
-e671	openalex/https_openalex.org_W3107145433	openalex/https_openalex.org_W3107145433	15
-e672	openalex/https_openalex.org_W3187462489	openalex/https_openalex.org_W3187462489	12
-e673	openalex/https_openalex.org_W3196906759	openalex/https_openalex.org_W3196906759	11
-e674	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
-e675	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
-e676	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
-e677	openalex/https_openalex.org_W4205378368	openalex/https_openalex.org_W4205378368	17
-e678	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
-e679	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
-e680	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
-e681	openalex/https_openalex.org_W4296129757	openalex/https_openalex.org_W4296129757	12
-e682	openalex/https_openalex.org_W4319014659	openalex/https_openalex.org_W4319014659	12
-e683	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
-e684	openalex/https_openalex.org_W4389092776	openalex/https_openalex.org_W4389092776	13
-e685	openalex/https_openalex.org_W4389195852	openalex/https_openalex.org_W4389195852	16
-e686	openalex/https_openalex.org_W4390292511	openalex/https_openalex.org_W4390292511	15
-e687	openalex/https_openalex.org_W4399878453	openalex/https_openalex.org_W4399878453	16
-e688	openalex/https_openalex.org_W4399899195	openalex/https_openalex.org_W4399899195	14
-e689	openalex/https_openalex.org_W4400896471	openalex/https_openalex.org_W4400896471	16
-e690	openalex/https_openalex.org_W4400976761	openalex/https_openalex.org_W4400976761	15
-e691	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17
-e692	openalex/https_openalex.org_W4405074958	openalex/https_openalex.org_W4405074958	17
-e693	openalex/https_openalex.org_W4407091201	openalex/https_openalex.org_W4407091201	7
-e694	openalex/https_openalex.org_W7127054929	openalex/https_openalex.org_W7127054929	18
-e695	openalex/https_openalex.org_W7169487449	openalex/https_openalex.org_W7169487449	5
-e696	openalex/https_openalex.org_W7169992690	openalex/https_openalex.org_W7169992690	16
-e697	openalex/https_openalex.org_W7210828298	openalex/https_openalex.org_W7210828298	9
-e698	openalex/https_openalex.org_W7213299274	openalex/https_openalex.org_W7213299274	16
+e153	fulltext/castoriadis_1997_democracy_procedure_regime.md	HEAD	2
+e154	fulltext/castoriadis_1997_democracy_procedure_regime.md	Democracy as Procedure and Democracy as Regime	2
+e155	fulltext/castoriadis_1997_democracy_procedure_regime.md	Cornelius Castoriadis	5
+e156	fulltext/castoriadis_1997_democracy_procedure_regime.md	I	5
+e157	fulltext/castoriadis_1997_democracy_procedure_regime.md	II	4
+e158	fulltext/castoriadis_1997_democracy_procedure_regime.md	III	7
+e159	fulltext/castoriadis_1997_democracy_procedure_regime.md	IV	6
+e160	fulltext/castoriadis_1997_democracy_procedure_regime.md	NOTES	3
+e161	fulltext/https_openalex.org_W1539711243.md	HEAD	2
+e162	fulltext/https_openalex.org_W1539711243.md	Federated Structures for Cooperative Growth	3
+e163	fulltext/https_openalex.org_W1539711243.md	Federated Structures for Cooperative Growth	7
+e164	fulltext/https_openalex.org_W1539711243.md	Method	3
+e165	fulltext/https_openalex.org_W1539711243.md	Theory	4
+e166	fulltext/https_openalex.org_W1539711243.md	Transition of the Irish Dairy Cooperatives	7
+e167	fulltext/https_openalex.org_W1539711243.md	Cooperative Grain Marketing in the United Kingdom	7
+e168	fulltext/https_openalex.org_W1539711243.md	Rural Hospital Cooperatives in the United States	5
+e169	fulltext/https_openalex.org_W1539711243.md	Cooperatives in Transition Economies: Hungarian Wholesale Cooperatives	8
+e170	fulltext/https_openalex.org_W1539711243.md	Findings Across Settings	7
+e171	fulltext/https_openalex.org_W1539711243.md	Sources of Capital	7
+e172	fulltext/https_openalex.org_W1539711243.md	Incentives for Management	5
+e173	fulltext/https_openalex.org_W1539711243.md	Governance	4
+e174	fulltext/https_openalex.org_W1539711243.md	Opportunism	7
+e175	fulltext/https_openalex.org_W1539711243.md	Engines of Change	6
+e176	fulltext/https_openalex.org_W1539711243.md	Ideological Glue	4
+e177	fulltext/https_openalex.org_W1539711243.md	Federated Cooperatives	6
+e178	fulltext/https_openalex.org_W1539711243.md	The Holding Company-IOF Design	3
+e179	fulltext/https_openalex.org_W1539711243.md	Conclusions	5
+e180	fulltext/https_openalex.org_W1539711243.md	Notes	4
+e181	fulltext/https_openalex.org_W1539711243.md	References	2
+e182	fulltext/https_openalex.org_W1919133474.md	HEAD	2
+e183	fulltext/https_openalex.org_W1919133474.md	From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics	4
+e184	fulltext/https_openalex.org_W1919133474.md	From Quantum Chaos and Eigenstate Thermalization to Statistical Mechanics and Thermodynamics	4
+e185	fulltext/https_openalex.org_W1919133474.md	1. Introduction	8
+e186	fulltext/https_openalex.org_W1919133474.md	2.1. Classical Chaos	7
+e187	fulltext/https_openalex.org_W1919133474.md	2.2. Random Matrix Theory	5
+e188	fulltext/https_openalex.org_W1919133474.md	2.2.1. Chaotic Eigenfunctions	8
+e189	fulltext/https_openalex.org_W1919133474.md	2.2.2. The Structure of the Matrix Elements of Operators	5
+e190	fulltext/https_openalex.org_W1919133474.md	2.3. Berry-Tabor Conjecture	8
+e191	fulltext/https_openalex.org_W1919133474.md	2.4. The Semi-Classical Limit and Berry's Conjecture	5
+e192	fulltext/https_openalex.org_W1919133474.md	3.1. Examples of Wigner-Dyson and Poisson Statistics	5
+e193	fulltext/https_openalex.org_W1919133474.md	3.2. The Structure of Many-Body Eigenstates	5
+e194	fulltext/https_openalex.org_W1919133474.md	3.3. Quantum Chaos and Entanglement	6
+e195	fulltext/https_openalex.org_W1919133474.md	each time t , nitial product states, let them S ( t ) for each initial state, and -2 n ln 2 -O ( mn ) 3.4. Quantum Chaos and Delocalization in Energy Space	5
+e196	fulltext/https_openalex.org_W1919133474.md	4.1. Thermalization in Quantum Systems	7
+e197	fulltext/https_openalex.org_W1919133474.md	4.2. The Eigenstate Thermalization Hypothesis (ETH)	6
+e198	fulltext/https_openalex.org_W1919133474.md	4.2.1. ETH and Thermalization	6
+e199	fulltext/https_openalex.org_W1919133474.md	4.2.2. ETH and the Quantum Ergodic Theorem	6
+e200	fulltext/https_openalex.org_W1919133474.md	4.3.1. Eigenstate Thermalization	5
+e201	fulltext/https_openalex.org_W1919133474.md	4.3.2. Quantum Quenches and Thermalization in Lattice Systems	5
+e202	fulltext/https_openalex.org_W1919133474.md	5. Quantum Chaos and the Laws of Thermodynamics	7
+e203	fulltext/https_openalex.org_W1919133474.md	5.1. General Setup and Doubly Stochastic Evolution	6
+e204	fulltext/https_openalex.org_W1919133474.md	5.1.1. Properties of Master Equations and Doubly Stochastic Evolution	6
+e205	fulltext/https_openalex.org_W1919133474.md	5.2. General Implications of Doubly Stochastic Evolution	8
+e206	fulltext/https_openalex.org_W1919133474.md	5.2.1. The Infinite Temperature State as an Attractor of Doubly-Stochastic Evolution	6
+e207	fulltext/https_openalex.org_W1919133474.md	5.2.2. Increase of the Diagonal Entropy Under Doubly Stochastic Evolution	6
+e208	fulltext/https_openalex.org_W1919133474.md	5.2.3. The Second Law in the Kelvin Formulation for Passive Density Matrices	6
+e209	fulltext/https_openalex.org_W1919133474.md	5.3. Implications of Doubly-Stochastic Evolution for Chaotic Systems	7
+e210	fulltext/https_openalex.org_W1919133474.md	5.3.1. The Diagonal Entropy and the Fundamental Thermodynamic Relation	5
+e211	fulltext/https_openalex.org_W1919133474.md	5.3.2. The Fundamental Relation vs the First Law of Thermodynamics	7
+e212	fulltext/https_openalex.org_W1919133474.md	6. Quantum Chaos, Fluctuation Theorems, and Linear Response Relations	8
+e213	fulltext/https_openalex.org_W1919133474.md	6.1. Fluctuation Theorems	6
+e214	fulltext/https_openalex.org_W1919133474.md	6.1.1. Fluctuation Theorems for Systems Starting from a Gibbs State	6
+e215	fulltext/https_openalex.org_W1919133474.md	6.1.2. Fluctuation Theorems for Quantum Chaotic Systems	5
+e216	fulltext/https_openalex.org_W1919133474.md	6.2. Detailed Balance for Open Systems	7
+e217	fulltext/https_openalex.org_W1919133474.md	6.3. Einstein's Energy Drift-Diffusion Relations for Isolated and Open Systems	2
+e218	fulltext/https_openalex.org_W1919133474.md	6.4. Fokker-Planck Equation for the Heating of a Driven Isolated System	4
+e219	fulltext/https_openalex.org_W1919133474.md	6.5. Fluctuation Theorems for Two (or More) Conserved Quantities	5
+e220	fulltext/https_openalex.org_W1919133474.md	6.6. Linear Response and Onsager Relations	3
+e221	fulltext/https_openalex.org_W1919133474.md	6.7. Nonlinear Response Coefficients	5
+e222	fulltext/https_openalex.org_W1919133474.md	6.8. ETH and the Fluctuation-Dissipation Relation for a Single Eigenstate	3
+e223	fulltext/https_openalex.org_W1919133474.md	6.9. ETH and Two-Observable Correlations Functions	6
+e224	fulltext/https_openalex.org_W1919133474.md	7. Application of Einstein's Relation to Continuously Driven Systems	3
+e225	fulltext/https_openalex.org_W1919133474.md	7.1. Heating a Particle in a Fluctuating Chaotic Cavity	7
+e226	fulltext/https_openalex.org_W1919133474.md	7.2. Driven Harmonic System and a Phase Transition in the Distribution Function	7
+e227	fulltext/https_openalex.org_W1919133474.md	7.3. Two Equilibrating Systems	7
+e228	fulltext/https_openalex.org_W1919133474.md	8. Integrable Models and the Generalized Gibbs Ensemble (GGE)	6
+e229	fulltext/https_openalex.org_W1919133474.md	8.1. Constrained Equilibrium: the GGE	6
+e230	fulltext/https_openalex.org_W1919133474.md	8.1.1. Noninteracting Spinless Fermions	6
+e231	fulltext/https_openalex.org_W1919133474.md	8.1.2. Hard-Core Bosons	6
+e232	fulltext/https_openalex.org_W1919133474.md	8.2. Generalized Eigenstate Thermalization	6
+e233	fulltext/https_openalex.org_W1919133474.md	8.2.1. Truncated GGE for the Transverse Field Ising Model	6
+e234	fulltext/https_openalex.org_W1919133474.md	( y ) tGGE ,ℓ ) , the subsystem size ranges from ℓ = 5 to ℓ = 50. and sizes change gradually as a function of the size 8.3. Quenches in the XXZ model	4
+e235	fulltext/https_openalex.org_W1919133474.md	8.4. Relaxation of Weakly Non-Integrable Systems: Prethermalization and Quantum Kinetic Equations	3
+e236	fulltext/https_openalex.org_W1919133474.md	Acknowledgments	2
+e237	fulltext/https_openalex.org_W1919133474.md	Appendix A. The Kicked Rotor	3
+e238	fulltext/https_openalex.org_W1919133474.md	Appendix B. Zeros of the Riemann Zeta Function	7
+e239	fulltext/https_openalex.org_W1919133474.md	Appendix C. The Infinite Temperature State as an Attractor	7
+e240	fulltext/https_openalex.org_W1919133474.md	Appendix D. Birkhoff's Theorem and Doubly Stochastic Evolution	7
+e241	fulltext/https_openalex.org_W1919133474.md	Appendix E. Proof of 〈 W 〉 ≥ 0 for Passive Density Matrices and Doubly-Stochastic Evolution	3
+e242	fulltext/https_openalex.org_W1919133474.md	Appendix F. Derivation of the Drift Diffusion Relation for Continuous Processes	4
+e243	fulltext/https_openalex.org_W1919133474.md	Appendix G. Derivation of Onsager Relations	3
+e244	fulltext/https_openalex.org_W1919133474.md	References	2
+e245	fulltext/https_openalex.org_W2017005585.md	HEAD	2
+e246	fulltext/https_openalex.org_W2017005585.md	The social architecture of capitalism	5
+e247	fulltext/https_openalex.org_W2017005585.md	The Social Architecture of Capitalism	2
+e248	fulltext/https_openalex.org_W2017005585.md	Abstract	7
+e249	fulltext/https_openalex.org_W2017005585.md	1 Introduction	5
+e250	fulltext/https_openalex.org_W2017005585.md	2 A dynamic model of the social relations of production	6
+e251	fulltext/https_openalex.org_W2017005585.md	2.1 The active actor	6
+e252	fulltext/https_openalex.org_W2017005585.md	2.2 Employee hiring	6
+e253	fulltext/https_openalex.org_W2017005585.md	2.3 Expenditure on goods and services	8
+e254	fulltext/https_openalex.org_W2017005585.md	2.4 Interaction between firms and the market	7
+e255	fulltext/https_openalex.org_W2017005585.md	2.5 Employee firing	5
+e256	fulltext/https_openalex.org_W2017005585.md	2.6 Wage payment	7
+e257	fulltext/https_openalex.org_W2017005585.md	2.7 Historical time	5
+e258	fulltext/https_openalex.org_W2017005585.md	One month rule 1M :	7
+e259	fulltext/https_openalex.org_W2017005585.md	One year rule 1Y :	6
+e260	fulltext/https_openalex.org_W2017005585.md	3 Results	7
+e261	fulltext/https_openalex.org_W2017005585.md	3.1 Class distribution	5
+e262	fulltext/https_openalex.org_W2017005585.md	3.2 Firm size distribution	6
+e263	fulltext/https_openalex.org_W2017005585.md	3.3 Firm growth distributions	8
+e264	fulltext/https_openalex.org_W2017005585.md	Firm growth in the SR model is measured according to:	6
+e265	fulltext/https_openalex.org_W2017005585.md	3.4 Firm demise distribution	6
+e266	fulltext/https_openalex.org_W2017005585.md	3.5 GDP growth	5
+e267	fulltext/https_openalex.org_W2017005585.md	3.6 Duration of recessions	5
+e268	fulltext/https_openalex.org_W2017005585.md	3.7 Income shares	7
+e269	fulltext/https_openalex.org_W2017005585.md	3.8 Disaggregated income distributions	7
+e270	fulltext/https_openalex.org_W2017005585.md	3.9 Rate-of-profit distribution	7
+e271	fulltext/https_openalex.org_W2017005585.md	4 Discussion	4
+e272	fulltext/https_openalex.org_W2017005585.md	5 Conclusion	8
+e273	fulltext/https_openalex.org_W2017005585.md	References	2
+e274	fulltext/https_openalex.org_W2102277728.md	HEAD	2
+e275	fulltext/https_openalex.org_W2102277728.md	Stochastic thermodynamics, fluctuation theorems and molecular machines	3
+e276	fulltext/https_openalex.org_W2102277728.md	Udo Seifert	3
+e277	fulltext/https_openalex.org_W2102277728.md	CONTENTS	2
+e278	fulltext/https_openalex.org_W2102277728.md	1.1. From classical to stochastic thermodynamics	4
+e279	fulltext/https_openalex.org_W2102277728.md	1.2. Main features of stochastic thermodynamics	3
+e280	fulltext/https_openalex.org_W2102277728.md	1.3. Hamiltonian, thermostatted and open quantum dynamics	4
+e281	fulltext/https_openalex.org_W2102277728.md	1.4. Scope and organization of this review	4
+e282	fulltext/https_openalex.org_W2102277728.md	1.5. Complementary reviews	6
+e283	fulltext/https_openalex.org_W2102277728.md	2. Colloidal particle as paradigm	8
+e284	fulltext/https_openalex.org_W2102277728.md	2.1. Stochastic dynamics	2
+e285	fulltext/https_openalex.org_W2102277728.md	2.2. Non-equilibrium steady states (NESSs)	3
+e286	fulltext/https_openalex.org_W2102277728.md	2.3. Stochastic energetics	7
+e287	fulltext/https_openalex.org_W2102277728.md	2.4. Stochastic entropy	7
+e288	fulltext/https_openalex.org_W2102277728.md	2.5. Ensemble averages	2
+e289	fulltext/https_openalex.org_W2102277728.md	3. Fluctuation theorems (FTs)	6
+e290	fulltext/https_openalex.org_W2102277728.md	3.1. Phenomenological classification	5
+e291	fulltext/https_openalex.org_W2102277728.md	3.2. Non-equilibrium work theorems	3
+e292	fulltext/https_openalex.org_W2102277728.md	3.3. FTs for entropy production	8
+e293	fulltext/https_openalex.org_W2102277728.md	4. Unification of FTs	6
+e294	fulltext/https_openalex.org_W2102277728.md	4.1. Conjugate dynamics	4
+e295	fulltext/https_openalex.org_W2102277728.md	4.2. The master FT	7
+e296	fulltext/https_openalex.org_W2102277728.md	4.3. General IFTs	3
+e297	fulltext/https_openalex.org_W2102277728.md	4.4. FTs derived from time-reversal	2
+e298	fulltext/https_openalex.org_W2102277728.md	4.5. FTs for variants	6
+e299	fulltext/https_openalex.org_W2102277728.md	4.6. FTs for athermal systems	2
+e300	fulltext/https_openalex.org_W2102277728.md	5.1. Principal aspects	6
+e301	fulltext/https_openalex.org_W2102277728.md	5.2. Overdamped motion: Colloidal particles and other systems	6
+e302	fulltext/https_openalex.org_W2102277728.md	5.3. Underdamped motion	5
+e303	fulltext/https_openalex.org_W2102277728.md	5.4. Other systems	3
+e304	fulltext/https_openalex.org_W2102277728.md	6.1. Master equation dynamics	3
+e305	fulltext/https_openalex.org_W2102277728.md	6.2. Entropy production	3
+e306	fulltext/https_openalex.org_W2102277728.md	6.3. FTs for entropy production and 'work'	6
+e307	fulltext/https_openalex.org_W2102277728.md	6.4. FT for currents	5
+e308	fulltext/https_openalex.org_W2102277728.md	7.1. Optimal protocols	6
+e309	fulltext/https_openalex.org_W2102277728.md	7.2. Quantifying time's arrow	6
+e310	fulltext/https_openalex.org_W2102277728.md	7.3. Measurement and feedback	3
+e311	fulltext/https_openalex.org_W2102277728.md	8.1. Overview	5
+e312	fulltext/https_openalex.org_W2102277728.md	8.2. Derivation and discussion	2
+e313	fulltext/https_openalex.org_W2102277728.md	8.4. Sheared suspensions	6
+e314	fulltext/https_openalex.org_W2102277728.md	9.1. Overview	4
+e315	fulltext/https_openalex.org_W2102277728.md	9.2. Biopolymers with continuous degrees of freedom	2
+e316	fulltext/https_openalex.org_W2102277728.md	9.3. Free energy recovery from non-equilibrium data	8
+e317	fulltext/https_openalex.org_W2102277728.md	9.4. Enzymes and molecular motors with discrete states	3
+e318	fulltext/https_openalex.org_W2102277728.md	10.1. General aspects	5
+e319	fulltext/https_openalex.org_W2102277728.md	10.2. General framework for autonomous machines: Cycle representation and entropy production	3
+e320	fulltext/https_openalex.org_W2102277728.md	10.3. Power and efficiency	2
+e321	fulltext/https_openalex.org_W2102277728.md	10.4. Linear response: Relation to phenomenological irreversible thermodynamics	3
+e322	fulltext/https_openalex.org_W2102277728.md	10.5. Unicyclic machines	7
+e323	fulltext/https_openalex.org_W2102277728.md	10.6. Multicyclic machines: Strong vs weak coupling	6
+e324	fulltext/https_openalex.org_W2102277728.md	10.7. Efficiency and EMP of molecular motors	7
+e325	fulltext/https_openalex.org_W2102277728.md	11.1. Carnot, Curzon-Ahlborn and beyond	5
+e326	fulltext/https_openalex.org_W2102277728.md	11.2. Autonomous heat engines	6
+e327	fulltext/https_openalex.org_W2102277728.md	11.3. Periodically driven heat engines	6
+e328	fulltext/https_openalex.org_W2102277728.md	12. Concluding perspective	8
+e329	fulltext/https_openalex.org_W2102277728.md	12.1. Summary	5
+e330	fulltext/https_openalex.org_W2102277728.md	12.2. Beyond a Markovian dynamics: Memory effects and coarse-graining	3
+e331	fulltext/https_openalex.org_W2102277728.md	12.3. Coupling of non-equilibrium steady states: A zeroth law?	7
+e332	fulltext/https_openalex.org_W2102277728.md	12.4. Final remark	5
+e333	fulltext/https_openalex.org_W2102277728.md	Acknowledgments	8
+e334	fulltext/https_openalex.org_W2102277728.md	References	2
+e335	fulltext/https_openalex.org_W2111485456.md	HEAD	2
+e336	fulltext/https_openalex.org_W2111485456.md	Commons and Cooperatives	2
+e337	fulltext/https_openalex.org_W2111485456.md	[Scholars Commons @ Laurier](https://scholars.wlu.ca/)	2
+e338	fulltext/https_openalex.org_W2111485456.md	Commons and Cooperatives	4
+e339	fulltext/https_openalex.org_W2111485456.md	Recommended Citation	3
+e340	fulltext/https_openalex.org_W2111485456.md	Abstract	7
+e341	fulltext/https_openalex.org_W2111485456.md	Commoners and workers	3
+e342	fulltext/https_openalex.org_W2111485456.md	Associated labour	4
+e343	fulltext/https_openalex.org_W2111485456.md	Workplace democracy	5
+e344	fulltext/https_openalex.org_W2111485456.md	Surplus distribution	4
+e345	fulltext/https_openalex.org_W2111485456.md	Cooperation among cooperatives	6
+e346	fulltext/https_openalex.org_W2111485456.md	State support	2
+e347	fulltext/https_openalex.org_W2111485456.md	Capitalist co-option or circulating common?	5
+e348	fulltext/https_openalex.org_W2111485456.md	Endnotes	2
+e349	fulltext/https_openalex.org_W2111485456.md	References	2
+e350	fulltext/https_openalex.org_W2111485456.md	Commons and Cooperatives	2
+e351	fulltext/https_openalex.org_W2154482800.md	HEAD	2
+e352	fulltext/https_openalex.org_W2154482800.md	Worker Cooperatives and Democratic Governance	2
+e353	fulltext/https_openalex.org_W2154482800.md	Worker Cooperatives and Democratic Governance	4
+e354	fulltext/https_openalex.org_W2154482800.md	John Pencavel	3
+e355	fulltext/https_openalex.org_W2154482800.md	Discussion Paper No. 6932 October 2012	4
+e356	fulltext/https_openalex.org_W2154482800.md	Worker Cooperatives and Democratic Governance *	5
+e357	fulltext/https_openalex.org_W2154482800.md	WORKER COOPERATIVES AND DEMOCRATIC GOVERNANCE	3
+e358	fulltext/https_openalex.org_W2154482800.md	I. Introduction	6
+e359	fulltext/https_openalex.org_W2154482800.md	IV. Comparative Production Efficiency of Worker Co-ops	7
+e360	fulltext/https_openalex.org_W2154482800.md	V. Democratic Governance	6
+e361	fulltext/https_openalex.org_W2154482800.md	VI. Conclusion	6
+e362	fulltext/https_openalex.org_W2154482800.md	REFERENCES	2
+e363	fulltext/https_openalex.org_W2747676085.md	HEAD	2
+e364	fulltext/https_openalex.org_W2747676085.md	Rational extended thermodynamics of a rarefied polyatomic gas with molecular relaxation processes	2
+e365	fulltext/https_openalex.org_W2747676085.md	Rational Extended Thermodynamics of a Rarefied Polyatomic Gas with Molecular Relaxation Processes	4
+e366	fulltext/https_openalex.org_W2747676085.md	I. INTRODUCTION	6
+e367	fulltext/https_openalex.org_W2747676085.md	II. DISTRIBUTION FUNCTION WITH TWO ENERGIES OF INTERNAL MODES	7
+e368	fulltext/https_openalex.org_W2747676085.md	A. Equilibrium distribution function	7
+e369	fulltext/https_openalex.org_W2747676085.md	Statement 1	6
+e370	fulltext/https_openalex.org_W2747676085.md	B. Thermal and caloric equations of state	5
+e371	fulltext/https_openalex.org_W2747676085.md	III. NONEQUILIBRIUM TRIPLE HIERARCHY OF MOMENTEQUATIONS	5
+e372	fulltext/https_openalex.org_W2747676085.md	A. Truncated system of balance equations and its closure	6
+e373	fulltext/https_openalex.org_W2747676085.md	1. Galilean invariance	2
+e374	fulltext/https_openalex.org_W2747676085.md	2. MEP and the closure of the system	2
+e375	fulltext/https_openalex.org_W2747676085.md	IV. GENERALIZED BGK-MODEL	7
+e376	fulltext/https_openalex.org_W2747676085.md	A. Three relaxation times	7
+e377	fulltext/https_openalex.org_W2747676085.md	B. Generalized BGK collision term	4
+e378	fulltext/https_openalex.org_W2747676085.md	C. H-theorem	7
+e379	fulltext/https_openalex.org_W2747676085.md	V. ET THEORY WITH SEVEN INDEPENDENT FIELDS: ET 7	7
+e380	fulltext/https_openalex.org_W2747676085.md	A. System of balance equations	6
+e381	fulltext/https_openalex.org_W2747676085.md	B. Nonequilibrium distribution function	5
+e382	fulltext/https_openalex.org_W2747676085.md	Statement 2	8
+e383	fulltext/https_openalex.org_W2747676085.md	C. Closed system of field equations	5
+e384	fulltext/https_openalex.org_W2747676085.md	D. Entropy density and production	6
+e385	fulltext/https_openalex.org_W2747676085.md	E. Production terms in the generalized BGK-model	6
+e386	fulltext/https_openalex.org_W2747676085.md	VI. CHARACTERISTIC FEATURES OF ET 7	5
+e387	fulltext/https_openalex.org_W2747676085.md	A. Comparison with the Meixner theory	7
+e388	fulltext/https_openalex.org_W2747676085.md	B. Characteristic velocity, sub-characteristic conditions, and local exceptionality	5
+e389	fulltext/https_openalex.org_W2747676085.md	C. ET 6 theories as the principal subsystems of the ET 7 theory	6
+e390	fulltext/https_openalex.org_W2747676085.md	D. Near equilibrium case	2
+e391	fulltext/https_openalex.org_W2747676085.md	E. Homogeneous solution and relaxation of nonequilibrium temperatures	6
+e392	fulltext/https_openalex.org_W2747676085.md	VII. DISPERSION AND ATTENUATION OF ULTRASONIC WAVE: AN APPLICATION OF ET 7	8
+e393	fulltext/https_openalex.org_W2747676085.md	A. Dispersion relation	7
+e394	fulltext/https_openalex.org_W2747676085.md	B. Qualitative description of the dispersion relation	4
+e395	fulltext/https_openalex.org_W2747676085.md	C. Comparison with experimental data	4
+e396	fulltext/https_openalex.org_W2747676085.md	VIII. SUMMARY AND OUTLOOK	7
+e397	fulltext/https_openalex.org_W2747676085.md	ACKNOWLEDGMENTS	7
+e398	fulltext/https_openalex.org_W2747676085.md	Appendix: Proof of Statement 2	2
+e399	fulltext/https_openalex.org_W2914339720.md	HEAD	2
+e400	fulltext/https_openalex.org_W2914339720.md	Are Cooperative Societies Transforming into Cooperative Companies?: Reflections on the Finnish Cooperatives Act	2
+e401	fulltext/https_openalex.org_W2914339720.md	Are Cooperative Societies Transforming into Cooperative Companies? : Reflections on the Finnish Cooperatives Act: Ovatko osuuskuntayhteisöt muuttumassa osuuskuntayhtiöiksi : Vertailua Suomen osuuskuntalakiin	2
+e402	fulltext/https_openalex.org_W2914339720.md	Abstract	5
+e403	fulltext/https_openalex.org_W2914339720.md	1. Introduction	5
+e404	fulltext/https_openalex.org_W2914339720.md	2. A Brief Introduction to Finnish Cooperative Law	5
+e405	fulltext/https_openalex.org_W2914339720.md	3. The Objectives of Cooperatives and the General Principles of Cooperative Law - Reflections on the FCA	5
+e406	fulltext/https_openalex.org_W2914339720.md	3.1. Voluntary and Open Membership	6
+e407	fulltext/https_openalex.org_W2914339720.md	3.2. Democratic Member Control	2
+e408	fulltext/https_openalex.org_W2914339720.md	3.3. Members' Economic Participation	6
+e409	fulltext/https_openalex.org_W2914339720.md	3.4. Autonomy and Independence	6
+e410	fulltext/https_openalex.org_W2914339720.md	3.5. Other Cooperative Principles	5
+e411	fulltext/https_openalex.org_W2914339720.md	4. Conclusions	4
+e412	fulltext/https_openalex.org_W2948895307.md	HEAD	2
+e413	fulltext/https_openalex.org_W2948895307.md	Coopetition and innovation. Lessons from worker cooperatives in the Spanish machine tool industry	3
+e414	fulltext/https_openalex.org_W2948895307.md	Imanol Basterretxea	3
+e415	fulltext/https_openalex.org_W2948895307.md	Jon Charterina	3
+e416	fulltext/https_openalex.org_W2948895307.md	Jon Landeta	2
+e417	fulltext/https_openalex.org_W2948895307.md	Imanol Basterretxea	3
+e418	fulltext/https_openalex.org_W2948895307.md	Jon Charterina	3
+e419	fulltext/https_openalex.org_W2948895307.md	Jon Landeta	3
+e420	fulltext/https_openalex.org_W2948895307.md	Purpose -	4
+e421	fulltext/https_openalex.org_W2948895307.md	1.- Introduction	4
+e422	fulltext/https_openalex.org_W2948895307.md	2.- Coopetition, inter-cooperation and innovation	4
+e423	fulltext/https_openalex.org_W2948895307.md	2.1.- Internal drivers pushing towards or against coopetition	6
+e424	fulltext/https_openalex.org_W2948895307.md	2.2.- External drivers pushing towards coopetition in the MT industry	6
+e425	fulltext/https_openalex.org_W2948895307.md	2.3.-  Relational  drivers  among  competing  firms  in  the  case  of  Mondragon's  MT  cooperative firms	4
+e426	fulltext/https_openalex.org_W2948895307.md	3.- Methodology	2
+e427	fulltext/https_openalex.org_W2948895307.md	4.- Results	5
+e428	fulltext/https_openalex.org_W2948895307.md	4.1.- Benefits from shared R&amp;D units	3
+e429	fulltext/https_openalex.org_W2948895307.md	4.2.- Benefits of coopetitive sales and after-sale services in new markets	6
+e430	fulltext/https_openalex.org_W2948895307.md	4.3 Coopetition on behalf of common customers or with investor-owned firms	2
+e431	fulltext/https_openalex.org_W2948895307.md	4.4.- Mergers and other organizational changes generated from coopetition	3
+e432	fulltext/https_openalex.org_W2948895307.md	5.- Conclusions	2
+e433	fulltext/https_openalex.org_W2948895307.md	Acknowledgements	3
+e434	fulltext/https_openalex.org_W2948895307.md	References	3
+e435	fulltext/https_openalex.org_W3098165131.md	HEAD	2
+e436	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics—a topical review	4
+e437	fulltext/https_openalex.org_W3098165131.md	The role of quantum information in thermodynamics - a topical review	4
+e438	fulltext/https_openalex.org_W3098165131.md	I. INTRODUCTION	8
+e439	fulltext/https_openalex.org_W3098165131.md	FIG. 1: Maxwell's demon	6
+e440	fulltext/https_openalex.org_W3098165131.md	FIG. 2: The thermodynamic origin of the von Neumann entropy	6
+e441	fulltext/https_openalex.org_W3098165131.md	SCOPE AND OTHER REVIEWS	7
+e442	fulltext/https_openalex.org_W3098165131.md	Definitions and notation	3
+e443	fulltext/https_openalex.org_W3098165131.md	II. FOUNDATIONS OF STATISTICAL MECHANICS	7
+e444	fulltext/https_openalex.org_W3098165131.md	A. Equal a priori probabilities postulate as a consequence of typicality in Hilbert spaces	6
+e445	fulltext/https_openalex.org_W3098165131.md	B. Equilibration. Maximum entropy principle from quantum dynamics	8
+e446	fulltext/https_openalex.org_W3098165131.md	C. Thermalization. Emergence of Gibbs states in local Hamiltonians	7
+e447	fulltext/https_openalex.org_W3098165131.md	D. Equilibration times	8
+e448	fulltext/https_openalex.org_W3098165131.md	E. Outlook	6
+e449	fulltext/https_openalex.org_W3098165131.md	III. RESOURCE THEORIES	6
+e450	fulltext/https_openalex.org_W3098165131.md	A. Models for thermodynamics	7
+e451	fulltext/https_openalex.org_W3098165131.md	1. Noisy and unital operations	7
+e452	fulltext/https_openalex.org_W3098165131.md	2. Thermal operations	5
+e453	fulltext/https_openalex.org_W3098165131.md	3. Gibbs-preserving maps	9
+e454	fulltext/https_openalex.org_W3098165131.md	4. Coherence	8
+e455	fulltext/https_openalex.org_W3098165131.md	Example 1: Free energy as a monotone.	3
+e456	fulltext/https_openalex.org_W3098165131.md	5. Catalysts	8
+e457	fulltext/https_openalex.org_W3098165131.md	6. Clocks	6
+e458	fulltext/https_openalex.org_W3098165131.md	7. Free states and passivity	6
+e459	fulltext/https_openalex.org_W3098165131.md	Example 2: Heat engines	5
+e460	fulltext/https_openalex.org_W3098165131.md	8. Different baths	7
+e461	fulltext/https_openalex.org_W3098165131.md	9. Finite-size effects	6
+e462	fulltext/https_openalex.org_W3098165131.md	10. Single-shot regime	6
+e463	fulltext/https_openalex.org_W3098165131.md	11. Definitions of work	7
+e464	fulltext/https_openalex.org_W3098165131.md	B. Generalizing resource theories	8
+e465	fulltext/https_openalex.org_W3098165131.md	1. Starting from the pre-order	7
+e466	fulltext/https_openalex.org_W3098165131.md	2. Starting from the set of free resources	7
+e467	fulltext/https_openalex.org_W3098165131.md	3. In category theory	5
+e468	fulltext/https_openalex.org_W3098165131.md	Example 3: Landauer's principle	6
+e469	fulltext/https_openalex.org_W3098165131.md	4. Resource theories of knowledge	6
+e470	fulltext/https_openalex.org_W3098165131.md	C. Outlook	7
+e471	fulltext/https_openalex.org_W3098165131.md	IV. ENTANGLEMENT THEORY IN THERMODYNAMIC SETTINGS	8
+e472	fulltext/https_openalex.org_W3098165131.md	A. Correlations and entanglement under entropic restrictions	7
+e473	fulltext/https_openalex.org_W3098165131.md	B. Correlations and entanglement in a thermodynamic background	11
+e474	fulltext/https_openalex.org_W3098165131.md	C. Thermodynamics under locality restrictions	9
+e475	fulltext/https_openalex.org_W3098165131.md	D. Entanglement resources in thermodynamic tasks	8
+e476	fulltext/https_openalex.org_W3098165131.md	E. Using thermodynamics to reveal quantumness	7
+e477	fulltext/https_openalex.org_W3098165131.md	F. Outlook	7
+e478	fulltext/https_openalex.org_W3098165131.md	A. Introduction	7
+e479	fulltext/https_openalex.org_W3098165131.md	B. Phase estimation schemes for extraction of quantum work and heat statistics	9
+e480	fulltext/https_openalex.org_W3098165131.md	C. Fluctuation relations with feedback, measurement and CPTP maps	7
+e481	fulltext/https_openalex.org_W3098165131.md	D. Entropy production, relative entropy and correlations	7
+e482	fulltext/https_openalex.org_W3098165131.md	E. Outlook	5
+e483	fulltext/https_openalex.org_W3098165131.md	VI. QUANTUM THERMAL MACHINES	7
+e484	fulltext/https_openalex.org_W3098165131.md	A. Absorption refrigerators	6
+e485	fulltext/https_openalex.org_W3098165131.md	Example 5: Algorithmic cooling	4
+e486	fulltext/https_openalex.org_W3098165131.md	1. Stationary behaviour	7
+e487	fulltext/https_openalex.org_W3098165131.md	FIG. 5: Three-qubit fridge	7
+e488	fulltext/https_openalex.org_W3098165131.md	2. Transient behaviour	5
+e489	fulltext/https_openalex.org_W3098165131.md	B. Reservoir engineering	8
+e490	fulltext/https_openalex.org_W3098165131.md	C. Quantum thermodynamic signatures	8
+e491	fulltext/https_openalex.org_W3098165131.md	D. Stationary entanglement	7
+e492	fulltext/https_openalex.org_W3098165131.md	E. Outlook	4
+e493	fulltext/https_openalex.org_W3098165131.md	VII. FINAL REMARKS	7
+e494	fulltext/https_openalex.org_W3098165131.md	AUTHOR CONTRIBUTIONS	6
+e495	fulltext/https_openalex.org_W3098165131.md	ACKNOWLEDGEMENTS	2
+e496	fulltext/https_openalex.org_W4296129757.md	HEAD	2
+e497	fulltext/https_openalex.org_W4296129757.md	Coopetition and innovation: A review and research agenda	3
+e498	fulltext/https_openalex.org_W4296129757.md	Alma Mater Studiorum Università di Bologna Archivio istituzionale della ricerca	7
+e499	fulltext/https_openalex.org_W4296129757.md	Published Version:	7
+e500	fulltext/https_openalex.org_W4296129757.md	Availability:	5
+e501	fulltext/https_openalex.org_W4296129757.md	Terms of use:	4
+e502	fulltext/https_openalex.org_W4296129757.md	Terms of use:	8
+e503	fulltext/https_openalex.org_W4296129757.md	Abstract	5
+e504	fulltext/https_openalex.org_W4296129757.md	HIGHLIGHTS	6
+e505	fulltext/https_openalex.org_W4296129757.md	1. Introduction	2
+e506	fulltext/https_openalex.org_W4296129757.md	2.1. Sampling and data	6
+e507	fulltext/https_openalex.org_W4296129757.md	2.2. The building of the codebook	3
+e508	fulltext/https_openalex.org_W4296129757.md	2.3. Multiple Correspondence Analysis	4
+e509	fulltext/https_openalex.org_W4296129757.md	3. Findings	2
+e510	fulltext/https_openalex.org_W4296129757.md	3.1. Theoretical foundations	4
+e511	fulltext/https_openalex.org_W4296129757.md	3.2. Themes	5
+e512	fulltext/https_openalex.org_W4296129757.md	Strategy	2
+e513	fulltext/https_openalex.org_W4296129757.md	Value creation, appropriation, and performance	3
+e514	fulltext/https_openalex.org_W4296129757.md	Human Resources and Organization Culture	4
+e515	fulltext/https_openalex.org_W4296129757.md	Appropriability and Protection	4
+e516	fulltext/https_openalex.org_W4296129757.md	3.3. Methodology and levels of analysis	3
+e517	fulltext/https_openalex.org_W4296129757.md	3.4. Context &amp; Industry	6
+e518	fulltext/https_openalex.org_W4296129757.md	4. Future research avenues	5
+e519	fulltext/https_openalex.org_W4296129757.md	[Insert Figure 3 about here]	5
+e520	fulltext/https_openalex.org_W4296129757.md	5. Conclusion	5
+e521	fulltext/https_openalex.org_W4296129757.md	References	2
+e522	fulltext/https_openalex.org_W4296129757.md	Figure 1 : Methodology protocol	2
+e523	fulltext/https_openalex.org_W4319014659.md	HEAD	2
+e524	fulltext/https_openalex.org_W4319014659.md	The Governance of Multistakeholder Cooperatives in Mondragon: The Evolving Relationship among Purpose, Structure and Process	2
+e525	fulltext/https_openalex.org_W4319014659.md	The  Governance  of  Multistakeholder Cooperatives  in  Mondragon:  The  Evolving Relationship  among  Purpose,  Structure and  Process	2
+e526	fulltext/https_openalex.org_W4319014659.md	10.1 Introduction	3
+e527	fulltext/https_openalex.org_W4319014659.md	10.2 The  Research  Context-The  Mondragon Cooperative  Experience  (MCE)	5
+e528	fulltext/https_openalex.org_W4319014659.md	10.2.1 The  Roots  of  the  Mondragon  Cooperative Experience	3
+e529	fulltext/https_openalex.org_W4319014659.md	10.2.2 The  Consolidation  and  Expansion of  the  Model:  Inter-Cooperation	3
+e530	fulltext/https_openalex.org_W4319014659.md	10.2.3 Multistakeholder  Governance(s) in  the  Mondragon  Cooperative  Experience	2
+e531	fulltext/https_openalex.org_W4319014659.md	10.2.4 The  Missing  Link:  Individual  Multistakeholder Cooperatives  in  the  Mondragon  Cooperative Experience	5
+e532	fulltext/https_openalex.org_W4319014659.md	10.3 Multistakeholder  Cooperatives in  Mondragon  Cooperative  Experience: A  Case  Study	2
+e533	fulltext/https_openalex.org_W4319014659.md	10.3.1 Methods	3
+e534	fulltext/https_openalex.org_W4319014659.md	10.3.2 Results	4
+e535	fulltext/https_openalex.org_W4319014659.md	Basic  Data:  Incidence,  Evolution,  Distribution,  Size and  Purpose	2
+e536	fulltext/https_openalex.org_W4319014659.md	Structure	3
+e537	fulltext/https_openalex.org_W4319014659.md	Legal  Form	2
+e538	fulltext/https_openalex.org_W4319014659.md	Ownership  Structure	2
+e539	fulltext/https_openalex.org_W4319014659.md	Governing  Councils  and  General  Assemblies	2
+e540	fulltext/https_openalex.org_W4319014659.md	Other  Decision-Making  Bodies	3
+e541	fulltext/https_openalex.org_W4319014659.md	10.4 Discussion:  Processes  and  Dynamics of  Governance  in  Mondragon  MSCs	2
+e542	fulltext/https_openalex.org_W4319014659.md	10.5 Conclusions	3
+e543	fulltext/https_openalex.org_W4319014659.md	References	3
+e544	fulltext/https_openalex.org_W4389092776.md	HEAD	2
+e545	fulltext/https_openalex.org_W4389092776.md	Institutional Design and Cooperative Success: The Case of Producer Cooperatives	3
+e546	fulltext/https_openalex.org_W4389092776.md	ABSTRACT	6
+e547	fulltext/https_openalex.org_W4389092776.md	KEY-WORDS	3
+e548	fulltext/https_openalex.org_W4389092776.md	Acknowledgments	4
+e549	fulltext/https_openalex.org_W4389092776.md	1. Introduction 1	6
+e550	fulltext/https_openalex.org_W4389092776.md	2. Issues and competing conceptual frameworks	5
+e551	fulltext/https_openalex.org_W4389092776.md	Notes:	4
+e552	fulltext/https_openalex.org_W4389092776.md	3. Evidence on the nature and effects of shelter organizations	2
+e553	fulltext/https_openalex.org_W4389092776.md	4. Evidence on the nature and effects of institutional design for individual PCs	3
+e554	fulltext/https_openalex.org_W4389092776.md	5. Conclusions and policy implications	6
+e555	fulltext/https_openalex.org_W4389092776.md	References	2
+e556	fulltext/https_openalex.org_W4389195852.md	HEAD	2
+e557	fulltext/https_openalex.org_W4389195852.md	Desafíos en la regeneración de grandes grupos cooperativos: un estudio de caso de Mondragon	5
+e558	fulltext/https_openalex.org_W4389195852.md	Aingeru Ruiz, Ignacio Bretos	4
+e559	fulltext/https_openalex.org_W4389195852.md	Objectives	6
+e560	fulltext/https_openalex.org_W4389195852.md	Methodology	6
+e561	fulltext/https_openalex.org_W4389195852.md	Findings	6
+e562	fulltext/https_openalex.org_W4389195852.md	Limitations	7
+e563	fulltext/https_openalex.org_W4389195852.md	Practical implications and original value	5
+e564	fulltext/https_openalex.org_W4389195852.md	1. Introducción	5
+e565	fulltext/https_openalex.org_W4389195852.md	2. Revisión de la literatura	6
+e566	fulltext/https_openalex.org_W4389195852.md	3. Contexto empírico: Tensiones y transformación en la Experiencia Cooperativa de Mondragon	6
+e567	fulltext/https_openalex.org_W4389195852.md	4. Metodología y datos	4
+e568	fulltext/https_openalex.org_W4389195852.md	5. Resultados	8
+e569	fulltext/https_openalex.org_W4389195852.md	5.1. Proceso de Reflexión sobre el Sentido de la Experiencia Cooperativa de Mondragon	4
+e570	fulltext/https_openalex.org_W4389195852.md	5.1.1. Metodología, primeras etapas y dimensiones identificadas para la regeneración cooperativa	5
+e571	fulltext/https_openalex.org_W4389195852.md	5.1.2. Últimas etapas y diagnóstico del PRSE	3
+e572	fulltext/https_openalex.org_W4389195852.md	Líneas de acción propuestas	5
+e573	fulltext/https_openalex.org_W4389195852.md	5.2.1. Proceso de elaboración del PRSE	7
+e574	fulltext/https_openalex.org_W4389195852.md	5.2.2. Puesta en marcha de las líneas de acción aprobadas en el PRSE	4
+e575	fulltext/https_openalex.org_W4389195852.md	Regeneración vía educación cooperativa	4
+e576	fulltext/https_openalex.org_W4389195852.md	Regeneración vía implementación de la transformación social	6
+e577	fulltext/https_openalex.org_W4389195852.md	Regeneración vía participación en el puesto de trabajo	6
+e578	fulltext/https_openalex.org_W4389195852.md	Regeneración vía fomento de fórmulas de participación en las filiales	4
+e579	fulltext/https_openalex.org_W4389195852.md	6. Discusión y conclusiones	3
+e580	fulltext/https_openalex.org_W4389195852.md	Bibliografía	2
+e581	fulltext/https_openalex.org_W4400896471.md	HEAD	2
+e582	fulltext/https_openalex.org_W4400896471.md	Entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation	2
+e583	fulltext/https_openalex.org_W4400896471.md	Entrepreneurship and innovation in worker cooperatives and conventional firms: the role of external cooperation	4
+e584	fulltext/https_openalex.org_W4400896471.md	1  Introduction	2
+e585	fulltext/https_openalex.org_W4400896471.md	2.1    Entrepreneurship, innovation, and the role of external cooperation	4
+e586	fulltext/https_openalex.org_W4400896471.md	2.2    Hypothesis development step 1: links between cooperation, entrepreneurship, and innovation	4
+e587	fulltext/https_openalex.org_W4400896471.md	2.3    Hypothesis development step 2: comparison between working cooperatives and conventional firms	4
+e588	fulltext/https_openalex.org_W4400896471.md	3.1    Data	3
+e589	fulltext/https_openalex.org_W4400896471.md	3.2    Measurements	3
+e590	fulltext/https_openalex.org_W4400896471.md	3.3    Data analysis	3
+e591	fulltext/https_openalex.org_W4400896471.md	4.1    Assessment of global model fit	6
+e592	fulltext/https_openalex.org_W4400896471.md	4.2    Assessment of the measurement model	4
+e593	fulltext/https_openalex.org_W4400896471.md	4.3    Assessment of the structural model	2
+e594	fulltext/https_openalex.org_W4400896471.md	4.4    Multigroup analysis	2
+e595	fulltext/https_openalex.org_W4400896471.md	5    Discussion and contribution	5
+e596	fulltext/https_openalex.org_W4400896471.md	6    Implications	2
+e597	fulltext/https_openalex.org_W4400896471.md	7    Conclusion and limitations	5
+e598	fulltext/https_openalex.org_W4400896471.md	Declarations	3
+e599	fulltext/https_openalex.org_W4400896471.md	References	2
+e600	fulltext/https_openalex.org_W4400976761.md	HEAD	2
+e601	fulltext/https_openalex.org_W4400976761.md	Worker Cooperatives for a Democratic Economy	2
+e602	fulltext/https_openalex.org_W4400976761.md	Democratic Economy	3
+e603	fulltext/https_openalex.org_W4400976761.md	The Degeneration Thesis	5
+e604	fulltext/https_openalex.org_W4400976761.md	The Spillover Thesis	5
+e605	fulltext/https_openalex.org_W4400976761.md	Enter Critical Theory	6
+e606	fulltext/https_openalex.org_W4400976761.md	Conclusion	4
+e607	fulltext/https_openalex.org_W4400976761.md	NoTEs	5
+e608	fulltext/https_openalex.org_W4400976761.md	REfERENCEs	2
+e609	fulltext/https_openalex.org_W7210828298.md	HEAD	2
+e610	fulltext/https_openalex.org_W7210828298.md	Between ESOPs, EOTs and Mondragon cooperatives	4
+e611	fulltext/https_openalex.org_W7210828298.md	Tej Gonza	3
+e612	fulltext/https_openalex.org_W7210828298.md	Abstract	3
+e613	fulltext/https_openalex.org_W7210828298.md	1. Introduction	4
+e614	fulltext/https_openalex.org_W7210828298.md	2. Recognizing the challenges of employee ownership	6
+e615	fulltext/https_openalex.org_W7210828298.md	3. Structural design of the Slovenian ESOP	5
+e616	fulltext/https_openalex.org_W7210828298.md	JPEO 9,2	3
+e617	fulltext/https_openalex.org_W7210828298.md	3.1 Leverage buyout through employee ownership cooperative	7
+e618	fulltext/https_openalex.org_W7210828298.md	3.2 Individual capital accounts	3
+e619	fulltext/https_openalex.org_W7210828298.md	3.3 Innovative valuation rules	5
+e620	fulltext/https_openalex.org_W7210828298.md	3.4 Rollover system	2
+e621	fulltext/https_openalex.org_W7210828298.md	3.5 Governance structure	3
+e622	fulltext/https_openalex.org_W7210828298.md	3.6 Concluding synthesis	3
+e623	fulltext/https_openalex.org_W7210828298.md	4. Tax incentives and regulatory framework	2
+e624	fulltext/https_openalex.org_W7210828298.md	4.1 Three pillars of Slovenian tax incentives	3
+e625	fulltext/https_openalex.org_W7210828298.md	100	8
+e626	fulltext/https_openalex.org_W7210828298.md	5. Concluding remarks	5
+e627	fulltext/https_openalex.org_W7210828298.md	AI generative	3
+e628	fulltext/https_openalex.org_W7210828298.md	Notes	4
+e629	fulltext/https_openalex.org_W7210828298.md	102	2
+e630	fulltext/https_openalex.org_W7210828298.md	References	2
+e631	fulltext/https_openalex.org_W7210828298.md	Corresponding author	4
+e632	openalex/https_openalex.org_W1539711243	openalex/https_openalex.org_W1539711243	18
+e633	openalex/https_openalex.org_W1548102935	openalex/https_openalex.org_W1548102935	14
+e634	openalex/https_openalex.org_W1630122343	openalex/https_openalex.org_W1630122343	15
+e635	openalex/https_openalex.org_W1689769220	openalex/https_openalex.org_W1689769220	8
+e636	openalex/https_openalex.org_W1722094751	openalex/https_openalex.org_W1722094751	14
+e637	openalex/https_openalex.org_W1919133474	openalex/https_openalex.org_W1919133474	16
+e638	openalex/https_openalex.org_W1987349636	openalex/https_openalex.org_W1987349636	14
+e639	openalex/https_openalex.org_W1988468031	openalex/https_openalex.org_W1988468031	14
+e640	openalex/https_openalex.org_W2017005585	openalex/https_openalex.org_W2017005585	5
+e641	openalex/https_openalex.org_W2050945279	openalex/https_openalex.org_W2050945279	15
+e642	openalex/https_openalex.org_W2076330525	openalex/https_openalex.org_W2076330525	16
+e643	openalex/https_openalex.org_W2088012579	openalex/https_openalex.org_W2088012579	13
+e644	openalex/https_openalex.org_W2099504029	openalex/https_openalex.org_W2099504029	8
+e645	openalex/https_openalex.org_W2102277728	openalex/https_openalex.org_W2102277728	11
+e646	openalex/https_openalex.org_W2111485456	openalex/https_openalex.org_W2111485456	18
+e647	openalex/https_openalex.org_W2146931873	openalex/https_openalex.org_W2146931873	15
+e648	openalex/https_openalex.org_W2147828940	openalex/https_openalex.org_W2147828940	7
+e649	openalex/https_openalex.org_W2154482800	openalex/https_openalex.org_W2154482800	16
+e650	openalex/https_openalex.org_W2200482579	openalex/https_openalex.org_W2200482579	7
+e651	openalex/https_openalex.org_W2215173806	openalex/https_openalex.org_W2215173806	15
+e652	openalex/https_openalex.org_W2265959764	openalex/https_openalex.org_W2265959764	17
+e653	openalex/https_openalex.org_W2267469130	openalex/https_openalex.org_W2267469130	24
+e654	openalex/https_openalex.org_W2358983431	openalex/https_openalex.org_W2358983431	16
+e655	openalex/https_openalex.org_W2476926852	openalex/https_openalex.org_W2476926852	13
+e656	openalex/https_openalex.org_W2487130774	openalex/https_openalex.org_W2487130774	18
+e657	openalex/https_openalex.org_W2507710874	openalex/https_openalex.org_W2507710874	17
+e658	openalex/https_openalex.org_W260652942	openalex/https_openalex.org_W260652942	4
+e659	openalex/https_openalex.org_W2610240389	openalex/https_openalex.org_W2610240389	10
+e660	openalex/https_openalex.org_W2613067797	openalex/https_openalex.org_W2613067797	8
+e661	openalex/https_openalex.org_W2737527045	openalex/https_openalex.org_W2737527045	13
+e662	openalex/https_openalex.org_W2747676085	openalex/https_openalex.org_W2747676085	19
+e663	openalex/https_openalex.org_W2753118395	openalex/https_openalex.org_W2753118395	9
+e664	openalex/https_openalex.org_W2793851618	openalex/https_openalex.org_W2793851618	16
+e665	openalex/https_openalex.org_W2914339720	openalex/https_openalex.org_W2914339720	12
+e666	openalex/https_openalex.org_W2919561213	openalex/https_openalex.org_W2919561213	22
+e667	openalex/https_openalex.org_W2923170200	openalex/https_openalex.org_W2923170200	13
+e668	openalex/https_openalex.org_W292370510	openalex/https_openalex.org_W292370510	14
+e669	openalex/https_openalex.org_W2948895307	openalex/https_openalex.org_W2948895307	11
+e670	openalex/https_openalex.org_W2956035282	openalex/https_openalex.org_W2956035282	13
+e671	openalex/https_openalex.org_W3012074597	openalex/https_openalex.org_W3012074597	16
+e672	openalex/https_openalex.org_W3054594743	openalex/https_openalex.org_W3054594743	14
+e673	openalex/https_openalex.org_W3054626598	openalex/https_openalex.org_W3054626598	17
+e674	openalex/https_openalex.org_W3084816230	openalex/https_openalex.org_W3084816230	12
+e675	openalex/https_openalex.org_W3088004447	openalex/https_openalex.org_W3088004447	9
+e676	openalex/https_openalex.org_W3092573715	openalex/https_openalex.org_W3092573715	15
+e677	openalex/https_openalex.org_W3098165131	openalex/https_openalex.org_W3098165131	17
+e678	openalex/https_openalex.org_W3100951637	openalex/https_openalex.org_W3100951637	15
+e679	openalex/https_openalex.org_W3107145433	openalex/https_openalex.org_W3107145433	15
+e680	openalex/https_openalex.org_W3187462489	openalex/https_openalex.org_W3187462489	12
+e681	openalex/https_openalex.org_W3196906759	openalex/https_openalex.org_W3196906759	11
+e682	openalex/https_openalex.org_W3209883919	openalex/https_openalex.org_W3209883919	19
+e683	openalex/https_openalex.org_W3212950476	openalex/https_openalex.org_W3212950476	15
+e684	openalex/https_openalex.org_W3213037972	openalex/https_openalex.org_W3213037972	23
+e685	openalex/https_openalex.org_W4205378368	openalex/https_openalex.org_W4205378368	17
+e686	openalex/https_openalex.org_W4220846098	openalex/https_openalex.org_W4220846098	6
+e687	openalex/https_openalex.org_W4250399327	openalex/https_openalex.org_W4250399327	4
+e688	openalex/https_openalex.org_W4280559094	openalex/https_openalex.org_W4280559094	21
+e689	openalex/https_openalex.org_W4296129757	openalex/https_openalex.org_W4296129757	12
+e690	openalex/https_openalex.org_W4319014659	openalex/https_openalex.org_W4319014659	12
+e691	openalex/https_openalex.org_W4362472596	openalex/https_openalex.org_W4362472596	5
+e692	openalex/https_openalex.org_W4389092776	openalex/https_openalex.org_W4389092776	13
+e693	openalex/https_openalex.org_W4389195852	openalex/https_openalex.org_W4389195852	16
+e694	openalex/https_openalex.org_W4390292511	openalex/https_openalex.org_W4390292511	15
+e695	openalex/https_openalex.org_W4399878453	openalex/https_openalex.org_W4399878453	16
+e696	openalex/https_openalex.org_W4399899195	openalex/https_openalex.org_W4399899195	14
+e697	openalex/https_openalex.org_W4400896471	openalex/https_openalex.org_W4400896471	16
+e698	openalex/https_openalex.org_W4400976761	openalex/https_openalex.org_W4400976761	15
+e699	openalex/https_openalex.org_W4404111866	openalex/https_openalex.org_W4404111866	17
+e700	openalex/https_openalex.org_W4405074958	openalex/https_openalex.org_W4405074958	17
+e701	openalex/https_openalex.org_W4407091201	openalex/https_openalex.org_W4407091201	7
+e702	openalex/https_openalex.org_W7127054929	openalex/https_openalex.org_W7127054929	18
+e703	openalex/https_openalex.org_W7169487449	openalex/https_openalex.org_W7169487449	5
+e704	openalex/https_openalex.org_W7169992690	openalex/https_openalex.org_W7169992690	16
+e705	openalex/https_openalex.org_W7210828298	openalex/https_openalex.org_W7210828298	9
+e706	openalex/https_openalex.org_W7213299274	openalex/https_openalex.org_W7213299274	16
