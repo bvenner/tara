@@ -15,7 +15,7 @@ project: moaiwi-research-program
 - **0.2** Brad: review/merge decisions on **PR stack #16 → #17** (merge commits) — *independent of all content work*
 - **0.3** T3/WP2 continuation: **ingest the degeneration canon** (Ward/Domar/Vanek/Meade + Cornforth; Block B seeds), then the full **failure-mode inventory** with per-case evidence and growth curves (B1 v3 §7 sequencing) — *agent; desk; independent*
 - **0.4** **T1 fieldwork** (Nic + Rachel): software budgets + back-office needs of the action-circle funds — *independent; **window-sensitive** (the ~Nov 20 circle meeting)*
-- **0.5** **T13 first pass** (plan + desk): meta-systems ↔ Castoriadis mapping; where "paideia" sits; the coupling question — *agent; desk; independent*
+- **0.5** **T13 first pass** (plan + desk): meta-systems ↔ Castoriadis mapping; where "paideia" sits; the coupling question; **plus the Castoriadis ↔ SE-terminology mapping** (extended 2026-10-26 per Brad's action-circle notes — feeds the R.1 glossary's translation column) — *agent; desk; independent*
 - **0.6** **T17 first pass** (plan + desk): categorical systems theory vs. language-based systemology; incompleteness doctrine — *agent; desk; **codependent with 0.5** (synthesis level only — both can start now)*
 - **0.7** Federalism-vs-confederalism scout (promoted lead) — *desk; independent; informs the Tier 1 decision on politics*
 - **0.8** *(optional, Brad, minutes)*: browser-fetch the two stranded P0 PDFs (#3 W7213299274, #5 W4390292511) if access ever opens
