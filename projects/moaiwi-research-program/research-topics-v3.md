@@ -227,3 +227,4 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 **Scope nuance (record so it is not lost):** the 2026-10-22 **equity-only** decision was a *pitch posture* for v2 artifacts. T6's research scope should cover the full mechanics the transcripts entertain — including debt, 0%-loans, and the barbell — because Hyphae must model whatever the design space contains. Equity-only governs what is said to investors; it does not narrow what is studied.
 
 **v2-era items retired with B3:** Gate 2 schedule, three-horizon mapping, and the D2/D3 demo handoffs (the v3 near-term demo is the Fortress demo of M1; D-numbered demos are v2 layout).
+
