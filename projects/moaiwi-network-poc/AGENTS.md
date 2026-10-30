@@ -6,7 +6,7 @@ Thread goal: a business plan POC for a corporation that is a federation of worke
 
 1. `writing/human/moaiwi-revision-proposal.md` — **authoritative source for the v3 rewrite (2026-10-24)**; where it conflicts with any other document, it wins
 2. **`autonomy-meta-plan.md`** — the **autonomy terminal-object meta-plan (draft 2026-10-25)**, subsuming `meta-plan-v3` (subsumption, not succession); from Reflect QA session 1; `meta-plan-v3-proposed-changes-2026-10-25.md` holds the deferred changes to meta-plan-v3
-3. `../moaiwi-research-program/democracy-as-regime/` — the Reflect process record: `castoriadis-1997-summary.md` (**Castor**), `reflect-terminal-object-sketch-2026-10-25.md` (**Paideia**), `qa-2026-10-25-terminal-object.md` (QA session 1 + deferred-changes ledger)
+3. `../moaiwi-research-program/democracy-as-regime/` — the Reflect process record: `castoriadis-1997-summary.md` (**Castor**), `reflect-terminal-object-sketch-2026-10-25.md` (**Paideia**); QA records live in `../moaiwi-research-program/reflect-process/` (`qa-2026-10-25-terminal-object.md`, QA session 1 + deferred-changes ledger)
 4. `writing/machine/2026-10-22-moaiwi-session-context.md` — session state (comment-phase workflow, git state)
 5. `meta-plan-v3.md` — **the v3 meta-plan** (drafted 2026-10-24 from scratch on branch `moaiwi-v3-rewrite`; **Brad reviewed 2026-10-24: sufficient to serve as the baseline moving forward**, revisions to follow; `framing-memo-v3.md` comes after revisions are complete)
 6. `2026-10-21-moaiwi-network-poc-meta-plan.md` — the v2 meta-plan (moved here from `writing/machine/` 2026-10-24; single combined 30-day sprint, phases, gates; revised 2026-10-22); **superseded**, reviewable input only

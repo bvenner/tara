@@ -30,12 +30,16 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Source.** meta-plan §3.1 (arithmetic, risk note); MOAIWI-4 (market sketch: ~200 funds, ~20 warm intros).
 - **Access note.** Window: the action circle is newly formed; this question is askable inside the M1 interviews and at circle meetings. It degrades in value if asked late.
 - **Priority rationale.** Decision horizon = M1/M2; unblocks pricing and the whole Moaiwi business case; access window open now.
+- **Plan home (2026-10-27).** `impact-investor-budgets/plan.md` — clean-sheet plan; desk work begun.
+- **Merged from AC.A4 (2026-10-27).** The impact-investing software market scan — what is offered, at what price, and the software vs. services vs. nothing split (vendor landscape + pricing models) — is a near-term deliverable of this topic: an **interim landscape slice for R.1 by M−5**, without narrowing the topic's scope. Per-client-per-year budgets and the interview work continue past the action-circle meeting (R.1 is an interim deliverable unless the project finishes first — Brad, 2026-10-27). The desk scan also formulates the interview questions; desk work begins ahead of Nic/Rachel's fieldwork.
 
 ### T2. Back-office needs and incumbent tools of impact-investor clients
 - **Question.** What do these funds' back offices actually do all day? What tools do they use (accounting, portfolio tracking, impact reporting, research)? Where do they complain? What would make them switch or add a subscription?
 - **Informs.** Feature prioritization for the Fortress B2B addition; the demo's content (Fortress demo + research-stack proposal); whether any incumbent is beatable on reliability *and* price.
 - **Source.** meta-plan §3.1 (value logic, "listen to them complain"); MOAIWI-4 (interview method: ask what a thing like this would be for).
 - **Priority rationale.** Same window as T1; together they are the "ground truth" half of M1.
+- **Plan home (2026-10-27).** `back-office-needs/plan.md` — clean-sheet plan; desk work begun.
+- **Merged from AC.A4 (2026-10-27).** The incumbent-tools landscape (accounting, portfolio tracking, impact reporting, research; what funds actually run vs. what the market offers; the gap = the wedge) is a near-term deliverable: an **interim landscape slice for R.1 by M−5**, without narrowing the topic's scope. Web-side sources: vendor sites, G2/Capterra, job postings, fund tech-stack traces (bot walls limit coverage); the interviews supply ground truth. First pass recorded in `back-office-needs/landscape-pass1-2026-10-27.md`.
 
 ### T3. What defeated previous attempts to scale cooperative networks?
 - **Question.** The inventory the thesis needs: capital starvation? coordination cost? information loss in aggregation? governance capture? measurement failure? legal form? For each, what did the attempt (Mondragon and others) do, and what happened?
@@ -59,6 +63,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Informs.** The M3 research sub-project (meta-plan §3.1); Hyphae's core promise (§3.2); honesty about what the pitch may claim before then.
 - **Source.** meta-plan §3.1/§3.2; MOAIWI-3 (returns measured as contribution to network health — the "circulatory system" idea).
 - **Salvage.** **B2** (`B2-impact-accounting-plan-v2.md`) is largely on-target here; the salvage list and the parts to park are in **Appendix B**.
+- **Cross-ref (2026-10-27).** The R.1 working glossary (AC.A1 — four columns: term / credited definition / commitments / SE translation) is a **T5 artifact in the making**: its standards material comes from the prior-art scan (AC.A5 — CIDS, IRIS+, Impact Norms, SDG Impact Standards; CIDS = candidate backbone). Division of labor as stated by Common Approach: *IRIS+ defines what to measure; CIDS defines how to share it.*
 - **Priority rationale.** Long decision horizon (M3) but high unblocking power for Hyphae; an early *scan* (not a full study) is worth doing before any pitch language uses the word "measurable".
 
 ### T6. Cooperative finance mechanics — the transcripts' unsettled design space
@@ -84,6 +89,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Informs.** The M1 presentation content and the ongoing circle updates; later investor-facing materials.
 - **Source.** MOAIWI-1 ("oh, shiny"); MOAIWI-4 (marketing strategy discussed); meta-plan §3.1 (positioning paragraph).
 - **Priority rationale.** M1 horizon; partially answerable only by doing (the circle itself is the experiment).
+- **Cross-ref (2026-10-27).** The circle's phrasebook (AC.A2) is T9's raw material: the vocabulary the investors actually use, including their own framing of the cross-fund research person (MOAIWI-4).
 
 ### T15. Higher-order networks — the operative structural lens
 - **Question.** What is the model landscape consistent with "higher-order networks" (graphs → hypergraphs → simplicial complexes, plus the categorical end), what do projections destroy (clique expansion ↔ cost accounting as the lossy hypergraph→graph map), which constructions **transport** across the planetary / social / financial domains, and what claim discipline applies (genuine vs effective higher-order structure; null/equivalence checks)?
@@ -163,6 +169,10 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 
 **Status: active Reflect process — supersedes the ranking of other topics until settled (Brad, 2026-10-25).** The program's terminal object ("grow cooperative networks") is procedural, not substantive; adopting Castoriadis' **"democracy as regime"** (explicit and lucid self-institution; individual + collective autonomy; the common good conceived by the collectivity) as the terminal object is being worked out in `democracy-as-regime/` — `castoriadis-1997-summary.md` (the 1997 essay, converted + summarized) and `reflect-terminal-object-sketch-2026-10-25.md` (the reformulation and its open questions). Consequence for other topics: T3's findings stand as evidence about the *sub-goal*; T5's metrics are instruments, not the substance; T12's 5% ceiling may be political-institutional as much as technological. The inherited framing (solidarity economy; dual power; the politics/economics division of anarchist socialism) is now an explicit object of review.
 
+## The meta-process cluster (2026-10-27)
+
+**T13, T14, T15, T16, T17, T18** are **meta-process-focused** (Brad, 2026-10-27): they study the process-developing layer, including the Reflect process itself (T16's method, though its terminal-object content is substantive). Their ideas are mutually recursive, so the cluster is worked by a **Reflect process applied to it** — a multi-round review that takes a step back from these topics and produces **revisions to this file** (specifications of the four processes were ruled premature and too hard). **Reaffirmation is a legitimate outcome**; convergence = every cluster topic explicitly revisited (revised, merged, split, added, or reaffirmed). Sessions and ledgers are archived in `reflect-process/` (`qa-2026-10-27-meta-processes.md` = round 0, design decisions). Per-topic research plans wait until after the review. **Terminology (binding for new text): meta- = self-application** — the four (Research, Develop, Deploy, Reflect) are "the four processes"; "meta-process" is reserved for a process applied to processes.
+
 ## Deferred leads (kept, not pursued)
 
 - **Federalism vs. confederalism (political science).** A future research question should review the political-science literature on federal vs. confederal organization (Brad, 2026-10-24) — directly relevant to the Corporation-as-federation question (T3 / B1 WP1) and to Hyphae's "confederation of workplace cooperatives" (meta-plan §3.2). Entry point: Glover 2016, *Structural Cooperative Federalism* (OpenAlex W2942953341) — PDF reviewed and deleted 2026-10-24 as political theory, out of scope for B1; the lead is kept here. *(Note 2026-10-25: this lead gains priority under T16 — federalism vs. confederalism is a political-design question, and the reframing admits politics.)*
@@ -173,6 +183,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 2. **T3 lives inside B1.** B1 is revised per Appendices A and C, producing **`cooperatives-governance-scaling/B1-architecture-governance-plan-v3.md`** (2026-10-24: research work promoted to its own project, `projects/moaiwi-research-program/`, one directory per research question, named with a slug of the question) — the next step and top priority.
 3. **File policy.** Outside of B1, plans are **clean-sheet developments of new markdown files keyed to the research question** — *not developed now*, B1 v3 first.
 4. **T13/T14 are process, not project, questions.** Pursued **in parallel** (they can impact every project stage), but less urgent for M1, which proceeds with the existing Research and Develop processes and will inform Deploy.
+5. **T1/T2 begin desk-first (Brad, 2026-10-27).** The desk half of T1/T2 starts ahead of the Nic/Rachel fieldwork (it feeds the interview questions); R.1's landscape deliverable is an **interim slice** of T1/T2, not their scope (they continue past the action-circle meeting unless they finish first). AC.A4 is merged into T1/T2 accordingly.
 
 ---
 

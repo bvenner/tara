@@ -7,9 +7,13 @@ project: moaiwi-network-poc
 
 # Autonomy meta-plan (draft) — the project of an autonomous society
 
-*Drafted 2026-10-25 from Reflect QA session 1 (`../moaiwi-research-program/democracy-as-regime/qa-2026-10-25-terminal-object.md`) and the Castoriadis summary + Paideia sketch beside it. **Status: draft for Brad's review** — the QA session's open questions are carried open below, not settled. Relationship to `meta-plan-v3.md` (to be renamed `moaiwi-meta-plan.md`, deferred change #6): **subsumption, not succession** — see §2. Register: collaborators; decisions are made jointly and revisable; nothing here is a deliverable contract.*
+*Drafted 2026-10-25 from Reflect QA session 1 (`../moaiwi-research-program/reflect-process/qa-2026-10-25-terminal-object.md`) and the Castoriadis summary + Paideia sketch beside it. **Status: draft for Brad's review** — the QA session's open questions are carried open below, not settled. Relationship to `meta-plan-v3.md` (to be renamed `moaiwi-meta-plan.md`, deferred change #6): **subsumption, not succession** — see §2. Register: collaborators; decisions are made jointly and revisable; nothing here is a deliverable contract.*
 
 ## 1. Terminal object
+
+>  The objective of politics is not happiness but freedom. Effective freedom (I am not discussing here “philosophical” freedom) is what I call autonomy - Castoriadis, Democracy as Procedure and Democracy as Regime, p.5
+
+> Democracy as a regime is therefore the regime that tries to achieve, as far as it possibly can, both individual and collective autonomy and the common good such as it is conceived by the collectivity concerned in each particular case. - Castoriadis, Democracy as Procedure and Democracy as Regime, p.16
 
 > **The project of an autonomous society in the economic domain and beyond it: explicit and lucid self-institution, as far as is possible, of the institutions — economic *and* political — on which collective life depends; individual and collective autonomy; and the common good as the collectivity conceives it in each particular case.** *(Castoriadis, "Democracy as Procedure and Democracy as Regime" §I, §IV — adapted; full text in the corpus, summary in Castor.)*
 
