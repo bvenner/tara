@@ -36,6 +36,17 @@
 - **Q2.** Is the agenda item *"which symmetric monoidal setting admits an NMMS string-diagram doctrine — SMC, or the double/triple-categorical generalizations (Myers' double operadic systems theory; surface diagrams)"*, with Brown's reconstruction examined as evidence rather than verdict?
 - **Q3.** Is the pyNMMS fallback (adopt the material-base framing without categorical semantics) the **end-state decision** or a **parallel track** (prototype candidate (b) now regardless of the doctrine search)?
 
+## Amendment — 2026-10-31, later: goals check (Brad)
+
+Brad had the agent state its understanding of the process's larger goals and corrected it; the corrected version is memorialized as **"Purpose and larger goals"** in `reflect-process-instruction.md`. Key corrections, governing over earlier instructions:
+
+1. The under-review topics are **listed explicitly** (T13, T14, T15, T16, T17, T18) — no range math ("T13–T18 + T16" was redundant).
+2. **Scope narrowed:** goals 1 (self-application on the program's process-structure) and 3 (the X → F(X) recursion / specifying the four processes) are **too large for this process** — it is focused on **revising a research plan**. *This dialogue overrides previous instructions to the contrary* (including the Comments §2 coalgebra framing).
+3. Whether "everything serves the autonomy terminal object" is an **open question**, not an assumption — T16 is itself under revision here.
+4. The process's outputs are exactly: **a QA record** and **a revision of research-topics-v3.md** ("research-plan-v3"); additional artifacts only if necessary, with a decision on where they live.
+
+**Aside (Brad, 2026-10-31):** if a revised TARA is structured more like a wiki, the current **folder-based factorization** (one directory per research question) will need to be revisited — a benefit being less time spent deciding where files live. Recorded in T14.f.
+
 ## Applied at this stopping point
 
 T14's revision (records-management absorbed; full design space; options-out; sub-questions T14.a–f) · RT topic headings → bare topic numbers with titles as bold lead lines · polarity note's wikilinks → Markdown links (body references; notation examples left as notation) · Asides routed to `democracy-as-regime/asides-input-2026-10-31.md` (non-normative there too — input, not decision) · AGENTS pointers updated · this record.
