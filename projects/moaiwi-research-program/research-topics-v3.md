@@ -24,7 +24,8 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 
 ## Tier 0 — needed for Phase M1 now (decision-forcing, some with windows)
 
-### T1. What do impact-investor funds actually pay for software and research support?
+### T1
+**What do impact-investor funds actually pay for software and research support?**
 - **Question.** Per client per year: what is the software/services budget of the action-circle funds and comparable USSEN-adjacent funds? Do they buy software, or services, or nothing?
 - **Informs.** The revenue arithmetic ($50k ÷ ~20 = ~$2.5k/client/yr vs. 5–10 at $5k–10k); the choice between the (a) replace-software-spend and (b) grow-the-fund halves of the value logic; pricing in M2. The meta-plan's "risk noted" (§3.1) says explicitly: *M1 must establish this.*
 - **Source.** meta-plan §3.1 (arithmetic, risk note); MOAIWI-4 (market sketch: ~200 funds, ~20 warm intros).
@@ -32,23 +33,29 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Priority rationale.** Decision horizon = M1/M2; unblocks pricing and the whole Moaiwi business case; access window open now.
 - **Plan home (2026-10-27).** `impact-investor-budgets/plan.md` — clean-sheet plan; desk work begun.
 - **Merged from AC.A4 (2026-10-27).** The impact-investing software market scan — what is offered, at what price, and the software vs. services vs. nothing split (vendor landscape + pricing models) — is a near-term deliverable of this topic: an **interim landscape slice for R.1 by M−5**, without narrowing the topic's scope. Per-client-per-year budgets and the interview work continue past the action-circle meeting (R.1 is an interim deliverable unless the project finishes first — Brad, 2026-10-27). The desk scan also formulates the interview questions; desk work begins ahead of Nic/Rachel's fieldwork.
+- **Added questions (2026-11-01).** (a) How do investment committees actually decide — diligence checklists, impact committees, IC workflow artifacts? (b) How is research support actually purchased — retainers, subscriptions, embedded hires (the MOAIWI-4 "budget for a person" model)? (c) Market sizing behind the ~200-funds arithmetic.
 
-### T2. Back-office needs and incumbent tools of impact-investor clients
+### T2
+**Back-office needs and incumbent tools of impact-investor clients**
 - **Question.** What do these funds' back offices actually do all day? What tools do they use (accounting, portfolio tracking, impact reporting, research)? Where do they complain? What would make them switch or add a subscription?
 - **Informs.** Feature prioritization for the Fortress B2B addition; the demo's content (Fortress demo + research-stack proposal); whether any incumbent is beatable on reliability *and* price.
 - **Source.** meta-plan §3.1 (value logic, "listen to them complain"); MOAIWI-4 (interview method: ask what a thing like this would be for).
 - **Priority rationale.** Same window as T1; together they are the "ground truth" half of M1.
 - **Plan home (2026-10-27).** `back-office-needs/plan.md` — clean-sheet plan; desk work begun.
 - **Merged from AC.A4 (2026-10-27).** The incumbent-tools landscape (accounting, portfolio tracking, impact reporting, research; what funds actually run vs. what the market offers; the gap = the wedge) is a near-term deliverable: an **interim landscape slice for R.1 by M−5**, without narrowing the topic's scope. Web-side sources: vendor sites, G2/Capterra, job postings, fund tech-stack traces (bot walls limit coverage); the interviews supply ground truth. First pass recorded in `back-office-needs/landscape-pass1-2026-10-27.md`.
+- **Added questions (2026-11-01).** (a) The reporting choreography flowing *from* co-ops *to* investors — who collects what, at whose cost? (b) Tool inventory broadened to "who serves the co-op side" (see **N5**, `additional-proposed-research-topics.md`).
 
-### T3. What defeated previous attempts to scale cooperative networks?
+### T3
+**What defeated previous attempts to scale cooperative networks?**
 - **Question.** The inventory the thesis needs: capital starvation? coordination cost? information loss in aggregation? governance capture? measurement failure? legal form? For each, what did the attempt (Mondragon and others) do, and what happened?
 - **Informs.** The §1 thesis's falsifier; framing-memo-v3's central argument; Cooptopia's hypothesis refinement (§3.3); which problems Hyphae's design must actually attack (as opposed to the ones nobody has).
 - **Source.** meta-plan §1 (left to research plans, Brad 2026-10-24) and §3.3.
 - **Home.** Aligns with **B1** (`B1-architecture-governance-plan-v2.md`, in progress): B1's RQ2/RQ4 already hold adjacent failure modes. Suggested B1 modifications to absorb T3 are in **Appendix A**; T3 may live *inside* B1 rather than as a separate plan.
 - **Priority rationale.** Unblocks the most: every later project claims to solve these problems. A literature pass is cheap and can run parallel to T1/T2 fieldwork. Note the Phase B corpus (40 works, B1 screening, P0 readings) is salvageable *input* to this topic.
+- **Added questions (2026-11-01).** (a) Failure modes specific to **tech/platform co-ops**; (b) failure modes of **software-commons governance** (OSS projects and co-op dev shops that died — maintenance economics vs. governance capture); (c) network effects vs. federation.
 
-### T4. Reliability and compliance targets of incumbent cloud services for funds
+### T4
+**Reliability and compliance targets of incumbent cloud services for funds**
 - **Question.** What must Moaiwi "meet or exceed" concretely — uptime, backups, security posture, data residency, SOC-2-like expectations, support responsiveness? What do funds' existing vendors promise, and what do their contracts say?
 - **Informs.** The Develop/Deploy requirement spec for the business server (which drives how much the one-codebase bet has to stretch); the credibility of any reliability claim in the M1 demo.
 - **Source.** meta-plan §3.1 ("meet or exceed the reliability targets defined by existing cloud-based services").
@@ -58,88 +65,128 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 
 ## Tier 1 — feeds M2/M3 and Hyphae groundwork
 
-### T5. Impact measurement — making "measurable" mean something
+### T5
+**Impact measurement — making "measurable" mean something**
 - **Question.** How can environmental, social, and financial impact be measured in a form an equity investor will accept as *measurable*? What exists already (impact-accounting frameworks, multi-capital reporting, verification practice) and what is missing for the three-legged stool?
 - **Informs.** The M3 research sub-project (meta-plan §3.1); Hyphae's core promise (§3.2); honesty about what the pitch may claim before then.
 - **Source.** meta-plan §3.1/§3.2; MOAIWI-3 (returns measured as contribution to network health — the "circulatory system" idea).
 - **Salvage.** **B2** (`B2-impact-accounting-plan-v2.md`) is largely on-target here; the salvage list and the parts to park are in **Appendix B**.
 - **Cross-ref (2026-10-27).** The R.1 working glossary (AC.A1 — four columns: term / credited definition / commitments / SE translation) is a **T5 artifact in the making**: its standards material comes from the prior-art scan (AC.A5 — CIDS, IRIS+, Impact Norms, SDG Impact Standards; CIDS = candidate backbone). Division of labor as stated by Common Approach: *IRIS+ defines what to measure; CIDS defines how to share it.*
+- **Added questions (2026-11-01).** (a) Affected-public measurement methods (see **N1**, `additional-proposed-research-topics.md`); (b) the measurement burden *on the investee* (the "filling out forms" problem Common Approach itself flags); (c) what "measurable" means at an actual investment committee.
 - **Priority rationale.** Long decision horizon (M3) but high unblocking power for Hyphae; an early *scan* (not a full study) is worth doing before any pitch language uses the word "measurable".
 
-### T6. Cooperative finance mechanics — the transcripts' unsettled design space
+### T6
+**Cooperative finance mechanics — the transcripts' unsettled design space**
 - **Question.** Non-voting equity at ~15–20%; internal vs. external rates of return and the buy-out of external investors; bonds vs. equity failure modes; portfolio construction (treasuries + zero-interest loans to hit blended returns); annuities for departing members; withdrawal-pause mechanics. Which of these can be formalized well enough to become Hyphae features, and which are speculative?
 - **Informs.** Hyphae's modeling spec; Moaiwi's capital-allocation features; what "shared accounting and management tools" (§3.1 seeds) must eventually compute.
 - **Source.** MOAIWI-1–3 (the bulk of the financial-architecture conversation); meta-plan §3.2 ("design space Hyphae's modeling has to formalize").
 - **Priority rationale.** Medium horizon; overlaps with the salvageable B3 partial work (capital-allocation memo) — usable as input, plan rewritten clean.
+- **Added questions (2026-11-01).** Governance of capital *decisions* within the federation: who approves investments; the internal/external rate politics.
 
-### T7. Legal and accounting structures for the network-as-one-entity idea
+### T7
+**Legal and accounting structures for the network-as-one-entity idea**
 - **Question.** Cooperative law on outside equity shares and their caps; "double sets of books" practice; treating internal transfers as bookkeeping among subsidiaries rather than taxable flows (with counsel); what the legal form of a *confederation* can be in the US.
 - **Informs.** Hyphae's structures; the three-legged stool's legal shape; Moaiwi's accounting tools' schema assumptions.
 - **Source.** MOAIWI-1 (20% share threshold, double books, tax framing, portfolio-as-single-thing); meta-plan §3.2.
 - **Priority rationale.** Needs counsel eventually, so the research question must be *drafted* early even if answered late; identify what is research vs. what is a lawyer's question.
+- **Added questions (2026-11-01).** (a) **Steward-ownership and commons-trust forms** (Purpose-Foundation-style); (b) cooperative purchasing/marketing alliances under US antitrust (**Capper–Volstead**) — directly relevant to replacing conventional procurement with cooperative provision; (c) multi-stakeholder forms (SCIC-style).
 
-### T8. Prior art: Mondragon and cooperative-federation literature
+### T8
+**Prior art: Mondragon and cooperative-federation literature**
 - **Question.** How did Mondragon structure inter-cooperation, capital, and governance? What do secondary studies say about why federation-scale cooperatives plateau? What other federations exist (Emilia-Romagna, Japan's worker-coop unions, SEWA, etc.) and what are their measured outcomes?
 - **Informs.** T3's inventory; Hyphae's design choices; Cooptopia's baseline.
 - **Source.** meta-plan §3.2/§3.3 (Mondragon as canonical prior art).
 - **Priority rationale.** Large literature, never urgent, always valuable; the Phase B corpus already contains 40 works that can seed this. Clean-sheet means the *questions* are re-derived here first.
+- **Added questions (2026-11-01).** (a) Platform cooperativism and tech-co-op history; (b) **OSS foundations as federation prior art** (Apache-style governance at scale without hierarchy); (c) the contemporary solidarity-economy support ecosystem (see **N3**, `additional-proposed-research-topics.md`).
 
-### T9. Positioning and marketing research for the impact-investor audience
+### T9
+**Positioning and marketing research for the impact-investor audience**
 - **Question.** Does the "quantitative finance for cooperative and impact investing" frame actually land? What do ~200 impact investors respond to? Who are the reachable 20, and what messaging moved them at R&B? What does the action circle respond to?
 - **Informs.** The M1 presentation content and the ongoing circle updates; later investor-facing materials.
 - **Source.** MOAIWI-1 ("oh, shiny"); MOAIWI-4 (marketing strategy discussed); meta-plan §3.1 (positioning paragraph).
 - **Priority rationale.** M1 horizon; partially answerable only by doing (the circle itself is the experiment).
 - **Cross-ref (2026-10-27).** The circle's phrasebook (AC.A2) is T9's raw material: the vocabulary the investors actually use, including their own framing of the cross-fund research person (MOAIWI-4).
+- **Added questions (2026-11-01).** (a) The sociology of the impact-investing field — how they learn and decide socially, influence networks, the field's self-critiques (see **N7**, `additional-proposed-research-topics.md`); (b) the R&B circle's own community-of-practice dynamics (how the circle forms and learns).
 
-### T15. Higher-order networks — the operative structural lens
+### T15
+**Higher-order networks — the natural-systems discipline** (network science of real, complex systems)
 - **Question.** What is the model landscape consistent with "higher-order networks" (graphs → hypergraphs → simplicial complexes, plus the categorical end), what do projections destroy (clique expansion ↔ cost accounting as the lossy hypergraph→graph map), which constructions **transport** across the planetary / social / financial domains, and what claim discipline applies (genuine vs effective higher-order structure; null/equivalence checks)?
 - **Informs.** The public vocabulary of every artifact ("higher-order networks" replaces "hypergraph" / "symmetric monoidal category" in pitch language); T5's aggregation questions (filtrations/persistence as multi-scale measurement; homology as richer-than-scalar summary); T6/T10's toolkit (Hodge decomposition of flows — the "returns out of the circulatory system" question; higher-order Markov models for internal flows); a projection-loss demo mechanic; and the knowledge repository itself (a co-occurrence hypergraph).
 - **Source.** The **B4 plan** is the direct model (clean-sheet: the questions are re-derived, but B4's anchor — Bick, Gross, Harrington & Schaub, "What are higher-order networks?", *SIAM Review* 2023 — is already reviewed 2026-10-22 and is salvageable input); meta-plan §6 (the higher-order character); MOAIWI-3 (homology extends Euler's number).
 - **Priority rationale.** Cross-cutting: cheap to keep alive, expensive to retrofit; the vocabulary is needed by M1 materials; the claim discipline is a credibility guard. Keep a hard volume cap (B4's ~30-work budget is sane).
+- **Question revision (2026-11-01, QA exchange 3 — closed).** **T15 = the natural-systems discipline**: higher-order networks studied *empirically* in the biological and social sciences — against the artificial-systems view governing T14/T17/T18 — and thereby the **science stratum** of the Rousseau frame (see T13). *Revised question: what empirical methods — the network science of higher-order networks, including topological data analysis, under claim discipline (genuine vs. effective structure; null models) — can establish claims about real network systems (biological, social), and what data do they require? Target uses: evaluating impact investments, cooperative-network performance, and social problems generally. Deliverable: a methodology map (method → what it establishes → data requirements → failure modes) plus at least one worked application or data-feasibility finding.* The **projection-loss taxonomy** folds in as the measurement-validity piece — and the currency for the multi-succedent translation-loss profiles (`../multi-succedent-formalism/`); the string-diagram/categorical core is handed to **T17**. Name kept: the generalization to "systems science" was considered and **declined** (frame-coherence captured by the science-stratum declaration instead; systemology-scale breadth would dissolve the empirical commitment).
 
 ---
 
 ## Tier 2 — Hyphae, Cooptopia, and meta-process infrastructure (start now only as scouting)
 
-### T10. The local-economy-and-network model
+### T10
+**The local-economy-and-network model**
 - **Question.** What modeling approach grounds Hyphae — input-output tables, agent-based models, network flow models, category-theoretic structures (long-term only per conventions)? What data exists for a local economy and a cooperative network? How does the value-theoretic picture in `Informatics1Readable.md` (value as a scalar-valued secondary function; price-denominated data limits; internal chart of accounts) constrain the model?
 - **Informs.** Hyphae's first phase (the model, §3.2); the replacement-process analysis.
 - **Priority rationale.** Hyphae's center of gravity is post-M3, but the *scouting* of data availability should precede it — models have died of data poverty before.
+- **Added questions (2026-11-01).** A concrete **data-availability audit**: QCEW, County Business Patterns, BLS, IMPLAN-class tools — answering "what data exists" with names, not hopes.
 
-### T11. The replacement process — how to find candidates
+### T11
+**The replacement process — how to find candidates**
 - **Question.** Given a local economy and a network, how is a conventionally procured good/service identified as a cooperative-opportunity with increased environmental/social/financial value? What did similar efforts (import substitution, procurement programs) do?
 - **Informs.** Hyphae's operative move (§3.2).
 - **Priority rationale.** Depends on T10 and T5 (value increase must be measurable); hence later.
+- **Added questions (2026-11-01).** (a) Anchor-institution procurement research (Cleveland/Evergreen model evaluations — what worked, what didn't); (b) import-substitution program evidence.
 
-### T12. The 5% ceiling (Cooptopia, research-only)
+### T12
+**The 5% ceiling (Cooptopia, research-only)**
 - **Question.** Is the ~5%-of-flows ceiling real, and is the hypothesis (productive/organizational/information technology limits, not inherent) defensible? What does the literature on cooperative-economy scale say?
 - **Informs.** Whether Cooptopia is ever more than a research project.
 - **Priority rationale.** Explicitly premature by the meta-plan (§3.3); listed so it is not forgotten, not so it is started.
+- **Added questions (2026-11-01).** Institutional/political barriers to the ceiling — law, tax, antitrust, policy history since the early-20th-century co-op flowering — to separate **technology limits from political ones** (the Asides' political strand needs empirical grounding; see `democracy-as-regime/asides-input-2026-10-31.md`).
 
-### T13. The four meta-processes, from systems literature
+### T13
+**The four meta-processes, from systems literature**
 - **Question.** Where does Reflect belong in the cycle (beginning or end)? What are the named variants (Explore, etc.)? What systems literatures articulate four-stage processes (action research, PDCA/OODA, second-order cybernetics…), and what do they say about dynamically generating realizations? *(Extended 2026-10-25, QA session 1:)* a work package mapping **Castoriadis' vocabulary ↔ the meta-systems literature** (instituting/instituted vs. single/double-loop learning; paideia vs. the near-absence of subject-formation in the cycle literature — absence would itself be a finding), plus the **coupling question**: which coupling patterns let a non-party collective (the "affected public" — see T16 and the democracy-as-regime QA session) be heard in the Reflect loop and force a loop-back **without becoming a veto over Develop/Deploy**? Double-loop learning is the candidate mechanism; the public's claim is a double-loop event. *(Extended 2026-10-26, Brad's action-circle notes:)* a work package mapping **Castoriadis' terms ↔ conventional systems/software-engineering language** (e.g., vague needs → formalizable requirements is requirements engineering; paideia → subject-formation/organizational learning; the affected public → stakeholder analysis/participatory design, where the translation is lossy and the loss should be marked). Rationale: the Castoriadis vocabulary is off-putting to collaborators and investors, so it is used **for critique of conventional approaches, not adopted as terminology** (register decision 2026-10-26: Castoriadis stays internal to Reflect documents). The mapping lives in T13's directory and feeds the R.1 glossary's translation column (`../moaiwi-network-poc/action-circle-workflow-2026-10-25.md` Track A1).
 - **Informs.** meta-plan §4's doctrine; the meta-plans for Develop/Deploy/Reflect; how Reflect is realized beyond the drafting process; the containment rule of T16 (public in Reflect + interrupt-on-trigger).
 - **Source.** Brad, 2026-10-24 (potential research project); QA session 1 (2026-10-25) additions. **Codependent with T17.**
+- **Anchor (2026-11-01).** **Rousseau's systemology** (David Rousseau, Springer 978-981-10-0892-4) — the broadest synthesis of the systems literature Brad has found, proposed as a direct replacement for the general systems theory of von Bertalanffy and Boulding; its four processes (**philosophy, science, engineering, practice**) are directly inspired by the four-stage maps this topic surveys. **Reflect–Research–Develop–Deploy reads as a systems-engineering-focused formulation of Rousseau's broader categories** — the mapping to be examined, not assumed. Breadth (systemology nearly coextensive with human knowledge) ⇒ every formalization is local and need-driven.
+- **Question revision (2026-11-01, closed).** **T13's target is systemology itself** — Rousseau's own question (architecture and typology of its principles; *"our ability to improve systems engineering depends upon making the principles of systemology… more diverse and more scientific"* — Rousseau, *On the Architecture of Systemology and the Typology of its Principles*, **Systems 6(1):7**, MDPI). The four component disciplines (philosophy, science, engineering, practice) map onto our four processes — agreed-in-principle: philosophy↔Reflect, science↔Research, engineering↔Develop, practice↔Deploy (detailed mapping = work item). **Critical method: software/systems engineering** (Moaiwi's goal is software development) — aligns with T14's "for development" posture; philosophy and science remain source-and-foil per T17. Rousseau's philosophy-first ordering is independent evidence that **Reflect leads** (converging with the 2026-10-24 revision decision). Sub-questions retained: Castoriadis ↔ systemology; the coupling question (the affected public heard without veto); the terminology mapping.
 - **Priority rationale.** Low urgency, high leverage on the plan's own coherence; good candidate for an LLM-assisted literature pass. Promoted in importance by T16 (the Reflect process is now load-bearing).
 
-### T17. Categorical systems theory & systemology (formalization of systems theories)
+### T17
+**Knowledge mathematics — formalizing systems of inquiry** (categorical systems theory & systemology)
 - **Question.** How do **categorical systems theory** (open systems, structured/decorated cospans, operads, coalgebra) and the **language-based systemology** tradition (general systems theory as conceptual vocabulary — Boulding's hierarchy, the viable-system line) relate, and what does formalization buy and cost relative to structured language for the *realizations* of the meta-processes?
 - **Informs.** The Develop and Deploy meta-plans (**near-term, Brad 2026-10-25**): specification language for the vericoding harness (Develop), deployment/digital-twin modeling (Deploy), and meta-plan §4's "interacting agents exchanging resources over channels" — already systems vocabulary, deserving formalization or conscious informality. **Codependent with T13** (meaning without formalization stays at slogans; formalization without meaning formalizes the wrong objects).
 - **Doctrine.** *Incompleteness stated up front:* every formalization is a procedural realization and therefore necessarily incomplete (converges with Castoriadis §I's fourth factor — the future excludes exhaustive codification). Formalization cannot close the regime; it can make Develop/Deploy realizations more precise where precision is possible.
 - **Test cases (not greenfield).** The Plumbing language's formalized multi-agent processes; T15's categorical landscape; the corpus/graph machinery. Brad's codata work (github.com/bvenner/codata-agda) is **one lead among several, not a gate** (QA session 1, #9 amendment).
 - **Source.** Brad, 2026-10-25 (QA session 1, Q8). **Tier 1** (promoted 2026-10-25: the Develop/Deploy meta-plans are near).
+- **Remit revision (2026-11-01, QA exchange 2).** **T17 = knowledge mathematics.** Three strata: real-world *systems that learn* (implicit) → natural-language **systems of inquiry** (systemology) → **mathematical formalization** (explicit) — the implicit/explicit question one level higher. Question broadened: how does knowledge mathematics formalize the systemology layer — with the **multi-succedent formalism program** as the current concrete case (ambient setting: SMC vs. double operadic (DOTS, Libkind–Myers) vs. \*-autonomous/linear — Brown's NMMS reconstruction leans linear; see `../multi-succedent-formalism/desk-pass-2026-11-01.md`). The systemology literature is the **source** and the **foil** against completeness claims for any mathematical representation; natural-language search (RAG) is instrumental to the formalization process. **Anchor: Rousseau's systemology** (four processes: philosophy, science, engineering, practice — see T13). **Wins = mathematical coherence AND adequacy to practical need** — every formalization is local and need-driven; completeness excluded by necessity.
 
-### T14. Research-process infrastructure (TARA architecture and sibling repositories)
-- **Question.** How must TARA's architecture change to realize Research ("Explore") cleanly, and what would repositories for Develop, Deploy, and Reflect look like so the four meta-processes have aligned homes?
-- **Informs.** meta-plan §4.1 (development intention); where future meta-plans live.
-- **Priority rationale.** Infrastructure rather than knowledge, but it is *research into design*; fold into the knowledge-repository thread rather than starting fresh.
+### T14
+**Context engineering — TARA architecture, records management, sibling repositories**
+- **Question.** How must TARA's architecture change to realize Research ("Explore") cleanly, and what would repositories for Develop, Deploy, and Reflect look like so the four meta-processes have aligned homes? *(Revised 2026-10-31, meta-process review round 1:)* plus the **records-management question** — durable format, wiki layer, ISO 15489 metadata and lifecycle in the hypergraph — worked in the **full design space, including full-rewrite options** (the "no-full-rewrite" constraint is dropped as a *research* constraint and retained as a *development-sequencing* fact: no dev resources on a TARA rewrite until Moaiwi Develop/Deploy are more realized). Research outputs are **options**; the migration path is a future **Develop-process** deliverable built from them.
+- **Governing requirement (QA 2026-10-31).** **Records management (ISO 15489 spine)** — the care and feeding of the hypergraph is at the center of downstream design decisions. Two subordinated problem statements: **(P-Obsidian)** can a TARA-compatible repository also be Obsidian-compatible — via materializing markdown files out of the hypergraph; **(P-NARA)** the archive format must be *compatible with NARA's goals* (self-describing, implementation-independent, documented, fixity-carrying) — not that NARA currently accepts it.
+- **Working positions (Brad, 2026-10-31; provisional).** Git's revision history provides **traceability** of every record to its original (the ISO 15489 equivalent of "traceable" is to be verified — see T14.e); one repository = the whole knowledge system ("the wiki is the repository"); **all markdown files are records**, human- or machine-authored alike; **conversion intermediates are archived** (every "image-to-text" conversion — PDF, audio, future modalities — makes non-deterministic choices that cannot be recomputed; the intermediate text is the evidence); binaries live **outside git** (Zenodo or an IPFS-class store) with the hypergraph carrying **fixity** references; **git is authoritative while the repository is being developed**, requiring text materialization of the hypergraph with churn-controlled rules.
+- **Open sub-questions** (short-code anchors; lettering per QA round 1):
+  - **T14.a** *Authority and materialization.* Derived content is leaning **hypergraph-canonical** (markdown as materialized view); residual: the ingestion direction for human-authored prose (written into git directly vs. through the hypergraph first).
+  - **T14.b** *The git DAG ↔ hypergraph relation* — and multi-store custody representation (record identity, fixity, conversion provenance, custody events, external location). Brad's initial take: **sync the git DAG with the hypergraph**; this would also make the NARA-style self-contained export possible (history as data, not git internals). Cross-ref T15 (layered graph structures).
+  - **T14.c** *Materialization rules.* Which text format for the hypergraph (the existing JSON vs. a hypergraph interchange format), and serialization rules that don't churn history (diff-stable ordering, incremental materialization, commit batching).
+  - **T14.d** *Post-development authority.* Does git stay the custody layer permanently, or does a future TARA system's store become authoritative with git demoted to export/record?
+  - **T14.e** *Archive terminology.* The ISO 15489 equivalent of "traceable" (candidates: chain of custody, provenance, fixity/integrity — verify against the standard) and a NARA-goals conformance checklist for (P-NARA).
+  - **T14.f** *Record-model details.* Which conversion intermediates are in scope; the export package's composition (multi-store, self-contained); machine-linkable heading/anchor conventions (short codes `[[RT##…]]`) — some answerable in the Obsidian literature. *(Aside, Brad 2026-10-31: if a revised TARA is structured more like a wiki, the current folder-based factorization — one directory per research question — will need to be revisited; a benefit would be less time spent deciding where files live.)*
+- **Informs.** meta-plan §4.1 (development intention); where future meta-plans live; T18's explicit-knowledge-base work (overlapping execution home); the future Develop meta-plan's migration-path task.
+- **Source.** meta-plan §4.1; **Brad, "TARA as a records management system"** (`writing/human/polarity-research-proposal-notes.md`, 2026-10-29); QA round 1 (`../reflect-process/qa-2026-10-31-tara-records.md`); Karpathy, *LLM Wiki* (https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f — three layers raw/wiki/schema; ingest·query·lint; index+log; community lessons: extend-don't-create, never-silently-overwrite, rewrite-don't-append, lint passes, the amnesia test).
+- **Priority rationale.** Infrastructure rather than knowledge, but it is *research into design*; fold into the knowledge-repository thread (execution home: `knowledge-repository-poc`) rather than starting fresh. **Elevated 2026-10-31:** the records spine shapes every downstream design decision.
+- **Remit revision (2026-11-01, QA exchange 2).** **T14 = context engineering.** The harness analogy taken seriously: the harness couples the LLM's energy to the cart of practical work; the human driver guides knowing the purpose of the cargo. A good harness guides an LLM, addressing weaknesses **without crippling creativity**, and helps the human driver with **context overload**. Record metadata matters because context shared between human agents must be **explainable**. Posture: *for development* — extremely skeptical of any tool not already well developed, tested, and deployment-ready (Catlab.jl passes this bar; most T17/T18 candidates do not). TARA = the intermediate area (research on a research assistant). The 2026-10-31 "T14 absorbs T18" plan is **superseded** by the three-way division (T14/T18/T17).
+- **Added questions (2026-11-01).** (a) Archival standards prior art — **OAIS (ISO 14721) and PREMIS** — for the NARA-goals export question (T14.e); (b) the empirical literature on human/LLM-agent collaboration (for the harness design).
 
-### T18. Neurosymbolic knowledge engineering (recorded 2026-10-26 — deferred, not started)
+### T18
+**Knowledge engineering — the representation landscape "for itself"** (neurosymbolic knowledge engineering)
 - **Question.** How can a hypergraph knowledge repository (TARA) develop **lower-order structures** — a glossary, more formally an ontology — out of its higher-order relations? What do the higher-order-networks tools for lowering (incidence/bipartite projections, clique expansion — with projection loss as the information cost) offer, and where does the analogy to **defunctionalization** (higher-order → first-order via reified application) hold or break? Can **Elenchus-style prover-skeptic dialogue** (Allen 2026, inferentialist semantics; bilateral commitments/denials; NMMS material bases) be extended from a single human–LLM pair to a **dialogue between two expert domains** (impact investing ↔ software engineering), and serve as the elicitation method for ontology engineering against an existing target formalism (the **Common Impact Data Standard**, CIDS)?
 - **Recorded possibilities (Brad, 2026-10-26 — recorded, *not* decided).** (a) Borrow the Elenchus *method* into TARA (commitments/denials, tension detection, QUD trees as hypergraph structures) rather than adopt its GitHub-issue tooling; (b) the two-domain dialogue as human + LLM-as-counterparty speaking the other domain's language, grounded in corpus material (the A1 glossary/A2 phrasebook evidence base); (c) the **inferential-role ↔ Hoare-logic (pre/post/invariants) ↔ Verus** connection as an input to the Develop meta-plan (material bases as candidate spec artifacts for the vericoding harness); (d) CIDS as the target formalism for hypergraph → ontology lowering, defunctionalization as the analogy.
 - **Informs.** The R.1 glossary's long-run method (A1/A5 of the action-circle workflow); T14 (Research-process infrastructure); T15 (higher-order networks — projection loss is the lowering cost) and T17 (systemology, codependent in spirit); the Develop meta-plan via (c).
 - **Source.** Brad's notes 2026-10-25 (`writing/human/moaiwi-action-circle-workflow-notes.md`, notes 3–4); Allen, *Elenchus: Generating Knowledge Bases from Prover-Skeptic Dialogues* (arXiv:2603.06974; github.com/bradleypallen/elenchus); Common Approach impact-ontology series (commonapproach.org).
 - **Priority rationale.** Brad: "a very interesting research project brewing here but we only have 3 weeks" — **deferred past the R.1 window** (the glossary proceeds with current tools and prior-art credit). Name borrowed from Allen's thesis title, "neurosymbolic knowledge engineering".
+- **Remit revision (2026-11-01, QA exchange 2).** **T18 = knowledge engineering** — the knowledge representation landscape *for itself* (tolerant of mathematics that may one day be used for engineering); T14 is its counterpart *for development* (deployment-skeptical). **Center of gravity (T18.1, closed): the comparison question** — *does structured knowledge beat retrieval (RAG) for the downstream tasks, and under what conditions?* Representation and elicitation are hypotheses on trial. **Posture (T18.4, closed): skeptical** — KVerus gives affirmative evidence for explicit knowledge bases in proof engineering (RAG over documentation mattered most for **proof revision**), but used off-the-shelf tools; **default = off-the-shelf RAG; fancier machinery must beat it** (vector search is sophisticated math and engineering — understand the baseline first; three-perspective baseline study queued). Core question for TARA itself: ***why hypergraphs? why not RAG?*** Trial = three arms (retrieval-only / structure-only / hybrid — KVerus is hybrid); criteria v1: same corpus/tasks; revision-heavy tasks (**provisional**). Win conditions = boundary wins: T14 effectiveness + T17 coherence. **Default-logic question reformed (T18.3):** what is non-monotonic is the **material base**, not the logic (NMMS is conservative over its base) — the design question is the **revision discipline** (add / retract / supersede); "monotonicity of a hypergraph-category logic" left open.
+- **Motivation (recorded from round 0, L14; landed 2026-11-01).** TARA's origin question: *is there a role for neurosymbolic approaches in AI now?* (neuro = implicit knowledge, symbolic = explicit). The **Nic/Brad tension** stands recorded neutrally as live and testable (Nic: LLM+harness advancing too fast; wait for the slowdown. Brad: the question is live now; TARA is the bet) — the RAG-vs-structure trial above is its shared test bed. *"Understanding what Brandom was saying"* is an agenda item: Brandom anticipated the implicit/explicit interface (inferentialism; logical expressivism = making explicit the inferential relations implicit in practice) — see T17's anchor and the multi-succedent formalism program.
+- **Added questions (2026-11-01).** The **two-domain dialogue experiment** (impact investing ↔ software engineering) scheduled as a test of the elicitation pipeline, not left as a possibility.
 
 ---
 
@@ -165,9 +212,12 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 | T17 categorical systems theory & systemology | Develop/Deploy meta-plans | §4 + T13 (codependent) | 1 |
 | T18 neurosymbolic knowledge engineering | Research meta-process (glossary/ontology method) | §4.1 + T14/T15/T17 | deferred |
 
-## T16 — the terminal-object reframing (Reflect process, opened 2026-10-25)
+## T16
+**the terminal-object reframing (Reflect process, opened 2026-10-25)**
 
 **Status: active Reflect process — supersedes the ranking of other topics until settled (Brad, 2026-10-25).** The program's terminal object ("grow cooperative networks") is procedural, not substantive; adopting Castoriadis' **"democracy as regime"** (explicit and lucid self-institution; individual + collective autonomy; the common good conceived by the collectivity) as the terminal object is being worked out in `democracy-as-regime/` — `castoriadis-1997-summary.md` (the 1997 essay, converted + summarized) and `reflect-terminal-object-sketch-2026-10-25.md` (the reformulation and its open questions). Consequence for other topics: T3's findings stand as evidence about the *sub-goal*; T5's metrics are instruments, not the substance; T12's 5% ceiling may be political-institutional as much as technological. The inherited framing (solidarity economy; dual power; the politics/economics division of anarchist socialism) is now an explicit object of review.
+
+*Reaffirmed 2026-11-01 (meta-process review round 1, convergence): T16 stands **as currently written** and remains with its own process (`democracy-as-regime/`); the moral-universalism Asides input is queued there (`asides-input-2026-10-31.md`); the terminal-object question stays open there.*
 
 ## The meta-process cluster (2026-10-27)
 
