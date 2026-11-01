@@ -33,6 +33,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Priority rationale.** Decision horizon = M1/M2; unblocks pricing and the whole Moaiwi business case; access window open now.
 - **Plan home (2026-10-27).** `impact-investor-budgets/plan.md` — clean-sheet plan; desk work begun.
 - **Merged from AC.A4 (2026-10-27).** The impact-investing software market scan — what is offered, at what price, and the software vs. services vs. nothing split (vendor landscape + pricing models) — is a near-term deliverable of this topic: an **interim landscape slice for R.1 by M−5**, without narrowing the topic's scope. Per-client-per-year budgets and the interview work continue past the action-circle meeting (R.1 is an interim deliverable unless the project finishes first — Brad, 2026-10-27). The desk scan also formulates the interview questions; desk work begins ahead of Nic/Rachel's fieldwork.
+- **Added questions (2026-11-01).** (a) How do investment committees actually decide — diligence checklists, impact committees, IC workflow artifacts? (b) How is research support actually purchased — retainers, subscriptions, embedded hires (the MOAIWI-4 "budget for a person" model)? (c) Market sizing behind the ~200-funds arithmetic.
 
 ### T2
 **Back-office needs and incumbent tools of impact-investor clients**
@@ -42,6 +43,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Priority rationale.** Same window as T1; together they are the "ground truth" half of M1.
 - **Plan home (2026-10-27).** `back-office-needs/plan.md` — clean-sheet plan; desk work begun.
 - **Merged from AC.A4 (2026-10-27).** The incumbent-tools landscape (accounting, portfolio tracking, impact reporting, research; what funds actually run vs. what the market offers; the gap = the wedge) is a near-term deliverable: an **interim landscape slice for R.1 by M−5**, without narrowing the topic's scope. Web-side sources: vendor sites, G2/Capterra, job postings, fund tech-stack traces (bot walls limit coverage); the interviews supply ground truth. First pass recorded in `back-office-needs/landscape-pass1-2026-10-27.md`.
+- **Added questions (2026-11-01).** (a) The reporting choreography flowing *from* co-ops *to* investors — who collects what, at whose cost? (b) Tool inventory broadened to "who serves the co-op side" (see **N5**, `additional-proposed-research-topics.md`).
 
 ### T3
 **What defeated previous attempts to scale cooperative networks?**
@@ -50,6 +52,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Source.** meta-plan §1 (left to research plans, Brad 2026-10-24) and §3.3.
 - **Home.** Aligns with **B1** (`B1-architecture-governance-plan-v2.md`, in progress): B1's RQ2/RQ4 already hold adjacent failure modes. Suggested B1 modifications to absorb T3 are in **Appendix A**; T3 may live *inside* B1 rather than as a separate plan.
 - **Priority rationale.** Unblocks the most: every later project claims to solve these problems. A literature pass is cheap and can run parallel to T1/T2 fieldwork. Note the Phase B corpus (40 works, B1 screening, P0 readings) is salvageable *input* to this topic.
+- **Added questions (2026-11-01).** (a) Failure modes specific to **tech/platform co-ops**; (b) failure modes of **software-commons governance** (OSS projects and co-op dev shops that died — maintenance economics vs. governance capture); (c) network effects vs. federation.
 
 ### T4
 **Reliability and compliance targets of incumbent cloud services for funds**
@@ -69,6 +72,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Source.** meta-plan §3.1/§3.2; MOAIWI-3 (returns measured as contribution to network health — the "circulatory system" idea).
 - **Salvage.** **B2** (`B2-impact-accounting-plan-v2.md`) is largely on-target here; the salvage list and the parts to park are in **Appendix B**.
 - **Cross-ref (2026-10-27).** The R.1 working glossary (AC.A1 — four columns: term / credited definition / commitments / SE translation) is a **T5 artifact in the making**: its standards material comes from the prior-art scan (AC.A5 — CIDS, IRIS+, Impact Norms, SDG Impact Standards; CIDS = candidate backbone). Division of labor as stated by Common Approach: *IRIS+ defines what to measure; CIDS defines how to share it.*
+- **Added questions (2026-11-01).** (a) Affected-public measurement methods (see **N1**, `additional-proposed-research-topics.md`); (b) the measurement burden *on the investee* (the "filling out forms" problem Common Approach itself flags); (c) what "measurable" means at an actual investment committee.
 - **Priority rationale.** Long decision horizon (M3) but high unblocking power for Hyphae; an early *scan* (not a full study) is worth doing before any pitch language uses the word "measurable".
 
 ### T6
@@ -77,6 +81,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Informs.** Hyphae's modeling spec; Moaiwi's capital-allocation features; what "shared accounting and management tools" (§3.1 seeds) must eventually compute.
 - **Source.** MOAIWI-1–3 (the bulk of the financial-architecture conversation); meta-plan §3.2 ("design space Hyphae's modeling has to formalize").
 - **Priority rationale.** Medium horizon; overlaps with the salvageable B3 partial work (capital-allocation memo) — usable as input, plan rewritten clean.
+- **Added questions (2026-11-01).** Governance of capital *decisions* within the federation: who approves investments; the internal/external rate politics.
 
 ### T7
 **Legal and accounting structures for the network-as-one-entity idea**
@@ -84,6 +89,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Informs.** Hyphae's structures; the three-legged stool's legal shape; Moaiwi's accounting tools' schema assumptions.
 - **Source.** MOAIWI-1 (20% share threshold, double books, tax framing, portfolio-as-single-thing); meta-plan §3.2.
 - **Priority rationale.** Needs counsel eventually, so the research question must be *drafted* early even if answered late; identify what is research vs. what is a lawyer's question.
+- **Added questions (2026-11-01).** (a) **Steward-ownership and commons-trust forms** (Purpose-Foundation-style); (b) cooperative purchasing/marketing alliances under US antitrust (**Capper–Volstead**) — directly relevant to replacing conventional procurement with cooperative provision; (c) multi-stakeholder forms (SCIC-style).
 
 ### T8
 **Prior art: Mondragon and cooperative-federation literature**
@@ -91,6 +97,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Informs.** T3's inventory; Hyphae's design choices; Cooptopia's baseline.
 - **Source.** meta-plan §3.2/§3.3 (Mondragon as canonical prior art).
 - **Priority rationale.** Large literature, never urgent, always valuable; the Phase B corpus already contains 40 works that can seed this. Clean-sheet means the *questions* are re-derived here first.
+- **Added questions (2026-11-01).** (a) Platform cooperativism and tech-co-op history; (b) **OSS foundations as federation prior art** (Apache-style governance at scale without hierarchy); (c) the contemporary solidarity-economy support ecosystem (see **N3**, `additional-proposed-research-topics.md`).
 
 ### T9
 **Positioning and marketing research for the impact-investor audience**
@@ -99,6 +106,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Source.** MOAIWI-1 ("oh, shiny"); MOAIWI-4 (marketing strategy discussed); meta-plan §3.1 (positioning paragraph).
 - **Priority rationale.** M1 horizon; partially answerable only by doing (the circle itself is the experiment).
 - **Cross-ref (2026-10-27).** The circle's phrasebook (AC.A2) is T9's raw material: the vocabulary the investors actually use, including their own framing of the cross-fund research person (MOAIWI-4).
+- **Added questions (2026-11-01).** (a) The sociology of the impact-investing field — how they learn and decide socially, influence networks, the field's self-critiques (see **N7**, `additional-proposed-research-topics.md`); (b) the R&B circle's own community-of-practice dynamics (how the circle forms and learns).
 
 ### T15
 **Higher-order networks — the natural-systems discipline** (network science of real, complex systems)
@@ -117,18 +125,21 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Question.** What modeling approach grounds Hyphae — input-output tables, agent-based models, network flow models, category-theoretic structures (long-term only per conventions)? What data exists for a local economy and a cooperative network? How does the value-theoretic picture in `Informatics1Readable.md` (value as a scalar-valued secondary function; price-denominated data limits; internal chart of accounts) constrain the model?
 - **Informs.** Hyphae's first phase (the model, §3.2); the replacement-process analysis.
 - **Priority rationale.** Hyphae's center of gravity is post-M3, but the *scouting* of data availability should precede it — models have died of data poverty before.
+- **Added questions (2026-11-01).** A concrete **data-availability audit**: QCEW, County Business Patterns, BLS, IMPLAN-class tools — answering "what data exists" with names, not hopes.
 
 ### T11
 **The replacement process — how to find candidates**
 - **Question.** Given a local economy and a network, how is a conventionally procured good/service identified as a cooperative-opportunity with increased environmental/social/financial value? What did similar efforts (import substitution, procurement programs) do?
 - **Informs.** Hyphae's operative move (§3.2).
 - **Priority rationale.** Depends on T10 and T5 (value increase must be measurable); hence later.
+- **Added questions (2026-11-01).** (a) Anchor-institution procurement research (Cleveland/Evergreen model evaluations — what worked, what didn't); (b) import-substitution program evidence.
 
 ### T12
 **The 5% ceiling (Cooptopia, research-only)**
 - **Question.** Is the ~5%-of-flows ceiling real, and is the hypothesis (productive/organizational/information technology limits, not inherent) defensible? What does the literature on cooperative-economy scale say?
 - **Informs.** Whether Cooptopia is ever more than a research project.
 - **Priority rationale.** Explicitly premature by the meta-plan (§3.3); listed so it is not forgotten, not so it is started.
+- **Added questions (2026-11-01).** Institutional/political barriers to the ceiling — law, tax, antitrust, policy history since the early-20th-century co-op flowering — to separate **technology limits from political ones** (the Asides' political strand needs empirical grounding; see `democracy-as-regime/asides-input-2026-10-31.md`).
 
 ### T13
 **The four meta-processes, from systems literature**
@@ -164,6 +175,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Source.** meta-plan §4.1; **Brad, "TARA as a records management system"** (`writing/human/polarity-research-proposal-notes.md`, 2026-10-29); QA round 1 (`../reflect-process/qa-2026-10-31-tara-records.md`); Karpathy, *LLM Wiki* (https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f — three layers raw/wiki/schema; ingest·query·lint; index+log; community lessons: extend-don't-create, never-silently-overwrite, rewrite-don't-append, lint passes, the amnesia test).
 - **Priority rationale.** Infrastructure rather than knowledge, but it is *research into design*; fold into the knowledge-repository thread (execution home: `knowledge-repository-poc`) rather than starting fresh. **Elevated 2026-10-31:** the records spine shapes every downstream design decision.
 - **Remit revision (2026-11-01, QA exchange 2).** **T14 = context engineering.** The harness analogy taken seriously: the harness couples the LLM's energy to the cart of practical work; the human driver guides knowing the purpose of the cargo. A good harness guides an LLM, addressing weaknesses **without crippling creativity**, and helps the human driver with **context overload**. Record metadata matters because context shared between human agents must be **explainable**. Posture: *for development* — extremely skeptical of any tool not already well developed, tested, and deployment-ready (Catlab.jl passes this bar; most T17/T18 candidates do not). TARA = the intermediate area (research on a research assistant). The 2026-10-31 "T14 absorbs T18" plan is **superseded** by the three-way division (T14/T18/T17).
+- **Added questions (2026-11-01).** (a) Archival standards prior art — **OAIS (ISO 14721) and PREMIS** — for the NARA-goals export question (T14.e); (b) the empirical literature on human/LLM-agent collaboration (for the harness design).
 
 ### T18
 **Knowledge engineering — the representation landscape "for itself"** (neurosymbolic knowledge engineering)
@@ -174,6 +186,7 @@ Four criteria, in order: **(1) decision horizon** — does the answer inform a d
 - **Priority rationale.** Brad: "a very interesting research project brewing here but we only have 3 weeks" — **deferred past the R.1 window** (the glossary proceeds with current tools and prior-art credit). Name borrowed from Allen's thesis title, "neurosymbolic knowledge engineering".
 - **Remit revision (2026-11-01, QA exchange 2).** **T18 = knowledge engineering** — the knowledge representation landscape *for itself* (tolerant of mathematics that may one day be used for engineering); T14 is its counterpart *for development* (deployment-skeptical). **Center of gravity (T18.1, closed): the comparison question** — *does structured knowledge beat retrieval (RAG) for the downstream tasks, and under what conditions?* Representation and elicitation are hypotheses on trial. **Posture (T18.4, closed): skeptical** — KVerus gives affirmative evidence for explicit knowledge bases in proof engineering (RAG over documentation mattered most for **proof revision**), but used off-the-shelf tools; **default = off-the-shelf RAG; fancier machinery must beat it** (vector search is sophisticated math and engineering — understand the baseline first; three-perspective baseline study queued). Core question for TARA itself: ***why hypergraphs? why not RAG?*** Trial = three arms (retrieval-only / structure-only / hybrid — KVerus is hybrid); criteria v1: same corpus/tasks; revision-heavy tasks (**provisional**). Win conditions = boundary wins: T14 effectiveness + T17 coherence. **Default-logic question reformed (T18.3):** what is non-monotonic is the **material base**, not the logic (NMMS is conservative over its base) — the design question is the **revision discipline** (add / retract / supersede); "monotonicity of a hypergraph-category logic" left open.
 - **Motivation (recorded from round 0, L14; landed 2026-11-01).** TARA's origin question: *is there a role for neurosymbolic approaches in AI now?* (neuro = implicit knowledge, symbolic = explicit). The **Nic/Brad tension** stands recorded neutrally as live and testable (Nic: LLM+harness advancing too fast; wait for the slowdown. Brad: the question is live now; TARA is the bet) — the RAG-vs-structure trial above is its shared test bed. *"Understanding what Brandom was saying"* is an agenda item: Brandom anticipated the implicit/explicit interface (inferentialism; logical expressivism = making explicit the inferential relations implicit in practice) — see T17's anchor and the multi-succedent formalism program.
+- **Added questions (2026-11-01).** The **two-domain dialogue experiment** (impact investing ↔ software engineering) scheduled as a test of the elicitation pipeline, not left as a possibility.
 
 ---
 
