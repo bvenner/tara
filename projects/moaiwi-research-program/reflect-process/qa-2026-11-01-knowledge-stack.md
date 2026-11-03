@@ -30,7 +30,7 @@
 | L34 | Rousseau anchor for T13 (four processes; RR-DD as systems-engineering formulation) | **Applied** (RT) |
 | L35 | Three-perspective baseline study (T14/T18/T17 views of vector search) + criteria v1 provisional | Recorded; study = queued work |
 | L36 | T17 label correction (mathematical coherence = T17) | **Applied** (record) |
-| L37 | TARA claim polarity (accept/reject) as bilateral seed | Open — verify against schemas |
+| L37 | TARA claim polarity (accept/reject) as bilateral seed | **Closed 2026-11-02** — verified: no polarity in the record surface (provenance, not attitude; support is unsigned). Bilateral seed = **design requirement, not a discovery**. Note: `../multi-succedent-formalism/claim-polarity-verification-2026-11-02.md` |
 
 ## Applied at this stopping point
 
@@ -47,4 +47,4 @@ This record · the desk-pass work note · RT revisions (T13 anchor; T17/T18/T14 
 
 ## Open for round 2 / standing
 
-The three-perspective baseline study (vector search understood from the T14/T18/T17 views) · the multi-succedent formalism program (work note: `../multi-succedent-formalism/desk-pass-2026-11-01.md`) · L37 (TARA claim polarity verification) · QA session 2 for democracy-as-regime (its own process) · the C1–C7 batch (L2 harmonization rides it) · the Develop-meta-plan inputs (KVerus/LeetProof; the inferential-role ↔ Hoare-logic thread).
+The three-perspective baseline study (**in progress** — chartered 2026-11-03 as "the Audit": `../vector-search-baseline/plan.md`, session `../reflect-process/qa-2026-11-03-vector-search-baseline.md`; vector search understood from the T14/T18/T17 views, aimed at the KVerus→Fortress and TARA retrieval decisions) · the multi-succedent formalism program (work notes: `../multi-succedent-formalism/desk-pass-2026-11-01.md`; `../multi-succedent-formalism/claim-polarity-verification-2026-11-02.md` — **L37 closed 2026-11-02**: claim records carry provenance, not polarity; the bilateral seed is a design requirement for the revision-discipline design pass) · QA session 2 for democracy-as-regime (its own process) · the C1–C7 batch (L2 harmonization rides it) · the Develop-meta-plan inputs (KVerus/LeetProof; the inferential-role ↔ Hoare-logic thread).
