@@ -5,6 +5,13 @@
     "paths": ["projects/knowledge-repository-poc/skills"]
   },
   "mcp": {
+    // CAVEAT (2026-11-06): the plumb command points at a stale Linux path
+    // (/home/brad/Documents/Research/...) that does not exist on this macOS
+    // machine — this server currently fails to start. TARA upgrades are
+    // deferred until after M1 (Master's sub-problem, default Track A Phase 1;
+    // see projects/ret-tssi-value-dynamics/AGENTS.md). When that work resumes,
+    // update the path to the local Nix build at ~/tools/plumbing (see
+    // knowledge-repository-proposal.md / projects/knowledge-repository-poc).
     "plumb": {
       "type": "local",
       "command": ["/home/brad/Documents/Research/projects/knowledge-repository-poc/plumb-mcp-wrapper.sh"],

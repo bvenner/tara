@@ -18,7 +18,7 @@ Multi-thread workspace (public GitHub repo `bvenner/tara`). Four live threads; e
 - Repository pipeline runner (always available, mirrors MCP `call`): `python projects/knowledge-repository-poc/scripts/pipeline.py <name> '<json>'`. All `exec` workers run through `projects/knowledge-repository-poc/bin/tara-python` (uv-managed interpreter, provides pydantic validated worker contracts in `scripts/schemas.py`).
 - OpenAlex client at `projects/knowledge-repository-poc/scripts/lib/openalex_client.py` (4 req/s; abstracts = `abstract_inverted_index`). Expand via `pipelines/expand.plumb`.
 - No LLM provider key is set (ANTHROPIC/OPENAI/GOOGLE absent) → pipeline-internal `agent` is key-gated; the **opencode-side pairing works now** (LLM reads the trace, synthesizes, cites `doc :: section`).
-- `opencode.jsonc` changed this session: `skills.paths` (hypergraph-grounding skill) + `plumb` MCP server + (pre-existing) `anytype` MCP (now failing — decommission). Requires an opencode **restart** to load.
+- `opencode.jsonc` changed this session: `skills.paths` (hypergraph-grounding skill) + `plumb` MCP server. The `(pre-existing) anytype` MCP entry was removed on 2026-11-06 (credentials `.enc.env` + `.envrc` SOPS loader removed with it; the pipeline itself lives in `archive/projects/anytype-based-tara/`). ⚠️ **Stale-path caveat:** the `plumb` command still points at `/home/brad/Documents/Research/...` (Linux machine) and fails on this macOS box — fixing path *and/or* further workspace upgrades are deferred until after M1 (Master's sub-problem); config itself carries the same caveat inline. Requires an opencode **restart** to load.
 
 ## Conventions
 

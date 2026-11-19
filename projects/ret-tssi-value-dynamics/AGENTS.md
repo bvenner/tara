@@ -23,7 +23,7 @@ Marxian econophysics research program: applying rational extended thermodynamics
 
 - Master's sub-problem: M1 (default, Track A Phase 1) / M2–M6 — see program doc §11
 - Git: committed on main (local); the initial program delivery was pushed once via feature branch + PR #2 (merged). Current main is ahead of origin, unpushed; push only to a feature branch with explicit confirmation
-- Reference ingestion into AnyType (`papers/` + TARA pipeline) awaits Brad's approval
+- Reference ingestion into AnyType: the TARA pipeline was decommissioned — it lives in `archive/projects/anytype-based-tara/`, and the MCP server, wrapper script, and `.enc.env` credentials were removed on 2026-11-06 at Brad's request; reconnecting would require regenerating the API key and rebuilding the pipeline from the archive
 - Ecological macroeconomics: named only as a future application domain, not a track
 
 ## Conventions
