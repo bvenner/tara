@@ -1,0 +1,34 @@
+/* Site skeleton stylesheet — no framework; standing-question affordance (B3) pre-registered */
+:root {
+  --ink: #1c1c1c;
+  --paper: #f8f6f2;
+  --accent: #2f5d50;
+  --marked: #8a5a00;
+  --rule: #d8d2c6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 2rem 1.25rem 4rem;
+  font: 1.06rem/1.55 Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+header h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+.dek { font-style: italic; color: #555; margin-top: 0; }
+section { border-top: 1px solid var(--rule); padding-top: 0.5rem; margin-top: 2rem; }
+h2 { font-size: 1.15rem; color: var(--accent); }
+dl dt { font-weight: bold; }
+dl dd { margin: 0 0 0.6rem; }
+.attribution { font-size: 0.85rem; color: #666; }
+
+/* Standing-question affordance — every metric/impact figure must carry one (B3) */
+.standing-question {
+  border-left: 3px solid var(--marked);
+  padding-left: 0.75rem;
+  font-style: italic;
+  color: var(--marked);
+  margin-top: 1rem;
+}
+.standing-question:empty { display: none; }

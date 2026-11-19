@@ -1,8 +1,5 @@
 { pkgs, lib, config, inputs, ... }:
 {
-  # Basic environment variables
-  env.ANYTYPE_API_BASE_URL = "http://127.0.0.1:31012";
-
   # Enable dotenv integration
   dotenv.enable = true;
 
